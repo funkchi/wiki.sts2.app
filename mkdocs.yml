@@ -1,0 +1,48 @@
+site_name: Slay the Spire 2 Wiki
+site_url: https://sts2.chi.nz
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+  custom_dir: docs/overrides
+  extra_css:
+    - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Characters: characters.md
+  - Cards: cards.md
+  - Relics: relics.md
+  - Enemies: enemies.md
+  - Guides: guides.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
