@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slay the Spire 2 Wiki</title>
+  <meta property="og:title" content="Slay the Spire 2 Wiki">
+  <meta property="og:description" content="The definitive community wiki for Slay the Spire 2">
+  <meta property="og:image" content="/images/hero.png">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --color-bg: #0a0a0f;
+      --color-text: #e0e0e0;
+      --color-accent: #7c4dff;
+      --color-accent-glow: rgba(124, 77, 255, 0.3);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      overflow-x: hidden;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .hero__bg {
+      position: absolute;
+      inset: 0;
+      background: url('https://media-source.sts2.app/bafkreifkli4tsm2xtkixvgcg4o2dokjtgoqz3bchzo3m5ogn5htve2ulha.png') center center / cover no-repeat;
+      will-change: transform;
+    }
+
+    .hero__overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        180deg,
+        rgba(10, 10, 15, 0.1) 0%,
+        rgba(10, 10, 15, 0.3) 50%,
+        rgba(10, 10, 15, 0.95) 100%
+      );
+    }
+
+    .hero__content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .hero__badge {
+      display: inline-block;
+      padding: 0.4rem 1rem;
+      border: 1px solid rgba(124, 77, 255, 0.4);
+      border-radius: 50px;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-accent);
+      margin-bottom: 1.5rem;
+      background: rgba(124, 77, 255, 0.08);
+    }
+
+    .hero__title {
+      font-size: clamp(2.5rem, 8vw, 5rem);
+      font-weight: 800;
+      line-height: 1.05;
+      color: #fff;
+      text-shadow: 0 4px 40px rgba(0,0,0,0.6);
+      margin-bottom: 1rem;
+      letter-spacing: -0.03em;
+    }
+
+    .hero__title span {
+      background: linear-gradient(135deg, var(--color-accent), #e040fb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero__subtitle {
+      font-size: clamp(1rem, 2.5vw, 1.3rem);
+      color: rgba(255,255,255,0.7);
+      max-width: 550px;
+      margin: 0 auto 2.5rem;
+      line-height: 1.6;
+    }
+
+    .hero__actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.85rem 2rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .btn--primary {
+      background: var(--color-accent);
+      color: #fff;
+      box-shadow: 0 4px 20px var(--color-accent-glow);
+    }
+
+    .btn--primary:hover {
+      background: #9c6fff;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px var(--color-accent-glow);
+    }
+
+    .btn--ghost {
+      background: rgba(255,255,255,0.06);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.15);
+    }
+
+    .btn--ghost:hover {
+      background: rgba(255,255,255,0.12);
+      border-color: rgba(255,255,255,0.3);
+      transform: translateY(-2px);
+    }
+
+    .scroll-hint {
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+      animation: bounce 2s infinite;
+      opacity: 0.5;
+    }
+
+    .scroll-hint svg {
+      width: 24px;
+      height: 24px;
+      stroke: #fff;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(10px); }
+    }
+
+    /* ===== SECTIONS ===== */
+    .section {
+      padding: 5rem 2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .section__label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--color-accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .section__title {
+      font-size: clamp(1.5rem, 4vw, 2.2rem);
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+
+    .section__desc {
+      color: rgba(255,255,255,0.5);
+      max-width: 500px;
+      line-height: 1.7;
+      margin-bottom: 3rem;
+    }
+
+    /* ===== NAV GRID ===== */
+    .nav-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .nav-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem 1.5rem;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 16px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.25s ease;
+    }
+
+    .nav-card:hover {
+      background: rgba(255,255,255,0.06);
+      border-color: var(--color-accent);
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+
+    .nav-card__icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .nav-card__title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.4rem;
+    }
+
+    .nav-card__desc {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.4);
+      line-height: 1.5;
+    }
+
+    .nav-card__arrow {
+      margin-top: 1rem;
+      color: var(--color-accent);
+      font-size: 1.2rem;
+      opacity: 0;
+      transform: translateX(-5px);
+      transition: all 0.25s ease;
+    }
+
+    .nav-card:hover .nav-card__arrow {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    /* ===== ABOUT ===== */
+    .about {
+      text-align: center;
+      padding: 4rem 2rem 6rem;
+      border-top: 1px solid rgba(255,255,255,0.05);
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .about p {
+      color: rgba(255,255,255,0.4);
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+
+    .about a {
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+
+    .about a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: rgba(255,255,255,0.2);
+      font-size: 0.8rem;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 640px) {
+      .hero__actions { flex-direction: column; align-items: center; }
+      .btn { width: 100%; max-width: 280px; justify-content: center; }
+      .nav-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <div class="hero__badge">Early Access — March 2026</div>
+      <h1 class="hero__title">Slay the Spire <span>2</span></h1>
+      <p class="hero__subtitle">The definitive community wiki — cards, relics, enemies, and strategies. Everything you need to climb.</p>
+      <div class="hero__actions">
+        <a href="/docs/cards/" class="btn btn--primary">🃏 Browse Cards</a>
+        <a href="/docs/characters/" class="btn btn--ghost">⚔️ Characters</a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- EXPLORE -->
+  <section class="section">
+    <div class="section__label">Explore</div>
+    <h2 class="section__title">Dive into the wiki</h2>
+    <p class="section__desc">566 cards, multiple characters, relics, enemies, and community guides — all cataloged and searchable.</p>
+    <div class="nav-grid">
+      <a href="/docs/characters/" class="nav-card">
+        <div class="nav-card__icon">⚔️</div>
+        <div class="nav-card__title">Characters</div>
+        <div class="nav-card__desc">Ironclad, Silent, Regent, Necrobinder, Defect & more</div>
+        <div class="nav-card__arrow">→</div>
+      </a>
+      <a href="/docs/cards/" class="nav-card">
+        <div class="nav-card__icon">🃏</div>
+        <div class="nav-card__title">Cards</div>
+        <div class="nav-card__desc">566 cards with base & upgraded stats</div>
+        <div class="nav-card__arrow">→</div>
+      </a>
+      <a href="/docs/relics/" class="nav-card">
+        <div class="nav-card__icon">🏺</div>
+        <div class="nav-card__title">Relics</div>
+        <div class="nav-card__desc">Effects, tiers, and synergies</div>
+        <div class="nav-card__arrow">→</div>
+      </a>
+      <a href="/docs/enemies/" class="nav-card">
+        <div class="nav-card__icon">👹</div>
+        <div class="nav-card__title">Enemies</div>
+        <div class="nav-card__desc">Boss & regular enemy strategies</div>
+        <div class="nav-card__arrow">→</div>
+      </a>
+      <a href="/docs/guides/" class="nav-card">
+        <div class="nav-card__icon">📖</div>
+        <div class="nav-card__title">Guides</div>
+        <div class="nav-card__desc">Beginner to advanced strategies</div>
+        <div class="nav-card__arrow">→</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <p><strong>Slay the Spire 2</strong> launched into Early Access on March 5th, 2026. This wiki is a community-driven resource built with ❤️ by players, for players.</p>
+    <p>Card data sourced from <a href="https://sts2.untapped.gg/en/cards">untapped.gg</a>. Contributions welcome.</p>
+  </section>
+
+  <footer>
+    Slay the Spire 2 Wiki — Community project · Not affiliated with Massive Monster
+  </footer>
+
+  <script>
+    // Parallax scroll
+    const bg = document.querySelector('.hero__bg');
+    window.addEventListener('scroll', () => {
+      const scroll = window.scrollY;
+      if (scroll < window.innerHeight) {
+        bg.style.transform = `scale(1.1) translateY(${scroll * 0.3}px)`;
+      }
+    }, { passive: true });
+  </script>
+</body>
+</html>
