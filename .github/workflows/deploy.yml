@@ -17,10 +17,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Build site
+      - name: Build MkDocs site
         run: mkdocs build
 
-      - name: Deploy to VPS
+      - name: Deploy landing page
+        uses: easingthemes/ssh-deploy@v5
+        with:
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
+          REMOTE_HOST: ${{ secrets.DEPLOY_HOST }}
+          REMOTE_USER: ${{ secrets.DEPLOY_USER }}
+          SOURCE: "landing/"
+          TARGET: "/home/xiaochi/sts2-wiki/landing"
+          SCRIPT_BEFORE: "mkdir -p /home/xiaochi/sts2-wiki/landing"
+
+      - name: Deploy MkDocs site
         uses: easingthemes/ssh-deploy@v5
         with:
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
