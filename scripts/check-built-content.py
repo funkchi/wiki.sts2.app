@@ -141,6 +141,22 @@ def xml_locations(path: Path) -> set[str]:
 def main() -> int:
     source = {endpoint: fetch(endpoint) for endpoint in ("cards", "characters", "relics", "monsters")}
     cards, characters, relics, enemies = (parse(page) for page in ("cards", "characters", "relics", "enemies"))
+    browser_script = DOCS_ROOT / "javascripts/entity-browser.js"
+    if not browser_script.is_file():
+        raise AssertionError("Missing built entity browser script")
+    browser_source = browser_script.read_text()
+    for label in ("Character / Pool", "Cost", "Type", "Rarity", "Pool", "Class", "Act"):
+        if label not in browser_source:
+            raise AssertionError(f"Missing browser filter: {label}")
+    for page, kind in (("cards", "cards"), ("relics", "relics"), ("enemies", "enemies")):
+        html = (DOCS_ROOT / page / "index.html").read_text()
+        if f'data-wiki-browser="{kind}"' not in html:
+            raise AssertionError(f"Missing {kind} browser mount")
+        if "javascripts/entity-browser.js" not in html:
+            raise AssertionError(f"Missing {kind} browser script reference")
+    enemy_html = (DOCS_ROOT / "enemies/index.html").read_text()
+    if "<th>Act</th>" not in enemy_html:
+        raise AssertionError("Enemy index is missing its Act column")
     groups = {
         "cards": (source["cards"], cards, "card-", "wiki-image--card", "wiki-image--card-detail"),
         "characters": (
@@ -207,6 +223,7 @@ def main() -> int:
     print(f"  detail pages with canonical metadata: {len(detail_urls)}")
     print(f"  character card/relic links: {len(entity_links)}")
     print(f"  detail URLs in docs sitemap: {len(detail_urls)}")
+    print("  entity browser mounts: 3")
     return 0
 
 

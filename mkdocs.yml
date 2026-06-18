@@ -35,6 +35,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/entity-browser.js
+
 nav:
   - Home: index.md
   - Characters: characters.md

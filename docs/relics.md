@@ -21,6 +21,8 @@ Merchant price is shown as `base (min-max)` when Spire Codex provides the shop r
 - [Ancient Relics](#ancient-relics) (97)
 - [Other Relics](#other-relics) (1)
 
+<div class="wiki-browser" data-wiki-browser="relics"></div>
+
 ## Starter Relics
 
 | Image | Relic | Pool | Effect | Price |

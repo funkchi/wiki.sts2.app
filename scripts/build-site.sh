@@ -22,5 +22,6 @@ test -f public/robots.txt
 test -f public/sitemap.xml
 test -f public/sitemap-pages.xml
 test -f public/docs/index.html
+test -f public/docs/javascripts/entity-browser.js
 test -f public/images/hero.png
 test -f public/docs/images/hero.png

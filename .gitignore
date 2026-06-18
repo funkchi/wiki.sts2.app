@@ -7,6 +7,8 @@ pyvenv.cfg
 site/
 public/
 .media-cache/
+.wrangler/
+node_modules/
 __pycache__/
 *.pyc
 .DS_Store

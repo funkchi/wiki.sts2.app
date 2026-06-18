@@ -278,7 +278,7 @@ def build_cards(cards: list[dict[str, Any]]) -> str:
     ]
     for color in ordered_colors:
         lines.append(f"- [{title(color)}](#{color}) ({counts[color]})")
-    lines.append("")
+    lines += ["", '<div class="wiki-browser" data-wiki-browser="cards"></div>', ""]
 
     for color in ordered_colors:
         group = [card for card in cards if card.get("color") == color]
@@ -341,7 +341,7 @@ def build_relics(relics: list[dict[str, Any]]) -> str:
         if rarities.get(rarity):
             heading = rarity_heading(rarity)
             lines.append(f"- [{heading}](#{heading.lower().replace(' ', '-')}) ({rarities[rarity]})")
-    lines.append("")
+    lines += ["", '<div class="wiki-browser" data-wiki-browser="relics"></div>', ""]
 
     for rarity in RELIC_RARITY_ORDER:
         group = [item for item in items if item.get("rarity") == rarity]
@@ -459,18 +459,21 @@ def build_enemies(monsters: list[dict[str, Any]]) -> str:
         "",
         "## Enemy Table",
         "",
-        "| Image | Enemy | Type | HP | Encounters | Moves | Pattern |",
-        "|---|---|---|---:|---|---|---|",
+        '<div class="wiki-browser" data-wiki-browser="enemies"></div>',
+        "",
+        "| Image | Enemy | Type | HP | Act | Encounters | Moves | Pattern |",
+        "|---|---|---|---:|---|---|---|---|",
     ]
     monsters.sort(key=lambda monster: (sort_key(monster.get("type"), MONSTER_TYPE_ORDER), clean(monster.get("name"))))
     for monster in monsters:
         encounters = monster.get("encounters") or []
         encounter_names = sorted({clean(encounter.get("encounter_name")) for encounter in encounters if encounter.get("encounter_name")})
+        acts = sorted({str(encounter.get("act")) for encounter in encounters if encounter.get("act") is not None})
         pattern = clean((monster.get("attack_pattern") or {}).get("description")) or "-"
         lines.append(
             f"| {image_tag(media_path('enemies', monster), monster.get('name'), 'enemy')} | "
             f"{anchored_detail_name('enemies', 'enemy', monster)} | {clean(monster.get('type'))} | "
-            f"{monster_hp(monster)} | "
+            f"{monster_hp(monster)} | {', '.join(acts) or '-'} | "
             f"{', '.join(encounter_names) or '-'} | {first_moves(monster)} | {pattern} |"
         )
     return "\n".join(lines).rstrip() + "\n"

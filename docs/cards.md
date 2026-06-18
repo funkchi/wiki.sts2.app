@@ -23,6 +23,8 @@ All card data on this page is sourced from the [Spire Codex API](https://spire-c
 - [Curse](#curse) (18)
 - [Status](#status) (11)
 
+<div class="wiki-browser" data-wiki-browser="cards"></div>
+
 ## Ironclad
 
 | Image | Card | Cost | Type | Rarity | Effect | Upgrade |
