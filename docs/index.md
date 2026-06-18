@@ -38,7 +38,7 @@
   <a class="sts2-card" href="guides/">
     <span class="sts2-card__eyebrow">Strategy</span>
     <span class="sts2-card__title">Guides</span>
-    <span class="sts2-card__desc">5 curated external guides from Spire Codex.</span>
+    <span class="sts2-card__desc">4 original strategy guides plus 5 curated community guides.</span>
   </a>
 </div>
 

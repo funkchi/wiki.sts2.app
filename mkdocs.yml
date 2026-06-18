@@ -33,7 +33,7 @@ theme:
   custom_dir: docs/overrides
 
 extra:
-  asset_version: "20260618-3"
+  asset_version: "20260618-4"
 
 nav:
   - Home: index.md
@@ -41,7 +41,12 @@ nav:
   - Cards: cards.md
   - Relics: relics.md
   - Enemies: enemies.md
-  - Guides: guides.md
+  - Guides:
+      - Guide Index: guides.md
+      - Beginner Guide: guides/beginner-guide.md
+      - Deckbuilding and Scaling: guides/deckbuilding-and-scaling.md
+      - Character Archetypes: guides/character-archetypes.md
+      - Boss Preparation: guides/boss-preparation.md
   - About: about.md
   - Policies:
       - Privacy: privacy.md

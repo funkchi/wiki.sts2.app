@@ -28,13 +28,15 @@ To verify that generated pages are current without editing files:
 python3 scripts/sync-spire-codex.py --check
 ```
 
-Entity artwork can be synchronized to R2 with the Spire Codex API as the primary source and transparent full-character artwork from Untapped.gg:
+Entity artwork can be synchronized to R2 with Spire Codex as the source. Character objects use the original `combat_*.webp` models from the Spire Codex CDN:
 
 ```bash
 python3 scripts/sync-r2-media.py --bucket wiki-sts2
 ```
 
 Downloaded files are cached in the ignored `.media-cache/` directory. The R2 bucket is bound to Pages as `WIKI_MEDIA` in `wrangler.toml` and does not need public bucket access.
+
+The nightly `Check Data Freshness` workflow compares deterministic API and media manifests, publishes Markdown diff reports, uploads only changed artwork when Cloudflare credentials are present, and opens a pull request for source changes.
 
 ## Cloudflare Pages
 
@@ -47,6 +49,7 @@ Recommended Pages settings:
 - Production branch: `main`
 - Pages Function directory: `functions`
 - R2 binding: `WIKI_MEDIA` to `wiki-sts2`
+- Analytics Engine binding: `WIKI_ANALYTICS` to `wiki_sts2_events`
 
 The GitHub Actions workflow also supports direct Pages deploys with Wrangler when these are configured:
 
@@ -54,17 +57,72 @@ The GitHub Actions workflow also supports direct Pages deploys with Wrangler whe
 - `CLOUDFLARE_ACCOUNT_ID` repository secret
 - `CLOUDFLARE_PROJECT_NAME` repository variable, optional; defaults to `wiki-sts2-app`
 
-## VPS
+## Analytics
 
-The workflow still supports the existing VPS layout when these repository secrets are configured:
+The repository deploys a first-party event endpoint at `/api/analytics`. Its Analytics Engine schema is:
 
-- `DEPLOY_KEY`
-- `DEPLOY_HOST`
-- `DEPLOY_USER`
+- `blob1`: event type (`navigation`, `search`, or `search_empty`)
+- `blob2`: current path
+- `blob3`: navigation destination
+- `blob4`: normalized search text
+- `double1`: visible search-result count
 
-It deploys:
+No IP address, user agent, account ID, or persistent visitor ID is written to this dataset.
 
-- `public/` excluding `/docs/` to `/home/xiaochi/sts2-wiki/landing/`
-- `public/docs/` to `/home/xiaochi/sts2-wiki/site/`
+Enable Cloudflare Web Analytics for page popularity, referrers, navigation type, and performance:
 
-The web server should route `/` to the landing directory and `/docs/` to the MkDocs directory.
+1. Open Cloudflare **Workers & Pages**.
+2. Select `wiki-sts2-app`.
+3. Open **Metrics** and select **Enable** under Web Analytics.
+4. Redeploy the project so Cloudflare injects its beacon.
+
+Useful Analytics Engine SQL queries:
+
+```sql
+-- Most frequent successful searches
+SELECT blob4 AS search_term,
+       SUM(_sample_interval) AS searches,
+       SUM(_sample_interval * double1) / SUM(_sample_interval) AS average_results
+FROM wiki_sts2_events
+WHERE blob1 = 'search' AND timestamp >= NOW() - INTERVAL '30' DAY
+GROUP BY search_term
+ORDER BY searches DESC
+LIMIT 50;
+
+-- Searches that returned no visible result
+SELECT blob4 AS search_term, SUM(_sample_interval) AS searches
+FROM wiki_sts2_events
+WHERE blob1 = 'search_empty' AND timestamp >= NOW() - INTERVAL '30' DAY
+GROUP BY search_term
+ORDER BY searches DESC
+LIMIT 50;
+
+-- Most common internal navigation edges
+SELECT blob2 AS source_path, blob3 AS destination_path,
+       SUM(_sample_interval) AS navigations
+FROM wiki_sts2_events
+WHERE blob1 = 'navigation' AND timestamp >= NOW() - INTERVAL '30' DAY
+GROUP BY source_path, destination_path
+ORDER BY navigations DESC
+LIMIT 100;
+```
+
+Query the dataset through the Analytics Engine SQL API using an API token with `Account Analytics Read`.
+
+## Search Console
+
+Google Search Console requires verification in the site owner's Google account and cannot be completed by a repository deployment alone:
+
+1. Add a Domain property for `wiki.sts2.app` (or the parent domain if preferred).
+2. Add Google's verification TXT record to the Cloudflare DNS zone.
+3. Submit `https://wiki.sts2.app/sitemap.xml`.
+4. Confirm that `/robots.txt`, the root sitemap index, and sampled entity canonicals are accepted.
+
+## VPS Migration
+
+Cloudflare Pages is the production target. A VPS migration can still use the generated `public/` directory:
+
+- Serve `public/` as the document root.
+- Replace `/media/*` with a proxy to R2 or copy the R2 objects to local storage.
+- Replace the Pages Functions analytics endpoint or disable `wiki-analytics.js`.
+- Preserve root `/robots.txt`, `/sitemap.xml`, `/ads.txt`, and `/docs/*` paths.

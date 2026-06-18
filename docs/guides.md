@@ -1,8 +1,21 @@
 # Guides
 
-Guide listings are sourced from the [Spire Codex API](https://spire-codex.com/docs), using the English `/api/guides` endpoint. External guide links open on their original sites.
+Use these original strategy guides for decisions during a run, then consult the community directory for deeper perspectives. Game facts and community listings are checked against the [Spire Codex API](https://spire-codex.com/docs).
 
-## Guide Index
+## Original Strategy Guides
+
+| Guide | Best for | Focus |
+|---|---|---|
+| [Beginner Guide](guides/beginner-guide.md) | First runs | Map choices, card rewards, upgrades, shops, and survival |
+| [Deckbuilding and Scaling](guides/deckbuilding-and-scaling.md) | Every character | Damage, defense, consistency, scaling, and when to skip |
+| [Character Archetypes](guides/character-archetypes.md) | Learning the roster | Flexible plans and synergy packages for all five characters |
+| [Boss Preparation](guides/boss-preparation.md) | End-of-act planning | Reading patterns and converting map information into deck tests |
+
+These guides are written for this wiki and updated as Early Access data changes. They describe decision frameworks rather than fixed tier lists.
+
+## Community Guide Directory
+
+External guide listings below are sourced from the English `/api/guides` endpoint. Links open on their original sites.
 
 | Guide | Author | Difficulty | Character | Updated | Summary |
 |---|---|---|---|---|---|

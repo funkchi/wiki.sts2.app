@@ -666,9 +666,22 @@ def build_guides(guides: list[dict[str, Any]]) -> str:
     lines = [
         "# Guides",
         "",
-        "Guide listings are sourced from the [Spire Codex API](https://spire-codex.com/docs), using the English `/api/guides` endpoint. External guide links open on their original sites.",
+        "Use these original strategy guides for decisions during a run, then consult the community directory for deeper perspectives. Game facts and community listings are checked against the [Spire Codex API](https://spire-codex.com/docs).",
         "",
-        "## Guide Index",
+        "## Original Strategy Guides",
+        "",
+        "| Guide | Best for | Focus |",
+        "|---|---|---|",
+        "| [Beginner Guide](guides/beginner-guide.md) | First runs | Map choices, card rewards, upgrades, shops, and survival |",
+        "| [Deckbuilding and Scaling](guides/deckbuilding-and-scaling.md) | Every character | Damage, defense, consistency, scaling, and when to skip |",
+        "| [Character Archetypes](guides/character-archetypes.md) | Learning the roster | Flexible plans and synergy packages for all five characters |",
+        "| [Boss Preparation](guides/boss-preparation.md) | End-of-act planning | Reading patterns and converting map information into deck tests |",
+        "",
+        "These guides are written for this wiki and updated as Early Access data changes. They describe decision frameworks rather than fixed tier lists.",
+        "",
+        "## Community Guide Directory",
+        "",
+        "External guide listings below are sourced from the English `/api/guides` endpoint. Links open on their original sites.",
         "",
         "| Guide | Author | Difficulty | Character | Updated | Summary |",
         "|---|---|---|---|---|---|",
@@ -697,6 +710,11 @@ def patch_counts(text: str, stats: dict[str, Any], guide_count: int) -> str:
     }
     for old, new in replacements.items():
         text = text.replace(old, new)
+    text = re.sub(
+        r"\d+ curated external guides from Spire Codex\.",
+        f"4 original strategy guides plus {guide_count} curated community guides.",
+        text,
+    )
     return text
 
 
@@ -735,7 +753,12 @@ def generate() -> dict[Path, str]:
     landing = landing.replace("Base and upgraded card data in a searchable wiki.", f"{stats['cards']} searchable cards with base and upgrade text.")
     landing = landing.replace("Effects, synergies, and pick considerations.", f"{stats['relics']} relic effects, pools, and price ranges.")
     landing = landing.replace("Encounter and boss notes for cleaner pathing.", f"{stats['monsters']} enemies with encounters, moves, and patterns.")
-    landing = landing.replace("Fundamentals, deckbuilding, and advanced ideas.", f"{len(guides)} curated external guides from Spire Codex.")
+    landing = landing.replace("Fundamentals, deckbuilding, and advanced ideas.", f"4 original strategy guides plus {len(guides)} curated community guides.")
+    landing = re.sub(
+        r"\d+ curated external guides from Spire Codex\.",
+        f"4 original strategy guides plus {len(guides)} curated community guides.",
+        landing,
+    )
     files[Path("landing/index.html")] = landing
     return files
 

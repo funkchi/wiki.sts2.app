@@ -46,10 +46,24 @@ jobs:
           test -f public/sitemap-pages.xml
           test -f public/docs/index.html
           test -f public/docs/javascripts/entity-browser.js
+          test -f public/docs/javascripts/consent.js
+          test -f public/docs/javascripts/wiki-analytics.js
           test -f public/images/hero.png
           test -f public/docs/search/search_index.json
           test -f 'functions/media/[[path]].js'
+          test -f functions/api/analytics.js
           python scripts/check-built-content.py
+
+      - name: Upload reproducible deployment artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: wiki-pages-${{ github.sha }}
+          path: |
+            public
+            functions
+            wrangler.toml
+          if-no-files-found: error
+          retention-days: 14
 
       - name: Deploy to Cloudflare Pages
         if: ${{ env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '' }}

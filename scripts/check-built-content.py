@@ -15,6 +15,12 @@ from pathlib import Path
 API_BASE = "https://spire-codex.com/api"
 SITE_BASE = "https://wiki.sts2.app"
 DOCS_ROOT = Path("public/docs")
+EDITORIAL_GUIDES = {
+    "beginner-guide",
+    "deckbuilding-and-scaling",
+    "character-archetypes",
+    "boss-preparation",
+}
 
 
 class PageAudit(HTMLParser):
@@ -148,6 +154,21 @@ def main() -> int:
     for label in ("Character / Pool", "Cost", "Type", "Rarity", "Pool", "Class", "Act"):
         if label not in browser_source:
             raise AssertionError(f"Missing browser filter: {label}")
+    for script_name in ("consent.js", "wiki-analytics.js"):
+        script_path = DOCS_ROOT / "javascripts" / script_name
+        if not script_path.is_file() or not script_path.read_text().strip():
+            raise AssertionError(f"Missing built privacy/analytics script: {script_name}")
+    landing_html = Path("public/index.html").read_text()
+    consent_position = landing_html.find("javascripts/consent.js")
+    ads_position = landing_html.find("pagead2.googlesyndication.com")
+    if consent_position < 0 or ads_position < 0 or consent_position > ads_position:
+        raise AssertionError("Advertising consent defaults must load before AdSense")
+    analytics_function = Path("functions/api/analytics.js").read_text()
+    if not all(event in analytics_function for event in ("navigation", "search", "search_empty")):
+        raise AssertionError("Analytics endpoint is missing required event types")
+    wrangler_config = Path("wrangler.toml").read_text()
+    if 'binding = "WIKI_ANALYTICS"' not in wrangler_config:
+        raise AssertionError("Missing Analytics Engine binding")
     for page, kind in (("cards", "cards"), ("relics", "relics"), ("enemies", "enemies")):
         html = (DOCS_ROOT / page / "index.html").read_text()
         if f'data-wiki-browser="{kind}"' not in html:
@@ -203,6 +224,27 @@ def main() -> int:
     if failures:
         raise AssertionError(f"Entity coverage mismatch: {failures}")
 
+    guide_index = parse("guides")
+    guide_links = {
+        href.removesuffix("/")
+        for href in guide_index.links
+        if href.endswith("/") and "/" not in href.removesuffix("/")
+    }
+    if not EDITORIAL_GUIDES <= guide_links:
+        raise AssertionError(f"Editorial guides missing from guide index: {sorted(EDITORIAL_GUIDES - guide_links)}")
+    editorial_urls = set()
+    for guide_slug in sorted(EDITORIAL_GUIDES):
+        source_path = Path("docs/guides") / f"{guide_slug}.md"
+        if len(source_path.read_text().split()) < 500:
+            raise AssertionError(f"Editorial guide is too thin: {source_path}")
+        audit = parse_path(DOCS_ROOT / "guides" / guide_slug / "index.html")
+        url = f"{SITE_BASE}/docs/guides/{guide_slug}/"
+        if audit.canonicals != [url]:
+            raise AssertionError(f"Invalid editorial canonical for {url}: {audit.canonicals}")
+        if len(audit.descriptions) != 1 or not audit.descriptions[0].strip():
+            raise AssertionError(f"Missing editorial meta description for {url}")
+        editorial_urls.add(url)
+
     root_sitemap = xml_locations(Path("public/sitemap.xml"))
     expected_sitemaps = {f"{SITE_BASE}/sitemap-pages.xml", f"{SITE_BASE}/docs/sitemap.xml"}
     if root_sitemap != expected_sitemaps:
@@ -213,6 +255,9 @@ def main() -> int:
     missing_detail_urls = detail_urls - docs_sitemap
     if missing_detail_urls:
         raise AssertionError(f"Detail pages missing from docs sitemap: {sorted(missing_detail_urls)[:5]}")
+    missing_editorial_urls = editorial_urls - docs_sitemap
+    if missing_editorial_urls:
+        raise AssertionError(f"Editorial guides missing from docs sitemap: {sorted(missing_editorial_urls)}")
     robots = Path("public/robots.txt").read_text()
     if f"Sitemap: {SITE_BASE}/sitemap.xml" not in robots:
         raise AssertionError("robots.txt does not advertise the root sitemap")
@@ -223,7 +268,10 @@ def main() -> int:
     print(f"  detail pages with canonical metadata: {len(detail_urls)}")
     print(f"  character card/relic links: {len(entity_links)}")
     print(f"  detail URLs in docs sitemap: {len(detail_urls)}")
+    print(f"  original editorial guides: {len(editorial_urls)}")
     print("  entity browser mounts: 3")
+    print("  consent-safe AdSense loading: enabled")
+    print("  first-party analytics events: navigation, search, search_empty")
     return 0
 
 
