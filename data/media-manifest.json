@@ -2882,29 +2882,29 @@
       "size": 28140
     },
     "characters/defect.webp": {
-      "source_url": "https://sts2.untapped.gg/_next/static/media/defect.6729a146.webp",
-      "sha256": "b62dd04b5f31f373f9aaa8460c204df137b5b9d87620d057acd0a52b2c3ec6ed",
-      "size": 44508
+      "source_url": "https://cdn.spire-codex.com/characters/combat_defect.webp",
+      "sha256": "d19999a2325ca831b5334d56650fd6deb3a88a7c701dc997df39e9d27c8a676f",
+      "size": 56688
     },
     "characters/ironclad.webp": {
-      "source_url": "https://sts2.untapped.gg/_next/static/media/ironclad.89c7b4b7.webp",
-      "sha256": "3f861726340ae6e239844aba748a63efe9366e925924c46866518260a61c5dd3",
-      "size": 44538
+      "source_url": "https://cdn.spire-codex.com/characters/combat_ironclad.webp",
+      "sha256": "9d95030023caa54f871ef587b33335bd2df58e9bce83ec3f05e0a06d5c364341",
+      "size": 53486
     },
     "characters/necrobinder.webp": {
-      "source_url": "https://sts2.untapped.gg/_next/static/media/necrobinder.0c06abc4.webp",
-      "sha256": "e621162be92b589311384903b5feb0140270b1d1c67acad1fd41cdf545525c97",
-      "size": 44566
+      "source_url": "https://cdn.spire-codex.com/characters/combat_necrobinder.webp",
+      "sha256": "c95eb071ec587d8f25b82a576015a6e8a035ff09e2c7540348afcdc3bfd50be3",
+      "size": 45954
     },
     "characters/regent.webp": {
-      "source_url": "https://sts2.untapped.gg/_next/static/media/regent.d788c8b0.webp",
-      "sha256": "82e1989b60824008cef8d27ce1a39f5e89200f92e9d0bd08c380f2c29a8507c9",
-      "size": 42062
+      "source_url": "https://cdn.spire-codex.com/characters/combat_regent.webp",
+      "sha256": "e7856520dcca6f4d9d416e00032b505f793fea539cca8a46d957b165e35dc0c4",
+      "size": 38896
     },
     "characters/silent.webp": {
-      "source_url": "https://sts2.untapped.gg/_next/static/media/silent.489a80ea.webp",
-      "sha256": "f6bbd36f5df358c34befdcb291b5e0e3cbc2c085fbac83fc1e4eedea4d4bd6cb",
-      "size": 53046
+      "source_url": "https://cdn.spire-codex.com/characters/combat_silent.webp",
+      "sha256": "0895670c0ce70e84d8711c67960511d441ce9c1d7df1b69a406a9f72e8d97e5c",
+      "size": 57674
     },
     "enemies/architect.webp": {
       "source_url": "https://spire-codex.com/static/images/monsters/architect.webp",

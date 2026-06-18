@@ -146,7 +146,8 @@ def page_header(name: Any, description: Any) -> list[str]:
 
 def media_path(kind: str, item: dict[str, Any]) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", str(item.get("id", "")).lower()).strip("-")
-    return f"/media/{kind}/{slug}.webp"
+    version = "?v=combat-20260618" if kind == "characters" else ""
+    return f"/media/{kind}/{slug}.webp{version}"
 
 
 def image_tag(url: Any, name: Any, kind: str) -> str:
@@ -393,7 +394,7 @@ def build_characters(characters: list[dict[str, Any]], cards: list[dict[str, Any
     lines = [
         "# Characters",
         "",
-        "Character data is sourced from the [Spire Codex API](https://spire-codex.com/docs), using the English `/api/characters` endpoint. Full transparent character artwork is provided by [Untapped.gg](https://sts2.untapped.gg/en/characters).",
+        "Character data and original combat-model artwork are sourced from [Spire Codex](https://spire-codex.com/docs), using the English `/api/characters` endpoint and character media CDN.",
         "",
         "## Summary",
         "",

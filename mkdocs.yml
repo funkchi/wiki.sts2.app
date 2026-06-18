@@ -33,7 +33,7 @@ theme:
   custom_dir: docs/overrides
 
 extra:
-  asset_version: "20260618-1"
+  asset_version: "20260618-3"
 
 nav:
   - Home: index.md

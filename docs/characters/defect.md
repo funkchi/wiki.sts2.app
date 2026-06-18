@@ -6,7 +6,7 @@ description: "An automaton eternally modifying itself to survive. Deploys Orb te
 # The Defect
 
 <div class="wiki-entity-hero wiki-entity-hero--character" markdown="1">
-<a class="wiki-image-link" href="/media/characters/defect.webp" target="_blank" rel="noopener" aria-label="View full image: The Defect" title="View full image: The Defect"><img class="wiki-image wiki-image--character-detail" src="/media/characters/defect.webp" alt="The Defect" loading="lazy" decoding="async"></a>
+<a class="wiki-image-link" href="/media/characters/defect.webp?v=combat-20260618" target="_blank" rel="noopener" aria-label="View full image: The Defect" title="View full image: The Defect"><img class="wiki-image wiki-image--character-detail" src="/media/characters/defect.webp?v=combat-20260618" alt="The Defect" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
 An automaton eternally modifying itself to survive. Deploys Orb technology when it must fight.
 

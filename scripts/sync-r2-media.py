@@ -43,16 +43,7 @@ def slug(value: Any) -> str:
 def source_url(endpoint: str, item: dict[str, Any]) -> str:
     if endpoint == "characters":
         character = slug(item["id"])
-        request = urllib.request.Request(
-            f"https://sts2.untapped.gg/en/characters/{character}",
-            headers={"User-Agent": "wiki.sts2.app media sync"},
-        )
-        with urllib.request.urlopen(request, timeout=30) as response:
-            page = response.read().decode()
-        match = re.search(rf"/_next/static/media/{character}\.[a-z0-9]+\.webp", page)
-        if not match:
-            raise ValueError(f"Missing Untapped character art for {character}")
-        return f"https://sts2.untapped.gg{match.group(0)}"
+        return f"https://cdn.spire-codex.com/characters/combat_{character}.webp"
     value = item.get("image_url_card") if endpoint == "cards" else item.get("image_url")
     value = value or item.get("image_url")
     if not value:

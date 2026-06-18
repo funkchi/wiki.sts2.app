@@ -87,7 +87,7 @@
   height: 112px;
 }
 
-.wiki-image--character-thumb {
+.md-typeset .wiki-image--character-thumb {
   width: 176px;
   min-width: 176px;
   height: 110px;
@@ -433,7 +433,7 @@
     height: 76px;
   }
 
-  .wiki-image--character-thumb,
+  .md-typeset .wiki-image--character-thumb,
   .wiki-image-link:has(.wiki-image--character-thumb) {
     width: 144px;
     min-width: 144px;
