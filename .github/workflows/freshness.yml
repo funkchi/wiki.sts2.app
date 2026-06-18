@@ -1,0 +1,101 @@
+name: Check Data Freshness
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: wiki-data-freshness
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Compare API baseline
+        id: source
+        run: python scripts/check-spire-codex-freshness.py --update
+
+      - name: Regenerate wiki content
+        if: steps.source.outputs.changed == 'true'
+        run: python scripts/sync-spire-codex.py
+
+      - name: Scan artwork bytes
+        id: media
+        run: python scripts/sync-r2-media.py --refresh --plan
+
+      - name: Install Wrangler
+        if: steps.media.outputs.changed == 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
+        run: npm install --global wrangler@4
+
+      - name: Upload changed artwork to R2
+        if: steps.media.outputs.changed == 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
+        run: python scripts/sync-r2-media.py
+
+      - name: Build static site
+        run: bash scripts/build-site.sh
+
+      - name: Validate static output
+        run: python scripts/check-built-content.py
+
+      - name: Publish reports to job summary
+        if: always()
+        run: |
+          test -f artifacts/spire-codex-diff.md && cat artifacts/spire-codex-diff.md >> "$GITHUB_STEP_SUMMARY" || true
+          test -f artifacts/r2-media-diff.md && cat artifacts/r2-media-diff.md >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Upload diff reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: freshness-reports
+          path: artifacts/*.md
+          if-no-files-found: warn
+
+      - name: Open data update pull request
+        if: steps.source.outputs.changed == 'true' || (steps.media.outputs.changed == 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          branch="automation/spire-codex-${GITHUB_RUN_ID}"
+          title="Data update: Spire Codex $(date -u +%F)"
+          {
+            cat artifacts/spire-codex-diff.md
+            printf '\n'
+            cat artifacts/r2-media-diff.md
+          } > /tmp/freshness-pr.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add -A
+          git commit -m "$title"
+          git push --set-upstream origin "$branch"
+          gh pr create --base main --head "$branch" --title "$title" --body-file /tmp/freshness-pr.md
+
+      - name: Alert when R2 credentials are missing
+        if: steps.media.outputs.changed == 'true' && (env.CLOUDFLARE_API_TOKEN == '' || env.CLOUDFLARE_ACCOUNT_ID == '')
+        run: |
+          echo "Changed artwork was detected, but Cloudflare credentials are unavailable." >&2
+          exit 1

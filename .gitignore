@@ -6,6 +6,7 @@ lib64/
 pyvenv.cfg
 site/
 public/
+artifacts/
 .media-cache/
 .wrangler/
 node_modules/
