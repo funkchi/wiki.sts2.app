@@ -56,6 +56,8 @@ The GitHub Actions workflow also supports direct Pages deploys with Wrangler whe
 - `CLOUDFLARE_API_TOKEN` repository secret
 - `CLOUDFLARE_ACCOUNT_ID` repository secret
 - `CLOUDFLARE_PROJECT_NAME` repository variable, optional; defaults to `wiki-sts2-app`
+- `CLOUDFLARE_WEB_ANALYTICS_TOKEN` repository secret, optional; injects the Cloudflare beacon into every built HTML page
+- `GOOGLE_SITE_VERIFICATION` repository secret, optional; injects Search Console verification into the root page
 
 ## Analytics
 
@@ -75,6 +77,8 @@ Enable Cloudflare Web Analytics for page popularity, referrers, navigation type,
 2. Select `wiki-sts2-app`.
 3. Open **Metrics** and select **Enable** under Web Analytics.
 4. Redeploy the project so Cloudflare injects its beacon.
+
+Alternatively, copy the public beacon token from **Web Analytics → Manage site** into the `CLOUDFLARE_WEB_ANALYTICS_TOKEN` GitHub secret. The build then injects the same beacon deterministically.
 
 Useful Analytics Engine SQL queries:
 
@@ -117,6 +121,8 @@ Google Search Console requires verification in the site owner's Google account a
 2. Add Google's verification TXT record to the Cloudflare DNS zone.
 3. Submit `https://wiki.sts2.app/sitemap.xml`.
 4. Confirm that `/robots.txt`, the root sitemap index, and sampled entity canonicals are accepted.
+
+For a URL-prefix property, the HTML verification token can instead be stored as the `GOOGLE_SITE_VERIFICATION` GitHub secret and deployed through the build.
 
 ## VPS Migration
 

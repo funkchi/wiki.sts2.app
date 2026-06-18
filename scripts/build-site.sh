@@ -15,6 +15,7 @@ fi
 
 cp -R landing/. public/
 "$MKDOCS" build --strict --site-dir public/docs
+python3 scripts/inject_provider_tags.py public
 
 test -f public/index.html
 test -f public/ads.txt

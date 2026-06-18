@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import time
 import urllib.request
@@ -163,6 +164,17 @@ def main() -> int:
     ads_position = landing_html.find("pagead2.googlesyndication.com")
     if consent_position < 0 or ads_position < 0 or consent_position > ads_position:
         raise AssertionError("Advertising consent defaults must load before AdSense")
+    google_verification = os.environ.get("GOOGLE_SITE_VERIFICATION", "").strip()
+    if google_verification and f'content="{google_verification}"' not in landing_html:
+        raise AssertionError("Configured Search Console verification is missing from landing page")
+    cloudflare_token = os.environ.get("CLOUDFLARE_WEB_ANALYTICS_TOKEN", "").strip()
+    if cloudflare_token:
+        html_pages = [path for path in Path("public").rglob("*.html") if "</body>" in path.read_text()]
+        missing_beacons = [
+            path for path in html_pages if "static.cloudflareinsights.com/beacon.min.js" not in path.read_text()
+        ]
+        if missing_beacons:
+            raise AssertionError(f"Cloudflare beacon missing from built pages: {missing_beacons[:5]}")
     analytics_function = Path("functions/api/analytics.js").read_text()
     if not all(event in analytics_function for event in ("navigation", "search", "search_empty")):
         raise AssertionError("Analytics endpoint is missing required event types")
