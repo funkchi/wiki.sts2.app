@@ -5,9 +5,9 @@ description: "Can only be played if there are no cards in your Draw Pile. Deal 6
 
 # Grand Finale
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/grand-finale.webp" target="_blank" rel="noopener" aria-label="View full image: Grand Finale" title="View full image: Grand Finale"><img class="wiki-image wiki-image--card-detail" src="/media/cards/grand-finale.webp" alt="Grand Finale" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Can only be played if there are no cards in your Draw Pile. Deal 60 damage to ALL enemies.
 
 | Property | Value |

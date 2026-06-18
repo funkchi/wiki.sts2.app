@@ -5,9 +5,9 @@ description: "Upon pickup, replace your starter Relic with an Ancient version. A
 
 # Touch of Orobas
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/touch-of-orobas.webp" target="_blank" rel="noopener" aria-label="View full image: Touch of Orobas" title="View full image: Touch of Orobas"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/touch-of-orobas.webp" alt="Touch of Orobas" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, replace your starter Relic with an Ancient version.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "At the start of each combat, apply 1 Vulnerable to ALL enemies. Co
 
 # Bag of Marbles
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/bag-of-marbles.webp" target="_blank" rel="noopener" aria-label="View full image: Bag of Marbles" title="View full image: Bag of Marbles"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/bag-of-marbles.webp" alt="Bag of Marbles" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of each combat, apply 1 Vulnerable to ALL enemies.
 
 | Property | Value |

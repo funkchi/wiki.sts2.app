@@ -5,9 +5,9 @@ description: "Start each combat with an additional 4 Energy. Ancient Relic relic
 
 # Very Hot Cocoa
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/very-hot-cocoa.webp" target="_blank" rel="noopener" aria-label="View full image: Very Hot Cocoa" title="View full image: Very Hot Cocoa"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/very-hot-cocoa.webp" alt="Very Hot Cocoa" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Start each combat with an additional 4 Energy.
 
 | Property | Value |

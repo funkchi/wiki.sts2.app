@@ -5,9 +5,9 @@ description: "Next turn, put 2 cards from your Draw Pile into your Hand. Regent 
 
 # Foregone Conclusion
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/foregone-conclusion.webp" target="_blank" rel="noopener" aria-label="View full image: Foregone Conclusion" title="View full image: Foregone Conclusion"><img class="wiki-image wiki-image--card-detail" src="/media/cards/foregone-conclusion.webp" alt="Foregone Conclusion" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Next turn, put 2 cards from your Draw Pile into your Hand.
 
 | Property | Value |

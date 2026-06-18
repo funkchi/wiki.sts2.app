@@ -5,9 +5,9 @@ description: "Deal 13 damage. Add a Soul into your Draw Pile, Hand, and Discard 
 
 # Severance
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/severance.webp" target="_blank" rel="noopener" aria-label="View full image: Severance" title="View full image: Severance"><img class="wiki-image wiki-image--card-detail" src="/media/cards/severance.webp" alt="Severance" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 13 damage. Add a Soul into your Draw Pile, Hand, and Discard Pile.
 
 | Property | Value |

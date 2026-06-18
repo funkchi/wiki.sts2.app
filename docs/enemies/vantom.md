@@ -5,9 +5,9 @@ description: "Boss enemy with 173 (Asc 183) HP. Ink Blot -> Inky Lance -> Dismem
 
 # Vantom
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/vantom.webp" target="_blank" rel="noopener" aria-label="View full image: Vantom" title="View full image: Vantom"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/vantom.webp" alt="Vantom" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Boss |

@@ -5,9 +5,9 @@ description: "Normal enemy with 121 (Asc 126) HP. Starts with Tenderizing Goop"
 
 # Hunter Killer
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/hunter-killer.webp" target="_blank" rel="noopener" aria-label="View full image: Hunter Killer" title="View full image: Hunter Killer"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/hunter-killer.webp" alt="Hunter Killer" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

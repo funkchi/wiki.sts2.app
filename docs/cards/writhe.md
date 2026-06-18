@@ -5,9 +5,9 @@ description: "Curse Curse card."
 
 # Writhe
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/writhe.webp" target="_blank" rel="noopener" aria-label="View full image: Writhe" title="View full image: Writhe"><img class="wiki-image wiki-image--card-detail" src="/media/cards/writhe.webp" alt="Writhe" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 No description is currently available.
 
 | Property | Value |

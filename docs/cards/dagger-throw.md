@@ -5,9 +5,9 @@ description: "Deal 9 damage. Draw 1 card. Discard 1 card. Silent Attack card."
 
 # Dagger Throw
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/dagger-throw.webp" target="_blank" rel="noopener" aria-label="View full image: Dagger Throw" title="View full image: Dagger Throw"><img class="wiki-image wiki-image--card-detail" src="/media/cards/dagger-throw.webp" alt="Dagger Throw" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 9 damage. Draw 1 card. Discard 1 card.
 
 | Property | Value |

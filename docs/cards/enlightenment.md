@@ -5,9 +5,9 @@ description: "Reduce the cost of ALL cards in your Hand to 1 this turn. Event Sk
 
 # Enlightenment
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/enlightenment.webp" target="_blank" rel="noopener" aria-label="View full image: Enlightenment" title="View full image: Enlightenment"><img class="wiki-image wiki-image--card-detail" src="/media/cards/enlightenment.webp" alt="Enlightenment" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Reduce the cost of ALL cards in your Hand to 1 this turn.
 
 | Property | Value |

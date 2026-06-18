@@ -5,9 +5,9 @@ description: "Whenever you obtain a Curse, raise your Max HP by 6. Event Relic r
 
 # Darkstone Periapt
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/darkstone-periapt.webp" target="_blank" rel="noopener" aria-label="View full image: Darkstone Periapt" title="View full image: Darkstone Periapt"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/darkstone-periapt.webp" alt="Darkstone Periapt" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you obtain a Curse, raise your Max HP by 6.
 
 | Property | Value |

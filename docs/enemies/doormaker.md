@@ -5,9 +5,9 @@ description: "Boss enemy with 489 (Asc 512) HP. Dramatic Open -> Hunger -> Scrut
 
 # Doormaker
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/doormaker.webp" target="_blank" rel="noopener" aria-label="View full image: Doormaker" title="View full image: Doormaker"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/doormaker.webp" alt="Doormaker" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Boss |

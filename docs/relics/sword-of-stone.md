@@ -5,9 +5,9 @@ description: "Transforms into a powerful Relic after defeating 5 Elites. Event R
 
 # Sword of Stone
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/sword-of-stone.webp" target="_blank" rel="noopener" aria-label="View full image: Sword of Stone" title="View full image: Sword of Stone"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/sword-of-stone.webp" alt="Sword of Stone" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Transforms into a powerful Relic after defeating 5 Elites.
 
 | Property | Value |

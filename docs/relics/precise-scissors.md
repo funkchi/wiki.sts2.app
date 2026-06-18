@@ -5,9 +5,9 @@ description: "Upon pickup, remove 1 card from your Deck. Ancient Relic relic."
 
 # Precise Scissors
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/precise-scissors.webp" target="_blank" rel="noopener" aria-label="View full image: Precise Scissors" title="View full image: Precise Scissors"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/precise-scissors.webp" alt="Precise Scissors" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, remove 1 card from your Deck.
 
 | Property | Value |

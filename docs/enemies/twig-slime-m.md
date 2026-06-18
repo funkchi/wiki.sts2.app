@@ -5,9 +5,9 @@ description: "Normal enemy with 26-28 (Asc 27-29) HP. Starts with Sticky Shot"
 
 # Twig Slime (M)
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/twig-slime-m.webp" target="_blank" rel="noopener" aria-label="View full image: Twig Slime (M)" title="View full image: Twig Slime (M)"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/twig-slime-m.webp" alt="Twig Slime (M)" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

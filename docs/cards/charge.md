@@ -5,9 +5,9 @@ description: "Choose 2 cards in your Draw Pile to Transform into Minion Dive Bom
 
 # CHARGE!!
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/charge.webp" target="_blank" rel="noopener" aria-label="View full image: CHARGE!!" title="View full image: CHARGE!!"><img class="wiki-image wiki-image--card-detail" src="/media/cards/charge.webp" alt="CHARGE!!" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Choose 2 cards in your Draw Pile to Transform into Minion Dive Bombs.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Whenever you play 3 or fewer cards during your turn, draw 3 additi
 
 # Pocketwatch
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/pocketwatch.webp" target="_blank" rel="noopener" aria-label="View full image: Pocketwatch" title="View full image: Pocketwatch"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/pocketwatch.webp" alt="Pocketwatch" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you play 3 or fewer cards during your turn, draw 3 additional cards at the start of your next turn.
 
 | Property | Value |

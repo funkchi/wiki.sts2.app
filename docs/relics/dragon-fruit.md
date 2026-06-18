@@ -5,9 +5,9 @@ description: "Whenever you gain Gold, raise your Max HP by 1. Shop Relic relic."
 
 # Dragon Fruit
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/dragon-fruit.webp" target="_blank" rel="noopener" aria-label="View full image: Dragon Fruit" title="View full image: Dragon Fruit"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/dragon-fruit.webp" alt="Dragon Fruit" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you gain Gold, raise your Max HP by 1.
 
 | Property | Value |

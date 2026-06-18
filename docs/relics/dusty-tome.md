@@ -5,9 +5,9 @@ description: "Upon pickup, obtain an Ancient Card. Ancient Relic relic."
 
 # Dusty Tome
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/dusty-tome.webp" target="_blank" rel="noopener" aria-label="View full image: Dusty Tome" title="View full image: Dusty Tome"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/dusty-tome.webp" alt="Dusty Tome" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, obtain an Ancient Card.
 
 | Property | Value |

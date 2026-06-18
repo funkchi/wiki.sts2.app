@@ -5,9 +5,9 @@ description: "Upon pickup, raise your Max HP by 10. Uncommon Relic relic."
 
 # Pear
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/pear.webp" target="_blank" rel="noopener" aria-label="View full image: Pear" title="View full image: Pear"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/pear.webp" alt="Pear" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, raise your Max HP by 10.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Gain an additional 1 Energy at the start of your 3rd turn, and eve
 
 # Pael's Flesh
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/paels-flesh.webp" target="_blank" rel="noopener" aria-label="View full image: Pael&#x27;s Flesh" title="View full image: Pael&#x27;s Flesh"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/paels-flesh.webp" alt="Pael&#x27;s Flesh" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain an additional 1 Energy at the start of your 3rd turn, and every turn after that.
 
 | Property | Value |

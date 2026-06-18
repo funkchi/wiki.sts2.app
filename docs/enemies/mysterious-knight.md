@@ -5,9 +5,9 @@ description: "Normal enemy with 101 (Asc 108) HP."
 
 # Mysterious Knight
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/mysterious-knight.webp" target="_blank" rel="noopener" aria-label="View full image: Mysterious Knight" title="View full image: Mysterious Knight"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/mysterious-knight.webp" alt="Mysterious Knight" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

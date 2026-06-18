@@ -5,9 +5,9 @@ description: "Create an Ethereal copy of the first Attack you play each turn. An
 
 # Music Box
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/music-box.webp" target="_blank" rel="noopener" aria-label="View full image: Music Box" title="View full image: Music Box"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/music-box.webp" alt="Music Box" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Create an Ethereal copy of the first Attack you play each turn.
 
 | Property | Value |

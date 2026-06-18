@@ -5,9 +5,9 @@ description: "Upon pickup, add 2 random Curses and 3 Wishes to your Deck. Ancien
 
 # Sere Talon
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/sere-talon.webp" target="_blank" rel="noopener" aria-label="View full image: Sere Talon" title="View full image: Sere Talon"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/sere-talon.webp" alt="Sere Talon" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, add 2 random Curses and 3 Wishes to your Deck.
 
 | Property | Value |

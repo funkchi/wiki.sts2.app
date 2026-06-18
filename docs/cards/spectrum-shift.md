@@ -5,9 +5,9 @@ description: "At the start of your turn, add 1 random Colorless card into your H
 
 # Spectrum Shift
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/spectrum-shift.webp" target="_blank" rel="noopener" aria-label="View full image: Spectrum Shift" title="View full image: Spectrum Shift"><img class="wiki-image wiki-image--card-detail" src="/media/cards/spectrum-shift.webp" alt="Spectrum Shift" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your turn, add 1 random Colorless card into your Hand.
 
 | Property | Value |

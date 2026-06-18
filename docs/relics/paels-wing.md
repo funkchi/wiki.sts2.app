@@ -5,9 +5,9 @@ description: "You may sacrifice card rewards to Pael. Every 2 sacrifices, obtain
 
 # Pael's Wing
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/paels-wing.webp" target="_blank" rel="noopener" aria-label="View full image: Pael&#x27;s Wing" title="View full image: Pael&#x27;s Wing"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/paels-wing.webp" alt="Pael&#x27;s Wing" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 You may sacrifice card rewards to Pael. Every 2 sacrifices, obtain a Relic.
 
 | Property | Value |

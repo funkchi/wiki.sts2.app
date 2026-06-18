@@ -5,9 +5,9 @@ description: "Boss enemy with 209 (Asc 219) HP. Thrash -> Enlarging Strike -> Bu
 
 # Crusher
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/crusher.webp" target="_blank" rel="noopener" aria-label="View full image: Crusher" title="View full image: Crusher"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/crusher.webp" alt="Crusher" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Boss |

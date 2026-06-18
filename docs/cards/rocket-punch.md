@@ -5,9 +5,9 @@ description: "Deal 13 damage. Draw 1 card. Whenever you create a Status, reduce 
 
 # Rocket Punch
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/rocket-punch.webp" target="_blank" rel="noopener" aria-label="View full image: Rocket Punch" title="View full image: Rocket Punch"><img class="wiki-image wiki-image--card-detail" src="/media/cards/rocket-punch.webp" alt="Rocket Punch" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 13 damage. Draw 1 card. Whenever you create a Status, reduce this card's cost to 0 1 Energy until played.
 
 | Property | Value |

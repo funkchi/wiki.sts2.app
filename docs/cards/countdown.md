@@ -5,9 +5,9 @@ description: "At the start of your turn, apply 6 Doom to a random enemy. Necrobi
 
 # Countdown
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/countdown.webp" target="_blank" rel="noopener" aria-label="View full image: Countdown" title="View full image: Countdown"><img class="wiki-image wiki-image--card-detail" src="/media/cards/countdown.webp" alt="Countdown" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your turn, apply 6 Doom to a random enemy.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Whenever you create a card, gain 3 Block. Regent Power card."
 
 # Pillar of Creation
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/pillar-of-creation.webp" target="_blank" rel="noopener" aria-label="View full image: Pillar of Creation" title="View full image: Pillar of Creation"><img class="wiki-image wiki-image--card-detail" src="/media/cards/pillar-of-creation.webp" alt="Pillar of Creation" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you create a card, gain 3 Block.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Gain 2 Energy. Draw 2 cards. Lose 1 Max HP. Event Skill card."
 
 # Brightest Flame
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/brightest-flame.webp" target="_blank" rel="noopener" aria-label="View full image: Brightest Flame" title="View full image: Brightest Flame"><img class="wiki-image wiki-image--card-detail" src="/media/cards/brightest-flame.webp" alt="Brightest Flame" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 2 Energy. Draw 2 cards. Lose 1 Max HP.
 
 | Property | Value |

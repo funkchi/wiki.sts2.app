@@ -5,9 +5,9 @@ description: "At the start of your turn, apply 2 Poison to ALL enemies. Silent P
 
 # Noxious Fumes
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/noxious-fumes.webp" target="_blank" rel="noopener" aria-label="View full image: Noxious Fumes" title="View full image: Noxious Fumes"><img class="wiki-image wiki-image--card-detail" src="/media/cards/noxious-fumes.webp" alt="Noxious Fumes" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your turn, apply 2 Poison to ALL enemies.
 
 | Property | Value |

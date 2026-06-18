@@ -5,9 +5,9 @@ description: "Whenever you play an Attack, gain 1 Block. Event Relic relic."
 
 # Daughter of the Wind
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/daughter-of-the-wind.webp" target="_blank" rel="noopener" aria-label="View full image: Daughter of the Wind" title="View full image: Daughter of the Wind"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/daughter-of-the-wind.webp" alt="Daughter of the Wind" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you play an Attack, gain 1 Block.
 
 | Property | Value |

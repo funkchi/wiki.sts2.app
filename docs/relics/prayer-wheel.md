@@ -5,9 +5,9 @@ description: "Normal enemies drop an additional card reward. Rare Relic relic."
 
 # Prayer Wheel
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/prayer-wheel.webp" target="_blank" rel="noopener" aria-label="View full image: Prayer Wheel" title="View full image: Prayer Wheel"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/prayer-wheel.webp" alt="Prayer Wheel" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Normal enemies drop an additional card reward.
 
 | Property | Value |

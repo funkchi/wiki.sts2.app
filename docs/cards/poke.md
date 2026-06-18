@@ -5,9 +5,9 @@ description: "Osty deals 6 damage. Necrobinder Attack card."
 
 # Poke
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/poke.webp" target="_blank" rel="noopener" aria-label="View full image: Poke" title="View full image: Poke"><img class="wiki-image wiki-image--card-detail" src="/media/cards/poke.webp" alt="Poke" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Osty deals 6 damage.
 
 | Property | Value |

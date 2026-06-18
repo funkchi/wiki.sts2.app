@@ -5,9 +5,9 @@ description: "Normal enemy with 25-27 (Asc 27-29) HP."
 
 # Corpse Slug
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/corpse-slug.webp" target="_blank" rel="noopener" aria-label="View full image: Corpse Slug" title="View full image: Corpse Slug"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/corpse-slug.webp" alt="Corpse Slug" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

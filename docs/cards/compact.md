@@ -5,9 +5,9 @@ description: "Gain 6 Block. Transform all Status cards in your Hand into Fuel. D
 
 # Compact
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/compact.webp" target="_blank" rel="noopener" aria-label="View full image: Compact" title="View full image: Compact"><img class="wiki-image wiki-image--card-detail" src="/media/cards/compact.webp" alt="Compact" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 6 Block. Transform all Status cards in your Hand into Fuel.
 
 | Property | Value |

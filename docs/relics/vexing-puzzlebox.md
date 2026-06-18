@@ -5,9 +5,9 @@ description: "At the start of each combat, add a random card into your Hand. It'
 
 # Vexing Puzzlebox
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/vexing-puzzlebox.webp" target="_blank" rel="noopener" aria-label="View full image: Vexing Puzzlebox" title="View full image: Vexing Puzzlebox"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/vexing-puzzlebox.webp" alt="Vexing Puzzlebox" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of each combat, add a random card into your Hand. It's free to play this turn.
 
 | Property | Value |

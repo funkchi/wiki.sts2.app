@@ -5,9 +5,9 @@ description: "The first Attack or Skill you play each turn is placed on top of y
 
 # Nostalgia
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/nostalgia.webp" target="_blank" rel="noopener" aria-label="View full image: Nostalgia" title="View full image: Nostalgia"><img class="wiki-image wiki-image--card-detail" src="/media/cards/nostalgia.webp" alt="Nostalgia" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The first Attack or Skill you play each turn is placed on top of your Draw Pile.
 
 | Property | Value |

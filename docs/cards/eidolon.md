@@ -5,9 +5,9 @@ description: "Exhaust your Hand. If 9 cards were Exhausted this way, gain 1 Inta
 
 # Eidolon
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/eidolon.webp" target="_blank" rel="noopener" aria-label="View full image: Eidolon" title="View full image: Eidolon"><img class="wiki-image wiki-image--card-detail" src="/media/cards/eidolon.webp" alt="Eidolon" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Exhaust your Hand. If 9 cards were Exhausted this way, gain 1 Intangible.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Put a Skill from your Draw Pile into your Hand. Colorless Skill ca
 
 # Secret Technique
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/secret-technique.webp" target="_blank" rel="noopener" aria-label="View full image: Secret Technique" title="View full image: Secret Technique"><img class="wiki-image wiki-image--card-detail" src="/media/cards/secret-technique.webp" alt="Secret Technique" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Put a Skill from your Draw Pile into your Hand.
 
 | Property | Value |

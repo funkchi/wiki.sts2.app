@@ -5,9 +5,9 @@ description: "At the start of your first 3 turns, draw 2 additional cards. Start
 
 # Ring of the Drake
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/ring-of-the-drake.webp" target="_blank" rel="noopener" aria-label="View full image: Ring of the Drake" title="View full image: Ring of the Drake"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/ring-of-the-drake.webp" alt="Ring of the Drake" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your first 3 turns, draw 2 additional cards.
 
 | Property | Value |

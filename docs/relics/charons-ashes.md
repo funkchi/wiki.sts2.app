@@ -5,9 +5,9 @@ description: "Whenever you Exhaust a card, deal 3 damage to ALL enemies. Rare Re
 
 # Charon's Ashes
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/charons-ashes.webp" target="_blank" rel="noopener" aria-label="View full image: Charon&#x27;s Ashes" title="View full image: Charon&#x27;s Ashes"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/charons-ashes.webp" alt="Charon&#x27;s Ashes" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you Exhaust a card, deal 3 damage to ALL enemies.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "At the start of your turn, deal 5 damage to ALL enemies and increa
 
 # Rolling Boulder
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/rolling-boulder.webp" target="_blank" rel="noopener" aria-label="View full image: Rolling Boulder" title="View full image: Rolling Boulder"><img class="wiki-image wiki-image--card-detail" src="/media/cards/rolling-boulder.webp" alt="Rolling Boulder" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your turn, deal 5 damage to ALL enemies and increase this damage by 5.
 
 | Property | Value |

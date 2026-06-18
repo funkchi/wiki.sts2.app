@@ -5,9 +5,9 @@ description: "The first time each combat you end your turn without playing cards
 
 # Pael's Eye
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/paels-eye.webp" target="_blank" rel="noopener" aria-label="View full image: Pael&#x27;s Eye" title="View full image: Pael&#x27;s Eye"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/paels-eye.webp" alt="Pael&#x27;s Eye" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The first time each combat you end your turn without playing cards, Exhaust your Hand, and take an extra turn.
 
 | Property | Value |

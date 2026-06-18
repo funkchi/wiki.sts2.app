@@ -5,9 +5,9 @@ description: "At the start of your turn, play the top card of your Draw Pile. Co
 
 # Mayhem
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/mayhem.webp" target="_blank" rel="noopener" aria-label="View full image: Mayhem" title="View full image: Mayhem"><img class="wiki-image wiki-image--card-detail" src="/media/cards/mayhem.webp" alt="Mayhem" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your turn, play the top card of your Draw Pile.
 
 | Property | Value |

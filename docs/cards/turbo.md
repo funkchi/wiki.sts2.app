@@ -5,9 +5,9 @@ description: "Gain 2 Energy. Add a Void into your Discard Pile. Defect Skill car
 
 # TURBO
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/turbo.webp" target="_blank" rel="noopener" aria-label="View full image: TURBO" title="View full image: TURBO"><img class="wiki-image wiki-image--card-detail" src="/media/cards/turbo.webp" alt="TURBO" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 2 Energy. Add a Void into your Discard Pile.
 
 | Property | Value |

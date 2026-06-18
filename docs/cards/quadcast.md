@@ -5,9 +5,9 @@ description: "Evoke your rightmost Orb 4 times. Defect Skill card."
 
 # Quadcast
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/quadcast.webp" target="_blank" rel="noopener" aria-label="View full image: Quadcast" title="View full image: Quadcast"><img class="wiki-image wiki-image--card-detail" src="/media/cards/quadcast.webp" alt="Quadcast" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Evoke your rightmost Orb 4 times.
 
 | Property | Value |

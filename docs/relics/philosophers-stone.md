@@ -5,9 +5,9 @@ description: "Gain 1 Energy at the start of each turn. ALL enemies start combat 
 
 # Philosopher's Stone
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/philosophers-stone.webp" target="_blank" rel="noopener" aria-label="View full image: Philosopher&#x27;s Stone" title="View full image: Philosopher&#x27;s Stone"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/philosophers-stone.webp" alt="Philosopher&#x27;s Stone" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 1 Energy at the start of each turn. ALL enemies start combat with 1 Strength.
 
 | Property | Value |

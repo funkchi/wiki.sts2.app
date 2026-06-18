@@ -5,9 +5,9 @@ description: "ALL players Summon 6. Necrobinder Skill card."
 
 # Legion of Bone
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/legion-of-bone.webp" target="_blank" rel="noopener" aria-label="View full image: Legion of Bone" title="View full image: Legion of Bone"><img class="wiki-image wiki-image--card-detail" src="/media/cards/legion-of-bone.webp" alt="Legion of Bone" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 ALL players Summon 6.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Start each combat Confused. Event Relic relic."
 
 # Snecko Eye???
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/fake-snecko-eye.webp" target="_blank" rel="noopener" aria-label="View full image: Snecko Eye???" title="View full image: Snecko Eye???"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/fake-snecko-eye.webp" alt="Snecko Eye???" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Start each combat Confused.
 
 | Property | Value |

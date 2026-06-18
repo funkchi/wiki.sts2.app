@@ -5,9 +5,9 @@ description: "At the start of your turn, add 1 Sweeping Gaze into your Hand. Nec
 
 # Sentry Mode
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/sentry-mode.webp" target="_blank" rel="noopener" aria-label="View full image: Sentry Mode" title="View full image: Sentry Mode"><img class="wiki-image wiki-image--card-detail" src="/media/cards/sentry-mode.webp" alt="Sentry Mode" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your turn, add 1 Sweeping Gaze into your Hand.
 
 | Property | Value |

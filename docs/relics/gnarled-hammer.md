@@ -5,9 +5,9 @@ description: "Upon pickup, Enchant up to 3 Attacks with Sharp 3. Shop Relic reli
 
 # Gnarled Hammer
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/gnarled-hammer.webp" target="_blank" rel="noopener" aria-label="View full image: Gnarled Hammer" title="View full image: Gnarled Hammer"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/gnarled-hammer.webp" alt="Gnarled Hammer" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, Enchant up to 3 Attacks with Sharp 3.
 
 | Property | Value |

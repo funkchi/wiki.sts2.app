@@ -5,9 +5,9 @@ description: "A huntress from outside the Spire. Ready to stab and poison anythi
 
 # The Silent
 
-<div class="wiki-entity-hero wiki-entity-hero--character">
+<div class="wiki-entity-hero wiki-entity-hero--character" markdown="1">
 <a class="wiki-image-link" href="/media/characters/silent.webp" target="_blank" rel="noopener" aria-label="View full image: The Silent" title="View full image: The Silent"><img class="wiki-image wiki-image--character-detail" src="/media/characters/silent.webp" alt="The Silent" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 A huntress from outside the Spire. Ready to stab and poison anything in her way.
 
 | Stat | Value |

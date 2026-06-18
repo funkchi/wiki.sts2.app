@@ -5,9 +5,9 @@ description: "At the end of each turn, lower the cost of a random Retained card 
 
 # Bookmark
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/bookmark.webp" target="_blank" rel="noopener" aria-label="View full image: Bookmark" title="View full image: Bookmark"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/bookmark.webp" alt="Bookmark" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the end of each turn, lower the cost of a random Retained card by 1 until played.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Upon pickup, obtain a random Rare Card to add to your Deck. Ancien
 
 # Arcane Scroll
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/arcane-scroll.webp" target="_blank" rel="noopener" aria-label="View full image: Arcane Scroll" title="View full image: Arcane Scroll"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/arcane-scroll.webp" alt="Arcane Scroll" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, obtain a random Rare Card to add to your Deck.
 
 | Property | Value |

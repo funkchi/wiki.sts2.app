@@ -5,9 +5,9 @@ description: "If you play 5 or more cards in a turn, draw 1 card at the start of
 
 # Pale Blue Dot
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/pale-blue-dot.webp" target="_blank" rel="noopener" aria-label="View full image: Pale Blue Dot" title="View full image: Pale Blue Dot"><img class="wiki-image wiki-image--card-detail" src="/media/cards/pale-blue-dot.webp" alt="Pale Blue Dot" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 If you play 5 or more cards in a turn, draw 1 card at the start of your next turn.
 
 | Property | Value |

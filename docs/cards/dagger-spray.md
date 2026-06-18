@@ -5,9 +5,9 @@ description: "Deal 4 damage to ALL enemies twice. Silent Attack card."
 
 # Dagger Spray
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/dagger-spray.webp" target="_blank" rel="noopener" aria-label="View full image: Dagger Spray" title="View full image: Dagger Spray"><img class="wiki-image wiki-image--card-detail" src="/media/cards/dagger-spray.webp" alt="Dagger Spray" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 4 damage to ALL enemies twice.
 
 | Property | Value |

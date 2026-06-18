@@ -5,9 +5,9 @@ description: "Double your Block. Event Skill card."
 
 # Entrench
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/entrench.webp" target="_blank" rel="noopener" aria-label="View full image: Entrench" title="View full image: Entrench"><img class="wiki-image wiki-image--card-detail" src="/media/cards/entrench.webp" alt="Entrench" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Double your Block.
 
 | Property | Value |

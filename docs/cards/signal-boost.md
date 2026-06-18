@@ -5,9 +5,9 @@ description: "The next Power you play is played an additional time. Defect Skill
 
 # Signal Boost
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/signal-boost.webp" target="_blank" rel="noopener" aria-label="View full image: Signal Boost" title="View full image: Signal Boost"><img class="wiki-image wiki-image--card-detail" src="/media/cards/signal-boost.webp" alt="Signal Boost" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The next Power you play is played an additional time.
 
 | Property | Value |

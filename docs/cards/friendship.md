@@ -5,9 +5,9 @@ description: "Lose 2 Strength. Gain 1 Energy at the start of each turn. Necrobin
 
 # Friendship
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/friendship.webp" target="_blank" rel="noopener" aria-label="View full image: Friendship" title="View full image: Friendship"><img class="wiki-image wiki-image--card-detail" src="/media/cards/friendship.webp" alt="Friendship" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Lose 2 Strength. Gain 1 Energy at the start of each turn.
 
 | Property | Value |

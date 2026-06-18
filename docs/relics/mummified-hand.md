@@ -5,9 +5,9 @@ description: "Whenever you play a Power, a random card in your Hand is free to p
 
 # Mummified Hand
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/mummified-hand.webp" target="_blank" rel="noopener" aria-label="View full image: Mummified Hand" title="View full image: Mummified Hand"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/mummified-hand.webp" alt="Mummified Hand" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you play a Power, a random card in your Hand is free to play that turn.
 
 | Property | Value |

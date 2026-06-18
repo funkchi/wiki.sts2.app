@@ -5,9 +5,9 @@ description: "Deal 10 damage. The next Ethereal card you play costs 0 1 Energy. 
 
 # Veilpiercer
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/veilpiercer.webp" target="_blank" rel="noopener" aria-label="View full image: Veilpiercer" title="View full image: Veilpiercer"><img class="wiki-image wiki-image--card-detail" src="/media/cards/veilpiercer.webp" alt="Veilpiercer" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 10 damage. The next Ethereal card you play costs 0 1 Energy.
 
 | Property | Value |

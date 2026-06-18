@@ -5,9 +5,9 @@ description: "Gain 1 Dexterity. Gain 4 Thorns. Silent Power card."
 
 # Abrasive
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/abrasive.webp" target="_blank" rel="noopener" aria-label="View full image: Abrasive" title="View full image: Abrasive"><img class="wiki-image wiki-image--card-detail" src="/media/cards/abrasive.webp" alt="Abrasive" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 1 Dexterity. Gain 4 Thorns.
 
 | Property | Value |

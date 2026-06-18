@@ -5,9 +5,9 @@ description: "If you Exhausted a card this turn, gain 3 Energy. Ironclad Skill c
 
 # Forgotten Ritual
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/forgotten-ritual.webp" target="_blank" rel="noopener" aria-label="View full image: Forgotten Ritual" title="View full image: Forgotten Ritual"><img class="wiki-image wiki-image--card-detail" src="/media/cards/forgotten-ritual.webp" alt="Forgotten Ritual" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 If you Exhausted a card this turn, gain 3 Energy.
 
 | Property | Value |

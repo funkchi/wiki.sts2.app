@@ -5,9 +5,9 @@ description: "Another player gains 2 Energy. Colorless Skill card."
 
 # Believe in You
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/believe-in-you.webp" target="_blank" rel="noopener" aria-label="View full image: Believe in You" title="View full image: Believe in You"><img class="wiki-image wiki-image--card-detail" src="/media/cards/believe-in-you.webp" alt="Believe in You" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Another player gains 2 Energy.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Deal 33 damage. Apply 3 Weak. Apply 3 Vulnerable. Regent Attack ca
 
 # Comet
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/comet.webp" target="_blank" rel="noopener" aria-label="View full image: Comet" title="View full image: Comet"><img class="wiki-image wiki-image--card-detail" src="/media/cards/comet.webp" alt="Comet" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 33 damage. Apply 3 Weak. Apply 3 Vulnerable.
 
 | Property | Value |

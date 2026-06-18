@@ -5,9 +5,9 @@ description: "Gain 4 Energy. Defect Skill card."
 
 # Supercritical
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/supercritical.webp" target="_blank" rel="noopener" aria-label="View full image: Supercritical" title="View full image: Supercritical"><img class="wiki-image wiki-image--card-detail" src="/media/cards/supercritical.webp" alt="Supercritical" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 4 Energy.
 
 | Property | Value |

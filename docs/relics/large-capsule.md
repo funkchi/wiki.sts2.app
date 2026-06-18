@@ -5,9 +5,9 @@ description: "Upon pickup, obtain 2 random Relics. Add an additional Strike and 
 
 # Large Capsule
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/large-capsule.webp" target="_blank" rel="noopener" aria-label="View full image: Large Capsule" title="View full image: Large Capsule"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/large-capsule.webp" alt="Large Capsule" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, obtain 2 random Relics. Add an additional Strike and Defend to your Deck.
 
 | Property | Value |

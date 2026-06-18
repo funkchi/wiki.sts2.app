@@ -5,9 +5,9 @@ description: "The first time you gain Block from a card each combat, double the 
 
 # Vambrace
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/vambrace.webp" target="_blank" rel="noopener" aria-label="View full image: Vambrace" title="View full image: Vambrace"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/vambrace.webp" alt="Vambrace" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The first time you gain Block from a card each combat, double the amount gained.
 
 | Property | Value |

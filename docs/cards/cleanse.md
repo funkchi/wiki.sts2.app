@@ -5,9 +5,9 @@ description: "Summon 3. Exhaust 1 card from your Draw Pile. Necrobinder Skill ca
 
 # Cleanse
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/cleanse.webp" target="_blank" rel="noopener" aria-label="View full image: Cleanse" title="View full image: Cleanse"><img class="wiki-image wiki-image--card-detail" src="/media/cards/cleanse.webp" alt="Cleanse" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Summon 3. Exhaust 1 card from your Draw Pile.
 
 | Property | Value |

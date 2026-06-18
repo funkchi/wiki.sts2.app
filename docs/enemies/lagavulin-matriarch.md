@@ -5,9 +5,9 @@ description: "Boss enemy with 222 (Asc 233) HP. Starts with Sleep"
 
 # Lagavulin Matriarch
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/lagavulin-matriarch.webp" target="_blank" rel="noopener" aria-label="View full image: Lagavulin Matriarch" title="View full image: Lagavulin Matriarch"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/lagavulin-matriarch.webp" alt="Lagavulin Matriarch" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Boss |

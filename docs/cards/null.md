@@ -5,9 +5,9 @@ description: "Deal 10 damage. Apply 2 Weak. Channel 1 Dark. Defect Attack card."
 
 # Null
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/null.webp" target="_blank" rel="noopener" aria-label="View full image: Null" title="View full image: Null"><img class="wiki-image wiki-image--card-detail" src="/media/cards/null.webp" alt="Null" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 10 damage. Apply 2 Weak. Channel 1 Dark.
 
 | Property | Value |

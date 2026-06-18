@@ -5,9 +5,9 @@ description: "Curse Curse card."
 
 # Poor Sleep
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/poor-sleep.webp" target="_blank" rel="noopener" aria-label="View full image: Poor Sleep" title="View full image: Poor Sleep"><img class="wiki-image wiki-image--card-detail" src="/media/cards/poor-sleep.webp" alt="Poor Sleep" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 No description is currently available.
 
 | Property | Value |

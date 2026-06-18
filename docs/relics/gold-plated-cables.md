@@ -5,9 +5,9 @@ description: "Your rightmost Orb triggers its passive an additional time. Uncomm
 
 # Gold-Plated Cables
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/gold-plated-cables.webp" target="_blank" rel="noopener" aria-label="View full image: Gold-Plated Cables" title="View full image: Gold-Plated Cables"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/gold-plated-cables.webp" alt="Gold-Plated Cables" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Your rightmost Orb triggers its passive an additional time.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Upon pickup, raise your Max HP by 11. Ancient Relic relic."
 
 # Nutritious Oyster
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/nutritious-oyster.webp" target="_blank" rel="noopener" aria-label="View full image: Nutritious Oyster" title="View full image: Nutritious Oyster"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/nutritious-oyster.webp" alt="Nutritious Oyster" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, raise your Max HP by 11.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Upon pickup, lose all Gold and choose 1 of 2 packs of cards to add
 
 # Scroll Boxes
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/scroll-boxes.webp" target="_blank" rel="noopener" aria-label="View full image: Scroll Boxes" title="View full image: Scroll Boxes"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/scroll-boxes.webp" alt="Scroll Boxes" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, lose all Gold and choose 1 of 2 packs of cards to add to your Deck.
 
 | Property | Value |

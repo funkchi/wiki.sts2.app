@@ -5,9 +5,9 @@ description: "Deal 9 damage to ALL enemies. ALL enemies lose 9 Strength this tur
 
 # Dying Star
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/dying-star.webp" target="_blank" rel="noopener" aria-label="View full image: Dying Star" title="View full image: Dying Star"><img class="wiki-image wiki-image--card-detail" src="/media/cards/dying-star.webp" alt="Dying Star" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 9 damage to ALL enemies. ALL enemies lose 9 Strength this turn.
 
 | Property | Value |

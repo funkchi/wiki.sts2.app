@@ -5,9 +5,9 @@ description: "Gain 1 Energy at the start of each turn. At the start of each comb
 
 # Blessed Antler
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/blessed-antler.webp" target="_blank" rel="noopener" aria-label="View full image: Blessed Antler" title="View full image: Blessed Antler"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/blessed-antler.webp" alt="Blessed Antler" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 1 Energy at the start of each turn. At the start of each combat, shuffle 3 Dazed into your Draw Pile.
 
 | Property | Value |

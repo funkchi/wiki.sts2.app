@@ -5,9 +5,9 @@ description: "Boss enemy with - HP. Starts: Bite -> Skull Bash; then conditional
 
 # Test Subject #C14
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/test-subject.webp" target="_blank" rel="noopener" aria-label="View full image: Test Subject #C14" title="View full image: Test Subject #C14"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/test-subject.webp" alt="Test Subject #C14" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Boss |

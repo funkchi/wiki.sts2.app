@@ -5,9 +5,9 @@ description: "Channel 1 Frost for each enemy. Defect Skill card."
 
 # Chill
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/chill.webp" target="_blank" rel="noopener" aria-label="View full image: Chill" title="View full image: Chill"><img class="wiki-image wiki-image--card-detail" src="/media/cards/chill.webp" alt="Chill" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Channel 1 Frost for each enemy.
 
 | Property | Value |

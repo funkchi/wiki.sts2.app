@@ -5,9 +5,9 @@ description: "Whenever you enter a Rest Site, start the next combat with an addi
 
 # Venerable Tea Set???
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/fake-venerable-tea-set.webp" target="_blank" rel="noopener" aria-label="View full image: Venerable Tea Set???" title="View full image: Venerable Tea Set???"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/fake-venerable-tea-set.webp" alt="Venerable Tea Set???" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you enter a Rest Site, start the next combat with an additional 1 Energy.
 
 | Property | Value |

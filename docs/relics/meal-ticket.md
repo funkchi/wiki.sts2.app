@@ -5,9 +5,9 @@ description: "Whenever you enter a shop room, heal 15 HP. Common Relic relic."
 
 # Meal Ticket
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/meal-ticket.webp" target="_blank" rel="noopener" aria-label="View full image: Meal Ticket" title="View full image: Meal Ticket"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/meal-ticket.webp" alt="Meal Ticket" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you enter a shop room, heal 15 HP.
 
 | Property | Value |

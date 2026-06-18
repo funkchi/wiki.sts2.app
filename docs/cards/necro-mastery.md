@@ -5,9 +5,9 @@ description: "Summon 5. Whenever Osty loses HP, ALL enemies lose that much HP as
 
 # Necro Mastery
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/necro-mastery.webp" target="_blank" rel="noopener" aria-label="View full image: Necro Mastery" title="View full image: Necro Mastery"><img class="wiki-image wiki-image--card-detail" src="/media/cards/necro-mastery.webp" alt="Necro Mastery" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Summon 5. Whenever Osty loses HP, ALL enemies lose that much HP as well.
 
 | Property | Value |

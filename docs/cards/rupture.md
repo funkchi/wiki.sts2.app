@@ -5,9 +5,9 @@ description: "Whenever you lose HP on your turn, gain 1 Strength. Ironclad Power
 
 # Rupture
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/rupture.webp" target="_blank" rel="noopener" aria-label="View full image: Rupture" title="View full image: Rupture"><img class="wiki-image wiki-image--card-detail" src="/media/cards/rupture.webp" alt="Rupture" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you lose HP on your turn, gain 1 Strength.
 
 | Property | Value |

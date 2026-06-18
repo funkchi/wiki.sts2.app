@@ -5,9 +5,9 @@ description: "Add 3 Shivs into your Hand. Silent Skill card."
 
 # Blade Dance
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/blade-dance.webp" target="_blank" rel="noopener" aria-label="View full image: Blade Dance" title="View full image: Blade Dance"><img class="wiki-image wiki-image--card-detail" src="/media/cards/blade-dance.webp" alt="Blade Dance" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Add 3 Shivs into your Hand.
 
 | Property | Value |

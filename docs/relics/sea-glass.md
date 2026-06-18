@@ -5,9 +5,9 @@ description: "See 15 cards from another character. Choose any number of them to 
 
 # Sea Glass
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/sea-glass.webp" target="_blank" rel="noopener" aria-label="View full image: Sea Glass" title="View full image: Sea Glass"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/sea-glass.webp" alt="Sea Glass" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 See 15 cards from another character. Choose any number of them to add to your Deck.
 
 | Property | Value |

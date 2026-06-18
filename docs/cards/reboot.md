@@ -5,9 +5,9 @@ description: "Shuffle ALL your cards into your Draw Pile. Draw 4 cards. Defect S
 
 # Reboot
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/reboot.webp" target="_blank" rel="noopener" aria-label="View full image: Reboot" title="View full image: Reboot"><img class="wiki-image wiki-image--card-detail" src="/media/cards/reboot.webp" alt="Reboot" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Shuffle ALL your cards into your Draw Pile. Draw 4 cards.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "If you end a turn with at least 10 Block, deal 6 damage to a rando
 
 # Parrying Shield
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/parrying-shield.webp" target="_blank" rel="noopener" aria-label="View full image: Parrying Shield" title="View full image: Parrying Shield"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/parrying-shield.webp" alt="Parrying Shield" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 If you end a turn with at least 10 Block, deal 6 damage to a random enemy.
 
 | Property | Value |

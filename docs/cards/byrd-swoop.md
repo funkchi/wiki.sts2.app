@@ -5,9 +5,9 @@ description: "Deal 14 damage. Event Attack card."
 
 # Byrd Swoop
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/byrd-swoop.webp" target="_blank" rel="noopener" aria-label="View full image: Byrd Swoop" title="View full image: Byrd Swoop"><img class="wiki-image wiki-image--card-detail" src="/media/cards/byrd-swoop.webp" alt="Byrd Swoop" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 14 damage.
 
 | Property | Value |

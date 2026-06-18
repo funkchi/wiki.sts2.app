@@ -5,9 +5,9 @@ description: "Upon pickup, gain 4 potion slots filled with random potions. Ancie
 
 # Alchemical Coffer
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/alchemical-coffer.webp" target="_blank" rel="noopener" aria-label="View full image: Alchemical Coffer" title="View full image: Alchemical Coffer"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/alchemical-coffer.webp" alt="Alchemical Coffer" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, gain 4 potion slots filled with random potions.
 
 | Property | Value |

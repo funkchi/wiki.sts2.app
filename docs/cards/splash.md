@@ -5,9 +5,9 @@ description: "Choose 1 of 3 random Attacks from another character to add into yo
 
 # Splash
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/splash.webp" target="_blank" rel="noopener" aria-label="View full image: Splash" title="View full image: Splash"><img class="wiki-image wiki-image--card-detail" src="/media/cards/splash.webp" alt="Splash" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Choose 1 of 3 random Attacks from another character to add into your Hand. It's free to play this turn.
 
 | Property | Value |

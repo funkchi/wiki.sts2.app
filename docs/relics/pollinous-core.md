@@ -5,9 +5,9 @@ description: "Every 4 turns, draw 2 additional cards. Event Relic relic."
 
 # Pollinous Core
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/pollinous-core.webp" target="_blank" rel="noopener" aria-label="View full image: Pollinous Core" title="View full image: Pollinous Core"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/pollinous-core.webp" alt="Pollinous Core" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Every 4 turns, draw 2 additional cards.
 
 | Property | Value |

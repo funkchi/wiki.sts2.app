@@ -5,9 +5,9 @@ description: "Gain 15 Block. Next turn, draw 2 cards and gain 2 Energy. Event Sk
 
 # Relax
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/relax.webp" target="_blank" rel="noopener" aria-label="View full image: Relax" title="View full image: Relax"><img class="wiki-image wiki-image--card-detail" src="/media/cards/relax.webp" alt="Relax" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 15 Block. Next turn, draw 2 cards and gain 2 Energy.
 
 | Property | Value |

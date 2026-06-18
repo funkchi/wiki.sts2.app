@@ -5,9 +5,9 @@ description: "Gain 7 Block. Add Sly to a Skill in your Hand this turn. Silent Sk
 
 # Hand Trick
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/hand-trick.webp" target="_blank" rel="noopener" aria-label="View full image: Hand Trick" title="View full image: Hand Trick"><img class="wiki-image wiki-image--card-detail" src="/media/cards/hand-trick.webp" alt="Hand Trick" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 7 Block. Add Sly to a Skill in your Hand this turn.
 
 | Property | Value |

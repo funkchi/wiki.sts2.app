@@ -5,9 +5,9 @@ description: "Forge 7. Sovereign Blade now deals damage to ALL enemies. Regent P
 
 # Seeking Edge
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/seeking-edge.webp" target="_blank" rel="noopener" aria-label="View full image: Seeking Edge" title="View full image: Seeking Edge"><img class="wiki-image wiki-image--card-detail" src="/media/cards/seeking-edge.webp" alt="Seeking Edge" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Forge 7. Sovereign Blade now deals damage to ALL enemies.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "At the start of your turn, Summon 1. Starter Relic relic."
 
 # Bound Phylactery
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/bound-phylactery.webp" target="_blank" rel="noopener" aria-label="View full image: Bound Phylactery" title="View full image: Bound Phylactery"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/bound-phylactery.webp" alt="Bound Phylactery" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your turn, Summon 1.
 
 | Property | Value |

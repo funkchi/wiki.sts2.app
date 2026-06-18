@@ -5,9 +5,9 @@ description: "Enchanted Attacks deal 9 additional damage. Shop Relic relic."
 
 # Mystic Lighter
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/mystic-lighter.webp" target="_blank" rel="noopener" aria-label="View full image: Mystic Lighter" title="View full image: Mystic Lighter"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/mystic-lighter.webp" alt="Mystic Lighter" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Enchanted Attacks deal 9 additional damage.
 
 | Property | Value |

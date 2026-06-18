@@ -5,9 +5,9 @@ description: "Upon pickup, Transform a starter card into an ancient version. Anc
 
 # Archaic Tooth
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/archaic-tooth.webp" target="_blank" rel="noopener" aria-label="View full image: Archaic Tooth" title="View full image: Archaic Tooth"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/archaic-tooth.webp" alt="Archaic Tooth" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, Transform a starter card into an ancient version.
 
 | Property | Value |

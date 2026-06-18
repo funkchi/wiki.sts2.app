@@ -5,9 +5,9 @@ description: "Add Replay to a card in your Hand. It costs an extra 1 Energy. Nec
 
 # Transfigure
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/transfigure.webp" target="_blank" rel="noopener" aria-label="View full image: Transfigure" title="View full image: Transfigure"><img class="wiki-image wiki-image--card-detail" src="/media/cards/transfigure.webp" alt="Transfigure" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Add Replay to a card in your Hand. It costs an extra 1 Energy.
 
 | Property | Value |

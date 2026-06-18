@@ -5,9 +5,9 @@ description: "Draw 2 cards. Token Skill card."
 
 # Soul
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/soul.webp" target="_blank" rel="noopener" aria-label="View full image: Soul" title="View full image: Soul"><img class="wiki-image wiki-image--card-detail" src="/media/cards/soul.webp" alt="Soul" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Draw 2 cards.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Elite enemy with 26-31 (Asc 27-32) HP. then conditional: Flail (if
 
 # Phantasmal Gardener
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/phantasmal-gardener.webp" target="_blank" rel="noopener" aria-label="View full image: Phantasmal Gardener" title="View full image: Phantasmal Gardener"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/phantasmal-gardener.webp" alt="Phantasmal Gardener" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Elite |

@@ -5,9 +5,9 @@ description: "Normal enemy with 116-119 (Asc 121-124) HP. Protruding Spikes -> S
 
 # Spiny Toad
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/spiny-toad.webp" target="_blank" rel="noopener" aria-label="View full image: Spiny Toad" title="View full image: Spiny Toad"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/spiny-toad.webp" alt="Spiny Toad" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

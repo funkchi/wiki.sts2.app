@@ -5,9 +5,9 @@ description: "Gain 1 Energy at the start of each turn. You cannot play more than
 
 # Velvet Choker
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/velvet-choker.webp" target="_blank" rel="noopener" aria-label="View full image: Velvet Choker" title="View full image: Velvet Choker"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/velvet-choker.webp" alt="Velvet Choker" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 1 Energy at the start of each turn. You cannot play more than 6 cards per turn.
 
 | Property | Value |

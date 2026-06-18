@@ -5,9 +5,9 @@ description: "The first card you play each combat is played an extra time. Ancie
 
 # Throwing Axe
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/throwing-axe.webp" target="_blank" rel="noopener" aria-label="View full image: Throwing Axe" title="View full image: Throwing Axe"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/throwing-axe.webp" alt="Throwing Axe" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The first card you play each combat is played an extra time.
 
 | Property | Value |

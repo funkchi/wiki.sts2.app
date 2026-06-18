@@ -5,9 +5,9 @@ description: "Upon pickup, obtain 4 Wax Relics. Every 3 combats, your left-most 
 
 # Toy Box
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/toy-box.webp" target="_blank" rel="noopener" aria-label="View full image: Toy Box" title="View full image: Toy Box"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/toy-box.webp" alt="Toy Box" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, obtain 4 Wax Relics. Every 3 combats, your left-most Wax Relic will melt away.
 
 | Property | Value |

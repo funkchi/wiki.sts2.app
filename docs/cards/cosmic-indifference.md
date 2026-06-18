@@ -5,9 +5,9 @@ description: "Gain 6 Block. Put a card from your Discard Pile on top of your Dra
 
 # Cosmic Indifference
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/cosmic-indifference.webp" target="_blank" rel="noopener" aria-label="View full image: Cosmic Indifference" title="View full image: Cosmic Indifference"><img class="wiki-image wiki-image--card-detail" src="/media/cards/cosmic-indifference.webp" alt="Cosmic Indifference" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 6 Block. Put a card from your Discard Pile on top of your Draw Pile.
 
 | Property | Value |

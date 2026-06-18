@@ -5,9 +5,9 @@ description: "At the end of your turn, if this is in your Hand, take 2 damage. C
 
 # Decay
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/decay.webp" target="_blank" rel="noopener" aria-label="View full image: Decay" title="View full image: Decay"><img class="wiki-image wiki-image--card-detail" src="/media/cards/decay.webp" alt="Decay" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the end of your turn, if this is in your Hand, take 2 damage.
 
 | Property | Value |

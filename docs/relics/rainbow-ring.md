@@ -5,9 +5,9 @@ description: "The first time you play an Attack, Skill, and Power each turn, gai
 
 # Rainbow Ring
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/rainbow-ring.webp" target="_blank" rel="noopener" aria-label="View full image: Rainbow Ring" title="View full image: Rainbow Ring"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/rainbow-ring.webp" alt="Rainbow Ring" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The first time you play an Attack, Skill, and Power each turn, gain 1 Strength and 1 Dexterity.
 
 | Property | Value |

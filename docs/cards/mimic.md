@@ -5,9 +5,9 @@ description: "Gain Block equal to the Block on another player. Colorless Skill c
 
 # Mimic
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/mimic.webp" target="_blank" rel="noopener" aria-label="View full image: Mimic" title="View full image: Mimic"><img class="wiki-image wiki-image--card-detail" src="/media/cards/mimic.webp" alt="Mimic" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain Block equal to the Block on another player.
 
 | Property | Value |

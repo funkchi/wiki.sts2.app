@@ -5,9 +5,9 @@ description: "Deal 8 damage to ALL enemies. Necrobinder Attack card."
 
 # Sow
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/sow.webp" target="_blank" rel="noopener" aria-label="View full image: Sow" title="View full image: Sow"><img class="wiki-image wiki-image--card-detail" src="/media/cards/sow.webp" alt="Sow" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 8 damage to ALL enemies.
 
 | Property | Value |

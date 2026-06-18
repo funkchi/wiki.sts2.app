@@ -5,9 +5,9 @@ description: "Whenever you play a card this turn, apply 3 Doom to the enemy. Nec
 
 # Oblivion
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/oblivion.webp" target="_blank" rel="noopener" aria-label="View full image: Oblivion" title="View full image: Oblivion"><img class="wiki-image wiki-image--card-detail" src="/media/cards/oblivion.webp" alt="Oblivion" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you play a card this turn, apply 3 Doom to the enemy.
 
 | Property | Value |

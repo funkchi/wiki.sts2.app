@@ -5,9 +5,9 @@ description: "Deal 24 damage. Channel 3 Plasma. Defect Attack card."
 
 # Meteor Strike
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/meteor-strike.webp" target="_blank" rel="noopener" aria-label="View full image: Meteor Strike" title="View full image: Meteor Strike"><img class="wiki-image wiki-image--card-detail" src="/media/cards/meteor-strike.webp" alt="Meteor Strike" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 24 damage. Channel 3 Plasma.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Gain 12 Block. Whenever you are attacked this turn, deal 4 damage 
 
 # Flame Barrier
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/flame-barrier.webp" target="_blank" rel="noopener" aria-label="View full image: Flame Barrier" title="View full image: Flame Barrier"><img class="wiki-image wiki-image--card-detail" src="/media/cards/flame-barrier.webp" alt="Flame Barrier" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 12 Block. Whenever you are attacked this turn, deal 4 damage back.
 
 | Property | Value |

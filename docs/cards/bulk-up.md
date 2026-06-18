@@ -5,9 +5,9 @@ description: "Lose 1 Orb Slot. Gain 2 Strength. Gain 2 Dexterity. Defect Power c
 
 # Bulk Up
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/bulk-up.webp" target="_blank" rel="noopener" aria-label="View full image: Bulk Up" title="View full image: Bulk Up"><img class="wiki-image wiki-image--card-detail" src="/media/cards/bulk-up.webp" alt="Bulk Up" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Lose 1 Orb Slot. Gain 2 Strength. Gain 2 Dexterity.
 
 | Property | Value |

@@ -480,9 +480,9 @@ def build_card_page(card: dict[str, Any], cards: list[dict[str, Any]]) -> str:
     description = clean(card.get("description"))
     lines = page_header(card.get("name"), f"{description} {title(card.get('color'))} {card.get('type')} card.")
     lines += [
-        '<div class="wiki-entity-hero">',
+        '<div class="wiki-entity-hero" markdown="1">',
         image_tag(media_path("cards", card), card.get("name"), "card-detail"),
-        '<div class="wiki-entity-hero__details">',
+        '<div class="wiki-entity-hero__details" markdown="1">',
         description or "No description is currently available.",
         "",
         "| Property | Value |",
@@ -535,9 +535,9 @@ def build_relic_page(relic: dict[str, Any], relics: list[dict[str, Any]]) -> str
     description = clean(relic.get("description"))
     lines = page_header(relic.get("name"), f"{description} {relic.get('rarity')} relic.")
     lines += [
-        '<div class="wiki-entity-hero">',
+        '<div class="wiki-entity-hero" markdown="1">',
         image_tag(media_path("relics", relic), relic.get("name"), "relic-detail"),
-        '<div class="wiki-entity-hero__details">',
+        '<div class="wiki-entity-hero__details" markdown="1">',
         description or "No description is currently available.",
         "",
         "| Property | Value |",
@@ -582,9 +582,9 @@ def build_character_page(
     description = clean(character.get("description"))
     lines = page_header(character.get("name"), description)
     lines += [
-        '<div class="wiki-entity-hero wiki-entity-hero--character">',
+        '<div class="wiki-entity-hero wiki-entity-hero--character" markdown="1">',
         image_tag(media_path("characters", character), character.get("name"), "character-detail"),
-        '<div class="wiki-entity-hero__details">',
+        '<div class="wiki-entity-hero__details" markdown="1">',
         description,
         "",
         "| Stat | Value |",
@@ -623,9 +623,9 @@ def build_enemy_page(monster: dict[str, Any]) -> str:
     pattern = clean((monster.get("attack_pattern") or {}).get("description"))
     lines = page_header(monster.get("name"), f"{monster.get('type')} enemy with {monster_hp(monster)} HP. {pattern}")
     lines += [
-        '<div class="wiki-entity-hero">',
+        '<div class="wiki-entity-hero" markdown="1">',
         image_tag(media_path("enemies", monster), monster.get("name"), "enemy-detail"),
-        '<div class="wiki-entity-hero__details">',
+        '<div class="wiki-entity-hero__details" markdown="1">',
         "| Property | Value |",
         "|---|---|",
         f"| Type | {clean(monster.get('type'))} |",

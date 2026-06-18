@@ -5,9 +5,9 @@ description: "Gain 1 Orb Slot. Draw 1 card. Increase this card's cost by 1. Defe
 
 # Modded
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/modded.webp" target="_blank" rel="noopener" aria-label="View full image: Modded" title="View full image: Modded"><img class="wiki-image wiki-image--card-detail" src="/media/cards/modded.webp" alt="Modded" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 1 Orb Slot. Draw 1 card. Increase this card's cost by 1.
 
 | Property | Value |

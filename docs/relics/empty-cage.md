@@ -5,9 +5,9 @@ description: "Upon pickup, remove 2 cards from your Deck. Ancient Relic relic."
 
 # Empty Cage
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/empty-cage.webp" target="_blank" rel="noopener" aria-label="View full image: Empty Cage" title="View full image: Empty Cage"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/empty-cage.webp" alt="Empty Cage" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, remove 2 cards from your Deck.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Osty deals 6 damage. Deals additional damage equal to Osty's curre
 
 # Unleash
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/unleash.webp" target="_blank" rel="noopener" aria-label="View full image: Unleash" title="View full image: Unleash"><img class="wiki-image wiki-image--card-detail" src="/media/cards/unleash.webp" alt="Unleash" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Osty deals 6 damage. Deals additional damage equal to Osty's current HP.
 
 | Property | Value |

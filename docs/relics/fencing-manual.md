@@ -5,9 +5,9 @@ description: "At the start of each combat, Forge 10. Common Relic relic."
 
 # Fencing Manual
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/fencing-manual.webp" target="_blank" rel="noopener" aria-label="View full image: Fencing Manual" title="View full image: Fencing Manual"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/fencing-manual.webp" alt="Fencing Manual" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of each combat, Forge 10.
 
 | Property | Value |

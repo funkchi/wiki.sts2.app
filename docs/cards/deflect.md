@@ -5,9 +5,9 @@ description: "Gain 4 Block. Silent Skill card."
 
 # Deflect
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/deflect.webp" target="_blank" rel="noopener" aria-label="View full image: Deflect" title="View full image: Deflect"><img class="wiki-image wiki-image--card-detail" src="/media/cards/deflect.webp" alt="Deflect" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 4 Block.
 
 | Property | Value |

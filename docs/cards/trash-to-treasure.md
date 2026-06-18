@@ -5,9 +5,9 @@ description: "Whenever you create a Status, Channel 1 random Orb. Defect Power c
 
 # Trash to Treasure
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/trash-to-treasure.webp" target="_blank" rel="noopener" aria-label="View full image: Trash to Treasure" title="View full image: Trash to Treasure"><img class="wiki-image wiki-image--card-detail" src="/media/cards/trash-to-treasure.webp" alt="Trash to Treasure" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you create a Status, Channel 1 random Orb.
 
 | Property | Value |

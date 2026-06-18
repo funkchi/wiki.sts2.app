@@ -5,9 +5,9 @@ description: "If this is in your Hand, it must be played before other cards. Cur
 
 # Enthralled
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/enthralled.webp" target="_blank" rel="noopener" aria-label="View full image: Enthralled" title="View full image: Enthralled"><img class="wiki-image wiki-image--card-detail" src="/media/cards/enthralled.webp" alt="Enthralled" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 If this is in your Hand, it must be played before other cards.
 
 | Property | Value |

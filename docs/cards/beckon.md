@@ -5,9 +5,9 @@ description: "At the end of your turn, if this is in your Hand, lose 6 HP. Statu
 
 # Beckon
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/beckon.webp" target="_blank" rel="noopener" aria-label="View full image: Beckon" title="View full image: Beckon"><img class="wiki-image wiki-image--card-detail" src="/media/cards/beckon.webp" alt="Beckon" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the end of your turn, if this is in your Hand, lose 6 HP.
 
 | Property | Value |

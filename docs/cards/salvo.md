@@ -5,9 +5,9 @@ description: "Deal 12 damage. Retain your Hand this turn. Colorless Attack card.
 
 # Salvo
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/salvo.webp" target="_blank" rel="noopener" aria-label="View full image: Salvo" title="View full image: Salvo"><img class="wiki-image wiki-image--card-detail" src="/media/cards/salvo.webp" alt="Salvo" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 12 damage. Retain your Hand this turn.
 
 | Property | Value |

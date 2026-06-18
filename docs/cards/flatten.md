@@ -5,9 +5,9 @@ description: "Osty deals 12 damage. This card costs 0 1 Energy if Osty has attac
 
 # Flatten
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/flatten.webp" target="_blank" rel="noopener" aria-label="View full image: Flatten" title="View full image: Flatten"><img class="wiki-image wiki-image--card-detail" src="/media/cards/flatten.webp" alt="Flatten" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Osty deals 12 damage. This card costs 0 1 Energy if Osty has attacked this turn.
 
 | Property | Value |

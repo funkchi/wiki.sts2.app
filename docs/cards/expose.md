@@ -5,9 +5,9 @@ description: "Remove all Artifact and Block from the enemy. Apply 2 Vulnerable. 
 
 # Expose
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/expose.webp" target="_blank" rel="noopener" aria-label="View full image: Expose" title="View full image: Expose"><img class="wiki-image wiki-image--card-detail" src="/media/cards/expose.webp" alt="Expose" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Remove all Artifact and Block from the enemy. Apply 2 Vulnerable.
 
 | Property | Value |

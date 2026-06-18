@@ -5,9 +5,9 @@ description: "Deal 7 damage. Apply any debuffs on the enemy to ALL other enemies
 
 # Misery
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/misery.webp" target="_blank" rel="noopener" aria-label="View full image: Misery" title="View full image: Misery"><img class="wiki-image wiki-image--card-detail" src="/media/cards/misery.webp" alt="Misery" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 7 damage. Apply any debuffs on the enemy to ALL other enemies.
 
 | Property | Value |

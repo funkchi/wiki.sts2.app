@@ -5,9 +5,9 @@ description: "Deal 7 damage. Draw 4 cards. Discard all cards drawn this way that
 
 # Scrape
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/scrape.webp" target="_blank" rel="noopener" aria-label="View full image: Scrape" title="View full image: Scrape"><img class="wiki-image wiki-image--card-detail" src="/media/cards/scrape.webp" alt="Scrape" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 7 damage. Draw 4 cards. Discard all cards drawn this way that do not cost 0 1 Energy.
 
 | Property | Value |

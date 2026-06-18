@@ -5,9 +5,9 @@ description: "The first card you play each turn is played an extra time. Defect 
 
 # Echo Form
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/echo-form.webp" target="_blank" rel="noopener" aria-label="View full image: Echo Form" title="View full image: Echo Form"><img class="wiki-image wiki-image--card-detail" src="/media/cards/echo-form.webp" alt="Echo Form" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The first card you play each turn is played an extra time.
 
 | Property | Value |

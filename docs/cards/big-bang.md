@@ -5,9 +5,9 @@ description: "Draw 1 card. Gain 1 Energy. Gain 1 Star. Forge 5. Regent Skill car
 
 # Big Bang
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/big-bang.webp" target="_blank" rel="noopener" aria-label="View full image: Big Bang" title="View full image: Big Bang"><img class="wiki-image wiki-image--card-detail" src="/media/cards/big-bang.webp" alt="Big Bang" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Draw 1 card. Gain 1 Energy. Gain 1 Star. Forge 5.
 
 | Property | Value |

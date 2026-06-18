@@ -123,6 +123,9 @@ def check_detail_pages(folder: str, expected: set[str], image_class: str) -> set
             raise AssertionError(f"Missing meta description for {url}")
         if image_count(audit, image_class) != 1:
             raise AssertionError(f"Expected one {image_class} image on {url}")
+        html = (DOCS_ROOT / folder / item_slug / "index.html").read_text()
+        if "| Property | Value |" in html or "| Stat | Value |" in html:
+            raise AssertionError(f"Unrendered Markdown table on {url}")
         urls.add(url)
     return urls
 

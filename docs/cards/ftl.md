@@ -5,9 +5,9 @@ description: "Deal 5 damage. If you have played fewer than 3 cards this turn, dr
 
 # FTL
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/ftl.webp" target="_blank" rel="noopener" aria-label="View full image: FTL" title="View full image: FTL"><img class="wiki-image wiki-image--card-detail" src="/media/cards/ftl.webp" alt="FTL" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 5 damage. If you have played fewer than 3 cards this turn, draw 1 card.
 
 | Property | Value |

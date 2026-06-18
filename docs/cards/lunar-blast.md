@@ -5,9 +5,9 @@ description: "Deal 4 damage for each Skill already played this turn. Regent Atta
 
 # Lunar Blast
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/lunar-blast.webp" target="_blank" rel="noopener" aria-label="View full image: Lunar Blast" title="View full image: Lunar Blast"><img class="wiki-image wiki-image--card-detail" src="/media/cards/lunar-blast.webp" alt="Lunar Blast" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 4 damage for each Skill already played this turn.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Gain 1 Focus. Defect Power card."
 
 # Defragment
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/defragment.webp" target="_blank" rel="noopener" aria-label="View full image: Defragment" title="View full image: Defragment"><img class="wiki-image wiki-image--card-detail" src="/media/cards/defragment.webp" alt="Defragment" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 1 Focus.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Deal 11 damage. Add a Debris into your Hand. Regent Attack card."
 
 # Collision Course
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/collision-course.webp" target="_blank" rel="noopener" aria-label="View full image: Collision Course" title="View full image: Collision Course"><img class="wiki-image wiki-image--card-detail" src="/media/cards/collision-course.webp" alt="Collision Course" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 11 damage. Add a Debris into your Hand.
 
 | Property | Value |

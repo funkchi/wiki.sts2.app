@@ -5,9 +5,9 @@ description: "Gain 1 Energy. Draw 2 cards. Silent Skill card."
 
 # Adrenaline
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/adrenaline.webp" target="_blank" rel="noopener" aria-label="View full image: Adrenaline" title="View full image: Adrenaline"><img class="wiki-image wiki-image--card-detail" src="/media/cards/adrenaline.webp" alt="Adrenaline" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 1 Energy. Draw 2 cards.
 
 | Property | Value |

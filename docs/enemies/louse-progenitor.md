@@ -5,9 +5,9 @@ description: "Normal enemy with 134-136 (Asc 138-141) HP. Always uses Web Cannon
 
 # Louse Progenitor
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/louse-progenitor.webp" target="_blank" rel="noopener" aria-label="View full image: Louse Progenitor" title="View full image: Louse Progenitor"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/louse-progenitor.webp" alt="Louse Progenitor" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

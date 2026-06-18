@@ -5,9 +5,9 @@ description: "Deal 8 damage X times. Double X if it's 4 or more. Regent Attack c
 
 # Heavenly Drill
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/heavenly-drill.webp" target="_blank" rel="noopener" aria-label="View full image: Heavenly Drill" title="View full image: Heavenly Drill"><img class="wiki-image wiki-image--card-detail" src="/media/cards/heavenly-drill.webp" alt="Heavenly Drill" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 8 damage X times. Double X if it's 4 or more.
 
 | Property | Value |

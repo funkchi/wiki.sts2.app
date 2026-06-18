@@ -5,9 +5,9 @@ description: "Deal damage equal to the number of cards played this combat. Color
 
 # Gold Axe
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/gold-axe.webp" target="_blank" rel="noopener" aria-label="View full image: Gold Axe" title="View full image: Gold Axe"><img class="wiki-image wiki-image--card-detail" src="/media/cards/gold-axe.webp" alt="Gold Axe" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal damage equal to the number of cards played this combat.
 
 | Property | Value |

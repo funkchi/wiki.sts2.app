@@ -5,9 +5,9 @@ description: "Gain 4 Block. Next turn, gain 4 Block. Silent Skill card."
 
 # Dodge and Roll
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/dodge-and-roll.webp" target="_blank" rel="noopener" aria-label="View full image: Dodge and Roll" title="View full image: Dodge and Roll"><img class="wiki-image wiki-image--card-detail" src="/media/cards/dodge-and-roll.webp" alt="Dodge and Roll" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 4 Block. Next turn, gain 4 Block.
 
 | Property | Value |

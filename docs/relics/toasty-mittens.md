@@ -5,9 +5,9 @@ description: "At the start of your turn, Exhaust the top card of your Draw Pile 
 
 # Toasty Mittens
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/toasty-mittens.webp" target="_blank" rel="noopener" aria-label="View full image: Toasty Mittens" title="View full image: Toasty Mittens"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/toasty-mittens.webp" alt="Toasty Mittens" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your turn, Exhaust the top card of your Draw Pile and gain 1 Strength.
 
 | Property | Value |

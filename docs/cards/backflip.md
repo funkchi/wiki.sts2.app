@@ -5,9 +5,9 @@ description: "Gain 5 Block. Draw 2 cards. Silent Skill card."
 
 # Backflip
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/backflip.webp" target="_blank" rel="noopener" aria-label="View full image: Backflip" title="View full image: Backflip"><img class="wiki-image wiki-image--card-detail" src="/media/cards/backflip.webp" alt="Backflip" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 5 Block. Draw 2 cards.
 
 | Property | Value |

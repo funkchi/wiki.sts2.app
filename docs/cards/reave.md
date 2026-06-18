@@ -5,9 +5,9 @@ description: "Deal 9 damage. Add a Soul into your Draw Pile. Necrobinder Attack 
 
 # Reave
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/reave.webp" target="_blank" rel="noopener" aria-label="View full image: Reave" title="View full image: Reave"><img class="wiki-image wiki-image--card-detail" src="/media/cards/reave.webp" alt="Reave" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 9 damage. Add a Soul into your Draw Pile.
 
 | Property | Value |

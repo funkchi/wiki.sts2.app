@@ -5,9 +5,9 @@ description: "Upon pickup, add 1 Enthralled to your Deck. Gain 1 Energy at the s
 
 # Blood-Soaked Rose
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/blood-soaked-rose.webp" target="_blank" rel="noopener" aria-label="View full image: Blood-Soaked Rose" title="View full image: Blood-Soaked Rose"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/blood-soaked-rose.webp" alt="Blood-Soaked Rose" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, add 1 Enthralled to your Deck. Gain 1 Energy at the start of each turn.
 
 | Property | Value |

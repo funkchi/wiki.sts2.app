@@ -5,9 +5,9 @@ description: "When you encounter the Merchant, immediately obtain EVERYTHING he 
 
 # Lord's Parasol
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/lords-parasol.webp" target="_blank" rel="noopener" aria-label="View full image: Lord&#x27;s Parasol" title="View full image: Lord&#x27;s Parasol"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/lords-parasol.webp" alt="Lord&#x27;s Parasol" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 When you encounter the Merchant, immediately obtain EVERYTHING he sells.
 
 | Property | Value |

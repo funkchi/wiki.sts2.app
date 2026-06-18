@@ -5,9 +5,9 @@ description: "Upon pickup, heal 10% of your HP. Event Relic relic."
 
 # Lee's Waffle???
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/fake-lees-waffle.webp" target="_blank" rel="noopener" aria-label="View full image: Lee&#x27;s Waffle???" title="View full image: Lee&#x27;s Waffle???"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/fake-lees-waffle.webp" alt="Lee&#x27;s Waffle???" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, heal 10% of your HP.
 
 | Property | Value |

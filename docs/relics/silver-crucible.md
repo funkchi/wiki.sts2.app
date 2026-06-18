@@ -5,9 +5,9 @@ description: "The first 3 card rewards you see are Upgraded. The first Treasure 
 
 # Silver Crucible
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/silver-crucible.webp" target="_blank" rel="noopener" aria-label="View full image: Silver Crucible" title="View full image: Silver Crucible"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/silver-crucible.webp" alt="Silver Crucible" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The first 3 card rewards you see are Upgraded. The first Treasure Chest you open is empty.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Every time you play 5 cards in a single turn, deal 10 damage to AL
 
 # Panache
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/panache.webp" target="_blank" rel="noopener" aria-label="View full image: Panache" title="View full image: Panache"><img class="wiki-image wiki-image--card-detail" src="/media/cards/panache.webp" alt="Panache" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Every time you play 5 cards in a single turn, deal 10 damage to ALL enemies.
 
 | Property | Value |

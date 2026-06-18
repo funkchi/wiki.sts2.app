@@ -5,9 +5,9 @@ description: "Deal 26 damage to ALL enemies. Lose 3 Focus. Defect Attack card."
 
 # Hyperbeam
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/hyperbeam.webp" target="_blank" rel="noopener" aria-label="View full image: Hyperbeam" title="View full image: Hyperbeam"><img class="wiki-image wiki-image--card-detail" src="/media/cards/hyperbeam.webp" alt="Hyperbeam" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 26 damage to ALL enemies. Lose 3 Focus.
 
 | Property | Value |

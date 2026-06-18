@@ -5,9 +5,9 @@ description: "Gain 3 Energy. Draw 2 cards. At the start of your turn, apply 3 Do
 
 # Neurosurge
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/neurosurge.webp" target="_blank" rel="noopener" aria-label="View full image: Neurosurge" title="View full image: Neurosurge"><img class="wiki-image wiki-image--card-detail" src="/media/cards/neurosurge.webp" alt="Neurosurge" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 3 Energy. Draw 2 cards. At the start of your turn, apply 3 Doom to yourself.
 
 | Property | Value |

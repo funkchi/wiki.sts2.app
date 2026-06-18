@@ -5,9 +5,9 @@ description: "Upon pickup, Transform 1 of your Strikes and 1 of your Defends and
 
 # Leafy Poultice
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/leafy-poultice.webp" target="_blank" rel="noopener" aria-label="View full image: Leafy Poultice" title="View full image: Leafy Poultice"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/leafy-poultice.webp" alt="Leafy Poultice" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, Transform 1 of your Strikes and 1 of your Defends and lose 12 Max HP.
 
 | Property | Value |

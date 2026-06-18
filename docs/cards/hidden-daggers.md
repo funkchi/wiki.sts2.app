@@ -5,9 +5,9 @@ description: "Discard 2 cards. Add 2 Shivs into your Hand. Silent Skill card."
 
 # Hidden Daggers
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/hidden-daggers.webp" target="_blank" rel="noopener" aria-label="View full image: Hidden Daggers" title="View full image: Hidden Daggers"><img class="wiki-image wiki-image--card-detail" src="/media/cards/hidden-daggers.webp" alt="Hidden Daggers" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Discard 2 cards. Add 2 Shivs into your Hand.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Choose 1 of 3 random cards to add into your Hand. It's free to pla
 
 # Discovery
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/discovery.webp" target="_blank" rel="noopener" aria-label="View full image: Discovery" title="View full image: Discovery"><img class="wiki-image wiki-image--card-detail" src="/media/cards/discovery.webp" alt="Discovery" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Choose 1 of 3 random cards to add into your Hand. It's free to play this turn.
 
 | Property | Value |

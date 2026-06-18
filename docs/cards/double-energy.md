@@ -5,9 +5,9 @@ description: "Double your Energy. Defect Skill card."
 
 # Double Energy
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/double-energy.webp" target="_blank" rel="noopener" aria-label="View full image: Double Energy" title="View full image: Double Energy"><img class="wiki-image wiki-image--card-detail" src="/media/cards/double-energy.webp" alt="Double Energy" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Double your Energy.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Whenever you draw an Ethereal card, draw 1 card. Necrobinder Power
 
 # Pagestorm
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/pagestorm.webp" target="_blank" rel="noopener" aria-label="View full image: Pagestorm" title="View full image: Pagestorm"><img class="wiki-image wiki-image--card-detail" src="/media/cards/pagestorm.webp" alt="Pagestorm" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you draw an Ethereal card, draw 1 card.
 
 | Property | Value |

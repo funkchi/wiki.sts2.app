@@ -5,9 +5,9 @@ description: "Block is not removed at the start of your turn. Ironclad Power car
 
 # Barricade
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/barricade.webp" target="_blank" rel="noopener" aria-label="View full image: Barricade" title="View full image: Barricade"><img class="wiki-image wiki-image--card-detail" src="/media/cards/barricade.webp" alt="Barricade" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Block is not removed at the start of your turn.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Deal 11 damage. Apply 3 Weak. Silent Attack card."
 
 # Suppress
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/suppress.webp" target="_blank" rel="noopener" aria-label="View full image: Suppress" title="View full image: Suppress"><img class="wiki-image wiki-image--card-detail" src="/media/cards/suppress.webp" alt="Suppress" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 11 damage. Apply 3 Weak.
 
 | Property | Value |

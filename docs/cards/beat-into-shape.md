@@ -5,9 +5,9 @@ description: "Deal 5 damage. Forge X. Forges an additional 5 for every other tim
 
 # Beat into Shape
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/beat-into-shape.webp" target="_blank" rel="noopener" aria-label="View full image: Beat into Shape" title="View full image: Beat into Shape"><img class="wiki-image wiki-image--card-detail" src="/media/cards/beat-into-shape.webp" alt="Beat into Shape" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 5 damage. Forge X. Forges an additional 5 for every other time you've hit the enemy this turn.
 
 | Property | Value |

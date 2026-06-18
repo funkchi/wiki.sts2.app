@@ -5,9 +5,9 @@ description: "Choose a card in your Hand to Transform into Minion Strike. Regent
 
 # BEGONE!
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/begone.webp" target="_blank" rel="noopener" aria-label="View full image: BEGONE!" title="View full image: BEGONE!"><img class="wiki-image wiki-image--card-detail" src="/media/cards/begone.webp" alt="BEGONE!" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Choose a card in your Hand to Transform into Minion Strike.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Deal 11 damage to ALL enemies. Colorless Attack card."
 
 # Dramatic Entrance
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/dramatic-entrance.webp" target="_blank" rel="noopener" aria-label="View full image: Dramatic Entrance" title="View full image: Dramatic Entrance"><img class="wiki-image wiki-image--card-detail" src="/media/cards/dramatic-entrance.webp" alt="Dramatic Entrance" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 11 damage to ALL enemies.
 
 | Property | Value |

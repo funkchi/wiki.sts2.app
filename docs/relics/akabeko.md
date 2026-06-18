@@ -5,9 +5,9 @@ description: "At the start of each combat, gain 8 Vigor. Uncommon Relic relic."
 
 # Akabeko
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/akabeko.webp" target="_blank" rel="noopener" aria-label="View full image: Akabeko" title="View full image: Akabeko"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/akabeko.webp" alt="Akabeko" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of each combat, gain 8 Vigor.
 
 | Property | Value |

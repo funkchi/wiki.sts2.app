@@ -5,9 +5,9 @@ description: "Deal 27 damage. Necrobinder Attack card."
 
 # Reap
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/reap.webp" target="_blank" rel="noopener" aria-label="View full image: Reap" title="View full image: Reap"><img class="wiki-image wiki-image--card-detail" src="/media/cards/reap.webp" alt="Reap" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 27 damage.
 
 | Property | Value |

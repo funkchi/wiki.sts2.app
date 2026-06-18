@@ -5,9 +5,9 @@ description: "Whenever you discard a card during your turn, gain 3 Block. Rare R
 
 # Tough Bandages
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/tough-bandages.webp" target="_blank" rel="noopener" aria-label="View full image: Tough Bandages" title="View full image: Tough Bandages"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/tough-bandages.webp" alt="Tough Bandages" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you discard a card during your turn, gain 3 Block.
 
 | Property | Value |

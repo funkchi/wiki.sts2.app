@@ -5,9 +5,9 @@ description: "Whenever you Rest at a Rest Site, raise your Max HP by 5. Ancient 
 
 # Stone Humidifier
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/stone-humidifier.webp" target="_blank" rel="noopener" aria-label="View full image: Stone Humidifier" title="View full image: Stone Humidifier"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/stone-humidifier.webp" alt="Stone Humidifier" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you Rest at a Rest Site, raise your Max HP by 5.
 
 | Property | Value |

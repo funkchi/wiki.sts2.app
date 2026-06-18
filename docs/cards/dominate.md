@@ -5,9 +5,9 @@ description: "Apply 1 Vulnerable. Gain 1 Strength for each Vulnerable on the ene
 
 # Dominate
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/dominate.webp" target="_blank" rel="noopener" aria-label="View full image: Dominate" title="View full image: Dominate"><img class="wiki-image wiki-image--card-detail" src="/media/cards/dominate.webp" alt="Dominate" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Apply 1 Vulnerable. Gain 1 Strength for each Vulnerable on the enemy.
 
 | Property | Value |

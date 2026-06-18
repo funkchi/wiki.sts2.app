@@ -5,9 +5,9 @@ description: "Upon pickup, choose 1 of 2 Colorless cards to add to your Deck. An
 
 # Lead Paperweight
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/lead-paperweight.webp" target="_blank" rel="noopener" aria-label="View full image: Lead Paperweight" title="View full image: Lead Paperweight"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/lead-paperweight.webp" alt="Lead Paperweight" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, choose 1 of 2 Colorless cards to add to your Deck.
 
 | Property | Value |

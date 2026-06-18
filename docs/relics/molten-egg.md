@@ -5,9 +5,9 @@ description: "Whenever you add an Attack card to your Deck, Upgrade it. Rare Rel
 
 # Molten Egg
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/molten-egg.webp" target="_blank" rel="noopener" aria-label="View full image: Molten Egg" title="View full image: Molten Egg"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/molten-egg.webp" alt="Molten Egg" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you add an Attack card to your Deck, Upgrade it.
 
 | Property | Value |

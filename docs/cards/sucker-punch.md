@@ -5,9 +5,9 @@ description: "Deal 8 damage. Apply 1 Weak. Silent Attack card."
 
 # Sucker Punch
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/sucker-punch.webp" target="_blank" rel="noopener" aria-label="View full image: Sucker Punch" title="View full image: Sucker Punch"><img class="wiki-image wiki-image--card-detail" src="/media/cards/sucker-punch.webp" alt="Sucker Punch" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 8 damage. Apply 1 Weak.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Normal enemy with 31-33 (Asc 34-36) HP. Always uses Energy Orb"
 
 # Snapping Jaxfruit
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/snapping-jaxfruit.webp" target="_blank" rel="noopener" aria-label="View full image: Snapping Jaxfruit" title="View full image: Snapping Jaxfruit"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/snapping-jaxfruit.webp" alt="Snapping Jaxfruit" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

@@ -5,9 +5,9 @@ description: "Upon pickup, Upgrade 1 of your Strikes and 1 of your Defends. Anci
 
 # Neow's Talisman
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/neows-talisman.webp" target="_blank" rel="noopener" aria-label="View full image: Neow&#x27;s Talisman" title="View full image: Neow&#x27;s Talisman"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/neows-talisman.webp" alt="Neow&#x27;s Talisman" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, Upgrade 1 of your Strikes and 1 of your Defends.
 
 | Property | Value |

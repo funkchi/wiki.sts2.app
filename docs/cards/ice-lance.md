@@ -5,9 +5,9 @@ description: "Deal 19 damage. Channel 3 Frost. Defect Attack card."
 
 # Ice Lance
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/ice-lance.webp" target="_blank" rel="noopener" aria-label="View full image: Ice Lance" title="View full image: Ice Lance"><img class="wiki-image wiki-image--card-detail" src="/media/cards/ice-lance.webp" alt="Ice Lance" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 19 damage. Channel 3 Frost.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Deal 7 damage. If you have 5 or more other cards in your Hand, hit
 
 # Follow Through
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/follow-through.webp" target="_blank" rel="noopener" aria-label="View full image: Follow Through" title="View full image: Follow Through"><img class="wiki-image wiki-image--card-detail" src="/media/cards/follow-through.webp" alt="Follow Through" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 7 damage. If you have 5 or more other cards in your Hand, hits an additional time.
 
 | Property | Value |

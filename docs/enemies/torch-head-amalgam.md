@@ -5,9 +5,9 @@ description: "Boss enemy with 199 (Asc 211) HP. Tackle 1 -> Tackle 2 -> Beam -> 
 
 # Torch Head Amalgam
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/torch-head-amalgam.webp" target="_blank" rel="noopener" aria-label="View full image: Torch Head Amalgam" title="View full image: Torch Head Amalgam"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/torch-head-amalgam.webp" alt="Torch Head Amalgam" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Boss |

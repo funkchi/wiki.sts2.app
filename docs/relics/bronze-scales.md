@@ -5,9 +5,9 @@ description: "Start each combat with 3 Thorns. Common Relic relic."
 
 # Bronze Scales
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/bronze-scales.webp" target="_blank" rel="noopener" aria-label="View full image: Bronze Scales" title="View full image: Bronze Scales"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/bronze-scales.webp" alt="Bronze Scales" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Start each combat with 3 Thorns.
 
 | Property | Value |

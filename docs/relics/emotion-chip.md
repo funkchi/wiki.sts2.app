@@ -5,9 +5,9 @@ description: "If you lost HP during the previous turn, trigger the passive abili
 
 # Emotion Chip
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/emotion-chip.webp" target="_blank" rel="noopener" aria-label="View full image: Emotion Chip" title="View full image: Emotion Chip"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/emotion-chip.webp" alt="Emotion Chip" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 If you lost HP during the previous turn, trigger the passive ability of all Orbs at the start of your turn.
 
 | Property | Value |

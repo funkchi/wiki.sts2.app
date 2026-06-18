@@ -5,9 +5,9 @@ description: "Enemy loses X Strength. Apply X Weak. Silent Skill card."
 
 # Malaise
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/malaise.webp" target="_blank" rel="noopener" aria-label="View full image: Malaise" title="View full image: Malaise"><img class="wiki-image wiki-image--card-detail" src="/media/cards/malaise.webp" alt="Malaise" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Enemy loses X Strength. Apply X Weak.
 
 | Property | Value |

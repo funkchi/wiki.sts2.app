@@ -5,9 +5,9 @@ description: "Apply 10 Doom, plus an additional 5 Doom for every 10 Doom already
 
 # No Escape
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/no-escape.webp" target="_blank" rel="noopener" aria-label="View full image: No Escape" title="View full image: No Escape"><img class="wiki-image wiki-image--card-detail" src="/media/cards/no-escape.webp" alt="No Escape" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Apply 10 Doom, plus an additional 5 Doom for every 10 Doom already on this enemy.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "The first Hand you draw each combat is Upgraded. Rare Relic relic.
 
 # Bellows
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/bellows.webp" target="_blank" rel="noopener" aria-label="View full image: Bellows" title="View full image: Bellows"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/bellows.webp" alt="Bellows" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The first Hand you draw each combat is Upgraded.
 
 | Property | Value |

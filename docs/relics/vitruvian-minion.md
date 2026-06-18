@@ -5,9 +5,9 @@ description: "Cards containing \"Minion\" deal double damage and gain double Blo
 
 # Vitruvian Minion
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/vitruvian-minion.webp" target="_blank" rel="noopener" aria-label="View full image: Vitruvian Minion" title="View full image: Vitruvian Minion"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/vitruvian-minion.webp" alt="Vitruvian Minion" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Cards containing "Minion" deal double damage and gain double Block.
 
 | Property | Value |

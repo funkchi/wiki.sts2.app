@@ -5,9 +5,9 @@ description: "Each combat, the first time you play a card that Debuffs an enemy,
 
 # Unsettling Lamp
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/unsettling-lamp.webp" target="_blank" rel="noopener" aria-label="View full image: Unsettling Lamp" title="View full image: Unsettling Lamp"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/unsettling-lamp.webp" alt="Unsettling Lamp" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Each combat, the first time you play a card that Debuffs an enemy, double its effect.
 
 | Property | Value |

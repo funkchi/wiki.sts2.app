@@ -5,9 +5,9 @@ description: "At the end of your turn, 1 random Attack in your Hand is played ag
 
 # Stampede
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/stampede.webp" target="_blank" rel="noopener" aria-label="View full image: Stampede" title="View full image: Stampede"><img class="wiki-image wiki-image--card-detail" src="/media/cards/stampede.webp" alt="Stampede" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the end of your turn, 1 random Attack in your Hand is played against a random enemy.
 
 | Property | Value |

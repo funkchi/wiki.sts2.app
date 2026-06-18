@@ -5,9 +5,9 @@ description: "Deal 3 damage. If the enemy intends to attack, apply 1 Weak. Defec
 
 # Go for the Eyes
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/go-for-the-eyes.webp" target="_blank" rel="noopener" aria-label="View full image: Go for the Eyes" title="View full image: Go for the Eyes"><img class="wiki-image wiki-image--card-detail" src="/media/cards/go-for-the-eyes.webp" alt="Go for the Eyes" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 3 damage. If the enemy intends to attack, apply 1 Weak.
 
 | Property | Value |

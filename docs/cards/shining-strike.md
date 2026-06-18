@@ -5,9 +5,9 @@ description: "Deal 8 damage. Gain 2 Star. Put this card on top of your Draw Pile
 
 # Shining Strike
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/shining-strike.webp" target="_blank" rel="noopener" aria-label="View full image: Shining Strike" title="View full image: Shining Strike"><img class="wiki-image wiki-image--card-detail" src="/media/cards/shining-strike.webp" alt="Shining Strike" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 8 damage. Gain 2 Star. Put this card on top of your Draw Pile.
 
 | Property | Value |

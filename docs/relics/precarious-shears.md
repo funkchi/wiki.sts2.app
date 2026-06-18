@@ -5,9 +5,9 @@ description: "Upon pickup, remove 2 cards from your Deck and lose 16 HP. Ancient
 
 # Precarious Shears
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/precarious-shears.webp" target="_blank" rel="noopener" aria-label="View full image: Precarious Shears" title="View full image: Precarious Shears"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/precarious-shears.webp" alt="Precarious Shears" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, remove 2 cards from your Deck and lose 16 HP.
 
 | Property | Value |

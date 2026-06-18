@@ -5,9 +5,9 @@ description: "Normal enemy with 51-53 (Asc 52-54) HP. Always uses Incantation"
 
 # Damp Cultist
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/damp-cultist.webp" target="_blank" rel="noopener" aria-label="View full image: Damp Cultist" title="View full image: Damp Cultist"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/damp-cultist.webp" alt="Damp Cultist" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

@@ -5,9 +5,9 @@ description: "Gain 6 Block. If you applied Doom this turn, gain Block 2 addition
 
 # Death's Door
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/deaths-door.webp" target="_blank" rel="noopener" aria-label="View full image: Death&#x27;s Door" title="View full image: Death&#x27;s Door"><img class="wiki-image wiki-image--card-detail" src="/media/cards/deaths-door.webp" alt="Death&#x27;s Door" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 6 Block. If you applied Doom this turn, gain Block 2 additional times.
 
 | Property | Value |

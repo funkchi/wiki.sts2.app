@@ -5,9 +5,9 @@ description: "Gain 1 Intangible. Event Skill card."
 
 # Apparition
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/apparition.webp" target="_blank" rel="noopener" aria-label="View full image: Apparition" title="View full image: Apparition"><img class="wiki-image wiki-image--card-detail" src="/media/cards/apparition.webp" alt="Apparition" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 1 Intangible.
 
 | Property | Value |

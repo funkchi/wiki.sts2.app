@@ -5,9 +5,9 @@ description: "Whenever you spend or gain 1 Star, deal 3 damage to ALL enemies. R
 
 # Black Hole
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/black-hole.webp" target="_blank" rel="noopener" aria-label="View full image: Black Hole" title="View full image: Black Hole"><img class="wiki-image wiki-image--card-detail" src="/media/cards/black-hole.webp" alt="Black Hole" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you spend or gain 1 Star, deal 3 damage to ALL enemies.
 
 | Property | Value |

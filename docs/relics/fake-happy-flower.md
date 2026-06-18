@@ -5,9 +5,9 @@ description: "Every 5 turns, gain 1 Energy. Event Relic relic."
 
 # Happy Flower???
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/fake-happy-flower.webp" target="_blank" rel="noopener" aria-label="View full image: Happy Flower???" title="View full image: Happy Flower???"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/fake-happy-flower.webp" alt="Happy Flower???" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Every 5 turns, gain 1 Energy.
 
 | Property | Value |

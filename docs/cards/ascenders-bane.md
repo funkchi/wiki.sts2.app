@@ -5,9 +5,9 @@ description: "Curse Curse card."
 
 # Ascender's Bane
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/ascenders-bane.webp" target="_blank" rel="noopener" aria-label="View full image: Ascender&#x27;s Bane" title="View full image: Ascender&#x27;s Bane"><img class="wiki-image wiki-image--card-detail" src="/media/cards/ascenders-bane.webp" alt="Ascender&#x27;s Bane" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 No description is currently available.
 
 | Property | Value |

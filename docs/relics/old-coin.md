@@ -5,9 +5,9 @@ description: "Upon pickup, gain 300 Gold. Rare Relic relic."
 
 # Old Coin
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/old-coin.webp" target="_blank" rel="noopener" aria-label="View full image: Old Coin" title="View full image: Old Coin"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/old-coin.webp" alt="Old Coin" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, gain 300 Gold.
 
 | Property | Value |

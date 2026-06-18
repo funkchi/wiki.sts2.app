@@ -5,9 +5,9 @@ description: "Another player adds 1 random Colorless card to their Hand. Regent 
 
 # Largesse
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/largesse.webp" target="_blank" rel="noopener" aria-label="View full image: Largesse" title="View full image: Largesse"><img class="wiki-image wiki-image--card-detail" src="/media/cards/largesse.webp" alt="Largesse" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Another player adds 1 random Colorless card to their Hand.
 
 | Property | Value |

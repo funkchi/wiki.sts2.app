@@ -5,9 +5,9 @@ description: "At the start of your turn, draw 1 card and Exhaust 1 card from you
 
 # Tyranny
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/tyranny.webp" target="_blank" rel="noopener" aria-label="View full image: Tyranny" title="View full image: Tyranny"><img class="wiki-image wiki-image--card-detail" src="/media/cards/tyranny.webp" alt="Tyranny" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your turn, draw 1 card and Exhaust 1 card from your Hand.
 
 | Property | Value |

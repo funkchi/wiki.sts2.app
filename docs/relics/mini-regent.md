@@ -5,9 +5,9 @@ description: "The first time you spend 1 Star each turn, gain 1 Strength. Rare R
 
 # Mini Regent
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/mini-regent.webp" target="_blank" rel="noopener" aria-label="View full image: Mini Regent" title="View full image: Mini Regent"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/mini-regent.webp" alt="Mini Regent" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The first time you spend 1 Star each turn, gain 1 Strength.
 
 | Property | Value |

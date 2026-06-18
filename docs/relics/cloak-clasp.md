@@ -5,9 +5,9 @@ description: "At the end of your turn, gain 1 Block for each card in your Hand. 
 
 # Cloak Clasp
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/cloak-clasp.webp" target="_blank" rel="noopener" aria-label="View full image: Cloak Clasp" title="View full image: Cloak Clasp"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/cloak-clasp.webp" alt="Cloak Clasp" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the end of your turn, gain 1 Block for each card in your Hand.
 
 | Property | Value |

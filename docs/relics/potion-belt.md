@@ -5,9 +5,9 @@ description: "Upon pickup, gain 2 potion slots. Common Relic relic."
 
 # Potion Belt
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/potion-belt.webp" target="_blank" rel="noopener" aria-label="View full image: Potion Belt" title="View full image: Potion Belt"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/potion-belt.webp" alt="Potion Belt" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, gain 2 potion slots.
 
 | Property | Value |

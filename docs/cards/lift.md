@@ -5,9 +5,9 @@ description: "Give another player 11 Block. Colorless Skill card."
 
 # Lift
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/lift.webp" target="_blank" rel="noopener" aria-label="View full image: Lift" title="View full image: Lift"><img class="wiki-image wiki-image--card-detail" src="/media/cards/lift.webp" alt="Lift" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Give another player 11 Block.
 
 | Property | Value |

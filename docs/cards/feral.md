@@ -5,9 +5,9 @@ description: "The first time you play a 01 Energy Attack each turn, return it to
 
 # Feral
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/feral.webp" target="_blank" rel="noopener" aria-label="View full image: Feral" title="View full image: Feral"><img class="wiki-image wiki-image--card-detail" src="/media/cards/feral.webp" alt="Feral" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The first time you play a 01 Energy Attack each turn, return it to your Hand.
 
 | Property | Value |

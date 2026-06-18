@@ -5,9 +5,9 @@ description: "Boss enemy with 252 (Asc 262) HP. Stamp -> Plow -> repeat"
 
 # Ceremonial Beast
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/ceremonial-beast.webp" target="_blank" rel="noopener" aria-label="View full image: Ceremonial Beast" title="View full image: Ceremonial Beast"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/ceremonial-beast.webp" alt="Ceremonial Beast" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Boss |

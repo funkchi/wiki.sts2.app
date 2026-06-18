@@ -5,9 +5,9 @@ description: "While you have no potions, you have 2 additional Dexterity. Shop R
 
 # Belt Buckle
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/belt-buckle.webp" target="_blank" rel="noopener" aria-label="View full image: Belt Buckle" title="View full image: Belt Buckle"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/belt-buckle.webp" alt="Belt Buckle" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 While you have no potions, you have 2 additional Dexterity.
 
 | Property | Value |

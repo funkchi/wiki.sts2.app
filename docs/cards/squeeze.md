@@ -5,9 +5,9 @@ description: "Osty deals 25 damage. Deals 5 additional damage for ALL your other
 
 # Squeeze
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/squeeze.webp" target="_blank" rel="noopener" aria-label="View full image: Squeeze" title="View full image: Squeeze"><img class="wiki-image wiki-image--card-detail" src="/media/cards/squeeze.webp" alt="Squeeze" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Osty deals 25 damage. Deals 5 additional damage for ALL your other Osty Attacks.
 
 | Property | Value |

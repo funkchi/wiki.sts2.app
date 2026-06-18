@@ -5,9 +5,9 @@ description: "At the start of each combat, fill all empty potion slots with rand
 
 # Delicate Frond
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/delicate-frond.webp" target="_blank" rel="noopener" aria-label="View full image: Delicate Frond" title="View full image: Delicate Frond"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/delicate-frond.webp" alt="Delicate Frond" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of each combat, fill all empty potion slots with random potions.
 
 | Property | Value |

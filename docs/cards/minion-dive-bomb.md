@@ -5,9 +5,9 @@ description: "Deal 13 damage. Token Attack card."
 
 # Minion Dive Bomb
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/minion-dive-bomb.webp" target="_blank" rel="noopener" aria-label="View full image: Minion Dive Bomb" title="View full image: Minion Dive Bomb"><img class="wiki-image wiki-image--card-detail" src="/media/cards/minion-dive-bomb.webp" alt="Minion Dive Bomb" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 13 damage.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Upon pickup, Enchant a Skill with Imbued. Ancient Relic relic."
 
 # Electric Shrymp
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/electric-shrymp.webp" target="_blank" rel="noopener" aria-label="View full image: Electric Shrymp" title="View full image: Electric Shrymp"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/electric-shrymp.webp" alt="Electric Shrymp" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, Enchant a Skill with Imbued.
 
 | Property | Value |

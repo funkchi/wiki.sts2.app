@@ -5,9 +5,9 @@ description: "Boss enemy with 240 (Asc 250) HP. Pressurize -> Stomp -> Ram -> Si
 
 # Waterfall Giant
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/waterfall-giant.webp" target="_blank" rel="noopener" aria-label="View full image: Waterfall Giant" title="View full image: Waterfall Giant"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/waterfall-giant.webp" alt="Waterfall Giant" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Boss |

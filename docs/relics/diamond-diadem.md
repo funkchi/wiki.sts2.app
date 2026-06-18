@@ -5,9 +5,9 @@ description: "Whenever you play 2 or fewer cards in a turn, take half damage fro
 
 # Diamond Diadem
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/diamond-diadem.webp" target="_blank" rel="noopener" aria-label="View full image: Diamond Diadem" title="View full image: Diamond Diadem"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/diamond-diadem.webp" alt="Diamond Diadem" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you play 2 or fewer cards in a turn, take half damage from enemies.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "At the start of each combat, add 2 random Ethereal cards into your
 
 # Big Hat
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/big-hat.webp" target="_blank" rel="noopener" aria-label="View full image: Big Hat" title="View full image: Big Hat"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/big-hat.webp" alt="Big Hat" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of each combat, add 2 random Ethereal cards into your Hand.
 
 | Property | Value |

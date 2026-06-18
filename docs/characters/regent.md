@@ -5,9 +5,9 @@ description: "Heir to the Throne of Stars. Wields cosmic powers but his minions 
 
 # The Regent
 
-<div class="wiki-entity-hero wiki-entity-hero--character">
+<div class="wiki-entity-hero wiki-entity-hero--character" markdown="1">
 <a class="wiki-image-link" href="/media/characters/regent.webp" target="_blank" rel="noopener" aria-label="View full image: The Regent" title="View full image: The Regent"><img class="wiki-image wiki-image--character-detail" src="/media/characters/regent.webp" alt="The Regent" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Heir to the Throne of Stars. Wields cosmic powers but his minions do the work.
 
 | Stat | Value |

@@ -5,9 +5,9 @@ description: "Deal damage equal to your Block. Ironclad Attack card."
 
 # Body Slam
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/body-slam.webp" target="_blank" rel="noopener" aria-label="View full image: Body Slam" title="View full image: Body Slam"><img class="wiki-image wiki-image--card-detail" src="/media/cards/body-slam.webp" alt="Body Slam" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal damage equal to your Block.
 
 | Property | Value |

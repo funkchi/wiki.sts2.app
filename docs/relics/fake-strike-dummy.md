@@ -5,9 +5,9 @@ description: "Cards containing \"Strike\" deal 1 additional damage. Event Relic 
 
 # Strike Dummy???
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/fake-strike-dummy.webp" target="_blank" rel="noopener" aria-label="View full image: Strike Dummy???" title="View full image: Strike Dummy???"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/fake-strike-dummy.webp" alt="Strike Dummy???" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Cards containing "Strike" deal 1 additional damage.
 
 | Property | Value |

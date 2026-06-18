@@ -5,9 +5,9 @@ description: "Upon pickup, Upgrade 2 random Attacks. Common Relic relic."
 
 # Whetstone
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/whetstone.webp" target="_blank" rel="noopener" aria-label="View full image: Whetstone" title="View full image: Whetstone"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/whetstone.webp" alt="Whetstone" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, Upgrade 2 random Attacks.
 
 | Property | Value |

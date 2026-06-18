@@ -5,9 +5,9 @@ description: "Enemy loses 8 Strength this turn. Necrobinder Skill card."
 
 # Enfeebling Touch
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/enfeebling-touch.webp" target="_blank" rel="noopener" aria-label="View full image: Enfeebling Touch" title="View full image: Enfeebling Touch"><img class="wiki-image wiki-image--card-detail" src="/media/cards/enfeebling-touch.webp" alt="Enfeebling Touch" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Enemy loses 8 Strength this turn.
 
 | Property | Value |

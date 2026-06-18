@@ -5,9 +5,9 @@ description: "Deal 10 damage. Double the enemy's Vulnerable. Ironclad Attack car
 
 # Molten Fist
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/molten-fist.webp" target="_blank" rel="noopener" aria-label="View full image: Molten Fist" title="View full image: Molten Fist"><img class="wiki-image wiki-image--card-detail" src="/media/cards/molten-fist.webp" alt="Molten Fist" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 10 damage. Double the enemy's Vulnerable.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Whenever you play a Power, deal 8 damage to ALL enemies. Event Rel
 
 # Lost Wisp
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/lost-wisp.webp" target="_blank" rel="noopener" aria-label="View full image: Lost Wisp" title="View full image: Lost Wisp"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/lost-wisp.webp" alt="Lost Wisp" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you play a Power, deal 8 damage to ALL enemies.
 
 | Property | Value |

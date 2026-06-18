@@ -5,9 +5,9 @@ description: "Whenever you play a Power, gain 1 Energy. Defect Power card."
 
 # Subroutine
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/subroutine.webp" target="_blank" rel="noopener" aria-label="View full image: Subroutine" title="View full image: Subroutine"><img class="wiki-image wiki-image--card-detail" src="/media/cards/subroutine.webp" alt="Subroutine" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you play a Power, gain 1 Energy.
 
 | Property | Value |

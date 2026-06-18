@@ -5,9 +5,9 @@ description: "Gain 6 Vigor. Regent Skill card."
 
 # Terraforming
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/terraforming.webp" target="_blank" rel="noopener" aria-label="View full image: Terraforming" title="View full image: Terraforming"><img class="wiki-image wiki-image--card-detail" src="/media/cards/terraforming.webp" alt="Terraforming" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 6 Vigor.
 
 | Property | Value |

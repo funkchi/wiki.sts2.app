@@ -5,9 +5,9 @@ description: "A Spireborn lich who seeks revenge. Calls upon her trusty left han
 
 # The Necrobinder
 
-<div class="wiki-entity-hero wiki-entity-hero--character">
+<div class="wiki-entity-hero wiki-entity-hero--character" markdown="1">
 <a class="wiki-image-link" href="/media/characters/necrobinder.webp" target="_blank" rel="noopener" aria-label="View full image: The Necrobinder" title="View full image: The Necrobinder"><img class="wiki-image wiki-image--character-detail" src="/media/characters/necrobinder.webp" alt="The Necrobinder" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 A Spireborn lich who seeks revenge. Calls upon her trusty left hand, Osty, in combat.
 
 | Stat | Value |

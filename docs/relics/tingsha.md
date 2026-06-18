@@ -5,9 +5,9 @@ description: "Whenever you discard a card during your turn, deal 3 damage to a r
 
 # Tingsha
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/tingsha.webp" target="_blank" rel="noopener" aria-label="View full image: Tingsha" title="View full image: Tingsha"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/tingsha.webp" alt="Tingsha" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you discard a card during your turn, deal 3 damage to a random enemy for each card discarded.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "ALL players draw 2 cards. Colorless Skill card."
 
 # Huddle Up
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/huddle-up.webp" target="_blank" rel="noopener" aria-label="View full image: Huddle Up" title="View full image: Huddle Up"><img class="wiki-image wiki-image--card-detail" src="/media/cards/huddle-up.webp" alt="Huddle Up" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 ALL players draw 2 cards.
 
 | Property | Value |

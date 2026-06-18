@@ -5,9 +5,9 @@ description: "Osty deals 10 damage to a random enemy. Token Attack card."
 
 # Sweeping Gaze
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/sweeping-gaze.webp" target="_blank" rel="noopener" aria-label="View full image: Sweeping Gaze" title="View full image: Sweeping Gaze"><img class="wiki-image wiki-image--card-detail" src="/media/cards/sweeping-gaze.webp" alt="Sweeping Gaze" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Osty deals 10 damage to a random enemy.
 
 | Property | Value |

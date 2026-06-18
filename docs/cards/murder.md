@@ -5,9 +5,9 @@ description: "Deal 1 damage. Deals 1 additional damage for each card drawn this 
 
 # Murder
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/murder.webp" target="_blank" rel="noopener" aria-label="View full image: Murder" title="View full image: Murder"><img class="wiki-image wiki-image--card-detail" src="/media/cards/murder.webp" alt="Murder" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 1 damage. Deals 1 additional damage for each card drawn this combat.
 
 | Property | Value |

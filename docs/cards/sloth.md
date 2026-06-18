@@ -5,9 +5,9 @@ description: "You cannot play more than 3 cards each turn. Token Status card."
 
 # Sloth
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/sloth.webp" target="_blank" rel="noopener" aria-label="View full image: Sloth" title="View full image: Sloth"><img class="wiki-image wiki-image--card-detail" src="/media/cards/sloth.webp" alt="Sloth" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 You cannot play more than 3 cards each turn.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Whenever you apply Vulnerable, draw 1 card. Ironclad Power card."
 
 # Vicious
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/vicious.webp" target="_blank" rel="noopener" aria-label="View full image: Vicious" title="View full image: Vicious"><img class="wiki-image wiki-image--card-detail" src="/media/cards/vicious.webp" alt="Vicious" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you apply Vulnerable, draw 1 card.
 
 | Property | Value |

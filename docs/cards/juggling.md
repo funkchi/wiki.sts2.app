@@ -5,9 +5,9 @@ description: "Add a copy of the third Attack you play each turn into your Hand. 
 
 # Juggling
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/juggling.webp" target="_blank" rel="noopener" aria-label="View full image: Juggling" title="View full image: Juggling"><img class="wiki-image wiki-image--card-detail" src="/media/cards/juggling.webp" alt="Juggling" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Add a copy of the third Attack you play each turn into your Hand.
 
 | Property | Value |

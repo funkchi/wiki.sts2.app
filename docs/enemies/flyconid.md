@@ -5,9 +5,9 @@ description: "Normal enemy with 47-49 (Asc 51-53) HP."
 
 # Flyconid
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/flyconid.webp" target="_blank" rel="noopener" aria-label="View full image: Flyconid" title="View full image: Flyconid"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/flyconid.webp" alt="Flyconid" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

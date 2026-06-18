@@ -5,9 +5,9 @@ description: "At the start of the next combat, Upgrade your starting hand. Event
 
 # Bone Tea
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/bone-tea.webp" target="_blank" rel="noopener" aria-label="View full image: Bone Tea" title="View full image: Bone Tea"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/bone-tea.webp" alt="Bone Tea" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of the next combat, Upgrade your starting hand.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Enemy loses 9 Strength this turn. Colorless Skill card."
 
 # Dark Shackles
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/dark-shackles.webp" target="_blank" rel="noopener" aria-label="View full image: Dark Shackles" title="View full image: Dark Shackles"><img class="wiki-image wiki-image--card-detail" src="/media/cards/dark-shackles.webp" alt="Dark Shackles" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Enemy loses 9 Strength this turn.
 
 | Property | Value |

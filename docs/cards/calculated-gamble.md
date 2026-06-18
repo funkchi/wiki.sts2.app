@@ -5,9 +5,9 @@ description: "Discard your Hand, then draw that many cards. Silent Skill card."
 
 # Calculated Gamble
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/calculated-gamble.webp" target="_blank" rel="noopener" aria-label="View full image: Calculated Gamble" title="View full image: Calculated Gamble"><img class="wiki-image wiki-image--card-detail" src="/media/cards/calculated-gamble.webp" alt="Calculated Gamble" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Discard your Hand, then draw that many cards.
 
 | Property | Value |

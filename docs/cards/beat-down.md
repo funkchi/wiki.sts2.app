@@ -5,9 +5,9 @@ description: "Play 3 random Attacks from your Discard Pile. Colorless Skill card
 
 # Beat Down
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/beat-down.webp" target="_blank" rel="noopener" aria-label="View full image: Beat Down" title="View full image: Beat Down"><img class="wiki-image wiki-image--card-detail" src="/media/cards/beat-down.webp" alt="Beat Down" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Play 3 random Attacks from your Discard Pile.
 
 | Property | Value |

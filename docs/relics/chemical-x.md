@@ -5,9 +5,9 @@ description: "The effects of your cost X cards are increased by 2. Shop Relic re
 
 # Chemical X
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/chemical-x.webp" target="_blank" rel="noopener" aria-label="View full image: Chemical X" title="View full image: Chemical X"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/chemical-x.webp" alt="Chemical X" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The effects of your cost X cards are increased by 2.
 
 | Property | Value |

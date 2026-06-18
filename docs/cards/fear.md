@@ -5,9 +5,9 @@ description: "Deal 7 damage. Apply 1 Vulnerable. Necrobinder Attack card."
 
 # Fear
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/fear.webp" target="_blank" rel="noopener" aria-label="View full image: Fear" title="View full image: Fear"><img class="wiki-image wiki-image--card-detail" src="/media/cards/fear.webp" alt="Fear" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 7 damage. Apply 1 Vulnerable.
 
 | Property | Value |

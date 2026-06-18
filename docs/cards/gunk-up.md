@@ -5,9 +5,9 @@ description: "Deal 4 damage 3 times. Add a Slimed into your Discard Pile. Defect
 
 # Gunk Up
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/gunk-up.webp" target="_blank" rel="noopener" aria-label="View full image: Gunk Up" title="View full image: Gunk Up"><img class="wiki-image wiki-image--card-detail" src="/media/cards/gunk-up.webp" alt="Gunk Up" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 4 damage 3 times. Add a Slimed into your Discard Pile.
 
 | Property | Value |

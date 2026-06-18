@@ -5,9 +5,9 @@ description: "Deal 8 damage. If the enemy is Vulnerable, hits twice. Ironclad At
 
 # Dismantle
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/dismantle.webp" target="_blank" rel="noopener" aria-label="View full image: Dismantle" title="View full image: Dismantle"><img class="wiki-image wiki-image--card-detail" src="/media/cards/dismantle.webp" alt="Dismantle" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 8 damage. If the enemy is Vulnerable, hits twice.
 
 | Property | Value |

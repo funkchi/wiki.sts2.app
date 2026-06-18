@@ -5,9 +5,9 @@ description: "Normal enemy with 53-55 (Asc 54-56) HP. Starts with Constrict"
 
 # Slithering Strangler
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/slithering-strangler.webp" target="_blank" rel="noopener" aria-label="View full image: Slithering Strangler" title="View full image: Slithering Strangler"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/slithering-strangler.webp" alt="Slithering Strangler" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

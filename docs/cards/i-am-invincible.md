@@ -5,9 +5,9 @@ description: "Gain 10 Block. At the end of your turn, if this is on top of your 
 
 # I Am Invincible
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/i-am-invincible.webp" target="_blank" rel="noopener" aria-label="View full image: I Am Invincible" title="View full image: I Am Invincible"><img class="wiki-image wiki-image--card-detail" src="/media/cards/i-am-invincible.webp" alt="I Am Invincible" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 10 Block. At the end of your turn, if this is on top of your Draw Pile, play it.
 
 | Property | Value |

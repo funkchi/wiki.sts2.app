@@ -5,9 +5,9 @@ description: "Discard your Hand. Add 1 Shiv into your Hand for each card discard
 
 # Storm of Steel
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/storm-of-steel.webp" target="_blank" rel="noopener" aria-label="View full image: Storm of Steel" title="View full image: Storm of Steel"><img class="wiki-image wiki-image--card-detail" src="/media/cards/storm-of-steel.webp" alt="Storm of Steel" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Discard your Hand. Add 1 Shiv into your Hand for each card discarded.
 
 | Property | Value |

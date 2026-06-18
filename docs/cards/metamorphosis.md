@@ -5,9 +5,9 @@ description: "Add 3 random Attacks into your Draw Pile. They're free to play thi
 
 # Metamorphosis
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/metamorphosis.webp" target="_blank" rel="noopener" aria-label="View full image: Metamorphosis" title="View full image: Metamorphosis"><img class="wiki-image wiki-image--card-detail" src="/media/cards/metamorphosis.webp" alt="Metamorphosis" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Add 3 random Attacks into your Draw Pile. They're free to play this combat.
 
 | Property | Value |

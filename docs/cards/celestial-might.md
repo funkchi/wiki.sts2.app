@@ -5,9 +5,9 @@ description: "Deal 6 damage 3 times. Regent Attack card."
 
 # Celestial Might
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/celestial-might.webp" target="_blank" rel="noopener" aria-label="View full image: Celestial Might" title="View full image: Celestial Might"><img class="wiki-image wiki-image--card-detail" src="/media/cards/celestial-might.webp" alt="Celestial Might" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 6 damage 3 times.
 
 | Property | Value |

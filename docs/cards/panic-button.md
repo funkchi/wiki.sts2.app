@@ -5,9 +5,9 @@ description: "Gain 30 Block. You cannot gain Block from cards for 2 turns. Color
 
 # Panic Button
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/panic-button.webp" target="_blank" rel="noopener" aria-label="View full image: Panic Button" title="View full image: Panic Button"><img class="wiki-image wiki-image--card-detail" src="/media/cards/panic-button.webp" alt="Panic Button" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 30 Block. You cannot gain Block from cards for 2 turns.
 
 | Property | Value |

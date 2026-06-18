@@ -5,9 +5,9 @@ description: "You may reroll each card reward once. Ancient Relic relic."
 
 # Driftwood
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/driftwood.webp" target="_blank" rel="noopener" aria-label="View full image: Driftwood" title="View full image: Driftwood"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/driftwood.webp" alt="Driftwood" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 You may reroll each card reward once.
 
 | Property | Value |

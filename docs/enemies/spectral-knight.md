@@ -5,9 +5,9 @@ description: "Elite enemy with 93 (Asc 97) HP. Starts: Hex -> Soul Slash"
 
 # Spectral Knight
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/spectral-knight.webp" target="_blank" rel="noopener" aria-label="View full image: Spectral Knight" title="View full image: Spectral Knight"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/spectral-knight.webp" alt="Spectral Knight" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Elite |

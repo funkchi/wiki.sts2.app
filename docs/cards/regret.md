@@ -5,9 +5,9 @@ description: "At the end of your turn, if this is in your Hand, lose 1 HP for ea
 
 # Regret
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/regret.webp" target="_blank" rel="noopener" aria-label="View full image: Regret" title="View full image: Regret"><img class="wiki-image wiki-image--card-detail" src="/media/cards/regret.webp" alt="Regret" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the end of your turn, if this is in your Hand, lose 1 HP for each card in your Hand.
 
 | Property | Value |

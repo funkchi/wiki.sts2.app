@@ -5,9 +5,9 @@ description: "Deal 21 damage to ALL enemies. Fill your Hand with Debris. Regent 
 
 # Crash Landing
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/crash-landing.webp" target="_blank" rel="noopener" aria-label="View full image: Crash Landing" title="View full image: Crash Landing"><img class="wiki-image wiki-image--card-detail" src="/media/cards/crash-landing.webp" alt="Crash Landing" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 21 damage to ALL enemies. Fill your Hand with Debris.
 
 | Property | Value |

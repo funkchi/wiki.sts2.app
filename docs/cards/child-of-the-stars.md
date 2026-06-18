@@ -5,9 +5,9 @@ description: "Whenever you spend 1 Star, gain 2 Block for each 1 Star spent. Reg
 
 # Child of the Stars
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/child-of-the-stars.webp" target="_blank" rel="noopener" aria-label="View full image: Child of the Stars" title="View full image: Child of the Stars"><img class="wiki-image wiki-image--card-detail" src="/media/cards/child-of-the-stars.webp" alt="Child of the Stars" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you spend 1 Star, gain 2 Block for each 1 Star spent.
 
 | Property | Value |

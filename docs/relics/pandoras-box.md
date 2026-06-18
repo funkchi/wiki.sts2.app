@@ -5,9 +5,9 @@ description: "Transform ALL Strikes and Defends. Ancient Relic relic."
 
 # Pandora's Box
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/pandoras-box.webp" target="_blank" rel="noopener" aria-label="View full image: Pandora&#x27;s Box" title="View full image: Pandora&#x27;s Box"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/pandoras-box.webp" alt="Pandora&#x27;s Box" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Transform ALL Strikes and Defends.
 
 | Property | Value |

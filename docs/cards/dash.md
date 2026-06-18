@@ -5,9 +5,9 @@ description: "Gain 10 Block. Deal 10 damage. Silent Attack card."
 
 # Dash
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/dash.webp" target="_blank" rel="noopener" aria-label="View full image: Dash" title="View full image: Dash"><img class="wiki-image wiki-image--card-detail" src="/media/cards/dash.webp" alt="Dash" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 10 Block. Deal 10 damage.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Transform a card in your Draw Pile into Soul. Necrobinder Skill ca
 
 # Seance
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/seance.webp" target="_blank" rel="noopener" aria-label="View full image: Seance" title="View full image: Seance"><img class="wiki-image wiki-image--card-detail" src="/media/cards/seance.webp" alt="Seance" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Transform a card in your Draw Pile into Soul.
 
 | Property | Value |

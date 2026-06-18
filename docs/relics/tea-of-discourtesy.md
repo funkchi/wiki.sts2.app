@@ -5,9 +5,9 @@ description: "At the start of the next combat, shuffle 2 Dazed into your Draw Pi
 
 # Tea of Discourtesy
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/tea-of-discourtesy.webp" target="_blank" rel="noopener" aria-label="View full image: Tea of Discourtesy" title="View full image: Tea of Discourtesy"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/tea-of-discourtesy.webp" alt="Tea of Discourtesy" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of the next combat, shuffle 2 Dazed into your Draw Pile.
 
 | Property | Value |

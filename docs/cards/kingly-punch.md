@@ -5,9 +5,9 @@ description: "Deal 8 damage. Whenever you draw this card, increase its damage by
 
 # Kingly Punch
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/kingly-punch.webp" target="_blank" rel="noopener" aria-label="View full image: Kingly Punch" title="View full image: Kingly Punch"><img class="wiki-image wiki-image--card-detail" src="/media/cards/kingly-punch.webp" alt="Kingly Punch" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 8 damage. Whenever you draw this card, increase its damage by 4 this combat.
 
 | Property | Value |

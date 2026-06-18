@@ -5,9 +5,9 @@ description: "Deal 5 damage twice. Increase the damage of ALL Maul cards by 1 th
 
 # Maul
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/maul.webp" target="_blank" rel="noopener" aria-label="View full image: Maul" title="View full image: Maul"><img class="wiki-image wiki-image--card-detail" src="/media/cards/maul.webp" alt="Maul" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 5 damage twice. Increase the damage of ALL Maul cards by 1 this combat.
 
 | Property | Value |

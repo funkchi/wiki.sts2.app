@@ -5,9 +5,9 @@ description: "Upon pickup, gain 1 card reward and procure 1 random potion. Ancie
 
 # Lost Coffer
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/lost-coffer.webp" target="_blank" rel="noopener" aria-label="View full image: Lost Coffer" title="View full image: Lost Coffer"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/lost-coffer.webp" alt="Lost Coffer" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, gain 1 card reward and procure 1 random potion.
 
 | Property | Value |

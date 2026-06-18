@@ -5,9 +5,9 @@ description: "You can now gain Strength at Rest Sites. (3 times max) Rare Relic 
 
 # Girya
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/girya.webp" target="_blank" rel="noopener" aria-label="View full image: Girya" title="View full image: Girya"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/girya.webp" alt="Girya" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 You can now gain Strength at Rest Sites. (3 times max)
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Deal 14 damage. Colorless Attack card."
 
 # Ultimate Strike
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/ultimate-strike.webp" target="_blank" rel="noopener" aria-label="View full image: Ultimate Strike" title="View full image: Ultimate Strike"><img class="wiki-image wiki-image--card-detail" src="/media/cards/ultimate-strike.webp" alt="Ultimate Strike" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 14 damage.
 
 | Property | Value |

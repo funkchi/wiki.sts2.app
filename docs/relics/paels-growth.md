@@ -5,9 +5,9 @@ description: "Upon pickup, Enchant a card with Clone. Ancient Relic relic."
 
 # Pael's Growth
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/paels-growth.webp" target="_blank" rel="noopener" aria-label="View full image: Pael&#x27;s Growth" title="View full image: Pael&#x27;s Growth"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/paels-growth.webp" alt="Pael&#x27;s Growth" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, Enchant a card with Clone.
 
 | Property | Value |

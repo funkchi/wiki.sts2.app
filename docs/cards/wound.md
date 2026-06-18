@@ -5,9 +5,9 @@ description: "Status Status card."
 
 # Wound
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/wound.webp" target="_blank" rel="noopener" aria-label="View full image: Wound" title="View full image: Wound"><img class="wiki-image wiki-image--card-detail" src="/media/cards/wound.webp" alt="Wound" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 No description is currently available.
 
 | Property | Value |

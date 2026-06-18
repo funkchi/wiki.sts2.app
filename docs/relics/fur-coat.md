@@ -5,9 +5,9 @@ description: "Upon pickup, mark 7 random combats. Enemies in those rooms have 1 
 
 # Fur Coat
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/fur-coat.webp" target="_blank" rel="noopener" aria-label="View full image: Fur Coat" title="View full image: Fur Coat"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/fur-coat.webp" alt="Fur Coat" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, mark 7 random combats. Enemies in those rooms have 1 HP.
 
 | Property | Value |

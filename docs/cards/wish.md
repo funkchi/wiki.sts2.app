@@ -5,9 +5,9 @@ description: "Put a card from your Draw Pile into your Hand. Event Skill card."
 
 # Wish
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/wish.webp" target="_blank" rel="noopener" aria-label="View full image: Wish" title="View full image: Wish"><img class="wiki-image wiki-image--card-detail" src="/media/cards/wish.webp" alt="Wish" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Put a card from your Draw Pile into your Hand.
 
 | Property | Value |

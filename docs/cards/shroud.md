@@ -5,9 +5,9 @@ description: "Whenever you apply Doom, gain 2 Block. Necrobinder Power card."
 
 # Shroud
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/shroud.webp" target="_blank" rel="noopener" aria-label="View full image: Shroud" title="View full image: Shroud"><img class="wiki-image wiki-image--card-detail" src="/media/cards/shroud.webp" alt="Shroud" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you apply Doom, gain 2 Block.
 
 | Property | Value |

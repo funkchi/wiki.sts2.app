@@ -5,9 +5,9 @@ description: "Gain 6 Block. Apply 1 Weak. Necrobinder Skill card."
 
 # Defy
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/defy.webp" target="_blank" rel="noopener" aria-label="View full image: Defy" title="View full image: Defy"><img class="wiki-image wiki-image--card-detail" src="/media/cards/defy.webp" alt="Defy" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 6 Block. Apply 1 Weak.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Whenever you play a Power, draw 1 card. Rare Relic relic."
 
 # Game Piece
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/game-piece.webp" target="_blank" rel="noopener" aria-label="View full image: Game Piece" title="View full image: Game Piece"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/game-piece.webp" alt="Game Piece" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you play a Power, draw 1 card.
 
 | Property | Value |

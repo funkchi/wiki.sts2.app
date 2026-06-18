@@ -5,9 +5,9 @@ description: "Deal 10 damage. Apply 2 Vulnerable. Event Attack card."
 
 # Squash
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/squash.webp" target="_blank" rel="noopener" aria-label="View full image: Squash" title="View full image: Squash"><img class="wiki-image wiki-image--card-detail" src="/media/cards/squash.webp" alt="Squash" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 10 damage. Apply 2 Vulnerable.
 
 | Property | Value |

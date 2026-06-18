@@ -5,9 +5,9 @@ description: "The first time you gain Block from a card each turn, double the am
 
 # Unmovable
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/unmovable.webp" target="_blank" rel="noopener" aria-label="View full image: Unmovable" title="View full image: Unmovable"><img class="wiki-image wiki-image--card-detail" src="/media/cards/unmovable.webp" alt="Unmovable" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The first time you gain Block from a card each turn, double the amount gained.
 
 | Property | Value |

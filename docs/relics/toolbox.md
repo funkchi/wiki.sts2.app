@@ -5,9 +5,9 @@ description: "At the start of each combat, choose 1 of 3 random Colorless cards 
 
 # Toolbox
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/toolbox.webp" target="_blank" rel="noopener" aria-label="View full image: Toolbox" title="View full image: Toolbox"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/toolbox.webp" alt="Toolbox" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of each combat, choose 1 of 3 random Colorless cards and add the chosen card into your Hand.
 
 | Property | Value |

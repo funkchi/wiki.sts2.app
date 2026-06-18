@@ -5,9 +5,9 @@ description: "Deal 8 damage. Damage ALL other enemies equal to the damage dealt.
 
 # Omnislice
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/omnislice.webp" target="_blank" rel="noopener" aria-label="View full image: Omnislice" title="View full image: Omnislice"><img class="wiki-image wiki-image--card-detail" src="/media/cards/omnislice.webp" alt="Omnislice" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 8 damage. Damage ALL other enemies equal to the damage dealt.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Deal 9 damage. Deals 2 additional damage for each Soul in your Exh
 
 # Soul Storm
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/soul-storm.webp" target="_blank" rel="noopener" aria-label="View full image: Soul Storm" title="View full image: Soul Storm"><img class="wiki-image wiki-image--card-detail" src="/media/cards/soul-storm.webp" alt="Soul Storm" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 9 damage. Deals 2 additional damage for each Soul in your Exhaust Pile.
 
 | Property | Value |

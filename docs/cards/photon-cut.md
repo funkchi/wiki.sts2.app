@@ -5,9 +5,9 @@ description: "Deal 10 damage. Draw 1 card. Put 1 card from your Hand on top of y
 
 # Photon Cut
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/photon-cut.webp" target="_blank" rel="noopener" aria-label="View full image: Photon Cut" title="View full image: Photon Cut"><img class="wiki-image wiki-image--card-detail" src="/media/cards/photon-cut.webp" alt="Photon Cut" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 10 damage. Draw 1 card. Put 1 card from your Hand on top of your Draw Pile.
 
 | Property | Value |

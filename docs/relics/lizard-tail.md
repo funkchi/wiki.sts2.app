@@ -5,9 +5,9 @@ description: "When your HP would be reduced to 0, heal to 50% of your Max HP ins
 
 # Lizard Tail
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/lizard-tail.webp" target="_blank" rel="noopener" aria-label="View full image: Lizard Tail" title="View full image: Lizard Tail"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/lizard-tail.webp" alt="Lizard Tail" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 When your HP would be reduced to 0, heal to 50% of your Max HP instead (works once).
 
 | Property | Value |

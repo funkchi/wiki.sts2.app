@@ -5,9 +5,9 @@ description: "Upon pickup, add 2 Relax to your Deck. Ancient Relic relic."
 
 # Pael's Horn
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/paels-horn.webp" target="_blank" rel="noopener" aria-label="View full image: Pael&#x27;s Horn" title="View full image: Pael&#x27;s Horn"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/paels-horn.webp" alt="Pael&#x27;s Horn" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, add 2 Relax to your Deck.
 
 | Property | Value |

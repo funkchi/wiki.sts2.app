@@ -5,9 +5,9 @@ description: "Whenever you kill an Elite, Upgrade 4 random cards. Ancient Relic 
 
 # War Hammer
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/war-hammer.webp" target="_blank" rel="noopener" aria-label="View full image: War Hammer" title="View full image: War Hammer"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/war-hammer.webp" alt="War Hammer" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you kill an Elite, Upgrade 4 random cards.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Deal 10 damage. If Fatal, raise your Max HP by 3. Ironclad Attack 
 
 # Feed
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/feed.webp" target="_blank" rel="noopener" aria-label="View full image: Feed" title="View full image: Feed"><img class="wiki-image wiki-image--card-detail" src="/media/cards/feed.webp" alt="Feed" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 10 damage. If Fatal, raise your Max HP by 3.
 
 | Property | Value |

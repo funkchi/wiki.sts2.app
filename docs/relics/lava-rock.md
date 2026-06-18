@@ -5,9 +5,9 @@ description: "The Act 1 Boss drops 2 Relics. Ancient Relic relic."
 
 # Lava Rock
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/lava-rock.webp" target="_blank" rel="noopener" aria-label="View full image: Lava Rock" title="View full image: Lava Rock"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/lava-rock.webp" alt="Lava Rock" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 The Act 1 Boss drops 2 Relics.
 
 | Property | Value |

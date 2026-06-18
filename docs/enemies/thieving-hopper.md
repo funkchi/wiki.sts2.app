@@ -5,9 +5,9 @@ description: "Normal enemy with 79 (Asc 84) HP. Thievery -> Flutter -> Hat Trick
 
 # Thieving Hopper
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/thieving-hopper.webp" target="_blank" rel="noopener" aria-label="View full image: Thieving Hopper" title="View full image: Thieving Hopper"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/thieving-hopper.webp" alt="Thieving Hopper" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

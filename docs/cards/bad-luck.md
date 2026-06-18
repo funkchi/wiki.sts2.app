@@ -5,9 +5,9 @@ description: "At the end of your turn, if this is in your Hand, lose 13 HP. Curs
 
 # Bad Luck
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/bad-luck.webp" target="_blank" rel="noopener" aria-label="View full image: Bad Luck" title="View full image: Bad Luck"><img class="wiki-image wiki-image--card-detail" src="/media/cards/bad-luck.webp" alt="Bad Luck" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the end of your turn, if this is in your Hand, lose 13 HP.
 
 | Property | Value |

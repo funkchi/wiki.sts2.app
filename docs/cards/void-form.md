@@ -5,9 +5,9 @@ description: "End your turn. The first 2 cards you play each turn are free to pl
 
 # Void Form
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/void-form.webp" target="_blank" rel="noopener" aria-label="View full image: Void Form" title="View full image: Void Form"><img class="wiki-image wiki-image--card-detail" src="/media/cards/void-form.webp" alt="Void Form" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 End your turn. The first 2 cards you play each turn are free to play.
 
 | Property | Value |

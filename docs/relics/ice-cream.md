@@ -5,9 +5,9 @@ description: "Energy is now conserved between turns. Rare Relic relic."
 
 # Ice Cream
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/ice-cream.webp" target="_blank" rel="noopener" aria-label="View full image: Ice Cream" title="View full image: Ice Cream"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/ice-cream.webp" alt="Ice Cream" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Energy is now conserved between turns.
 
 | Property | Value |

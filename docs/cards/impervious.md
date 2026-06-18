@@ -5,9 +5,9 @@ description: "Gain 30 Block. Ironclad Skill card."
 
 # Impervious
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/impervious.webp" target="_blank" rel="noopener" aria-label="View full image: Impervious" title="View full image: Impervious"><img class="wiki-image wiki-image--card-detail" src="/media/cards/impervious.webp" alt="Impervious" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 30 Block.
 
 | Property | Value |

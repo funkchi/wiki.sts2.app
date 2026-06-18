@@ -5,9 +5,9 @@ description: "Whenever you would lose HP, lose 1 less. Rare Relic relic."
 
 # Tungsten Rod
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/tungsten-rod.webp" target="_blank" rel="noopener" aria-label="View full image: Tungsten Rod" title="View full image: Tungsten Rod"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/tungsten-rod.webp" alt="Tungsten Rod" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you would lose HP, lose 1 less.
 
 | Property | Value |

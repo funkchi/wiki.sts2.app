@@ -5,9 +5,9 @@ description: "Enemies drop 15 additional Gold. Common Relic relic."
 
 # Amethyst Aubergine
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/amethyst-aubergine.webp" target="_blank" rel="noopener" aria-label="View full image: Amethyst Aubergine" title="View full image: Amethyst Aubergine"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/amethyst-aubergine.webp" alt="Amethyst Aubergine" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Enemies drop 15 additional Gold.
 
 | Property | Value |

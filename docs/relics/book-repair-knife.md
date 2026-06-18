@@ -5,9 +5,9 @@ description: "Whenever a non-Minion enemy dies to Doom, heal 3 HP. Uncommon Reli
 
 # Book Repair Knife
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/book-repair-knife.webp" target="_blank" rel="noopener" aria-label="View full image: Book Repair Knife" title="View full image: Book Repair Knife"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/book-repair-knife.webp" alt="Book Repair Knife" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever a non-Minion enemy dies to Doom, heal 3 HP.
 
 | Property | Value |

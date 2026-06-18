@@ -5,9 +5,9 @@ description: "Normal enemy with 42-46 (Asc 44-48) HP. then conditional: Butt (if
 
 # Nibbit
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/nibbit.webp" target="_blank" rel="noopener" aria-label="View full image: Nibbit" title="View full image: Nibbit"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/nibbit.webp" alt="Nibbit" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

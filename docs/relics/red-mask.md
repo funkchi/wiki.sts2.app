@@ -5,9 +5,9 @@ description: "At the start of each combat, apply 1 Weak to ALL enemies. Common R
 
 # Red Mask
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/red-mask.webp" target="_blank" rel="noopener" aria-label="View full image: Red Mask" title="View full image: Red Mask"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/red-mask.webp" alt="Red Mask" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of each combat, apply 1 Weak to ALL enemies.
 
 | Property | Value |

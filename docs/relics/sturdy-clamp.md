@@ -5,9 +5,9 @@ description: "Up to 10 Block persists across turns. Rare Relic relic."
 
 # Sturdy Clamp
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/sturdy-clamp.webp" target="_blank" rel="noopener" aria-label="View full image: Sturdy Clamp" title="View full image: Sturdy Clamp"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/sturdy-clamp.webp" alt="Sturdy Clamp" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Up to 10 Block persists across turns.
 
 | Property | Value |

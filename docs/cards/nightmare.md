@@ -5,9 +5,9 @@ description: "Choose a card. Next turn, add 3 copies of that card into your Hand
 
 # Nightmare
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/nightmare.webp" target="_blank" rel="noopener" aria-label="View full image: Nightmare" title="View full image: Nightmare"><img class="wiki-image wiki-image--card-detail" src="/media/cards/nightmare.webp" alt="Nightmare" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Choose a card. Next turn, add 3 copies of that card into your Hand.
 
 | Property | Value |

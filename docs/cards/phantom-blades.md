@@ -5,9 +5,9 @@ description: "Shivs gain Retain. The first Shiv you play each turn deals 9 addit
 
 # Phantom Blades
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/phantom-blades.webp" target="_blank" rel="noopener" aria-label="View full image: Phantom Blades" title="View full image: Phantom Blades"><img class="wiki-image wiki-image--card-detail" src="/media/cards/phantom-blades.webp" alt="Phantom Blades" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Shivs gain Retain. The first Shiv you play each turn deals 9 additional damage.
 
 | Property | Value |

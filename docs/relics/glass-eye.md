@@ -5,9 +5,9 @@ description: "Upon pickup, obtain 2 Common cards, 2 Uncommon cards, and 1 Rare c
 
 # Glass Eye
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/glass-eye.webp" target="_blank" rel="noopener" aria-label="View full image: Glass Eye" title="View full image: Glass Eye"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/glass-eye.webp" alt="Glass Eye" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, obtain 2 Common cards, 2 Uncommon cards, and 1 Rare card.
 
 | Property | Value |

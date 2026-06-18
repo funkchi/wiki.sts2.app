@@ -5,9 +5,9 @@ description: "Every 4 Energy you spend, gain 1 Energy. Regent Power card."
 
 # Orbit
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/orbit.webp" target="_blank" rel="noopener" aria-label="View full image: Orbit" title="View full image: Orbit"><img class="wiki-image wiki-image--card-detail" src="/media/cards/orbit.webp" alt="Orbit" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Every 4 Energy you spend, gain 1 Energy.
 
 | Property | Value |

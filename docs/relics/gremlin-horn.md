@@ -5,9 +5,9 @@ description: "Whenever an enemy dies, gain 1 Energy and draw 1 card. Uncommon Re
 
 # Gremlin Horn
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/gremlin-horn.webp" target="_blank" rel="noopener" aria-label="View full image: Gremlin Horn" title="View full image: Gremlin Horn"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/gremlin-horn.webp" alt="Gremlin Horn" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever an enemy dies, gain 1 Energy and draw 1 card.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Deal 12 damage. The next Attack you play costs 0 1 Energy. Ironcla
 
 # Unrelenting
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/unrelenting.webp" target="_blank" rel="noopener" aria-label="View full image: Unrelenting" title="View full image: Unrelenting"><img class="wiki-image wiki-image--card-detail" src="/media/cards/unrelenting.webp" alt="Unrelenting" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 12 damage. The next Attack you play costs 0 1 Energy.
 
 | Property | Value |

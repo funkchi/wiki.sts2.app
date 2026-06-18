@@ -5,9 +5,9 @@ description: "At the end of your turn, if this is in your Hand, gain 1 Frail. Cu
 
 # Shame
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/shame.webp" target="_blank" rel="noopener" aria-label="View full image: Shame" title="View full image: Shame"><img class="wiki-image wiki-image--card-detail" src="/media/cards/shame.webp" alt="Shame" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the end of your turn, if this is in your Hand, gain 1 Frail.
 
 | Property | Value |

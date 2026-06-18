@@ -5,9 +5,9 @@ description: "At the end of your turn, if this is in your Hand, take 3 damage. S
 
 # Infection
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/infection.webp" target="_blank" rel="noopener" aria-label="View full image: Infection" title="View full image: Infection"><img class="wiki-image wiki-image--card-detail" src="/media/cards/infection.webp" alt="Infection" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the end of your turn, if this is in your Hand, take 3 damage.
 
 | Property | Value |

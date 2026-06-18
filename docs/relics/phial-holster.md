@@ -5,9 +5,9 @@ description: "Upon pickup, gain 1 potion slot and procure 2 random potions. Anci
 
 # Phial Holster
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/phial-holster.webp" target="_blank" rel="noopener" aria-label="View full image: Phial Holster" title="View full image: Phial Holster"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/phial-holster.webp" alt="Phial Holster" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, gain 1 potion slot and procure 2 random potions.
 
 | Property | Value |

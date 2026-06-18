@@ -5,9 +5,9 @@ description: "Summon 3 X times. Add X Souls into your Draw Pile. Necrobinder Ski
 
 # Dirge
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/dirge.webp" target="_blank" rel="noopener" aria-label="View full image: Dirge" title="View full image: Dirge"><img class="wiki-image wiki-image--card-detail" src="/media/cards/dirge.webp" alt="Dirge" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Summon 3 X times. Add X Souls into your Draw Pile.
 
 | Property | Value |

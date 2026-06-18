@@ -5,9 +5,9 @@ description: "Draw 3 cards. Colorless Skill card."
 
 # Master of Strategy
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/master-of-strategy.webp" target="_blank" rel="noopener" aria-label="View full image: Master of Strategy" title="View full image: Master of Strategy"><img class="wiki-image wiki-image--card-detail" src="/media/cards/master-of-strategy.webp" alt="Master of Strategy" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Draw 3 cards.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Deal damage equal to the number of cards in your Draw Pile. Colorl
 
 # Mind Blast
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/mind-blast.webp" target="_blank" rel="noopener" aria-label="View full image: Mind Blast" title="View full image: Mind Blast"><img class="wiki-image wiki-image--card-detail" src="/media/cards/mind-blast.webp" alt="Mind Blast" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal damage equal to the number of cards in your Draw Pile.
 
 | Property | Value |

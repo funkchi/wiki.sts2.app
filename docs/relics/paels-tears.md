@@ -5,9 +5,9 @@ description: "If you end your turn with unspent 1 Energy, gain an additional 2 E
 
 # Pael's Tears
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/paels-tears.webp" target="_blank" rel="noopener" aria-label="View full image: Pael&#x27;s Tears" title="View full image: Pael&#x27;s Tears"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/paels-tears.webp" alt="Pael&#x27;s Tears" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 If you end your turn with unspent 1 Energy, gain an additional 2 Energy next turn.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Upon pickup, Transform 3 cards, then Upgrade them. Ancient Relic r
 
 # Astrolabe
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/astrolabe.webp" target="_blank" rel="noopener" aria-label="View full image: Astrolabe" title="View full image: Astrolabe"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/astrolabe.webp" alt="Astrolabe" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, Transform 3 cards, then Upgrade them.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "Gain 13 Block. Add 2 Wounds into your Discard Pile. Defect Skill c
 
 # Fight Through
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/fight-through.webp" target="_blank" rel="noopener" aria-label="View full image: Fight Through" title="View full image: Fight Through"><img class="wiki-image wiki-image--card-detail" src="/media/cards/fight-through.webp" alt="Fight Through" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 13 Block. Add 2 Wounds into your Discard Pile.
 
 | Property | Value |

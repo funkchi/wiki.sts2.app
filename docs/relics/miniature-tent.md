@@ -5,9 +5,9 @@ description: "You may choose any number of options at Rest Sites. Shop Relic rel
 
 # Miniature Tent
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/miniature-tent.webp" target="_blank" rel="noopener" aria-label="View full image: Miniature Tent" title="View full image: Miniature Tent"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/miniature-tent.webp" alt="Miniature Tent" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 You may choose any number of options at Rest Sites.
 
 | Property | Value |

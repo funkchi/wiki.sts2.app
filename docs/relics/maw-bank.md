@@ -5,9 +5,9 @@ description: "Whenever you climb a floor, gain 12 Gold. No longer works when you
 
 # Maw Bank
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/maw-bank.webp" target="_blank" rel="noopener" aria-label="View full image: Maw Bank" title="View full image: Maw Bank"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/maw-bank.webp" alt="Maw Bank" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you climb a floor, gain 12 Gold. No longer works when you spend any Gold at the shop.
 
 | Property | Value |

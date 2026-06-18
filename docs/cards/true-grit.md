@@ -5,9 +5,9 @@ description: "Gain 7 Block. Exhaust 1 card at random. Ironclad Skill card."
 
 # True Grit
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/true-grit.webp" target="_blank" rel="noopener" aria-label="View full image: True Grit" title="View full image: True Grit"><img class="wiki-image wiki-image--card-detail" src="/media/cards/true-grit.webp" alt="True Grit" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 7 Block. Exhaust 1 card at random.
 
 | Property | Value |

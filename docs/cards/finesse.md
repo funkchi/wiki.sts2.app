@@ -5,9 +5,9 @@ description: "Gain 4 Block. Draw 1 card. Colorless Skill card."
 
 # Finesse
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/finesse.webp" target="_blank" rel="noopener" aria-label="View full image: Finesse" title="View full image: Finesse"><img class="wiki-image wiki-image--card-detail" src="/media/cards/finesse.webp" alt="Finesse" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 4 Block. Draw 1 card.
 
 | Property | Value |

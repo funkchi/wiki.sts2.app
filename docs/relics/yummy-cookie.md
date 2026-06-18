@@ -5,9 +5,9 @@ description: "Upon pickup, Upgrade 4 cards. Ancient Relic relic."
 
 # Yummy Cookie
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/yummy-cookie.webp" target="_blank" rel="noopener" aria-label="View full image: Yummy Cookie" title="View full image: Yummy Cookie"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/yummy-cookie.webp" alt="Yummy Cookie" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, Upgrade 4 cards.
 
 | Property | Value |

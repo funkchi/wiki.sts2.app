@@ -5,9 +5,9 @@ description: "50% discount on all products! Shop Relic relic."
 
 # Membership Card
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/membership-card.webp" target="_blank" rel="noopener" aria-label="View full image: Membership Card" title="View full image: Membership Card"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/membership-card.webp" alt="Membership Card" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 50% discount on all products!
 
 | Property | Value |

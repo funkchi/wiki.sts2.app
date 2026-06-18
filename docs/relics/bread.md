@@ -5,9 +5,9 @@ description: "At the start of your first turn, lose 2 Energy. At the start of al
 
 # Bread
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/bread.webp" target="_blank" rel="noopener" aria-label="View full image: Bread" title="View full image: Bread"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/bread.webp" alt="Bread" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your first turn, lose 2 Energy. At the start of all other turns, gain 1 Energy.
 
 | Property | Value |

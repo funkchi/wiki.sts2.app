@@ -5,9 +5,9 @@ description: "Deal 32 damage. Ironclad Attack card."
 
 # Bludgeon
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/bludgeon.webp" target="_blank" rel="noopener" aria-label="View full image: Bludgeon" title="View full image: Bludgeon"><img class="wiki-image wiki-image--card-detail" src="/media/cards/bludgeon.webp" alt="Bludgeon" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 32 damage.
 
 | Property | Value |

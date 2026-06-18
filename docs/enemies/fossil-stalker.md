@@ -5,9 +5,9 @@ description: "Normal enemy with 51-53 (Asc 54-56) HP. Starts with Latch"
 
 # Fossil Stalker
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/fossil-stalker.webp" target="_blank" rel="noopener" aria-label="View full image: Fossil Stalker" title="View full image: Fossil Stalker"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/fossil-stalker.webp" alt="Fossil Stalker" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

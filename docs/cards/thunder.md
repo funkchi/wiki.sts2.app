@@ -5,9 +5,9 @@ description: "Whenever you Evoke Lightning, deal 6 damage to each enemy hit. Def
 
 # Thunder
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/thunder.webp" target="_blank" rel="noopener" aria-label="View full image: Thunder" title="View full image: Thunder"><img class="wiki-image wiki-image--card-detail" src="/media/cards/thunder.webp" alt="Thunder" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you Evoke Lightning, deal 6 damage to each enemy hit.
 
 | Property | Value |

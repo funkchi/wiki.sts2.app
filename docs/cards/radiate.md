@@ -5,9 +5,9 @@ description: "Deal 3 damage to ALL enemies for each 1 Star gained this turn. Reg
 
 # Radiate
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/radiate.webp" target="_blank" rel="noopener" aria-label="View full image: Radiate" title="View full image: Radiate"><img class="wiki-image wiki-image--card-detail" src="/media/cards/radiate.webp" alt="Radiate" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 3 damage to ALL enemies for each 1 Star gained this turn.
 
 | Property | Value |

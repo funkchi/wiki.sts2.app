@@ -5,9 +5,9 @@ description: "Whenever you gain Block on your turn, other players gain half that
 
 # Beacon of Hope
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/beacon-of-hope.webp" target="_blank" rel="noopener" aria-label="View full image: Beacon of Hope" title="View full image: Beacon of Hope"><img class="wiki-image wiki-image--card-detail" src="/media/cards/beacon-of-hope.webp" alt="Beacon of Hope" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you gain Block on your turn, other players gain half that much Block.
 
 | Property | Value |

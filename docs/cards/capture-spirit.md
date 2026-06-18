@@ -5,9 +5,9 @@ description: "Enemy loses 3 HP. Add 3 Souls into your Draw Pile. Necrobinder Ski
 
 # Capture Spirit
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/capture-spirit.webp" target="_blank" rel="noopener" aria-label="View full image: Capture Spirit" title="View full image: Capture Spirit"><img class="wiki-image wiki-image--card-detail" src="/media/cards/capture-spirit.webp" alt="Capture Spirit" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Enemy loses 3 HP. Add 3 Souls into your Draw Pile.
 
 | Property | Value |

@@ -5,9 +5,9 @@ description: "At the start of your 3rd turn, gain 1 Strength and 1 Dexterity. Un
 
 # Sparkling Rouge
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/sparkling-rouge.webp" target="_blank" rel="noopener" aria-label="View full image: Sparkling Rouge" title="View full image: Sparkling Rouge"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/sparkling-rouge.webp" alt="Sparkling Rouge" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your 3rd turn, gain 1 Strength and 1 Dexterity.
 
 | Property | Value |

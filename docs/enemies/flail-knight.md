@@ -5,9 +5,9 @@ description: "Elite enemy with 101 (Asc 108) HP. Starts with Ram"
 
 # Flail Knight
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/flail-knight.webp" target="_blank" rel="noopener" aria-label="View full image: Flail Knight" title="View full image: Flail Knight"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/flail-knight.webp" alt="Flail Knight" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Elite |

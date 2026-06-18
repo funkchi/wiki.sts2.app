@@ -5,9 +5,9 @@ description: "Deal 7 damage. Forge 7. Regent Attack card."
 
 # Wrought in War
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/wrought-in-war.webp" target="_blank" rel="noopener" aria-label="View full image: Wrought in War" title="View full image: Wrought in War"><img class="wiki-image wiki-image--card-detail" src="/media/cards/wrought-in-war.webp" alt="Wrought in War" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 7 damage. Forge 7.
 
 | Property | Value |

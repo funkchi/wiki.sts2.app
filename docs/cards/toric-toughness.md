@@ -5,9 +5,9 @@ description: "Gain 5 Block. Gain 5 Block at the start of the next 2 turns. Event
 
 # Toric Toughness
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/toric-toughness.webp" target="_blank" rel="noopener" aria-label="View full image: Toric Toughness" title="View full image: Toric Toughness"><img class="wiki-image wiki-image--card-detail" src="/media/cards/toric-toughness.webp" alt="Toric Toughness" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 5 Block. Gain 5 Block at the start of the next 2 turns.
 
 | Property | Value |

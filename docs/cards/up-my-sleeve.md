@@ -5,9 +5,9 @@ description: "Add 3 Shivs into your Hand. Reduce this card's cost by 1. Silent S
 
 # Up My Sleeve
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/up-my-sleeve.webp" target="_blank" rel="noopener" aria-label="View full image: Up My Sleeve" title="View full image: Up My Sleeve"><img class="wiki-image wiki-image--card-detail" src="/media/cards/up-my-sleeve.webp" alt="Up My Sleeve" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Add 3 Shivs into your Hand. Reduce this card's cost by 1.
 
 | Property | Value |

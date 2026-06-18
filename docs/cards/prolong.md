@@ -5,9 +5,9 @@ description: "Next turn, gain Block equal to your current Block. Colorless Skill
 
 # Prolong
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/prolong.webp" target="_blank" rel="noopener" aria-label="View full image: Prolong" title="View full image: Prolong"><img class="wiki-image wiki-image--card-detail" src="/media/cards/prolong.webp" alt="Prolong" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Next turn, gain Block equal to your current Block.
 
 | Property | Value |

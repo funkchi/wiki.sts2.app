@@ -5,9 +5,9 @@ description: "Normal enemy with 38-40 (Asc 40-42) HP. Shrinker -> Chomp -> Stomp
 
 # Shrinker Beetle
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/shrinker-beetle.webp" target="_blank" rel="noopener" aria-label="View full image: Shrinker Beetle" title="View full image: Shrinker Beetle"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/shrinker-beetle.webp" alt="Shrinker Beetle" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

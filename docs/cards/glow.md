@@ -5,9 +5,9 @@ description: "Gain 1 Star. Draw 1 card. Next turn, draw 1 card. Regent Skill car
 
 # Glow
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/glow.webp" target="_blank" rel="noopener" aria-label="View full image: Glow" title="View full image: Glow"><img class="wiki-image wiki-image--card-detail" src="/media/cards/glow.webp" alt="Glow" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 1 Star. Draw 1 card. Next turn, draw 1 card.
 
 | Property | Value |

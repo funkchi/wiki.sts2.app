@@ -5,9 +5,9 @@ description: "At the start of your turn, lose 1 HP and gain 8 Block. Ironclad Po
 
 # Crimson Mantle
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/crimson-mantle.webp" target="_blank" rel="noopener" aria-label="View full image: Crimson Mantle" title="View full image: Crimson Mantle"><img class="wiki-image wiki-image--card-detail" src="/media/cards/crimson-mantle.webp" alt="Crimson Mantle" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your turn, lose 1 HP and gain 8 Block.
 
 | Property | Value |

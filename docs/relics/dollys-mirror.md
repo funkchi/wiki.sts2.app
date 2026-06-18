@@ -5,9 +5,9 @@ description: "Upon pickup, obtain an additional copy of a card in your Deck. Sho
 
 # Dolly's Mirror
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/dollys-mirror.webp" target="_blank" rel="noopener" aria-label="View full image: Dolly&#x27;s Mirror" title="View full image: Dolly&#x27;s Mirror"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/dollys-mirror.webp" alt="Dolly&#x27;s Mirror" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Upon pickup, obtain an additional copy of a card in your Deck.
 
 | Property | Value |

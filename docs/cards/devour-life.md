@@ -5,9 +5,9 @@ description: "Whenever you play a Soul, Summon 1. Necrobinder Power card."
 
 # Devour Life
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/devour-life.webp" target="_blank" rel="noopener" aria-label="View full image: Devour Life" title="View full image: Devour Life"><img class="wiki-image wiki-image--card-detail" src="/media/cards/devour-life.webp" alt="Devour Life" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Whenever you play a Soul, Summon 1.
 
 | Property | Value |

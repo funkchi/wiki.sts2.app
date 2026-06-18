@@ -5,9 +5,9 @@ description: "At the start of each combat, lose 4 HP. Event Relic relic."
 
 # Royal Poison
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/royal-poison.webp" target="_blank" rel="noopener" aria-label="View full image: Royal Poison" title="View full image: Royal Poison"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/royal-poison.webp" alt="Royal Poison" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of each combat, lose 4 HP.
 
 | Property | Value |

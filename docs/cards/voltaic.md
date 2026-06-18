@@ -5,9 +5,9 @@ description: "Channel Lightning equal to the Lightning already Channeled this co
 
 # Voltaic
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/voltaic.webp" target="_blank" rel="noopener" aria-label="View full image: Voltaic" title="View full image: Voltaic"><img class="wiki-image wiki-image--card-detail" src="/media/cards/voltaic.webp" alt="Voltaic" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Channel Lightning equal to the Lightning already Channeled this combat.
 
 | Property | Value |

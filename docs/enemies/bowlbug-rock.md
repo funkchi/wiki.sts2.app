@@ -5,9 +5,9 @@ description: "Normal enemy with 45-48 (Asc 46-49) HP. Starts with Headbutt"
 
 # Bowlbug (Rock)
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/enemies/bowlbug-rock.webp" target="_blank" rel="noopener" aria-label="View full image: Bowlbug (Rock)" title="View full image: Bowlbug (Rock)"><img class="wiki-image wiki-image--enemy-detail" src="/media/enemies/bowlbug-rock.webp" alt="Bowlbug (Rock)" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 | Property | Value |
 |---|---|
 | Type | Normal |

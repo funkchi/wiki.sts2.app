@@ -5,9 +5,9 @@ description: "If you do not play any Attacks during your turn, gain an additiona
 
 # Art of War
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/art-of-war.webp" target="_blank" rel="noopener" aria-label="View full image: Art of War" title="View full image: Art of War"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/art-of-war.webp" alt="Art of War" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 If you do not play any Attacks during your turn, gain an additional 1 Energy next turn.
 
 | Property | Value |

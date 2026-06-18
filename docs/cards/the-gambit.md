@@ -5,9 +5,9 @@ description: "Gain 50 Block. If you take unblocked attack damage this combat, di
 
 # The Gambit
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/the-gambit.webp" target="_blank" rel="noopener" aria-label="View full image: The Gambit" title="View full image: The Gambit"><img class="wiki-image wiki-image--card-detail" src="/media/cards/the-gambit.webp" alt="The Gambit" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 50 Block. If you take unblocked attack damage this combat, die.
 
 | Property | Value |

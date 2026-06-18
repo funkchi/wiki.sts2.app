@@ -5,9 +5,9 @@ description: "Every 3 times you apply Poison, deal 11 damage to ALL enemies. Sil
 
 # Outbreak
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/outbreak.webp" target="_blank" rel="noopener" aria-label="View full image: Outbreak" title="View full image: Outbreak"><img class="wiki-image wiki-image--card-detail" src="/media/cards/outbreak.webp" alt="Outbreak" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Every 3 times you apply Poison, deal 11 damage to ALL enemies.
 
 | Property | Value |

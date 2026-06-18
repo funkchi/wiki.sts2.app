@@ -5,9 +5,9 @@ description: "Start each combat with 1 Dexterity. Common Relic relic."
 
 # Oddly Smooth Stone
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/oddly-smooth-stone.webp" target="_blank" rel="noopener" aria-label="View full image: Oddly Smooth Stone" title="View full image: Oddly Smooth Stone"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/oddly-smooth-stone.webp" alt="Oddly Smooth Stone" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Start each combat with 1 Dexterity.
 
 | Property | Value |

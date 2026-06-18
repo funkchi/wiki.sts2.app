@@ -5,9 +5,9 @@ description: "Every 10th Attack you play deals double damage. Uncommon Relic rel
 
 # Pen Nib
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/pen-nib.webp" target="_blank" rel="noopener" aria-label="View full image: Pen Nib" title="View full image: Pen Nib"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/pen-nib.webp" alt="Pen Nib" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Every 10th Attack you play deals double damage.
 
 | Property | Value |

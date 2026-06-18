@@ -5,9 +5,9 @@ description: "Deal 9 damage. Add Ethereal to a card in your Hand. Necrobinder At
 
 # Sculpting Strike
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/sculpting-strike.webp" target="_blank" rel="noopener" aria-label="View full image: Sculpting Strike" title="View full image: Sculpting Strike"><img class="wiki-image wiki-image--card-detail" src="/media/cards/sculpting-strike.webp" alt="Sculpting Strike" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 9 damage. Add Ethereal to a card in your Hand.
 
 | Property | Value |

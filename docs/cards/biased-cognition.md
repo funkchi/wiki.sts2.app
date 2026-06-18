@@ -5,9 +5,9 @@ description: "Gain 4 Focus. At the start of your turn, lose 1 Focus. Defect Powe
 
 # Biased Cognition
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/biased-cognition.webp" target="_blank" rel="noopener" aria-label="View full image: Biased Cognition" title="View full image: Biased Cognition"><img class="wiki-image wiki-image--card-detail" src="/media/cards/biased-cognition.webp" alt="Biased Cognition" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Gain 4 Focus. At the start of your turn, lose 1 Focus.
 
 | Property | Value |

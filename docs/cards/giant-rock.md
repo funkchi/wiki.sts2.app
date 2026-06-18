@@ -5,9 +5,9 @@ description: "Deal 16 damage. Token Attack card."
 
 # Giant Rock
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/giant-rock.webp" target="_blank" rel="noopener" aria-label="View full image: Giant Rock" title="View full image: Giant Rock"><img class="wiki-image wiki-image--card-detail" src="/media/cards/giant-rock.webp" alt="Giant Rock" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 16 damage.
 
 | Property | Value |

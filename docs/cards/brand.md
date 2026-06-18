@@ -5,9 +5,9 @@ description: "Lose 1 HP. Exhaust 1 card. Gain 1 Strength. Ironclad Skill card."
 
 # Brand
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/brand.webp" target="_blank" rel="noopener" aria-label="View full image: Brand" title="View full image: Brand"><img class="wiki-image wiki-image--card-detail" src="/media/cards/brand.webp" alt="Brand" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Lose 1 HP. Exhaust 1 card. Gain 1 Strength.
 
 | Property | Value |

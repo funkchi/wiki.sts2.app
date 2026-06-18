@@ -5,9 +5,9 @@ description: "If Osty is alive, he dies and you gain Block equal to double his M
 
 # Sacrifice
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/sacrifice.webp" target="_blank" rel="noopener" aria-label="View full image: Sacrifice" title="View full image: Sacrifice"><img class="wiki-image wiki-image--card-detail" src="/media/cards/sacrifice.webp" alt="Sacrifice" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 If Osty is alive, he dies and you gain Block equal to double his Max HP.
 
 | Property | Value |

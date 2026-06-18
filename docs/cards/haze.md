@@ -5,9 +5,9 @@ description: "Apply 4 Poison to ALL enemies. Silent Skill card."
 
 # Haze
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/haze.webp" target="_blank" rel="noopener" aria-label="View full image: Haze" title="View full image: Haze"><img class="wiki-image wiki-image--card-detail" src="/media/cards/haze.webp" alt="Haze" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Apply 4 Poison to ALL enemies.
 
 | Property | Value |

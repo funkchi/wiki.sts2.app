@@ -5,9 +5,9 @@ description: "Deal 33 damage to ALL enemies. Costs 2 Energy less for each Ethere
 
 # Banshee's Cry
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/banshees-cry.webp" target="_blank" rel="noopener" aria-label="View full image: Banshee&#x27;s Cry" title="View full image: Banshee&#x27;s Cry"><img class="wiki-image wiki-image--card-detail" src="/media/cards/banshees-cry.webp" alt="Banshee&#x27;s Cry" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 33 damage to ALL enemies. Costs 2 Energy less for each Ethereal card played this combat.
 
 | Property | Value |

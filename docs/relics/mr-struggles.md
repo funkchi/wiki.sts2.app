@@ -5,9 +5,9 @@ description: "At the start of your turn, deal damage equal to the turn number to
 
 # Mr. Struggles
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/mr-struggles.webp" target="_blank" rel="noopener" aria-label="View full image: Mr. Struggles" title="View full image: Mr. Struggles"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/mr-struggles.webp" alt="Mr. Struggles" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 At the start of your turn, deal damage equal to the turn number to ALL enemies.
 
 | Property | Value |

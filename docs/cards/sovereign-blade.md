@@ -5,9 +5,9 @@ description: "Deal 10 damage. Token Attack card."
 
 # Sovereign Blade
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/sovereign-blade.webp" target="_blank" rel="noopener" aria-label="View full image: Sovereign Blade" title="View full image: Sovereign Blade"><img class="wiki-image wiki-image--card-detail" src="/media/cards/sovereign-blade.webp" alt="Sovereign Blade" loading="lazy" decoding="async"></a>
-<div class="wiki-entity-hero__details">
+<div class="wiki-entity-hero__details" markdown="1">
 Deal 10 damage.
 
 | Property | Value |
