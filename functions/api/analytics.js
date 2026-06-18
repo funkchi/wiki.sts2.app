@@ -1,4 +1,4 @@
-const ALLOWED_EVENTS = new Set(["navigation", "search", "search_empty"]);
+const ALLOWED_EVENTS = new Set(["page_view", "navigation", "search", "search_empty"]);
 
 function cleanString(value, limit) {
   return typeof value === "string"

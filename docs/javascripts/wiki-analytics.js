@@ -16,6 +16,8 @@
     }).catch(() => {});
   }
 
+  send({ event: "page_view" });
+
   document.addEventListener("click", (event) => {
     const link = event.target.closest("a[href]");
     if (!link) return;

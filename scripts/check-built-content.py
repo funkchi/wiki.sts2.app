@@ -176,7 +176,7 @@ def main() -> int:
         if missing_beacons:
             raise AssertionError(f"Cloudflare beacon missing from built pages: {missing_beacons[:5]}")
     analytics_function = Path("functions/api/analytics.js").read_text()
-    if not all(event in analytics_function for event in ("navigation", "search", "search_empty")):
+    if not all(event in analytics_function for event in ("page_view", "navigation", "search", "search_empty")):
         raise AssertionError("Analytics endpoint is missing required event types")
     wrangler_config = Path("wrangler.toml").read_text()
     if 'binding = "WIKI_ANALYTICS"' not in wrangler_config:
@@ -283,7 +283,7 @@ def main() -> int:
     print(f"  original editorial guides: {len(editorial_urls)}")
     print("  entity browser mounts: 3")
     print("  consent-safe AdSense loading: enabled")
-    print("  first-party analytics events: navigation, search, search_empty")
+    print("  first-party analytics events: page_view, navigation, search, search_empty")
     return 0
 
 

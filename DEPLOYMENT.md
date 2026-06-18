@@ -57,19 +57,22 @@ The GitHub Actions workflow also supports direct Pages deploys with Wrangler whe
 - `CLOUDFLARE_ACCOUNT_ID` repository secret
 - `CLOUDFLARE_PROJECT_NAME` repository variable, optional; defaults to `wiki-sts2-app`
 - `CLOUDFLARE_WEB_ANALYTICS_TOKEN` repository secret, optional; injects the Cloudflare beacon into every built HTML page
+- `CLOUDFLARE_ANALYTICS_TOKEN` repository secret with `Account Analytics Read`; powers the weekly usage report
 - `GOOGLE_SITE_VERIFICATION` repository secret, optional; injects Search Console verification into the root page
 
 ## Analytics
 
 The repository deploys a first-party event endpoint at `/api/analytics`. Its Analytics Engine schema is:
 
-- `blob1`: event type (`navigation`, `search`, or `search_empty`)
+- `blob1`: event type (`page_view`, `navigation`, `search`, or `search_empty`)
 - `blob2`: current path
 - `blob3`: navigation destination
 - `blob4`: normalized search text
 - `double1`: visible search-result count
 
 No IP address, user agent, account ID, or persistent visitor ID is written to this dataset.
+
+The `Report Wiki Usage` workflow runs each Monday and publishes both Markdown and JSON artifacts for the trailing 30 days. It covers popular pages, popular searches, empty searches, and internal navigation paths. It requires a dedicated `CLOUDFLARE_ANALYTICS_TOKEN`; keep this read-only token separate from the deployment token.
 
 Enable Cloudflare Web Analytics for page popularity, referrers, navigation type, and performance:
 
@@ -83,6 +86,14 @@ Alternatively, copy the public beacon token from **Web Analytics → Manage site
 Useful Analytics Engine SQL queries:
 
 ```sql
+-- Most viewed pages
+SELECT blob2 AS path, SUM(_sample_interval) AS views
+FROM wiki_sts2_events
+WHERE blob1 = 'page_view' AND timestamp >= NOW() - INTERVAL '30' DAY
+GROUP BY path
+ORDER BY views DESC
+LIMIT 100;
+
 -- Most frequent successful searches
 SELECT blob4 AS search_term,
        SUM(_sample_interval) AS searches,

@@ -23,7 +23,7 @@ Advertising consent defaults to denied until a visitor makes a choice. Visitors 
 
 ## Analytics
 
-When enabled for the Pages project, Cloudflare Web Analytics measures page popularity, referrers, navigation type, and performance without using a persistent visitor identifier. The wiki also records first-party events for internal navigation, wiki searches, and searches with no results. These events contain the current path, destination path or search text, and result count. They do not include an IP address, user agent, account identifier, or cross-site identifier in the analytics dataset.
+When enabled for the Pages project, Cloudflare Web Analytics measures page popularity, referrers, navigation type, and performance without using a persistent visitor identifier. The wiki also records first-party events for page views, internal navigation, wiki searches, and searches with no results. These events contain the current path, destination path or search text, and result count. They do not include an IP address, user agent, account identifier, or cross-site identifier in the analytics dataset.
 
 ## External Links
 

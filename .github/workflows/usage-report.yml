@@ -1,0 +1,33 @@
+name: Report Wiki Usage
+
+on:
+  schedule:
+    - cron: "43 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_ANALYTICS_TOKEN: ${{ secrets.CLOUDFLARE_ANALYTICS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build 30-day usage report
+        run: python scripts/report-analytics.py >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload usage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: wiki-usage-report-${{ github.run_id }}
+          path: artifacts/analytics
+          if-no-files-found: error
+          retention-days: 90
