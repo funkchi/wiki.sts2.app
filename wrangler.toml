@@ -1,0 +1,6 @@
+name = "wiki-sts2-app"
+pages_build_output_dir = "public"
+
+[[r2_buckets]]
+binding = "WIKI_MEDIA"
+bucket_name = "wiki-sts2"

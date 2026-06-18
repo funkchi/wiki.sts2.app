@@ -1,28 +1,34 @@
 site_name: Slay the Spire 2 Wiki
 site_url: https://wiki.sts2.app/docs/
+site_description: Community wiki for Slay the Spire 2 cards, relics, characters, enemies, and guides.
 theme:
   name: material
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: deep purple
+      accent: amber
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: deep purple
+      accent: amber
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
     - search.suggest
     - search.highlight
+    - search.share
   custom_dir: docs/overrides
-  extra_css:
-    - stylesheets/extra.css
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md

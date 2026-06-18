@@ -4,374 +4,420 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Slay the Spire 2 Wiki</title>
+  <meta name="description" content="A fast community wiki for Slay the Spire 2 cards, relics, characters, enemies, and guides.">
+  <meta name="google-adsense-account" content="ca-pub-8661972209515901">
   <meta property="og:title" content="Slay the Spire 2 Wiki">
-  <meta property="og:description" content="The definitive community wiki for Slay the Spire 2">
+  <meta property="og:description" content="Cards, relics, characters, enemies, and strategy for Slay the Spire 2.">
   <meta property="og:image" content="/images/hero.png">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8661972209515901" crossorigin="anonymous"></script>
   <style>
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
 
     :root {
-      --color-bg: #0a0a0f;
-      --color-text: #e0e0e0;
-      --color-accent: #7c4dff;
-      --color-accent-glow: rgba(124, 77, 255, 0.3);
+      color-scheme: dark;
+      --bg: #100c16;
+      --panel: rgba(255, 246, 234, 0.08);
+      --panel-strong: rgba(255, 246, 234, 0.14);
+      --text: #fff6ea;
+      --muted: rgba(255, 246, 234, 0.72);
+      --line: rgba(255, 246, 234, 0.17);
+      --gold: #f0a24a;
+      --gold-ink: #201207;
+      --violet: #a98aff;
     }
 
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: var(--color-bg);
-      color: var(--color-text);
-      overflow-x: hidden;
+      min-width: 320px;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
     }
 
-    /* ===== HERO ===== */
-    .hero {
-      position: relative;
-      height: 100vh;
+    a {
+      color: inherit;
+    }
+
+    .site-shell {
+      min-height: 100vh;
+      background:
+        linear-gradient(180deg, rgba(16, 12, 22, 0.08), #100c16 76%),
+        url("images/hero.png") center top / min(2200px, 160vw) auto no-repeat;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      min-height: 64px;
+      padding: 0.75rem clamp(1rem, 4vw, 3rem);
+      border-bottom: 1px solid rgba(255, 246, 234, 0.08);
+      background: rgba(16, 12, 22, 0.78);
+      backdrop-filter: blur(16px);
+    }
+
+    .brand {
+      font-weight: 850;
+      letter-spacing: 0;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .nav {
       display: flex;
       align-items: center;
-      justify-content: center;
-      overflow: hidden;
+      gap: 0.35rem;
     }
 
-    .hero__bg {
-      position: absolute;
-      inset: 0;
-      background: url('https://media-source.sts2.app/bafkreifkli4tsm2xtkixvgcg4o2dokjtgoqz3bchzo3m5ogn5htve2ulha.png') center center / cover no-repeat;
-      will-change: transform;
+    .nav a {
+      min-height: 38px;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 0.75rem;
+      border-radius: 6px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      font-weight: 650;
+      text-decoration: none;
     }
 
-    .hero__overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        180deg,
-        rgba(10, 10, 15, 0.1) 0%,
-        rgba(10, 10, 15, 0.3) 50%,
-        rgba(10, 10, 15, 0.95) 100%
-      );
+    .nav a:hover {
+      background: var(--panel);
+      color: var(--text);
+    }
+
+    .hero {
+      min-height: calc(100vh - 150px);
+      display: grid;
+      align-items: end;
+      padding: clamp(1.5rem, 5vw, 3rem) clamp(1rem, 4vw, 3rem);
     }
 
     .hero__content {
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      padding: 2rem;
+      width: min(760px, 100%);
+      padding-top: clamp(5rem, 12vh, 7.5rem);
     }
 
-    .hero__badge {
-      display: inline-block;
-      padding: 0.4rem 1rem;
-      border: 1px solid rgba(124, 77, 255, 0.4);
-      border-radius: 50px;
-      font-size: 0.8rem;
-      letter-spacing: 0.1em;
+    .kicker {
+      display: inline-flex;
+      padding: 0.38rem 0.65rem;
+      border: 1px solid rgba(240, 162, 74, 0.45);
+      border-radius: 6px;
+      background: rgba(240, 162, 74, 0.1);
+      color: #ffd08b;
+      font-size: 0.72rem;
+      font-weight: 850;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: var(--color-accent);
-      margin-bottom: 1.5rem;
-      background: rgba(124, 77, 255, 0.08);
     }
 
-    .hero__title {
-      font-size: clamp(2.5rem, 8vw, 5rem);
-      font-weight: 800;
-      line-height: 1.05;
-      color: #fff;
-      text-shadow: 0 4px 40px rgba(0,0,0,0.6);
-      margin-bottom: 1rem;
-      letter-spacing: -0.03em;
+    h1 {
+      max-width: 720px;
+      margin: 1rem 0 0;
+      font-size: clamp(3rem, 8vw, 5.7rem);
+      line-height: 0.95;
+      letter-spacing: 0;
+      text-wrap: balance;
+      text-shadow: 0 8px 40px rgba(0, 0, 0, 0.45);
     }
 
-    .hero__title span {
-      background: linear-gradient(135deg, var(--color-accent), #e040fb);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+    .subtitle {
+      max-width: 590px;
+      margin: 1.2rem 0 0;
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.22rem);
+      line-height: 1.65;
     }
 
-    .hero__subtitle {
-      font-size: clamp(1rem, 2.5vw, 1.3rem);
-      color: rgba(255,255,255,0.7);
-      max-width: 550px;
-      margin: 0 auto 2.5rem;
-      line-height: 1.6;
-    }
-
-    .hero__actions {
+    .actions {
       display: flex;
-      gap: 1rem;
-      justify-content: center;
       flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.7rem;
     }
 
-    .btn {
+    .button {
+      min-height: 46px;
       display: inline-flex;
       align-items: center;
-      gap: 0.5rem;
-      padding: 0.85rem 2rem;
-      border-radius: 8px;
-      font-size: 0.95rem;
-      font-weight: 600;
+      justify-content: center;
+      padding: 0 1rem;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--text);
+      font-weight: 780;
       text-decoration: none;
-      transition: all 0.2s ease;
-      cursor: pointer;
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
     }
 
-    .btn--primary {
-      background: var(--color-accent);
-      color: #fff;
-      box-shadow: 0 4px 20px var(--color-accent-glow);
+    .button:hover {
+      transform: translateY(-1px);
+      border-color: rgba(255, 246, 234, 0.34);
+      background: var(--panel-strong);
     }
 
-    .btn--primary:hover {
-      background: #9c6fff;
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px var(--color-accent-glow);
+    .button--primary {
+      border-color: #f0a24a;
+      background: var(--gold);
+      color: var(--gold-ink);
     }
 
-    .btn--ghost {
-      background: rgba(255,255,255,0.06);
-      color: #fff;
-      border: 1px solid rgba(255,255,255,0.15);
+    .button--primary:hover {
+      background: #ffb45f;
     }
 
-    .btn--ghost:hover {
-      background: rgba(255,255,255,0.12);
-      border-color: rgba(255,255,255,0.3);
-      transform: translateY(-2px);
+    .content-band {
+      padding: 0 clamp(1rem, 4vw, 3rem) 4rem;
     }
 
-    .scroll-hint {
-      position: absolute;
-      bottom: 2rem;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 1;
-      animation: bounce 2s infinite;
-      opacity: 0.5;
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 1rem;
+      width: min(1120px, 100%);
+      margin: 0 auto 1rem;
     }
 
-    .scroll-hint svg {
-      width: 24px;
-      height: 24px;
-      stroke: #fff;
+    h2 {
+      margin: 0;
+      font-size: clamp(1.55rem, 3vw, 2.25rem);
+      line-height: 1.1;
+      letter-spacing: 0;
     }
 
-    @keyframes bounce {
-      0%, 100% { transform: translateX(-50%) translateY(0); }
-      50% { transform: translateX(-50%) translateY(10px); }
+    .section-head p {
+      max-width: 430px;
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
     }
 
-    /* ===== SECTIONS ===== */
-    .section {
-      padding: 5rem 2rem;
-      max-width: 1100px;
+    .wiki-grid {
+      width: min(1120px, 100%);
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 0.85rem;
       margin: 0 auto;
     }
 
-    .section__label {
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--color-accent);
-      margin-bottom: 0.75rem;
-    }
-
-    .section__title {
-      font-size: clamp(1.5rem, 4vw, 2.2rem);
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 1rem;
-    }
-
-    .section__desc {
-      color: rgba(255,255,255,0.5);
-      max-width: 500px;
-      line-height: 1.7;
-      margin-bottom: 3rem;
-    }
-
-    /* ===== NAV GRID ===== */
-    .nav-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.25rem;
-    }
-
-    .nav-card {
+    .wiki-card {
+      min-height: 158px;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 2rem 1.5rem;
-      background: rgba(255,255,255,0.03);
-      border: 1px solid rgba(255,255,255,0.06);
-      border-radius: 16px;
-      text-decoration: none;
-      color: inherit;
-      transition: all 0.25s ease;
-    }
-
-    .nav-card:hover {
-      background: rgba(255,255,255,0.06);
-      border-color: var(--color-accent);
-      transform: translateY(-6px);
-      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-    }
-
-    .nav-card__icon {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-
-    .nav-card__title {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: #fff;
-      margin-bottom: 0.4rem;
-    }
-
-    .nav-card__desc {
-      font-size: 0.85rem;
-      color: rgba(255,255,255,0.4);
-      line-height: 1.5;
-    }
-
-    .nav-card__arrow {
-      margin-top: 1rem;
-      color: var(--color-accent);
-      font-size: 1.2rem;
-      opacity: 0;
-      transform: translateX(-5px);
-      transition: all 0.25s ease;
-    }
-
-    .nav-card:hover .nav-card__arrow {
-      opacity: 1;
-      transform: translateX(0);
-    }
-
-    /* ===== ABOUT ===== */
-    .about {
-      text-align: center;
-      padding: 4rem 2rem 6rem;
-      border-top: 1px solid rgba(255,255,255,0.05);
-      max-width: 700px;
-      margin: 0 auto;
-    }
-
-    .about p {
-      color: rgba(255,255,255,0.4);
-      line-height: 1.8;
-      margin-bottom: 1rem;
-    }
-
-    .about a {
-      color: var(--color-accent);
+      gap: 0.55rem;
+      padding: 1rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: linear-gradient(180deg, var(--panel-strong), var(--panel));
       text-decoration: none;
     }
 
-    .about a:hover {
-      text-decoration: underline;
+    .wiki-card:hover {
+      border-color: rgba(240, 162, 74, 0.62);
+      background: rgba(255, 246, 234, 0.13);
     }
 
-    /* ===== FOOTER ===== */
+    .wiki-card small {
+      color: var(--gold);
+      font-weight: 850;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .wiki-card strong {
+      font-size: 1.08rem;
+    }
+
+    .wiki-card span {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.45;
+    }
+
+    .status {
+      width: min(1120px, 100%);
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 0.85rem;
+      margin: 0.85rem auto 0;
+    }
+
+    .status__panel {
+      padding: 1rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 246, 234, 0.06);
+    }
+
+    .status__panel p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .status__panel a {
+      color: #ffd08b;
+      font-weight: 760;
+      text-decoration: none;
+    }
+
     footer {
-      text-align: center;
-      padding: 2rem;
-      color: rgba(255,255,255,0.2);
-      font-size: 0.8rem;
-      border-top: 1px solid rgba(255,255,255,0.05);
+      padding: 2rem clamp(1rem, 4vw, 3rem);
+      border-top: 1px solid rgba(255, 246, 234, 0.08);
+      color: rgba(255, 246, 234, 0.48);
+      font-size: 0.86rem;
     }
 
-    /* ===== RESPONSIVE ===== */
-    @media (max-width: 640px) {
-      .hero__actions { flex-direction: column; align-items: center; }
-      .btn { width: 100%; max-width: 280px; justify-content: center; }
-      .nav-grid { grid-template-columns: 1fr 1fr; }
+    @media (max-width: 900px) {
+      .section-head,
+      .status {
+        display: block;
+      }
+
+      .section-head p {
+        margin-top: 0.6rem;
+      }
+
+      .wiki-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .status__panel + .status__panel {
+        margin-top: 0.85rem;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .site-shell {
+        background-size: auto 540px;
+        background-position: center top;
+      }
+
+      .topbar {
+        position: static;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 0.15rem;
+      }
+
+      .nav a {
+        flex: 0 0 auto;
+      }
+
+      .hero {
+        min-height: 560px;
+        align-items: end;
+      }
+
+      .hero__content {
+        padding-top: 220px;
+      }
+
+      .actions,
+      .button {
+        width: 100%;
+      }
+
+      .wiki-grid {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="/">Slay the Spire 2 Wiki</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/docs/cards/">Cards</a>
+        <a href="/docs/characters/">Characters</a>
+        <a href="/docs/relics/">Relics</a>
+        <a href="/docs/guides/">Guides</a>
+      </nav>
+    </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero__bg"></div>
-    <div class="hero__overlay"></div>
-    <div class="hero__content">
-      <div class="hero__badge">Early Access — March 2026</div>
-      <h1 class="hero__title">Slay the Spire <span>2</span></h1>
-      <p class="hero__subtitle">The definitive community wiki — cards, relics, enemies, and strategies. Everything you need to climb.</p>
-      <div class="hero__actions">
-        <a href="/docs/cards/" class="btn btn--primary">🃏 Browse Cards</a>
-        <a href="/docs/characters/" class="btn btn--ghost">⚔️ Characters</a>
-      </div>
-    </div>
-    <div class="scroll-hint">
-      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
-    </div>
-  </section>
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <span class="kicker">Community reference</span>
+          <h1>Slay the Spire 2 Wiki</h1>
+          <p class="subtitle">576 cards, 293 relics, 115 enemies, characters, and strategy notes for faster run planning.</p>
+          <div class="actions">
+            <a class="button button--primary" href="/docs/cards/">Browse cards</a>
+            <a class="button" href="/docs/">Open wiki</a>
+          </div>
+        </div>
+      </section>
 
-  <!-- EXPLORE -->
-  <section class="section">
-    <div class="section__label">Explore</div>
-    <h2 class="section__title">Dive into the wiki</h2>
-    <p class="section__desc">566 cards, multiple characters, relics, enemies, and community guides — all cataloged and searchable.</p>
-    <div class="nav-grid">
-      <a href="/docs/characters/" class="nav-card">
-        <div class="nav-card__icon">⚔️</div>
-        <div class="nav-card__title">Characters</div>
-        <div class="nav-card__desc">Ironclad, Silent, Regent, Necrobinder, Defect & more</div>
-        <div class="nav-card__arrow">→</div>
-      </a>
-      <a href="/docs/cards/" class="nav-card">
-        <div class="nav-card__icon">🃏</div>
-        <div class="nav-card__title">Cards</div>
-        <div class="nav-card__desc">566 cards with base & upgraded stats</div>
-        <div class="nav-card__arrow">→</div>
-      </a>
-      <a href="/docs/relics/" class="nav-card">
-        <div class="nav-card__icon">🏺</div>
-        <div class="nav-card__title">Relics</div>
-        <div class="nav-card__desc">Effects, tiers, and synergies</div>
-        <div class="nav-card__arrow">→</div>
-      </a>
-      <a href="/docs/enemies/" class="nav-card">
-        <div class="nav-card__icon">👹</div>
-        <div class="nav-card__title">Enemies</div>
-        <div class="nav-card__desc">Boss & regular enemy strategies</div>
-        <div class="nav-card__arrow">→</div>
-      </a>
-      <a href="/docs/guides/" class="nav-card">
-        <div class="nav-card__icon">📖</div>
-        <div class="nav-card__title">Guides</div>
-        <div class="nav-card__desc">Beginner to advanced strategies</div>
-        <div class="nav-card__arrow">→</div>
-      </a>
-    </div>
-  </section>
+      <section class="content-band" aria-labelledby="explore-title">
+        <div class="section-head">
+          <div>
+            <span class="kicker">Explore</span>
+            <h2 id="explore-title">Jump straight to the run data.</h2>
+          </div>
+          <p>Built for quick lookup at campfires, shops, draft picks, and boss prep.</p>
+        </div>
 
-  <!-- ABOUT -->
-  <section class="about">
-    <p><strong>Slay the Spire 2</strong> launched into Early Access on March 5th, 2026. This wiki is a community-driven resource built with ❤️ by players, for players.</p>
-    <p>Card data sourced from <a href="https://sts2.untapped.gg/en/cards">untapped.gg</a>. Contributions welcome.</p>
-  </section>
+        <div class="wiki-grid">
+          <a class="wiki-card" href="/docs/characters/">
+            <small>Roster</small>
+            <strong>Characters</strong>
+            <span>Playable characters, starter kits, and defining mechanics.</span>
+          </a>
+          <a class="wiki-card" href="/docs/cards/">
+            <small>Library</small>
+            <strong>Cards</strong>
+            <span>576 searchable cards with base and upgrade text.</span>
+          </a>
+          <a class="wiki-card" href="/docs/relics/">
+            <small>Power</small>
+            <strong>Relics</strong>
+            <span>293 relic effects, pools, and price ranges.</span>
+          </a>
+          <a class="wiki-card" href="/docs/enemies/">
+            <small>Threats</small>
+            <strong>Enemies</strong>
+            <span>115 enemies with encounters, moves, and patterns.</span>
+          </a>
+          <a class="wiki-card" href="/docs/guides/">
+            <small>Strategy</small>
+            <strong>Guides</strong>
+            <span>5 curated external guides from Spire Codex.</span>
+          </a>
+        </div>
+
+        <div class="status">
+          <div class="status__panel">
+            <p>Game data is sourced from the <a href="https://spire-codex.com/docs">Spire Codex API</a>. The wiki is structured to expand as more Early Access details become reliable.</p>
+          </div>
+          <div class="status__panel">
+            <p>Community project. Not affiliated with Mega Crit.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
 
   <footer>
-    Slay the Spire 2 Wiki — Community project · Not affiliated with Massive Monster
+    Slay the Spire 2 Wiki
   </footer>
-
-  <script>
-    // Parallax scroll
-    const bg = document.querySelector('.hero__bg');
-    window.addEventListener('scroll', () => {
-      const scroll = window.scrollY;
-      if (scroll < window.innerHeight) {
-        bg.style.transform = `scale(1.1) translateY(${scroll * 0.3}px)`;
-      }
-    }, { passive: true });
-  </script>
 </body>
 </html>

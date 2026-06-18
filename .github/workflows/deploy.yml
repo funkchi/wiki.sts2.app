@@ -3,38 +3,77 @@ name: Deploy Wiki
 on:
   push:
     branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-wiki
+  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_PROJECT_NAME: ${{ vars.CLOUDFLARE_PROJECT_NAME || 'wiki-sts2-app' }}
+      DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+      DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+      DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements.txt
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: python -m pip install -r requirements.txt
 
-      - name: Build MkDocs site
-        run: mkdocs build
+      - name: Verify generated content
+        run: python scripts/sync-spire-codex.py --check
+
+      - name: Build static site
+        run: bash scripts/build-site.sh
+
+      - name: Validate static output
+        run: |
+          test -f public/index.html
+          test -f public/ads.txt
+          test -f public/docs/index.html
+          test -f public/images/hero.png
+          test -f public/docs/search/search_index.json
+          test -f 'functions/media/[[path]].js'
+          python scripts/check-built-content.py
+
+      - name: Deploy to Cloudflare Pages
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '' }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ env.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=${{ env.CLOUDFLARE_PROJECT_NAME }} --branch=${{ github.ref_name }}
 
       - name: Deploy landing page
+        if: ${{ env.DEPLOY_KEY != '' && env.DEPLOY_HOST != '' && env.DEPLOY_USER != '' }}
         uses: easingthemes/ssh-deploy@v5
         with:
-          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
-          REMOTE_HOST: ${{ secrets.DEPLOY_HOST }}
-          REMOTE_USER: ${{ secrets.DEPLOY_USER }}
-          SOURCE: "landing/"
-          TARGET: "/home/xiaochi/sts2-wiki/landing"
-          SCRIPT_BEFORE: "mkdir -p /home/xiaochi/sts2-wiki/landing"
+          SSH_PRIVATE_KEY: ${{ env.DEPLOY_KEY }}
+          REMOTE_HOST: ${{ env.DEPLOY_HOST }}
+          REMOTE_USER: ${{ env.DEPLOY_USER }}
+          SOURCE: "public/"
+          TARGET: "/home/xiaochi/sts2-wiki/landing/"
+          ARGS: "-rlgoDzvc --delete --exclude=/docs/"
+          SCRIPT_BEFORE: "mkdir -p /home/xiaochi/sts2-wiki/landing /home/xiaochi/sts2-wiki/site"
 
       - name: Deploy MkDocs site
+        if: ${{ env.DEPLOY_KEY != '' && env.DEPLOY_HOST != '' && env.DEPLOY_USER != '' }}
         uses: easingthemes/ssh-deploy@v5
         with:
-          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
-          REMOTE_HOST: ${{ secrets.DEPLOY_HOST }}
-          REMOTE_USER: ${{ secrets.DEPLOY_USER }}
-          SOURCE: "site/"
-          TARGET: "/home/xiaochi/sts2-wiki/site"
+          SSH_PRIVATE_KEY: ${{ env.DEPLOY_KEY }}
+          REMOTE_HOST: ${{ env.DEPLOY_HOST }}
+          REMOTE_USER: ${{ env.DEPLOY_USER }}
+          SOURCE: "public/docs/"
+          TARGET: "/home/xiaochi/sts2-wiki/site/"
+          ARGS: "-rlgoDzvc --delete"
