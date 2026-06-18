@@ -11,6 +11,7 @@ concurrency:
 
 permissions:
   contents: write
+  issues: write
   pull-requests: write
 
 jobs:
@@ -73,6 +74,19 @@ jobs:
           name: freshness-reports
           path: artifacts/*.md
           if-no-files-found: warn
+
+      - name: Alert on added or removed entities
+        if: steps.source.outputs.entity_set_changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Data alert: Spire Codex entity set changed"
+          issue_number="$(gh issue list --state open --limit 100 --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body-file artifacts/spire-codex-diff.md
+          else
+            gh issue create --title "$title" --body-file artifacts/spire-codex-diff.md
+          fi
 
       - name: Open data update pull request
         if: steps.source.outputs.changed == 'true' || (steps.media.outputs.changed == 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '')

@@ -45,6 +45,11 @@ class FreshnessDiffTests(unittest.TestCase):
         self.assertEqual(["C"], [item["id"] for item in cards["added"]])
         self.assertEqual(["B"], [item["id"] for item in cards["removed"]])
         self.assertEqual(["A"], [item["id"] for item in cards["changed"]])
+        report = freshness.render_report(diff)
+        self.assertIn("### Added", report)
+        self.assertIn("**C** (`C`)", report)
+        self.assertIn("### Removed", report)
+        self.assertIn("**B** (`B`)", report)
 
     def test_stats_only_change(self):
         previous = snapshot([], stats_hash="old")
@@ -53,6 +58,14 @@ class FreshnessDiffTests(unittest.TestCase):
         self.assertTrue(diff["changed"])
         self.assertTrue(diff["stats_changed"])
         self.assertFalse(diff["entity_set_changed"])
+
+    def test_workflow_has_deduplicated_entity_alert(self):
+        workflow = (Path(__file__).parents[1] / ".github/workflows/freshness.yml").read_text()
+        self.assertIn("issues: write", workflow)
+        self.assertIn("steps.source.outputs.entity_set_changed == 'true'", workflow)
+        self.assertIn("gh issue list --state open", workflow)
+        self.assertIn("gh issue comment", workflow)
+        self.assertIn("gh issue create", workflow)
 
 
 if __name__ == "__main__":

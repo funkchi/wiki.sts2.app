@@ -36,7 +36,7 @@ python3 scripts/sync-r2-media.py --bucket wiki-sts2
 
 Downloaded files are cached in the ignored `.media-cache/` directory. The R2 bucket is bound to Pages as `WIKI_MEDIA` in `wrangler.toml` and does not need public bucket access.
 
-The nightly `Check Data Freshness` workflow compares deterministic API and media manifests, publishes Markdown diff reports, uploads only changed artwork when Cloudflare credentials are present, and opens a pull request for source changes.
+The nightly `Check Data Freshness` workflow compares deterministic API and media manifests, publishes Markdown diff reports, uploads only changed artwork when Cloudflare credentials are present, and opens a pull request for source changes. Added or removed entities also create a dedicated GitHub issue; later detections append to the existing open issue so the alert remains visible without producing duplicates.
 
 ## Cloudflare Pages
 
