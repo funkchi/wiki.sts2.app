@@ -1,0 +1,38 @@
+---
+title: "Shroud"
+description: "Whenever you apply Doom, gain 2 Block. Necrobinder Power card."
+---
+
+# Shroud
+
+<div class="wiki-entity-hero">
+<a class="wiki-image-link" href="/media/cards/shroud.webp" target="_blank" rel="noopener" aria-label="View full image: Shroud" title="View full image: Shroud"><img class="wiki-image wiki-image--card-detail" src="/media/cards/shroud.webp" alt="Shroud" loading="lazy" decoding="async"></a>
+<div class="wiki-entity-hero__details">
+Whenever you apply Doom, gain 2 Block.
+
+| Property | Value |
+|---|---|
+| Character / Pool | Necrobinder |
+| Type | Power |
+| Rarity | Uncommon |
+| Cost | 1 |
+| Target | Self |
+</div>
+</div>
+
+## Upgrade
+
+Whenever you apply Doom, gain 3 Block.
+
+## Related Cards
+
+- [Calcify](calcify.md)
+- [Call of the Void](call-of-the-void.md)
+- [Countdown](countdown.md)
+- [Danse Macabre](danse-macabre.md)
+- [Demesne](demesne.md)
+- [Devour Life](devour-life.md)
+- [Forbidden Grimoire](forbidden-grimoire.md)
+- [Friendship](friendship.md)
+
+[Back to all cards](../cards.md)

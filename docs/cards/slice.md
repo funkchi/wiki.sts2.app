@@ -1,0 +1,38 @@
+---
+title: "Slice"
+description: "Deal 6 damage. Silent Attack card."
+---
+
+# Slice
+
+<div class="wiki-entity-hero">
+<a class="wiki-image-link" href="/media/cards/slice.webp" target="_blank" rel="noopener" aria-label="View full image: Slice" title="View full image: Slice"><img class="wiki-image wiki-image--card-detail" src="/media/cards/slice.webp" alt="Slice" loading="lazy" decoding="async"></a>
+<div class="wiki-entity-hero__details">
+Deal 6 damage.
+
+| Property | Value |
+|---|---|
+| Character / Pool | Silent |
+| Type | Attack |
+| Rarity | Common |
+| Cost | 0 |
+| Target | AnyEnemy |
+</div>
+</div>
+
+## Upgrade
+
+Deal 9 damage.
+
+## Related Cards
+
+- [Assassinate](assassinate.md)
+- [Backstab](backstab.md)
+- [Dagger Spray](dagger-spray.md)
+- [Dagger Throw](dagger-throw.md)
+- [Dash](dash.md)
+- [Echoing Slash](echoing-slash.md)
+- [Finisher](finisher.md)
+- [Flechettes](flechettes.md)
+
+[Back to all cards](../cards.md)

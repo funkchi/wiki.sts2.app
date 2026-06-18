@@ -120,6 +120,30 @@ def entity_anchor(kind: str, value: Any) -> str:
     return f"{kind}-{slug}"
 
 
+def entity_slug(value: Any) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", str(value).lower()).strip("-")
+
+
+def detail_link(folder: str, item: dict[str, Any], prefix: str = "") -> str:
+    name = clean(item.get("name"))
+    directory = f"{folder}/" if folder else ""
+    return f"[{name}]({prefix}{directory}{entity_slug(item.get('id'))}.md)"
+
+
+def page_header(name: Any, description: Any) -> list[str]:
+    page_name = clean(name)
+    page_description = clean(description) or f"Slay the Spire 2 reference for {page_name}."
+    return [
+        "---",
+        f"title: {json.dumps(page_name)}",
+        f"description: {json.dumps(page_description[:155])}",
+        "---",
+        "",
+        f"# {page_name}",
+        "",
+    ]
+
+
 def media_path(kind: str, item: dict[str, Any]) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", str(item.get("id", "")).lower()).strip("-")
     return f"/media/{kind}/{slug}.webp"
@@ -140,6 +164,11 @@ def image_tag(url: Any, name: Any, kind: str) -> str:
 def anchored_name(kind: str, item: dict[str, Any]) -> str:
     anchor = entity_anchor(kind, item.get("id"))
     return f'<a id="{anchor}"></a>**{clean(item.get("name"))}**'
+
+
+def anchored_detail_name(folder: str, kind: str, item: dict[str, Any]) -> str:
+    anchor = entity_anchor(kind, item.get("id"))
+    return f'<a id="{anchor}"></a>**{detail_link(folder, item)}**'
 
 
 def card_cost(card: dict[str, Any]) -> str:
@@ -269,7 +298,8 @@ def build_cards(cards: list[dict[str, Any]]) -> str:
         ]
         for card in group:
             lines.append(
-                f"| {image_tag(media_path('cards', card), card.get('name'), 'card')} | {anchored_name('card', card)} | "
+                f"| {image_tag(media_path('cards', card), card.get('name'), 'card')} | "
+                f"{anchored_detail_name('cards', 'card', card)} | "
                 f"{card_cost(card)} | {clean(card.get('type'))} | "
                 f"{clean(card.get('rarity'))} | {clean(card.get('description'))} | "
                 f"{clean(card.get('upgrade_description')) or '-'} |"
@@ -326,7 +356,7 @@ def build_relics(relics: list[dict[str, Any]]) -> str:
         for item in group:
             lines.append(
                 f"| {image_tag(media_path('relics', item), item.get('name'), 'relic')} | "
-                f"{anchored_name('relic', item)} | {title(item.get('pool'))} | "
+                f"{anchored_detail_name('relics', 'relic', item)} | {title(item.get('pool'))} | "
                 f"{clean(item.get('description'))} | {price(item)} |"
             )
         lines.append("")
@@ -344,17 +374,16 @@ def build_characters(characters: list[dict[str, Any]], cards: list[dict[str, Any
     def resolve(items: dict[str, dict[str, Any]], value: str) -> dict[str, Any] | None:
         return items.get(value) or items.get(re.sub(r"[^a-z0-9]", "", value.lower()))
 
-    def entity_link(page: str, kind: str, item: dict[str, Any] | None, fallback: str) -> str:
+    def entity_link(folder: str, item: dict[str, Any] | None, fallback: str) -> str:
         if not item:
             return clean(fallback)
-        name = clean(item.get("name"))
-        return f"[{name}]({page}#{entity_anchor(kind, item.get('id'))})"
+        return detail_link(folder, item)
 
     def card_link(value: str) -> str:
-        return entity_link("cards.md", "card", resolve(card_items, value), value)
+        return entity_link("cards", resolve(card_items, value), value)
 
     def relic_link(value: str) -> str:
-        return entity_link("relics.md", "relic", resolve(relic_items, value), value)
+        return entity_link("relics", resolve(relic_items, value), value)
 
     def character_order(character: dict[str, Any]) -> Any:
         key = str(character.get("id", "")).lower()
@@ -375,7 +404,7 @@ def build_characters(characters: list[dict[str, Any]], cards: list[dict[str, Any
         relic_list = ", ".join(relic_link(item) for item in character.get("starting_relics", [])) or "-"
         lines.append(
             f"| {image_tag(media_path('characters', character), character.get('name'), 'character-thumb')} | "
-            f"**{clean(character.get('name'))}** | {character.get('starting_hp') or '-'} | "
+            f"**{detail_link('characters', character)}** | {character.get('starting_hp') or '-'} | "
             f"{character.get('starting_gold') or '-'} | {character.get('max_energy') or '-'} | "
             f"{character.get('orb_slots') if character.get('orb_slots') is not None else '-'} | "
             f"{clean(character.get('unlocks_after')) or '-'} | {relic_list} |"
@@ -440,9 +469,192 @@ def build_enemies(monsters: list[dict[str, Any]]) -> str:
         pattern = clean((monster.get("attack_pattern") or {}).get("description")) or "-"
         lines.append(
             f"| {image_tag(media_path('enemies', monster), monster.get('name'), 'enemy')} | "
-            f"{anchored_name('enemy', monster)} | {clean(monster.get('type'))} | {monster_hp(monster)} | "
+            f"{anchored_detail_name('enemies', 'enemy', monster)} | {clean(monster.get('type'))} | "
+            f"{monster_hp(monster)} | "
             f"{', '.join(encounter_names) or '-'} | {first_moves(monster)} | {pattern} |"
         )
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def build_card_page(card: dict[str, Any], cards: list[dict[str, Any]]) -> str:
+    description = clean(card.get("description"))
+    lines = page_header(card.get("name"), f"{description} {title(card.get('color'))} {card.get('type')} card.")
+    lines += [
+        '<div class="wiki-entity-hero">',
+        image_tag(media_path("cards", card), card.get("name"), "card-detail"),
+        '<div class="wiki-entity-hero__details">',
+        description or "No description is currently available.",
+        "",
+        "| Property | Value |",
+        "|---|---|",
+        f"| Character / Pool | {title(card.get('color'))} |",
+        f"| Type | {clean(card.get('type'))} |",
+        f"| Rarity | {clean(card.get('rarity'))} |",
+        f"| Cost | {card_cost(card)} |",
+        f"| Target | {clean(card.get('target')) or '-'} |",
+        "</div>",
+        "</div>",
+        "",
+        "## Upgrade",
+        "",
+        clean(card.get("upgrade_description")) or "No standard upgrade text is available.",
+    ]
+    keywords = card.get("keywords") or []
+    if keywords:
+        lines += ["", "## Keywords", "", ", ".join(f"`{clean(keyword)}`" for keyword in keywords)]
+    variants = card.get("type_variants") or {}
+    if variants:
+        lines += ["", "## Variants", ""]
+        for variant_name, variant in variants.items():
+            lines += [
+                f"### {title(variant_name)}",
+                "",
+                clean(variant.get("description")) or "No description available.",
+            ]
+            riders = variant.get("riders") or []
+            for rider in riders:
+                lines.append(f"- **{clean(rider.get('name'))}:** {clean(rider.get('description'))}")
+            lines.append("")
+    related = sorted(
+        (
+            item
+            for item in cards
+            if item.get("id") != card.get("id")
+            and item.get("color") == card.get("color")
+            and item.get("type") == card.get("type")
+        ),
+        key=lambda item: clean(item.get("name")),
+    )[:8]
+    if related:
+        lines += ["", "## Related Cards", "", "- " + "\n- ".join(detail_link("", item) for item in related)]
+    lines += ["", "[Back to all cards](../cards.md)", ""]
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def build_relic_page(relic: dict[str, Any], relics: list[dict[str, Any]]) -> str:
+    description = clean(relic.get("description"))
+    lines = page_header(relic.get("name"), f"{description} {relic.get('rarity')} relic.")
+    lines += [
+        '<div class="wiki-entity-hero">',
+        image_tag(media_path("relics", relic), relic.get("name"), "relic-detail"),
+        '<div class="wiki-entity-hero__details">',
+        description or "No description is currently available.",
+        "",
+        "| Property | Value |",
+        "|---|---|",
+        f"| Rarity | {clean(relic.get('rarity'))} |",
+        f"| Pool | {title(relic.get('pool'))} |",
+        f"| Merchant Price | {price(relic)} |",
+        "</div>",
+        "</div>",
+    ]
+    flavor = clean(relic.get("flavor"))
+    notes = relic.get("notes") or []
+    if flavor:
+        lines += ["", "## Flavor", "", flavor]
+    if notes:
+        lines += ["", "## Notes", ""] + [f"- {clean(note)}" for note in notes]
+    related = sorted(
+        (
+            item
+            for item in relics
+            if item.get("id") != relic.get("id")
+            and item.get("rarity") == relic.get("rarity")
+            and item.get("pool") == relic.get("pool")
+        ),
+        key=lambda item: clean(item.get("name")),
+    )[:8]
+    if related:
+        lines += ["", "## Related Relics", "", "- " + "\n- ".join(detail_link("", item) for item in related)]
+    lines += ["", "[Back to all relics](../relics.md)", ""]
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def build_character_page(
+    character: dict[str, Any], cards: list[dict[str, Any]], relics: list[dict[str, Any]]
+) -> str:
+    card_items = {re.sub(r"[^a-z0-9]", "", item["id"].lower()): item for item in cards}
+    relic_items = {re.sub(r"[^a-z0-9]", "", item["id"].lower()): item for item in relics}
+
+    def find(items: dict[str, dict[str, Any]], value: str) -> dict[str, Any] | None:
+        return items.get(re.sub(r"[^a-z0-9]", "", value.lower()))
+
+    description = clean(character.get("description"))
+    lines = page_header(character.get("name"), description)
+    lines += [
+        '<div class="wiki-entity-hero wiki-entity-hero--character">',
+        image_tag(media_path("characters", character), character.get("name"), "character-detail"),
+        '<div class="wiki-entity-hero__details">',
+        description,
+        "",
+        "| Stat | Value |",
+        "|---|---|",
+        f"| Starting HP | {character.get('starting_hp') or '-'} |",
+        f"| Starting Gold | {character.get('starting_gold') or '-'} |",
+        f"| Energy | {character.get('max_energy') or '-'} |",
+        f"| Orb Slots | {character.get('orb_slots') if character.get('orb_slots') is not None else '-'} |",
+        f"| Unlocks After | {clean(character.get('unlocks_after')) or '-'} |",
+        "</div>",
+        "</div>",
+        "",
+        "## Starting Deck",
+        "",
+    ]
+    deck = Counter(character.get("starting_deck", []))
+    for card_id, count in sorted(deck.items()):
+        item = find(card_items, card_id)
+        name = detail_link("cards", item, "../") if item else clean(card_id)
+        lines.append(f"- {count}x {name}" if count > 1 else f"- {name}")
+    lines += ["", "## Starting Relics", ""]
+    for relic_id in character.get("starting_relics", []):
+        item = find(relic_items, relic_id)
+        lines.append(f"- {detail_link('relics', item, '../') if item else clean(relic_id)}")
+    quotes = character.get("quotes") or {}
+    if quotes:
+        lines += ["", "## Notable Quotes", ""]
+        for key in ["gold_monologue", "aroma_principle", "banter_alive", "banter_dead", "unlock_text"]:
+            if quotes.get(key):
+                lines.append(f"- **{title(key)}:** {clean(quotes[key])}")
+    lines += ["", "[Back to all characters](../characters.md)", ""]
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def build_enemy_page(monster: dict[str, Any]) -> str:
+    pattern = clean((monster.get("attack_pattern") or {}).get("description"))
+    lines = page_header(monster.get("name"), f"{monster.get('type')} enemy with {monster_hp(monster)} HP. {pattern}")
+    lines += [
+        '<div class="wiki-entity-hero">',
+        image_tag(media_path("enemies", monster), monster.get("name"), "enemy-detail"),
+        '<div class="wiki-entity-hero__details">',
+        "| Property | Value |",
+        "|---|---|",
+        f"| Type | {clean(monster.get('type'))} |",
+        f"| HP | {monster_hp(monster)} |",
+        f"| Pattern | {pattern or '-'} |",
+        "</div>",
+        "</div>",
+        "",
+        "## Moves",
+        "",
+        "| Move | Intent | Damage | Block | Heal |",
+        "|---|---|---|---|---|",
+    ]
+    for move in monster.get("moves") or []:
+        lines.append(
+            f"| {clean(move.get('name') or move.get('id'))} | {clean(move.get('intent')) or '-'} | "
+            f"{move_value(move.get('damage'), 'damage') or '-'} | "
+            f"{move_value(move.get('block'), 'block') or '-'} | "
+            f"{move_value(move.get('heal'), 'heal') or '-'} |"
+        )
+    encounters = monster.get("encounters") or []
+    if encounters:
+        lines += ["", "## Encounters", "", "| Encounter | Room | Act |", "|---|---|---|"]
+        for encounter in encounters:
+            lines.append(
+                f"| {clean(encounter.get('encounter_name')) or '-'} | "
+                f"{clean(encounter.get('room_type')) or '-'} | {encounter.get('act') or '-'} |"
+            )
+    lines += ["", "[Back to all enemies](../enemies.md)", ""]
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -499,6 +711,16 @@ def generate() -> dict[Path, str]:
         Path("docs/guides.md"): build_guides(guides),
         Path("docs/relics.md"): build_relics(relics),
     }
+    for card in cards:
+        files[Path("docs/cards") / f"{entity_slug(card['id'])}.md"] = build_card_page(card, cards)
+    for character in characters:
+        files[Path("docs/characters") / f"{entity_slug(character['id'])}.md"] = build_character_page(
+            character, cards, relics
+        )
+    for monster in monsters:
+        files[Path("docs/enemies") / f"{entity_slug(monster['id'])}.md"] = build_enemy_page(monster)
+    for relic in relics:
+        files[Path("docs/relics") / f"{entity_slug(relic['id'])}.md"] = build_relic_page(relic, relics)
     index = Path("docs/index.md").read_text()
     files[Path("docs/index.md")] = patch_counts(index, stats, len(guides))
     landing = Path("landing/index.html").read_text()
@@ -521,12 +743,27 @@ def main() -> int:
 
     generated = generate()
     changed = []
+    generated_directories = [Path("docs/cards"), Path("docs/characters"), Path("docs/enemies"), Path("docs/relics")]
+    expected_paths = set(generated)
+    stale = sorted(
+        path
+        for directory in generated_directories
+        if directory.exists()
+        for path in directory.glob("*.md")
+        if path not in expected_paths
+    )
     for path, text in generated.items():
         current = path.read_text() if path.exists() else None
         if current != text:
             changed.append(path)
             if not args.check:
+                path.parent.mkdir(parents=True, exist_ok=True)
                 path.write_text(text)
+
+    for path in stale:
+        changed.append(path)
+        if not args.check:
+            path.unlink()
 
     if args.check and changed:
         print("Generated content is out of date:", file=sys.stderr)

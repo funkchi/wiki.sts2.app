@@ -1,0 +1,36 @@
+---
+title: "Juzu Bracelet"
+description: "Regular enemy combats are no longer encountered in ? rooms. Common Relic relic."
+---
+
+# Juzu Bracelet
+
+<div class="wiki-entity-hero">
+<a class="wiki-image-link" href="/media/relics/juzu-bracelet.webp" target="_blank" rel="noopener" aria-label="View full image: Juzu Bracelet" title="View full image: Juzu Bracelet"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/juzu-bracelet.webp" alt="Juzu Bracelet" loading="lazy" decoding="async"></a>
+<div class="wiki-entity-hero__details">
+Regular enemy combats are no longer encountered in ? rooms.
+
+| Property | Value |
+|---|---|
+| Rarity | Common Relic |
+| Pool | Shared |
+| Merchant Price | 175 (149-201) |
+</div>
+</div>
+
+## Flavor
+
+Details for this relic will be revealed in the future...
+
+## Related Relics
+
+- [Amethyst Aubergine](amethyst-aubergine.md)
+- [Anchor](anchor.md)
+- [Bag of Marbles](bag-of-marbles.md)
+- [Bag of Preparation](bag-of-preparation.md)
+- [Blood Vial](blood-vial.md)
+- [Book of Five Rings](book-of-five-rings.md)
+- [Bronze Scales](bronze-scales.md)
+- [Centennial Puzzle](centennial-puzzle.md)
+
+[Back to all relics](../relics.md)

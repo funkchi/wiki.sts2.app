@@ -6,11 +6,11 @@ Character data is sourced from the [Spire Codex API](https://spire-codex.com/doc
 
 | Image | Character | HP | Gold | Energy | Orb Slots | Unlocks After | Starting Relics |
 |---|---|---:|---:|---:|---:|---|---|
-| <a class="wiki-image-link" href="/media/characters/ironclad.webp" target="_blank" rel="noopener" aria-label="View full image: The Ironclad" title="View full image: The Ironclad"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/ironclad.webp" alt="The Ironclad" loading="lazy" decoding="async"></a> | **The Ironclad** | 80 | 99 | 3 | - | - | [Burning Blood](relics.md#relic-burning-blood) |
-| <a class="wiki-image-link" href="/media/characters/silent.webp" target="_blank" rel="noopener" aria-label="View full image: The Silent" title="View full image: The Silent"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/silent.webp" alt="The Silent" loading="lazy" decoding="async"></a> | **The Silent** | 70 | 99 | 3 | - | - | [Ring of the Snake](relics.md#relic-ring-of-the-snake) |
-| <a class="wiki-image-link" href="/media/characters/defect.webp" target="_blank" rel="noopener" aria-label="View full image: The Defect" title="View full image: The Defect"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/defect.webp" alt="The Defect" loading="lazy" decoding="async"></a> | **The Defect** | 75 | 99 | 3 | 3 | Necrobinder | [Cracked Core](relics.md#relic-cracked-core) |
-| <a class="wiki-image-link" href="/media/characters/necrobinder.webp" target="_blank" rel="noopener" aria-label="View full image: The Necrobinder" title="View full image: The Necrobinder"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/necrobinder.webp" alt="The Necrobinder" loading="lazy" decoding="async"></a> | **The Necrobinder** | 66 | 99 | 3 | - | Regent | [Bound Phylactery](relics.md#relic-bound-phylactery) |
-| <a class="wiki-image-link" href="/media/characters/regent.webp" target="_blank" rel="noopener" aria-label="View full image: The Regent" title="View full image: The Regent"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/regent.webp" alt="The Regent" loading="lazy" decoding="async"></a> | **The Regent** | 75 | 99 | 3 | - | Silent | [Divine Right](relics.md#relic-divine-right) |
+| <a class="wiki-image-link" href="/media/characters/ironclad.webp" target="_blank" rel="noopener" aria-label="View full image: The Ironclad" title="View full image: The Ironclad"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/ironclad.webp" alt="The Ironclad" loading="lazy" decoding="async"></a> | **[The Ironclad](characters/ironclad.md)** | 80 | 99 | 3 | - | - | [Burning Blood](relics/burning-blood.md) |
+| <a class="wiki-image-link" href="/media/characters/silent.webp" target="_blank" rel="noopener" aria-label="View full image: The Silent" title="View full image: The Silent"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/silent.webp" alt="The Silent" loading="lazy" decoding="async"></a> | **[The Silent](characters/silent.md)** | 70 | 99 | 3 | - | - | [Ring of the Snake](relics/ring-of-the-snake.md) |
+| <a class="wiki-image-link" href="/media/characters/defect.webp" target="_blank" rel="noopener" aria-label="View full image: The Defect" title="View full image: The Defect"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/defect.webp" alt="The Defect" loading="lazy" decoding="async"></a> | **[The Defect](characters/defect.md)** | 75 | 99 | 3 | 3 | Necrobinder | [Cracked Core](relics/cracked-core.md) |
+| <a class="wiki-image-link" href="/media/characters/necrobinder.webp" target="_blank" rel="noopener" aria-label="View full image: The Necrobinder" title="View full image: The Necrobinder"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/necrobinder.webp" alt="The Necrobinder" loading="lazy" decoding="async"></a> | **[The Necrobinder](characters/necrobinder.md)** | 66 | 99 | 3 | - | Regent | [Bound Phylactery](relics/bound-phylactery.md) |
+| <a class="wiki-image-link" href="/media/characters/regent.webp" target="_blank" rel="noopener" aria-label="View full image: The Regent" title="View full image: The Regent"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/regent.webp" alt="The Regent" loading="lazy" decoding="async"></a> | **[The Regent](characters/regent.md)** | 75 | 99 | 3 | - | Silent | [Divine Right](relics/divine-right.md) |
 
 ## The Ironclad
 
@@ -28,13 +28,13 @@ The last soldier of the Ironclads. Crushes foes with sword and flame against his
 | Energy | 3 |
 | Orb Slots | - |
 | Unlocks After | - |
-| Starting Relics | [Burning Blood](relics.md#relic-burning-blood) |
+| Starting Relics | [Burning Blood](relics/burning-blood.md) |
 
 ### Starting Deck
 
-- [Bash](cards.md#card-bash)
-- 4x [Defend](cards.md#card-defend-ironclad)
-- 5x [Strike](cards.md#card-strike-ironclad)
+- [Bash](cards/bash.md)
+- 4x [Defend](cards/defend-ironclad.md)
+- 5x [Strike](cards/strike-ironclad.md)
 
 ### Notable Quotes
 
@@ -59,14 +59,14 @@ A huntress from outside the Spire. Ready to stab and poison anything in her way.
 | Energy | 3 |
 | Orb Slots | - |
 | Unlocks After | - |
-| Starting Relics | [Ring of the Snake](relics.md#relic-ring-of-the-snake) |
+| Starting Relics | [Ring of the Snake](relics/ring-of-the-snake.md) |
 
 ### Starting Deck
 
-- 5x [Defend](cards.md#card-defend-silent)
-- [Neutralize](cards.md#card-neutralize)
-- 5x [Strike](cards.md#card-strike-silent)
-- [Survivor](cards.md#card-survivor)
+- 5x [Defend](cards/defend-silent.md)
+- [Neutralize](cards/neutralize.md)
+- 5x [Strike](cards/strike-silent.md)
+- [Survivor](cards/survivor.md)
 
 ### Notable Quotes
 
@@ -92,14 +92,14 @@ An automaton eternally modifying itself to survive. Deploys Orb technology when 
 | Energy | 3 |
 | Orb Slots | 3 |
 | Unlocks After | Necrobinder |
-| Starting Relics | [Cracked Core](relics.md#relic-cracked-core) |
+| Starting Relics | [Cracked Core](relics/cracked-core.md) |
 
 ### Starting Deck
 
-- 4x [Defend](cards.md#card-defend-defect)
-- [Dualcast](cards.md#card-dualcast)
-- 4x [Strike](cards.md#card-strike-defect)
-- [Zap](cards.md#card-zap)
+- 4x [Defend](cards/defend-defect.md)
+- [Dualcast](cards/dualcast.md)
+- 4x [Strike](cards/strike-defect.md)
+- [Zap](cards/zap.md)
 
 ### Notable Quotes
 
@@ -125,14 +125,14 @@ A Spireborn lich who seeks revenge. Calls upon her trusty left hand, Osty, in co
 | Energy | 3 |
 | Orb Slots | - |
 | Unlocks After | Regent |
-| Starting Relics | [Bound Phylactery](relics.md#relic-bound-phylactery) |
+| Starting Relics | [Bound Phylactery](relics/bound-phylactery.md) |
 
 ### Starting Deck
 
-- [Bodyguard](cards.md#card-bodyguard)
-- 4x [Defend](cards.md#card-defend-necrobinder)
-- 4x [Strike](cards.md#card-strike-necrobinder)
-- [Unleash](cards.md#card-unleash)
+- [Bodyguard](cards/bodyguard.md)
+- 4x [Defend](cards/defend-necrobinder.md)
+- 4x [Strike](cards/strike-necrobinder.md)
+- [Unleash](cards/unleash.md)
 
 ### Notable Quotes
 
@@ -158,14 +158,14 @@ Heir to the Throne of Stars. Wields cosmic powers but his minions do the work.
 | Energy | 3 |
 | Orb Slots | - |
 | Unlocks After | Silent |
-| Starting Relics | [Divine Right](relics.md#relic-divine-right) |
+| Starting Relics | [Divine Right](relics/divine-right.md) |
 
 ### Starting Deck
 
-- 4x [Defend](cards.md#card-defend-regent)
-- [Falling Star](cards.md#card-falling-star)
-- 4x [Strike](cards.md#card-strike-regent)
-- [Venerate](cards.md#card-venerate)
+- 4x [Defend](cards/defend-regent.md)
+- [Falling Star](cards/falling-star.md)
+- 4x [Strike](cards/strike-regent.md)
+- [Venerate](cards/venerate.md)
 
 ### Notable Quotes
 

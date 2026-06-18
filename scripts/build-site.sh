@@ -18,6 +18,9 @@ cp -R landing/. public/
 
 test -f public/index.html
 test -f public/ads.txt
+test -f public/robots.txt
+test -f public/sitemap.xml
+test -f public/sitemap-pages.xml
 test -f public/docs/index.html
 test -f public/images/hero.png
 test -f public/docs/images/hero.png

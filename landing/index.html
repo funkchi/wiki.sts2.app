@@ -275,10 +275,25 @@
     }
 
     footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
       padding: 2rem clamp(1rem, 4vw, 3rem);
       border-top: 1px solid rgba(255, 246, 234, 0.08);
       color: rgba(255, 246, 234, 0.48);
       font-size: 0.86rem;
+    }
+
+    footer nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    footer a {
+      color: rgba(255, 246, 234, 0.72);
+      text-decoration: none;
     }
 
     @media (max-width: 900px) {
@@ -417,7 +432,13 @@
   </div>
 
   <footer>
-    Slay the Spire 2 Wiki
+    <span>Slay the Spire 2 Wiki</span>
+    <nav aria-label="Legal">
+      <a href="/docs/about/">About</a>
+      <a href="/docs/privacy/">Privacy</a>
+      <a href="/docs/contact/">Contact</a>
+      <a href="/docs/disclaimer/">Disclaimer</a>
+    </nav>
   </footer>
 </body>
 </html>

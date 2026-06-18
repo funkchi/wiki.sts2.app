@@ -1,6 +1,11 @@
 site_name: Slay the Spire 2 Wiki
 site_url: https://wiki.sts2.app/docs/
 site_description: Community wiki for Slay the Spire 2 cards, relics, characters, enemies, and guides.
+not_in_nav: |
+  /cards/*.md
+  /characters/*.md
+  /enemies/*.md
+  /relics/*.md
 theme:
   name: material
   palette:
@@ -37,6 +42,11 @@ nav:
   - Relics: relics.md
   - Enemies: enemies.md
   - Guides: guides.md
+  - About: about.md
+  - Policies:
+      - Privacy: privacy.md
+      - Contact: contact.md
+      - Disclaimer: disclaimer.md
 
 plugins:
   - search

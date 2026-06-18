@@ -1,16 +1,20 @@
 #!/usr/bin/env python3
-"""Validate generated entity images, anchors, and character cross-links."""
+"""Validate built entity indexes, detail pages, links, media, and sitemaps."""
 
 from __future__ import annotations
 
 import json
+import re
 import time
 import urllib.request
+import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
 
 
 API_BASE = "https://spire-codex.com/api"
+SITE_BASE = "https://wiki.sts2.app"
+DOCS_ROOT = Path("public/docs")
 
 
 class PageAudit(HTMLParser):
@@ -19,6 +23,8 @@ class PageAudit(HTMLParser):
         self.ids: list[tuple[str, str]] = []
         self.links: list[str] = []
         self.images: list[tuple[set[str], str]] = []
+        self.canonicals: list[str] = []
+        self.descriptions: list[str] = []
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         values = dict(attrs)
@@ -28,6 +34,10 @@ class PageAudit(HTMLParser):
             self.links.append(values["href"] or "")
         if tag == "img":
             self.images.append((set((values.get("class") or "").split()), values.get("src") or ""))
+        if tag == "link" and "canonical" in (values.get("rel") or "").split():
+            self.canonicals.append(values.get("href") or "")
+        if tag == "meta" and values.get("name") == "description":
+            self.descriptions.append(values.get("content") or "")
 
 
 def fetch(endpoint: str) -> list[dict[str, object]]:
@@ -46,10 +56,18 @@ def fetch(endpoint: str) -> list[dict[str, object]]:
     raise RuntimeError(f"Unable to fetch {endpoint}")
 
 
-def parse(page: str) -> PageAudit:
+def slug(value: object) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", str(value).lower()).strip("-")
+
+
+def parse_path(path: Path) -> PageAudit:
     audit = PageAudit()
-    audit.feed(Path("public/docs", page, "index.html").read_text())
+    audit.feed(path.read_text())
     return audit
+
+
+def parse(page: str) -> PageAudit:
+    return parse_path(DOCS_ROOT / page / "index.html")
 
 
 def anchors(page: PageAudit, prefix: str) -> set[str]:
@@ -66,26 +84,86 @@ def image_count(page: PageAudit, class_name: str) -> int:
     return len(sources)
 
 
+def expected_slugs(items: list[dict[str, object]], kind: str) -> set[str]:
+    values = [slug(item["id"]) for item in items]
+    if len(values) != len(set(values)):
+        raise AssertionError(f"Source IDs produce duplicate {kind} URLs")
+    return set(values)
+
+
+def check_index_links(page: PageAudit, folder: str, expected: set[str]) -> None:
+    found = {
+        href[:-1]
+        for href in page.links
+        if href.endswith("/") and href != "./" and "/" not in href[:-1]
+    }
+    missing = expected - found
+    extra = found - expected
+    if missing or extra:
+        raise AssertionError(
+            f"{folder} index link mismatch: missing={sorted(missing)[:5]}, extra={sorted(extra)[:5]}"
+        )
+
+
+def check_detail_pages(folder: str, expected: set[str], image_class: str) -> set[str]:
+    built = {path.parent.name for path in (DOCS_ROOT / folder).glob("*/index.html")}
+    if built != expected:
+        raise AssertionError(
+            f"{folder} detail page mismatch: missing={sorted(expected - built)[:5]}, "
+            f"extra={sorted(built - expected)[:5]}"
+        )
+
+    urls: set[str] = set()
+    for item_slug in sorted(expected):
+        audit = parse_path(DOCS_ROOT / folder / item_slug / "index.html")
+        url = f"{SITE_BASE}/docs/{folder}/{item_slug}/"
+        if audit.canonicals != [url]:
+            raise AssertionError(f"Invalid canonical for {url}: {audit.canonicals}")
+        if len(audit.descriptions) != 1 or not audit.descriptions[0].strip():
+            raise AssertionError(f"Missing meta description for {url}")
+        if image_count(audit, image_class) != 1:
+            raise AssertionError(f"Expected one {image_class} image on {url}")
+        urls.add(url)
+    return urls
+
+
+def xml_locations(path: Path) -> set[str]:
+    return {
+        element.text.strip()
+        for element in ET.parse(path).iter()
+        if element.tag.rsplit("}", 1)[-1] == "loc" and element.text
+    }
+
+
 def main() -> int:
     source = {endpoint: fetch(endpoint) for endpoint in ("cards", "characters", "relics", "monsters")}
     cards, characters, relics, enemies = (parse(page) for page in ("cards", "characters", "relics", "enemies"))
-
-    card_anchors = anchors(cards, "card-")
-    relic_anchors = anchors(relics, "relic-")
-    checks = {
-        "card images": (image_count(cards, "wiki-image--card"), len(source["cards"])),
-        "card anchors": (len(card_anchors), len(source["cards"])),
-        "relic images": (image_count(relics, "wiki-image--relic"), len(source["relics"])),
-        "relic anchors": (len(relic_anchors), len(source["relics"])),
-        "character thumbnails": (image_count(characters, "wiki-image--character-thumb"), len(source["characters"])),
-        "character portraits": (image_count(characters, "wiki-image--character"), len(source["characters"])),
-        "enemy images": (image_count(enemies, "wiki-image--enemy"), len(source["monsters"])),
-        "enemy anchors": (len(anchors(enemies, "enemy-")), len(source["monsters"])),
+    groups = {
+        "cards": (source["cards"], cards, "card-", "wiki-image--card", "wiki-image--card-detail"),
+        "characters": (
+            source["characters"],
+            characters,
+            None,
+            "wiki-image--character-thumb",
+            "wiki-image--character-detail",
+        ),
+        "relics": (source["relics"], relics, "relic-", "wiki-image--relic", "wiki-image--relic-detail"),
+        "enemies": (source["monsters"], enemies, "enemy-", "wiki-image--enemy", "wiki-image--enemy-detail"),
     }
-    failures = {label: values for label, values in checks.items() if values[0] != values[1]}
-    if failures:
-        raise AssertionError(f"Entity coverage mismatch: {failures}")
 
+    slugs: dict[str, set[str]] = {}
+    detail_urls: set[str] = set()
+    checks: dict[str, tuple[int, int]] = {}
+    for folder, (items, index, anchor_prefix, index_image_class, detail_image_class) in groups.items():
+        expected = expected_slugs(items, folder)
+        slugs[folder] = expected
+        checks[f"{folder} index images"] = (image_count(index, index_image_class), len(items))
+        if anchor_prefix:
+            checks[f"{folder} index anchors"] = (len(anchors(index, anchor_prefix)), len(items))
+        check_index_links(index, folder, expected)
+        detail_urls.update(check_detail_pages(folder, expected, detail_image_class))
+
+    # The character index has both compact starter-kit links and expanded detail links.
     expected_links = sum(
         len(set(character.get("starting_deck", []))) + 2 * len(character.get("starting_relics", []))
         for character in source["characters"]
@@ -93,20 +171,39 @@ def main() -> int:
     entity_links = [
         href
         for href in characters.links
-        if "../cards/#card-" in href or "../relics/#relic-" in href
+        if re.fullmatch(r"\.\./(?:cards|relics)/[a-z0-9-]+/", href)
     ]
     if len(entity_links) != expected_links:
         raise AssertionError(f"Expected {expected_links} character entity links, found {len(entity_links)}")
     for href in entity_links:
-        anchor = href.split("#", 1)[1]
-        target = card_anchors if "/cards/" in href else relic_anchors
-        if anchor not in target:
+        _, folder, item_slug, _ = href.split("/")
+        if item_slug not in slugs[folder]:
             raise AssertionError(f"Missing character link target: {href}")
+
+    failures = {label: values for label, values in checks.items() if values[0] != values[1]}
+    if failures:
+        raise AssertionError(f"Entity coverage mismatch: {failures}")
+
+    root_sitemap = xml_locations(Path("public/sitemap.xml"))
+    expected_sitemaps = {f"{SITE_BASE}/sitemap-pages.xml", f"{SITE_BASE}/docs/sitemap.xml"}
+    if root_sitemap != expected_sitemaps:
+        raise AssertionError(f"Root sitemap index mismatch: {root_sitemap}")
+    if f"{SITE_BASE}/" not in xml_locations(Path("public/sitemap-pages.xml")):
+        raise AssertionError("Landing page is missing from sitemap-pages.xml")
+    docs_sitemap = xml_locations(DOCS_ROOT / "sitemap.xml")
+    missing_detail_urls = detail_urls - docs_sitemap
+    if missing_detail_urls:
+        raise AssertionError(f"Detail pages missing from docs sitemap: {sorted(missing_detail_urls)[:5]}")
+    robots = Path("public/robots.txt").read_text()
+    if f"Sitemap: {SITE_BASE}/sitemap.xml" not in robots:
+        raise AssertionError("robots.txt does not advertise the root sitemap")
 
     print("Built content coverage passed:")
     for label, (actual, _) in checks.items():
         print(f"  {label}: {actual}")
+    print(f"  detail pages with canonical metadata: {len(detail_urls)}")
     print(f"  character card/relic links: {len(entity_links)}")
+    print(f"  detail URLs in docs sitemap: {len(detail_urls)}")
     return 0
 
 

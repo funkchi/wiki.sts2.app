@@ -1,0 +1,14 @@
+---
+title: Disclaimer
+description: Independence, accuracy, and intellectual-property disclaimer for the Slay the Spire 2 Wiki.
+---
+
+# Disclaimer
+
+Slay the Spire 2 Wiki is an unofficial community project. It is not affiliated with, endorsed by, or sponsored by Mega Crit.
+
+Game names, artwork, terminology, and related intellectual property belong to their respective owners. They are presented here for identification, commentary, and reference.
+
+Slay the Spire 2 is evolving during Early Access. Data may become incomplete or outdated between upstream updates. Verify consequential run decisions against the current game version.
+
+External links are provided for convenience and do not imply endorsement.
