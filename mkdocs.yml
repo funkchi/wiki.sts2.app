@@ -32,11 +32,8 @@ theme:
     - search.share
   custom_dir: docs/overrides
 
-extra_css:
-  - stylesheets/extra.css
-
-extra_javascript:
-  - javascripts/entity-browser.js
+extra:
+  asset_version: "20260618-1"
 
 nav:
   - Home: index.md
