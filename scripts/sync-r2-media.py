@@ -131,6 +131,30 @@ def run_parallel(label: str, function: Callable[[Any], Any], entries: list[Any],
     return results
 
 
+def scan_parallel(
+    entries: list[dict[str, str]], workers: int, refresh: bool
+) -> tuple[list[dict[str, Any]], list[dict[str, str]]]:
+    results = []
+    unavailable = []
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = {executor.submit(download, entry, refresh): entry for entry in entries}
+        for index, future in enumerate(as_completed(futures), 1):
+            entry = futures[future]
+            try:
+                results.append(future.result())
+            except Exception as error:
+                unavailable.append(
+                    {
+                        "key": entry["key"],
+                        "source_url": entry["source_url"],
+                        "error": str(error),
+                    }
+                )
+            if index % 50 == 0 or index == len(entries):
+                print(f"Hashed: {index}/{len(entries)}")
+    return results, sorted(unavailable, key=lambda entry: entry["key"])
+
+
 def load_manifest(path: Path) -> dict[str, dict[str, Any]]:
     if not path.exists():
         return {}
@@ -144,7 +168,13 @@ def public_entry(entry: dict[str, Any]) -> dict[str, Any]:
     return {key: entry[key] for key in ("source_url", "sha256", "size")}
 
 
-def write_report(path: Path, total: int, changed: list[dict[str, Any]], removed: list[str]) -> None:
+def write_report(
+    path: Path,
+    total: int,
+    changed: list[dict[str, Any]],
+    removed: list[str],
+    unavailable: list[dict[str, str]],
+) -> None:
     lines = [
         "# R2 media diff",
         "",
@@ -156,6 +186,12 @@ def write_report(path: Path, total: int, changed: list[dict[str, Any]], removed:
     if removed:
         lines += ["", "## Removed from source", ""]
         lines += [f"- `{key}`" for key in removed]
+    if unavailable:
+        lines += ["", "## Temporarily unavailable", ""]
+        lines += [
+            f"- `{entry['key']}` from `{entry['source_url']}`: {entry['error']}"
+            for entry in unavailable
+        ]
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines).rstrip() + "\n")
 
@@ -186,25 +222,29 @@ def main() -> int:
 
     previous = load_manifest(args.manifest)
     print(f"Manifest: {len(sources)} images")
-    downloaded = sorted(
-        run_parallel("Hashed", lambda entry: download(entry, args.refresh), sources, args.workers),
-        key=lambda entry: entry["key"],
-    )
+    scanned, unavailable = scan_parallel(sources, args.workers, args.refresh)
+    downloaded = sorted(scanned, key=lambda entry: entry["key"])
     changed = [entry for entry in downloaded if previous.get(entry["key"], {}).get("sha256") != entry["sha256"]]
-    current_keys = {entry["key"] for entry in downloaded}
+    current_keys = {entry["key"] for entry in sources}
     selected_folders = set(args.kinds or ENDPOINTS.values())
     removed = sorted(
         key
         for key in previous
         if key.split("/", 1)[0] in selected_folders and key not in current_keys
     )
-    write_report(args.report, len(downloaded), changed, removed)
-    print(f"Changed or new: {len(changed)}; removed from source: {len(removed)}")
+    write_report(args.report, len(sources), changed, removed, unavailable)
+    print(
+        f"Changed or new: {len(changed)}; removed from source: {len(removed)}; "
+        f"temporarily unavailable: {len(unavailable)}"
+    )
+    for entry in unavailable:
+        print(f"::warning file={entry['key']}::{entry['error']}")
     if args.github_output:
         with Path(args.github_output).open("a") as output:
             output.write(f"changed={'true' if changed or removed else 'false'}\n")
             output.write(f"changed_count={len(changed)}\n")
             output.write(f"removed_count={len(removed)}\n")
+            output.write(f"unavailable_count={len(unavailable)}\n")
 
     if not args.download_only and not args.plan:
         run_parallel("Uploaded", lambda entry: upload(args.bucket, entry), changed, args.workers)
