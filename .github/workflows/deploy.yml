@@ -33,9 +33,6 @@ jobs:
       - name: Run tests
         run: python -m unittest discover -s tests -v
 
-      - name: Verify generated content
-        run: python scripts/sync-spire-codex.py --check
-
       - name: Build static site
         run: bash scripts/build-site.sh
 

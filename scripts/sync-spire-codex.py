@@ -146,8 +146,9 @@ def page_header(name: Any, description: Any) -> list[str]:
 
 def media_path(kind: str, item: dict[str, Any]) -> str:
     slug = re.sub(r"[^a-z0-9]+", "-", str(item.get("id", "")).lower()).strip("-")
-    version = "?v=combat-20260618" if kind == "characters" else ""
-    return f"/media/{kind}/{slug}.webp{version}"
+    if kind == "characters":
+        return f"https://cdn.spire-codex.com/characters/combat_{slug}.webp"
+    return f"/media/{kind}/{slug}.webp"
 
 
 def image_tag(url: Any, name: Any, kind: str) -> str:

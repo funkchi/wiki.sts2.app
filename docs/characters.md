@@ -6,16 +6,16 @@ Character data and original combat-model artwork are sourced from [Spire Codex](
 
 | Image | Character | HP | Gold | Energy | Orb Slots | Unlocks After | Starting Relics |
 |---|---|---:|---:|---:|---:|---|---|
-| <a class="wiki-image-link" href="/media/characters/ironclad.webp?v=combat-20260618" target="_blank" rel="noopener" aria-label="View full image: The Ironclad" title="View full image: The Ironclad"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/ironclad.webp?v=combat-20260618" alt="The Ironclad" loading="lazy" decoding="async"></a> | **[The Ironclad](characters/ironclad.md)** | 80 | 99 | 3 | - | - | [Burning Blood](relics/burning-blood.md) |
-| <a class="wiki-image-link" href="/media/characters/silent.webp?v=combat-20260618" target="_blank" rel="noopener" aria-label="View full image: The Silent" title="View full image: The Silent"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/silent.webp?v=combat-20260618" alt="The Silent" loading="lazy" decoding="async"></a> | **[The Silent](characters/silent.md)** | 70 | 99 | 3 | - | - | [Ring of the Snake](relics/ring-of-the-snake.md) |
-| <a class="wiki-image-link" href="/media/characters/defect.webp?v=combat-20260618" target="_blank" rel="noopener" aria-label="View full image: The Defect" title="View full image: The Defect"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/defect.webp?v=combat-20260618" alt="The Defect" loading="lazy" decoding="async"></a> | **[The Defect](characters/defect.md)** | 75 | 99 | 3 | 3 | Necrobinder | [Cracked Core](relics/cracked-core.md) |
-| <a class="wiki-image-link" href="/media/characters/necrobinder.webp?v=combat-20260618" target="_blank" rel="noopener" aria-label="View full image: The Necrobinder" title="View full image: The Necrobinder"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/necrobinder.webp?v=combat-20260618" alt="The Necrobinder" loading="lazy" decoding="async"></a> | **[The Necrobinder](characters/necrobinder.md)** | 66 | 99 | 3 | - | Regent | [Bound Phylactery](relics/bound-phylactery.md) |
-| <a class="wiki-image-link" href="/media/characters/regent.webp?v=combat-20260618" target="_blank" rel="noopener" aria-label="View full image: The Regent" title="View full image: The Regent"><img class="wiki-image wiki-image--character-thumb" src="/media/characters/regent.webp?v=combat-20260618" alt="The Regent" loading="lazy" decoding="async"></a> | **[The Regent](characters/regent.md)** | 75 | 99 | 3 | - | Silent | [Divine Right](relics/divine-right.md) |
+| <a class="wiki-image-link" href="https://cdn.spire-codex.com/characters/combat_ironclad.webp" target="_blank" rel="noopener" aria-label="View full image: The Ironclad" title="View full image: The Ironclad"><img class="wiki-image wiki-image--character-thumb" src="https://cdn.spire-codex.com/characters/combat_ironclad.webp" alt="The Ironclad" loading="lazy" decoding="async"></a> | **[The Ironclad](characters/ironclad.md)** | 80 | 99 | 3 | - | - | [Burning Blood](relics/burning-blood.md) |
+| <a class="wiki-image-link" href="https://cdn.spire-codex.com/characters/combat_silent.webp" target="_blank" rel="noopener" aria-label="View full image: The Silent" title="View full image: The Silent"><img class="wiki-image wiki-image--character-thumb" src="https://cdn.spire-codex.com/characters/combat_silent.webp" alt="The Silent" loading="lazy" decoding="async"></a> | **[The Silent](characters/silent.md)** | 70 | 99 | 3 | - | - | [Ring of the Snake](relics/ring-of-the-snake.md) |
+| <a class="wiki-image-link" href="https://cdn.spire-codex.com/characters/combat_defect.webp" target="_blank" rel="noopener" aria-label="View full image: The Defect" title="View full image: The Defect"><img class="wiki-image wiki-image--character-thumb" src="https://cdn.spire-codex.com/characters/combat_defect.webp" alt="The Defect" loading="lazy" decoding="async"></a> | **[The Defect](characters/defect.md)** | 75 | 99 | 3 | 3 | Necrobinder | [Cracked Core](relics/cracked-core.md) |
+| <a class="wiki-image-link" href="https://cdn.spire-codex.com/characters/combat_necrobinder.webp" target="_blank" rel="noopener" aria-label="View full image: The Necrobinder" title="View full image: The Necrobinder"><img class="wiki-image wiki-image--character-thumb" src="https://cdn.spire-codex.com/characters/combat_necrobinder.webp" alt="The Necrobinder" loading="lazy" decoding="async"></a> | **[The Necrobinder](characters/necrobinder.md)** | 66 | 99 | 3 | - | Regent | [Bound Phylactery](relics/bound-phylactery.md) |
+| <a class="wiki-image-link" href="https://cdn.spire-codex.com/characters/combat_regent.webp" target="_blank" rel="noopener" aria-label="View full image: The Regent" title="View full image: The Regent"><img class="wiki-image wiki-image--character-thumb" src="https://cdn.spire-codex.com/characters/combat_regent.webp" alt="The Regent" loading="lazy" decoding="async"></a> | **[The Regent](characters/regent.md)** | 75 | 99 | 3 | - | Silent | [Divine Right](relics/divine-right.md) |
 
 ## The Ironclad
 
 <div class="wiki-character">
-<a class="wiki-image-link" href="/media/characters/ironclad.webp?v=combat-20260618" target="_blank" rel="noopener" aria-label="View full image: The Ironclad" title="View full image: The Ironclad"><img class="wiki-image wiki-image--character" src="/media/characters/ironclad.webp?v=combat-20260618" alt="The Ironclad" loading="lazy" decoding="async"></a>
+<a class="wiki-image-link" href="https://cdn.spire-codex.com/characters/combat_ironclad.webp" target="_blank" rel="noopener" aria-label="View full image: The Ironclad" title="View full image: The Ironclad"><img class="wiki-image wiki-image--character" src="https://cdn.spire-codex.com/characters/combat_ironclad.webp" alt="The Ironclad" loading="lazy" decoding="async"></a>
 <div class="wiki-character__copy">
 The last soldier of the Ironclads. Crushes foes with sword and flame against his will.
 </div>
@@ -46,7 +46,7 @@ The last soldier of the Ironclads. Crushes foes with sword and flame against his
 ## The Silent
 
 <div class="wiki-character">
-<a class="wiki-image-link" href="/media/characters/silent.webp?v=combat-20260618" target="_blank" rel="noopener" aria-label="View full image: The Silent" title="View full image: The Silent"><img class="wiki-image wiki-image--character" src="/media/characters/silent.webp?v=combat-20260618" alt="The Silent" loading="lazy" decoding="async"></a>
+<a class="wiki-image-link" href="https://cdn.spire-codex.com/characters/combat_silent.webp" target="_blank" rel="noopener" aria-label="View full image: The Silent" title="View full image: The Silent"><img class="wiki-image wiki-image--character" src="https://cdn.spire-codex.com/characters/combat_silent.webp" alt="The Silent" loading="lazy" decoding="async"></a>
 <div class="wiki-character__copy">
 A huntress from outside the Spire. Ready to stab and poison anything in her way.
 </div>
@@ -79,7 +79,7 @@ A huntress from outside the Spire. Ready to stab and poison anything in her way.
 ## The Defect
 
 <div class="wiki-character">
-<a class="wiki-image-link" href="/media/characters/defect.webp?v=combat-20260618" target="_blank" rel="noopener" aria-label="View full image: The Defect" title="View full image: The Defect"><img class="wiki-image wiki-image--character" src="/media/characters/defect.webp?v=combat-20260618" alt="The Defect" loading="lazy" decoding="async"></a>
+<a class="wiki-image-link" href="https://cdn.spire-codex.com/characters/combat_defect.webp" target="_blank" rel="noopener" aria-label="View full image: The Defect" title="View full image: The Defect"><img class="wiki-image wiki-image--character" src="https://cdn.spire-codex.com/characters/combat_defect.webp" alt="The Defect" loading="lazy" decoding="async"></a>
 <div class="wiki-character__copy">
 An automaton eternally modifying itself to survive. Deploys Orb technology when it must fight.
 </div>
@@ -112,7 +112,7 @@ An automaton eternally modifying itself to survive. Deploys Orb technology when 
 ## The Necrobinder
 
 <div class="wiki-character">
-<a class="wiki-image-link" href="/media/characters/necrobinder.webp?v=combat-20260618" target="_blank" rel="noopener" aria-label="View full image: The Necrobinder" title="View full image: The Necrobinder"><img class="wiki-image wiki-image--character" src="/media/characters/necrobinder.webp?v=combat-20260618" alt="The Necrobinder" loading="lazy" decoding="async"></a>
+<a class="wiki-image-link" href="https://cdn.spire-codex.com/characters/combat_necrobinder.webp" target="_blank" rel="noopener" aria-label="View full image: The Necrobinder" title="View full image: The Necrobinder"><img class="wiki-image wiki-image--character" src="https://cdn.spire-codex.com/characters/combat_necrobinder.webp" alt="The Necrobinder" loading="lazy" decoding="async"></a>
 <div class="wiki-character__copy">
 A Spireborn lich who seeks revenge. Calls upon her trusty left hand, Osty, in combat.
 </div>
@@ -145,7 +145,7 @@ A Spireborn lich who seeks revenge. Calls upon her trusty left hand, Osty, in co
 ## The Regent
 
 <div class="wiki-character">
-<a class="wiki-image-link" href="/media/characters/regent.webp?v=combat-20260618" target="_blank" rel="noopener" aria-label="View full image: The Regent" title="View full image: The Regent"><img class="wiki-image wiki-image--character" src="/media/characters/regent.webp?v=combat-20260618" alt="The Regent" loading="lazy" decoding="async"></a>
+<a class="wiki-image-link" href="https://cdn.spire-codex.com/characters/combat_regent.webp" target="_blank" rel="noopener" aria-label="View full image: The Regent" title="View full image: The Regent"><img class="wiki-image wiki-image--character" src="https://cdn.spire-codex.com/characters/combat_regent.webp" alt="The Regent" loading="lazy" decoding="async"></a>
 <div class="wiki-character__copy">
 Heir to the Throne of Stars. Wields cosmic powers but his minions do the work.
 </div>

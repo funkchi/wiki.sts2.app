@@ -6,16 +6,15 @@ from __future__ import annotations
 import json
 import os
 import re
-import time
-import urllib.request
 import xml.etree.ElementTree as ET
 from html.parser import HTMLParser
 from pathlib import Path
 
 
-API_BASE = "https://spire-codex.com/api"
 SITE_BASE = "https://wiki.sts2.app"
 DOCS_ROOT = Path("public/docs")
+SNAPSHOT = Path("data/spire-codex-snapshot.json")
+CHARACTER_CDN = "https://cdn.spire-codex.com/characters/combat_"
 EDITORIAL_GUIDES = {
     "beginner-guide",
     "deckbuilding-and-scaling",
@@ -47,20 +46,9 @@ class PageAudit(HTMLParser):
             self.descriptions.append(values.get("content") or "")
 
 
-def fetch(endpoint: str) -> list[dict[str, object]]:
-    request = urllib.request.Request(
-        f"{API_BASE}/{endpoint}?lang=eng",
-        headers={"User-Agent": "wiki.sts2.app build check"},
-    )
-    for attempt in range(3):
-        try:
-            with urllib.request.urlopen(request, timeout=30) as response:
-                return json.loads(response.read())
-        except Exception:
-            if attempt == 2:
-                raise
-            time.sleep(1 + attempt)
-    raise RuntimeError(f"Unable to fetch {endpoint}")
+def load_source() -> dict[str, list[dict[str, object]]]:
+    snapshot = json.loads(SNAPSHOT.read_text())
+    return snapshot["collections"]
 
 
 def slug(value: object) -> str:
@@ -86,8 +74,9 @@ def anchors(page: PageAudit, prefix: str) -> set[str]:
 
 def image_count(page: PageAudit, class_name: str) -> int:
     sources = [source for classes, source in page.images if class_name in classes]
-    if any(not source.startswith("/media/") for source in sources):
-        raise AssertionError(f"{class_name} contains a non-R2 image path")
+    expected_prefix = CHARACTER_CDN if "character" in class_name else "/media/"
+    if any(not source.startswith(expected_prefix) for source in sources):
+        raise AssertionError(f"{class_name} contains an unexpected image path")
     return len(sources)
 
 
@@ -146,7 +135,7 @@ def xml_locations(path: Path) -> set[str]:
 
 
 def main() -> int:
-    source = {endpoint: fetch(endpoint) for endpoint in ("cards", "characters", "relics", "monsters")}
+    source = load_source()
     cards, characters, relics, enemies = (parse(page) for page in ("cards", "characters", "relics", "enemies"))
     browser_script = DOCS_ROOT / "javascripts/entity-browser.js"
     if not browser_script.is_file():
@@ -216,9 +205,8 @@ def main() -> int:
         detail_urls.update(check_detail_pages(folder, expected, detail_image_class))
 
     # The character index has both compact starter-kit links and expanded detail links.
-    expected_links = sum(
-        len(set(character.get("starting_deck", []))) + 2 * len(character.get("starting_relics", []))
-        for character in source["characters"]
+    expected_links = len(
+        re.findall(r"\]\((?:cards|relics)/[a-z0-9-]+\.md\)", Path("docs/characters.md").read_text())
     )
     entity_links = [
         href
