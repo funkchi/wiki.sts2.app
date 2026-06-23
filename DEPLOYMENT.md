@@ -62,6 +62,8 @@ The GitHub Actions workflow also supports direct Pages deploys with Wrangler whe
 
 If deploy credentials are absent, the deploy workflow still builds, validates, and uploads the reproducible Pages artifact, then opens or updates a GitHub issue instead of silently skipping the Cloudflare deployment.
 
+The deploy workflow also opens or updates a provider setup issue when Search Console verification or Cloudflare Web Analytics beacon injection is not configured. DNS-based Search Console verification and dashboard-enabled Cloudflare Web Analytics are both acceptable; close the issue after those external checks are complete.
+
 ## Analytics
 
 The repository deploys a first-party event endpoint at `/api/analytics`. Its Analytics Engine schema is:

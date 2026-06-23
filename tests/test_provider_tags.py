@@ -38,6 +38,14 @@ class ProviderTagTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 provider_tags.configure(public, '\"><script>', None)
 
+    def test_deploy_workflow_reports_missing_provider_setup(self):
+        workflow = (Path(__file__).parents[1] / ".github/workflows/deploy.yml").read_text()
+
+        self.assertIn("Report missing provider setup", workflow)
+        self.assertIn("Provider setup: Search Console or Web Analytics is not fully configured", workflow)
+        self.assertIn("GOOGLE_SITE_VERIFICATION", workflow)
+        self.assertIn("CLOUDFLARE_WEB_ANALYTICS_TOKEN", workflow)
+
 
 if __name__ == "__main__":
     unittest.main()

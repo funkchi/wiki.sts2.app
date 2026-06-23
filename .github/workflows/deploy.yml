@@ -97,3 +97,29 @@ jobs:
             printf '## Cloudflare deploy credentials missing\n\n'
             printf 'Built and validated the site, but automatic Pages deploy needs `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` repository secrets.\n'
           } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Report missing provider setup
+        if: ${{ env.GOOGLE_SITE_VERIFICATION == '' || env.CLOUDFLARE_WEB_ANALYTICS_TOKEN == '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Provider setup: Search Console or Web Analytics is not fully configured"
+          {
+            printf 'The build succeeded, but one or more optional provider setup values are missing.\n\n'
+            if [ -z "${GOOGLE_SITE_VERIFICATION}" ]; then
+              printf '- `GOOGLE_SITE_VERIFICATION` is not set. Add it as a repository secret for HTML Search Console verification, or verify the domain with a DNS TXT record and submit `https://wiki.sts2.app/sitemap.xml` manually.\n'
+            fi
+            if [ -z "${CLOUDFLARE_WEB_ANALYTICS_TOKEN}" ]; then
+              printf '- `CLOUDFLARE_WEB_ANALYTICS_TOKEN` is not set. Add the Web Analytics beacon token as a repository secret, or enable Cloudflare Web Analytics directly in the Pages dashboard.\n'
+            fi
+          } > /tmp/provider-setup-issue.md
+          issue_number="$(gh issue list --state open --limit 100 --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body-file /tmp/provider-setup-issue.md
+          else
+            gh issue create --title "$title" --body-file /tmp/provider-setup-issue.md
+          fi
+          {
+            printf '## Provider setup incomplete\n\n'
+            printf 'Search Console verification and/or Cloudflare Web Analytics beacon setup still needs dashboard or repository-secret configuration.\n'
+          } >> "$GITHUB_STEP_SUMMARY"
