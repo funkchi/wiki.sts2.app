@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 jobs:
   report:
@@ -22,7 +23,25 @@ jobs:
           python-version: "3.12"
 
       - name: Build 30-day usage report
-        run: python scripts/report-analytics.py >> "$GITHUB_STEP_SUMMARY"
+        run: python scripts/report-analytics.py --allow-missing-credentials >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Report missing analytics credentials
+        if: env.CLOUDFLARE_ACCOUNT_ID == '' || env.CLOUDFLARE_ANALYTICS_TOKEN == ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Analytics alert: Cloudflare usage reporting credentials are unavailable"
+          {
+            printf 'The weekly usage workflow ran, but it could not query Cloudflare Analytics Engine because credentials are unavailable.\n\n'
+            printf 'Set repository secrets `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_ANALYTICS_TOKEN` to enable usage reports.\n\n'
+            cat artifacts/analytics/usage-report.md
+          } > /tmp/analytics-credentials-issue.md
+          issue_number="$(gh issue list --state open --limit 100 --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body-file /tmp/analytics-credentials-issue.md
+          else
+            gh issue create --title "$title" --body-file /tmp/analytics-credentials-issue.md
+          fi
 
       - name: Upload usage report
         uses: actions/upload-artifact@v7

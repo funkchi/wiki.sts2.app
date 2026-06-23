@@ -72,7 +72,7 @@ The repository deploys a first-party event endpoint at `/api/analytics`. Its Ana
 
 No IP address, user agent, account ID, or persistent visitor ID is written to this dataset.
 
-The `Report Wiki Usage` workflow runs each Monday and publishes both Markdown and JSON artifacts for the trailing 30 days. It covers popular pages, popular searches, empty searches, and internal navigation paths. It requires a dedicated `CLOUDFLARE_ANALYTICS_TOKEN`; keep this read-only token separate from the deployment token.
+The `Report Wiki Usage` workflow runs each Monday and publishes both Markdown and JSON artifacts for the trailing 30 days. It covers popular pages, popular searches, empty searches, and internal navigation paths. It requires a dedicated `CLOUDFLARE_ANALYTICS_TOKEN`; keep this read-only token separate from the deployment token. If the Analytics credentials are missing, the workflow writes a setup report and opens or updates a GitHub issue instead of failing the scheduled run.
 
 Enable Cloudflare Web Analytics for page popularity, referrers, navigation type, and performance:
 

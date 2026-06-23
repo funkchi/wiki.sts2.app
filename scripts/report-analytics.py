@@ -115,13 +115,38 @@ def render_report(results: dict[str, list[dict[str, Any]]], generated_at: str) -
     return "\n".join(output).rstrip() + "\n"
 
 
+def render_missing_credentials_report(generated_at: str) -> str:
+    return "\n".join(
+        [
+            "# Wiki usage report",
+            "",
+            f"Generated: {generated_at}",
+            "",
+            "Usage reporting is not active yet because Cloudflare Analytics credentials are missing.",
+            "",
+            "Set these GitHub repository secrets to enable the scheduled report:",
+            "",
+            "- `CLOUDFLARE_ACCOUNT_ID`",
+            "- `CLOUDFLARE_ANALYTICS_TOKEN` with Account Analytics Read access",
+            "",
+            "The site can still collect first-party events when the Pages project has the `WIKI_ANALYTICS` Analytics Engine binding.",
+        ]
+    ).rstrip() + "\n"
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--fixture", type=Path, help="Render previously queried JSON instead of calling Cloudflare")
     parser.add_argument("--output-dir", type=Path, default=Path("artifacts/analytics"))
+    parser.add_argument(
+        "--allow-missing-credentials",
+        action="store_true",
+        help="write a setup report instead of exiting non-zero when Cloudflare credentials are absent",
+    )
     args = parser.parse_args()
 
     generated_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+    status = "ok"
     if args.fixture:
         fixture = json.loads(args.fixture.read_text())
         results = fixture.get("results", fixture)
@@ -130,13 +155,22 @@ def main() -> None:
         account_id = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "").strip()
         token = os.environ.get("CLOUDFLARE_ANALYTICS_TOKEN", "").strip()
         if not account_id or not token:
-            raise SystemExit("CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_ANALYTICS_TOKEN are required")
-        results = {name: query(account_id, token, sql) for name, sql in QUERIES.items()}
+            if args.allow_missing_credentials:
+                status = "missing_credentials"
+                results = {}
+            else:
+                raise SystemExit("CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_ANALYTICS_TOKEN are required")
+        else:
+            results = {name: query(account_id, token, sql) for name, sql in QUERIES.items()}
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    payload = {"generated_at": generated_at, "window_days": 30, "results": results}
+    if status == "missing_credentials":
+        payload = {"generated_at": generated_at, "window_days": 30, "status": status, "results": {}}
+        report = render_missing_credentials_report(generated_at)
+    else:
+        payload = {"generated_at": generated_at, "window_days": 30, "status": status, "results": results}
+        report = render_report(results, generated_at)
     (args.output_dir / "usage-report.json").write_text(json.dumps(payload, indent=2) + "\n")
-    report = render_report(results, generated_at)
     (args.output_dir / "usage-report.md").write_text(report)
     print(report)
 

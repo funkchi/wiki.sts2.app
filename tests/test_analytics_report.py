@@ -33,6 +33,20 @@ class AnalyticsReportTests(unittest.TestCase):
         report = analytics_report.render_report({}, "2026-06-18T00:00:00+00:00")
         self.assertEqual(4, report.count("No events in this period"))
 
+    def test_missing_credentials_report_names_required_secrets(self):
+        report = analytics_report.render_missing_credentials_report("2026-06-18T00:00:00+00:00")
+
+        self.assertIn("Usage reporting is not active yet", report)
+        self.assertIn("CLOUDFLARE_ACCOUNT_ID", report)
+        self.assertIn("CLOUDFLARE_ANALYTICS_TOKEN", report)
+
+    def test_usage_workflow_reports_missing_credentials_without_failing(self):
+        workflow = (Path(__file__).parents[1] / ".github/workflows/usage-report.yml").read_text()
+
+        self.assertIn("--allow-missing-credentials", workflow)
+        self.assertIn("issues: write", workflow)
+        self.assertIn("Analytics alert: Cloudflare usage reporting credentials are unavailable", workflow)
+
 
 if __name__ == "__main__":
     unittest.main()
