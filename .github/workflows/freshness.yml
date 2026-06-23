@@ -117,8 +117,8 @@ jobs:
             issue_title="Data update branch requires manual PR"
             {
               printf 'A Spire Codex data update branch was pushed, but GitHub Actions could not create the pull request automatically.\n\n'
-              printf '- Branch: `%s`\n' "$branch"
-              printf '- Compare URL: %s\n\n' "$compare_url"
+              printf '%s\n' "- Branch: \`$branch\`"
+              printf '%s\n\n' "- Compare URL: $compare_url"
               printf 'GitHub may require enabling **Allow GitHub Actions to create and approve pull requests** in repository Actions settings.\n\n'
               cat /tmp/freshness-pr.md
             } > /tmp/freshness-issue.md
