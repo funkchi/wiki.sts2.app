@@ -67,6 +67,13 @@ class FreshnessDiffTests(unittest.TestCase):
         self.assertIn("gh issue comment", workflow)
         self.assertIn("gh issue create", workflow)
 
+    def test_workflow_keeps_data_branch_when_actions_cannot_open_pr(self):
+        workflow = (Path(__file__).parents[1] / ".github/workflows/freshness.yml").read_text()
+        self.assertIn("Publish data update branch", workflow)
+        self.assertIn("Data update branch requires manual PR", workflow)
+        self.assertIn("could not create the pull request automatically", workflow)
+        self.assertIn("compare/main...", workflow)
+
 
 if __name__ == "__main__":
     unittest.main()

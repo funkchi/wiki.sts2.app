@@ -88,13 +88,14 @@ jobs:
             gh issue create --title "$title" --body-file artifacts/spire-codex-diff.md
           fi
 
-      - name: Open data update pull request
+      - name: Publish data update branch
         if: steps.source.outputs.changed == 'true' || (steps.media.outputs.changed == 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != '')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           branch="automation/spire-codex-${GITHUB_RUN_ID}"
           title="Data update: Spire Codex $(date -u +%F)"
+          compare_url="https://github.com/${GITHUB_REPOSITORY}/compare/main...${branch}"
           {
             cat artifacts/spire-codex-diff.md
             printf '\n'
@@ -106,7 +107,33 @@ jobs:
           git add -A
           git commit -m "$title"
           git push --set-upstream origin "$branch"
-          gh pr create --base main --head "$branch" --title "$title" --body-file /tmp/freshness-pr.md
+          if pr_url="$(gh pr create --base main --head "$branch" --title "$title" --body-file /tmp/freshness-pr.md 2>/tmp/freshness-pr-error.txt)"; then
+            {
+              printf '## Data update pull request\n\n'
+              printf '%s\n' "$pr_url"
+            } >> "$GITHUB_STEP_SUMMARY"
+          else
+            cat /tmp/freshness-pr-error.txt >&2
+            issue_title="Data update branch requires manual PR"
+            {
+              printf 'A Spire Codex data update branch was pushed, but GitHub Actions could not create the pull request automatically.\n\n'
+              printf '- Branch: `%s`\n' "$branch"
+              printf '- Compare URL: %s\n\n' "$compare_url"
+              printf 'GitHub may require enabling **Allow GitHub Actions to create and approve pull requests** in repository Actions settings.\n\n'
+              cat /tmp/freshness-pr.md
+            } > /tmp/freshness-issue.md
+            issue_number="$(gh issue list --state open --limit 100 --json number,title --jq ".[] | select(.title == \"$issue_title\") | .number" | head -n 1)"
+            if [ -n "$issue_number" ]; then
+              gh issue comment "$issue_number" --body-file /tmp/freshness-issue.md
+            else
+              gh issue create --title "$issue_title" --body-file /tmp/freshness-issue.md
+            fi
+            {
+              printf '## Data update branch\n\n'
+              printf 'Pushed `%s`, but automatic PR creation is disabled for GitHub Actions.\n\n' "$branch"
+              printf 'Open manually: %s\n' "$compare_url"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: Alert when R2 credentials are missing
         if: steps.media.outputs.changed == 'true' && (env.CLOUDFLARE_API_TOKEN == '' || env.CLOUDFLARE_ACCOUNT_ID == '')
