@@ -44,6 +44,14 @@ class ContentSyncTests(unittest.TestCase):
         self.assertNotIn("sync-spire-codex.py --check", workflow)
         self.assertIn("python scripts/check-built-content.py", workflow)
 
+    def test_deploy_workflow_reports_missing_cloudflare_credentials(self):
+        workflow = (Path(__file__).parents[1] / ".github/workflows/deploy.yml").read_text()
+
+        self.assertIn("Upload reproducible deployment artifact", workflow)
+        self.assertIn("Report missing Cloudflare deploy credentials", workflow)
+        self.assertIn("Deploy alert: Cloudflare Pages credentials are unavailable", workflow)
+        self.assertIn("issues: write", workflow)
+
 
 if __name__ == "__main__":
     unittest.main()

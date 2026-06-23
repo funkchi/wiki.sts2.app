@@ -9,6 +9,10 @@ concurrency:
   group: deploy-wiki
   cancel-in-progress: true
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -71,3 +75,25 @@ jobs:
           apiToken: ${{ env.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy public --project-name=${{ env.CLOUDFLARE_PROJECT_NAME }} --branch=${{ github.ref_name }}
+
+      - name: Report missing Cloudflare deploy credentials
+        if: ${{ env.CLOUDFLARE_API_TOKEN == '' || env.CLOUDFLARE_ACCOUNT_ID == '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Deploy alert: Cloudflare Pages credentials are unavailable"
+          {
+            printf 'The deploy workflow built and validated the static site, but skipped Cloudflare Pages deployment because credentials are unavailable.\n\n'
+            printf 'Set repository secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` to enable automatic Pages deploys from GitHub Actions.\n\n'
+            printf 'The workflow still uploads a reproducible `wiki-pages-%s` artifact on every successful run.\n' "${GITHUB_SHA}"
+          } > /tmp/deploy-credentials-issue.md
+          issue_number="$(gh issue list --state open --limit 100 --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body-file /tmp/deploy-credentials-issue.md
+          else
+            gh issue create --title "$title" --body-file /tmp/deploy-credentials-issue.md
+          fi
+          {
+            printf '## Cloudflare deploy credentials missing\n\n'
+            printf 'Built and validated the site, but automatic Pages deploy needs `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` repository secrets.\n'
+          } >> "$GITHUB_STEP_SUMMARY"

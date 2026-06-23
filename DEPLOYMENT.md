@@ -60,6 +60,8 @@ The GitHub Actions workflow also supports direct Pages deploys with Wrangler whe
 - `CLOUDFLARE_ANALYTICS_TOKEN` repository secret with `Account Analytics Read`; powers the weekly usage report
 - `GOOGLE_SITE_VERIFICATION` repository secret, optional; injects Search Console verification into the root page
 
+If deploy credentials are absent, the deploy workflow still builds, validates, and uploads the reproducible Pages artifact, then opens or updates a GitHub issue instead of silently skipping the Cloudflare deployment.
+
 ## Analytics
 
 The repository deploys a first-party event endpoint at `/api/analytics`. Its Analytics Engine schema is:
