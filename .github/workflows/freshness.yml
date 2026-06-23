@@ -135,8 +135,24 @@ jobs:
             } >> "$GITHUB_STEP_SUMMARY"
           fi
 
-      - name: Alert when R2 credentials are missing
+      - name: Report missing R2 credentials
         if: steps.media.outputs.changed == 'true' && (env.CLOUDFLARE_API_TOKEN == '' || env.CLOUDFLARE_ACCOUNT_ID == '')
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          echo "Changed artwork was detected, but Cloudflare credentials are unavailable." >&2
-          exit 1
+          title="R2 alert: artwork changed but Cloudflare credentials are unavailable"
+          {
+            printf 'Changed artwork was detected, but the workflow cannot upload it to R2 because Cloudflare credentials are unavailable.\n\n'
+            printf 'Set repository secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` to enable automatic uploads to the `wiki-sts2` bucket.\n\n'
+            cat artifacts/r2-media-diff.md
+          } > /tmp/r2-credentials-issue.md
+          issue_number="$(gh issue list --state open --limit 100 --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)"
+          if [ -n "$issue_number" ]; then
+            gh issue comment "$issue_number" --body-file /tmp/r2-credentials-issue.md
+          else
+            gh issue create --title "$title" --body-file /tmp/r2-credentials-issue.md
+          fi
+          {
+            printf '## R2 credentials missing\n\n'
+            printf 'Changed artwork was detected, but automatic R2 upload needs `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` repository secrets.\n'
+          } >> "$GITHUB_STEP_SUMMARY"

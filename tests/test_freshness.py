@@ -74,6 +74,13 @@ class FreshnessDiffTests(unittest.TestCase):
         self.assertIn("could not create the pull request automatically", workflow)
         self.assertIn("compare/main...", workflow)
 
+    def test_workflow_reports_missing_r2_credentials_without_failing(self):
+        workflow = (Path(__file__).parents[1] / ".github/workflows/freshness.yml").read_text()
+        self.assertIn("Report missing R2 credentials", workflow)
+        self.assertIn("R2 alert: artwork changed but Cloudflare credentials are unavailable", workflow)
+        self.assertIn("CLOUDFLARE_API_TOKEN", workflow)
+        self.assertNotIn("exit 1", workflow)
+
 
 if __name__ == "__main__":
     unittest.main()
