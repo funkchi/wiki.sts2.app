@@ -107,10 +107,10 @@ jobs:
           {
             printf 'The build succeeded, but one or more optional provider setup values are missing.\n\n'
             if [ -z "${GOOGLE_SITE_VERIFICATION}" ]; then
-              printf '- `GOOGLE_SITE_VERIFICATION` is not set. Add it as a repository secret for HTML Search Console verification, or verify the domain with a DNS TXT record and submit `https://wiki.sts2.app/sitemap.xml` manually.\n'
+              printf '%s\n' '- `GOOGLE_SITE_VERIFICATION` is not set. Add it as a repository secret for HTML Search Console verification, or verify the domain with a DNS TXT record and submit `https://wiki.sts2.app/sitemap.xml` manually.'
             fi
             if [ -z "${CLOUDFLARE_WEB_ANALYTICS_TOKEN}" ]; then
-              printf '- `CLOUDFLARE_WEB_ANALYTICS_TOKEN` is not set. Add the Web Analytics beacon token as a repository secret, or enable Cloudflare Web Analytics directly in the Pages dashboard.\n'
+              printf '%s\n' '- `CLOUDFLARE_WEB_ANALYTICS_TOKEN` is not set. Add the Web Analytics beacon token as a repository secret, or enable Cloudflare Web Analytics directly in the Pages dashboard.'
             fi
           } > /tmp/provider-setup-issue.md
           issue_number="$(gh issue list --state open --limit 100 --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -n 1)"

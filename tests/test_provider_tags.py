@@ -45,6 +45,8 @@ class ProviderTagTests(unittest.TestCase):
         self.assertIn("Provider setup: Search Console or Web Analytics is not fully configured", workflow)
         self.assertIn("GOOGLE_SITE_VERIFICATION", workflow)
         self.assertIn("CLOUDFLARE_WEB_ANALYTICS_TOKEN", workflow)
+        self.assertIn("printf '%s\\n' '- `GOOGLE_SITE_VERIFICATION`", workflow)
+        self.assertIn("printf '%s\\n' '- `CLOUDFLARE_WEB_ANALYTICS_TOKEN`", workflow)
 
 
 if __name__ == "__main__":
