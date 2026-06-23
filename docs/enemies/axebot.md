@@ -1,6 +1,6 @@
 ---
 title: "Axebot"
-description: "Normal enemy with 40-44 (Asc 42-46) HP. Starts with Boot Up"
+description: "Normal enemy with 70-78 (Asc 76-86) HP. Always uses Boot Up"
 ---
 
 # Axebot
@@ -11,8 +11,8 @@ description: "Normal enemy with 40-44 (Asc 42-46) HP. Starts with Boot Up"
 | Property | Value |
 |---|---|
 | Type | Normal |
-| HP | 40-44 (Asc 42-46) |
-| Pattern | Starts with Boot Up |
+| HP | 70-78 (Asc 76-86) |
+| Pattern | Always uses Boot Up |
 </div>
 </div>
 
@@ -21,14 +21,13 @@ description: "Normal enemy with 40-44 (Asc 42-46) HP. Starts with Boot Up"
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
 | Boot Up | Defend + Buff | - | 10 block | - |
-| The One-Two | Attack | 5x2 (Asc 6x2) damage | - | - |
-| Sharpen | Buff | - | - | - |
-| Hammer Uppercut | Attack + Debuff | 8 (Asc 10) damage | - | - |
+| The One-Two | Attack | 9x2 (Asc 10x2) damage | - | - |
+| Hammer Uppercut | Attack + Debuff | 12 (Asc 14) damage | - | - |
 
 ## Encounters
 
 | Encounter | Room | Act |
 |---|---|---|
-| Bot Buddies | Monster | Act 3 - Glory |
+| Axebot | Monster | Act 3 - Glory |
 
 [Back to all enemies](../enemies.md)

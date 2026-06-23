@@ -1,6 +1,6 @@
 ---
 title: "Reflect"
-description: "Gain 17 Block. Blocked attack damage is reflected to your attacker this turn. Regent Skill card."
+description: "Gain 15 Block. Blocked attack damage is reflected to your attacker this turn. Regent Skill card."
 ---
 
 # Reflect
@@ -8,7 +8,7 @@ description: "Gain 17 Block. Blocked attack damage is reflected to your attacker
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/reflect.webp" target="_blank" rel="noopener" aria-label="View full image: Reflect" title="View full image: Reflect"><img class="wiki-image wiki-image--card-detail" src="/media/cards/reflect.webp" alt="Reflect" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Gain 17 Block. Blocked attack damage is reflected to your attacker this turn.
+Gain 15 Block. Blocked attack damage is reflected to your attacker this turn.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Gain 17 Block. Blocked attack damage is reflected to your attacker this turn.
 
 ## Upgrade
 
-Gain 21 Block. Blocked attack damage is reflected to your attacker this turn.
+Gain 20 Block. Blocked attack damage is reflected to your attacker this turn.
 
 ## Related Cards
 

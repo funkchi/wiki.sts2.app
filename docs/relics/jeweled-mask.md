@@ -1,6 +1,6 @@
 ---
 title: "Jeweled Mask"
-description: "At the start of combat put a random Power from your Draw Pile into your Hand, it's free to play. Ancient Relic relic."
+description: "At the start of each combat, put a random Power from your Draw Pile into your Hand. It's free to play this combat. Ancient Relic relic."
 ---
 
 # Jeweled Mask
@@ -8,7 +8,7 @@ description: "At the start of combat put a random Power from your Draw Pile into
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/jeweled-mask.webp" target="_blank" rel="noopener" aria-label="View full image: Jeweled Mask" title="View full image: Jeweled Mask"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/jeweled-mask.webp" alt="Jeweled Mask" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-At the start of combat put a random Power from your Draw Pile into your Hand, it's free to play.
+At the start of each combat, put a random Power from your Draw Pile into your Hand. It's free to play this combat.
 
 | Property | Value |
 |---|---|

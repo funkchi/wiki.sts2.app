@@ -22,7 +22,7 @@ At the end of combat, gain 30 Gold.
 
 ## Upgrade
 
-At the end of combat, gain 35 Gold.
+At the end of combat, gain 40 Gold.
 
 ## Related Cards
 

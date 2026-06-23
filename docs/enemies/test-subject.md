@@ -1,6 +1,6 @@
 ---
 title: "Test Subject #C14"
-description: "Boss enemy with - HP. Starts: Bite -> Skull Bash; then conditional: Multi Claw (if respawns = 2)"
+description: "Boss enemy with - HP. Starts: Bite -> Skull Bash; then conditional: Multi-Claw (if respawns = 2)"
 ---
 
 # Test Subject #C14
@@ -12,7 +12,7 @@ description: "Boss enemy with - HP. Starts: Bite -> Skull Bash; then conditional
 |---|---|
 | Type | Boss |
 | HP | - |
-| Pattern | Starts: Bite -> Skull Bash; then conditional: Multi Claw (if respawns = 2) |
+| Pattern | Starts: Bite -> Skull Bash; then conditional: Multi-Claw (if respawns = 2) |
 </div>
 </div>
 
@@ -23,8 +23,8 @@ description: "Boss enemy with - HP. Starts: Bite -> Skull Bash; then conditional
 | Respawn | Heal + Buff | - | - | - |
 | Bite | Attack | 20 (Asc 22) damage | - | - |
 | Skull Bash | Attack + Debuff | 14 (Asc 16) damage | - | - |
-| Multi Claw | Attack | 10 (Asc 11) damage | - | - |
-| Phase3 Lacerate | Attack | 10x3 (Asc 11x3) damage | - | - |
+| Multi-Claw | Attack | 10 (Asc 11) damage | - | - |
+| Lacerate | Attack | 10x3 (Asc 11x3) damage | - | - |
 | Big Pounce | Attack | 45 damage | - | - |
 | Burning Growl | Status + Buff | - | - | - |
 

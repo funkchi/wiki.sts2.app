@@ -1,6 +1,6 @@
 ---
 title: "Slimed Berserker"
-description: "Normal enemy with 266 (Asc 276) HP. Always uses Vomit Ichor"
+description: "Normal enemy with 261 (Asc 281) HP. Always uses Vomit Ichor"
 ---
 
 # Slimed Berserker
@@ -11,7 +11,7 @@ description: "Normal enemy with 266 (Asc 276) HP. Always uses Vomit Ichor"
 | Property | Value |
 |---|---|
 | Type | Normal |
-| HP | 266 (Asc 276) |
+| HP | 261 (Asc 281) |
 | Pattern | Always uses Vomit Ichor |
 </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 title: "Terror Eel"
-description: "Elite enemy with 140 (Asc 150) HP. Crash -> Thrashmove -> repeat"
+description: "Elite enemy with 140 (Asc 150) HP. Crash -> Thrash -> repeat"
 ---
 
 # Terror Eel
@@ -12,7 +12,7 @@ description: "Elite enemy with 140 (Asc 150) HP. Crash -> Thrashmove -> repeat"
 |---|---|
 | Type | Elite |
 | HP | 140 (Asc 150) |
-| Pattern | Crash -> Thrashmove -> repeat |
+| Pattern | Crash -> Thrash -> repeat |
 </div>
 </div>
 
@@ -21,9 +21,9 @@ description: "Elite enemy with 140 (Asc 150) HP. Crash -> Thrashmove -> repeat"
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
 | Crash | Attack | 16 (Asc 18) damage | - | - |
-| Thrashmove | Attack + Buff | 3x3 (Asc 4x3) damage | - | - |
+| Thrash | Attack + Buff | 3x3 (Asc 4x3) damage | - | - |
 | Stun | Stun | - | - | - |
-| Terror | Debuff | - | - | - |
+| Terrorize | Debuff | - | - | - |
 
 ## Encounters
 

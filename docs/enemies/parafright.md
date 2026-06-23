@@ -22,4 +22,10 @@ description: "Normal enemy with 21 HP. Always uses Slam"
 |---|---|---|---|---|
 | Slam | Attack | 16 (Asc 17) damage | - | - |
 
+## Encounters
+
+| Encounter | Room | Act |
+|---|---|---|
+| The Obscura | Monster | Act 2 - Hive |
+
 [Back to all enemies](../enemies.md)

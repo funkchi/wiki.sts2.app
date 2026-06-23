@@ -20,7 +20,7 @@ description: "Normal enemy with 18-23 (Asc 19-24) HP. Always uses Killshot"
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Killshot | Attack | 11 (Asc 12) damage | - | - |
+| Killshot | Attack | 10 (Asc 11) damage | - | - |
 
 ## Encounters
 

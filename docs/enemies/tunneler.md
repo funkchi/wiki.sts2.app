@@ -1,6 +1,6 @@
 ---
 title: "Tunneler"
-description: "Normal enemy with 87 (Asc 92) HP. Bite -> Burrow -> Below Move 1 -> repeat"
+description: "Normal enemy with 87 (Asc 92) HP. Bite -> Burrow -> Attack from Below -> repeat"
 ---
 
 # Tunneler
@@ -12,7 +12,7 @@ description: "Normal enemy with 87 (Asc 92) HP. Bite -> Burrow -> Below Move 1 -
 |---|---|
 | Type | Normal |
 | HP | 87 (Asc 92) |
-| Pattern | Bite -> Burrow -> Below Move 1 -> repeat |
+| Pattern | Bite -> Burrow -> Attack from Below -> repeat |
 </div>
 </div>
 
@@ -22,7 +22,7 @@ description: "Normal enemy with 87 (Asc 92) HP. Bite -> Burrow -> Below Move 1 -
 |---|---|---|---|---|
 | Bite | Attack | 13 (Asc 15) damage | - | - |
 | Burrow | Buff + Defend | - | 32 block | - |
-| Below Move 1 | Attack | 23 (Asc 26) damage | - | - |
+| Attack from Below | Attack | 23 (Asc 26) damage | - | - |
 | Dizzy | Stun | - | - | - |
 
 ## Encounters

@@ -20,7 +20,7 @@ description: "Normal enemy with 11-15 (Asc 12-16) HP."
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Butt | Attack | 3 (Asc 4) damage | - | - |
+| Tackle | Attack | 3 (Asc 4) damage | - | - |
 | Goop | Status | - | - | - |
 
 ## Encounters

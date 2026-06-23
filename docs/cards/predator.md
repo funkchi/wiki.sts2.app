@@ -14,7 +14,7 @@ Deal 15 damage. Next turn, draw 2 cards.
 |---|---|
 | Character / Pool | Silent |
 | Type | Attack |
-| Rarity | Uncommon |
+| Rarity | Common |
 | Cost | 2 |
 | Target | AnyEnemy |
 </div>

@@ -1,6 +1,6 @@
 ---
 title: "Magi Knight"
-description: "Elite enemy with 82 (Asc 89) HP. First Power Shield -> Dampen -> Ram -> Prep -> Magic Bomb -> repeat"
+description: "Elite enemy with 82 (Asc 89) HP. Power Shield -> Dampen -> Ram -> Prep -> Magic Bomb -> repeat"
 ---
 
 # Magi Knight
@@ -12,7 +12,7 @@ description: "Elite enemy with 82 (Asc 89) HP. First Power Shield -> Dampen -> R
 |---|---|
 | Type | Elite |
 | HP | 82 (Asc 89) |
-| Pattern | First Power Shield -> Dampen -> Ram -> Prep -> Magic Bomb -> repeat |
+| Pattern | Power Shield -> Dampen -> Ram -> Prep -> Magic Bomb -> repeat |
 </div>
 </div>
 
@@ -20,7 +20,7 @@ description: "Elite enemy with 82 (Asc 89) HP. First Power Shield -> Dampen -> R
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| First Power Shield | Attack + Defend | 6 (Asc 7) damage | 5 block | - |
+| Power Shield | Attack + Defend | 6 (Asc 7) damage | 5 block | - |
 | Dampen | Debuff | - | - | - |
 | Prep | Defend | - | 5 block | - |
 | Magic Bomb | Attack | 35 (Asc 40) damage | - | - |

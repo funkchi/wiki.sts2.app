@@ -1,6 +1,6 @@
 ---
 title: "Death March"
-description: "Deal 8 damage. Deals 3 additional damage for each card drawn during your turn. Necrobinder Attack card."
+description: "Deal 8 damage. Deals 4 additional damage for each card drawn during your turn. Necrobinder Attack card."
 ---
 
 # Death March
@@ -8,7 +8,7 @@ description: "Deal 8 damage. Deals 3 additional damage for each card drawn durin
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/death-march.webp" target="_blank" rel="noopener" aria-label="View full image: Death March" title="View full image: Death March"><img class="wiki-image wiki-image--card-detail" src="/media/cards/death-march.webp" alt="Death March" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Deal 8 damage. Deals 3 additional damage for each card drawn during your turn.
+Deal 8 damage. Deals 4 additional damage for each card drawn during your turn.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Deal 8 damage. Deals 3 additional damage for each card drawn during your turn.
 
 ## Upgrade
 
-Deal 8 damage. Deals 4 additional damage for each card drawn during your turn.
+Deal 8 damage. Deals 6 additional damage for each card drawn during your turn.
 
 ## Related Cards
 

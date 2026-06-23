@@ -1,6 +1,6 @@
 ---
 title: "Byrdonis"
-description: "Elite enemy with 81-84 (Asc 90) HP. Swoop -> Peck -> repeat"
+description: "Elite enemy with 81-84 (Asc 90) HP."
 ---
 
 # Byrdonis
@@ -12,7 +12,7 @@ description: "Elite enemy with 81-84 (Asc 90) HP. Swoop -> Peck -> repeat"
 |---|---|
 | Type | Elite |
 | HP | 81-84 (Asc 90) |
-| Pattern | Swoop -> Peck -> repeat |
+| Pattern | - |
 </div>
 </div>
 

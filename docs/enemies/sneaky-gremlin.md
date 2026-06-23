@@ -1,6 +1,6 @@
 ---
 title: "Sneaky Gremlin"
-description: "Normal enemy with 10-14 (Asc 11-15) HP. Always uses Spawned"
+description: "Normal enemy with 10-14 (Asc 11-15) HP. Always uses Wake Up"
 ---
 
 # Sneaky Gremlin
@@ -12,7 +12,7 @@ description: "Normal enemy with 10-14 (Asc 11-15) HP. Always uses Spawned"
 |---|---|
 | Type | Normal |
 | HP | 10-14 (Asc 11-15) |
-| Pattern | Always uses Spawned |
+| Pattern | Always uses Wake Up |
 </div>
 </div>
 
@@ -20,7 +20,7 @@ description: "Normal enemy with 10-14 (Asc 11-15) HP. Always uses Spawned"
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Spawned | Stun | - | - | - |
+| Wake Up | Stun | - | - | - |
 | Tackle | Attack | 9 (Asc 10) damage | - | - |
 
 ## Encounters

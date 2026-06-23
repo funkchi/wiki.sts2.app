@@ -1,6 +1,6 @@
 ---
 title: "Crescent Spear"
-description: "Deal 6 damage. Deals 2 additional damage for ALL your cards that have a 1 Star cost. Regent Attack card."
+description: "Deal 8 damage. Deals 2 additional damage for ALL your cards that have a 1 Star cost. Regent Attack card."
 ---
 
 # Crescent Spear
@@ -8,7 +8,7 @@ description: "Deal 6 damage. Deals 2 additional damage for ALL your cards that h
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/crescent-spear.webp" target="_blank" rel="noopener" aria-label="View full image: Crescent Spear" title="View full image: Crescent Spear"><img class="wiki-image wiki-image--card-detail" src="/media/cards/crescent-spear.webp" alt="Crescent Spear" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Deal 6 damage. Deals 2 additional damage for ALL your cards that have a 1 Star cost.
+Deal 8 damage. Deals 2 additional damage for ALL your cards that have a 1 Star cost.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Deal 6 damage. Deals 2 additional damage for ALL your cards that have a 1 Star c
 
 ## Upgrade
 
-Deal 6 damage. Deals 3 additional damage for ALL your cards that have a 1 Star cost.
+Deal 8 damage. Deals 3 additional damage for ALL your cards that have a 1 Star cost.
 
 ## Related Cards
 

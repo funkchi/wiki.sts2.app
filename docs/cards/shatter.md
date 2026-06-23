@@ -1,6 +1,6 @@
 ---
 title: "Shatter"
-description: "Deal 11 damage to ALL enemies. Evoke all of your Orbs. Defect Attack card."
+description: "Deal 7 damage to ALL enemies. Evoke all of your Orbs twice. Defect Attack card."
 ---
 
 # Shatter
@@ -8,7 +8,7 @@ description: "Deal 11 damage to ALL enemies. Evoke all of your Orbs. Defect Atta
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/shatter.webp" target="_blank" rel="noopener" aria-label="View full image: Shatter" title="View full image: Shatter"><img class="wiki-image wiki-image--card-detail" src="/media/cards/shatter.webp" alt="Shatter" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Deal 11 damage to ALL enemies. Evoke all of your Orbs.
+Deal 7 damage to ALL enemies. Evoke all of your Orbs twice.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Deal 11 damage to ALL enemies. Evoke all of your Orbs.
 
 ## Upgrade
 
-Deal 15 damage to ALL enemies. Evoke all of your Orbs.
+Deal 11 damage to ALL enemies. Evoke all of your Orbs twice.
 
 ## Related Cards
 

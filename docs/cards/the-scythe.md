@@ -1,6 +1,6 @@
 ---
 title: "The Scythe"
-description: "Deal 13 damage. Permanently increase this card's damage by 3. Necrobinder Attack card."
+description: "Deal 13 damage. Permanently increase this card's damage by 4. Necrobinder Attack card."
 ---
 
 # The Scythe
@@ -8,7 +8,7 @@ description: "Deal 13 damage. Permanently increase this card's damage by 3. Necr
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/the-scythe.webp" target="_blank" rel="noopener" aria-label="View full image: The Scythe" title="View full image: The Scythe"><img class="wiki-image wiki-image--card-detail" src="/media/cards/the-scythe.webp" alt="The Scythe" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Deal 13 damage. Permanently increase this card's damage by 3.
+Deal 13 damage. Permanently increase this card's damage by 4.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Deal 13 damage. Permanently increase this card's damage by 3.
 
 ## Upgrade
 
-Deal 13 damage. Permanently increase this card's damage by 4.
+Deal 13 damage. Permanently increase this card's damage by 5.
 
 ## Keywords
 

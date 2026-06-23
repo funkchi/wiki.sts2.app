@@ -20,7 +20,7 @@ description: "Normal enemy with 26-28 (Asc 27-29) HP. Starts with Sticky Shot"
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Clump Shot | Attack | 11 (Asc 12) damage | - | - |
+| Pokey Pounce | Attack | 11 (Asc 12) damage | - | - |
 | Sticky Shot | Status | - | - | - |
 
 ## Encounters

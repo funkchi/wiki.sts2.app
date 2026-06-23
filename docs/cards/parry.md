@@ -1,6 +1,6 @@
 ---
 title: "Parry"
-description: "Whenever you play Sovereign Blade, gain 10 Block. Regent Power card."
+description: "Sovereign Blade now gains 10 Block. Regent Power card."
 ---
 
 # Parry
@@ -8,7 +8,7 @@ description: "Whenever you play Sovereign Blade, gain 10 Block. Regent Power car
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/parry.webp" target="_blank" rel="noopener" aria-label="View full image: Parry" title="View full image: Parry"><img class="wiki-image wiki-image--card-detail" src="/media/cards/parry.webp" alt="Parry" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Whenever you play Sovereign Blade, gain 10 Block.
+Sovereign Blade now gains 10 Block.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Whenever you play Sovereign Blade, gain 10 Block.
 
 ## Upgrade
 
-Whenever you play Sovereign Blade, gain 14 Block.
+Sovereign Blade now gains 14 Block.
 
 ## Related Cards
 

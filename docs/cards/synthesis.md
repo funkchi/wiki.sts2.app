@@ -1,6 +1,6 @@
 ---
 title: "Synthesis"
-description: "Deal 12 damage. The next Power you play costs 0 1 Energy. Defect Attack card."
+description: "Deal 14 damage. The next Power you play costs 0 1 Energy. Defect Attack card."
 ---
 
 # Synthesis
@@ -8,7 +8,7 @@ description: "Deal 12 damage. The next Power you play costs 0 1 Energy. Defect A
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/synthesis.webp" target="_blank" rel="noopener" aria-label="View full image: Synthesis" title="View full image: Synthesis"><img class="wiki-image wiki-image--card-detail" src="/media/cards/synthesis.webp" alt="Synthesis" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Deal 12 damage. The next Power you play costs 0 1 Energy.
+Deal 14 damage. The next Power you play costs 0 1 Energy.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Deal 12 damage. The next Power you play costs 0 1 Energy.
 
 ## Upgrade
 
-Deal 18 damage. The next Power you play costs 0 1 Energy.
+Deal 20 damage. The next Power you play costs 0 1 Energy.
 
 ## Related Cards
 

@@ -1,6 +1,6 @@
 ---
 title: "Tough Egg"
-description: "Normal enemy with 14-18 (Asc 15-19) HP. Always uses HATCH"
+description: "Normal enemy with 14-18 (Asc 15-19) HP. Always uses Hatch"
 ---
 
 # Tough Egg
@@ -12,7 +12,7 @@ description: "Normal enemy with 14-18 (Asc 15-19) HP. Always uses HATCH"
 |---|---|
 | Type | Normal |
 | HP | 14-18 (Asc 15-19) |
-| Pattern | Always uses HATCH |
+| Pattern | Always uses Hatch |
 </div>
 </div>
 
@@ -20,7 +20,7 @@ description: "Normal enemy with 14-18 (Asc 15-19) HP. Always uses HATCH"
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| HATCH | Summon | - | - | - |
+| Hatch | Summon | - | - | - |
 | Nibble | Attack | 4 (Asc 5) damage | - | - |
 
 ## Encounters

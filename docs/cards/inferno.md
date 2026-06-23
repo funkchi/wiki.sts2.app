@@ -33,6 +33,6 @@ At the start of your turn, lose 1 HP. Whenever you lose HP on your turn, deal 9 
 - [Cruelty](cruelty.md)
 - [Dark Embrace](dark-embrace.md)
 - [Demon Form](demon-form.md)
-- [Drum of Battle](drum-of-battle.md)
+- [Feel No Pain](feel-no-pain.md)
 
 [Back to all cards](../cards.md)

@@ -15,7 +15,7 @@ Channel 1 Plasma.
 | Character / Pool | Defect |
 | Type | Skill |
 | Rarity | Uncommon |
-| Cost | 2 |
+| Cost | 1 |
 | Target | Self |
 </div>
 </div>
@@ -23,6 +23,10 @@ Channel 1 Plasma.
 ## Upgrade
 
 No standard upgrade text is available.
+
+## Keywords
+
+`Exhaust`
 
 ## Related Cards
 

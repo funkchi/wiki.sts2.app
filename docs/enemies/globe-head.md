@@ -1,6 +1,6 @@
 ---
 title: "Globe Head"
-description: "Normal enemy with 148 (Asc 158) HP. Shocking Slap -> Thunder Strike -> Galvanic Burst -> repeat"
+description: "Normal enemy with 148 (Asc 158) HP. Shocking Slap -> Channel Lightning -> Galvanic Burst -> repeat"
 ---
 
 # Globe Head
@@ -12,7 +12,7 @@ description: "Normal enemy with 148 (Asc 158) HP. Shocking Slap -> Thunder Strik
 |---|---|
 | Type | Normal |
 | HP | 148 (Asc 158) |
-| Pattern | Shocking Slap -> Thunder Strike -> Galvanic Burst -> repeat |
+| Pattern | Shocking Slap -> Channel Lightning -> Galvanic Burst -> repeat |
 </div>
 </div>
 
@@ -20,7 +20,7 @@ description: "Normal enemy with 148 (Asc 158) HP. Shocking Slap -> Thunder Strik
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Thunder Strike | Attack | 6x3 (Asc 7x3) damage | - | - |
+| Channel Lightning | Attack | 6x3 (Asc 7x3) damage | - | - |
 | Shocking Slap | Attack + Debuff | 13 (Asc 14) damage | - | - |
 | Galvanic Burst | Attack + Buff | 16 (Asc 17) damage | - | - |
 

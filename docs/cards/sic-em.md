@@ -1,6 +1,6 @@
 ---
 title: "Sic 'Em"
-description: "Osty deals 5 damage. Whenever Osty hits this enemy this turn, Summon 2. Necrobinder Attack card."
+description: "Osty deals 5 damage. Whenever Osty hits this enemy this turn, Summon 3. Necrobinder Attack card."
 ---
 
 # Sic 'Em
@@ -8,7 +8,7 @@ description: "Osty deals 5 damage. Whenever Osty hits this enemy this turn, Summ
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/sic-em.webp" target="_blank" rel="noopener" aria-label="View full image: Sic &#x27;Em" title="View full image: Sic &#x27;Em"><img class="wiki-image wiki-image--card-detail" src="/media/cards/sic-em.webp" alt="Sic &#x27;Em" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Osty deals 5 damage. Whenever Osty hits this enemy this turn, Summon 2.
+Osty deals 5 damage. Whenever Osty hits this enemy this turn, Summon 3.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Osty deals 5 damage. Whenever Osty hits this enemy this turn, Summon 2.
 
 ## Upgrade
 
-Osty deals 6 damage. Whenever Osty hits this enemy this turn, Summon 3.
+Osty deals 6 damage. Whenever Osty hits this enemy this turn, Summon 4.
 
 ## Related Cards
 

@@ -1,6 +1,6 @@
 ---
 title: "Neow's Fury"
-description: "Deal 10 damage. Put 2 random cards from your Discard Pile into your Hand. Event Attack card."
+description: "Deal 10 damage. Put up to 2 cards from your Discard Pile into your Hand. Event Attack card."
 ---
 
 # Neow's Fury
@@ -8,7 +8,7 @@ description: "Deal 10 damage. Put 2 random cards from your Discard Pile into you
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/neows-fury.webp" target="_blank" rel="noopener" aria-label="View full image: Neow&#x27;s Fury" title="View full image: Neow&#x27;s Fury"><img class="wiki-image wiki-image--card-detail" src="/media/cards/neows-fury.webp" alt="Neow&#x27;s Fury" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Deal 10 damage. Put 2 random cards from your Discard Pile into your Hand.
+Deal 10 damage. Put up to 2 cards from your Discard Pile into your Hand.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Deal 10 damage. Put 2 random cards from your Discard Pile into your Hand.
 
 ## Upgrade
 
-Deal 14 damage. Put 3 random cards from your Discard Pile into your Hand.
+Deal 14 damage. Put up to 3 cards from your Discard Pile into your Hand.
 
 ## Keywords
 

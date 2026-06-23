@@ -15,7 +15,7 @@ Whenever you attack an enemy, it loses 1 Strength this turn.
 | Character / Pool | Regent |
 | Type | Power |
 | Rarity | Rare |
-| Cost | 3 |
+| Cost | 2 |
 | Target | Self |
 </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 title: "Cubex Construct"
-description: "Normal enemy with 65 (Asc 70) HP. Charge Up -> Repeater -> Repeater Move 2 -> Expel Blast -> repeat"
+description: "Normal enemy with 65 (Asc 70) HP. Charge Up -> Repeater Blast -> Repeater Blast Move 2 -> Expel -> repeat"
 ---
 
 # Cubex Construct
@@ -12,7 +12,7 @@ description: "Normal enemy with 65 (Asc 70) HP. Charge Up -> Repeater -> Repeate
 |---|---|
 | Type | Normal |
 | HP | 65 (Asc 70) |
-| Pattern | Charge Up -> Repeater -> Repeater Move 2 -> Expel Blast -> repeat |
+| Pattern | Charge Up -> Repeater Blast -> Repeater Blast Move 2 -> Expel -> repeat |
 </div>
 </div>
 
@@ -21,10 +21,9 @@ description: "Normal enemy with 65 (Asc 70) HP. Charge Up -> Repeater -> Repeate
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
 | Charge Up | Buff | - | - | - |
-| Repeater | Attack + Buff | 7 (Asc 8) damage | - | - |
-| Repeater Move 2 | Attack + Buff | 7 (Asc 8) damage | - | - |
-| Expel Blast | Attack | 5x2 (Asc 6x2) damage | - | - |
-| Submerge | Defend | - | 15 block | - |
+| Repeater Blast | Attack + Buff | 7 (Asc 8) damage | - | - |
+| Repeater Blast Move 2 | Attack + Buff | 7 (Asc 8) damage | - | - |
+| Expel | Attack | 5x2 (Asc 6x2) damage | - | - |
 
 ## Encounters
 

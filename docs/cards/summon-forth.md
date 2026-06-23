@@ -1,6 +1,6 @@
 ---
 title: "Summon Forth"
-description: "Forge 8. Put Sovereign Blade into your Hand from anywhere. Regent Skill card."
+description: "Put Sovereign Blade into your Hand from anywhere. Forge 8. Regent Skill card."
 ---
 
 # Summon Forth
@@ -8,7 +8,7 @@ description: "Forge 8. Put Sovereign Blade into your Hand from anywhere. Regent 
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/summon-forth.webp" target="_blank" rel="noopener" aria-label="View full image: Summon Forth" title="View full image: Summon Forth"><img class="wiki-image wiki-image--card-detail" src="/media/cards/summon-forth.webp" alt="Summon Forth" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Forge 8. Put Sovereign Blade into your Hand from anywhere.
+Put Sovereign Blade into your Hand from anywhere. Forge 8.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Forge 8. Put Sovereign Blade into your Hand from anywhere.
 
 ## Upgrade
 
-Forge 11. Put Sovereign Blade into your Hand from anywhere.
+Put Sovereign Blade into your Hand from anywhere. Forge 11.
 
 ## Related Cards
 

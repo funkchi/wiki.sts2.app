@@ -1,6 +1,6 @@
 ---
 title: "The Insatiable"
-description: "Boss enemy with 321 (Asc 341) HP. Liquify Ground -> Thrash Move 1 -> Lunging Bite -> Salivate -> Thrash Move 2 -> repeat"
+description: "Boss enemy with 321 (Asc 341) HP. Liquify Ground -> Thrash -> Lunging Bite -> Salivate -> Thrash Move 2 -> repeat"
 ---
 
 # The Insatiable
@@ -12,7 +12,7 @@ description: "Boss enemy with 321 (Asc 341) HP. Liquify Ground -> Thrash Move 1 
 |---|---|
 | Type | Boss |
 | HP | 321 (Asc 341) |
-| Pattern | Liquify Ground -> Thrash Move 1 -> Lunging Bite -> Salivate -> Thrash Move 2 -> repeat |
+| Pattern | Liquify Ground -> Thrash -> Lunging Bite -> Salivate -> Thrash Move 2 -> repeat |
 </div>
 </div>
 
@@ -21,7 +21,7 @@ description: "Boss enemy with 321 (Asc 341) HP. Liquify Ground -> Thrash Move 1 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
 | Liquify Ground | Buff + Status | - | - | - |
-| Thrash Move 1 | Attack | 8x2 (Asc 9x2) damage | - | - |
+| Thrash | Attack | 8x2 (Asc 9x2) damage | - | - |
 | Thrash Move 2 | Attack | 8x2 (Asc 9x2) damage | - | - |
 | Lunging Bite | Attack | 28 (Asc 31) damage | - | - |
 | Salivate | Buff | - | - | - |

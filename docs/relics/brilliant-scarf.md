@@ -1,6 +1,6 @@
 ---
 title: "Brilliant Scarf"
-description: "The 5th card you play each turn is free. Ancient Relic relic."
+description: "The 5th card you play from your hand each turn is free. Ancient Relic relic."
 ---
 
 # Brilliant Scarf
@@ -8,7 +8,7 @@ description: "The 5th card you play each turn is free. Ancient Relic relic."
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/brilliant-scarf.webp" target="_blank" rel="noopener" aria-label="View full image: Brilliant Scarf" title="View full image: Brilliant Scarf"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/brilliant-scarf.webp" alt="Brilliant Scarf" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-The 5th card you play each turn is free.
+The 5th card you play from your hand each turn is free.
 
 | Property | Value |
 |---|---|

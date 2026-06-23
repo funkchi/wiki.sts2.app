@@ -1,6 +1,6 @@
 ---
 title: "Conflagration"
-description: "Deal 8 damage to ALL enemies. Deals 2 additional damage for each other Attack you've played this turn. Ironclad Attack card."
+description: "Deal 2 damage to ALL enemies 4 times. Ironclad Attack card."
 ---
 
 # Conflagration
@@ -8,7 +8,7 @@ description: "Deal 8 damage to ALL enemies. Deals 2 additional damage for each o
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/conflagration.webp" target="_blank" rel="noopener" aria-label="View full image: Conflagration" title="View full image: Conflagration"><img class="wiki-image wiki-image--card-detail" src="/media/cards/conflagration.webp" alt="Conflagration" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Deal 8 damage to ALL enemies. Deals 2 additional damage for each other Attack you've played this turn.
+Deal 2 damage to ALL enemies 4 times.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Deal 8 damage to ALL enemies. Deals 2 additional damage for each other Attack yo
 
 ## Upgrade
 
-Deal 8 damage to ALL enemies. Deals 3 additional damage for each other Attack you've played this turn.
+Deal 2 damage to ALL enemies 5 times.
 
 ## Related Cards
 

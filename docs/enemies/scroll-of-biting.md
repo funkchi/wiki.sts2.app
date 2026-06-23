@@ -1,6 +1,6 @@
 ---
 title: "Scroll of Biting"
-description: "Normal enemy with 31-38 (Asc 32-39) HP."
+description: "Normal enemy with 30-37 (Asc 33-39) HP."
 ---
 
 # Scroll of Biting
@@ -11,7 +11,7 @@ description: "Normal enemy with 31-38 (Asc 32-39) HP."
 | Property | Value |
 |---|---|
 | Type | Normal |
-| HP | 31-38 (Asc 32-39) |
+| HP | 30-37 (Asc 33-39) |
 | Pattern | - |
 </div>
 </div>

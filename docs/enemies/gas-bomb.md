@@ -26,6 +26,6 @@ description: "Normal enemy with 7 (Asc 8) HP. Always uses Explode"
 
 | Encounter | Room | Act |
 |---|---|---|
-| Evil Gas | Monster | Act 1 - Underdocks |
+| Living Fog | Monster | Act 1 - Underdocks |
 
 [Back to all enemies](../enemies.md)

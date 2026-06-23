@@ -1,6 +1,6 @@
 ---
 title: "Fogmog"
-description: "Normal enemy with 74 (Asc 78) HP. Starts with Illusion, then random: Swipe Random (no repeat, 40%), Headbutt (no repeat, 60%)"
+description: "Normal enemy with 74 (Asc 78) HP. Starts with Illusory Spores, then random: Swipe Random (no repeat, 40%), Headbutt (no repeat, 60%)"
 ---
 
 # Fogmog
@@ -12,7 +12,7 @@ description: "Normal enemy with 74 (Asc 78) HP. Starts with Illusion, then rando
 |---|---|
 | Type | Normal |
 | HP | 74 (Asc 78) |
-| Pattern | Starts with Illusion, then random: Swipe Random (no repeat, 40%), Headbutt (no repeat, 60%) |
+| Pattern | Starts with Illusory Spores, then random: Swipe Random (no repeat, 40%), Headbutt (no repeat, 60%) |
 </div>
 </div>
 
@@ -20,8 +20,8 @@ description: "Normal enemy with 74 (Asc 78) HP. Starts with Illusion, then rando
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Illusion | Summon | - | - | - |
-| Swipe | Attack + Buff | 8 (Asc 9) damage | - | - |
+| Illusory Spores | Summon | - | - | - |
+| Thwack | Attack + Buff | 8 (Asc 9) damage | - | - |
 | Swipe Random | Attack + Buff | 8 (Asc 9) damage | - | - |
 | Headbutt | Attack | 14 (Asc 16) damage | - | - |
 

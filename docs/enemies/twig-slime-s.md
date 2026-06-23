@@ -1,6 +1,6 @@
 ---
 title: "Twig Slime (S)"
-description: "Normal enemy with 7-11 (Asc 8-12) HP. Always uses Butt"
+description: "Normal enemy with 7-11 (Asc 8-12) HP. Always uses Tackle"
 ---
 
 # Twig Slime (S)
@@ -12,7 +12,7 @@ description: "Normal enemy with 7-11 (Asc 8-12) HP. Always uses Butt"
 |---|---|
 | Type | Normal |
 | HP | 7-11 (Asc 8-12) |
-| Pattern | Always uses Butt |
+| Pattern | Always uses Tackle |
 </div>
 </div>
 
@@ -20,7 +20,7 @@ description: "Normal enemy with 7-11 (Asc 8-12) HP. Always uses Butt"
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Butt | Attack | 4 (Asc 5) damage | - | - |
+| Tackle | Attack | 4 (Asc 5) damage | - | - |
 
 ## Encounters
 

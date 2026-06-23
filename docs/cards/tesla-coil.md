@@ -22,7 +22,7 @@ Deal 3 damage. Trigger all Lightning against the enemy.
 
 ## Upgrade
 
-Deal 6 damage. Trigger all Lightning against the enemy.
+Deal 4 damage. Trigger all Lightning against the enemy twice.
 
 ## Related Cards
 

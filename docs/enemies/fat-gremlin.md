@@ -1,6 +1,6 @@
 ---
 title: "Fat Gremlin"
-description: "Normal enemy with 13-17 (Asc 14-18) HP. Always uses Spawned"
+description: "Normal enemy with 13-17 (Asc 14-18) HP. Always uses Wake Up"
 ---
 
 # Fat Gremlin
@@ -12,7 +12,7 @@ description: "Normal enemy with 13-17 (Asc 14-18) HP. Always uses Spawned"
 |---|---|
 | Type | Normal |
 | HP | 13-17 (Asc 14-18) |
-| Pattern | Always uses Spawned |
+| Pattern | Always uses Wake Up |
 </div>
 </div>
 
@@ -20,7 +20,7 @@ description: "Normal enemy with 13-17 (Asc 14-18) HP. Always uses Spawned"
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Spawned | Stun | - | - | - |
+| Wake Up | Stun | - | - | - |
 | Flee | Escape | - | - | - |
 
 ## Encounters

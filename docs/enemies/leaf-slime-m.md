@@ -1,6 +1,6 @@
 ---
 title: "Leaf Slime (M)"
-description: "Normal enemy with 32-35 (Asc 33-36) HP. Sticky Shot -> Clump Shot -> repeat"
+description: "Normal enemy with 32-35 (Asc 33-36) HP."
 ---
 
 # Leaf Slime (M)
@@ -12,7 +12,7 @@ description: "Normal enemy with 32-35 (Asc 33-36) HP. Sticky Shot -> Clump Shot 
 |---|---|
 | Type | Normal |
 | HP | 32-35 (Asc 33-36) |
-| Pattern | Sticky Shot -> Clump Shot -> repeat |
+| Pattern | - |
 </div>
 </div>
 

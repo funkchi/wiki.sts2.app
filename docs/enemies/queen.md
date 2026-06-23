@@ -1,6 +1,6 @@
 ---
 title: "Queen"
-description: "Boss enemy with 400 (Asc 419) HP. Starts: Puppet Strings -> Your Mine; then conditional: Burn Bright for Me (if does not have amalgam died) / Off with Your"
+description: "Boss enemy with 400 (Asc 419) HP. Starts: Puppet Strings -> You Are Mine; then conditional: Burn Bright for Me (if does not have amalgam died) / Off with Y"
 ---
 
 # Queen
@@ -12,7 +12,7 @@ description: "Boss enemy with 400 (Asc 419) HP. Starts: Puppet Strings -> Your M
 |---|---|
 | Type | Boss |
 | HP | 400 (Asc 419) |
-| Pattern | Starts: Puppet Strings -> Your Mine; then conditional: Burn Bright for Me (if does not have amalgam died) / Off with Your Head (if has amalgam died); then conditional: Burn Bright for Me (if does not have amalgam died) / Off with Your Head (if has amalgam died) |
+| Pattern | Starts: Puppet Strings -> You Are Mine; then conditional: Burn Bright for Me (if does not have amalgam died) / Off with Your Head (if has amalgam died); then conditional: Burn Bright for Me (if does not have amalgam died) / Off with Your Head (if has amalgam died) |
 </div>
 </div>
 
@@ -21,7 +21,7 @@ description: "Boss enemy with 400 (Asc 419) HP. Starts: Puppet Strings -> Your M
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
 | Puppet Strings | Debuff | - | - | - |
-| Your Mine | Debuff | - | - | - |
+| You Are Mine | Debuff | - | - | - |
 | Burn Bright for Me | Buff + Defend | - | 20 block | - |
 | Off with Your Head | Attack | 3x5 (Asc 4x5) damage | - | - |
 | Execution | Attack | 15 (Asc 18) damage | - | - |

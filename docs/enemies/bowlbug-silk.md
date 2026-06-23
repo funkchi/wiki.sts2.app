@@ -20,7 +20,7 @@ description: "Normal enemy with 40-43 (Asc 41-44) HP."
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Trash | Attack | 4x2 (Asc 5x2) damage | - | - |
+| Thrash | Attack | 4x2 (Asc 5x2) damage | - | - |
 | Toxic Spit | Debuff | - | - | - |
 
 ## Encounters

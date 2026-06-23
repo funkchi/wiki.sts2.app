@@ -1,6 +1,6 @@
 ---
 title: "Pounce"
-description: "Deal 12 damage. The next Skill you play costs 0 1 Energy. Silent Attack card."
+description: "Deal 14 damage. The next Skill you play costs 0 1 Energy. Silent Attack card."
 ---
 
 # Pounce
@@ -8,7 +8,7 @@ description: "Deal 12 damage. The next Skill you play costs 0 1 Energy. Silent A
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/pounce.webp" target="_blank" rel="noopener" aria-label="View full image: Pounce" title="View full image: Pounce"><img class="wiki-image wiki-image--card-detail" src="/media/cards/pounce.webp" alt="Pounce" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Deal 12 damage. The next Skill you play costs 0 1 Energy.
+Deal 14 damage. The next Skill you play costs 0 1 Energy.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Deal 12 damage. The next Skill you play costs 0 1 Energy.
 
 ## Upgrade
 
-Deal 18 damage. The next Skill you play costs 0 1 Energy.
+Deal 20 damage. The next Skill you play costs 0 1 Energy.
 
 ## Related Cards
 

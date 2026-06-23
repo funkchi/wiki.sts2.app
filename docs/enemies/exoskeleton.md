@@ -1,6 +1,6 @@
 ---
 title: "Exoskeleton"
-description: "Normal enemy with 24-28 (Asc 25-29) HP. then random: Skitter (no repeat), Mandible (no repeat); then conditional: Skitter (if in first slot) / Mandible (if"
+description: "Normal enemy with 24-28 (Asc 25-29) HP. then random: Skitter (no repeat), Mandibles (no repeat); then conditional: Skitter (if in first slot) / Mandibles ("
 ---
 
 # Exoskeleton
@@ -12,7 +12,7 @@ description: "Normal enemy with 24-28 (Asc 25-29) HP. then random: Skitter (no r
 |---|---|
 | Type | Normal |
 | HP | 24-28 (Asc 25-29) |
-| Pattern | then random: Skitter (no repeat), Mandible (no repeat); then conditional: Skitter (if in first slot) / Mandible (if in second slot) / Enrage (if in third slot) / Rand (if in fourth slot) |
+| Pattern | then random: Skitter (no repeat), Mandibles (no repeat); then conditional: Skitter (if in first slot) / Mandibles (if in second slot) / Enrage (if in third slot) / Rand (if in fourth slot) |
 </div>
 </div>
 
@@ -21,7 +21,7 @@ description: "Normal enemy with 24-28 (Asc 25-29) HP. then random: Skitter (no r
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
 | Skitter | Attack | 1x3 damage | - | - |
-| Mandible | Attack | 8 (Asc 9) damage | - | - |
+| Mandibles | Attack | 8 (Asc 9) damage | - | - |
 | Enrage | Buff | - | - | - |
 
 ## Encounters

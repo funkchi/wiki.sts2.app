@@ -1,6 +1,6 @@
 ---
 title: "Owl Magistrate"
-description: "Normal enemy with 234 (Asc 243) HP. Magistrate Scrutiny -> Peck Assault -> Judicial Flight -> Verdict -> repeat"
+description: "Normal enemy with 231 (Asc 247) HP. Magistrate Scrutiny -> Peck Assault -> Judicial Flight -> Verdict -> repeat"
 ---
 
 # Owl Magistrate
@@ -11,7 +11,7 @@ description: "Normal enemy with 234 (Asc 243) HP. Magistrate Scrutiny -> Peck As
 | Property | Value |
 |---|---|
 | Type | Normal |
-| HP | 234 (Asc 243) |
+| HP | 231 (Asc 247) |
 | Pattern | Magistrate Scrutiny -> Peck Assault -> Judicial Flight -> Verdict -> repeat |
 </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 title: "Reaper Form"
-description: "Whenever Attacks deal damage, they also apply that much Doom. Necrobinder Power card."
+description: "Whenever Attacks deal damage, apply that much Doom. Necrobinder Power card."
 ---
 
 # Reaper Form
@@ -8,7 +8,7 @@ description: "Whenever Attacks deal damage, they also apply that much Doom. Necr
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/reaper-form.webp" target="_blank" rel="noopener" aria-label="View full image: Reaper Form" title="View full image: Reaper Form"><img class="wiki-image wiki-image--card-detail" src="/media/cards/reaper-form.webp" alt="Reaper Form" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Whenever Attacks deal damage, they also apply that much Doom.
+Whenever Attacks deal damage, apply that much Doom.
 
 | Property | Value |
 |---|---|

@@ -1,6 +1,6 @@
 ---
 title: "Bowlbug (Nectar)"
-description: "Normal enemy with 35-38 (Asc 36-39) HP. Thrash -> Buff -> Thrash -> repeat"
+description: "Normal enemy with 35-38 (Asc 36-39) HP. Thrash -> Buff -> Thrash2 -> repeat"
 ---
 
 # Bowlbug (Nectar)
@@ -12,7 +12,7 @@ description: "Normal enemy with 35-38 (Asc 36-39) HP. Thrash -> Buff -> Thrash -
 |---|---|
 | Type | Normal |
 | HP | 35-38 (Asc 36-39) |
-| Pattern | Thrash -> Buff -> Thrash -> repeat |
+| Pattern | Thrash -> Buff -> Thrash2 -> repeat |
 </div>
 </div>
 
@@ -22,7 +22,7 @@ description: "Normal enemy with 35-38 (Asc 36-39) HP. Thrash -> Buff -> Thrash -
 |---|---|---|---|---|
 | Thrash | Attack | 3 damage | - | - |
 | Buff | Buff | - | - | - |
-| Thrash | Attack | 3 damage | - | - |
+| Thrash2 | Attack | 3 damage | - | - |
 
 ## Encounters
 

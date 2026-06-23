@@ -1,6 +1,6 @@
 ---
 title: "Turret Operator"
-description: "Normal enemy with 41 (Asc 51) HP. Unload Move 1 -> Unload Move 2 -> Reload -> repeat"
+description: "Normal enemy with 41 (Asc 51) HP. Unload! -> Unload Move 2 -> Reload -> repeat"
 ---
 
 # Turret Operator
@@ -12,7 +12,7 @@ description: "Normal enemy with 41 (Asc 51) HP. Unload Move 1 -> Unload Move 2 -
 |---|---|
 | Type | Normal |
 | HP | 41 (Asc 51) |
-| Pattern | Unload Move 1 -> Unload Move 2 -> Reload -> repeat |
+| Pattern | Unload! -> Unload Move 2 -> Reload -> repeat |
 </div>
 </div>
 
@@ -20,7 +20,7 @@ description: "Normal enemy with 41 (Asc 51) HP. Unload Move 1 -> Unload Move 2 -
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Unload Move 1 | Attack | 3x5 (Asc 4x5) damage | - | - |
+| Unload! | Attack | 3x5 (Asc 4x5) damage | - | - |
 | Unload Move 2 | Attack | 3x5 (Asc 4x5) damage | - | - |
 | Reload | Buff | - | - | - |
 

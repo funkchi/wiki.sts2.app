@@ -1,6 +1,6 @@
 ---
 title: "Skulking Colony"
-description: "Elite enemy with 70 (Asc 75) HP. Smash -> Zoom -> Inertia -> Piercing Stabs -> repeat"
+description: "Elite enemy with 75 (Asc 80) HP. Zoom -> Zoom Move 2 -> Inertia -> Piercing Stabs -> repeat"
 ---
 
 # Skulking Colony
@@ -11,8 +11,8 @@ description: "Elite enemy with 70 (Asc 75) HP. Smash -> Zoom -> Inertia -> Pierc
 | Property | Value |
 |---|---|
 | Type | Elite |
-| HP | 70 (Asc 75) |
-| Pattern | Smash -> Zoom -> Inertia -> Piercing Stabs -> repeat |
+| HP | 75 (Asc 80) |
+| Pattern | Zoom -> Zoom Move 2 -> Inertia -> Piercing Stabs -> repeat |
 </div>
 </div>
 
@@ -20,8 +20,8 @@ description: "Elite enemy with 70 (Asc 75) HP. Smash -> Zoom -> Inertia -> Pierc
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Smash | Attack | 12 (Asc 13) damage | - | - |
-| Zoom | Attack + Defend | 14 (Asc 16) damage | 10 block | - |
+| Zoom | Attack | 14 (Asc 16) damage | - | - |
+| Zoom Move 2 | Attack | 14 (Asc 16) damage | - | - |
 | Inertia | Attack + Buff | 9 (Asc 11) damage | - | - |
 | Piercing Stabs | Attack | 7x2 (Asc 8x2) damage | - | - |
 

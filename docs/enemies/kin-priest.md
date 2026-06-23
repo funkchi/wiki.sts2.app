@@ -1,6 +1,6 @@
 ---
 title: "Kin Priest"
-description: "Boss enemy with 190 (Asc 199) HP. Orb Of Frailty -> Orb Of Weakness -> Beam -> Ritual -> repeat"
+description: "Boss enemy with 190 (Asc 199) HP. Orb of Frailty -> Orb of Weakness -> Soul Beam -> Dark Ritual -> repeat"
 ---
 
 # Kin Priest
@@ -12,7 +12,7 @@ description: "Boss enemy with 190 (Asc 199) HP. Orb Of Frailty -> Orb Of Weaknes
 |---|---|
 | Type | Boss |
 | HP | 190 (Asc 199) |
-| Pattern | Orb Of Frailty -> Orb Of Weakness -> Beam -> Ritual -> repeat |
+| Pattern | Orb of Frailty -> Orb of Weakness -> Soul Beam -> Dark Ritual -> repeat |
 </div>
 </div>
 
@@ -20,10 +20,10 @@ description: "Boss enemy with 190 (Asc 199) HP. Orb Of Frailty -> Orb Of Weaknes
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Orb Of Frailty | Attack + Debuff | 8 (Asc 9) damage | - | - |
-| Orb Of Weakness | Attack + Debuff | 8 (Asc 9) damage | - | - |
-| Beam | Attack | 3x3 damage | - | - |
-| Ritual | Buff | - | - | - |
+| Orb of Frailty | Attack + Debuff | 8 (Asc 9) damage | - | - |
+| Orb of Weakness | Attack + Debuff | 8 (Asc 9) damage | - | - |
+| Soul Beam | Attack | 3x3 damage | - | - |
+| Dark Ritual | Buff | - | - | - |
 
 ## Encounters
 

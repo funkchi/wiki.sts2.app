@@ -21,7 +21,7 @@ description: "Normal enemy with 53-55 (Asc 54-56) HP. Starts with Constrict"
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
 | Constrict | Debuff | - | - | - |
-| Twack | Attack + Defend | 7 (Asc 8) damage | 5 block | - |
+| Thwack | Attack + Defend | 7 (Asc 8) damage | 5 block | - |
 | Lash | Attack | 12 (Asc 13) damage | - | - |
 
 ## Encounters

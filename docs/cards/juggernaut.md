@@ -1,6 +1,6 @@
 ---
 title: "Juggernaut"
-description: "Whenever you gain Block, deal 5 damage to a random enemy. Ironclad Power card."
+description: "Whenever you gain Block, deal 6 damage to a random enemy. Ironclad Power card."
 ---
 
 # Juggernaut
@@ -8,7 +8,7 @@ description: "Whenever you gain Block, deal 5 damage to a random enemy. Ironclad
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/juggernaut.webp" target="_blank" rel="noopener" aria-label="View full image: Juggernaut" title="View full image: Juggernaut"><img class="wiki-image wiki-image--card-detail" src="/media/cards/juggernaut.webp" alt="Juggernaut" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Whenever you gain Block, deal 5 damage to a random enemy.
+Whenever you gain Block, deal 6 damage to a random enemy.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Whenever you gain Block, deal 5 damage to a random enemy.
 
 ## Upgrade
 
-Whenever you gain Block, deal 7 damage to a random enemy.
+Whenever you gain Block, deal 8 damage to a random enemy.
 
 ## Related Cards
 
@@ -33,6 +33,6 @@ Whenever you gain Block, deal 7 damage to a random enemy.
 - [Cruelty](cruelty.md)
 - [Dark Embrace](dark-embrace.md)
 - [Demon Form](demon-form.md)
-- [Drum of Battle](drum-of-battle.md)
+- [Feel No Pain](feel-no-pain.md)
 
 [Back to all cards](../cards.md)

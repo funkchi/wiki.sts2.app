@@ -1,6 +1,6 @@
 ---
 title: "Booming Conch"
-description: "At the start of Elite combats, draw 2 additional cards. Ancient Relic relic."
+description: "At the start of Elite combats, draw 2 additional cards and gain 1 Energy. Ancient Relic relic."
 ---
 
 # Booming Conch
@@ -8,7 +8,7 @@ description: "At the start of Elite combats, draw 2 additional cards. Ancient Re
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/relics/booming-conch.webp" target="_blank" rel="noopener" aria-label="View full image: Booming Conch" title="View full image: Booming Conch"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/booming-conch.webp" alt="Booming Conch" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-At the start of Elite combats, draw 2 additional cards.
+At the start of Elite combats, draw 2 additional cards and gain 1 Energy.
 
 | Property | Value |
 |---|---|

@@ -1,6 +1,6 @@
 ---
 title: "Haunted Ship"
-description: "Normal enemy with 63 (Asc 67) HP. Starts with Haunt"
+description: "Normal enemy with 63 (Asc 67) HP. Always uses Haunt"
 ---
 
 # Haunted Ship
@@ -12,7 +12,7 @@ description: "Normal enemy with 63 (Asc 67) HP. Starts with Haunt"
 |---|---|
 | Type | Normal |
 | HP | 63 (Asc 67) |
-| Pattern | Starts with Haunt |
+| Pattern | Always uses Haunt |
 </div>
 </div>
 
@@ -20,10 +20,9 @@ description: "Normal enemy with 63 (Asc 67) HP. Starts with Haunt"
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Ramming Speed | Attack + Debuff | 10 (Asc 11) damage | - | - |
 | Swipe | Attack | 13 (Asc 14) damage | - | - |
 | Stomp | Attack | 4x3 (Asc 5x3) damage | - | - |
-| Haunt | Status | - | - | - |
+| Haunt | Debuff + Status | - | - | - |
 
 ## Encounters
 

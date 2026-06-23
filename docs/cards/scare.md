@@ -1,32 +1,32 @@
 ---
-title: "Untouchable"
-description: "Gain 6 Block. Silent Skill card."
+title: "Scare"
+description: "Apply 1 Weak to ALL enemies. Silent Skill card."
 ---
 
-# Untouchable
+# Scare
 
 <div class="wiki-entity-hero" markdown="1">
-<a class="wiki-image-link" href="/media/cards/untouchable.webp" target="_blank" rel="noopener" aria-label="View full image: Untouchable" title="View full image: Untouchable"><img class="wiki-image wiki-image--card-detail" src="/media/cards/untouchable.webp" alt="Untouchable" loading="lazy" decoding="async"></a>
+<a class="wiki-image-link" href="/media/cards/scare.webp" target="_blank" rel="noopener" aria-label="View full image: Scare" title="View full image: Scare"><img class="wiki-image wiki-image--card-detail" src="/media/cards/scare.webp" alt="Scare" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Gain 6 Block.
+Apply 1 Weak to ALL enemies.
 
 | Property | Value |
 |---|---|
 | Character / Pool | Silent |
 | Type | Skill |
-| Rarity | Common |
-| Cost | 2 |
-| Target | Self |
+| Rarity | Uncommon |
+| Cost | 0 |
+| Target | AllEnemies |
 </div>
 </div>
 
 ## Upgrade
 
-Gain 9 Block.
+No standard upgrade text is available.
 
 ## Keywords
 
-`Sly`
+`Exhaust`
 
 ## Related Cards
 

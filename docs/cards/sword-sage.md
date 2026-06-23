@@ -1,6 +1,6 @@
 ---
 title: "Sword Sage"
-description: "Sovereign Blade now hits an additional time. Regent Power card."
+description: "Sovereign Blade gains Replay 1. Regent Power card."
 ---
 
 # Sword Sage
@@ -8,7 +8,7 @@ description: "Sovereign Blade now hits an additional time. Regent Power card."
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/sword-sage.webp" target="_blank" rel="noopener" aria-label="View full image: Sword Sage" title="View full image: Sword Sage"><img class="wiki-image wiki-image--card-detail" src="/media/cards/sword-sage.webp" alt="Sword Sage" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Sovereign Blade now hits an additional time.
+Sovereign Blade gains Replay 1.
 
 | Property | Value |
 |---|---|

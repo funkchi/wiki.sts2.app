@@ -1,6 +1,6 @@
 ---
 title: "Patter"
-description: "Gain 9 Block. Gain 2 Vigor. Regent Skill card."
+description: "Gain 8 Block. Gain 2 Vigor. Regent Skill card."
 ---
 
 # Patter
@@ -8,7 +8,7 @@ description: "Gain 9 Block. Gain 2 Vigor. Regent Skill card."
 <div class="wiki-entity-hero" markdown="1">
 <a class="wiki-image-link" href="/media/cards/patter.webp" target="_blank" rel="noopener" aria-label="View full image: Patter" title="View full image: Patter"><img class="wiki-image wiki-image--card-detail" src="/media/cards/patter.webp" alt="Patter" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Gain 9 Block. Gain 2 Vigor.
+Gain 8 Block. Gain 2 Vigor.
 
 | Property | Value |
 |---|---|
@@ -22,7 +22,7 @@ Gain 9 Block. Gain 2 Vigor.
 
 ## Upgrade
 
-Gain 11 Block. Gain 3 Vigor.
+Gain 10 Block. Gain 3 Vigor.
 
 ## Related Cards
 

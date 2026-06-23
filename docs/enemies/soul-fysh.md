@@ -24,7 +24,7 @@ description: "Boss enemy with 211 (Asc 221) HP. Beckon -> De-Gas -> Gaze -> Fade
 | De-Gas | Attack | 16 (Asc 17) damage | - | - |
 | Gaze | Attack + Status | 7 (Asc 8) damage | - | - |
 | Fade | Buff | - | - | - |
-| Scream | Attack + Debuff | 11 (Asc 12) damage | - | - |
+| Scream | Attack + Debuff | 13 (Asc 15) damage | - | - |
 
 ## Encounters
 

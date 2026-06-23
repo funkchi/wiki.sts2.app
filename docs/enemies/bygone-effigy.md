@@ -1,6 +1,6 @@
 ---
 title: "Bygone Effigy"
-description: "Elite enemy with 127 (Asc 132) HP. Initial Sleep -> Wake -> Slashes -> repeat"
+description: "Elite enemy with 127 (Asc 132) HP. Sleep -> Wake -> Slashes -> repeat"
 ---
 
 # Bygone Effigy
@@ -12,7 +12,7 @@ description: "Elite enemy with 127 (Asc 132) HP. Initial Sleep -> Wake -> Slashe
 |---|---|
 | Type | Elite |
 | HP | 127 (Asc 132) |
-| Pattern | Initial Sleep -> Wake -> Slashes -> repeat |
+| Pattern | Sleep -> Wake -> Slashes -> repeat |
 </div>
 </div>
 
@@ -20,9 +20,9 @@ description: "Elite enemy with 127 (Asc 132) HP. Initial Sleep -> Wake -> Slashe
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Initial Sleep | Sleep | - | - | - |
-| Wake | Buff | - | - | - |
 | Sleep | Sleep | - | - | - |
+| Wake | Buff | - | - | - |
+| Sleep Move 2 | Sleep | - | - | - |
 | Slashes | Attack | 13 (Asc 15) damage | - | - |
 
 ## Encounters

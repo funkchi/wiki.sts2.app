@@ -1,6 +1,6 @@
 ---
 title: "Torch Head Amalgam"
-description: "Boss enemy with 199 (Asc 211) HP. Tackle 1 -> Tackle 2 -> Beam -> Tackle 3 -> Tackle 4 -> repeat"
+description: "Boss enemy with 199 (Asc 211) HP. Tackle -> Tackle 2 -> Beam -> Tackle 3 -> Tackle 4 -> repeat"
 ---
 
 # Torch Head Amalgam
@@ -12,7 +12,7 @@ description: "Boss enemy with 199 (Asc 211) HP. Tackle 1 -> Tackle 2 -> Beam -> 
 |---|---|
 | Type | Boss |
 | HP | 199 (Asc 211) |
-| Pattern | Tackle 1 -> Tackle 2 -> Beam -> Tackle 3 -> Tackle 4 -> repeat |
+| Pattern | Tackle -> Tackle 2 -> Beam -> Tackle 3 -> Tackle 4 -> repeat |
 </div>
 </div>
 
@@ -20,7 +20,7 @@ description: "Boss enemy with 199 (Asc 211) HP. Tackle 1 -> Tackle 2 -> Beam -> 
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Tackle 1 | Attack | 18 (Asc 19) damage | - | - |
+| Tackle | Attack | 18 (Asc 19) damage | - | - |
 | Tackle 2 | Attack | 18 (Asc 19) damage | - | - |
 | Beam | Attack | 8x3 damage | - | - |
 | Tackle 3 | Attack | 14 (Asc 15) damage | - | - |

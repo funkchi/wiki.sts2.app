@@ -1,6 +1,6 @@
 ---
 title: "Infested Prism"
-description: "Elite enemy with 200 (Asc 215) HP. Jab -> Radiate -> Whirlwind -> Pulsate -> repeat"
+description: "Elite enemy with 161 (Asc 171) HP. Jab -> Radiate -> Whirlwind -> Pulsate -> repeat"
 ---
 
 # Infested Prism
@@ -11,7 +11,7 @@ description: "Elite enemy with 200 (Asc 215) HP. Jab -> Radiate -> Whirlwind -> 
 | Property | Value |
 |---|---|
 | Type | Elite |
-| HP | 200 (Asc 215) |
+| HP | 161 (Asc 171) |
 | Pattern | Jab -> Radiate -> Whirlwind -> Pulsate -> repeat |
 </div>
 </div>
@@ -20,10 +20,10 @@ description: "Elite enemy with 200 (Asc 215) HP. Jab -> Radiate -> Whirlwind -> 
 
 | Move | Intent | Damage | Block | Heal |
 |---|---|---|---|---|
-| Jab | Attack | 22 (Asc 24) damage | - | - |
-| Radiate | Attack + Defend | 16 (Asc 18) damage | 16 block | - |
-| Whirlwind | Attack | 9x3 (Asc 10x3) damage | - | - |
-| Pulsate | Buff + Defend | - | 20 block | - |
+| Jab | Attack | 15 (Asc 17) damage | - | - |
+| Radiate | Attack + Defend | 11 (Asc 13) damage | 11 block | - |
+| Whirlwind | Attack | 5x3 (Asc 6x3) damage | - | - |
+| Pulsate | Attack + Buff + Defend | 8 (Asc 10) damage | 20 block | - |
 
 ## Encounters
 

@@ -1,14 +1,14 @@
 ---
-title: "Scroll Boxes"
-description: "Upon pickup, choose 1 of 2 packs of cards to add to your Deck. Ancient Relic relic."
+title: "Kaleidoscope"
+description: "Upon pickup, obtain 2 card rewards from other characters. Ancient Relic relic."
 ---
 
-# Scroll Boxes
+# Kaleidoscope
 
 <div class="wiki-entity-hero" markdown="1">
-<a class="wiki-image-link" href="/media/relics/scroll-boxes.webp" target="_blank" rel="noopener" aria-label="View full image: Scroll Boxes" title="View full image: Scroll Boxes"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/scroll-boxes.webp" alt="Scroll Boxes" loading="lazy" decoding="async"></a>
+<a class="wiki-image-link" href="/media/relics/kaleidoscope.webp" target="_blank" rel="noopener" aria-label="View full image: Kaleidoscope" title="View full image: Kaleidoscope"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/kaleidoscope.webp" alt="Kaleidoscope" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Upon pickup, choose 1 of 2 packs of cards to add to your Deck.
+Upon pickup, obtain 2 card rewards from other characters.
 
 | Property | Value |
 |---|---|

@@ -32,7 +32,7 @@ At the start of your turn, lose 1 HP and gain 10 Block.
 - [Cruelty](cruelty.md)
 - [Dark Embrace](dark-embrace.md)
 - [Demon Form](demon-form.md)
-- [Drum of Battle](drum-of-battle.md)
 - [Feel No Pain](feel-no-pain.md)
+- [Hellraiser](hellraiser.md)
 
 [Back to all cards](../cards.md)

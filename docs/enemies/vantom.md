@@ -22,7 +22,7 @@ description: "Boss enemy with 173 (Asc 183) HP. Ink Blot -> Inky Lance -> Dismem
 |---|---|---|---|---|
 | Ink Blot | Attack | 7 (Asc 8) damage | - | - |
 | Inky Lance | Attack | 6x2 (Asc 7x2) damage | - | - |
-| Dismember | Attack + Status | 27 (Asc 30) damage | - | - |
+| Dismember | Attack + Status | 26 (Asc 30) damage | - | - |
 | Prepare | Buff | - | - | - |
 
 ## Encounters

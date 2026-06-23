@@ -1,14 +1,14 @@
 ---
-title: "Scroll Boxes"
-description: "Upon pickup, choose 1 of 2 packs of cards to add to your Deck. Ancient Relic relic."
+title: "Fishing Rod"
+description: "Every 3 normal combats, Upgrade a random card in your Deck. Ancient Relic relic."
 ---
 
-# Scroll Boxes
+# Fishing Rod
 
 <div class="wiki-entity-hero" markdown="1">
-<a class="wiki-image-link" href="/media/relics/scroll-boxes.webp" target="_blank" rel="noopener" aria-label="View full image: Scroll Boxes" title="View full image: Scroll Boxes"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/scroll-boxes.webp" alt="Scroll Boxes" loading="lazy" decoding="async"></a>
+<a class="wiki-image-link" href="/media/relics/fishing-rod.webp" target="_blank" rel="noopener" aria-label="View full image: Fishing Rod" title="View full image: Fishing Rod"><img class="wiki-image wiki-image--relic-detail" src="/media/relics/fishing-rod.webp" alt="Fishing Rod" loading="lazy" decoding="async"></a>
 <div class="wiki-entity-hero__details" markdown="1">
-Upon pickup, choose 1 of 2 packs of cards to add to your Deck.
+Every 3 normal combats, Upgrade a random card in your Deck.
 
 | Property | Value |
 |---|---|

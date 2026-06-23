@@ -32,7 +32,7 @@ Vulnerable enemies take an additional 50% damage.
 - [Crimson Mantle](crimson-mantle.md)
 - [Dark Embrace](dark-embrace.md)
 - [Demon Form](demon-form.md)
-- [Drum of Battle](drum-of-battle.md)
 - [Feel No Pain](feel-no-pain.md)
+- [Hellraiser](hellraiser.md)
 
 [Back to all cards](../cards.md)

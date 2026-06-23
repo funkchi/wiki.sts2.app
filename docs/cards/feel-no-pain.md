@@ -33,6 +33,6 @@ Whenever a card is Exhausted, gain 4 Block.
 - [Cruelty](cruelty.md)
 - [Dark Embrace](dark-embrace.md)
 - [Demon Form](demon-form.md)
-- [Drum of Battle](drum-of-battle.md)
+- [Hellraiser](hellraiser.md)
 
 [Back to all cards](../cards.md)

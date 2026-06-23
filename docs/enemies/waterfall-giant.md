@@ -26,7 +26,7 @@ description: "Boss enemy with 240 (Asc 250) HP. Pressurize -> Stomp -> Ram -> Si
 | Siphon | Heal + Buff | - | - | - |
 | Pressure Gun | Attack + Buff | - | - | - |
 | Pressure Up | Attack + Buff | 13 (Asc 14) damage | - | - |
-| About To Blow | Stun | - | - | - |
+| About to Blow | Stun | - | - | - |
 | Explode | Special | - | - | - |
 
 ## Encounters

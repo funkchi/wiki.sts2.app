@@ -28,6 +28,6 @@ description: "Normal enemy with 80 (Asc 82) HP. Advanced Gas -> Bloat -> Super G
 
 | Encounter | Room | Act |
 |---|---|---|
-| Evil Gas | Monster | Act 1 - Underdocks |
+| Living Fog | Monster | Act 1 - Underdocks |
 
 [Back to all enemies](../enemies.md)
