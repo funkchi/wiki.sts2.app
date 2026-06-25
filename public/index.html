@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slay the Spire 2 Wiki</title>
+  <meta name="description" content="A fast community wiki for Slay the Spire 2 cards, relics, characters, enemies, and guides.">
+  <meta name="google-adsense-account" content="ca-pub-8661972209515901">
+  <meta property="og:title" content="Slay the Spire 2 Wiki">
+  <meta property="og:description" content="Cards, relics, characters, enemies, and strategy for Slay the Spire 2.">
+  <meta property="og:image" content="/images/hero.png">
+  <script src="/docs/javascripts/consent.js?v=20260618-4"></script>
+  <script defer src="/docs/javascripts/wiki-analytics.js?v=20260618-4"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8661972209515901" crossorigin="anonymous"></script>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    :root {
+      color-scheme: dark;
+      --bg: #100c16;
+      --panel: rgba(255, 246, 234, 0.08);
+      --panel-strong: rgba(255, 246, 234, 0.14);
+      --text: #fff6ea;
+      --muted: rgba(255, 246, 234, 0.72);
+      --line: rgba(255, 246, 234, 0.17);
+      --gold: #f0a24a;
+      --gold-ink: #201207;
+      --violet: #a98aff;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      min-width: 320px;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .site-shell {
+      min-height: 100vh;
+      background:
+        linear-gradient(180deg, rgba(16, 12, 22, 0.08), #100c16 76%),
+        url("images/hero.png") center top / min(2200px, 160vw) auto no-repeat;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      min-height: 64px;
+      padding: 0.75rem clamp(1rem, 4vw, 3rem);
+      border-bottom: 1px solid rgba(255, 246, 234, 0.08);
+      background: rgba(16, 12, 22, 0.78);
+      backdrop-filter: blur(16px);
+    }
+
+    .brand {
+      font-weight: 850;
+      letter-spacing: 0;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .nav a {
+      min-height: 38px;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 0.75rem;
+      border-radius: 6px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      font-weight: 650;
+      text-decoration: none;
+    }
+
+    .nav a:hover {
+      background: var(--panel);
+      color: var(--text);
+    }
+
+    .hero {
+      min-height: calc(100vh - 150px);
+      display: grid;
+      align-items: end;
+      padding: clamp(1.5rem, 5vw, 3rem) clamp(1rem, 4vw, 3rem);
+    }
+
+    .hero__content {
+      width: min(760px, 100%);
+      padding-top: clamp(5rem, 12vh, 7.5rem);
+    }
+
+    .kicker {
+      display: inline-flex;
+      padding: 0.38rem 0.65rem;
+      border: 1px solid rgba(240, 162, 74, 0.45);
+      border-radius: 6px;
+      background: rgba(240, 162, 74, 0.1);
+      color: #ffd08b;
+      font-size: 0.72rem;
+      font-weight: 850;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      max-width: 720px;
+      margin: 1rem 0 0;
+      font-size: clamp(3rem, 8vw, 5.7rem);
+      line-height: 0.95;
+      letter-spacing: 0;
+      text-wrap: balance;
+      text-shadow: 0 8px 40px rgba(0, 0, 0, 0.45);
+    }
+
+    .subtitle {
+      max-width: 590px;
+      margin: 1.2rem 0 0;
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.22rem);
+      line-height: 1.65;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.7rem;
+    }
+
+    .button {
+      min-height: 46px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 1rem;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--text);
+      font-weight: 780;
+      text-decoration: none;
+      transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-1px);
+      border-color: rgba(255, 246, 234, 0.34);
+      background: var(--panel-strong);
+    }
+
+    .button--primary {
+      border-color: #f0a24a;
+      background: var(--gold);
+      color: var(--gold-ink);
+    }
+
+    .button--primary:hover {
+      background: #ffb45f;
+    }
+
+    .content-band {
+      padding: 0 clamp(1rem, 4vw, 3rem) 4rem;
+    }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 1rem;
+      width: min(1120px, 100%);
+      margin: 0 auto 1rem;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(1.55rem, 3vw, 2.25rem);
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    .section-head p {
+      max-width: 430px;
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .wiki-grid {
+      width: min(1120px, 100%);
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 0.85rem;
+      margin: 0 auto;
+    }
+
+    .wiki-card {
+      min-height: 158px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      padding: 1rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: linear-gradient(180deg, var(--panel-strong), var(--panel));
+      text-decoration: none;
+    }
+
+    .wiki-card:hover {
+      border-color: rgba(240, 162, 74, 0.62);
+      background: rgba(255, 246, 234, 0.13);
+    }
+
+    .wiki-card small {
+      color: var(--gold);
+      font-weight: 850;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .wiki-card strong {
+      font-size: 1.08rem;
+    }
+
+    .wiki-card span {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.45;
+    }
+
+    .status {
+      width: min(1120px, 100%);
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 0.85rem;
+      margin: 0.85rem auto 0;
+    }
+
+    .status__panel {
+      padding: 1rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 246, 234, 0.06);
+    }
+
+    .status__panel p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .status__panel a {
+      color: #ffd08b;
+      font-weight: 760;
+      text-decoration: none;
+    }
+
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 2rem clamp(1rem, 4vw, 3rem);
+      border-top: 1px solid rgba(255, 246, 234, 0.08);
+      color: rgba(255, 246, 234, 0.48);
+      font-size: 0.86rem;
+    }
+
+    footer nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    footer a {
+      color: rgba(255, 246, 234, 0.72);
+      text-decoration: none;
+    }
+
+    @media (max-width: 900px) {
+      .section-head,
+      .status {
+        display: block;
+      }
+
+      .section-head p {
+        margin-top: 0.6rem;
+      }
+
+      .wiki-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .status__panel + .status__panel {
+        margin-top: 0.85rem;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .site-shell {
+        background-size: auto 540px;
+        background-position: center top;
+      }
+
+      .topbar {
+        position: static;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .nav {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 0.15rem;
+      }
+
+      .nav a {
+        flex: 0 0 auto;
+      }
+
+      .hero {
+        min-height: 560px;
+        align-items: end;
+      }
+
+      .hero__content {
+        padding-top: 220px;
+      }
+
+      .actions,
+      .button {
+        width: 100%;
+      }
+
+      .wiki-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="/">Slay the Spire 2 Wiki</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/docs/cards/">Cards</a>
+        <a href="/docs/characters/">Characters</a>
+        <a href="/docs/relics/">Relics</a>
+        <a href="/docs/guides/">Guides</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <span class="kicker">Community reference</span>
+          <h1>Slay the Spire 2 Wiki</h1>
+          <p class="subtitle">576 cards, 293 relics, 115 enemies, characters, and strategy notes for faster run planning.</p>
+          <div class="actions">
+            <a class="button button--primary" href="/docs/cards/">Browse cards</a>
+            <a class="button" href="/docs/">Open wiki</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-band" aria-labelledby="explore-title">
+        <div class="section-head">
+          <div>
+            <span class="kicker">Explore</span>
+            <h2 id="explore-title">Jump straight to the run data.</h2>
+          </div>
+          <p>Built for quick lookup at campfires, shops, draft picks, and boss prep.</p>
+        </div>
+
+        <div class="wiki-grid">
+          <a class="wiki-card" href="/docs/characters/">
+            <small>Roster</small>
+            <strong>Characters</strong>
+            <span>Playable characters, starter kits, and defining mechanics.</span>
+          </a>
+          <a class="wiki-card" href="/docs/cards/">
+            <small>Library</small>
+            <strong>Cards</strong>
+            <span>576 searchable cards with base and upgrade text.</span>
+          </a>
+          <a class="wiki-card" href="/docs/relics/">
+            <small>Power</small>
+            <strong>Relics</strong>
+            <span>293 relic effects, pools, and price ranges.</span>
+          </a>
+          <a class="wiki-card" href="/docs/enemies/">
+            <small>Threats</small>
+            <strong>Enemies</strong>
+            <span>115 enemies with encounters, moves, and patterns.</span>
+          </a>
+          <a class="wiki-card" href="/docs/guides/">
+            <small>Strategy</small>
+            <strong>Guides</strong>
+            <span>4 original strategy guides plus 5 curated community guides.</span>
+          </a>
+        </div>
+
+        <div class="status">
+          <div class="status__panel">
+            <p>Game data is sourced from the <a href="https://spire-codex.com/docs">Spire Codex API</a>. The wiki is structured to expand as more Early Access details become reliable.</p>
+          </div>
+          <div class="status__panel">
+            <p>Community project. Not affiliated with Mega Crit.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <span>Slay the Spire 2 Wiki</span>
+    <nav aria-label="Legal">
+      <a href="/docs/about/">About</a>
+      <a href="/docs/privacy/">Privacy</a>
+      <a href="/docs/contact/">Contact</a>
+      <a href="/docs/disclaimer/">Disclaimer</a>
+    </nav>
+  </footer>
+</body>
+</html>

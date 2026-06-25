@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wiki.sts2.app/sitemap-index.xml
+Sitemap: https://wiki.sts2.app/sitemap.xml
