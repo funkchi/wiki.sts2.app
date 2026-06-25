@@ -1,0 +1,44 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CardHero from '../../../components/CardHero.astro';
+import { cards, cardBySlug } from '../../../data/cards';
+
+export const getStaticPaths = (() => {
+  return cards.map((card) => ({
+    params: { slug: card.slug },
+    props: { card },
+  }));
+}) satisfies GetStaticPaths;
+
+const { card } = Astro.props;
+const relatedCards = card.related
+  .map((slug) => cardBySlug.get(slug))
+  .filter((c): c is NonNullable<typeof c> => Boolean(c));
+const description =
+  card.description || `${card.name} - ${card.character} ${card.type} card.`;
+---
+
+<StarlightPage frontmatter={{ title: card.name, description }}>
+  <CardHero card={card} />
+
+  {card.keywords.length > 0 && (
+    <>
+      <h2 id="keywords">Keywords</h2>
+      <p>{card.keywords.map((k) => <code>{k}</code>)}</p>
+    </>
+  )}
+
+  <h2 id="related">Related Cards</h2>
+  {relatedCards.length > 0 ? (
+    <ul>
+      {relatedCards.map((c) => (
+        <li><a href={`/docs/cards/${c.slug}/`}>{c.name}</a></li>
+      ))}
+    </ul>
+  ) : (
+    <p>No closely related cards.</p>
+  )}
+
+  <p><a href="/docs/cards/">Back to all cards</a></p>
+</StarlightPage>

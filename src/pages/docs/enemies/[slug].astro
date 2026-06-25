@@ -1,0 +1,71 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { enemies } from '../../../data/enemies';
+
+export const getStaticPaths = (() =>
+  enemies.map((enemy) => ({ params: { slug: enemy.slug }, props: { enemy } }))) satisfies GetStaticPaths;
+
+const { enemy } = Astro.props;
+const norm = (val: string) =>
+  String(val).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+const description = `${enemy.type} enemy with ${enemy.hp} HP. ${enemy.pattern}`;
+---
+
+<StarlightPage frontmatter={{ title: enemy.name, description }}>
+  <div class="wiki-entity-hero">
+    <img class="wiki-image" src={enemy.image} alt={enemy.name} loading="lazy" decoding="async" />
+    <div class="wiki-entity-hero__details">
+      <div class="entity-badges">
+        <span class={`tag tag--type-${norm(enemy.type)}`}>{enemy.type}</span>
+        <span class="badge">{enemy.hp} HP</span>
+      </div>
+      <table>
+        <tbody>
+          <tr><th scope="row">Type</th><td>{enemy.type}</td></tr>
+          <tr><th scope="row">HP</th><td>{enemy.hp}</td></tr>
+          <tr><th scope="row">Pattern</th><td>{enemy.pattern}</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <h2 id="moves">Moves</h2>
+  <table>
+    <thead>
+      <tr><th>Move</th><th>Intent</th><th>Damage</th><th>Block</th><th>Heal</th></tr>
+    </thead>
+    <tbody>
+      {enemy.moves.length > 0 ? (
+        enemy.moves.map((m) => (
+          <tr>
+            <td>{m.name}</td>
+            <td>{m.intent || '-'}</td>
+            <td>{m.damage || '-'}</td>
+            <td>{m.block || '-'}</td>
+            <td>{m.heal || '-'}</td>
+          </tr>
+        ))
+      ) : (
+        <tr><td colspan="5">No move data is currently available.</td></tr>
+      )}
+    </tbody>
+  </table>
+
+  {enemy.encounters.length > 0 && (
+    <>
+      <h2 id="encounters">Encounters</h2>
+      <table>
+        <thead><tr><th>Encounter</th><th>Room</th><th>Act</th></tr></thead>
+        <tbody>
+          {enemy.encounters.map((en) => (
+            <tr><td>{en.name}</td><td>{en.roomType}</td><td>{en.act || '-'}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )}
+
+  <p><a href="/docs/enemies/">Back to all enemies</a></p>
+</StarlightPage>

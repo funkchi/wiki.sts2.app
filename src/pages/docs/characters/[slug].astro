@@ -1,0 +1,36 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CharacterHero from '../../../components/CharacterHero.astro';
+import { characters } from '../../../data/characters';
+
+export const getStaticPaths = (() => {
+  return characters.map((character) => ({
+    params: { slug: character.slug },
+    props: { character },
+  }));
+}) satisfies GetStaticPaths;
+
+const { character } = Astro.props;
+const description = character.description || `${character.name} - Slay the Spire 2 character.`;
+---
+
+<StarlightPage frontmatter={{ title: character.name, description }}>
+  <CharacterHero character={character} />
+
+  <h2 id="deck">Starting Deck</h2>
+  <ul>
+    {character.startingDeck.map((d) => (
+      <li>{d.count > 1 ? `${d.count}x ` : ''}<a href={`/docs/cards/${d.slug}/`}>{d.name}</a></li>
+    ))}
+  </ul>
+
+  <h2 id="relics">Starting Relics</h2>
+  <ul>
+    {character.startingRelics.map((r) => (
+      <li>{r.name}</li>
+    ))}
+  </ul>
+
+  <p><a href="/docs/characters/">Back to all characters</a></p>
+</StarlightPage>

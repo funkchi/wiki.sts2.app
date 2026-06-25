@@ -1,0 +1,5363 @@
+{
+  "schemaVersion": 1,
+  "kind": "enemies",
+  "count": 115,
+  "enemies": [
+    {
+      "id": "AEONGLASS",
+      "slug": "aeonglass",
+      "name": "Aeonglass",
+      "type": "Boss",
+      "hp": "512 (A9+ 535)",
+      "pattern": "Ebb -> Eye Lasers -> Increasing Intensity -> repeat",
+      "moves": [
+        {
+          "name": "Ebb",
+          "intent": "Attack + Defend",
+          "damage": "26 (Asc 32) damage",
+          "block": "33 block",
+          "heal": ""
+        },
+        {
+          "name": "Eye Lasers",
+          "intent": "Attack",
+          "damage": "11 (Asc 12) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Increasing Intensity",
+          "intent": "Status + Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Aeonglass",
+          "roomType": "Boss",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Aeonglass"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Ebb: Attack + Defend (26 (Asc 32) dmg, 33 block); Eye Lasers: Attack (11 (Asc 12) dmg); Increasing Intensity: Status + Buff",
+      "image": "/media/enemies/aeonglass.webp"
+    },
+    {
+      "id": "CEREMONIAL_BEAST",
+      "slug": "ceremonial-beast",
+      "name": "Ceremonial Beast",
+      "type": "Boss",
+      "hp": "252 (A9+ 262)",
+      "pattern": "Stamp -> Plow -> repeat",
+      "moves": [
+        {
+          "name": "Stamp",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Plow",
+          "intent": "Attack + Buff",
+          "damage": "18 (Asc 20) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Stun",
+          "intent": "Stun",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Beast Cry",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Stomp",
+          "intent": "Attack",
+          "damage": "15 (Asc 17) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Crush",
+          "intent": "Attack + Buff",
+          "damage": "17 (Asc 19) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Ceremonial Beast",
+          "roomType": "Boss",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Ceremonial Beast"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Stamp: Buff; Plow: Attack + Buff (18 (Asc 20) dmg); Stun: Stun; +3 more",
+      "image": "/media/enemies/ceremonial-beast.webp"
+    },
+    {
+      "id": "CRUSHER",
+      "slug": "crusher",
+      "name": "Crusher",
+      "type": "Boss",
+      "hp": "209 (A9+ 219)",
+      "pattern": "Thrash -> Enlarging Strike -> Bug Sting -> Adapt -> Guarded Strike -> repeat",
+      "moves": [
+        {
+          "name": "Thrash",
+          "intent": "Attack",
+          "damage": "12 (Asc 14) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Enlarging Strike",
+          "intent": "Attack",
+          "damage": "4 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Bug Sting",
+          "intent": "Attack + Debuff",
+          "damage": "6x2 (Asc 7x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Adapt",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Guarded Strike",
+          "intent": "Attack + Defend",
+          "damage": "12 (Asc 14) damage",
+          "block": "18 block",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Kaiser Crab",
+          "roomType": "Boss",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Kaiser Crab"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Thrash: Attack (12 (Asc 14) dmg); Enlarging Strike: Attack (4 dmg); Bug Sting: Attack + Debuff (6x2 (Asc 7x2) dmg); +2 more",
+      "image": "/media/enemies/crusher.webp"
+    },
+    {
+      "id": "KIN_FOLLOWER",
+      "slug": "kin-follower",
+      "name": "Kin Follower",
+      "type": "Boss",
+      "hp": "58-59 (A9+ 62-63)",
+      "pattern": "Power Dance -> Quick Slash -> Boomerang -> repeat",
+      "moves": [
+        {
+          "name": "Quick Slash",
+          "intent": "Attack",
+          "damage": "5 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Boomerang",
+          "intent": "Attack",
+          "damage": "2x2 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Power Dance",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "The Kin",
+          "roomType": "Boss",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "The Kin"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Quick Slash: Attack (5 dmg); Boomerang: Attack (2x2 dmg); Power Dance: Buff",
+      "image": "/media/enemies/kin-follower.webp"
+    },
+    {
+      "id": "KIN_PRIEST",
+      "slug": "kin-priest",
+      "name": "Kin Priest",
+      "type": "Boss",
+      "hp": "190 (A9+ 199)",
+      "pattern": "Orb of Frailty -> Orb of Weakness -> Soul Beam -> Dark Ritual -> repeat",
+      "moves": [
+        {
+          "name": "Orb of Frailty",
+          "intent": "Attack + Debuff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Orb of Weakness",
+          "intent": "Attack + Debuff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Soul Beam",
+          "intent": "Attack",
+          "damage": "3x3 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Dark Ritual",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "The Kin",
+          "roomType": "Boss",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "The Kin"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Orb of Frailty: Attack + Debuff (8 (Asc 9) dmg); Orb of Weakness: Attack + Debuff (8 (Asc 9) dmg); Soul Beam: Attack (3x3 dmg); +1 more",
+      "image": "/media/enemies/kin-priest.webp"
+    },
+    {
+      "id": "KNOWLEDGE_DEMON",
+      "slug": "knowledge-demon",
+      "name": "Knowledge Demon",
+      "type": "Boss",
+      "hp": "379 (A9+ 399)",
+      "pattern": "Starts: Curse of Knowledge -> Slap -> Knowledge Overwhelming -> Ponder; then conditional: Curse of Knowledge (if curse of knowledge counter = 3)",
+      "moves": [
+        {
+          "name": "Curse of Knowledge",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Slap",
+          "intent": "Attack",
+          "damage": "17 (Asc 18) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Knowledge Overwhelming",
+          "intent": "Attack",
+          "damage": "8x3 (Asc 9x3) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Ponder",
+          "intent": "Attack + Heal + Buff",
+          "damage": "11 (Asc 13) damage",
+          "block": "",
+          "heal": "30 heal"
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Knowledge Demon",
+          "roomType": "Boss",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Knowledge Demon"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Curse of Knowledge: Debuff; Slap: Attack (17 (Asc 18) dmg); Knowledge Overwhelming: Attack (8x3 (Asc 9x3) dmg); +1 more",
+      "image": "/media/enemies/knowledge-demon.webp"
+    },
+    {
+      "id": "LAGAVULIN_MATRIARCH",
+      "slug": "lagavulin-matriarch",
+      "name": "Lagavulin Matriarch",
+      "type": "Boss",
+      "hp": "222 (A9+ 233)",
+      "pattern": "Starts with Sleep",
+      "moves": [
+        {
+          "name": "Sleep",
+          "intent": "Sleep",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Slash",
+          "intent": "Attack",
+          "damage": "19 (Asc 21) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Slash2",
+          "intent": "Attack + Defend",
+          "damage": "12 (Asc 14) damage",
+          "block": "12 block",
+          "heal": ""
+        },
+        {
+          "name": "Disembowel",
+          "intent": "Attack",
+          "damage": "9x2 (Asc 10x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Soul Siphon",
+          "intent": "Debuff + Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Lagavulin Matriarch",
+          "roomType": "Boss",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Lagavulin Matriarch"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Sleep: Sleep; Slash: Attack (19 (Asc 21) dmg); Slash2: Attack + Defend (12 (Asc 14) dmg, 12 block); +2 more",
+      "image": "/media/enemies/lagavulin-matriarch.webp"
+    },
+    {
+      "id": "QUEEN",
+      "slug": "queen",
+      "name": "Queen",
+      "type": "Boss",
+      "hp": "400 (A9+ 419)",
+      "pattern": "Starts: Puppet Strings -> You Are Mine; then conditional: Burn Bright for Me (if does not have amalgam died) / Off with Your Head (if has amalgam died); then conditional: Burn Bright for Me (if does not have amalgam died) / Off with Your Head (if has amalgam died)",
+      "moves": [
+        {
+          "name": "Puppet Strings",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "You Are Mine",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Burn Bright for Me",
+          "intent": "Buff + Defend",
+          "damage": "",
+          "block": "20 block",
+          "heal": ""
+        },
+        {
+          "name": "Off with Your Head",
+          "intent": "Attack",
+          "damage": "3x5 (Asc 4x5) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Execution",
+          "intent": "Attack",
+          "damage": "15 (Asc 18) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Enrage",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Queen",
+          "roomType": "Boss",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Queen"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Puppet Strings: Debuff; You Are Mine: Debuff; Burn Bright for Me: Buff + Defend (20 block); +3 more",
+      "image": "/media/enemies/queen.webp"
+    },
+    {
+      "id": "ROCKET",
+      "slug": "rocket",
+      "name": "Rocket",
+      "type": "Boss",
+      "hp": "199 (A9+ 209)",
+      "pattern": "Targeting Reticle -> Precision Beam -> Charge Up -> Laser -> Recharge -> repeat",
+      "moves": [
+        {
+          "name": "Targeting Reticle",
+          "intent": "Attack",
+          "damage": "3 (Asc 4) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Precision Beam",
+          "intent": "Attack",
+          "damage": "18 (Asc 20) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Charge Up",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Laser",
+          "intent": "Attack",
+          "damage": "31 (Asc 35) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Recharge",
+          "intent": "Sleep",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Kaiser Crab",
+          "roomType": "Boss",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Kaiser Crab"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Targeting Reticle: Attack (3 (Asc 4) dmg); Precision Beam: Attack (18 (Asc 20) dmg); Charge Up: Buff; +2 more",
+      "image": "/media/enemies/rocket.webp"
+    },
+    {
+      "id": "SOUL_FYSH",
+      "slug": "soul-fysh",
+      "name": "Soul Fysh",
+      "type": "Boss",
+      "hp": "211 (A9+ 221)",
+      "pattern": "Beckon -> De-Gas -> Gaze -> Fade -> Scream -> repeat",
+      "moves": [
+        {
+          "name": "Beckon",
+          "intent": "Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "De-Gas",
+          "intent": "Attack",
+          "damage": "16 (Asc 17) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Gaze",
+          "intent": "Attack + Status",
+          "damage": "7 (Asc 8) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Fade",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Scream",
+          "intent": "Attack + Debuff",
+          "damage": "13 (Asc 15) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Soul Fysh",
+          "roomType": "Boss",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Soul Fysh"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Beckon: Status; De-Gas: Attack (16 (Asc 17) dmg); Gaze: Attack + Status (7 (Asc 8) dmg); +2 more",
+      "image": "/media/enemies/soul-fysh.webp"
+    },
+    {
+      "id": "TEST_SUBJECT",
+      "slug": "test-subject",
+      "name": "Test Subject #C14",
+      "type": "Boss",
+      "hp": "-",
+      "pattern": "Starts: Bite -> Skull Bash; then conditional: Multi-Claw (if respawns = 2)",
+      "moves": [
+        {
+          "name": "Respawn",
+          "intent": "Heal + Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Bite",
+          "intent": "Attack",
+          "damage": "20 (Asc 22) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Skull Bash",
+          "intent": "Attack + Debuff",
+          "damage": "14 (Asc 16) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Multi-Claw",
+          "intent": "Attack",
+          "damage": "10 (Asc 11) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Lacerate",
+          "intent": "Attack",
+          "damage": "10x3 (Asc 11x3) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Big Pounce",
+          "intent": "Attack",
+          "damage": "45 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Burning Growl",
+          "intent": "Status + Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Test Subject",
+          "roomType": "Boss",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Test Subject"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Respawn: Heal + Buff; Bite: Attack (20 (Asc 22) dmg); Skull Bash: Attack + Debuff (14 (Asc 16) dmg); +4 more",
+      "image": "/media/enemies/test-subject.webp"
+    },
+    {
+      "id": "THE_INSATIABLE",
+      "slug": "the-insatiable",
+      "name": "The Insatiable",
+      "type": "Boss",
+      "hp": "321 (A9+ 341)",
+      "pattern": "Liquify Ground -> Thrash -> Lunging Bite -> Salivate -> Thrash Move 2 -> repeat",
+      "moves": [
+        {
+          "name": "Liquify Ground",
+          "intent": "Buff + Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Thrash",
+          "intent": "Attack",
+          "damage": "8x2 (Asc 9x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Thrash Move 2",
+          "intent": "Attack",
+          "damage": "8x2 (Asc 9x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Lunging Bite",
+          "intent": "Attack",
+          "damage": "28 (Asc 31) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Salivate",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "The Insatiable",
+          "roomType": "Boss",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "The Insatiable"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Liquify Ground: Buff + Status; Thrash: Attack (8x2 (Asc 9x2) dmg); Thrash Move 2: Attack (8x2 (Asc 9x2) dmg); +2 more",
+      "image": "/media/enemies/the-insatiable.webp"
+    },
+    {
+      "id": "TORCH_HEAD_AMALGAM",
+      "slug": "torch-head-amalgam",
+      "name": "Torch Head Amalgam",
+      "type": "Boss",
+      "hp": "199 (A9+ 211)",
+      "pattern": "Tackle -> Tackle 2 -> Beam -> Tackle 3 -> Tackle 4 -> repeat",
+      "moves": [
+        {
+          "name": "Tackle",
+          "intent": "Attack",
+          "damage": "18 (Asc 19) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Tackle 2",
+          "intent": "Attack",
+          "damage": "18 (Asc 19) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Beam",
+          "intent": "Attack",
+          "damage": "8x3 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Tackle 3",
+          "intent": "Attack",
+          "damage": "14 (Asc 15) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Tackle 4",
+          "intent": "Attack",
+          "damage": "14 (Asc 15) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Queen",
+          "roomType": "Boss",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Queen"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Tackle: Attack (18 (Asc 19) dmg); Tackle 2: Attack (18 (Asc 19) dmg); Beam: Attack (8x3 dmg); +2 more",
+      "image": "/media/enemies/torch-head-amalgam.webp"
+    },
+    {
+      "id": "VANTOM",
+      "slug": "vantom",
+      "name": "Vantom",
+      "type": "Boss",
+      "hp": "173 (A9+ 183)",
+      "pattern": "Ink Blot -> Inky Lance -> Dismember -> Prepare -> repeat",
+      "moves": [
+        {
+          "name": "Ink Blot",
+          "intent": "Attack",
+          "damage": "7 (Asc 8) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Inky Lance",
+          "intent": "Attack",
+          "damage": "6x2 (Asc 7x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Dismember",
+          "intent": "Attack + Status",
+          "damage": "26 (Asc 30) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Prepare",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Vantom",
+          "roomType": "Boss",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Vantom"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Ink Blot: Attack (7 (Asc 8) dmg); Inky Lance: Attack (6x2 (Asc 7x2) dmg); Dismember: Attack + Status (26 (Asc 30) dmg); +1 more",
+      "image": "/media/enemies/vantom.webp"
+    },
+    {
+      "id": "WATERFALL_GIANT",
+      "slug": "waterfall-giant",
+      "name": "Waterfall Giant",
+      "type": "Boss",
+      "hp": "240 (A9+ 250)",
+      "pattern": "Pressurize -> Stomp -> Ram -> Siphon -> Pressure Gun -> Pressure Up -> repeat",
+      "moves": [
+        {
+          "name": "Pressurize",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Stomp",
+          "intent": "Attack + Debuff + Buff",
+          "damage": "15 (Asc 16) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Ram",
+          "intent": "Attack + Buff",
+          "damage": "10 (Asc 11) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Siphon",
+          "intent": "Heal + Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Pressure Gun",
+          "intent": "Attack + Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Pressure Up",
+          "intent": "Attack + Buff",
+          "damage": "13 (Asc 14) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "About to Blow",
+          "intent": "Stun",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Explode",
+          "intent": "Special",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Waterfall Giant",
+          "roomType": "Boss",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Waterfall Giant"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Pressurize: Buff; Stomp: Attack + Debuff + Buff (15 (Asc 16) dmg); Ram: Attack + Buff (10 (Asc 11) dmg); +5 more",
+      "image": "/media/enemies/waterfall-giant.webp"
+    },
+    {
+      "id": "BYGONE_EFFIGY",
+      "slug": "bygone-effigy",
+      "name": "Bygone Effigy",
+      "type": "Elite",
+      "hp": "127 (A9+ 132)",
+      "pattern": "Sleep -> Wake -> Slashes -> repeat",
+      "moves": [
+        {
+          "name": "Sleep",
+          "intent": "Sleep",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Wake",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Sleep Move 2",
+          "intent": "Sleep",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Slashes",
+          "intent": "Attack",
+          "damage": "13 (Asc 15) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Bygone Effigy",
+          "roomType": "Elite",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Bygone Effigy"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Sleep: Sleep; Wake: Buff; Sleep Move 2: Sleep; +1 more",
+      "image": "/media/enemies/bygone-effigy.webp"
+    },
+    {
+      "id": "BYRDONIS",
+      "slug": "byrdonis",
+      "name": "Byrdonis",
+      "type": "Elite",
+      "hp": "81-84 (A9+ 90)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Peck",
+          "intent": "Attack",
+          "damage": "3x3 (Asc 4x3) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Swoop",
+          "intent": "Attack",
+          "damage": "17 (Asc 19) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Byrdonis",
+          "roomType": "Elite",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Byrdonis"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Peck: Attack (3x3 (Asc 4x3) dmg); Swoop: Attack (17 (Asc 19) dmg)",
+      "image": "/media/enemies/byrdonis.webp"
+    },
+    {
+      "id": "DECIMILLIPEDE_SEGMENT",
+      "slug": "decimillipede-segment",
+      "name": "Decimillipede",
+      "type": "Elite",
+      "hp": "40-46 (A9+ 46-52)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Writhe",
+          "intent": "Attack",
+          "damage": "5x2 (Asc 6x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Bulk",
+          "intent": "Attack + Buff",
+          "damage": "6 (Asc 7) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Constrict",
+          "intent": "Attack + Debuff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Dead",
+          "intent": "Unknown",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Reattach",
+          "intent": "Heal",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [],
+      "encounterNames": [],
+      "acts": [],
+      "movesSummary": "Writhe: Attack (5x2 (Asc 6x2) dmg); Bulk: Attack + Buff (6 (Asc 7) dmg); Constrict: Attack + Debuff (8 (Asc 9) dmg); +2 more",
+      "image": "/media/enemies/decimillipede-segment.webp"
+    },
+    {
+      "id": "DECIMILLIPEDE_SEGMENT_BACK",
+      "slug": "decimillipede-segment-back",
+      "name": "Decimillipede Segment (Back)",
+      "type": "Elite",
+      "hp": "40-46 (A9+ 46-52)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Writhe",
+          "intent": "Attack",
+          "damage": "5x2 (Asc 6x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Bulk",
+          "intent": "Attack + Buff",
+          "damage": "6 (Asc 7) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Constrict",
+          "intent": "Attack + Debuff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Dead",
+          "intent": "Unknown",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Reattach",
+          "intent": "Heal",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "The Decimillipede",
+          "roomType": "Elite",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "The Decimillipede"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Writhe: Attack (5x2 (Asc 6x2) dmg); Bulk: Attack + Buff (6 (Asc 7) dmg); Constrict: Attack + Debuff (8 (Asc 9) dmg); +2 more",
+      "image": "/media/enemies/decimillipede-segment-back.webp"
+    },
+    {
+      "id": "DECIMILLIPEDE_SEGMENT_FRONT",
+      "slug": "decimillipede-segment-front",
+      "name": "Decimillipede Segment (Front)",
+      "type": "Elite",
+      "hp": "40-46 (A9+ 46-52)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Writhe",
+          "intent": "Attack",
+          "damage": "5x2 (Asc 6x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Bulk",
+          "intent": "Attack + Buff",
+          "damage": "6 (Asc 7) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Constrict",
+          "intent": "Attack + Debuff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Dead",
+          "intent": "Unknown",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Reattach",
+          "intent": "Heal",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "The Decimillipede",
+          "roomType": "Elite",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "The Decimillipede"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Writhe: Attack (5x2 (Asc 6x2) dmg); Bulk: Attack + Buff (6 (Asc 7) dmg); Constrict: Attack + Debuff (8 (Asc 9) dmg); +2 more",
+      "image": "/media/enemies/decimillipede-segment-front.webp"
+    },
+    {
+      "id": "DECIMILLIPEDE_SEGMENT_MIDDLE",
+      "slug": "decimillipede-segment-middle",
+      "name": "Decimillipede Segment (Middle)",
+      "type": "Elite",
+      "hp": "40-46 (A9+ 46-52)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Writhe",
+          "intent": "Attack",
+          "damage": "5x2 (Asc 6x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Bulk",
+          "intent": "Attack + Buff",
+          "damage": "6 (Asc 7) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Constrict",
+          "intent": "Attack + Debuff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Dead",
+          "intent": "Unknown",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Reattach",
+          "intent": "Heal",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "The Decimillipede",
+          "roomType": "Elite",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "The Decimillipede"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Writhe: Attack (5x2 (Asc 6x2) dmg); Bulk: Attack + Buff (6 (Asc 7) dmg); Constrict: Attack + Debuff (8 (Asc 9) dmg); +2 more",
+      "image": "/media/enemies/decimillipede-segment-middle.webp"
+    },
+    {
+      "id": "ENTOMANCER",
+      "slug": "entomancer",
+      "name": "Entomancer",
+      "type": "Elite",
+      "hp": "145 (A9+ 155)",
+      "pattern": "Always uses Beeeees!",
+      "moves": [
+        {
+          "name": "Pheromone Spit",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Beeeees!",
+          "intent": "Attack",
+          "damage": "3x7 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Spear!",
+          "intent": "Attack",
+          "damage": "18 (Asc 20) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Entomancer",
+          "roomType": "Elite",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Entomancer"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Pheromone Spit: Buff; Beeeees!: Attack (3x7 dmg); Spear!: Attack (18 (Asc 20) dmg)",
+      "image": "/media/enemies/entomancer.webp"
+    },
+    {
+      "id": "FLAIL_KNIGHT",
+      "slug": "flail-knight",
+      "name": "Flail Knight",
+      "type": "Elite",
+      "hp": "101 (A9+ 108)",
+      "pattern": "Starts with Ram",
+      "moves": [
+        {
+          "name": "War Chant",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Flail",
+          "intent": "Attack",
+          "damage": "9x2 (Asc 10x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Ram",
+          "intent": "Attack",
+          "damage": "15 (Asc 17) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Knight Gang",
+          "roomType": "Elite",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Knight Gang"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "War Chant: Buff; Flail: Attack (9x2 (Asc 10x2) dmg); Ram: Attack (15 (Asc 17) dmg)",
+      "image": "/media/enemies/flail-knight.webp"
+    },
+    {
+      "id": "INFESTED_PRISM",
+      "slug": "infested-prism",
+      "name": "Infested Prism",
+      "type": "Elite",
+      "hp": "161 (A9+ 171)",
+      "pattern": "Jab -> Radiate -> Whirlwind -> Pulsate -> repeat",
+      "moves": [
+        {
+          "name": "Jab",
+          "intent": "Attack",
+          "damage": "15 (Asc 17) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Radiate",
+          "intent": "Attack + Defend",
+          "damage": "11 (Asc 13) damage",
+          "block": "11 block",
+          "heal": ""
+        },
+        {
+          "name": "Whirlwind",
+          "intent": "Attack",
+          "damage": "5x3 (Asc 6x3) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Pulsate",
+          "intent": "Attack + Buff + Defend",
+          "damage": "8 (Asc 10) damage",
+          "block": "20 block",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Infested Prism",
+          "roomType": "Elite",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Infested Prism"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Jab: Attack (15 (Asc 17) dmg); Radiate: Attack + Defend (11 (Asc 13) dmg, 11 block); Whirlwind: Attack (5x3 (Asc 6x3) dmg); +1 more",
+      "image": "/media/enemies/infested-prism.webp"
+    },
+    {
+      "id": "MAGI_KNIGHT",
+      "slug": "magi-knight",
+      "name": "Magi Knight",
+      "type": "Elite",
+      "hp": "82 (A9+ 89)",
+      "pattern": "Power Shield -> Dampen -> Ram -> Prep -> Magic Bomb -> repeat",
+      "moves": [
+        {
+          "name": "Power Shield",
+          "intent": "Attack + Defend",
+          "damage": "6 (Asc 7) damage",
+          "block": "5 block",
+          "heal": ""
+        },
+        {
+          "name": "Dampen",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Prep",
+          "intent": "Defend",
+          "damage": "",
+          "block": "5 block",
+          "heal": ""
+        },
+        {
+          "name": "Magic Bomb",
+          "intent": "Attack",
+          "damage": "35 (Asc 40) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Ram",
+          "intent": "Attack",
+          "damage": "10 (Asc 11) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Knight Gang",
+          "roomType": "Elite",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Knight Gang"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Power Shield: Attack + Defend (6 (Asc 7) dmg, 5 block); Dampen: Debuff; Prep: Defend (5 block); +2 more",
+      "image": "/media/enemies/magi-knight.webp"
+    },
+    {
+      "id": "MECHA_KNIGHT",
+      "slug": "mecha-knight",
+      "name": "Mecha Knight",
+      "type": "Elite",
+      "hp": "300 (A9+ 320)",
+      "pattern": "Charge -> Flamethrower -> Windup -> Heavy Cleave -> repeat",
+      "moves": [
+        {
+          "name": "Charge",
+          "intent": "Attack",
+          "damage": "25 (Asc 30) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Flamethrower",
+          "intent": "Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Windup",
+          "intent": "Defend + Buff",
+          "damage": "",
+          "block": "15 block",
+          "heal": ""
+        },
+        {
+          "name": "Heavy Cleave",
+          "intent": "Attack",
+          "damage": "35 (Asc 40) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Mecha Knight",
+          "roomType": "Elite",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Mecha Knight"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Charge: Attack (25 (Asc 30) dmg); Flamethrower: Status; Windup: Defend + Buff (15 block); +1 more",
+      "image": "/media/enemies/mecha-knight.webp"
+    },
+    {
+      "id": "PHANTASMAL_GARDENER",
+      "slug": "phantasmal-gardener",
+      "name": "Phantasmal Gardener",
+      "type": "Elite",
+      "hp": "26-31 (A9+ 27-32)",
+      "pattern": "then conditional: Flail (if in first slot) / Bite (if in second slot) / Lash (if in third slot) / Enlarge (if in fourth slot)",
+      "moves": [
+        {
+          "name": "Bite",
+          "intent": "Attack",
+          "damage": "5 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Lash",
+          "intent": "Attack",
+          "damage": "7 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Flail",
+          "intent": "Attack",
+          "damage": "1x3 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Enlarge",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Phantasmal Gardeners",
+          "roomType": "Elite",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Phantasmal Gardeners"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Bite: Attack (5 dmg); Lash: Attack (7 dmg); Flail: Attack (1x3 dmg); +1 more",
+      "image": "/media/enemies/phantasmal-gardener.webp"
+    },
+    {
+      "id": "PHROG_PARASITE",
+      "slug": "phrog-parasite",
+      "name": "Phrog Parasite",
+      "type": "Elite",
+      "hp": "61-64 (A9+ 66-68)",
+      "pattern": "Starts: Infect -> Lash",
+      "moves": [
+        {
+          "name": "Infect",
+          "intent": "Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Lash",
+          "intent": "Attack",
+          "damage": "4x4 (Asc 5x4) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Phrog Parasite",
+          "roomType": "Elite",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Phrog Parasite"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Infect: Status; Lash: Attack (4x4 (Asc 5x4) dmg)",
+      "image": "/media/enemies/phrog-parasite.webp"
+    },
+    {
+      "id": "SKULKING_COLONY",
+      "slug": "skulking-colony",
+      "name": "Skulking Colony",
+      "type": "Elite",
+      "hp": "75 (A9+ 80)",
+      "pattern": "Zoom -> Zoom Move 2 -> Inertia -> Piercing Stabs -> repeat",
+      "moves": [
+        {
+          "name": "Zoom",
+          "intent": "Attack",
+          "damage": "14 (Asc 16) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Zoom Move 2",
+          "intent": "Attack",
+          "damage": "14 (Asc 16) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Inertia",
+          "intent": "Attack + Buff",
+          "damage": "9 (Asc 11) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Piercing Stabs",
+          "intent": "Attack",
+          "damage": "7x2 (Asc 8x2) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Skulking Colony",
+          "roomType": "Elite",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Skulking Colony"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Zoom: Attack (14 (Asc 16) dmg); Zoom Move 2: Attack (14 (Asc 16) dmg); Inertia: Attack + Buff (9 (Asc 11) dmg); +1 more",
+      "image": "/media/enemies/skulking-colony.webp"
+    },
+    {
+      "id": "SOUL_NEXUS",
+      "slug": "soul-nexus",
+      "name": "Soul Nexus",
+      "type": "Elite",
+      "hp": "234 (A9+ 254)",
+      "pattern": "Starts with Soul Burn; then random: Soul Burn (no repeat), Maelstrom (no repeat), Drain Life (no repeat)",
+      "moves": [
+        {
+          "name": "Soul Burn",
+          "intent": "Attack",
+          "damage": "29 (Asc 31) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Maelstrom",
+          "intent": "Attack",
+          "damage": "6x4 (Asc 7x4) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Drain Life",
+          "intent": "Attack + Debuff",
+          "damage": "18 (Asc 19) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Soul Nexus",
+          "roomType": "Elite",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Soul Nexus"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Soul Burn: Attack (29 (Asc 31) dmg); Maelstrom: Attack (6x4 (Asc 7x4) dmg); Drain Life: Attack + Debuff (18 (Asc 19) dmg)",
+      "image": "/media/enemies/soul-nexus.webp"
+    },
+    {
+      "id": "SPECTRAL_KNIGHT",
+      "slug": "spectral-knight",
+      "name": "Spectral Knight",
+      "type": "Elite",
+      "hp": "93 (A9+ 97)",
+      "pattern": "Starts: Hex -> Soul Slash",
+      "moves": [
+        {
+          "name": "Hex",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Soul Slash",
+          "intent": "Attack",
+          "damage": "15 (Asc 17) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Soul Flame",
+          "intent": "Attack",
+          "damage": "3x3 (Asc 4x3) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Knight Gang",
+          "roomType": "Elite",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Knight Gang"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Hex: Debuff; Soul Slash: Attack (15 (Asc 17) dmg); Soul Flame: Attack (3x3 (Asc 4x3) dmg)",
+      "image": "/media/enemies/spectral-knight.webp"
+    },
+    {
+      "id": "TERROR_EEL",
+      "slug": "terror-eel",
+      "name": "Terror Eel",
+      "type": "Elite",
+      "hp": "140 (A9+ 150)",
+      "pattern": "Crash -> Thrash -> repeat",
+      "moves": [
+        {
+          "name": "Crash",
+          "intent": "Attack",
+          "damage": "16 (Asc 18) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Thrash",
+          "intent": "Attack + Buff",
+          "damage": "3x3 (Asc 4x3) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Stun",
+          "intent": "Stun",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Terrorize",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Terror Eel",
+          "roomType": "Elite",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Terror Eel"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Crash: Attack (16 (Asc 18) dmg); Thrash: Attack + Buff (3x3 (Asc 4x3) dmg); Stun: Stun; +1 more",
+      "image": "/media/enemies/terror-eel.webp"
+    },
+    {
+      "id": "WRIGGLER",
+      "slug": "wriggler",
+      "name": "Wriggler",
+      "type": "Elite",
+      "hp": "17-21 (A9+ 18-22)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Nasty Bite",
+          "intent": "Attack",
+          "damage": "6 (Asc 7) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Wriggle",
+          "intent": "Buff + Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Spawned",
+          "intent": "Stun",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Wrigglers",
+          "roomType": "Monster",
+          "act": null
+        },
+        {
+          "name": "Phrog Parasite",
+          "roomType": "Elite",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Phrog Parasite",
+        "Wrigglers"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Nasty Bite: Attack (6 (Asc 7) dmg); Wriggle: Buff + Status; Spawned: Stun",
+      "image": "/media/enemies/wriggler.webp"
+    },
+    {
+      "id": "ASSASSIN_RUBY_RAIDER",
+      "slug": "assassin-ruby-raider",
+      "name": "Assassin Raider",
+      "type": "Normal",
+      "hp": "18-23 (A9+ 19-24)",
+      "pattern": "Always uses Killshot",
+      "moves": [
+        {
+          "name": "Killshot",
+          "intent": "Attack",
+          "damage": "10 (Asc 11) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Ruby Raiders",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Ruby Raiders"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Killshot: Attack (10 (Asc 11) dmg)",
+      "image": "/media/enemies/assassin-ruby-raider.webp"
+    },
+    {
+      "id": "AXE_RUBY_RAIDER",
+      "slug": "axe-ruby-raider",
+      "name": "Axe Raider",
+      "type": "Normal",
+      "hp": "20-22 (A9+ 21-23)",
+      "pattern": "Swing 1 -> Swing 2 -> Big Swing -> repeat",
+      "moves": [
+        {
+          "name": "Swing 1",
+          "intent": "Attack + Defend",
+          "damage": "5 (Asc 6) damage",
+          "block": "5 block",
+          "heal": ""
+        },
+        {
+          "name": "Swing 2",
+          "intent": "Attack + Defend",
+          "damage": "5 (Asc 6) damage",
+          "block": "5 block",
+          "heal": ""
+        },
+        {
+          "name": "Big Swing",
+          "intent": "Attack",
+          "damage": "12 (Asc 13) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Ruby Raiders",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Ruby Raiders"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Swing 1: Attack + Defend (5 (Asc 6) dmg, 5 block); Swing 2: Attack + Defend (5 (Asc 6) dmg, 5 block); Big Swing: Attack (12 (Asc 13) dmg)",
+      "image": "/media/enemies/axe-ruby-raider.webp"
+    },
+    {
+      "id": "AXEBOT",
+      "slug": "axebot",
+      "name": "Axebot",
+      "type": "Normal",
+      "hp": "70-78 (A9+ 76-86)",
+      "pattern": "Always uses Boot Up",
+      "moves": [
+        {
+          "name": "Boot Up",
+          "intent": "Defend + Buff",
+          "damage": "",
+          "block": "10 block",
+          "heal": ""
+        },
+        {
+          "name": "The One-Two",
+          "intent": "Attack",
+          "damage": "9x2 (Asc 10x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Hammer Uppercut",
+          "intent": "Attack + Debuff",
+          "damage": "12 (Asc 14) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Axebot",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Axebot"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Boot Up: Defend + Buff (10 block); The One-Two: Attack (9x2 (Asc 10x2) dmg); Hammer Uppercut: Attack + Debuff (12 (Asc 14) dmg)",
+      "image": "/media/enemies/axebot.webp"
+    },
+    {
+      "id": "BATTLE_FRIEND_V1",
+      "slug": "battle-friend-v1",
+      "name": "Battle Friend V1.0",
+      "type": "Normal",
+      "hp": "75",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Nothing",
+          "intent": "Unknown",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Battleworn Dummy",
+          "roomType": "Monster",
+          "act": null
+        }
+      ],
+      "encounterNames": [
+        "Battleworn Dummy"
+      ],
+      "acts": [],
+      "movesSummary": "Nothing: Unknown",
+      "image": "/media/enemies/battle-friend-v1.webp"
+    },
+    {
+      "id": "BATTLE_FRIEND_V2",
+      "slug": "battle-friend-v2",
+      "name": "Battle Friend V2.0",
+      "type": "Normal",
+      "hp": "150",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Nothing",
+          "intent": "Unknown",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Battleworn Dummy",
+          "roomType": "Monster",
+          "act": null
+        }
+      ],
+      "encounterNames": [
+        "Battleworn Dummy"
+      ],
+      "acts": [],
+      "movesSummary": "Nothing: Unknown",
+      "image": "/media/enemies/battle-friend-v2.webp"
+    },
+    {
+      "id": "BATTLE_FRIEND_V3",
+      "slug": "battle-friend-v3",
+      "name": "Battle Friend V3.0",
+      "type": "Normal",
+      "hp": "300",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Nothing",
+          "intent": "Unknown",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Battleworn Dummy",
+          "roomType": "Monster",
+          "act": null
+        }
+      ],
+      "encounterNames": [
+        "Battleworn Dummy"
+      ],
+      "acts": [],
+      "movesSummary": "Nothing: Unknown",
+      "image": "/media/enemies/battle-friend-v3.webp"
+    },
+    {
+      "id": "BOWLBUG_EGG",
+      "slug": "bowlbug-egg",
+      "name": "Bowlbug (Egg)",
+      "type": "Normal",
+      "hp": "21-22 (A9+ 23-24)",
+      "pattern": "Always uses Bite",
+      "moves": [
+        {
+          "name": "Bite",
+          "intent": "Attack + Defend",
+          "damage": "7 (Asc 8) damage",
+          "block": "7 block",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Bowlbug Swarm",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        },
+        {
+          "name": "Bowlbugs",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Bowlbug Swarm",
+        "Bowlbugs"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Bite: Attack + Defend (7 (Asc 8) dmg, 7 block)",
+      "image": "/media/enemies/bowlbug-egg.webp"
+    },
+    {
+      "id": "BOWLBUG_NECTAR",
+      "slug": "bowlbug-nectar",
+      "name": "Bowlbug (Nectar)",
+      "type": "Normal",
+      "hp": "35-38 (A9+ 36-39)",
+      "pattern": "Thrash -> Buff -> Thrash2 -> repeat",
+      "moves": [
+        {
+          "name": "Thrash",
+          "intent": "Attack",
+          "damage": "3 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Buff",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Thrash2",
+          "intent": "Attack",
+          "damage": "3 damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Bowlbug Swarm",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        },
+        {
+          "name": "Bowlbugs",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Bowlbug Swarm",
+        "Bowlbugs"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Thrash: Attack (3 dmg); Buff: Buff; Thrash2: Attack (3 dmg)",
+      "image": "/media/enemies/bowlbug-nectar.webp"
+    },
+    {
+      "id": "BOWLBUG_ROCK",
+      "slug": "bowlbug-rock",
+      "name": "Bowlbug (Rock)",
+      "type": "Normal",
+      "hp": "45-48 (A9+ 46-49)",
+      "pattern": "Starts with Headbutt",
+      "moves": [
+        {
+          "name": "Headbutt",
+          "intent": "Attack",
+          "damage": "15 (Asc 16) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Dizzy",
+          "intent": "Stun",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Bowlbug Swarm",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        },
+        {
+          "name": "Bowlbugs",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        },
+        {
+          "name": "Slumber Party",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Bowlbug Swarm",
+        "Bowlbugs",
+        "Slumber Party"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Headbutt: Attack (15 (Asc 16) dmg); Dizzy: Stun",
+      "image": "/media/enemies/bowlbug-rock.webp"
+    },
+    {
+      "id": "BOWLBUG_SILK",
+      "slug": "bowlbug-silk",
+      "name": "Bowlbug (Silk)",
+      "type": "Normal",
+      "hp": "40-43 (A9+ 41-44)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Thrash",
+          "intent": "Attack",
+          "damage": "4x2 (Asc 5x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Toxic Spit",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Bowlbug Swarm",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        },
+        {
+          "name": "Slumber Party",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Bowlbug Swarm",
+        "Slumber Party"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Thrash: Attack (4x2 (Asc 5x2) dmg); Toxic Spit: Debuff",
+      "image": "/media/enemies/bowlbug-silk.webp"
+    },
+    {
+      "id": "BRUTE_RUBY_RAIDER",
+      "slug": "brute-ruby-raider",
+      "name": "Brute Raider",
+      "type": "Normal",
+      "hp": "30-33 (A9+ 31-34)",
+      "pattern": "Always uses Beat",
+      "moves": [
+        {
+          "name": "Beat",
+          "intent": "Attack",
+          "damage": "7 (Asc 8) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Roar",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Ruby Raiders",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Ruby Raiders"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Beat: Attack (7 (Asc 8) dmg); Roar: Buff",
+      "image": "/media/enemies/brute-ruby-raider.webp"
+    },
+    {
+      "id": "BYRDPIP",
+      "slug": "byrdpip",
+      "name": "Byrdpip",
+      "type": "Normal",
+      "hp": "9999",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Nothing",
+          "intent": "Unknown",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [],
+      "encounterNames": [],
+      "acts": [],
+      "movesSummary": "Nothing: Unknown",
+      "image": "/media/enemies/byrdpip.webp"
+    },
+    {
+      "id": "CALCIFIED_CULTIST",
+      "slug": "calcified-cultist",
+      "name": "Calcified Cultist",
+      "type": "Normal",
+      "hp": "38-41 (A9+ 39-42)",
+      "pattern": "Always uses Incantation",
+      "moves": [
+        {
+          "name": "Incantation",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Dark Strike",
+          "intent": "Attack",
+          "damage": "9 (Asc 11) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Cultists",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        },
+        {
+          "name": "Underdocks Wildlife",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Cultists",
+        "Underdocks Wildlife"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Incantation: Buff; Dark Strike: Attack (9 (Asc 11) dmg)",
+      "image": "/media/enemies/calcified-cultist.webp"
+    },
+    {
+      "id": "CHOMPER",
+      "slug": "chomper",
+      "name": "Chomper",
+      "type": "Normal",
+      "hp": "60-64 (A9+ 63-67)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Clamp",
+          "intent": "Attack",
+          "damage": "8x2 (Asc 9x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Screech",
+          "intent": "Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "An Automaton Pair",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        },
+        {
+          "name": "Tunneling Twosome",
+          "roomType": "Monster",
+          "act": null
+        }
+      ],
+      "encounterNames": [
+        "An Automaton Pair",
+        "Tunneling Twosome"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Clamp: Attack (8x2 (Asc 9x2) dmg); Screech: Status",
+      "image": "/media/enemies/chomper.webp"
+    },
+    {
+      "id": "CORPSE_SLUG",
+      "slug": "corpse-slug",
+      "name": "Corpse Slug",
+      "type": "Normal",
+      "hp": "25-27 (A9+ 27-29)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Whip Slap",
+          "intent": "Attack",
+          "damage": "3x2 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Glomp",
+          "intent": "Attack",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Goop",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Many Corpse Slugs",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        },
+        {
+          "name": "Corpse Slugs",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Corpse Slugs",
+        "Many Corpse Slugs"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Whip Slap: Attack (3x2 dmg); Glomp: Attack (8 (Asc 9) dmg); Goop: Debuff",
+      "image": "/media/enemies/corpse-slug.webp"
+    },
+    {
+      "id": "CROSSBOW_RUBY_RAIDER",
+      "slug": "crossbow-ruby-raider",
+      "name": "Crossbow Raider",
+      "type": "Normal",
+      "hp": "18-21 (A9+ 19-22)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Fire!",
+          "intent": "Attack",
+          "damage": "14 (Asc 16) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Reload",
+          "intent": "Defend",
+          "damage": "",
+          "block": "3 block",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Ruby Raiders",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Ruby Raiders"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Fire!: Attack (14 (Asc 16) dmg); Reload: Defend (3 block)",
+      "image": "/media/enemies/crossbow-ruby-raider.webp"
+    },
+    {
+      "id": "CUBEX_CONSTRUCT",
+      "slug": "cubex-construct",
+      "name": "Cubex Construct",
+      "type": "Normal",
+      "hp": "65 (A9+ 70)",
+      "pattern": "Charge Up -> Repeater Blast -> Repeater Blast Move 2 -> Expel -> repeat",
+      "moves": [
+        {
+          "name": "Charge Up",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Repeater Blast",
+          "intent": "Attack + Buff",
+          "damage": "7 (Asc 8) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Repeater Blast Move 2",
+          "intent": "Attack + Buff",
+          "damage": "7 (Asc 8) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Expel",
+          "intent": "Attack",
+          "damage": "5x2 (Asc 6x2) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Construct Menagerie",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        },
+        {
+          "name": "Cubex Construct",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Construct Menagerie",
+        "Cubex Construct"
+      ],
+      "acts": [
+        "Act 3 - Glory",
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Charge Up: Buff; Repeater Blast: Attack + Buff (7 (Asc 8) dmg); Repeater Blast Move 2: Attack + Buff (7 (Asc 8) dmg); +1 more",
+      "image": "/media/enemies/cubex-construct.webp"
+    },
+    {
+      "id": "DAMP_CULTIST",
+      "slug": "damp-cultist",
+      "name": "Damp Cultist",
+      "type": "Normal",
+      "hp": "51-53 (A9+ 52-54)",
+      "pattern": "Always uses Incantation",
+      "moves": [
+        {
+          "name": "Incantation",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Dark Strike",
+          "intent": "Attack",
+          "damage": "1 (Asc 3) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Cultists",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Cultists"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Incantation: Buff; Dark Strike: Attack (1 (Asc 3) dmg)",
+      "image": "/media/enemies/damp-cultist.webp"
+    },
+    {
+      "id": "DEVOTED_SCULPTOR",
+      "slug": "devoted-sculptor",
+      "name": "Devoted Sculptor",
+      "type": "Normal",
+      "hp": "162 (A9+ 172)",
+      "pattern": "Always uses Forbidden Incantation",
+      "moves": [
+        {
+          "name": "Forbidden Incantation",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Savage",
+          "intent": "Attack",
+          "damage": "12 (Asc 15) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Devoted Sculptor",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Devoted Sculptor"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Forbidden Incantation: Buff; Savage: Attack (12 (Asc 15) dmg)",
+      "image": "/media/enemies/devoted-sculptor.webp"
+    },
+    {
+      "id": "EXOSKELETON",
+      "slug": "exoskeleton",
+      "name": "Exoskeleton",
+      "type": "Normal",
+      "hp": "24-28 (A9+ 25-29)",
+      "pattern": "then random: Skitter (no repeat), Mandibles (no repeat); then conditional: Skitter (if in first slot) / Mandibles (if in second slot) / Enrage (if in third slot) / Rand (if in fourth slot)",
+      "moves": [
+        {
+          "name": "Skitter",
+          "intent": "Attack",
+          "damage": "1x3 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Mandibles",
+          "intent": "Attack",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Enrage",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Many Exoskeletons",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        },
+        {
+          "name": "Exoskeletons",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Exoskeletons",
+        "Many Exoskeletons"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Skitter: Attack (1x3 dmg); Mandibles: Attack (8 (Asc 9) dmg); Enrage: Buff",
+      "image": "/media/enemies/exoskeleton.webp"
+    },
+    {
+      "id": "EYE_WITH_TEETH",
+      "slug": "eye-with-teeth",
+      "name": "Eye with Teeth",
+      "type": "Normal",
+      "hp": "6",
+      "pattern": "Always uses Distract",
+      "moves": [
+        {
+          "name": "Distract",
+          "intent": "Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Fogmog",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Fogmog"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Distract: Status",
+      "image": "/media/enemies/eye-with-teeth.webp"
+    },
+    {
+      "id": "FABRICATOR",
+      "slug": "fabricator",
+      "name": "Fabricator",
+      "type": "Normal",
+      "hp": "150 (A9+ 155)",
+      "pattern": "then random: Fabricate, Fabricating Strike; then conditional: Rand (if can fabricate) / Disintegrate (if cannot fabricate)",
+      "moves": [
+        {
+          "name": "Fabricate",
+          "intent": "Summon",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Fabricating Strike",
+          "intent": "Attack + Summon",
+          "damage": "18 (Asc 21) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Disintegrate",
+          "intent": "Attack",
+          "damage": "11 (Asc 13) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Fabricator",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Fabricator"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Fabricate: Summon; Fabricating Strike: Attack + Summon (18 (Asc 21) dmg); Disintegrate: Attack (11 (Asc 13) dmg)",
+      "image": "/media/enemies/fabricator.webp"
+    },
+    {
+      "id": "FAT_GREMLIN",
+      "slug": "fat-gremlin",
+      "name": "Fat Gremlin",
+      "type": "Normal",
+      "hp": "13-17 (A9+ 14-18)",
+      "pattern": "Always uses Wake Up",
+      "moves": [
+        {
+          "name": "Wake Up",
+          "intent": "Stun",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Flee",
+          "intent": "Escape",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Two Gremlins in a Trenchcoat",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Two Gremlins in a Trenchcoat"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Wake Up: Stun; Flee: Escape",
+      "image": "/media/enemies/fat-gremlin.webp"
+    },
+    {
+      "id": "FLYCONID",
+      "slug": "flyconid",
+      "name": "Flyconid",
+      "type": "Normal",
+      "hp": "47-49 (A9+ 51-53)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Vulnerable Spores",
+          "intent": "Debuff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Frail Spores",
+          "intent": "Attack + Debuff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Smash",
+          "intent": "Attack",
+          "damage": "11 (Asc 12) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Shroom and Slime",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Overgrowth Flora",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Overgrowth Flora",
+        "Shroom and Slime"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Vulnerable Spores: Debuff (8 (Asc 9) dmg); Frail Spores: Attack + Debuff (8 (Asc 9) dmg); Smash: Attack (11 (Asc 12) dmg)",
+      "image": "/media/enemies/flyconid.webp"
+    },
+    {
+      "id": "FOGMOG",
+      "slug": "fogmog",
+      "name": "Fogmog",
+      "type": "Normal",
+      "hp": "74 (A9+ 78)",
+      "pattern": "Starts with Illusory Spores, then random: Swipe Random (no repeat, 40%), Headbutt (no repeat, 60%)",
+      "moves": [
+        {
+          "name": "Illusory Spores",
+          "intent": "Summon",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Thwack",
+          "intent": "Attack + Buff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Swipe Random",
+          "intent": "Attack + Buff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Headbutt",
+          "intent": "Attack",
+          "damage": "14 (Asc 16) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Fogmog",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Fogmog"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Illusory Spores: Summon; Thwack: Attack + Buff (8 (Asc 9) dmg); Swipe Random: Attack + Buff (8 (Asc 9) dmg); +1 more",
+      "image": "/media/enemies/fogmog.webp"
+    },
+    {
+      "id": "FOSSIL_STALKER",
+      "slug": "fossil-stalker",
+      "name": "Fossil Stalker",
+      "type": "Normal",
+      "hp": "51-53 (A9+ 54-56)",
+      "pattern": "Starts with Latch",
+      "moves": [
+        {
+          "name": "Tackle",
+          "intent": "Attack + Debuff",
+          "damage": "9 (Asc 11) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Latch",
+          "intent": "Attack",
+          "damage": "12 (Asc 14) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Lash",
+          "intent": "Attack",
+          "damage": "3x2 (Asc 4x2) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Fossil Stalker",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Fossil Stalker"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Tackle: Attack + Debuff (9 (Asc 11) dmg); Latch: Attack (12 (Asc 14) dmg); Lash: Attack (3x2 (Asc 4x2) dmg)",
+      "image": "/media/enemies/fossil-stalker.webp"
+    },
+    {
+      "id": "FROG_KNIGHT",
+      "slug": "frog-knight",
+      "name": "Frog Knight",
+      "type": "Normal",
+      "hp": "191 (A9+ 199)",
+      "pattern": "Starts: Tongue Lash -> Strike Down Evil -> For the Queen; then conditional: Tongue Lash (if HasBeetleCharged \\|\\| CurrentHp >= MaxHp / 2) / Beetle Charge (if !HasBeetleCharged && CurrentHp < MaxHp / 2)",
+      "moves": [
+        {
+          "name": "For the Queen",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Strike Down Evil",
+          "intent": "Attack",
+          "damage": "21 (Asc 23) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Tongue Lash",
+          "intent": "Attack + Debuff",
+          "damage": "13 (Asc 14) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Beetle Charge",
+          "intent": "Attack",
+          "damage": "35 (Asc 40) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Frog Knight",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Frog Knight"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "For the Queen: Buff; Strike Down Evil: Attack (21 (Asc 23) dmg); Tongue Lash: Attack + Debuff (13 (Asc 14) dmg); +1 more",
+      "image": "/media/enemies/frog-knight.webp"
+    },
+    {
+      "id": "FUZZY_WURM_CRAWLER",
+      "slug": "fuzzy-wurm-crawler",
+      "name": "Fuzzy Wurm Crawler",
+      "type": "Normal",
+      "hp": "55-57 (A9+ 58-59)",
+      "pattern": "Always uses First Acid Goop",
+      "moves": [
+        {
+          "name": "First Acid Goop",
+          "intent": "Attack",
+          "damage": "4 (Asc 6) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Acid Goop",
+          "intent": "Attack",
+          "damage": "4 (Asc 6) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Inhale",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Fuzzy Wurm Crawler",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Overgrowth Crawlers",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Fuzzy Wurm Crawler",
+        "Overgrowth Crawlers"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "First Acid Goop: Attack (4 (Asc 6) dmg); Acid Goop: Attack (4 (Asc 6) dmg); Inhale: Buff",
+      "image": "/media/enemies/fuzzy-wurm-crawler.webp"
+    },
+    {
+      "id": "GAS_BOMB",
+      "slug": "gas-bomb",
+      "name": "Gas Bomb",
+      "type": "Normal",
+      "hp": "7 (A9+ 8)",
+      "pattern": "Always uses Explode",
+      "moves": [
+        {
+          "name": "Explode",
+          "intent": "Special",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Living Fog",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Living Fog"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Explode: Special (8 (Asc 9) dmg)",
+      "image": "/media/enemies/gas-bomb.webp"
+    },
+    {
+      "id": "GLOBE_HEAD",
+      "slug": "globe-head",
+      "name": "Globe Head",
+      "type": "Normal",
+      "hp": "148 (A9+ 158)",
+      "pattern": "Shocking Slap -> Channel Lightning -> Galvanic Burst -> repeat",
+      "moves": [
+        {
+          "name": "Channel Lightning",
+          "intent": "Attack",
+          "damage": "6x3 (Asc 7x3) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Shocking Slap",
+          "intent": "Attack + Debuff",
+          "damage": "13 (Asc 14) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Galvanic Burst",
+          "intent": "Attack + Buff",
+          "damage": "16 (Asc 17) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "A Lone Globe Head",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "A Lone Globe Head"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Channel Lightning: Attack (6x3 (Asc 7x3) dmg); Shocking Slap: Attack + Debuff (13 (Asc 14) dmg); Galvanic Burst: Attack + Buff (16 (Asc 17) dmg)",
+      "image": "/media/enemies/globe-head.webp"
+    },
+    {
+      "id": "GREMLIN_MERC",
+      "slug": "gremlin-merc",
+      "name": "Gremlin Merc",
+      "type": "Normal",
+      "hp": "47-49 (A9+ 51-53)",
+      "pattern": "Gimme -> Double Smash -> Hehe -> repeat",
+      "moves": [
+        {
+          "name": "Gimme",
+          "intent": "Attack",
+          "damage": "7x2 (Asc 8x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Double Smash",
+          "intent": "Attack + Debuff",
+          "damage": "6x2 (Asc 7x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Hehe",
+          "intent": "Attack + Buff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Two Gremlins in a Trenchcoat",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Two Gremlins in a Trenchcoat"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Gimme: Attack (7x2 (Asc 8x2) dmg); Double Smash: Attack + Debuff (6x2 (Asc 7x2) dmg); Hehe: Attack + Buff (8 (Asc 9) dmg)",
+      "image": "/media/enemies/gremlin-merc.webp"
+    },
+    {
+      "id": "GUARDBOT",
+      "slug": "guardbot",
+      "name": "Guardbot",
+      "type": "Normal",
+      "hp": "16-20 (A9+ 17-21)",
+      "pattern": "Always uses Guard",
+      "moves": [
+        {
+          "name": "Guard",
+          "intent": "Defend",
+          "damage": "",
+          "block": "15 block",
+          "heal": ""
+        }
+      ],
+      "encounters": [],
+      "encounterNames": [],
+      "acts": [],
+      "movesSummary": "Guard: Defend (15 block)",
+      "image": "/media/enemies/guardbot.webp"
+    },
+    {
+      "id": "HAUNTED_SHIP",
+      "slug": "haunted-ship",
+      "name": "Haunted Ship",
+      "type": "Normal",
+      "hp": "63 (A9+ 67)",
+      "pattern": "Always uses Haunt",
+      "moves": [
+        {
+          "name": "Swipe",
+          "intent": "Attack",
+          "damage": "13 (Asc 14) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Stomp",
+          "intent": "Attack",
+          "damage": "4x3 (Asc 5x3) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Haunt",
+          "intent": "Debuff + Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Haunted Ship",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Haunted Ship"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Swipe: Attack (13 (Asc 14) dmg); Stomp: Attack (4x3 (Asc 5x3) dmg); Haunt: Debuff + Status",
+      "image": "/media/enemies/haunted-ship.webp"
+    },
+    {
+      "id": "HUNTER_KILLER",
+      "slug": "hunter-killer",
+      "name": "Hunter Killer",
+      "type": "Normal",
+      "hp": "121 (A9+ 126)",
+      "pattern": "Starts with Tenderizing Goop",
+      "moves": [
+        {
+          "name": "Tenderizing Goop",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Bite",
+          "intent": "Attack",
+          "damage": "17 (Asc 19) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Puncture",
+          "intent": "Attack",
+          "damage": "7x3 (Asc 8x3) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Hunter Killer",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Hunter Killer"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Tenderizing Goop: Debuff; Bite: Attack (17 (Asc 19) dmg); Puncture: Attack (7x3 (Asc 8x3) dmg)",
+      "image": "/media/enemies/hunter-killer.webp"
+    },
+    {
+      "id": "INKLET",
+      "slug": "inklet",
+      "name": "Inklet",
+      "type": "Normal",
+      "hp": "11-17 (A9+ 12-18)",
+      "pattern": "Starts: Whirlwind -> Jab; then random: Jab, Whirlwind (no repeat); then random: Piercing Gaze (no repeat), Whirlwind (no repeat)",
+      "moves": [
+        {
+          "name": "Jab",
+          "intent": "Attack",
+          "damage": "3 (Asc 4) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Whirlwind",
+          "intent": "Attack",
+          "damage": "2x3 (Asc 3x3) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Piercing Gaze",
+          "intent": "Attack",
+          "damage": "10 (Asc 11) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Inklets",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Inklets"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Jab: Attack (3 (Asc 4) dmg); Whirlwind: Attack (2x3 (Asc 3x3) dmg); Piercing Gaze: Attack (10 (Asc 11) dmg)",
+      "image": "/media/enemies/inklet.webp"
+    },
+    {
+      "id": "LEAF_SLIME_M",
+      "slug": "leaf-slime-m",
+      "name": "Leaf Slime (M)",
+      "type": "Normal",
+      "hp": "32-35 (A9+ 33-36)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Clump Shot",
+          "intent": "Attack",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Sticky Shot",
+          "intent": "Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Shroom and Slime",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Swarm of Slimes",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Group of Slimes",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Strangler and Friend",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Group of Slimes",
+        "Shroom and Slime",
+        "Strangler and Friend",
+        "Swarm of Slimes"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Clump Shot: Attack (8 (Asc 9) dmg); Sticky Shot: Status",
+      "image": "/media/enemies/leaf-slime-m.webp"
+    },
+    {
+      "id": "LEAF_SLIME_S",
+      "slug": "leaf-slime-s",
+      "name": "Leaf Slime (S)",
+      "type": "Normal",
+      "hp": "11-15 (A9+ 12-16)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Tackle",
+          "intent": "Attack",
+          "damage": "3 (Asc 4) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Goop",
+          "intent": "Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Swarm of Slimes",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Group of Slimes",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Strangler and Friend",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Group of Slimes",
+        "Strangler and Friend",
+        "Swarm of Slimes"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Tackle: Attack (3 (Asc 4) dmg); Goop: Status",
+      "image": "/media/enemies/leaf-slime-s.webp"
+    },
+    {
+      "id": "LIVING_FOG",
+      "slug": "living-fog",
+      "name": "Living Fog",
+      "type": "Normal",
+      "hp": "80 (A9+ 82)",
+      "pattern": "Advanced Gas -> Bloat -> Super Gas Blast -> repeat",
+      "moves": [
+        {
+          "name": "Advanced Gas",
+          "intent": "Attack + Debuff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Bloat",
+          "intent": "Attack + Summon",
+          "damage": "5 (Asc 6) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Super Gas Blast",
+          "intent": "Attack",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Living Fog",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Living Fog"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Advanced Gas: Attack + Debuff (8 (Asc 9) dmg); Bloat: Attack + Summon (5 (Asc 6) dmg); Super Gas Blast: Attack (8 (Asc 9) dmg)",
+      "image": "/media/enemies/living-fog.webp"
+    },
+    {
+      "id": "LIVING_SHIELD",
+      "slug": "living-shield",
+      "name": "Living Shield",
+      "type": "Normal",
+      "hp": "55 (A9+ 65)",
+      "pattern": "Starts with Shield Slam; then conditional: Shield Slam (if has allies) / Smash (if no allies)",
+      "moves": [
+        {
+          "name": "Shield Slam",
+          "intent": "Attack",
+          "damage": "6 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Smash",
+          "intent": "Attack + Buff",
+          "damage": "16 (Asc 18) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Turret Operator",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Turret Operator"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Shield Slam: Attack (6 dmg); Smash: Attack + Buff (16 (Asc 18) dmg)",
+      "image": "/media/enemies/living-shield.webp"
+    },
+    {
+      "id": "LOUSE_PROGENITOR",
+      "slug": "louse-progenitor",
+      "name": "Louse Progenitor",
+      "type": "Normal",
+      "hp": "134-136 (A9+ 138-141)",
+      "pattern": "Always uses Web Cannon",
+      "moves": [
+        {
+          "name": "Web Cannon",
+          "intent": "Attack + Debuff",
+          "damage": "9 (Asc 10) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Pounce",
+          "intent": "Attack",
+          "damage": "14 (Asc 16) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Curl and Grow",
+          "intent": "Defend + Buff",
+          "damage": "",
+          "block": "14 block",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Louse Progenitor",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Louse Progenitor"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Web Cannon: Attack + Debuff (9 (Asc 10) dmg); Pounce: Attack (14 (Asc 16) dmg); Curl and Grow: Defend + Buff (14 block)",
+      "image": "/media/enemies/louse-progenitor.webp"
+    },
+    {
+      "id": "MAWLER",
+      "slug": "mawler",
+      "name": "Mawler",
+      "type": "Normal",
+      "hp": "72 (A9+ 76)",
+      "pattern": "Starts with Claw; then random: Rip and Tear (no repeat), Roar (once), Claw (no repeat)",
+      "moves": [
+        {
+          "name": "Rip and Tear",
+          "intent": "Attack",
+          "damage": "14 (Asc 16) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Roar",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Claw",
+          "intent": "Attack",
+          "damage": "4x2 (Asc 5x2) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Mawler",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Mawler"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Rip and Tear: Attack (14 (Asc 16) dmg); Roar: Debuff; Claw: Attack (4x2 (Asc 5x2) dmg)",
+      "image": "/media/enemies/mawler.webp"
+    },
+    {
+      "id": "MYSTERIOUS_KNIGHT",
+      "slug": "mysterious-knight",
+      "name": "Mysterious Knight",
+      "type": "Normal",
+      "hp": "101 (A9+ 108)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "War Chant",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Flail",
+          "intent": "Attack",
+          "damage": "9x2 (Asc 10x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Ram",
+          "intent": "Attack",
+          "damage": "15 (Asc 17) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Mysterious Knight",
+          "roomType": "Monster",
+          "act": null
+        }
+      ],
+      "encounterNames": [
+        "Mysterious Knight"
+      ],
+      "acts": [],
+      "movesSummary": "War Chant: Buff; Flail: Attack (9x2 (Asc 10x2) dmg); Ram: Attack (15 (Asc 17) dmg)",
+      "image": "/media/enemies/mysterious-knight.webp"
+    },
+    {
+      "id": "MYTE",
+      "slug": "myte",
+      "name": "Myte",
+      "type": "Normal",
+      "hp": "61-67 (A9+ 64-69)",
+      "pattern": "then conditional: Toxic Cornucopia (if in first slot) / Suck (if in second slot)",
+      "moves": [
+        {
+          "name": "Toxic Cornucopia",
+          "intent": "Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Bite",
+          "intent": "Attack",
+          "damage": "13 (Asc 15) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Suck",
+          "intent": "Attack + Buff",
+          "damage": "4 (Asc 6) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Mass of Mytes",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Mass of Mytes"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Toxic Cornucopia: Status; Bite: Attack (13 (Asc 15) dmg); Suck: Attack + Buff (4 (Asc 6) dmg)",
+      "image": "/media/enemies/myte.webp"
+    },
+    {
+      "id": "NIBBIT",
+      "slug": "nibbit",
+      "name": "Nibbit",
+      "type": "Normal",
+      "hp": "42-46 (A9+ 44-48)",
+      "pattern": "then conditional: Butt (if alone) / Hiss (if not in front) / Slice (if in front)",
+      "moves": [
+        {
+          "name": "Butt",
+          "intent": "Attack",
+          "damage": "12 (Asc 13) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Slice",
+          "intent": "Attack + Defend",
+          "damage": "6 (Asc 7) damage",
+          "block": "5 block",
+          "heal": ""
+        },
+        {
+          "name": "Hiss",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "A Pair of Nibbits",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "A Lone Nibbit",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "A Lone Nibbit",
+        "A Pair of Nibbits"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Butt: Attack (12 (Asc 13) dmg); Slice: Attack + Defend (6 (Asc 7) dmg, 5 block); Hiss: Buff",
+      "image": "/media/enemies/nibbit.webp"
+    },
+    {
+      "id": "NOISEBOT",
+      "slug": "noisebot",
+      "name": "Noisebot",
+      "type": "Normal",
+      "hp": "18-23 (A9+ 19-24)",
+      "pattern": "Always uses Noise",
+      "moves": [
+        {
+          "name": "Noise",
+          "intent": "Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [],
+      "encounterNames": [],
+      "acts": [],
+      "movesSummary": "Noise: Status",
+      "image": "/media/enemies/noisebot.webp"
+    },
+    {
+      "id": "OSTY",
+      "slug": "osty",
+      "name": "Osty",
+      "type": "Normal",
+      "hp": "1",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Nothing",
+          "intent": "Unknown",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [],
+      "encounterNames": [],
+      "acts": [],
+      "movesSummary": "Nothing: Unknown",
+      "image": "/media/enemies/osty.webp"
+    },
+    {
+      "id": "OVICOPTER",
+      "slug": "ovicopter",
+      "name": "Ovicopter",
+      "type": "Normal",
+      "hp": "124-130 (A9+ 126-132)",
+      "pattern": "Starts: Lay Eggs -> Smash -> Tenderizer; then conditional: Lay Eggs (if can lay) / Nutritional Paste (if cannot lay)",
+      "moves": [
+        {
+          "name": "Lay Eggs",
+          "intent": "Summon",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Smash",
+          "intent": "Attack",
+          "damage": "16 (Asc 17) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Tenderizer",
+          "intent": "Attack + Debuff",
+          "damage": "7 (Asc 8) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Nutritional Paste",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Ovicopter",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Ovicopter"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Lay Eggs: Summon; Smash: Attack (16 (Asc 17) dmg); Tenderizer: Attack + Debuff (7 (Asc 8) dmg); +1 more",
+      "image": "/media/enemies/ovicopter.webp"
+    },
+    {
+      "id": "OWL_MAGISTRATE",
+      "slug": "owl-magistrate",
+      "name": "Owl Magistrate",
+      "type": "Normal",
+      "hp": "231 (A9+ 247)",
+      "pattern": "Magistrate Scrutiny -> Peck Assault -> Judicial Flight -> Verdict -> repeat",
+      "moves": [
+        {
+          "name": "Magistrate Scrutiny",
+          "intent": "Attack",
+          "damage": "16 (Asc 17) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Peck Assault",
+          "intent": "Attack",
+          "damage": "4x6 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Judicial Flight",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Verdict",
+          "intent": "Attack + Debuff",
+          "damage": "33 (Asc 36) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Owl Magistrate",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Owl Magistrate"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Magistrate Scrutiny: Attack (16 (Asc 17) dmg); Peck Assault: Attack (4x6 dmg); Judicial Flight: Buff; +1 more",
+      "image": "/media/enemies/owl-magistrate.webp"
+    },
+    {
+      "id": "PAELS_LEGION",
+      "slug": "paels-legion",
+      "name": "Pael's Legion",
+      "type": "Normal",
+      "hp": "9999",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Nothing",
+          "intent": "Unknown",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [],
+      "encounterNames": [],
+      "acts": [],
+      "movesSummary": "Nothing: Unknown",
+      "image": "/media/enemies/paels-legion.webp"
+    },
+    {
+      "id": "PARAFRIGHT",
+      "slug": "parafright",
+      "name": "Parafright",
+      "type": "Normal",
+      "hp": "21",
+      "pattern": "Always uses Slam",
+      "moves": [
+        {
+          "name": "Slam",
+          "intent": "Attack",
+          "damage": "16 (Asc 17) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "The Obscura",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "The Obscura"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Slam: Attack (16 (Asc 17) dmg)",
+      "image": "/media/enemies/parafright.webp"
+    },
+    {
+      "id": "PUNCH_CONSTRUCT",
+      "slug": "punch-construct",
+      "name": "Punch Construct",
+      "type": "Normal",
+      "hp": "55 (A9+ 60)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "READY",
+          "intent": "Defend",
+          "damage": "",
+          "block": "10 block",
+          "heal": ""
+        },
+        {
+          "name": "Strong Punch",
+          "intent": "Attack",
+          "damage": "14 (Asc 16) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Fast Punch",
+          "intent": "Attack + Debuff",
+          "damage": "5x2 (Asc 6x2) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Construct Menagerie",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        },
+        {
+          "name": "Punch Construct",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        },
+        {
+          "name": "Punch Constructs",
+          "roomType": "Monster",
+          "act": null
+        }
+      ],
+      "encounterNames": [
+        "Construct Menagerie",
+        "Punch Construct",
+        "Punch Constructs"
+      ],
+      "acts": [
+        "Act 3 - Glory",
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "READY: Defend (10 block); Strong Punch: Attack (14 (Asc 16) dmg); Fast Punch: Attack + Debuff (5x2 (Asc 6x2) dmg)",
+      "image": "/media/enemies/punch-construct.webp"
+    },
+    {
+      "id": "SCROLL_OF_BITING",
+      "slug": "scroll-of-biting",
+      "name": "Scroll of Biting",
+      "type": "Normal",
+      "hp": "30-37 (A9+ 33-39)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Chomp",
+          "intent": "Attack",
+          "damage": "14 (Asc 16) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Chew",
+          "intent": "Attack",
+          "damage": "5x2 (Asc 6x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "More Teeth",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Many Scrolls of Biting",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        },
+        {
+          "name": "Scrolls of Biting",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Many Scrolls of Biting",
+        "Scrolls of Biting"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Chomp: Attack (14 (Asc 16) dmg); Chew: Attack (5x2 (Asc 6x2) dmg); More Teeth: Buff",
+      "image": "/media/enemies/scroll-of-biting.webp"
+    },
+    {
+      "id": "SEAPUNK",
+      "slug": "seapunk",
+      "name": "Seapunk",
+      "type": "Normal",
+      "hp": "44-46 (A9+ 47-49)",
+      "pattern": "Sea Kick -> Spinning Kick -> Bubble Burp -> repeat",
+      "moves": [
+        {
+          "name": "Sea Kick",
+          "intent": "Attack",
+          "damage": "11 (Asc 13) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Spinning Kick",
+          "intent": "Attack",
+          "damage": "2x4 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Bubble Burp",
+          "intent": "Buff + Defend",
+          "damage": "",
+          "block": "7 block",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Underdocks Wildlife",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        },
+        {
+          "name": "Seapunk",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Seapunk",
+        "Underdocks Wildlife"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Sea Kick: Attack (11 (Asc 13) dmg); Spinning Kick: Attack (2x4 dmg); Bubble Burp: Buff + Defend (7 block)",
+      "image": "/media/enemies/seapunk.webp"
+    },
+    {
+      "id": "SEWER_CLAM",
+      "slug": "sewer-clam",
+      "name": "Sewer Clam",
+      "type": "Normal",
+      "hp": "56 (A9+ 58)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Pressurize",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Jet",
+          "intent": "Attack",
+          "damage": "10 (Asc 11) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Sewer Clam",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Sewer Clam"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Pressurize: Buff; Jet: Attack (10 (Asc 11) dmg)",
+      "image": "/media/enemies/sewer-clam.webp"
+    },
+    {
+      "id": "SHRINKER_BEETLE",
+      "slug": "shrinker-beetle",
+      "name": "Shrinker Beetle",
+      "type": "Normal",
+      "hp": "38-40 (A9+ 40-42)",
+      "pattern": "Shrinker -> Chomp -> Stomp -> repeat",
+      "moves": [
+        {
+          "name": "Shrinker",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Chomp",
+          "intent": "Attack",
+          "damage": "7 (Asc 8) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Stomp",
+          "intent": "Attack",
+          "damage": "13 (Asc 14) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Overgrowth Crawlers",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Shrinker Beetle",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Overgrowth Crawlers",
+        "Shrinker Beetle"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Shrinker: Debuff; Chomp: Attack (7 (Asc 8) dmg); Stomp: Attack (13 (Asc 14) dmg)",
+      "image": "/media/enemies/shrinker-beetle.webp"
+    },
+    {
+      "id": "SLIMED_BERSERKER",
+      "slug": "slimed-berserker",
+      "name": "Slimed Berserker",
+      "type": "Normal",
+      "hp": "261 (A9+ 281)",
+      "pattern": "Always uses Vomit Ichor",
+      "moves": [
+        {
+          "name": "Vomit Ichor",
+          "intent": "Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Leeching Hug",
+          "intent": "Debuff + Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Smother",
+          "intent": "Attack",
+          "damage": "30 (Asc 33) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Furious Pummeling",
+          "intent": "Attack",
+          "damage": "4x4 (Asc 5x4) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Slimed Berserker",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Slimed Berserker"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Vomit Ichor: Status; Leeching Hug: Debuff + Buff; Smother: Attack (30 (Asc 33) dmg); +1 more",
+      "image": "/media/enemies/slimed-berserker.webp"
+    },
+    {
+      "id": "SLITHERING_STRANGLER",
+      "slug": "slithering-strangler",
+      "name": "Slithering Strangler",
+      "type": "Normal",
+      "hp": "53-55 (A9+ 54-56)",
+      "pattern": "Starts with Constrict",
+      "moves": [
+        {
+          "name": "Constrict",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Thwack",
+          "intent": "Attack + Defend",
+          "damage": "7 (Asc 8) damage",
+          "block": "5 block",
+          "heal": ""
+        },
+        {
+          "name": "Lash",
+          "intent": "Attack",
+          "damage": "12 (Asc 13) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Strangler and Friend",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Strangler and Friend"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Constrict: Debuff; Thwack: Attack + Defend (7 (Asc 8) dmg, 5 block); Lash: Attack (12 (Asc 13) dmg)",
+      "image": "/media/enemies/slithering-strangler.webp"
+    },
+    {
+      "id": "SLUDGE_SPINNER",
+      "slug": "sludge-spinner",
+      "name": "Sludge Spinner",
+      "type": "Normal",
+      "hp": "37-39 (A9+ 41-42)",
+      "pattern": "Starts with Oil Spray",
+      "moves": [
+        {
+          "name": "Oil Spray",
+          "intent": "Attack + Debuff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Slam",
+          "intent": "Attack",
+          "damage": "11 (Asc 12) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Rage",
+          "intent": "Attack + Buff",
+          "damage": "6 (Asc 7) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Sludge Spinner",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Sludge Spinner"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Oil Spray: Attack + Debuff (8 (Asc 9) dmg); Slam: Attack (11 (Asc 12) dmg); Rage: Attack + Buff (6 (Asc 7) dmg)",
+      "image": "/media/enemies/sludge-spinner.webp"
+    },
+    {
+      "id": "SLUMBERING_BEETLE",
+      "slug": "slumbering-beetle",
+      "name": "Slumbering Beetle",
+      "type": "Normal",
+      "hp": "86 (A9+ 89)",
+      "pattern": "Starts with Snore",
+      "moves": [
+        {
+          "name": "Snore",
+          "intent": "Sleep",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Roll Out",
+          "intent": "Attack + Buff",
+          "damage": "16 (Asc 18) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Slumber Party",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Slumber Party"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Snore: Sleep; Roll Out: Attack + Buff (16 (Asc 18) dmg)",
+      "image": "/media/enemies/slumbering-beetle.webp"
+    },
+    {
+      "id": "SNAPPING_JAXFRUIT",
+      "slug": "snapping-jaxfruit",
+      "name": "Snapping Jaxfruit",
+      "type": "Normal",
+      "hp": "31-33 (A9+ 34-36)",
+      "pattern": "Always uses Energy Orb",
+      "moves": [
+        {
+          "name": "Energy Orb",
+          "intent": "Attack + Buff",
+          "damage": "3 (Asc 4) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Strangler and Friend",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Overgrowth Flora",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Overgrowth Flora",
+        "Strangler and Friend"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Energy Orb: Attack + Buff (3 (Asc 4) dmg)",
+      "image": "/media/enemies/snapping-jaxfruit.webp"
+    },
+    {
+      "id": "SNEAKY_GREMLIN",
+      "slug": "sneaky-gremlin",
+      "name": "Sneaky Gremlin",
+      "type": "Normal",
+      "hp": "10-14 (A9+ 11-15)",
+      "pattern": "Always uses Wake Up",
+      "moves": [
+        {
+          "name": "Wake Up",
+          "intent": "Stun",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Tackle",
+          "intent": "Attack",
+          "damage": "9 (Asc 10) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Two Gremlins in a Trenchcoat",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Two Gremlins in a Trenchcoat"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Wake Up: Stun; Tackle: Attack (9 (Asc 10) dmg)",
+      "image": "/media/enemies/sneaky-gremlin.webp"
+    },
+    {
+      "id": "SPINY_TOAD",
+      "slug": "spiny-toad",
+      "name": "Spiny Toad",
+      "type": "Normal",
+      "hp": "116-119 (A9+ 121-124)",
+      "pattern": "Protruding Spikes -> Spike Explosion -> Tongue Lash -> repeat",
+      "moves": [
+        {
+          "name": "Protruding Spikes",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Spike Explosion",
+          "intent": "Attack",
+          "damage": "23 (Asc 25) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Tongue Lash",
+          "intent": "Attack",
+          "damage": "17 (Asc 19) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Spiny Toad",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Spiny Toad"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Protruding Spikes: Buff; Spike Explosion: Attack (23 (Asc 25) dmg); Tongue Lash: Attack (17 (Asc 19) dmg)",
+      "image": "/media/enemies/spiny-toad.webp"
+    },
+    {
+      "id": "STABBOT",
+      "slug": "stabbot",
+      "name": "Stabbot",
+      "type": "Normal",
+      "hp": "18-23 (A9+ 19-24)",
+      "pattern": "Always uses Stab",
+      "moves": [
+        {
+          "name": "Stab",
+          "intent": "Attack + Debuff",
+          "damage": "11 (Asc 12) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [],
+      "encounterNames": [],
+      "acts": [],
+      "movesSummary": "Stab: Attack + Debuff (11 (Asc 12) dmg)",
+      "image": "/media/enemies/stabbot.webp"
+    },
+    {
+      "id": "THE_ADVERSARY_MK_ONE",
+      "slug": "the-adversary-mk-one",
+      "name": "The Adversary Mk 1",
+      "type": "Normal",
+      "hp": "100",
+      "pattern": "Smash -> Beam -> Barrage -> repeat",
+      "moves": [
+        {
+          "name": "Smash",
+          "intent": "Attack",
+          "damage": "12 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Beam",
+          "intent": "Attack",
+          "damage": "15 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Barrage",
+          "intent": "Attack + Buff",
+          "damage": "8x2 damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [],
+      "encounterNames": [],
+      "acts": [],
+      "movesSummary": "Smash: Attack (12 dmg); Beam: Attack (15 dmg); Barrage: Attack + Buff (8x2 dmg)",
+      "image": "/media/enemies/the-adversary-mk-one.webp"
+    },
+    {
+      "id": "THE_ADVERSARY_MK_TWO",
+      "slug": "the-adversary-mk-two",
+      "name": "The Adversary Mk 2",
+      "type": "Normal",
+      "hp": "200 (A9+ 200)",
+      "pattern": "Bash -> Flame Beam -> Barrage -> repeat",
+      "moves": [
+        {
+          "name": "Bash",
+          "intent": "Attack",
+          "damage": "13 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Flame Beam",
+          "intent": "Attack",
+          "damage": "16 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Barrage",
+          "intent": "Attack + Buff",
+          "damage": "9x2 damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [],
+      "encounterNames": [],
+      "acts": [],
+      "movesSummary": "Bash: Attack (13 dmg); Flame Beam: Attack (16 dmg); Barrage: Attack + Buff (9x2 dmg)",
+      "image": "/media/enemies/the-adversary-mk-two.webp"
+    },
+    {
+      "id": "THE_ADVERSARY_MK_THREE",
+      "slug": "the-adversary-mk-three",
+      "name": "The Adversary Mk 3",
+      "type": "Normal",
+      "hp": "300 (A9+ 300)",
+      "pattern": "Crash -> Flame Beam -> Barrage -> repeat",
+      "moves": [
+        {
+          "name": "Crash",
+          "intent": "Attack",
+          "damage": "15 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Flame Beam",
+          "intent": "Attack",
+          "damage": "18 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Barrage",
+          "intent": "Attack + Buff",
+          "damage": "10x2 damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [],
+      "encounterNames": [],
+      "acts": [],
+      "movesSummary": "Crash: Attack (15 dmg); Flame Beam: Attack (18 dmg); Barrage: Attack + Buff (10x2 dmg)",
+      "image": "/media/enemies/the-adversary-mk-three.webp"
+    },
+    {
+      "id": "ARCHITECT",
+      "slug": "architect",
+      "name": "The Architect",
+      "type": "Normal",
+      "hp": "9999",
+      "pattern": "Always uses Nothing",
+      "moves": [
+        {
+          "name": "Nothing",
+          "intent": "Unknown",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "The Architect",
+          "roomType": "Monster",
+          "act": null
+        }
+      ],
+      "encounterNames": [
+        "The Architect"
+      ],
+      "acts": [],
+      "movesSummary": "Nothing: Unknown",
+      "image": "/media/enemies/architect.webp"
+    },
+    {
+      "id": "THE_FORGOTTEN",
+      "slug": "the-forgotten",
+      "name": "The Forgotten",
+      "type": "Normal",
+      "hp": "106 (A9+ 111)",
+      "pattern": "Always uses Miasma",
+      "moves": [
+        {
+          "name": "Miasma",
+          "intent": "Debuff + Defend + Buff",
+          "damage": "",
+          "block": "8 block",
+          "heal": ""
+        },
+        {
+          "name": "Dread",
+          "intent": "Attack",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Lost and Forgotten",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Lost and Forgotten"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Miasma: Debuff + Defend + Buff (8 block); Dread: Attack",
+      "image": "/media/enemies/the-forgotten.webp"
+    },
+    {
+      "id": "THE_LOST",
+      "slug": "the-lost",
+      "name": "The Lost",
+      "type": "Normal",
+      "hp": "93 (A9+ 99)",
+      "pattern": "Always uses Debilitating Smog",
+      "moves": [
+        {
+          "name": "Debilitating Smog",
+          "intent": "Debuff + Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Eye Lasers",
+          "intent": "Attack",
+          "damage": "4x2 (Asc 5x2) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Lost and Forgotten",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Lost and Forgotten"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Debilitating Smog: Debuff + Buff; Eye Lasers: Attack (4x2 (Asc 5x2) dmg)",
+      "image": "/media/enemies/the-lost.webp"
+    },
+    {
+      "id": "FAKE_MERCHANT_MONSTER",
+      "slug": "fake-merchant-monster",
+      "name": "The Merchant???",
+      "type": "Normal",
+      "hp": "165 (A9+ 175)",
+      "pattern": "Starts with Swipe",
+      "moves": [
+        {
+          "name": "Swipe",
+          "intent": "Attack",
+          "damage": "13 (Asc 15) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Spew Coins",
+          "intent": "Attack",
+          "damage": "2 damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Throw Relic",
+          "intent": "Attack + Debuff",
+          "damage": "9 (Asc 10) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Enrage",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "The Merchant???",
+          "roomType": "Monster",
+          "act": null
+        }
+      ],
+      "encounterNames": [
+        "The Merchant???"
+      ],
+      "acts": [],
+      "movesSummary": "Swipe: Attack (13 (Asc 15) dmg); Spew Coins: Attack (2 dmg); Throw Relic: Attack + Debuff (9 (Asc 10) dmg); +1 more",
+      "image": "/media/enemies/fake-merchant-monster.webp"
+    },
+    {
+      "id": "THE_OBSCURA",
+      "slug": "the-obscura",
+      "name": "The Obscura",
+      "type": "Normal",
+      "hp": "123 (A9+ 129)",
+      "pattern": "Starts with Illusion",
+      "moves": [
+        {
+          "name": "Illusion",
+          "intent": "Summon",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Piercing Gaze",
+          "intent": "Attack",
+          "damage": "10 (Asc 11) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Sail",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Hardening Strike",
+          "intent": "Attack + Defend",
+          "damage": "6 (Asc 7) damage",
+          "block": "6 block",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "The Obscura",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "The Obscura"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Illusion: Summon; Piercing Gaze: Attack (10 (Asc 11) dmg); Sail: Buff; +1 more",
+      "image": "/media/enemies/the-obscura.webp"
+    },
+    {
+      "id": "THIEVING_HOPPER",
+      "slug": "thieving-hopper",
+      "name": "Thieving Hopper",
+      "type": "Normal",
+      "hp": "79 (A9+ 84)",
+      "pattern": "Thievery -> Flutter -> Hat Trick -> Nab -> Escape -> repeat",
+      "moves": [
+        {
+          "name": "Thievery",
+          "intent": "Attack + Debuff",
+          "damage": "17 (Asc 19) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Nab",
+          "intent": "Attack",
+          "damage": "14 (Asc 16) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Hat Trick",
+          "intent": "Attack",
+          "damage": "21 (Asc 23) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Flutter",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Escape",
+          "intent": "Escape",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Thieving Hopper",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Thieving Hopper"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Thievery: Attack + Debuff (17 (Asc 19) dmg); Nab: Attack (14 (Asc 16) dmg); Hat Trick: Attack (21 (Asc 23) dmg); +2 more",
+      "image": "/media/enemies/thieving-hopper.webp"
+    },
+    {
+      "id": "TOADPOLE",
+      "slug": "toadpole",
+      "name": "Toadpole",
+      "type": "Normal",
+      "hp": "21-25 (A9+ 22-26)",
+      "pattern": "then conditional: Whirl (if not in front) / Spiken (if in front)",
+      "moves": [
+        {
+          "name": "Spike Spit",
+          "intent": "Attack",
+          "damage": "3x3 (Asc 4x3) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Whirl",
+          "intent": "Attack",
+          "damage": "7 (Asc 8) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Spiken",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Toadpoles",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Toadpoles"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Spike Spit: Attack (3x3 (Asc 4x3) dmg); Whirl: Attack (7 (Asc 8) dmg); Spiken: Buff",
+      "image": "/media/enemies/toadpole.webp"
+    },
+    {
+      "id": "TOUGH_EGG",
+      "slug": "tough-egg",
+      "name": "Tough Egg",
+      "type": "Normal",
+      "hp": "14-18 (A9+ 15-19)",
+      "pattern": "Always uses Hatch",
+      "moves": [
+        {
+          "name": "Hatch",
+          "intent": "Summon",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Nibble",
+          "intent": "Attack",
+          "damage": "4 (Asc 5) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Ovicopter",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Ovicopter"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Hatch: Summon; Nibble: Attack (4 (Asc 5) dmg)",
+      "image": "/media/enemies/tough-egg.webp"
+    },
+    {
+      "id": "TRACKER_RUBY_RAIDER",
+      "slug": "tracker-ruby-raider",
+      "name": "Tracker Raider",
+      "type": "Normal",
+      "hp": "21-25 (A9+ 22-26)",
+      "pattern": "Always uses Track",
+      "moves": [
+        {
+          "name": "Track",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Unleash the Hounds",
+          "intent": "Attack",
+          "damage": "1x8 damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Ruby Raiders",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Ruby Raiders"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Track: Debuff; Unleash the Hounds: Attack (1x8 dmg)",
+      "image": "/media/enemies/tracker-ruby-raider.webp"
+    },
+    {
+      "id": "TUNNELER",
+      "slug": "tunneler",
+      "name": "Tunneler",
+      "type": "Normal",
+      "hp": "87 (A9+ 92)",
+      "pattern": "Bite -> Burrow -> Attack from Below -> repeat",
+      "moves": [
+        {
+          "name": "Bite",
+          "intent": "Attack",
+          "damage": "13 (Asc 15) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Burrow",
+          "intent": "Buff + Defend",
+          "damage": "",
+          "block": "32 block",
+          "heal": ""
+        },
+        {
+          "name": "Attack from Below",
+          "intent": "Attack",
+          "damage": "23 (Asc 26) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Dizzy",
+          "intent": "Stun",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Tunneling Twosome",
+          "roomType": "Monster",
+          "act": null
+        },
+        {
+          "name": "Tunneler",
+          "roomType": "Monster",
+          "act": "Act 2 - Hive"
+        }
+      ],
+      "encounterNames": [
+        "Tunneler",
+        "Tunneling Twosome"
+      ],
+      "acts": [
+        "Act 2 - Hive"
+      ],
+      "movesSummary": "Bite: Attack (13 (Asc 15) dmg); Burrow: Buff + Defend (32 block); Attack from Below: Attack (23 (Asc 26) dmg); +1 more",
+      "image": "/media/enemies/tunneler.webp"
+    },
+    {
+      "id": "TURRET_OPERATOR",
+      "slug": "turret-operator",
+      "name": "Turret Operator",
+      "type": "Normal",
+      "hp": "41 (A9+ 51)",
+      "pattern": "Unload! -> Unload Move 2 -> Reload -> repeat",
+      "moves": [
+        {
+          "name": "Unload!",
+          "intent": "Attack",
+          "damage": "3x5 (Asc 4x5) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Unload Move 2",
+          "intent": "Attack",
+          "damage": "3x5 (Asc 4x5) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Reload",
+          "intent": "Buff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Turret Operator",
+          "roomType": "Monster",
+          "act": "Act 3 - Glory"
+        }
+      ],
+      "encounterNames": [
+        "Turret Operator"
+      ],
+      "acts": [
+        "Act 3 - Glory"
+      ],
+      "movesSummary": "Unload!: Attack (3x5 (Asc 4x5) dmg); Unload Move 2: Attack (3x5 (Asc 4x5) dmg); Reload: Buff",
+      "image": "/media/enemies/turret-operator.webp"
+    },
+    {
+      "id": "TWIG_SLIME_M",
+      "slug": "twig-slime-m",
+      "name": "Twig Slime (M)",
+      "type": "Normal",
+      "hp": "26-28 (A9+ 27-29)",
+      "pattern": "Starts with Sticky Shot",
+      "moves": [
+        {
+          "name": "Pokey Pounce",
+          "intent": "Attack",
+          "damage": "11 (Asc 12) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Sticky Shot",
+          "intent": "Status",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Shroom and Slime",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Swarm of Slimes",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Group of Slimes",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Strangler and Friend",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Group of Slimes",
+        "Shroom and Slime",
+        "Strangler and Friend",
+        "Swarm of Slimes"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Pokey Pounce: Attack (11 (Asc 12) dmg); Sticky Shot: Status",
+      "image": "/media/enemies/twig-slime-m.webp"
+    },
+    {
+      "id": "TWIG_SLIME_S",
+      "slug": "twig-slime-s",
+      "name": "Twig Slime (S)",
+      "type": "Normal",
+      "hp": "7-11 (A9+ 8-12)",
+      "pattern": "Always uses Tackle",
+      "moves": [
+        {
+          "name": "Tackle",
+          "intent": "Attack",
+          "damage": "4 (Asc 5) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Swarm of Slimes",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Group of Slimes",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        },
+        {
+          "name": "Strangler and Friend",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Group of Slimes",
+        "Strangler and Friend",
+        "Swarm of Slimes"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Tackle: Attack (4 (Asc 5) dmg)",
+      "image": "/media/enemies/twig-slime-s.webp"
+    },
+    {
+      "id": "TWO_TAILED_RAT",
+      "slug": "two-tailed-rat",
+      "name": "Two-Tailed Rat",
+      "type": "Normal",
+      "hp": "17-21 (A9+ 18-22)",
+      "pattern": "-",
+      "moves": [
+        {
+          "name": "Scratch",
+          "intent": "Attack",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Disease Bite",
+          "intent": "Attack",
+          "damage": "6 (Asc 7) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Screech",
+          "intent": "Debuff",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Call for Backup",
+          "intent": "Summon",
+          "damage": "",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Two-Tailed Rats",
+          "roomType": "Monster",
+          "act": "Act 1 - Underdocks"
+        }
+      ],
+      "encounterNames": [
+        "Two-Tailed Rats"
+      ],
+      "acts": [
+        "Act 1 - Underdocks"
+      ],
+      "movesSummary": "Scratch: Attack (8 (Asc 9) dmg); Disease Bite: Attack (6 (Asc 7) dmg); Screech: Debuff; +1 more",
+      "image": "/media/enemies/two-tailed-rat.webp"
+    },
+    {
+      "id": "VINE_SHAMBLER",
+      "slug": "vine-shambler",
+      "name": "Vine Shambler",
+      "type": "Normal",
+      "hp": "61 (A9+ 64)",
+      "pattern": "Swipe -> Grasping Vines -> Chomp -> repeat",
+      "moves": [
+        {
+          "name": "Grasping Vines",
+          "intent": "Attack + Debuff",
+          "damage": "8 (Asc 9) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Swipe",
+          "intent": "Attack",
+          "damage": "6x2 (Asc 7x2) damage",
+          "block": "",
+          "heal": ""
+        },
+        {
+          "name": "Chomp",
+          "intent": "Attack",
+          "damage": "16 (Asc 18) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [
+        {
+          "name": "Vine Shambler",
+          "roomType": "Monster",
+          "act": "Act 1 - Overgrowth"
+        }
+      ],
+      "encounterNames": [
+        "Vine Shambler"
+      ],
+      "acts": [
+        "Act 1 - Overgrowth"
+      ],
+      "movesSummary": "Grasping Vines: Attack + Debuff (8 (Asc 9) dmg); Swipe: Attack (6x2 (Asc 7x2) dmg); Chomp: Attack (16 (Asc 18) dmg)",
+      "image": "/media/enemies/vine-shambler.webp"
+    },
+    {
+      "id": "ZAPBOT",
+      "slug": "zapbot",
+      "name": "Zapbot",
+      "type": "Normal",
+      "hp": "18-23 (A9+ 19-24)",
+      "pattern": "Always uses Zap",
+      "moves": [
+        {
+          "name": "Zap",
+          "intent": "Attack",
+          "damage": "14 (Asc 15) damage",
+          "block": "",
+          "heal": ""
+        }
+      ],
+      "encounters": [],
+      "encounterNames": [],
+      "acts": [],
+      "movesSummary": "Zap: Attack (14 (Asc 15) dmg)",
+      "image": "/media/enemies/zapbot.webp"
+    }
+  ]
+}

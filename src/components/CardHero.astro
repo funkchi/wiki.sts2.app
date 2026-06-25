@@ -1,0 +1,123 @@
+---
+interface CostRaw {
+  cost: number | null;
+  starCost: number | null;
+  isX: boolean;
+  isXStar: boolean;
+}
+interface Props {
+  card: {
+    name: string;
+    image: string;
+    imageUpg?: string | null;
+    description: string;
+    upgradeDescription: string;
+    character: string;
+    type: string;
+    rarity: string;
+    cost: string;
+    costRaw: CostRaw;
+    target: string;
+    matchedKeywords: string[];
+  };
+}
+const { card } = Astro.props;
+const c = card.costRaw;
+
+const norm = (val: string) =>
+  String(val).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+const STAR = 'https://cdn.spire-codex.com/icons/star_icon.webp';
+
+const esc = (s: string) =>
+  s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const escRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+function highlight(text: string, terms: string[], cls: string): string {
+  const safe = esc(text);
+  if (!terms || terms.length === 0) return safe;
+  const re = new RegExp('\\b(' + terms.map(escRe).join('|') + ')\\b', 'gi');
+  return safe.replace(re, `<span class="${cls}">$1</span>`);
+}
+const descHtml = card.description
+  ? highlight(card.description, card.matchedKeywords, 'kw')
+  : 'No description is currently available.';
+const upgHtml = card.upgradeDescription
+  ? highlight(card.upgradeDescription, card.matchedKeywords, 'kw kw--muted')
+  : '';
+
+const rows: Array<[string, string]> = [
+  ['Character / Pool', card.character],
+  ['Type', card.type],
+  ['Rarity', card.rarity],
+  ['Target', card.target],
+];
+---
+
+<div class="wiki-entity-hero">
+  <div class="wiki-hero-art">
+    <button
+      class="wiki-image-toggle"
+      type="button"
+      data-base={card.image}
+      data-upg={card.imageUpg ?? ''}
+      data-state="base"
+      aria-label="Toggle upgraded artwork"
+    >
+      <img
+        class="wiki-image wiki-image--card-detail"
+        src={card.image}
+        alt={card.name}
+        loading="lazy"
+        decoding="async"
+      />
+    </button>
+    {card.imageUpg && <p class="wiki-image-hint">Click image to view upgrade</p>}
+  </div>
+
+  <div class="wiki-entity-hero__details">
+    <div class="entity-badges">
+      <span class={`tag tag--rarity-${norm(card.rarity)}`}>{card.rarity}</span>
+    </div>
+
+    <p set:html={descHtml} />
+    {upgHtml && <p class="upgrade-text" set:html={upgHtml} />}
+
+    <table>
+      <tbody>
+        {rows.map(([label, value]) => (
+          <tr><th scope="row">{label}</th><td>{value}</td></tr>
+        ))}
+        <tr>
+          <th scope="row">Cost</th>
+          <td>
+            {c.cost === -1 || c.cost === -2
+              ? 'Unplayable'
+              : c.isXStar
+                ? (<>X <img class="star-icon" src={STAR} alt="star" /></>)
+                : c.isX
+                  ? 'X'
+                  : c.starCost !== null && c.starCost !== undefined
+                    ? (<>{c.cost}/{c.starCost} <img class="star-icon" src={STAR} alt="star" /></>)
+                    : String(c.cost)}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var btn = document.querySelector('.wiki-image-toggle');
+    if (!btn || btn.dataset.bound) return;
+    btn.dataset.bound = '1';
+    var upg = btn.dataset.upg;
+    var img = btn.querySelector('img');
+    if (!upg || !img) return;
+    btn.addEventListener('click', function () {
+      var isUpg = btn.dataset.state === 'upg';
+      img.src = isUpg ? btn.dataset.base : upg;
+      btn.dataset.state = isUpg ? 'base' : 'upg';
+      btn.classList.toggle('is-upgraded', !isUpg);
+    });
+  })();
+</script>

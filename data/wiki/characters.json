@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "kind": "characters",
+  "count": 5,
+  "characters": [
+    {
+      "id": "IRONCLAD",
+      "slug": "ironclad",
+      "name": "The Ironclad",
+      "color": "ironclad",
+      "character": "Ironclad",
+      "description": "The last soldier of the Ironclads. Crushes foes with sword and flame against his will.",
+      "image": "https://cdn.spire-codex.com/characters/combat_ironclad.webp",
+      "icon": "/media/characters/ironclad_icon.webp",
+      "startingHp": 80,
+      "startingGold": 99,
+      "maxEnergy": 3,
+      "orbSlots": null,
+      "unlocksAfter": "-",
+      "startingDeck": [
+        {
+          "slug": "bash",
+          "name": "Bash",
+          "count": 1
+        },
+        {
+          "slug": "defend-ironclad",
+          "name": "Defend",
+          "count": 4
+        },
+        {
+          "slug": "strike-ironclad",
+          "name": "Strike",
+          "count": 5
+        }
+      ],
+      "startingRelics": [
+        {
+          "slug": "burning-blood",
+          "name": "Burning Blood"
+        }
+      ],
+      "quotes": [
+        {
+          "label": "Gold Monologue",
+          "text": "These riches can bolster my tribe's armory..."
+        },
+        {
+          "label": "Aroma Principle",
+          "text": "Pain is nothing. My enemies must die."
+        },
+        {
+          "label": "Banter Alive",
+          "text": "Make haste."
+        },
+        {
+          "label": "Banter Dead",
+          "text": "..."
+        }
+      ]
+    },
+    {
+      "id": "SILENT",
+      "slug": "silent",
+      "name": "The Silent",
+      "color": "silent",
+      "character": "Silent",
+      "description": "A huntress from outside the Spire. Ready to stab and poison anything in her way.",
+      "image": "https://cdn.spire-codex.com/characters/combat_silent.webp",
+      "icon": "/media/characters/silent_icon.webp",
+      "startingHp": 70,
+      "startingGold": 99,
+      "maxEnergy": 3,
+      "orbSlots": null,
+      "unlocksAfter": "-",
+      "startingDeck": [
+        {
+          "slug": "defend-silent",
+          "name": "Defend",
+          "count": 5
+        },
+        {
+          "slug": "neutralize",
+          "name": "Neutralize",
+          "count": 1
+        },
+        {
+          "slug": "strike-silent",
+          "name": "Strike",
+          "count": 5
+        },
+        {
+          "slug": "survivor",
+          "name": "Survivor",
+          "count": 1
+        }
+      ],
+      "startingRelics": [
+        {
+          "slug": "ring-of-the-snake",
+          "name": "Ring of the Snake"
+        }
+      ],
+      "quotes": [
+        {
+          "label": "Gold Monologue",
+          "text": "My sisters would be proud of these riches..."
+        },
+        {
+          "label": "Aroma Principle",
+          "text": "...hunt... prove... belong..."
+        },
+        {
+          "label": "Banter Alive",
+          "text": "..."
+        },
+        {
+          "label": "Banter Dead",
+          "text": "..."
+        },
+        {
+          "label": "Unlock Text",
+          "text": "Play a single run to unlock this character."
+        }
+      ]
+    },
+    {
+      "id": "DEFECT",
+      "slug": "defect",
+      "name": "The Defect",
+      "color": "defect",
+      "character": "Defect",
+      "description": "An automaton eternally modifying itself to survive. Deploys Orb technology when it must fight.",
+      "image": "https://cdn.spire-codex.com/characters/combat_defect.webp",
+      "icon": "/media/characters/defect_icon.webp",
+      "startingHp": 75,
+      "startingGold": 99,
+      "maxEnergy": 3,
+      "orbSlots": 3,
+      "unlocksAfter": "Necrobinder",
+      "startingDeck": [
+        {
+          "slug": "defend-defect",
+          "name": "Defend",
+          "count": 4
+        },
+        {
+          "slug": "dualcast",
+          "name": "Dualcast",
+          "count": 1
+        },
+        {
+          "slug": "strike-defect",
+          "name": "Strike",
+          "count": 4
+        },
+        {
+          "slug": "zap",
+          "name": "Zap",
+          "count": 1
+        }
+      ],
+      "startingRelics": [
+        {
+          "slug": "cracked-core",
+          "name": "Cracked Core"
+        }
+      ],
+      "quotes": [
+        {
+          "label": "Gold Monologue",
+          "text": "This gold can be exchanged for parts..."
+        },
+        {
+          "label": "Aroma Principle",
+          "text": "1100 0011 1100 0011..."
+        },
+        {
+          "label": "Banter Alive",
+          "text": "0x54494D45 0x204C494D 0x49542045 0x58434545 0x00444544"
+        },
+        {
+          "label": "Banter Dead",
+          "text": "..."
+        },
+        {
+          "label": "Unlock Text",
+          "text": "Play a single run with {Prerequisite} to unlock this character."
+        }
+      ]
+    },
+    {
+      "id": "NECROBINDER",
+      "slug": "necrobinder",
+      "name": "The Necrobinder",
+      "color": "necrobinder",
+      "character": "Necrobinder",
+      "description": "A Spireborn lich who seeks revenge. Calls upon her trusty left hand, Osty, in combat.",
+      "image": "https://cdn.spire-codex.com/characters/combat_necrobinder.webp",
+      "icon": "/media/characters/necrobinder_icon.webp",
+      "startingHp": 66,
+      "startingGold": 99,
+      "maxEnergy": 3,
+      "orbSlots": null,
+      "unlocksAfter": "Regent",
+      "startingDeck": [
+        {
+          "slug": "bodyguard",
+          "name": "Bodyguard",
+          "count": 1
+        },
+        {
+          "slug": "defend-necrobinder",
+          "name": "Defend",
+          "count": 4
+        },
+        {
+          "slug": "strike-necrobinder",
+          "name": "Strike",
+          "count": 4
+        },
+        {
+          "slug": "unleash",
+          "name": "Unleash",
+          "count": 1
+        }
+      ],
+      "startingRelics": [
+        {
+          "slug": "bound-phylactery",
+          "name": "Bound Phylactery"
+        }
+      ],
+      "quotes": [
+        {
+          "label": "Gold Monologue",
+          "text": "Maybe I can finally buy some shoes..."
+        },
+        {
+          "label": "Aroma Principle",
+          "text": "They will be avenged... I will not falter..."
+        },
+        {
+          "label": "Banter Alive",
+          "text": "Any day..."
+        },
+        {
+          "label": "Banter Dead",
+          "text": "..."
+        },
+        {
+          "label": "Unlock Text",
+          "text": "Play a single run with {Prerequisite} to unlock this character."
+        }
+      ]
+    },
+    {
+      "id": "REGENT",
+      "slug": "regent",
+      "name": "The Regent",
+      "color": "regent",
+      "character": "Regent",
+      "description": "Heir to the Throne of Stars. Wields cosmic powers but his minions do the work.",
+      "image": "https://cdn.spire-codex.com/characters/combat_regent.webp",
+      "icon": "/media/characters/regent_icon.webp",
+      "startingHp": 75,
+      "startingGold": 99,
+      "maxEnergy": 3,
+      "orbSlots": null,
+      "unlocksAfter": "Silent",
+      "startingDeck": [
+        {
+          "slug": "defend-regent",
+          "name": "Defend",
+          "count": 4
+        },
+        {
+          "slug": "falling-star",
+          "name": "Falling Star",
+          "count": 1
+        },
+        {
+          "slug": "strike-regent",
+          "name": "Strike",
+          "count": 4
+        },
+        {
+          "slug": "venerate",
+          "name": "Venerate",
+          "count": 1
+        }
+      ],
+      "startingRelics": [
+        {
+          "slug": "divine-right",
+          "name": "Divine Right"
+        }
+      ],
+      "quotes": [
+        {
+          "label": "Gold Monologue",
+          "text": "I can commandeer an army of non-idiots..."
+        },
+        {
+          "label": "Aroma Principle",
+          "text": "I am the next King of Stars..."
+        },
+        {
+          "label": "Banter Alive",
+          "text": "I WAIT!!"
+        },
+        {
+          "label": "Banter Dead",
+          "text": "..."
+        },
+        {
+          "label": "Unlock Text",
+          "text": "Play a single run with {Prerequisite} to unlock this character."
+        }
+      ]
+    }
+  ]
+}
