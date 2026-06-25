@@ -1,0 +1,526 @@
+/* ===== Fonts (must be first) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+/* ===== Design tokens ===== */
+:root {
+  --sts2-font: 'Outfit', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Make Starlight use the same font */
+  --sl-font: var(--sts2-font);
+  --sl-font-system: var(--sts2-font);
+
+  /* Radii — rounder overall */
+  --sts2-radius: 18px;
+  --sts2-radius-sm: 12px;
+  --sts2-radius-xs: 8px;
+  --sts2-radius-pill: 999px;
+
+  /* Base palette */
+  --sts2-primary: #7c3aed;
+  --sts2-accent: #f0a24a;
+  --sts2-ink: #fff6ea;
+  --sts2-line: color-mix(in srgb, currentColor 16%, transparent);
+  --sts2-panel: color-mix(in srgb, currentColor 8%, transparent);
+
+  /* Category accents */
+  --sts2-c-cards: #a98aff;
+  --sts2-c-relics: #f0a24a;
+  --sts2-c-enemies: #ff6b6b;
+  --sts2-c-characters: #4fd1c5;
+}
+
+body {
+  font-family: var(--sts2-font);
+}
+
+/* ===== Recolor Starlight to match the landing's dark + violet identity ===== */
+:root,
+:root[data-theme='light'],
+:root[data-theme='dark'] {
+  --sl-color-white: #fff6ea !important;
+  --sl-color-black: #100c16 !important;
+  --sl-color-gray-1: #fff6ea !important;
+  --sl-color-gray-2: #d9cec3 !important;
+  --sl-color-gray-3: #b3a39a !important;
+  --sl-color-gray-4: #6a6270 !important;
+  --sl-color-gray-5: #3b3340 !important;
+  --sl-color-gray-6: #241d2c !important;
+  --sl-color-gray-7: #160f1f !important;
+  --sl-color-bg: #100c16 !important;
+  --sl-color-bg-nav: #160f1f !important;
+  --sl-color-bg-sidebar: #15101d !important;
+  --sl-color-text: #e9e0d8 !important;
+  --sl-color-heading: #fff6ea !important;
+  --sl-color-line: rgba(255, 246, 234, 0.12) !important;
+  --sl-color-accent: #b3a1ff !important;
+  --sl-color-accent-high: #d4c5ff !important;
+  --sl-color-accent-low: #2e2147 !important;
+  --sl-color-text-accent: #c4b5fd !important;
+}
+
+/* Rounder surfaces inside Starlight content */
+:where([data-pagefind-body]) img {
+  border-radius: var(--sts2-radius-sm);
+}
+:where([data-pagefind-body]) table th,
+:where([data-pagefind-body]) table td {
+  border-radius: var(--sts2-radius-xs);
+}
+
+/* ===== Badges ===== */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  padding: 0.12rem 0.6rem;
+  border-radius: var(--sts2-radius-pill);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1.5;
+  background: var(--badge-bg, color-mix(in srgb, currentColor 14%, transparent));
+  color: var(--badge-ink, inherit);
+  border: 1px solid var(--badge-border, transparent);
+  white-space: nowrap;
+}
+
+/* rarity badges — black text on colored background for readability */
+.badge--rarity-basic { --badge-bg: #c2c8d2; --badge-ink: #1a1f29; --badge-border: #9aa2af; }
+.badge--rarity-common { --badge-bg: #c2c8d2; --badge-ink: #1a1f29; --badge-border: #9aa2af; }
+.badge--rarity-uncommon { --badge-bg: #67e8f9; --badge-ink: #08323a; --badge-border: #22d3ee; }
+.badge--rarity-rare { --badge-bg: #fcd34d; --badge-ink: #3a2a00; --badge-border: #fbbf24; }
+.badge--rarity-ancient { --badge-bg: #c4b5fd; --badge-ink: #251346; --badge-border: #a78bfa; }
+.badge--rarity-special { --badge-bg: #f9a8d4; --badge-ink: #3f1027; --badge-border: #f472b6; }
+.badge--rarity-curse { --badge-bg: #fca5a5; --badge-ink: #3a0a0a; --badge-border: #f87171; }
+.badge--rarity-status { --badge-bg: #cbd5e1; --badge-ink: #1a2330; --badge-border: #94a3b8; }
+
+/* type badges */
+.badge--type-attack { --badge-bg: rgba(248,113,113,0.16); --badge-ink: #fca5a5; --badge-border: rgba(248,113,113,0.4); }
+.badge--type-skill { --badge-bg: rgba(96,165,250,0.16); --badge-ink: #93c5fd; --badge-border: rgba(96,165,250,0.4); }
+.badge--type-power { --badge-bg: rgba(251,191,36,0.16); --badge-ink: #fcd34d; --badge-border: rgba(251,191,36,0.42); }
+.badge--type-curse { --badge-bg: rgba(192,132,252,0.16); --badge-ink: #d8b4fe; --badge-border: rgba(192,132,252,0.4); }
+.badge--type-status { --badge-bg: rgba(148,163,184,0.14); --badge-ink: #9ca3af; --badge-border: rgba(148,163,184,0.3); }
+
+/* ===== Card / entity hero ===== */
+.wiki-entity-hero {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid var(--sts2-line);
+  border-radius: var(--sts2-radius);
+  background: var(--sts2-panel);
+}
+.wiki-entity-hero .wiki-image {
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+  border-radius: var(--sts2-radius);
+}
+.wiki-entity-hero__details {
+  flex: 1;
+  min-width: 240px;
+}
+.entity-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0 0.25rem;
+}
+.wiki-entity-hero__details table {
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 0.6rem;
+  width: 100%;
+}
+.wiki-entity-hero__details th {
+  text-align: left;
+  padding: 0.35rem 0.75rem 0.35rem 0;
+  font-weight: 600;
+}
+
+/* ===== Card browser (Svelte island) ===== */
+.card-browser {
+  margin: 1.5rem 0;
+}
+.card-browser__controls {
+  position: sticky;
+  top: 1rem;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: flex-end;
+  padding: 0.85rem;
+  border: 1px solid var(--sts2-line);
+  border-radius: var(--sts2-radius);
+  background: var(--sts2-panel);
+  backdrop-filter: blur(8px);
+}
+.card-browser__controls label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  font-weight: 600;
+  gap: 0.3rem;
+  opacity: 0.9;
+}
+.card-browser__controls input,
+.card-browser__controls select {
+  min-height: 38px;
+  padding: 0 0.7rem;
+  border-radius: var(--sts2-radius-sm);
+  border: 1px solid var(--sts2-line);
+  background: var(--sts2-panel);
+  color: inherit;
+  font: inherit;
+}
+.card-browser__controls button {
+  min-height: 38px;
+  padding: 0 1rem;
+  border-radius: var(--sts2-radius-pill);
+  border: 1px solid var(--sts2-line);
+  background: var(--sts2-panel);
+  color: inherit;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.card-browser__controls button:hover {
+  border-color: var(--sts2-c-cards);
+  color: var(--sts2-c-cards);
+}
+.card-browser__status {
+  display: block;
+  margin: 0.85rem 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+.card-browser table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 4px;
+}
+.card-browser th {
+  text-align: left;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.65;
+  padding: 0.2rem 0.5rem;
+}
+.card-browser td {
+  padding: 0.45rem 0.5rem;
+}
+.card-browser tbody tr {
+  border-radius: var(--sts2-radius-sm);
+  transition: background 0.12s ease;
+}
+.card-browser tbody tr:hover {
+  background: var(--sts2-panel);
+}
+
+/* ===== Characters ===== */
+.character-hero {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 45%, transparent);
+  border-radius: var(--sts2-radius);
+  background: linear-gradient(
+    160deg,
+    color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 12%, transparent),
+    var(--sts2-panel)
+  );
+}
+.character-hero__art {
+  width: 100%;
+  border-radius: var(--sts2-radius);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+.character-hero__head {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+.character-hero__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--sts2-radius-sm);
+  border: 1px solid var(--sts2-line);
+  object-fit: cover;
+}
+.character-hero__head h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+.kicker-char {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--char-accent, var(--sts2-c-characters));
+}
+.character-hero__desc {
+  margin: 0.75rem 0 1rem;
+  line-height: 1.6;
+}
+.stat-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.25rem 0 1rem;
+}
+.stat-badge {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--sts2-radius-pill);
+  border: 1px solid var(--sts2-line);
+  background: var(--sts2-panel);
+  font-size: 0.82rem;
+}
+.stat-badge strong {
+  font-size: 1rem;
+  color: var(--char-accent, var(--sts2-c-characters));
+}
+
+.character-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.char-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.1rem;
+  border: 1px solid color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 40%, transparent);
+  border-radius: var(--sts2-radius);
+  background: linear-gradient(
+    165deg,
+    color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 12%, transparent),
+    var(--sts2-panel)
+  );
+  text-decoration: none;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+.char-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--char-accent, var(--sts2-c-characters));
+}
+.char-card__icon {
+  width: 84px;
+  height: 84px;
+  border-radius: var(--sts2-radius);
+  object-fit: cover;
+  align-self: center;
+  border: 1px solid var(--sts2-line);
+}
+.char-card__body {
+  text-align: center;
+}
+.char-card__body strong {
+  display: block;
+  font-size: 1.1rem;
+}
+.char-card__stats {
+  font-size: 0.82rem;
+  opacity: 0.75;
+}
+
+@media (max-width: 720px) {
+  .character-hero {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* enemy type badges */
+.badge--type-boss {
+  --badge-bg: rgba(239, 68, 68, 0.16);
+  --badge-ink: #fca5a5;
+  --badge-border: rgba(239, 68, 68, 0.42);
+}
+.badge--type-elite {
+  --badge-bg: rgba(251, 146, 60, 0.16);
+  --badge-ink: #fdba74;
+  --badge-border: rgba(251, 146, 60, 0.42);
+}
+.badge--type-normal {
+  --badge-bg: rgba(148, 163, 184, 0.16);
+  --badge-ink: #cbd5e1;
+  --badge-border: rgba(148, 163, 184, 0.34);
+}
+.badge--type-minion {
+  --badge-bg: rgba(96, 165, 250, 0.16);
+  --badge-ink: #93c5fd;
+  --badge-border: rgba(96, 165, 250, 0.4);
+}
+.badge--type-event {
+  --badge-bg: rgba(52, 211, 153, 0.16);
+  --badge-ink: #6ee7b7;
+  --badge-border: rgba(52, 211, 153, 0.4);
+}
+.badge--type-unknown {
+  --badge-bg: rgba(148, 163, 184, 0.14);
+  --badge-ink: #9ca3af;
+  --badge-border: rgba(148, 163, 184, 0.3);
+}
+
+/* ===== Tag: plain text + colored underline (rarity & enemy types) ===== */
+.tag {
+  font: inherit;
+  color: inherit;
+  white-space: nowrap;
+  border-bottom: 2px solid var(--tag-color, currentColor);
+  padding-bottom: 1px;
+}
+.tag--rarity-basic,
+.tag--rarity-common,
+.tag--rarity-status,
+.tag--rarity-token,
+.tag--rarity-quest {
+  --tag-color: #8b95a3;
+}
+.tag--rarity-uncommon {
+  --tag-color: #22d3ee;
+}
+.tag--rarity-rare {
+  --tag-color: #eab308;
+}
+.tag--rarity-ancient {
+  --tag-color: #5f6772;
+}
+.tag--rarity-special {
+  --tag-color: #ec4899;
+}
+.tag--rarity-curse {
+  --tag-color: #a855f7;
+}
+.tag--rarity-event {
+  --tag-color: #16a34a;
+}
+.tag--type-boss {
+  --tag-color: #dc2626;
+}
+.tag--type-elite {
+  --tag-color: #ea580c;
+}
+.tag--type-normal,
+.tag--type-unknown {
+  --tag-color: #8b95a3;
+}
+.tag--type-minion {
+  --tag-color: #2563eb;
+}
+.tag--type-event {
+  --tag-color: #16a34a;
+}
+
+/* ===== Keyword highlight (in card descriptions) ===== */
+.kw {
+  color: #d2a52b;
+  font-weight: 600;
+}
+.kw--muted {
+  color: #8c7544;
+}
+.kw-chip {
+  display: inline-block;
+  margin: 0 0.4rem 0.2rem 0;
+}
+.tag--plain {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* ===== /docs/ hub ===== */
+.wiki-hub-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.hub-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1.1rem;
+  border: 1px solid var(--sts2-line);
+  border-radius: var(--sts2-radius);
+  background: var(--sts2-panel);
+  text-decoration: none;
+}
+.hub-card:hover {
+  border-color: var(--sts2-accent);
+}
+.hub-card strong {
+  font-size: 1.1rem;
+}
+.hub-count {
+  color: var(--sts2-accent);
+  font-weight: 700;
+}
+.hub-blurb {
+  opacity: 0.72;
+  font-size: 0.9rem;
+}
+
+/* (card type shapes removed) */
+
+/* star icon (regent / star cost) */
+.star-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: -2px;
+  margin-left: 2px;
+}
+
+/* upgrade text — gray, directly under the description */
+.upgrade-text {
+  margin: 0.35rem 0 0;
+  color: #9ca3af;
+  font-size: 0.92rem;
+}
+
+/* card image toggle (base <-> upgraded art) */
+.wiki-hero-art {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+.wiki-image-toggle {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  max-width: 220px;
+}
+.wiki-image-toggle img {
+  transition: outline-color 0.15s ease;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  border-radius: var(--sts2-radius);
+}
+.wiki-image-toggle:hover img {
+  outline-color: var(--sts2-line);
+}
+.wiki-image-toggle.is-upgraded img {
+  outline-color: var(--sts2-accent);
+}
+.wiki-image-hint {
+  font-size: 0.78rem;
+  opacity: 0.6;
+  margin: 0;
+}

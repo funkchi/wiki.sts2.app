@@ -1,0 +1,39 @@
+---
+import { accentFor } from '../data/characters';
+import type { Character } from '../data/characters';
+
+interface Props {
+  character: Character;
+}
+const { character } = Astro.props;
+const accent = accentFor(character.slug);
+const c = character;
+
+const stats: Array<[string, string | number | null]> = [
+  ['Starting HP', c.startingHp],
+  ['Starting Gold', c.startingGold],
+  ['Energy', c.maxEnergy],
+  ['Orb Slots', c.orbSlots],
+  ['Unlocks After', c.unlocksAfter],
+];
+const shown = stats.filter(([, v]) => v !== null && v !== '-' && v !== '');
+---
+
+<div class="character-hero" style={`--char-accent:${accent}`}>
+  <img class="character-hero__art" src={c.image} alt={c.name} loading="lazy" decoding="async" />
+  <div class="character-hero__body">
+    <div class="character-hero__head">
+      <img class="character-hero__icon" src={c.icon} alt="" loading="lazy" decoding="async" />
+      <div>
+        <p class="kicker-char">{c.character}</p>
+        <h2>{c.name}</h2>
+      </div>
+    </div>
+    <p class="character-hero__desc">{c.description || 'No description is currently available.'}</p>
+    <div class="stat-badges">
+      {shown.map(([label, value]) => (
+        <span class="stat-badge"><strong>{value}</strong> {label}</span>
+      ))}
+    </div>
+  </div>
+</div>

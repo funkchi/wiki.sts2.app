@@ -1,0 +1,39 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../components/EntityBrowser.svelte';
+import { enemies } from '../../../data/enemies';
+
+const rows = enemies.map((e) => ({
+  slug: e.slug,
+  name: e.name,
+  type: e.type,
+  hp: e.hp,
+  acts: e.acts,
+  movesSummary: e.movesSummary,
+}));
+---
+
+<StarlightPage frontmatter={{ title: 'Enemies' }}>
+  <p>
+    Enemy data is sourced from the{' '}
+    <a href="https://spire-codex.com/docs">Spire Codex API</a>, using the English{' '}
+    <code>/api/monsters</code> endpoint.
+  </p>
+  <EntityBrowser
+    client:load
+    entities={rows}
+    linkBase="/docs/enemies/"
+    noun="enemies"
+    nameLabel="Enemy"
+    columns={[
+      { field: 'type', label: 'Type', badge: 'type' },
+      { field: 'hp', label: 'HP' },
+      { field: 'acts', label: 'Act' },
+      { field: 'movesSummary', label: 'Moves' },
+    ]}
+    filters={[
+      { field: 'type', label: 'Class' },
+      { field: 'acts', label: 'Act', multiple: true },
+    ]}
+  />
+</StarlightPage>

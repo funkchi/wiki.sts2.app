@@ -1,0 +1,24 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { characters, accentFor } from '../../../data/characters';
+---
+
+<StarlightPage frontmatter={{ title: 'Characters' }}>
+  <p>
+    Character data and original combat-model artwork are sourced from{' '}
+    <a href="https://spire-codex.com/docs">Spire Codex</a>, using the English{' '}
+    <code>/api/characters</code> endpoint and the character media CDN.
+  </p>
+
+  <div class="character-gallery">
+    {characters.map((c) => (
+      <a class="char-card" href={`/docs/characters/${c.slug}/`} style={`--char-accent:${accentFor(c.slug)}`}>
+        <img class="char-card__icon" src={c.icon} alt="" loading="lazy" decoding="async" />
+        <div class="char-card__body">
+          <strong>{c.name}</strong>
+          <span class="char-card__stats">HP {c.startingHp ?? '-'} · Energy {c.maxEnergy ?? '-'}</span>
+        </div>
+      </a>
+    ))}
+  </div>
+</StarlightPage>

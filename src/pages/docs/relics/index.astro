@@ -1,0 +1,38 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../components/EntityBrowser.svelte';
+import { relics } from '../../../data/relics';
+import { poolColor } from '../../../data/characters';
+
+const rows = relics.map((r) => ({
+  slug: r.slug,
+  name: r.name,
+  pool: r.pool,
+  poolColor: poolColor(r.poolRaw),
+  price: r.price,
+  rarity: r.rarity,
+  description: r.description,
+}));
+---
+
+<StarlightPage frontmatter={{ title: 'Relics' }}>
+  <p>
+    All relic data on this page is sourced from the{' '}
+    <a href="https://spire-codex.com/docs">Spire Codex API</a>, using the English{' '}
+    <code>/api/relics</code> endpoint. Merchant price is shown as{' '}
+    <code>base (min-max)</code> when a shop range is available.
+  </p>
+  <EntityBrowser
+    client:load
+    entities={rows}
+    linkBase="/docs/relics/"
+    noun="relics"
+    nameLabel="Relic"
+    columns={[
+      { field: 'pool', label: 'Pool' },
+      { field: 'price', label: 'Price' },
+      { field: 'rarity', label: 'Rarity', format: 'relicRarity' },
+    ]}
+    filters={[{ field: 'rarity', label: 'Rarity' }, { field: 'pool', label: 'Pool' }]}
+  />
+</StarlightPage>

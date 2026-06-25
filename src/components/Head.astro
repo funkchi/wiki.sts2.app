@@ -1,0 +1,9 @@
+---
+import Analytics from './Analytics.astro';
+// Mirrors Starlight's default Head.astro, then appends the analytics snippet
+// so every docs page is tracked.
+const { head } = Astro.locals.starlightRoute;
+---
+
+{head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
+<Analytics />

@@ -11,7 +11,7 @@ export async function onRequest(context) {
     : [context.params.path];
   const key = parts.filter(Boolean).join("/");
 
-  if (!/^(cards|characters|relics|enemies)\/[a-z0-9-]+\.webp$/.test(key)) {
+  if (!/^(cards|characters|relics|enemies)\/[a-z0-9_-]+\.webp$/.test(key)) {
     return new Response("Not found", { status: 404 });
   }
 
