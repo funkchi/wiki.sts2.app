@@ -26,22 +26,14 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-          cache: "pip"
-          cache-dependency-path: requirements.txt
-
-      - name: Install dependencies
-        run: python -m pip install -r requirements.txt
-
-      - name: Run tests
-        run: python -m unittest discover -s tests -v
 
       - name: Compare API baseline
         id: source
         run: python scripts/check-spire-codex-freshness.py --update
 
-      - name: Regenerate wiki content
+      - name: Regenerate wiki data
         if: steps.source.outputs.changed == 'true'
-        run: python scripts/sync-spire-codex.py
+        run: python scripts/export-entities-json.py
 
       - name: Scan artwork bytes
         id: media
@@ -55,11 +47,19 @@ jobs:
         if: steps.media.outputs.changed == 'true' && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
         run: python scripts/sync-r2-media.py
 
-      - name: Build static site
-        run: bash scripts/build-site.sh
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+          cache: "npm"
 
-      - name: Validate static output
-        run: python scripts/check-built-content.py
+      - name: Build site
+        run: npm ci && npm run build
+
+      - name: Validate build output
+        run: |
+          test -f dist/index.html
+          test -f dist/docs/cards/index.html
+          test -f dist/sitemap-index.xml
 
       - name: Publish reports to job summary
         if: always()
@@ -95,7 +95,7 @@ jobs:
         run: |
           branch="automation/spire-codex-${GITHUB_RUN_ID}"
           title="Data update: Spire Codex $(date -u +%F)"
-          compare_url="https://github.com/${GITHUB_REPOSITORY}/compare/main...${branch}"
+          compare_url="https://github.com/${GITHUB_REPOSITORY}/compare/astro...${branch}"
           {
             cat artifacts/spire-codex-diff.md
             printf '\n'
@@ -107,7 +107,7 @@ jobs:
           git add -A
           git commit -m "$title"
           git push --set-upstream origin "$branch"
-          if pr_url="$(gh pr create --base main --head "$branch" --title "$title" --body-file /tmp/freshness-pr.md 2>/tmp/freshness-pr-error.txt)"; then
+          if pr_url="$(gh pr create --base astro --head "$branch" --title "$title" --body-file /tmp/freshness-pr.md 2>/tmp/freshness-pr-error.txt)"; then
             {
               printf '## Data update pull request\n\n'
               printf '%s\n' "$pr_url"

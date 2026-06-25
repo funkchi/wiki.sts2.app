@@ -1,5 +1,5 @@
 name = "wiki-sts2-app"
-pages_build_output_dir = "public"
+pages_build_output_dir = "dist"
 compatibility_date = "2025-10-08"
 
 [[r2_buckets]]
