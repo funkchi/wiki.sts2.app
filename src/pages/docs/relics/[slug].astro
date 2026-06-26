@@ -20,7 +20,7 @@ const description = relic.description || `${relic.name} - ${relic.rarity} relic.
 
 <StarlightPage frontmatter={{ title: relic.name, description }}>
   <div class="wiki-entity-hero">
-    <img class="wiki-image" src={relic.image} alt={relic.name} loading="lazy" decoding="async" />
+    <img class="wiki-image" src={relic.image} alt={relic.name} loading="eager" decoding="async" fetchpriority="high" />
     <div class="wiki-entity-hero__details">
       <div class="entity-badges">
         {relic.rarity === 'Starter Relic' ? (

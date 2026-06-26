@@ -1,9 +1,6 @@
-/* ===== Fonts (must be first) ===== */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
-
 /* ===== Design tokens ===== */
 :root {
-  --sts2-font: 'Outfit', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --sts2-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   /* Make Starlight use the same font */
   --sl-font: var(--sts2-font);
@@ -33,9 +30,8 @@ body {
   font-family: var(--sts2-font);
 }
 
-/* ===== Recolor Starlight to match the landing's dark + violet identity ===== */
+/* ===== Recolor Starlight to match the landing's identity ===== */
 :root,
-:root[data-theme='light'],
 :root[data-theme='dark'] {
   --sl-color-white: #fff6ea !important;
   --sl-color-black: #100c16 !important;
@@ -56,6 +52,32 @@ body {
   --sl-color-accent-high: #d4c5ff !important;
   --sl-color-accent-low: #2e2147 !important;
   --sl-color-text-accent: #c4b5fd !important;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --sl-color-white: #100c16 !important;
+  --sl-color-black: #fffaf2 !important;
+  --sl-color-gray-1: #1e1725 !important;
+  --sl-color-gray-2: #423849 !important;
+  --sl-color-gray-3: #63596b !important;
+  --sl-color-gray-4: #8a8190 !important;
+  --sl-color-gray-5: #c8c0cc !important;
+  --sl-color-gray-6: #ebe3ef !important;
+  --sl-color-gray-7: #fffaf2 !important;
+  --sl-color-bg: #fffaf2 !important;
+  --sl-color-bg-nav: #fff6ea !important;
+  --sl-color-bg-sidebar: #f7efe7 !important;
+  --sl-color-text: #241d2c !important;
+  --sl-color-heading: #100c16 !important;
+  --sl-color-line: rgba(36, 29, 44, 0.14) !important;
+  --sl-color-accent: #6d28d9 !important;
+  --sl-color-accent-high: #4c1d95 !important;
+  --sl-color-accent-low: #ede9fe !important;
+  --sl-color-text-accent: #5b21b6 !important;
+  --sts2-ink: #100c16;
+  --sts2-line: rgba(36, 29, 44, 0.14);
+  --sts2-panel: rgba(36, 29, 44, 0.055);
 }
 
 /* Rounder surfaces inside Starlight content */
@@ -210,6 +232,24 @@ body {
   letter-spacing: 0.04em;
   opacity: 0.65;
   padding: 0.2rem 0.5rem;
+}
+.sort-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+  cursor: pointer;
+}
+.sort-button:hover,
+.sort-button:focus-visible {
+  color: var(--sl-color-text-accent);
+  outline: none;
 }
 .card-browser td {
   padding: 0.45rem 0.5rem;
@@ -507,8 +547,24 @@ body {
   cursor: pointer;
   max-width: 220px;
 }
+.wiki-image-stack {
+  display: grid;
+}
+.wiki-image-stack .wiki-image {
+  grid-area: 1 / 1;
+}
+.wiki-image-stack .wiki-image--upgraded {
+  opacity: 0;
+  pointer-events: none;
+}
+.wiki-image-toggle.is-upgraded .wiki-image--base {
+  opacity: 0;
+}
+.wiki-image-toggle.is-upgraded .wiki-image--upgraded {
+  opacity: 1;
+}
 .wiki-image-toggle img {
-  transition: outline-color 0.15s ease;
+  transition: opacity 0.12s ease, outline-color 0.15s ease;
   outline: 2px solid transparent;
   outline-offset: 2px;
   border-radius: var(--sts2-radius);

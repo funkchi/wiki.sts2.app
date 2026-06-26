@@ -1,0 +1,10 @@
+---
+title: Contact
+description: Contact and correction channels for the Slay the Spire 2 Wiki.
+---
+
+# Contact
+
+For corrections, missing data, attribution questions, or site problems, open an issue in the [GitHub repository](https://github.com/funkchi/wiki.sts2.app/issues).
+
+Please include the affected page URL and a reliable source when reporting game-data corrections.

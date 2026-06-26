@@ -20,7 +20,7 @@ const shown = stats.filter(([, v]) => v !== null && v !== '-' && v !== '');
 ---
 
 <div class="character-hero" style={`--char-accent:${accent}`}>
-  <img class="character-hero__art" src={c.image} alt={c.name} loading="lazy" decoding="async" />
+  <img class="character-hero__art" src={c.image} alt={c.name} loading="eager" decoding="async" fetchpriority="high" />
   <div class="character-hero__body">
     <div class="character-hero__head">
       <img class="character-hero__icon" src={c.icon} alt="" loading="lazy" decoding="async" />

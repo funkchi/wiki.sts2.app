@@ -62,13 +62,26 @@ const rows: Array<[string, string]> = [
       data-state="base"
       aria-label="Toggle upgraded artwork"
     >
-      <img
-        class="wiki-image wiki-image--card-detail"
-        src={card.image}
-        alt={card.name}
-        loading="lazy"
-        decoding="async"
-      />
+      <span class="wiki-image-stack">
+        <img
+          class="wiki-image wiki-image--card-detail wiki-image--base"
+          src={card.image}
+          alt={card.name}
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+        />
+        {card.imageUpg && (
+          <img
+            class="wiki-image wiki-image--card-detail wiki-image--upgraded"
+            src={card.imageUpg}
+            alt={`${card.name} upgraded`}
+            loading="eager"
+            decoding="async"
+            fetchpriority="low"
+          />
+        )}
+      </span>
     </button>
     {card.imageUpg && <p class="wiki-image-hint">Click image to view upgrade</p>}
   </div>
@@ -111,11 +124,9 @@ const rows: Array<[string, string]> = [
     if (!btn || btn.dataset.bound) return;
     btn.dataset.bound = '1';
     var upg = btn.dataset.upg;
-    var img = btn.querySelector('img');
-    if (!upg || !img) return;
+    if (!upg) return;
     btn.addEventListener('click', function () {
       var isUpg = btn.dataset.state === 'upg';
-      img.src = isUpg ? btn.dataset.base : upg;
       btn.dataset.state = isUpg ? 'base' : 'upg';
       btn.classList.toggle('is-upgraded', !isUpg);
     });

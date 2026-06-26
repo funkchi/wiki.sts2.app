@@ -15,7 +15,7 @@ const description = `${enemy.type} enemy with ${enemy.hp} HP. ${enemy.pattern}`;
 
 <StarlightPage frontmatter={{ title: enemy.name, description }}>
   <div class="wiki-entity-hero">
-    <img class="wiki-image" src={enemy.image} alt={enemy.name} loading="lazy" decoding="async" />
+    <img class="wiki-image" src={enemy.image} alt={enemy.name} loading="eager" decoding="async" fetchpriority="high" />
     <div class="wiki-entity-hero__details">
       <div class="entity-badges">
         <span class={`tag tag--type-${norm(enemy.type)}`}>{enemy.type}</span>

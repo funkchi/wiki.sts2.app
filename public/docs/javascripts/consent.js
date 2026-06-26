@@ -49,7 +49,7 @@
       banner.className = "wiki-consent";
       banner.setAttribute("aria-label", "Advertising privacy choices");
       banner.innerHTML = `
-        <p>We use Google AdSense to support this wiki. You can allow personalized advertising or continue with non-personalized advertising signals. Cloudflare analytics remains cookie-free. <a href="/docs/privacy/">Privacy details</a></p>
+        <p>We use Google AdSense to support this wiki. You can allow personalized advertising or continue with non-personalized advertising signals. Cloudflare analytics remains cookie-free. <a href="/privacy/">Privacy details</a></p>
         <div class="wiki-consent__actions">
           <button type="button" data-choice="denied">Reject optional advertising</button>
           <button type="button" data-choice="granted">Allow personalized advertising</button>
