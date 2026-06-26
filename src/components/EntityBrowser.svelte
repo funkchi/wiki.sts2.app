@@ -207,7 +207,7 @@
                 onclick={() => setSort(col.field)}
               >
                 <span>{col.label}</span>
-                <span class="sort-arrow" aria-hidden="true">{sortTouched && sortField === col.field ? sortDirection : ''}</span>
+                <span class="sort-arrow" aria-hidden="true">{sortTouched && sortField === col.field ? (sortDirection === 'asc' ? '↑' : '↓') : ''}</span>
               </button>
             </th>
           {/each}

@@ -34,40 +34,40 @@ body {
 :root,
 :root[data-theme='dark'] {
   --sl-color-white: #fff6ea !important;
-  --sl-color-black: #100c16 !important;
+  --sl-color-black: #1a1322 !important;
   --sl-color-gray-1: #fff6ea !important;
   --sl-color-gray-2: #d9cec3 !important;
   --sl-color-gray-3: #b3a39a !important;
   --sl-color-gray-4: #6a6270 !important;
   --sl-color-gray-5: #3b3340 !important;
-  --sl-color-gray-6: #241d2c !important;
-  --sl-color-gray-7: #160f1f !important;
-  --sl-color-bg: #100c16 !important;
-  --sl-color-bg-nav: #160f1f !important;
-  --sl-color-bg-sidebar: #15101d !important;
+  --sl-color-gray-6: #2c2434 !important;
+  --sl-color-gray-7: #1f1728 !important;
+  --sl-color-bg: #1a1322 !important;
+  --sl-color-bg-nav: #21192a !important;
+  --sl-color-bg-sidebar: #201827 !important;
   --sl-color-text: #e9e0d8 !important;
   --sl-color-heading: #fff6ea !important;
   --sl-color-line: rgba(255, 246, 234, 0.12) !important;
   --sl-color-accent: #b3a1ff !important;
   --sl-color-accent-high: #d4c5ff !important;
-  --sl-color-accent-low: #2e2147 !important;
+  --sl-color-accent-low: #3a2a56 !important;
   --sl-color-text-accent: #c4b5fd !important;
 }
 
 :root[data-theme='light'] {
   color-scheme: light;
   --sl-color-white: #100c16 !important;
-  --sl-color-black: #fffaf2 !important;
+  --sl-color-black: #fffdf8 !important;
   --sl-color-gray-1: #1e1725 !important;
   --sl-color-gray-2: #423849 !important;
   --sl-color-gray-3: #63596b !important;
   --sl-color-gray-4: #8a8190 !important;
   --sl-color-gray-5: #c8c0cc !important;
-  --sl-color-gray-6: #ebe3ef !important;
-  --sl-color-gray-7: #fffaf2 !important;
-  --sl-color-bg: #fffaf2 !important;
-  --sl-color-bg-nav: #fff6ea !important;
-  --sl-color-bg-sidebar: #f7efe7 !important;
+  --sl-color-gray-6: #f1eaf4 !important;
+  --sl-color-gray-7: #fffdf8 !important;
+  --sl-color-bg: #fffdf8 !important;
+  --sl-color-bg-nav: #fffaf3 !important;
+  --sl-color-bg-sidebar: #fbf3ec !important;
   --sl-color-text: #241d2c !important;
   --sl-color-heading: #100c16 !important;
   --sl-color-line: rgba(36, 29, 44, 0.14) !important;
@@ -77,7 +77,7 @@ body {
   --sl-color-text-accent: #5b21b6 !important;
   --sts2-ink: #100c16;
   --sts2-line: rgba(36, 29, 44, 0.14);
-  --sts2-panel: rgba(36, 29, 44, 0.055);
+  --sts2-panel: rgba(36, 29, 44, 0.045);
 }
 
 @media (min-width: 72rem) {
@@ -580,13 +580,24 @@ body {
   border: 0;
   background: none;
   cursor: pointer;
+  width: 220px;
   max-width: 220px;
 }
 .wiki-image-stack {
   display: grid;
+  width: 220px;
+  max-width: 100%;
+  aspect-ratio: 400 / 520;
+  align-items: start;
+  justify-items: start;
 }
 .wiki-image-stack .wiki-image {
   grid-area: 1 / 1;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: contain;
+  object-position: top left;
 }
 .wiki-image-stack .wiki-image--upgraded {
   opacity: 0;
