@@ -23,6 +23,7 @@
   let selections: Record<string, string> = $state({});
   let sortField = $state('name');
   let sortDirection: 'asc' | 'desc' = $state('asc');
+  let sortTouched = $state(false);
   for (const f of filters) if (!(f.field in selections)) selections[f.field] = '';
 
   const sortableColumns: Column[] = [{ field: 'name', label: nameLabel }, ...columns];
@@ -134,6 +135,7 @@
   );
 
   function setSort(field: string) {
+    sortTouched = true;
     if (sortField === field) {
       sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
     } else {
@@ -147,6 +149,7 @@
     for (const f of filters) selections[f.field] = '';
     sortField = 'name';
     sortDirection = 'asc';
+    sortTouched = false;
   }
 </script>
 
@@ -183,7 +186,7 @@
               onclick={() => setSort(col.field)}
             >
               <span>{col.label}</span>
-              <span aria-hidden="true">{sortField === col.field ? (sortDirection === 'asc' ? 'asc' : 'desc') : 'sort'}</span>
+              <span class="sort-arrow" aria-hidden="true">{sortTouched && sortField === col.field ? (sortDirection === 'asc' ? '↑' : '↓') : ''}</span>
             </button>
           </th>
         {/each}

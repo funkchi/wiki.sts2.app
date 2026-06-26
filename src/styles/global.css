@@ -251,6 +251,10 @@ body {
   color: var(--sl-color-text-accent);
   outline: none;
 }
+.sort-arrow {
+  color: var(--sl-color-text-accent);
+  font-weight: 700;
+}
 .card-browser td {
   padding: 0.45rem 0.5rem;
 }
