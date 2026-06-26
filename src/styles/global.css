@@ -80,6 +80,12 @@ body {
   --sts2-panel: rgba(36, 29, 44, 0.055);
 }
 
+@media (min-width: 72rem) {
+  :root:has(.card-browser) {
+    --sl-content-width: min(96rem, calc(100vw - var(--sl-sidebar-width, 18.75rem) - 4rem));
+  }
+}
+
 /* Rounder surfaces inside Starlight content */
 :where([data-pagefind-body]) img {
   border-radius: var(--sts2-radius-sm);
@@ -165,6 +171,7 @@ body {
 
 /* ===== Card browser (Svelte island) ===== */
 .card-browser {
+  width: 100%;
   margin: 1.5rem 0;
 }
 .card-browser__controls {
@@ -220,10 +227,19 @@ body {
   font-size: 0.9rem;
   opacity: 0.8;
 }
+.card-browser__table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 0.35rem;
+  scrollbar-gutter: stable;
+}
 .card-browser table {
-  width: 100%;
+  width: max-content;
+  min-width: 100%;
   border-collapse: separate;
   border-spacing: 0 4px;
+  table-layout: auto;
 }
 .card-browser th {
   text-align: left;
@@ -231,7 +247,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   opacity: 0.65;
-  padding: 0.2rem 0.5rem;
+  padding: 0.2rem 0.75rem;
+  white-space: nowrap;
 }
 .sort-button {
   display: inline-flex;
@@ -256,9 +273,23 @@ body {
   font-weight: 700;
 }
 .card-browser td {
-  padding: 0.45rem 0.5rem;
+  height: 2.6rem;
+  padding: 0 0.75rem;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.card-browser td > a {
+  white-space: nowrap;
+}
+.card-browser .kw-chip,
+.card-browser .tag {
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
 }
 .card-browser tbody tr {
+  height: 2.6rem;
   border-radius: var(--sts2-radius-sm);
   transition: background 0.12s ease;
 }

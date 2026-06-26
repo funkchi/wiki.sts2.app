@@ -5,6 +5,7 @@
     badge?: 'rarity' | 'type';
     format?: 'cardCost' | 'relicRarity';
     chips?: boolean;
+    width?: string;
   };
   type Filter = { field: string; label: string; multiple?: boolean };
 
@@ -27,6 +28,16 @@
   for (const f of filters) if (!(f.field in selections)) selections[f.field] = '';
 
   const sortableColumns: Column[] = [{ field: 'name', label: nameLabel }, ...columns];
+  const fallbackWidths: Record<string, string> = {
+    name: '16rem',
+    character: '12rem',
+    cost: '7rem',
+    type: '9rem',
+    rarity: '10rem',
+    keywords: '24rem',
+    description: '28rem',
+    movesSummary: '28rem',
+  };
   const rarityRank: Record<string, number> = {
     basic: 0,
     common: 1,
@@ -151,6 +162,10 @@
     sortDirection = 'asc';
     sortTouched = false;
   }
+
+  function widthFor(col: Column) {
+    return col.width ?? fallbackWidths[col.field] ?? '12rem';
+  }
 </script>
 
 <div class="card-browser">
@@ -175,48 +190,55 @@
 
   <output class="card-browser__status">{filtered.length} of {entities.length} {noun}</output>
 
-  <table>
-    <thead>
-      <tr>
+  <div class="card-browser__table-wrap">
+    <table>
+      <colgroup>
         {#each sortableColumns as col (col.field)}
-          <th aria-sort={sortField === col.field ? (sortDirection === 'asc' ? 'ascending' : 'descending') : 'none'}>
-            <button
-              class="sort-button"
-              type="button"
-              onclick={() => setSort(col.field)}
-            >
-              <span>{col.label}</span>
-              <span class="sort-arrow" aria-hidden="true">{sortTouched && sortField === col.field ? (sortDirection === 'asc' ? '↑' : '↓') : ''}</span>
-            </button>
-          </th>
+          <col style={`width: ${widthFor(col)};`} />
         {/each}
-      </tr>
-    </thead>
-    <tbody>
-      {#each filtered as e (e.slug)}
+      </colgroup>
+      <thead>
         <tr>
-          <td><a href={`${linkBase}${e.slug}/`}>{e.name}</a></td>
-          {#each columns as col (col.field)}
-            <td>
-              {#if col.format === 'cardCost'}
-                {@html costHtml(e.costRaw)}
-              {:else if col.chips}
-                {#each e[col.field] as k (k)}
-                  <span class="kw kw-chip">{k}</span>
-                {/each}
-              {:else if col.badge}
-                <span class={`tag tag--${col.badge}-${norm(String(e[col.field]))}`}>{e[col.field]}</span>
-              {:else if col.format === 'relicRarity'}
-                {@html relicRarityHtml(e[col.field], e.poolColor)}
-              {:else if Array.isArray(e[col.field])}
-                {e[col.field].join(', ')}
-              {:else}
-                {e[col.field]}
-              {/if}
-            </td>
+          {#each sortableColumns as col (col.field)}
+            <th aria-sort={sortField === col.field ? (sortDirection === 'asc' ? 'ascending' : 'descending') : 'none'}>
+              <button
+                class="sort-button"
+                type="button"
+                onclick={() => setSort(col.field)}
+              >
+                <span>{col.label}</span>
+                <span class="sort-arrow" aria-hidden="true">{sortTouched && sortField === col.field ? sortDirection : ''}</span>
+              </button>
+            </th>
           {/each}
         </tr>
-      {/each}
-    </tbody>
-  </table>
+      </thead>
+      <tbody>
+        {#each filtered as e (e.slug)}
+          <tr>
+            <td><a href={`${linkBase}${e.slug}/`}>{e.name}</a></td>
+            {#each columns as col (col.field)}
+              <td>
+                {#if col.format === 'cardCost'}
+                  {@html costHtml(e.costRaw)}
+                {:else if col.chips}
+                  {#each e[col.field] as k (k)}
+                    <span class="kw kw-chip">{k}</span>
+                  {/each}
+                {:else if col.badge}
+                  <span class={`tag tag--${col.badge}-${norm(String(e[col.field]))}`}>{e[col.field]}</span>
+                {:else if col.format === 'relicRarity'}
+                  {@html relicRarityHtml(e[col.field], e.poolColor)}
+                {:else if Array.isArray(e[col.field])}
+                  {e[col.field].join(', ')}
+                {:else}
+                  {e[col.field]}
+                {/if}
+              </td>
+            {/each}
+          </tr>
+        {/each}
+      </tbody>
+    </table>
+  </div>
 </div>

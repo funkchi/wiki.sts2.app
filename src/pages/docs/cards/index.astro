@@ -28,11 +28,11 @@ const rows = cards.map((c) => ({
     noun="cards"
     nameLabel="Card"
     columns={[
-      { field: 'character', label: 'Character' },
-      { field: 'cost', label: 'Cost', format: 'cardCost' },
-      { field: 'type', label: 'Type' },
-      { field: 'rarity', label: 'Rarity', badge: 'rarity' },
-      { field: 'keywords', label: 'Keywords', chips: true },
+      { field: 'character', label: 'Character', width: '13rem' },
+      { field: 'cost', label: 'Cost', format: 'cardCost', width: '7rem' },
+      { field: 'type', label: 'Type', width: '9rem' },
+      { field: 'rarity', label: 'Rarity', badge: 'rarity', width: '10rem' },
+      { field: 'keywords', label: 'Keywords', chips: true, width: '26rem' },
     ]}
     filters={[
       { field: 'character', label: 'Character / Pool' },
