@@ -593,6 +593,7 @@ body {
 .wiki-image-stack .wiki-image {
   position: absolute;
   inset: 0;
+  margin: 0;
   width: 100%;
   max-width: none;
   height: 100%;
