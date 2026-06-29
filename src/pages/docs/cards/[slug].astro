@@ -2,7 +2,6 @@
 import type { GetStaticPaths } from 'astro';
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import CardHero from '../../../components/CardHero.astro';
-import LanguageToggle from '../../../components/LanguageToggle.astro';
 import { cards, cardBySlug } from '../../../data/cards';
 
 export const getStaticPaths = (() => {
@@ -21,7 +20,6 @@ const description =
 ---
 
 <StarlightPage frontmatter={{ title: card.name, description }}>
-  <LanguageToggle />
   <CardHero card={card} />
 
   {card.keywords.length > 0 && (

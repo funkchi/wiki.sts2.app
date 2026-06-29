@@ -87,6 +87,45 @@
             "永世沙漏"
           ],
           "movesSummary": "消退: Attack + Defend (26 (Asc 32) dmg, 33 block); 眼部激光: Attack (11 (Asc 12) dmg); 加大力度: Status + Buff"
+        },
+        "ja": {
+          "name": "永劫の砂時計",
+          "type": "Boss",
+          "pattern": "衰退 → アイレーザー → 激化 → repeat",
+          "moves": [
+            {
+              "name": "衰退",
+              "intent": "Attack + Defend",
+              "damage": "26 (Asc 32) damage",
+              "block": "33 block",
+              "heal": ""
+            },
+            {
+              "name": "アイレーザー",
+              "intent": "Attack",
+              "damage": "11 (Asc 12) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "激化",
+              "intent": "Status + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "永劫の砂時計",
+              "roomType": "Boss",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "永劫の砂時計"
+          ],
+          "movesSummary": "衰退: Attack + Defend (26 (Asc 32) dmg, 33 block); アイレーザー: Attack (11 (Asc 12) dmg); 激化: Status + Buff"
         }
       }
     },
@@ -216,6 +255,66 @@
             "仪式兽"
           ],
           "movesSummary": "跺地: Buff; 横冲直撞: Attack + Buff (18 (Asc 20) dmg); Stun: Stun; +3 more"
+        },
+        "ja": {
+          "name": "儀式の獣",
+          "type": "Boss",
+          "pattern": "スタンプ → 突進 → repeat",
+          "moves": [
+            {
+              "name": "スタンプ",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "突進",
+              "intent": "Attack + Buff",
+              "damage": "18 (Asc 20) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Stun",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "獣の咆哮",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "踏みつけ",
+              "intent": "Attack",
+              "damage": "15 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "クラッシュ",
+              "intent": "Attack + Buff",
+              "damage": "17 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "儀式の獣",
+              "roomType": "Boss",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "儀式の獣"
+          ],
+          "movesSummary": "スタンプ: Buff; 突進: Attack + Buff (18 (Asc 20) dmg); Stun: Stun; +3 more"
         }
       }
     },
@@ -331,6 +430,59 @@
             "帝皇蟹"
           ],
           "movesSummary": "撕扯: Attack (12 (Asc 14) dmg); 巨化打击: Attack (4 dmg); 虫蛰: Attack + Debuff (6x2 (Asc 7x2) dmg); +2 more"
+        },
+        "ja": {
+          "name": "クラッシャー",
+          "type": "Boss",
+          "pattern": "大暴れ → 巨大化攻撃 → 虫刺し → 適応 → ガードストライク → repeat",
+          "moves": [
+            {
+              "name": "大暴れ",
+              "intent": "Attack",
+              "damage": "12 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "巨大化攻撃",
+              "intent": "Attack",
+              "damage": "4 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "虫刺し",
+              "intent": "Attack + Debuff",
+              "damage": "6x2 (Asc 7x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "適応",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ガードストライク",
+              "intent": "Attack + Defend",
+              "damage": "12 (Asc 14) damage",
+              "block": "18 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "カイザークラブ",
+              "roomType": "Boss",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "カイザークラブ"
+          ],
+          "movesSummary": "大暴れ: Attack (12 (Asc 14) dmg); 巨大化攻撃: Attack (4 dmg); 虫刺し: Attack + Debuff (6x2 (Asc 7x2) dmg); +2 more"
         }
       }
     },
@@ -418,6 +570,45 @@
             "同族小队"
           ],
           "movesSummary": "快斩: Attack (5 dmg); 回旋镖: Attack (2x2 dmg); 力量之舞: Buff"
+        },
+        "ja": {
+          "name": "血族の信者",
+          "type": "Boss",
+          "pattern": "力のダンス → はやぶさ斬り → ブーメラン → repeat",
+          "moves": [
+            {
+              "name": "はやぶさ斬り",
+              "intent": "Attack",
+              "damage": "5 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ブーメラン",
+              "intent": "Attack",
+              "damage": "2x2 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "力のダンス",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "血族",
+              "roomType": "Boss",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "血族"
+          ],
+          "movesSummary": "はやぶさ斬り: Attack (5 dmg); ブーメラン: Attack (2x2 dmg); 力のダンス: Buff"
         }
       }
     },
@@ -519,6 +710,52 @@
             "同族小队"
           ],
           "movesSummary": "脆弱法球: Attack + Debuff (8 (Asc 9) dmg); 虚弱法球: Attack + Debuff (8 (Asc 9) dmg); 灵魂光束: Attack (3x3 dmg); +1 more"
+        },
+        "ja": {
+          "name": "血族の司祭",
+          "type": "Boss",
+          "pattern": "脆弱のオーブ → 脱力のオーブ → ソウルビーム → 暗黒の儀式 → repeat",
+          "moves": [
+            {
+              "name": "脆弱のオーブ",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "脱力のオーブ",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ソウルビーム",
+              "intent": "Attack",
+              "damage": "3x3 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "暗黒の儀式",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "血族",
+              "roomType": "Boss",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "血族"
+          ],
+          "movesSummary": "脆弱のオーブ: Attack + Debuff (8 (Asc 9) dmg); 脱力のオーブ: Attack + Debuff (8 (Asc 9) dmg); ソウルビーム: Attack (3x3 dmg); +1 more"
         }
       }
     },
@@ -620,6 +857,52 @@
             "知识恶魔"
           ],
           "movesSummary": "知识的诅咒: Debuff; 抽打: Attack (17 (Asc 18) dmg); 知识过载: Attack (8x3 (Asc 9x3) dmg); +1 more"
+        },
+        "ja": {
+          "name": "知識の悪魔",
+          "type": "Boss",
+          "pattern": "Starts: 知識の呪い → はたく → 知識の本流 → 熟考; then conditional: 知識の呪い (if curse of knowledge counter = 3)",
+          "moves": [
+            {
+              "name": "知識の呪い",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "はたく",
+              "intent": "Attack",
+              "damage": "17 (Asc 18) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "知識の本流",
+              "intent": "Attack",
+              "damage": "8x3 (Asc 9x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "熟考",
+              "intent": "Attack + Heal + Buff",
+              "damage": "11 (Asc 13) damage",
+              "block": "",
+              "heal": "30 heal"
+            }
+          ],
+          "encounters": [
+            {
+              "name": "知識の悪魔",
+              "roomType": "Boss",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "知識の悪魔"
+          ],
+          "movesSummary": "知識の呪い: Debuff; はたく: Attack (17 (Asc 18) dmg); 知識の本流: Attack (8x3 (Asc 9x3) dmg); +1 more"
         }
       }
     },
@@ -735,6 +1018,59 @@
             "乐加维林族母"
           ],
           "movesSummary": "沉睡: Sleep; 斩击: Attack (19 (Asc 21) dmg); Slash2: Attack + Defend (12 (Asc 14) dmg, 12 block); +2 more"
+        },
+        "ja": {
+          "name": "ラガヴーリン・メイトリアーク",
+          "type": "Boss",
+          "pattern": "Starts with 睡眠",
+          "moves": [
+            {
+              "name": "睡眠",
+              "intent": "Sleep",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "切り裂き",
+              "intent": "Attack",
+              "damage": "19 (Asc 21) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Slash2",
+              "intent": "Attack + Defend",
+              "damage": "12 (Asc 14) damage",
+              "block": "12 block",
+              "heal": ""
+            },
+            {
+              "name": "はらわた裂き",
+              "intent": "Attack",
+              "damage": "9x2 (Asc 10x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "魂吸収",
+              "intent": "Debuff + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ラガヴーリン・メイトリアーク",
+              "roomType": "Boss",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "ラガヴーリン・メイトリアーク"
+          ],
+          "movesSummary": "睡眠: Sleep; 切り裂き: Attack (19 (Asc 21) dmg); Slash2: Attack + Defend (12 (Asc 14) dmg, 12 block); +2 more"
         }
       }
     },
@@ -864,6 +1200,66 @@
             "女王"
           ],
           "movesSummary": "Puppet Strings: Debuff; 你是我的了: Debuff; 为我尽力燃烧吧: Buff + Defend (20 block); +3 more"
+        },
+        "ja": {
+          "name": "クイーン",
+          "type": "Boss",
+          "pattern": "Starts: Puppet Strings → お前は私のものだ; then conditional: 燃え上がれ (if does not have amalgam died) / 首をはねよ (if has amalgam died); then conditional: 燃え上がれ (if does not have amalgam died) / 首をはねよ (if has amalgam died)",
+          "moves": [
+            {
+              "name": "Puppet Strings",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "お前は私のものだ",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "燃え上がれ",
+              "intent": "Buff + Defend",
+              "damage": "",
+              "block": "20 block",
+              "heal": ""
+            },
+            {
+              "name": "首をはねよ",
+              "intent": "Attack",
+              "damage": "3x5 (Asc 4x5) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "処刑",
+              "intent": "Attack",
+              "damage": "15 (Asc 18) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Enrage",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "クイーン",
+              "roomType": "Boss",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "クイーン"
+          ],
+          "movesSummary": "Puppet Strings: Debuff; お前は私のものだ: Debuff; 燃え上がれ: Buff + Defend (20 block); +3 more"
         }
       }
     },
@@ -979,6 +1375,59 @@
             "帝皇蟹"
           ],
           "movesSummary": "瞄准十字: Attack (3 (Asc 4) dmg); 精准光束: Attack (18 (Asc 20) dmg); 蓄能: Buff; +2 more"
+        },
+        "ja": {
+          "name": "ロケット",
+          "type": "Boss",
+          "pattern": "ターゲットを照準 → 精密ビーム → チャージアップ → レーザー → リチャージ → repeat",
+          "moves": [
+            {
+              "name": "ターゲットを照準",
+              "intent": "Attack",
+              "damage": "3 (Asc 4) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "精密ビーム",
+              "intent": "Attack",
+              "damage": "18 (Asc 20) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "チャージアップ",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "レーザー",
+              "intent": "Attack",
+              "damage": "31 (Asc 35) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "リチャージ",
+              "intent": "Sleep",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "カイザークラブ",
+              "roomType": "Boss",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "カイザークラブ"
+          ],
+          "movesSummary": "ターゲットを照準: Attack (3 (Asc 4) dmg); 精密ビーム: Attack (18 (Asc 20) dmg); チャージアップ: Buff; +2 more"
         }
       }
     },
@@ -1094,6 +1543,59 @@
             "灵魂异鱼"
           ],
           "movesSummary": "呼唤: Status; 排气: Attack (16 (Asc 17) dmg); 凝视: Attack + Status (7 (Asc 8) dmg); +2 more"
+        },
+        "ja": {
+          "name": "ソウルフィッシュ",
+          "type": "Boss",
+          "pattern": "誘い → ガス抜き → 凝視 → 幽体化 → スクリーム → repeat",
+          "moves": [
+            {
+              "name": "誘い",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ガス抜き",
+              "intent": "Attack",
+              "damage": "16 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "凝視",
+              "intent": "Attack + Status",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "幽体化",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "スクリーム",
+              "intent": "Attack + Debuff",
+              "damage": "13 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ソウルフィッシュ",
+              "roomType": "Boss",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "ソウルフィッシュ"
+          ],
+          "movesSummary": "誘い: Status; ガス抜き: Attack (16 (Asc 17) dmg); 凝視: Attack + Status (7 (Asc 8) dmg); +2 more"
         }
       }
     },
@@ -1237,6 +1739,73 @@
             "实验体"
           ],
           "movesSummary": "重生: Heal + Buff; 噬咬: Attack (20 (Asc 22) dmg); 颅骨重击: Attack + Debuff (14 (Asc 16) dmg); +4 more"
+        },
+        "ja": {
+          "name": "実験体 #C14",
+          "type": "Boss",
+          "pattern": "Starts: 噛みつき → スカルバッシュ; then conditional: 連続引っかき (if respawns = 2)",
+          "moves": [
+            {
+              "name": "復活",
+              "intent": "Heal + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "噛みつき",
+              "intent": "Attack",
+              "damage": "20 (Asc 22) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "スカルバッシュ",
+              "intent": "Attack + Debuff",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "連続引っかき",
+              "intent": "Attack",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "惨撃",
+              "intent": "Attack",
+              "damage": "10x3 (Asc 11x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "強襲",
+              "intent": "Attack",
+              "damage": "45 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "焦熱の咆哮",
+              "intent": "Status + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "実験体",
+              "roomType": "Boss",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "実験体"
+          ],
+          "movesSummary": "復活: Heal + Buff; 噛みつき: Attack (20 (Asc 22) dmg); スカルバッシュ: Attack + Debuff (14 (Asc 16) dmg); +4 more"
         }
       }
     },
@@ -1352,6 +1921,59 @@
             "无厌沙虫"
           ],
           "movesSummary": "液化地面: Buff + Status; 撕扯: Attack (8x2 (Asc 9x2) dmg); Thrash Move 2: Attack (8x2 (Asc 9x2) dmg); +2 more"
+        },
+        "ja": {
+          "name": "貪りの獣",
+          "type": "Boss",
+          "pattern": "大地の溶解 → 大暴れ → 突進噛みつき → よだれ → Thrash Move 2 → repeat",
+          "moves": [
+            {
+              "name": "大地の溶解",
+              "intent": "Buff + Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "大暴れ",
+              "intent": "Attack",
+              "damage": "8x2 (Asc 9x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Thrash Move 2",
+              "intent": "Attack",
+              "damage": "8x2 (Asc 9x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "突進噛みつき",
+              "intent": "Attack",
+              "damage": "28 (Asc 31) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "よだれ",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "貪りの獣",
+              "roomType": "Boss",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "貪りの獣"
+          ],
+          "movesSummary": "大地の溶解: Buff + Status; 大暴れ: Attack (8x2 (Asc 9x2) dmg); Thrash Move 2: Attack (8x2 (Asc 9x2) dmg); +2 more"
         }
       }
     },
@@ -1467,6 +2089,59 @@
             "女王"
           ],
           "movesSummary": "冲撞: Attack (18 (Asc 19) dmg); Tackle 2: Attack (18 (Asc 19) dmg); 光束: Attack (8x3 dmg); +2 more"
+        },
+        "ja": {
+          "name": "トーチヘッド・アマルガム",
+          "type": "Boss",
+          "pattern": "体当たり → Tackle 2 → ビーム → Tackle 3 → Tackle 4 → repeat",
+          "moves": [
+            {
+              "name": "体当たり",
+              "intent": "Attack",
+              "damage": "18 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Tackle 2",
+              "intent": "Attack",
+              "damage": "18 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ビーム",
+              "intent": "Attack",
+              "damage": "8x3 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Tackle 3",
+              "intent": "Attack",
+              "damage": "14 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Tackle 4",
+              "intent": "Attack",
+              "damage": "14 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "クイーン",
+              "roomType": "Boss",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "クイーン"
+          ],
+          "movesSummary": "体当たり: Attack (18 (Asc 19) dmg); Tackle 2: Attack (18 (Asc 19) dmg); ビーム: Attack (8x3 dmg); +2 more"
         }
       }
     },
@@ -1568,6 +2243,52 @@
             "墨影幻灵"
           ],
           "movesSummary": "墨迹: Attack (7 (Asc 8) dmg); 墨水长枪: Attack (6x2 (Asc 7x2) dmg); 肢解: Attack + Status (26 (Asc 30) dmg); +1 more"
+        },
+        "ja": {
+          "name": "ヴァントム",
+          "type": "Boss",
+          "pattern": "インクの染み → インクの槍 → 切断 → 構え → repeat",
+          "moves": [
+            {
+              "name": "インクの染み",
+              "intent": "Attack",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "インクの槍",
+              "intent": "Attack",
+              "damage": "6x2 (Asc 7x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "切断",
+              "intent": "Attack + Status",
+              "damage": "26 (Asc 30) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "構え",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ヴァントム",
+              "roomType": "Boss",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "ヴァントム"
+          ],
+          "movesSummary": "インクの染み: Attack (7 (Asc 8) dmg); インクの槍: Attack (6x2 (Asc 7x2) dmg); 切断: Attack + Status (26 (Asc 30) dmg); +1 more"
         }
       }
     },
@@ -1725,6 +2446,80 @@
             "瀑布巨兽"
           ],
           "movesSummary": "增压: Buff; 践踏: Attack + Debuff + Buff (15 (Asc 16) dmg); 撞击: Attack + Buff (10 (Asc 11) dmg); +5 more"
+        },
+        "ja": {
+          "name": "滝の巨人",
+          "type": "Boss",
+          "pattern": "加圧 → 踏みつけ → 打ち込み → サイフォン → プレッシャーガン → 水圧上昇 → repeat",
+          "moves": [
+            {
+              "name": "加圧",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "踏みつけ",
+              "intent": "Attack + Debuff + Buff",
+              "damage": "15 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "打ち込み",
+              "intent": "Attack + Buff",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "サイフォン",
+              "intent": "Heal + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "プレッシャーガン",
+              "intent": "Attack + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "水圧上昇",
+              "intent": "Attack + Buff",
+              "damage": "13 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "爆発寸前",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "大爆発",
+              "intent": "Special",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "滝の巨人",
+              "roomType": "Boss",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "滝の巨人"
+          ],
+          "movesSummary": "加圧: Buff; 踏みつけ: Attack + Debuff + Buff (15 (Asc 16) dmg); 打ち込み: Attack + Buff (10 (Asc 11) dmg); +5 more"
         }
       }
     },
@@ -1826,6 +2621,52 @@
             "旧日雕像"
           ],
           "movesSummary": "沉睡: Sleep; 苏醒: Buff; Sleep Move 2: Sleep; +1 more"
+        },
+        "ja": {
+          "name": "古の偶像",
+          "type": "Elite",
+          "pattern": "ねむる → 目覚め → 切り裂き → repeat",
+          "moves": [
+            {
+              "name": "ねむる",
+              "intent": "Sleep",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "目覚め",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Sleep Move 2",
+              "intent": "Sleep",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "切り裂き",
+              "intent": "Attack",
+              "damage": "13 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "古の偶像",
+              "roomType": "Elite",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "古の偶像"
+          ],
+          "movesSummary": "ねむる: Sleep; 目覚め: Buff; Sleep Move 2: Sleep; +1 more"
         }
       }
     },
@@ -1899,6 +2740,38 @@
             "多尼斯异鸟"
           ],
           "movesSummary": "啄击: Attack (3x3 (Asc 4x3) dmg); 飞扑: Attack (17 (Asc 19) dmg)"
+        },
+        "ja": {
+          "name": "ビャードニス",
+          "type": "Elite",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "つつく",
+              "intent": "Attack",
+              "damage": "3x3 (Asc 4x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "急降下",
+              "intent": "Attack",
+              "damage": "17 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ビャードニス",
+              "roomType": "Elite",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "ビャードニス"
+          ],
+          "movesSummary": "つつく: Attack (3x3 (Asc 4x3) dmg); 急降下: Attack (17 (Asc 19) dmg)"
         }
       }
     },
@@ -1996,6 +2869,51 @@
           "encounters": [],
           "encounterNames": [],
           "movesSummary": "扭动: Attack (5x2 (Asc 6x2) dmg); 胀大: Attack + Buff (6 (Asc 7) dmg); 紧缠: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+        },
+        "ja": {
+          "name": "万足ムカデ",
+          "type": "Elite",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "のたうち",
+              "intent": "Attack",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "バルク",
+              "intent": "Attack + Buff",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "締め付け",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "死亡",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "再結合",
+              "intent": "Heal",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "のたうち: Attack (5x2 (Asc 6x2) dmg); バルク: Attack + Buff (6 (Asc 7) dmg); 締め付け: Attack + Debuff (8 (Asc 9) dmg); +2 more"
         }
       }
     },
@@ -2111,6 +3029,59 @@
             "残杀千足虫"
           ],
           "movesSummary": "扭动: Attack (5x2 (Asc 6x2) dmg); 胀大: Attack + Buff (6 (Asc 7) dmg); 紧缠: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+        },
+        "ja": {
+          "name": "Decimillipede Segment (Back)",
+          "type": "Elite",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "のたうち",
+              "intent": "Attack",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "バルク",
+              "intent": "Attack + Buff",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "締め付け",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "死亡",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "再結合",
+              "intent": "Heal",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "万足ムカデ",
+              "roomType": "Elite",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "万足ムカデ"
+          ],
+          "movesSummary": "のたうち: Attack (5x2 (Asc 6x2) dmg); バルク: Attack + Buff (6 (Asc 7) dmg); 締め付け: Attack + Debuff (8 (Asc 9) dmg); +2 more"
         }
       }
     },
@@ -2226,6 +3197,59 @@
             "残杀千足虫"
           ],
           "movesSummary": "扭动: Attack (5x2 (Asc 6x2) dmg); 胀大: Attack + Buff (6 (Asc 7) dmg); 紧缠: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+        },
+        "ja": {
+          "name": "Decimillipede Segment (Front)",
+          "type": "Elite",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "のたうち",
+              "intent": "Attack",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "バルク",
+              "intent": "Attack + Buff",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "締め付け",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "死亡",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "再結合",
+              "intent": "Heal",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "万足ムカデ",
+              "roomType": "Elite",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "万足ムカデ"
+          ],
+          "movesSummary": "のたうち: Attack (5x2 (Asc 6x2) dmg); バルク: Attack + Buff (6 (Asc 7) dmg); 締め付け: Attack + Debuff (8 (Asc 9) dmg); +2 more"
         }
       }
     },
@@ -2341,6 +3365,59 @@
             "残杀千足虫"
           ],
           "movesSummary": "扭动: Attack (5x2 (Asc 6x2) dmg); 胀大: Attack + Buff (6 (Asc 7) dmg); 紧缠: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+        },
+        "ja": {
+          "name": "Decimillipede Segment (Middle)",
+          "type": "Elite",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "のたうち",
+              "intent": "Attack",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "バルク",
+              "intent": "Attack + Buff",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "締め付け",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "死亡",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "再結合",
+              "intent": "Heal",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "万足ムカデ",
+              "roomType": "Elite",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "万足ムカデ"
+          ],
+          "movesSummary": "のたうち: Attack (5x2 (Asc 6x2) dmg); バルク: Attack + Buff (6 (Asc 7) dmg); 締め付け: Attack + Debuff (8 (Asc 9) dmg); +2 more"
         }
       }
     },
@@ -2428,6 +3505,45 @@
             "蜂群术士"
           ],
           "movesSummary": "喷射信息素: Buff; 蜜--蜂--！: Attack (3x7 dmg); 矛击！: Attack (18 (Asc 20) dmg)"
+        },
+        "ja": {
+          "name": "エントマンサー",
+          "type": "Elite",
+          "pattern": "Always uses ハチだ！",
+          "moves": [
+            {
+              "name": "フェロモン噴射",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ハチだ！",
+              "intent": "Attack",
+              "damage": "3x7 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "スピア！",
+              "intent": "Attack",
+              "damage": "18 (Asc 20) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "エントマンサー",
+              "roomType": "Elite",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "エントマンサー"
+          ],
+          "movesSummary": "フェロモン噴射: Buff; ハチだ！: Attack (3x7 dmg); スピア！: Attack (18 (Asc 20) dmg)"
         }
       }
     },
@@ -2515,6 +3631,45 @@
             "骑士团伙"
           ],
           "movesSummary": "战争吟唱: Buff; 连枷: Attack (9x2 (Asc 10x2) dmg); 撞击: Attack (15 (Asc 17) dmg)"
+        },
+        "ja": {
+          "name": "フレイルナイト",
+          "type": "Elite",
+          "pattern": "Starts with 打ち込み",
+          "moves": [
+            {
+              "name": "戦いの歌",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "フレイル",
+              "intent": "Attack",
+              "damage": "9x2 (Asc 10x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "打ち込み",
+              "intent": "Attack",
+              "damage": "15 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "騎士のギャング",
+              "roomType": "Elite",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "騎士のギャング"
+          ],
+          "movesSummary": "戦いの歌: Buff; フレイル: Attack (9x2 (Asc 10x2) dmg); 打ち込み: Attack (15 (Asc 17) dmg)"
         }
       }
     },
@@ -2616,6 +3771,52 @@
             "感染棱柱"
           ],
           "movesSummary": "刺击: Attack (15 (Asc 17) dmg); 辐射: Attack + Defend (11 (Asc 13) dmg, 11 block); 旋风: Attack (5x3 (Asc 6x3) dmg); +1 more"
+        },
+        "ja": {
+          "name": "寄生されたプリズム",
+          "type": "Elite",
+          "pattern": "ジャブ → 放射 → 旋風 → 脈動 → repeat",
+          "moves": [
+            {
+              "name": "ジャブ",
+              "intent": "Attack",
+              "damage": "15 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "放射",
+              "intent": "Attack + Defend",
+              "damage": "11 (Asc 13) damage",
+              "block": "11 block",
+              "heal": ""
+            },
+            {
+              "name": "旋風",
+              "intent": "Attack",
+              "damage": "5x3 (Asc 6x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "脈動",
+              "intent": "Attack + Buff + Defend",
+              "damage": "8 (Asc 10) damage",
+              "block": "20 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "寄生されたプリズム",
+              "roomType": "Elite",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "寄生されたプリズム"
+          ],
+          "movesSummary": "ジャブ: Attack (15 (Asc 17) dmg); 放射: Attack + Defend (11 (Asc 13) dmg, 11 block); 旋風: Attack (5x3 (Asc 6x3) dmg); +1 more"
         }
       }
     },
@@ -2731,6 +3932,59 @@
             "骑士团伙"
           ],
           "movesSummary": "强力护盾: Attack + Defend (6 (Asc 7) dmg, 5 block); 抑制: Debuff; Prep: Defend (5 block); +2 more"
+        },
+        "ja": {
+          "name": "マギナイト",
+          "type": "Elite",
+          "pattern": "パワーシールド → 減衰 → 打ち込み → Prep → マジックボム → repeat",
+          "moves": [
+            {
+              "name": "パワーシールド",
+              "intent": "Attack + Defend",
+              "damage": "6 (Asc 7) damage",
+              "block": "5 block",
+              "heal": ""
+            },
+            {
+              "name": "減衰",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Prep",
+              "intent": "Defend",
+              "damage": "",
+              "block": "5 block",
+              "heal": ""
+            },
+            {
+              "name": "マジックボム",
+              "intent": "Attack",
+              "damage": "35 (Asc 40) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "打ち込み",
+              "intent": "Attack",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "騎士のギャング",
+              "roomType": "Elite",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "騎士のギャング"
+          ],
+          "movesSummary": "パワーシールド: Attack + Defend (6 (Asc 7) dmg, 5 block); 減衰: Debuff; Prep: Defend (5 block); +2 more"
         }
       }
     },
@@ -2832,6 +4086,52 @@
             "机甲骑士"
           ],
           "movesSummary": "冲锋: Attack (25 (Asc 30) dmg); 喷火器: Status; 举起蓄力: Defend + Buff (15 block); +1 more"
+        },
+        "ja": {
+          "name": "メカナイト",
+          "type": "Elite",
+          "pattern": "突撃 → 火炎放射 → ワインドアップ → ヘビークリーブ → repeat",
+          "moves": [
+            {
+              "name": "突撃",
+              "intent": "Attack",
+              "damage": "25 (Asc 30) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "火炎放射",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ワインドアップ",
+              "intent": "Defend + Buff",
+              "damage": "",
+              "block": "15 block",
+              "heal": ""
+            },
+            {
+              "name": "ヘビークリーブ",
+              "intent": "Attack",
+              "damage": "35 (Asc 40) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "メカナイト",
+              "roomType": "Elite",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "メカナイト"
+          ],
+          "movesSummary": "突撃: Attack (25 (Asc 30) dmg); 火炎放射: Status; ワインドアップ: Defend + Buff (15 block); +1 more"
         }
       }
     },
@@ -2933,6 +4233,52 @@
             "花园幽灵鳗"
           ],
           "movesSummary": "啃咬: Attack (5 dmg); 甩动: Attack (7 dmg); 猛晃: Attack (1x3 dmg); +1 more"
+        },
+        "ja": {
+          "name": "幻影蟲",
+          "type": "Elite",
+          "pattern": "then conditional: フレイル (if in first slot) / 噛みつき (if in second slot) / ムチ打ち (if in third slot) / 巨大化 (if in fourth slot)",
+          "moves": [
+            {
+              "name": "噛みつき",
+              "intent": "Attack",
+              "damage": "5 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ムチ打ち",
+              "intent": "Attack",
+              "damage": "7 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "フレイル",
+              "intent": "Attack",
+              "damage": "1x3 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "巨大化",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "幻影蟲",
+              "roomType": "Elite",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "幻影蟲"
+          ],
+          "movesSummary": "噛みつき: Attack (5 dmg); ムチ打ち: Attack (7 dmg); フレイル: Attack (1x3 dmg); +1 more"
         }
       }
     },
@@ -3006,6 +4352,38 @@
             "异蛙寄生虫"
           ],
           "movesSummary": "感染: Status; 甩动: Attack (4x4 (Asc 5x4) dmg)"
+        },
+        "ja": {
+          "name": "寄生キャエル",
+          "type": "Elite",
+          "pattern": "Starts: 感染 → ムチ打ち",
+          "moves": [
+            {
+              "name": "感染",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ムチ打ち",
+              "intent": "Attack",
+              "damage": "4x4 (Asc 5x4) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "寄生キャエル",
+              "roomType": "Elite",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "寄生キャエル"
+          ],
+          "movesSummary": "感染: Status; ムチ打ち: Attack (4x4 (Asc 5x4) dmg)"
         }
       }
     },
@@ -3107,6 +4485,52 @@
             "鬼祟珊瑚群"
           ],
           "movesSummary": "猛冲: Attack (14 (Asc 16) dmg); Zoom Move 2: Attack (14 (Asc 16) dmg); 惯性: Attack + Buff (9 (Asc 11) dmg); +1 more"
+        },
+        "ja": {
+          "name": "蠢く群生体",
+          "type": "Elite",
+          "pattern": "ズーム → Zoom Move 2 → 慣性 → 貫通刺突 → repeat",
+          "moves": [
+            {
+              "name": "ズーム",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Zoom Move 2",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "慣性",
+              "intent": "Attack + Buff",
+              "damage": "9 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "貫通刺突",
+              "intent": "Attack",
+              "damage": "7x2 (Asc 8x2) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "蠢く群生体",
+              "roomType": "Elite",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "蠢く群生体"
+          ],
+          "movesSummary": "ズーム: Attack (14 (Asc 16) dmg); Zoom Move 2: Attack (14 (Asc 16) dmg); 慣性: Attack + Buff (9 (Asc 11) dmg); +1 more"
         }
       }
     },
@@ -3194,6 +4618,45 @@
             "灵魂枢纽"
           ],
           "movesSummary": "灵魂灼烧: Attack (29 (Asc 31) dmg); 大漩涡: Attack (6x4 (Asc 7x4) dmg); 汲取生命: Attack + Debuff (18 (Asc 19) dmg)"
+        },
+        "ja": {
+          "name": "ソウルネクサス",
+          "type": "Elite",
+          "pattern": "Starts with ソウルバーン; then random: ソウルバーン (no repeat), メイルシュトローム (no repeat), 生命吸収 (no repeat)",
+          "moves": [
+            {
+              "name": "ソウルバーン",
+              "intent": "Attack",
+              "damage": "29 (Asc 31) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "メイルシュトローム",
+              "intent": "Attack",
+              "damage": "6x4 (Asc 7x4) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "生命吸収",
+              "intent": "Attack + Debuff",
+              "damage": "18 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ソウルネクサス",
+              "roomType": "Elite",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "ソウルネクサス"
+          ],
+          "movesSummary": "ソウルバーン: Attack (29 (Asc 31) dmg); メイルシュトローム: Attack (6x4 (Asc 7x4) dmg); 生命吸収: Attack + Debuff (18 (Asc 19) dmg)"
         }
       }
     },
@@ -3281,6 +4744,45 @@
             "骑士团伙"
           ],
           "movesSummary": "恶咒: Debuff; 灵魂斩击: Attack (15 (Asc 17) dmg); 灵魂火焰: Attack (3x3 (Asc 4x3) dmg)"
+        },
+        "ja": {
+          "name": "スペクトルナイト",
+          "type": "Elite",
+          "pattern": "Starts: 呪術 → ソウルスラッシュ",
+          "moves": [
+            {
+              "name": "呪術",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ソウルスラッシュ",
+              "intent": "Attack",
+              "damage": "15 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ソウルフレイム",
+              "intent": "Attack",
+              "damage": "3x3 (Asc 4x3) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "騎士のギャング",
+              "roomType": "Elite",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "騎士のギャング"
+          ],
+          "movesSummary": "呪術: Debuff; ソウルスラッシュ: Attack (15 (Asc 17) dmg); ソウルフレイム: Attack (3x3 (Asc 4x3) dmg)"
         }
       }
     },
@@ -3382,6 +4884,52 @@
             "骇鳗"
           ],
           "movesSummary": "撞击: Attack (16 (Asc 18) dmg); 撕扯: Attack + Buff (3x3 (Asc 4x3) dmg); Stun: Stun; +1 more"
+        },
+        "ja": {
+          "name": "テラーウツボ",
+          "type": "Elite",
+          "pattern": "クラッシュ → 大暴れ → repeat",
+          "moves": [
+            {
+              "name": "クラッシュ",
+              "intent": "Attack",
+              "damage": "16 (Asc 18) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "大暴れ",
+              "intent": "Attack + Buff",
+              "damage": "3x3 (Asc 4x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Stun",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "恐怖",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "テラーウツボ",
+              "roomType": "Elite",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "テラーウツボ"
+          ],
+          "movesSummary": "クラッシュ: Attack (16 (Asc 18) dmg); 大暴れ: Attack + Buff (3x3 (Asc 4x3) dmg); Stun: Stun; +1 more"
         }
       }
     },
@@ -3481,6 +5029,51 @@
             "扭动虫"
           ],
           "movesSummary": "污秽啃咬: Attack (6 (Asc 7) dmg); 扭动: Buff + Status; 生成: Stun"
+        },
+        "ja": {
+          "name": "リグラー",
+          "type": "Elite",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "厄介な噛みつき",
+              "intent": "Attack",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "うごめき",
+              "intent": "Buff + Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "出現",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "リグラー",
+              "roomType": "Monster",
+              "act": null
+            },
+            {
+              "name": "寄生キャエル",
+              "roomType": "Elite",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "リグラー",
+            "寄生キャエル"
+          ],
+          "movesSummary": "厄介な噛みつき: Attack (6 (Asc 7) dmg); うごめき: Buff + Status; 出現: Stun"
         }
       }
     },
@@ -3540,6 +5133,31 @@
             "红宝石劫掠者"
           ],
           "movesSummary": "致命射击: Attack (10 (Asc 11) dmg)"
+        },
+        "ja": {
+          "name": "アサシンレイダー",
+          "type": "Normal",
+          "pattern": "Always uses キルショット",
+          "moves": [
+            {
+              "name": "キルショット",
+              "intent": "Attack",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ルビーレイダーズ",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "ルビーレイダーズ"
+          ],
+          "movesSummary": "キルショット: Attack (10 (Asc 11) dmg)"
         }
       }
     },
@@ -3627,6 +5245,45 @@
             "红宝石劫掠者"
           ],
           "movesSummary": "Swing 1: Attack + Defend (5 (Asc 6) dmg, 5 block); Swing 2: Attack + Defend (5 (Asc 6) dmg, 5 block); 大力挥舞: Attack (12 (Asc 13) dmg)"
+        },
+        "ja": {
+          "name": "アックスレイダー",
+          "type": "Normal",
+          "pattern": "Swing 1 → Swing 2 → 大振り → repeat",
+          "moves": [
+            {
+              "name": "Swing 1",
+              "intent": "Attack + Defend",
+              "damage": "5 (Asc 6) damage",
+              "block": "5 block",
+              "heal": ""
+            },
+            {
+              "name": "Swing 2",
+              "intent": "Attack + Defend",
+              "damage": "5 (Asc 6) damage",
+              "block": "5 block",
+              "heal": ""
+            },
+            {
+              "name": "大振り",
+              "intent": "Attack",
+              "damage": "12 (Asc 13) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ルビーレイダーズ",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "ルビーレイダーズ"
+          ],
+          "movesSummary": "Swing 1: Attack + Defend (5 (Asc 6) dmg, 5 block); Swing 2: Attack + Defend (5 (Asc 6) dmg, 5 block); 大振り: Attack (12 (Asc 13) dmg)"
         }
       }
     },
@@ -3714,6 +5371,45 @@
             "巨斧机器人"
           ],
           "movesSummary": "启动: Defend + Buff (10 block); 两连击: Attack (9x2 (Asc 10x2) dmg); 上勾锤击: Attack + Debuff (12 (Asc 14) dmg)"
+        },
+        "ja": {
+          "name": "アックスマシン",
+          "type": "Normal",
+          "pattern": "Always uses 起動",
+          "moves": [
+            {
+              "name": "起動",
+              "intent": "Defend + Buff",
+              "damage": "",
+              "block": "10 block",
+              "heal": ""
+            },
+            {
+              "name": "ワンツー",
+              "intent": "Attack",
+              "damage": "9x2 (Asc 10x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ハンマーアッパー",
+              "intent": "Attack + Debuff",
+              "damage": "12 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "アックスマシン",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "アックスマシン"
+          ],
+          "movesSummary": "起動: Defend + Buff (10 block); ワンツー: Attack (9x2 (Asc 10x2) dmg); ハンマーアッパー: Attack + Debuff (12 (Asc 14) dmg)"
         }
       }
     },
@@ -3771,6 +5467,31 @@
             "历战假人"
           ],
           "movesSummary": "无: Unknown"
+        },
+        "ja": {
+          "name": "バトルフレンド V1.0",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "何もしない",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "歴戦のダミー",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "歴戦のダミー"
+          ],
+          "movesSummary": "何もしない: Unknown"
         }
       }
     },
@@ -3828,6 +5549,31 @@
             "历战假人"
           ],
           "movesSummary": "无: Unknown"
+        },
+        "ja": {
+          "name": "バトルフレンド V2.0",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "何もしない",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "歴戦のダミー",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "歴戦のダミー"
+          ],
+          "movesSummary": "何もしない: Unknown"
         }
       }
     },
@@ -3885,6 +5631,31 @@
             "历战假人"
           ],
           "movesSummary": "无: Unknown"
+        },
+        "ja": {
+          "name": "バトルフレンド V3.0",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "何もしない",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "歴戦のダミー",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "歴戦のダミー"
+          ],
+          "movesSummary": "何もしない: Unknown"
         }
       }
     },
@@ -3956,6 +5727,37 @@
             "盛碗虫群"
           ],
           "movesSummary": "啃咬: Attack + Defend (7 (Asc 8) dmg, 7 block)"
+        },
+        "ja": {
+          "name": "ボウルバグ（卵）",
+          "type": "Normal",
+          "pattern": "Always uses 噛みつき",
+          "moves": [
+            {
+              "name": "噛みつき",
+              "intent": "Attack + Defend",
+              "damage": "7 (Asc 8) damage",
+              "block": "7 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ボウルバグの群れ",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "ボウルバグ",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "ボウルバグ",
+            "ボウルバグの群れ"
+          ],
+          "movesSummary": "噛みつき: Attack + Defend (7 (Asc 8) dmg, 7 block)"
         }
       }
     },
@@ -4055,6 +5857,51 @@
             "盛碗虫群"
           ],
           "movesSummary": "撕扯: Attack (3 dmg); 强化: Buff; Thrash2: Attack (3 dmg)"
+        },
+        "ja": {
+          "name": "ボウルバグ（みつ）",
+          "type": "Normal",
+          "pattern": "大暴れ → 強化 → Thrash2 → repeat",
+          "moves": [
+            {
+              "name": "大暴れ",
+              "intent": "Attack",
+              "damage": "3 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "強化",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Thrash2",
+              "intent": "Attack",
+              "damage": "3 damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ボウルバグの群れ",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "ボウルバグ",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "ボウルバグ",
+            "ボウルバグの群れ"
+          ],
+          "movesSummary": "大暴れ: Attack (3 dmg); 強化: Buff; Thrash2: Attack (3 dmg)"
         }
       }
     },
@@ -4152,6 +5999,50 @@
             "盛碗虫群"
           ],
           "movesSummary": "头槌: Attack (15 (Asc 16) dmg); 昏头转向: Stun"
+        },
+        "ja": {
+          "name": "ボウルバグ（岩）",
+          "type": "Normal",
+          "pattern": "Starts with 頭突き",
+          "moves": [
+            {
+              "name": "頭突き",
+              "intent": "Attack",
+              "damage": "15 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "めまい",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ボウルバグの群れ",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "ボウルバグ",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "パジャマパーティー",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "パジャマパーティー",
+            "ボウルバグ",
+            "ボウルバグの群れ"
+          ],
+          "movesSummary": "頭突き: Attack (15 (Asc 16) dmg); めまい: Stun"
         }
       }
     },
@@ -4237,6 +6128,44 @@
             "盛碗虫群"
           ],
           "movesSummary": "撕扯: Attack (4x2 (Asc 5x2) dmg); 毒性喷吐: Debuff"
+        },
+        "ja": {
+          "name": "ボウルバグ（糸）",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "大暴れ",
+              "intent": "Attack",
+              "damage": "4x2 (Asc 5x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "酸液",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ボウルバグの群れ",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "パジャマパーティー",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "パジャマパーティー",
+            "ボウルバグの群れ"
+          ],
+          "movesSummary": "大暴れ: Attack (4x2 (Asc 5x2) dmg); 酸液: Debuff"
         }
       }
     },
@@ -4310,6 +6239,38 @@
             "红宝石劫掠者"
           ],
           "movesSummary": "殴打: Attack (7 (Asc 8) dmg); 怒吼: Buff"
+        },
+        "ja": {
+          "name": "ブルートレイダー",
+          "type": "Normal",
+          "pattern": "Always uses ビート",
+          "moves": [
+            {
+              "name": "ビート",
+              "intent": "Attack",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "咆哮",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ルビーレイダーズ",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "ルビーレイダーズ"
+          ],
+          "movesSummary": "ビート: Attack (7 (Asc 8) dmg); 咆哮: Buff"
         }
       }
     },
@@ -4351,6 +6312,23 @@
           "encounters": [],
           "encounterNames": [],
           "movesSummary": "无: Unknown"
+        },
+        "ja": {
+          "name": "ビャードのヒナ",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "何もしない",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "何もしない: Unknown"
         }
       }
     },
@@ -4436,6 +6414,44 @@
             "邪教徒们"
           ],
           "movesSummary": "念咒: Buff; 黑暗打击: Attack (9 (Asc 11) dmg)"
+        },
+        "ja": {
+          "name": "石を纏った狂信者",
+          "type": "Normal",
+          "pattern": "Always uses 祈祷",
+          "moves": [
+            {
+              "name": "祈祷",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ダークストライク",
+              "intent": "Attack",
+              "damage": "9 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "狂信者たち",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            },
+            {
+              "name": "地下ドックに生きるものたち",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "地下ドックに生きるものたち",
+            "狂信者たち"
+          ],
+          "movesSummary": "祈祷: Buff; ダークストライク: Attack (9 (Asc 11) dmg)"
         }
       }
     },
@@ -4521,6 +6537,44 @@
             "地道组合"
           ],
           "movesSummary": "猛夹: Attack (8x2 (Asc 9x2) dmg); 尖锐鸣叫: Status"
+        },
+        "ja": {
+          "name": "チョンパー",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "はさむ",
+              "intent": "Attack",
+              "damage": "8x2 (Asc 9x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "金切り声",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "オートマトンのコンビ",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "トンネリング",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "オートマトンのコンビ",
+            "トンネリング"
+          ],
+          "movesSummary": "はさむ: Attack (8x2 (Asc 9x2) dmg); 金切り声: Status"
         }
       }
     },
@@ -4620,6 +6674,51 @@
             "许多噬尸蛞蝓"
           ],
           "movesSummary": "鞭打: Attack (3x2 dmg); 扑上: Attack (8 (Asc 9) dmg); 黏液: Debuff"
+        },
+        "ja": {
+          "name": "屍ナメクジ",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "ムチ打ち",
+              "intent": "Attack",
+              "damage": "3x2 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "飛びつき",
+              "intent": "Attack",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "粘液",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "多数の屍ナメクジ",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            },
+            {
+              "name": "屍ナメクジ",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "多数の屍ナメクジ",
+            "屍ナメクジ"
+          ],
+          "movesSummary": "ムチ打ち: Attack (3x2 dmg); 飛びつき: Attack (8 (Asc 9) dmg); 粘液: Debuff"
         }
       }
     },
@@ -4693,6 +6792,38 @@
             "红宝石劫掠者"
           ],
           "movesSummary": "射击！: Attack (14 (Asc 16) dmg); 装填: Defend (3 block)"
+        },
+        "ja": {
+          "name": "クロスボウレイダー",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "発射！",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "リロード",
+              "intent": "Defend",
+              "damage": "",
+              "block": "3 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ルビーレイダーズ",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "ルビーレイダーズ"
+          ],
+          "movesSummary": "発射！: Attack (14 (Asc 16) dmg); リロード: Defend (3 block)"
         }
       }
     },
@@ -4807,6 +6938,58 @@
             "方柱构装体"
           ],
           "movesSummary": "蓄能: Buff; 重复轰击: Attack + Buff (7 (Asc 8) dmg); Repeater Blast Move 2: Attack + Buff (7 (Asc 8) dmg); +1 more"
+        },
+        "ja": {
+          "name": "キューベックス",
+          "type": "Normal",
+          "pattern": "チャージアップ → リピーターブラスト → Repeater Blast Move 2 → 排出 → repeat",
+          "moves": [
+            {
+              "name": "チャージアップ",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "リピーターブラスト",
+              "intent": "Attack + Buff",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Repeater Blast Move 2",
+              "intent": "Attack + Buff",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "排出",
+              "intent": "Attack",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "機械兵の動物園",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            },
+            {
+              "name": "キューベックス",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "キューベックス",
+            "機械兵の動物園"
+          ],
+          "movesSummary": "チャージアップ: Buff; リピーターブラスト: Attack + Buff (7 (Asc 8) dmg); Repeater Blast Move 2: Attack + Buff (7 (Asc 8) dmg); +1 more"
         }
       }
     },
@@ -4880,6 +7063,38 @@
             "邪教徒们"
           ],
           "movesSummary": "念咒: Buff; 黑暗打击: Attack (1 (Asc 3) dmg)"
+        },
+        "ja": {
+          "name": "湿った狂信者",
+          "type": "Normal",
+          "pattern": "Always uses 祈祷",
+          "moves": [
+            {
+              "name": "祈祷",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ダークストライク",
+              "intent": "Attack",
+              "damage": "1 (Asc 3) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "狂信者たち",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "狂信者たち"
+          ],
+          "movesSummary": "祈祷: Buff; ダークストライク: Attack (1 (Asc 3) dmg)"
         }
       }
     },
@@ -4953,6 +7168,38 @@
             "虔诚雕刻师"
           ],
           "movesSummary": "禁忌唱诵: Buff; 猛烈攻击: Attack (12 (Asc 15) dmg)"
+        },
+        "ja": {
+          "name": "狂信の彫刻家",
+          "type": "Normal",
+          "pattern": "Always uses 禁じられた祈り",
+          "moves": [
+            {
+              "name": "禁じられた祈り",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "野蛮な一撃",
+              "intent": "Attack",
+              "damage": "12 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "狂信の彫刻家",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "狂信の彫刻家"
+          ],
+          "movesSummary": "禁じられた祈り: Buff; 野蛮な一撃: Attack (12 (Asc 15) dmg)"
         }
       }
     },
@@ -5052,6 +7299,51 @@
             "许多外骨骼虫"
           ],
           "movesSummary": "忙乱: Attack (1x3 dmg); 啃食: Attack (8 (Asc 9) dmg); 激怒: Buff"
+        },
+        "ja": {
+          "name": "外骨格蟲",
+          "type": "Normal",
+          "pattern": "then random: 這い回る (no repeat), 大顎 (no repeat); then conditional: 這い回る (if in first slot) / 大顎 (if in second slot) / 激怒 (if in third slot) / Rand (if in fourth slot)",
+          "moves": [
+            {
+              "name": "這い回る",
+              "intent": "Attack",
+              "damage": "1x3 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "大顎",
+              "intent": "Attack",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "激怒",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "数多の外骨格蟲",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "外骨格蟲",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "外骨格蟲",
+            "数多の外骨格蟲"
+          ],
+          "movesSummary": "這い回る: Attack (1x3 dmg); 大顎: Attack (8 (Asc 9) dmg); 激怒: Buff"
         }
       }
     },
@@ -5111,6 +7403,31 @@
             "雾菇"
           ],
           "movesSummary": "牵制: Status"
+        },
+        "ja": {
+          "name": "牙むく眼",
+          "type": "Normal",
+          "pattern": "Always uses 目くらまし",
+          "moves": [
+            {
+              "name": "目くらまし",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "フォグモグ",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "フォグモグ"
+          ],
+          "movesSummary": "目くらまし: Status"
         }
       }
     },
@@ -5198,6 +7515,45 @@
             "组装师"
           ],
           "movesSummary": "组装: Summon; 组装打击: Attack + Summon (18 (Asc 21) dmg); 瓦解: Attack (11 (Asc 13) dmg)"
+        },
+        "ja": {
+          "name": "ファブリケーター",
+          "type": "Normal",
+          "pattern": "then random: 製造, 製造ストライク; then conditional: Rand (if can fabricate) / 崩壊 (if cannot fabricate)",
+          "moves": [
+            {
+              "name": "製造",
+              "intent": "Summon",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "製造ストライク",
+              "intent": "Attack + Summon",
+              "damage": "18 (Asc 21) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "崩壊",
+              "intent": "Attack",
+              "damage": "11 (Asc 13) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ファブリケーター",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "ファブリケーター"
+          ],
+          "movesSummary": "製造: Summon; 製造ストライク: Attack + Summon (18 (Asc 21) dmg); 崩壊: Attack (11 (Asc 13) dmg)"
         }
       }
     },
@@ -5271,6 +7627,38 @@
             "穿着一件大衣的两只地精"
           ],
           "movesSummary": "醒来: Stun; 逃跑: Escape"
+        },
+        "ja": {
+          "name": "ファットグレムリン",
+          "type": "Normal",
+          "pattern": "Always uses 目覚め",
+          "moves": [
+            {
+              "name": "目覚め",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "逃走",
+              "intent": "Escape",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "トレンチコートのグレムリン",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "トレンチコートのグレムリン"
+          ],
+          "movesSummary": "目覚め: Stun; 逃走: Escape"
         }
       }
     },
@@ -5370,6 +7758,51 @@
             "真菌与史莱姆"
           ],
           "movesSummary": "易伤孢子: Debuff (8 (Asc 9) dmg); 脆弱孢子: Attack + Debuff (8 (Asc 9) dmg); 猛砸: Attack (11 (Asc 12) dmg)"
+        },
+        "ja": {
+          "name": "フライコニド",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "弱体の胞子",
+              "intent": "Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "脆弱の胞子",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "スマッシュ",
+              "intent": "Attack",
+              "damage": "11 (Asc 12) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "キノコとスライム",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "繁茂の地の植物",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "キノコとスライム",
+            "繁茂の地の植物"
+          ],
+          "movesSummary": "弱体の胞子: Debuff (8 (Asc 9) dmg); 脆弱の胞子: Attack + Debuff (8 (Asc 9) dmg); スマッシュ: Attack (11 (Asc 12) dmg)"
         }
       }
     },
@@ -5471,6 +7904,52 @@
             "雾菇"
           ],
           "movesSummary": "虚幻孢子: Summon; 重击: Attack + Buff (8 (Asc 9) dmg); Swipe Random: Attack + Buff (8 (Asc 9) dmg); +1 more"
+        },
+        "ja": {
+          "name": "フォグモグ",
+          "type": "Normal",
+          "pattern": "Starts with 幻惑の胞子, then random: Swipe Random (no repeat, 40%), Headbutt (no repeat, 60%)",
+          "moves": [
+            {
+              "name": "幻惑の胞子",
+              "intent": "Summon",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "痛撃",
+              "intent": "Attack + Buff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Swipe Random",
+              "intent": "Attack + Buff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Headbutt",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "フォグモグ",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "フォグモグ"
+          ],
+          "movesSummary": "幻惑の胞子: Summon; 痛撃: Attack + Buff (8 (Asc 9) dmg); Swipe Random: Attack + Buff (8 (Asc 9) dmg); +1 more"
         }
       }
     },
@@ -5558,6 +8037,45 @@
             "化石追踪者"
           ],
           "movesSummary": "冲撞: Attack + Debuff (9 (Asc 11) dmg); 缠上: Attack (12 (Asc 14) dmg); 甩动: Attack (3x2 (Asc 4x2) dmg)"
+        },
+        "ja": {
+          "name": "化石のストーカー",
+          "type": "Normal",
+          "pattern": "Starts with ラッチ",
+          "moves": [
+            {
+              "name": "体当たり",
+              "intent": "Attack + Debuff",
+              "damage": "9 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ラッチ",
+              "intent": "Attack",
+              "damage": "12 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ムチ打ち",
+              "intent": "Attack",
+              "damage": "3x2 (Asc 4x2) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "化石のストーカー",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "化石のストーカー"
+          ],
+          "movesSummary": "体当たり: Attack + Debuff (9 (Asc 11) dmg); ラッチ: Attack (12 (Asc 14) dmg); ムチ打ち: Attack (3x2 (Asc 4x2) dmg)"
         }
       }
     },
@@ -5659,6 +8177,52 @@
             "青蛙骑士"
           ],
           "movesSummary": "为了女王: Buff; 惩恶一击: Attack (21 (Asc 23) dmg); 吐舌: Attack + Debuff (13 (Asc 14) dmg); +1 more"
+        },
+        "ja": {
+          "name": "カエルの騎士",
+          "type": "Normal",
+          "pattern": "Starts: ベロラッシュ → 悪を討つ → 女王のために; then conditional: ベロラッシュ (if HasBeetleCharged || CurrentHp >= MaxHp / 2) / ビートルチャージ (if !HasBeetleCharged && CurrentHp < MaxHp / 2)",
+          "moves": [
+            {
+              "name": "女王のために",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "悪を討つ",
+              "intent": "Attack",
+              "damage": "21 (Asc 23) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ベロラッシュ",
+              "intent": "Attack + Debuff",
+              "damage": "13 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ビートルチャージ",
+              "intent": "Attack",
+              "damage": "35 (Asc 40) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "カエルの騎士",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "カエルの騎士"
+          ],
+          "movesSummary": "女王のために: Buff; 悪を討つ: Attack (21 (Asc 23) dmg); ベロラッシュ: Attack + Debuff (13 (Asc 14) dmg); +1 more"
         }
       }
     },
@@ -5758,6 +8322,51 @@
             "毛绒伏地虫"
           ],
           "movesSummary": "First Acid Goop: Attack (4 (Asc 6) dmg); 酸液黏球: Attack (4 (Asc 6) dmg); 吸入: Buff"
+        },
+        "ja": {
+          "name": "剛毛のワーム",
+          "type": "Normal",
+          "pattern": "Always uses First Acid Goop",
+          "moves": [
+            {
+              "name": "First Acid Goop",
+              "intent": "Attack",
+              "damage": "4 (Asc 6) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "酸の粘液",
+              "intent": "Attack",
+              "damage": "4 (Asc 6) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "吸い込み",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "剛毛のワーム",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "繁茂の地のクローラー",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "剛毛のワーム",
+            "繁茂の地のクローラー"
+          ],
+          "movesSummary": "First Acid Goop: Attack (4 (Asc 6) dmg); 酸の粘液: Attack (4 (Asc 6) dmg); 吸い込み: Buff"
         }
       }
     },
@@ -5817,6 +8426,31 @@
             "邪恶气体"
           ],
           "movesSummary": "爆炸: Special (8 (Asc 9) dmg)"
+        },
+        "ja": {
+          "name": "ガス爆弾",
+          "type": "Normal",
+          "pattern": "Always uses 爆発",
+          "moves": [
+            {
+              "name": "爆発",
+              "intent": "Special",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "邪悪なガス",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "邪悪なガス"
+          ],
+          "movesSummary": "爆発: Special (8 (Asc 9) dmg)"
         }
       }
     },
@@ -5904,6 +8538,45 @@
             "一个孤单的电球头"
           ],
           "movesSummary": "生成闪电: Attack (6x3 (Asc 7x3) dmg); 电击掌: Attack + Debuff (13 (Asc 14) dmg); Galvanic Burst: Attack + Buff (16 (Asc 17) dmg)"
+        },
+        "ja": {
+          "name": "グローブヘッド",
+          "type": "Normal",
+          "pattern": "ショッキングスラップ → ライトニング生成 → Galvanic Burst → repeat",
+          "moves": [
+            {
+              "name": "ライトニング生成",
+              "intent": "Attack",
+              "damage": "6x3 (Asc 7x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ショッキングスラップ",
+              "intent": "Attack + Debuff",
+              "damage": "13 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Galvanic Burst",
+              "intent": "Attack + Buff",
+              "damage": "16 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "孤独なグローブヘッド",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "孤独なグローブヘッド"
+          ],
+          "movesSummary": "ライトニング生成: Attack (6x3 (Asc 7x3) dmg); ショッキングスラップ: Attack + Debuff (13 (Asc 14) dmg); Galvanic Burst: Attack + Buff (16 (Asc 17) dmg)"
         }
       }
     },
@@ -5991,6 +8664,45 @@
             "穿着一件大衣的两只地精"
           ],
           "movesSummary": "拿来: Attack (7x2 (Asc 8x2) dmg); 双重猛击: Attack + Debuff (6x2 (Asc 7x2) dmg); 嘿嘿: Attack + Buff (8 (Asc 9) dmg)"
+        },
+        "ja": {
+          "name": "傭兵グレムリン",
+          "type": "Normal",
+          "pattern": "よこせ → ダブルスマッシュ → ヘヘッ → repeat",
+          "moves": [
+            {
+              "name": "よこせ",
+              "intent": "Attack",
+              "damage": "7x2 (Asc 8x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ダブルスマッシュ",
+              "intent": "Attack + Debuff",
+              "damage": "6x2 (Asc 7x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ヘヘッ",
+              "intent": "Attack + Buff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "トレンチコートのグレムリン",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "トレンチコートのグレムリン"
+          ],
+          "movesSummary": "よこせ: Attack (7x2 (Asc 8x2) dmg); ダブルスマッシュ: Attack + Debuff (6x2 (Asc 7x2) dmg); ヘヘッ: Attack + Buff (8 (Asc 9) dmg)"
         }
       }
     },
@@ -6032,6 +8744,23 @@
           "encounters": [],
           "encounterNames": [],
           "movesSummary": "守护: Defend (15 block)"
+        },
+        "ja": {
+          "name": "ガードマシン",
+          "type": "Normal",
+          "pattern": "Always uses ガード",
+          "moves": [
+            {
+              "name": "ガード",
+              "intent": "Defend",
+              "damage": "",
+              "block": "15 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "ガード: Defend (15 block)"
         }
       }
     },
@@ -6119,6 +8848,45 @@
             "幽灵船"
           ],
           "movesSummary": "扫击: Attack (13 (Asc 14) dmg); 践踏: Attack (4x3 (Asc 5x3) dmg); 纠缠: Debuff + Status"
+        },
+        "ja": {
+          "name": "幽霊船",
+          "type": "Normal",
+          "pattern": "Always uses 取り憑く",
+          "moves": [
+            {
+              "name": "なぎ払い",
+              "intent": "Attack",
+              "damage": "13 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "踏みつけ",
+              "intent": "Attack",
+              "damage": "4x3 (Asc 5x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "取り憑く",
+              "intent": "Debuff + Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "幽霊船",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "幽霊船"
+          ],
+          "movesSummary": "なぎ払い: Attack (13 (Asc 14) dmg); 踏みつけ: Attack (4x3 (Asc 5x3) dmg); 取り憑く: Debuff + Status"
         }
       }
     },
@@ -6206,6 +8974,45 @@
             "猎人杀手"
           ],
           "movesSummary": "嫩化黏液: Debuff; 啃咬: Attack (17 (Asc 19) dmg); 刺穿: Attack (7x3 (Asc 8x3) dmg)"
+        },
+        "ja": {
+          "name": "ハンターキラー",
+          "type": "Normal",
+          "pattern": "Starts with 軟化の粘液",
+          "moves": [
+            {
+              "name": "軟化の粘液",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "噛みつき",
+              "intent": "Attack",
+              "damage": "17 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "穿刺",
+              "intent": "Attack",
+              "damage": "7x3 (Asc 8x3) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ハンターキラー",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "ハンターキラー"
+          ],
+          "movesSummary": "軟化の粘液: Debuff; 噛みつき: Attack (17 (Asc 19) dmg); 穿刺: Attack (7x3 (Asc 8x3) dmg)"
         }
       }
     },
@@ -6293,6 +9100,45 @@
             "墨宝"
           ],
           "movesSummary": "刺击: Attack (3 (Asc 4) dmg); 旋风: Attack (2x3 (Asc 3x3) dmg); 锐利凝视: Attack (10 (Asc 11) dmg)"
+        },
+        "ja": {
+          "name": "インクレット",
+          "type": "Normal",
+          "pattern": "Starts: 旋風 → ジャブ; then random: ジャブ, 旋風 (no repeat); then random: 鋭い視線 (no repeat), 旋風 (no repeat)",
+          "moves": [
+            {
+              "name": "ジャブ",
+              "intent": "Attack",
+              "damage": "3 (Asc 4) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "旋風",
+              "intent": "Attack",
+              "damage": "2x3 (Asc 3x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "鋭い視線",
+              "intent": "Attack",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "インクレット",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "インクレット"
+          ],
+          "movesSummary": "ジャブ: Attack (3 (Asc 4) dmg); 旋風: Attack (2x3 (Asc 3x3) dmg); 鋭い視線: Attack (10 (Asc 11) dmg)"
         }
       }
     },
@@ -6402,6 +9248,56 @@
             "真菌与史莱姆"
           ],
           "movesSummary": "团块射击: Attack (8 (Asc 9) dmg); 黏糊射击: Status"
+        },
+        "ja": {
+          "name": "リーフスライム (中)",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "塊ショット",
+              "intent": "Attack",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "粘着ショット",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "キノコとスライム",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "スライムの大群",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "スライムの群れ",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "絞蛇と友達",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "キノコとスライム",
+            "スライムの大群",
+            "スライムの群れ",
+            "絞蛇と友達"
+          ],
+          "movesSummary": "塊ショット: Attack (8 (Asc 9) dmg); 粘着ショット: Status"
         }
       }
     },
@@ -6499,6 +9395,50 @@
             "扼杀者与伙伴"
           ],
           "movesSummary": "冲撞: Attack (3 (Asc 4) dmg); 黏液: Status"
+        },
+        "ja": {
+          "name": "リーフスライム (小)",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "体当たり",
+              "intent": "Attack",
+              "damage": "3 (Asc 4) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "粘液",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "スライムの大群",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "スライムの群れ",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "絞蛇と友達",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "スライムの大群",
+            "スライムの群れ",
+            "絞蛇と友達"
+          ],
+          "movesSummary": "体当たり: Attack (3 (Asc 4) dmg); 粘液: Status"
         }
       }
     },
@@ -6586,6 +9526,45 @@
             "邪恶气体"
           ],
           "movesSummary": "先进毒气: Attack + Debuff (8 (Asc 9) dmg); 膨胀: Attack + Summon (5 (Asc 6) dmg); 超级毒气爆炸: Attack (8 (Asc 9) dmg)"
+        },
+        "ja": {
+          "name": "生きた霧",
+          "type": "Normal",
+          "pattern": "濃縮ガス → 膨張 → ガス大爆発 → repeat",
+          "moves": [
+            {
+              "name": "濃縮ガス",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "膨張",
+              "intent": "Attack + Summon",
+              "damage": "5 (Asc 6) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ガス大爆発",
+              "intent": "Attack",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "邪悪なガス",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "邪悪なガス"
+          ],
+          "movesSummary": "濃縮ガス: Attack + Debuff (8 (Asc 9) dmg); 膨張: Attack + Summon (5 (Asc 6) dmg); ガス大爆発: Attack (8 (Asc 9) dmg)"
         }
       }
     },
@@ -6659,6 +9638,38 @@
             "高塔炮手"
           ],
           "movesSummary": "盾击: Attack (6 dmg); 砸击: Attack + Buff (16 (Asc 18) dmg)"
+        },
+        "ja": {
+          "name": "リビングシールド",
+          "type": "Normal",
+          "pattern": "Starts with シールドスラム; then conditional: シールドスラム (if has allies) / スマッシュ (if no allies)",
+          "moves": [
+            {
+              "name": "シールドスラム",
+              "intent": "Attack",
+              "damage": "6 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "スマッシュ",
+              "intent": "Attack + Buff",
+              "damage": "16 (Asc 18) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "タレットオペレーター",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "タレットオペレーター"
+          ],
+          "movesSummary": "シールドスラム: Attack (6 dmg); スマッシュ: Attack + Buff (16 (Asc 18) dmg)"
         }
       }
     },
@@ -6746,6 +9757,45 @@
             "虱虫之祖"
           ],
           "movesSummary": "吐网炮: Attack + Debuff (9 (Asc 10) dmg); 猛扑: Attack (14 (Asc 16) dmg); 蜷身成长: Defend + Buff (14 block)"
+        },
+        "ja": {
+          "name": "始祖虫",
+          "type": "Normal",
+          "pattern": "Always uses ウェブ・キャノン",
+          "moves": [
+            {
+              "name": "ウェブ・キャノン",
+              "intent": "Attack + Debuff",
+              "damage": "9 (Asc 10) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "飛び掛かり",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "まるくなり成長",
+              "intent": "Defend + Buff",
+              "damage": "",
+              "block": "14 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "始祖ラミー",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "始祖ラミー"
+          ],
+          "movesSummary": "ウェブ・キャノン: Attack + Debuff (9 (Asc 10) dmg); 飛び掛かり: Attack (14 (Asc 16) dmg); まるくなり成長: Defend + Buff (14 block)"
         }
       }
     },
@@ -6833,6 +9883,45 @@
             "蛮兽"
           ],
           "movesSummary": "狂乱撕扯: Attack (14 (Asc 16) dmg); 怒吼: Debuff; 爪击: Attack (4x2 (Asc 5x2) dmg)"
+        },
+        "ja": {
+          "name": "モーラー",
+          "type": "Normal",
+          "pattern": "Starts with 爪; then random: 引き裂き (no repeat), 咆哮 (once), 爪 (no repeat)",
+          "moves": [
+            {
+              "name": "引き裂き",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "咆哮",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "爪",
+              "intent": "Attack",
+              "damage": "4x2 (Asc 5x2) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "モーラー",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "モーラー"
+          ],
+          "movesSummary": "引き裂き: Attack (14 (Asc 16) dmg); 咆哮: Debuff; 爪: Attack (4x2 (Asc 5x2) dmg)"
         }
       }
     },
@@ -6918,6 +10007,45 @@
             "神秘骑士"
           ],
           "movesSummary": "战争吟唱: Buff; 连枷: Attack (9x2 (Asc 10x2) dmg); 撞击: Attack (15 (Asc 17) dmg)"
+        },
+        "ja": {
+          "name": "謎の騎士",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "戦いの歌",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "フレイル",
+              "intent": "Attack",
+              "damage": "9x2 (Asc 10x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "打ち込み",
+              "intent": "Attack",
+              "damage": "15 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "謎の騎士",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "謎の騎士"
+          ],
+          "movesSummary": "戦いの歌: Buff; フレイル: Attack (9x2 (Asc 10x2) dmg); 打ち込み: Attack (15 (Asc 17) dmg)"
         }
       }
     },
@@ -7005,6 +10133,45 @@
             "一群异螨"
           ],
           "movesSummary": "浓毒: Status; 啃咬: Attack (13 (Asc 15) dmg); 吸吮: Attack + Buff (4 (Asc 6) dmg)"
+        },
+        "ja": {
+          "name": "マイト",
+          "type": "Normal",
+          "pattern": "then conditional: 毒角 (if in first slot) / 吸い取る (if in second slot)",
+          "moves": [
+            {
+              "name": "毒角",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "噛みつき",
+              "intent": "Attack",
+              "damage": "13 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "吸い取る",
+              "intent": "Attack + Buff",
+              "damage": "4 (Asc 6) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "マイトの群れ",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "マイトの群れ"
+          ],
+          "movesSummary": "毒角: Status; 噛みつき: Attack (13 (Asc 15) dmg); 吸い取る: Attack + Buff (4 (Asc 6) dmg)"
         }
       }
     },
@@ -7104,6 +10271,51 @@
             "两只小啃兽"
           ],
           "movesSummary": "顶撞: Attack (12 (Asc 13) dmg); Slice: Attack + Defend (6 (Asc 7) dmg, 5 block); 哈气: Buff"
+        },
+        "ja": {
+          "name": "ニビット",
+          "type": "Normal",
+          "pattern": "then conditional: バット (if alone) / 威嚇 (if not in front) / Slice (if in front)",
+          "moves": [
+            {
+              "name": "バット",
+              "intent": "Attack",
+              "damage": "12 (Asc 13) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Slice",
+              "intent": "Attack + Defend",
+              "damage": "6 (Asc 7) damage",
+              "block": "5 block",
+              "heal": ""
+            },
+            {
+              "name": "威嚇",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ニビットのコンビ",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "孤独なニビット",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "ニビットのコンビ",
+            "孤独なニビット"
+          ],
+          "movesSummary": "バット: Attack (12 (Asc 13) dmg); Slice: Attack + Defend (6 (Asc 7) dmg, 5 block); 威嚇: Buff"
         }
       }
     },
@@ -7145,6 +10357,23 @@
           "encounters": [],
           "encounterNames": [],
           "movesSummary": "噪音: Status"
+        },
+        "ja": {
+          "name": "ノイズマシン",
+          "type": "Normal",
+          "pattern": "Always uses ノイズ",
+          "moves": [
+            {
+              "name": "ノイズ",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "ノイズ: Status"
         }
       }
     },
@@ -7172,6 +10401,23 @@
       "translations": {
         "zhHans": {
           "name": "奥斯提",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "Nothing",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "Nothing: Unknown"
+        },
+        "ja": {
+          "name": "オスティ",
           "type": "Normal",
           "pattern": "",
           "moves": [
@@ -7287,6 +10533,52 @@
             "直飞产卵虫"
           ],
           "movesSummary": "产卵: Summon; 猛砸: Attack (16 (Asc 17) dmg); 嫩化: Attack + Debuff (7 (Asc 8) dmg); +1 more"
+        },
+        "ja": {
+          "name": "オビコプター",
+          "type": "Normal",
+          "pattern": "Starts: 産卵 → スマッシュ → テンダライザー; then conditional: 産卵 (if can lay) / 栄養ペースト (if cannot lay)",
+          "moves": [
+            {
+              "name": "産卵",
+              "intent": "Summon",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "スマッシュ",
+              "intent": "Attack",
+              "damage": "16 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "テンダライザー",
+              "intent": "Attack + Debuff",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "栄養ペースト",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "オビコプター",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "オビコプター"
+          ],
+          "movesSummary": "産卵: Summon; スマッシュ: Attack (16 (Asc 17) dmg); テンダライザー: Attack + Debuff (7 (Asc 8) dmg); +1 more"
         }
       }
     },
@@ -7388,6 +10680,52 @@
             "猫头鹰法官"
           ],
           "movesSummary": "法官审查: Attack (16 (Asc 17) dmg); 猛啄袭击: Attack (4x6 dmg); 飞法行为: Buff; +1 more"
+        },
+        "ja": {
+          "name": "フクロウ判事",
+          "type": "Normal",
+          "pattern": "判事の監視 → 強襲つっつき → 司法の飛行 → 評決 → repeat",
+          "moves": [
+            {
+              "name": "判事の監視",
+              "intent": "Attack",
+              "damage": "16 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "強襲つっつき",
+              "intent": "Attack",
+              "damage": "4x6 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "司法の飛行",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "評決",
+              "intent": "Attack + Debuff",
+              "damage": "33 (Asc 36) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "裁きのフクロウ",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "裁きのフクロウ"
+          ],
+          "movesSummary": "判事の監視: Attack (16 (Asc 17) dmg); 強襲つっつき: Attack (4x6 dmg); 司法の飛行: Buff; +1 more"
         }
       }
     },
@@ -7429,6 +10767,23 @@
           "encounters": [],
           "encounterNames": [],
           "movesSummary": "无: Unknown"
+        },
+        "ja": {
+          "name": "パエルの肉兵",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "何もしない",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "何もしない: Unknown"
         }
       }
     },
@@ -7488,6 +10843,31 @@
             "胧光怪"
           ],
           "movesSummary": "砸击: Attack (16 (Asc 17) dmg)"
+        },
+        "ja": {
+          "name": "パラフライト",
+          "type": "Normal",
+          "pattern": "Always uses スラム",
+          "moves": [
+            {
+              "name": "スラム",
+              "intent": "Attack",
+              "damage": "16 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "オブスキュラ",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "オブスキュラ"
+          ],
+          "movesSummary": "スラム: Attack (16 (Asc 17) dmg)"
         }
       }
     },
@@ -7599,6 +10979,56 @@
             "拳击构装体"
           ],
           "movesSummary": "准备就绪: Defend (10 block); 强力拳: Attack (14 (Asc 16) dmg); 快速拳: Attack + Debuff (5x2 (Asc 6x2) dmg)"
+        },
+        "ja": {
+          "name": "パンチマシン",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "準備完了",
+              "intent": "Defend",
+              "damage": "",
+              "block": "10 block",
+              "heal": ""
+            },
+            {
+              "name": "ストロングパンチ",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ファストパンチ",
+              "intent": "Attack + Debuff",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "機械兵の動物園",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            },
+            {
+              "name": "パンチマシーン",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            },
+            {
+              "name": "パンチマシーン",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "パンチマシーン",
+            "機械兵の動物園"
+          ],
+          "movesSummary": "準備完了: Defend (10 block); ストロングパンチ: Attack (14 (Asc 16) dmg); ファストパンチ: Attack + Debuff (5x2 (Asc 6x2) dmg)"
         }
       }
     },
@@ -7698,6 +11128,51 @@
             "许多咬人卷轴"
           ],
           "movesSummary": "大啃: Attack (14 (Asc 16) dmg); 咀嚼: Attack (5x2 (Asc 6x2) dmg); 更多牙齿: Buff"
+        },
+        "ja": {
+          "name": "噛みつきの巻物",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "噛み砕く",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "咀嚼",
+              "intent": "Attack",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "もっと歯を",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "多数の噛みつきの巻物",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            },
+            {
+              "name": "噛みつきの巻物",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "噛みつきの巻物",
+            "多数の噛みつきの巻物"
+          ],
+          "movesSummary": "噛み砕く: Attack (14 (Asc 16) dmg); 咀嚼: Attack (5x2 (Asc 6x2) dmg); もっと歯を: Buff"
         }
       }
     },
@@ -7797,6 +11272,51 @@
             "海洋混混"
           ],
           "movesSummary": "海洋踢: Attack (11 (Asc 13) dmg); 回旋踢: Attack (2x4 dmg); 吐泡泡: Buff + Defend (7 block)"
+        },
+        "ja": {
+          "name": "シーパンク",
+          "type": "Normal",
+          "pattern": "シーキック → スピニングキック → バブルゲップ → repeat",
+          "moves": [
+            {
+              "name": "シーキック",
+              "intent": "Attack",
+              "damage": "11 (Asc 13) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "スピニングキック",
+              "intent": "Attack",
+              "damage": "2x4 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "バブルゲップ",
+              "intent": "Buff + Defend",
+              "damage": "",
+              "block": "7 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "地下ドックに生きるものたち",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            },
+            {
+              "name": "シーパンク",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "シーパンク",
+            "地下ドックに生きるものたち"
+          ],
+          "movesSummary": "シーキック: Attack (11 (Asc 13) dmg); スピニングキック: Attack (2x4 dmg); バブルゲップ: Buff + Defend (7 block)"
         }
       }
     },
@@ -7870,6 +11390,38 @@
             "下水道蚌"
           ],
           "movesSummary": "增压: Buff; 喷射: Attack (10 (Asc 11) dmg)"
+        },
+        "ja": {
+          "name": "下水貝",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "加圧",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ジェット",
+              "intent": "Attack",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "下水貝",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "下水貝"
+          ],
+          "movesSummary": "加圧: Buff; ジェット: Attack (10 (Asc 11) dmg)"
         }
       }
     },
@@ -7969,6 +11521,51 @@
             "缩小甲虫"
           ],
           "movesSummary": "缩小: Debuff; 大啃: Attack (7 (Asc 8) dmg); 践踏: Attack (13 (Asc 14) dmg)"
+        },
+        "ja": {
+          "name": "シュリンカービートル",
+          "type": "Normal",
+          "pattern": "シュリンカー → 噛み砕く → 踏みつけ → repeat",
+          "moves": [
+            {
+              "name": "シュリンカー",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "噛み砕く",
+              "intent": "Attack",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "踏みつけ",
+              "intent": "Attack",
+              "damage": "13 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "繁茂の地のクローラー",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "シュリンカービートル",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "シュリンカービートル",
+            "繁茂の地のクローラー"
+          ],
+          "movesSummary": "シュリンカー: Debuff; 噛み砕く: Attack (7 (Asc 8) dmg); 踏みつけ: Attack (13 (Asc 14) dmg)"
         }
       }
     },
@@ -8070,6 +11667,52 @@
             "史莱姆狂战士"
           ],
           "movesSummary": "喷吐脓水: Status; 汲取之拥: Debuff + Buff; Smother: Attack (30 (Asc 33) dmg); +1 more"
+        },
+        "ja": {
+          "name": "スライムバーサーカー",
+          "type": "Normal",
+          "pattern": "Always uses 霊液噴出",
+          "moves": [
+            {
+              "name": "霊液噴出",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "吸血ハグ",
+              "intent": "Debuff + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Smother",
+              "intent": "Attack",
+              "damage": "30 (Asc 33) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "猛烈な殴打",
+              "intent": "Attack",
+              "damage": "4x4 (Asc 5x4) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "スライムバーサーカー",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "スライムバーサーカー"
+          ],
+          "movesSummary": "霊液噴出: Status; 吸血ハグ: Debuff + Buff; Smother: Attack (30 (Asc 33) dmg); +1 more"
         }
       }
     },
@@ -8157,6 +11800,45 @@
             "扼杀者与伙伴"
           ],
           "movesSummary": "缠身: Debuff; 重击: Attack + Defend (7 (Asc 8) dmg, 5 block); 甩动: Attack (12 (Asc 13) dmg)"
+        },
+        "ja": {
+          "name": "絞蛇",
+          "type": "Normal",
+          "pattern": "Starts with 締め付け",
+          "moves": [
+            {
+              "name": "締め付け",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "痛撃",
+              "intent": "Attack + Defend",
+              "damage": "7 (Asc 8) damage",
+              "block": "5 block",
+              "heal": ""
+            },
+            {
+              "name": "ムチ打ち",
+              "intent": "Attack",
+              "damage": "12 (Asc 13) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "絞蛇と友達",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "絞蛇と友達"
+          ],
+          "movesSummary": "締め付け: Debuff; 痛撃: Attack + Defend (7 (Asc 8) dmg, 5 block); ムチ打ち: Attack (12 (Asc 13) dmg)"
         }
       }
     },
@@ -8244,6 +11926,45 @@
             "淤泥旋螺"
           ],
           "movesSummary": "喷油: Attack + Debuff (8 (Asc 9) dmg); 砸击: Attack (11 (Asc 12) dmg); 狂怒: Attack + Buff (6 (Asc 7) dmg)"
+        },
+        "ja": {
+          "name": "スラッジスピナー",
+          "type": "Normal",
+          "pattern": "Starts with オイルスプレー",
+          "moves": [
+            {
+              "name": "オイルスプレー",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "スラム",
+              "intent": "Attack",
+              "damage": "11 (Asc 12) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "激怒",
+              "intent": "Attack + Buff",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "スラッジスピナー",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "スラッジスピナー"
+          ],
+          "movesSummary": "オイルスプレー: Attack + Debuff (8 (Asc 9) dmg); スラム: Attack (11 (Asc 12) dmg); 激怒: Attack + Buff (6 (Asc 7) dmg)"
         }
       }
     },
@@ -8317,6 +12038,38 @@
             "熟睡派对"
           ],
           "movesSummary": "打鼾: Sleep; 出击: Attack + Buff (16 (Asc 18) dmg)"
+        },
+        "ja": {
+          "name": "眠れるビートル",
+          "type": "Normal",
+          "pattern": "Starts with いびき",
+          "moves": [
+            {
+              "name": "いびき",
+              "intent": "Sleep",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ロールアウト",
+              "intent": "Attack + Buff",
+              "damage": "16 (Asc 18) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "パジャマパーティー",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "パジャマパーティー"
+          ],
+          "movesSummary": "いびき: Sleep; ロールアウト: Attack + Buff (16 (Asc 18) dmg)"
         }
       }
     },
@@ -8388,6 +12141,37 @@
             "扼杀者与伙伴"
           ],
           "movesSummary": "能量球: Attack + Buff (3 (Asc 4) dmg)"
+        },
+        "ja": {
+          "name": "暴れジャックフルーツ",
+          "type": "Normal",
+          "pattern": "Always uses エナジーオーブ",
+          "moves": [
+            {
+              "name": "エナジーオーブ",
+              "intent": "Attack + Buff",
+              "damage": "3 (Asc 4) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "絞蛇と友達",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "繁茂の地の植物",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "絞蛇と友達",
+            "繁茂の地の植物"
+          ],
+          "movesSummary": "エナジーオーブ: Attack + Buff (3 (Asc 4) dmg)"
         }
       }
     },
@@ -8461,6 +12245,38 @@
             "穿着一件大衣的两只地精"
           ],
           "movesSummary": "醒来: Stun; 冲撞: Attack (9 (Asc 10) dmg)"
+        },
+        "ja": {
+          "name": "スニーキーグレムリン",
+          "type": "Normal",
+          "pattern": "Always uses 目覚め",
+          "moves": [
+            {
+              "name": "目覚め",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "体当たり",
+              "intent": "Attack",
+              "damage": "9 (Asc 10) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "トレンチコートのグレムリン",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "トレンチコートのグレムリン"
+          ],
+          "movesSummary": "目覚め: Stun; 体当たり: Attack (9 (Asc 10) dmg)"
         }
       }
     },
@@ -8548,6 +12364,45 @@
             "棘刺蟾蜍"
           ],
           "movesSummary": "伸出尖刺: Buff; 尖刺爆破: Attack (23 (Asc 25) dmg); 吐舌: Attack (17 (Asc 19) dmg)"
+        },
+        "ja": {
+          "name": "トゲヒキガエル",
+          "type": "Normal",
+          "pattern": "突き出るスパイク → スパイク爆発 → 舌打ち → repeat",
+          "moves": [
+            {
+              "name": "突き出るスパイク",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "スパイク爆発",
+              "intent": "Attack",
+              "damage": "23 (Asc 25) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "舌打ち",
+              "intent": "Attack",
+              "damage": "17 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "トゲヒキガエル",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "トゲヒキガエル"
+          ],
+          "movesSummary": "突き出るスパイク: Buff; スパイク爆発: Attack (23 (Asc 25) dmg); 舌打ち: Attack (17 (Asc 19) dmg)"
         }
       }
     },
@@ -8589,6 +12444,23 @@
           "encounters": [],
           "encounterNames": [],
           "movesSummary": "戳刺: Attack + Debuff (11 (Asc 12) dmg)"
+        },
+        "ja": {
+          "name": "スタブマシン",
+          "type": "Normal",
+          "pattern": "Always uses 突き",
+          "moves": [
+            {
+              "name": "突き",
+              "intent": "Attack + Debuff",
+              "damage": "11 (Asc 12) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "突き: Attack + Debuff (11 (Asc 12) dmg)"
         }
       }
     },
@@ -8658,6 +12530,37 @@
           "encounters": [],
           "encounterNames": [],
           "movesSummary": "砸击: Attack (12 dmg); 光束: Attack (15 dmg); 弹幕: Attack + Buff (8x2 dmg)"
+        },
+        "ja": {
+          "name": "アドバーサリー Mk 1",
+          "type": "Normal",
+          "pattern": "スマッシュ → ビーム → 一斉発射 → repeat",
+          "moves": [
+            {
+              "name": "スマッシュ",
+              "intent": "Attack",
+              "damage": "12 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ビーム",
+              "intent": "Attack",
+              "damage": "15 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "一斉発射",
+              "intent": "Attack + Buff",
+              "damage": "8x2 damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "スマッシュ: Attack (12 dmg); ビーム: Attack (15 dmg); 一斉発射: Attack + Buff (8x2 dmg)"
         }
       }
     },
@@ -8727,6 +12630,37 @@
           "encounters": [],
           "encounterNames": [],
           "movesSummary": "猛击: Attack (13 dmg); 火焰光束: Attack (16 dmg); 弹幕: Attack + Buff (9x2 dmg)"
+        },
+        "ja": {
+          "name": "アドバーサリー Mk 2",
+          "type": "Normal",
+          "pattern": "バッシュ → フレイムビーム → 一斉発射 → repeat",
+          "moves": [
+            {
+              "name": "バッシュ",
+              "intent": "Attack",
+              "damage": "13 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "フレイムビーム",
+              "intent": "Attack",
+              "damage": "16 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "一斉発射",
+              "intent": "Attack + Buff",
+              "damage": "9x2 damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "バッシュ: Attack (13 dmg); フレイムビーム: Attack (16 dmg); 一斉発射: Attack + Buff (9x2 dmg)"
         }
       }
     },
@@ -8796,6 +12730,37 @@
           "encounters": [],
           "encounterNames": [],
           "movesSummary": "冲击: Attack (15 dmg); 火焰光束: Attack (18 dmg); 弹幕: Attack + Buff (10x2 dmg)"
+        },
+        "ja": {
+          "name": "アドバーサリー Mk 3",
+          "type": "Normal",
+          "pattern": "クラッシュ → フレイムビーム → 一斉発射 → repeat",
+          "moves": [
+            {
+              "name": "クラッシュ",
+              "intent": "Attack",
+              "damage": "15 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "フレイムビーム",
+              "intent": "Attack",
+              "damage": "18 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "一斉発射",
+              "intent": "Attack + Buff",
+              "damage": "10x2 damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "クラッシュ: Attack (15 dmg); フレイムビーム: Attack (18 dmg); 一斉発射: Attack + Buff (10x2 dmg)"
         }
       }
     },
@@ -8853,6 +12818,31 @@
             "建筑师"
           ],
           "movesSummary": "无: Unknown"
+        },
+        "ja": {
+          "name": "アーキテクト",
+          "type": "Normal",
+          "pattern": "Always uses 何もしない",
+          "moves": [
+            {
+              "name": "何もしない",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "アーキテクト",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "アーキテクト"
+          ],
+          "movesSummary": "何もしない: Unknown"
         }
       }
     },
@@ -8926,6 +12916,38 @@
             "失落与遗忘之物"
           ],
           "movesSummary": "瘴气: Debuff + Defend + Buff (8 block); 恐惧: Attack"
+        },
+        "ja": {
+          "name": "忘れられし者",
+          "type": "Normal",
+          "pattern": "Always uses 瘴気",
+          "moves": [
+            {
+              "name": "瘴気",
+              "intent": "Debuff + Defend + Buff",
+              "damage": "",
+              "block": "8 block",
+              "heal": ""
+            },
+            {
+              "name": "恐怖",
+              "intent": "Attack",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "迷える者と忘れられし者",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "迷える者と忘れられし者"
+          ],
+          "movesSummary": "瘴気: Debuff + Defend + Buff (8 block); 恐怖: Attack"
         }
       }
     },
@@ -8999,6 +13021,38 @@
             "失落与遗忘之物"
           ],
           "movesSummary": "致残雾霾: Debuff + Buff; 眼部激光: Attack (4x2 (Asc 5x2) dmg)"
+        },
+        "ja": {
+          "name": "迷える者",
+          "type": "Normal",
+          "pattern": "Always uses 衰弱スモッグ",
+          "moves": [
+            {
+              "name": "衰弱スモッグ",
+              "intent": "Debuff + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "アイレーザー",
+              "intent": "Attack",
+              "damage": "4x2 (Asc 5x2) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "迷える者と忘れられし者",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "迷える者と忘れられし者"
+          ],
+          "movesSummary": "衰弱スモッグ: Debuff + Buff; アイレーザー: Attack (4x2 (Asc 5x2) dmg)"
         }
       }
     },
@@ -9098,6 +13152,52 @@
             "商人？？？"
           ],
           "movesSummary": "顺走: Attack (13 (Asc 15) dmg); 喷吐硬币: Attack (2 dmg); 投掷遗物: Attack + Debuff (9 (Asc 10) dmg); +1 more"
+        },
+        "ja": {
+          "name": "商人？",
+          "type": "Normal",
+          "pattern": "Starts with なぎ払い",
+          "moves": [
+            {
+              "name": "なぎ払い",
+              "intent": "Attack",
+              "damage": "13 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "コイン吐き",
+              "intent": "Attack",
+              "damage": "2 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "レリック投げ",
+              "intent": "Attack + Debuff",
+              "damage": "9 (Asc 10) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "激怒",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "商人？",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "商人？"
+          ],
+          "movesSummary": "なぎ払い: Attack (13 (Asc 15) dmg); コイン吐き: Attack (2 dmg); レリック投げ: Attack + Debuff (9 (Asc 10) dmg); +1 more"
         }
       }
     },
@@ -9199,6 +13299,52 @@
             "胧光怪"
           ],
           "movesSummary": "幻象: Summon; 锐利凝视: Attack (10 (Asc 11) dmg); 起航: Buff; +1 more"
+        },
+        "ja": {
+          "name": "オブスキュラ",
+          "type": "Normal",
+          "pattern": "Starts with イリュージョン",
+          "moves": [
+            {
+              "name": "イリュージョン",
+              "intent": "Summon",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "鋭い視線",
+              "intent": "Attack",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "セイル",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "硬化ストライク",
+              "intent": "Attack + Defend",
+              "damage": "6 (Asc 7) damage",
+              "block": "6 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "オブスキュラ",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "オブスキュラ"
+          ],
+          "movesSummary": "イリュージョン: Summon; 鋭い視線: Attack (10 (Asc 11) dmg); セイル: Buff; +1 more"
         }
       }
     },
@@ -9314,6 +13460,59 @@
             "偷窃草蜢"
           ],
           "movesSummary": "偷盗: Attack + Debuff (17 (Asc 19) dmg); 抢夺: Attack (14 (Asc 16) dmg); 帽子戏法: Attack (21 (Asc 23) dmg); +2 more"
+        },
+        "ja": {
+          "name": "泥棒バッタ",
+          "type": "Normal",
+          "pattern": "泥棒 → 羽ばたき → ハットトリック → ひったくり → 逃走 → repeat",
+          "moves": [
+            {
+              "name": "泥棒",
+              "intent": "Attack + Debuff",
+              "damage": "17 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ひったくり",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "ハットトリック",
+              "intent": "Attack",
+              "damage": "21 (Asc 23) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "羽ばたき",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "逃走",
+              "intent": "Escape",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "泥棒バッタ",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "泥棒バッタ"
+          ],
+          "movesSummary": "泥棒: Attack + Debuff (17 (Asc 19) dmg); ひったくり: Attack (14 (Asc 16) dmg); ハットトリック: Attack (21 (Asc 23) dmg); +2 more"
         }
       }
     },
@@ -9401,6 +13600,45 @@
             "蟾蜍蝌蚪"
           ],
           "movesSummary": "吐刺: Attack (3x3 (Asc 4x3) dmg); 旋转: Attack (7 (Asc 8) dmg); 带刺: Buff"
+        },
+        "ja": {
+          "name": "ヒキジャクシ",
+          "type": "Normal",
+          "pattern": "then conditional: 旋回 (if not in front) / トゲトゲ (if in front)",
+          "moves": [
+            {
+              "name": "スパイクスピット",
+              "intent": "Attack",
+              "damage": "3x3 (Asc 4x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "旋回",
+              "intent": "Attack",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "トゲトゲ",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ヒキジャクシ",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "ヒキジャクシ"
+          ],
+          "movesSummary": "スパイクスピット: Attack (3x3 (Asc 4x3) dmg); 旋回: Attack (7 (Asc 8) dmg); トゲトゲ: Buff"
         }
       }
     },
@@ -9474,6 +13712,38 @@
             "直飞产卵虫"
           ],
           "movesSummary": "孵化: Summon; 啃咬: Attack (4 (Asc 5) dmg)"
+        },
+        "ja": {
+          "name": "固い卵",
+          "type": "Normal",
+          "pattern": "Always uses ふ化",
+          "moves": [
+            {
+              "name": "ふ化",
+              "intent": "Summon",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "かじりつき",
+              "intent": "Attack",
+              "damage": "4 (Asc 5) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "オビコプター",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "オビコプター"
+          ],
+          "movesSummary": "ふ化: Summon; かじりつき: Attack (4 (Asc 5) dmg)"
         }
       }
     },
@@ -9547,6 +13817,38 @@
             "红宝石劫掠者"
           ],
           "movesSummary": "追踪: Debuff; 放狗: Attack (1x8 dmg)"
+        },
+        "ja": {
+          "name": "トラッカーレイダー",
+          "type": "Normal",
+          "pattern": "Always uses 追跡",
+          "moves": [
+            {
+              "name": "追跡",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "猟犬を放つ",
+              "intent": "Attack",
+              "damage": "1x8 damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ルビーレイダーズ",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "ルビーレイダーズ"
+          ],
+          "movesSummary": "追跡: Debuff; 猟犬を放つ: Attack (1x8 dmg)"
         }
       }
     },
@@ -9660,6 +13962,58 @@
             "地道虫"
           ],
           "movesSummary": "啃咬: Attack (13 (Asc 15) dmg); 钻洞: Buff + Defend (32 block); 下方攻击: Attack (23 (Asc 26) dmg); +1 more"
+        },
+        "ja": {
+          "name": "トンネラー",
+          "type": "Normal",
+          "pattern": "噛みつき → 潜伏 → 下からの攻撃 → repeat",
+          "moves": [
+            {
+              "name": "噛みつき",
+              "intent": "Attack",
+              "damage": "13 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "潜伏",
+              "intent": "Buff + Defend",
+              "damage": "",
+              "block": "32 block",
+              "heal": ""
+            },
+            {
+              "name": "下からの攻撃",
+              "intent": "Attack",
+              "damage": "23 (Asc 26) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Dizzy",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "トンネリング",
+              "roomType": "Monster",
+              "act": null
+            },
+            {
+              "name": "トンネラー",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "トンネラー",
+            "トンネリング"
+          ],
+          "movesSummary": "噛みつき: Attack (13 (Asc 15) dmg); 潜伏: Buff + Defend (32 block); 下からの攻撃: Attack (23 (Asc 26) dmg); +1 more"
         }
       }
     },
@@ -9747,6 +14101,45 @@
             "高塔炮手"
           ],
           "movesSummary": "弹雨！: Attack (3x5 (Asc 4x5) dmg); Unload Move 2: Attack (3x5 (Asc 4x5) dmg); 装弹: Buff"
+        },
+        "ja": {
+          "name": "タレットオペレーター",
+          "type": "Normal",
+          "pattern": "アンロード！ → Unload Move 2 → リロード → repeat",
+          "moves": [
+            {
+              "name": "アンロード！",
+              "intent": "Attack",
+              "damage": "3x5 (Asc 4x5) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Unload Move 2",
+              "intent": "Attack",
+              "damage": "3x5 (Asc 4x5) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "リロード",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "タレットオペレーター",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "タレットオペレーター"
+          ],
+          "movesSummary": "アンロード！: Attack (3x5 (Asc 4x5) dmg); Unload Move 2: Attack (3x5 (Asc 4x5) dmg); リロード: Buff"
         }
       }
     },
@@ -9856,6 +14249,56 @@
             "真菌与史莱姆"
           ],
           "movesSummary": "戳刺扑击: Attack (11 (Asc 12) dmg); 黏糊射击: Status"
+        },
+        "ja": {
+          "name": "細枝スライム (中)",
+          "type": "Normal",
+          "pattern": "Starts with 粘着ショット",
+          "moves": [
+            {
+              "name": "小枝の飛び掛かり",
+              "intent": "Attack",
+              "damage": "11 (Asc 12) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "粘着ショット",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "キノコとスライム",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "スライムの大群",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "スライムの群れ",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "絞蛇と友達",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "キノコとスライム",
+            "スライムの大群",
+            "スライムの群れ",
+            "絞蛇と友達"
+          ],
+          "movesSummary": "小枝の飛び掛かり: Attack (11 (Asc 12) dmg); 粘着ショット: Status"
         }
       }
     },
@@ -9939,6 +14382,43 @@
             "扼杀者与伙伴"
           ],
           "movesSummary": "冲撞: Attack (4 (Asc 5) dmg)"
+        },
+        "ja": {
+          "name": "細枝スライム (小)",
+          "type": "Normal",
+          "pattern": "Always uses 体当たり",
+          "moves": [
+            {
+              "name": "体当たり",
+              "intent": "Attack",
+              "damage": "4 (Asc 5) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "スライムの大群",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "スライムの群れ",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "絞蛇と友達",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "スライムの大群",
+            "スライムの群れ",
+            "絞蛇と友達"
+          ],
+          "movesSummary": "体当たり: Attack (4 (Asc 5) dmg)"
         }
       }
     },
@@ -10040,6 +14520,52 @@
             "双尾鼠"
           ],
           "movesSummary": "抓挠: Attack (8 (Asc 9) dmg); 疾病啃咬: Attack (6 (Asc 7) dmg); 尖声嘶吼: Debuff; +1 more"
+        },
+        "ja": {
+          "name": "双尾のネズミ",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "引っかき",
+              "intent": "Attack",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "病の噛みつき",
+              "intent": "Attack",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "金切り声",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "バックアップ要請",
+              "intent": "Summon",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "双尾のネズミ",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "双尾のネズミ"
+          ],
+          "movesSummary": "引っかき: Attack (8 (Asc 9) dmg); 病の噛みつき: Attack (6 (Asc 7) dmg); 金切り声: Debuff; +1 more"
         }
       }
     },
@@ -10127,6 +14653,45 @@
             "藤蔓蹒跚者"
           ],
           "movesSummary": "紧绕藤蔓: Attack + Debuff (8 (Asc 9) dmg); 挥击: Attack (6x2 (Asc 7x2) dmg); 大啃: Attack (16 (Asc 18) dmg)"
+        },
+        "ja": {
+          "name": "ヴァインシャンブラー",
+          "type": "Normal",
+          "pattern": "なぎ払い → 掴みかかるツタ → 噛み砕く → repeat",
+          "moves": [
+            {
+              "name": "掴みかかるツタ",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "なぎ払い",
+              "intent": "Attack",
+              "damage": "6x2 (Asc 7x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "噛み砕く",
+              "intent": "Attack",
+              "damage": "16 (Asc 18) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "ヴァインシャンブラー",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "ヴァインシャンブラー"
+          ],
+          "movesSummary": "掴みかかるツタ: Attack + Debuff (8 (Asc 9) dmg); なぎ払い: Attack (6x2 (Asc 7x2) dmg); 噛み砕く: Attack (16 (Asc 18) dmg)"
         }
       }
     },
@@ -10168,6 +14733,23 @@
           "encounters": [],
           "encounterNames": [],
           "movesSummary": "电击: Attack (14 (Asc 15) dmg)"
+        },
+        "ja": {
+          "name": "ザップマシン",
+          "type": "Normal",
+          "pattern": "Always uses ザップ",
+          "moves": [
+            {
+              "name": "ザップ",
+              "intent": "Attack",
+              "damage": "14 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "ザップ: Attack (14 (Asc 15) dmg)"
         }
       }
     }

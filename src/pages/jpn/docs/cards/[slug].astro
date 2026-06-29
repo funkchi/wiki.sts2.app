@@ -12,34 +12,34 @@ export const getStaticPaths = (() => {
 }) satisfies GetStaticPaths;
 
 const { card } = Astro.props;
-const zh = card.translations?.zhHans;
-const title = zh?.name || card.name;
+const ja = card.translations?.ja;
+const title = ja?.name || card.name;
 const relatedCards = card.related
   .map((slug) => cardBySlug.get(slug))
   .filter((c): c is NonNullable<typeof c> => Boolean(c));
-const description = zh?.description || card.description || `${title} - 杀戮尖塔 2 卡牌。`;
+const description = ja?.description || card.description || `${title} - Slay the Spire 2 カード。`;
 ---
 
 <StarlightPage frontmatter={{ title, description }}>
-  <CardHero card={card} locale="zhs" />
+  <CardHero card={card} locale="jpn" />
 
-  {zh?.keywords && zh.keywords.length > 0 && (
+  {ja?.keywords && ja.keywords.length > 0 && (
     <>
-      <h2 id="keywords">关键词</h2>
-      <p>{zh.keywords.map((k) => <code>{k}</code>)}</p>
+      <h2 id="keywords">キーワード</h2>
+      <p>{ja.keywords.map((k) => <code>{k}</code>)}</p>
     </>
   )}
 
-  <h2 id="related">相关卡牌</h2>
+  <h2 id="related">関連カード</h2>
   {relatedCards.length > 0 ? (
     <ul>
       {relatedCards.map((c) => (
-        <li><a href={`/zhs/docs/cards/${c.slug}/`}>{c.translations?.zhHans?.name || c.name}</a></li>
+        <li><a href={`/jpn/docs/cards/${c.slug}/`}>{c.translations?.ja?.name || c.name}</a></li>
       ))}
     </ul>
   ) : (
-    <p>暂无相关卡牌。</p>
+    <p>関連カードはありません。</p>
   )}
 
-  <p><a href="/zhs/docs/cards/">返回全部卡牌</a></p>
+  <p><a href="/jpn/docs/cards/">カード一覧に戻る</a></p>
 </StarlightPage>

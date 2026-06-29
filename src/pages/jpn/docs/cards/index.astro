@@ -1,0 +1,48 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../../components/EntityBrowser.svelte';
+import { cards } from '../../../../data/cards';
+
+const rows = cards.map((c) => {
+  const ja = c.translations?.ja;
+  return {
+    slug: c.slug,
+    name: ja?.name || c.name,
+    englishName: c.name,
+    character: c.character,
+    cost: c.cost,
+    costRaw: c.costRaw,
+    type: ja?.type || c.type,
+    rarity: ja?.rarity || c.rarity,
+    keywords: ja?.keywords?.length ? ja.keywords : c.matchedKeywords,
+  };
+});
+---
+
+<StarlightPage frontmatter={{ title: 'カード', description: 'Slay the Spire 2 の日本語カード一覧。' }}>
+  <p>
+    日本語訳は <a href="https://spire-codex.com/docs">Spire Codex API</a>{' '}
+    <code>/api/exports/jpn</code> から取得しています。
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/jpn/docs/cards/"
+    noun="枚のカード"
+    nameLabel="カード"
+    columns={[
+      { field: 'englishName', label: '英語名', width: '16rem' },
+      { field: 'character', label: 'キャラクター', width: '13rem' },
+      { field: 'cost', label: 'コスト', format: 'cardCost', width: '7rem' },
+      { field: 'type', label: 'タイプ', width: '9rem' },
+      { field: 'rarity', label: 'レアリティ', width: '10rem' },
+      { field: 'keywords', label: 'キーワード', chips: true, width: '26rem' },
+    ]}
+    filters={[
+      { field: 'character', label: 'キャラクター / プール' },
+      { field: 'type', label: 'タイプ' },
+      { field: 'rarity', label: 'レアリティ' },
+      { field: 'keywords', label: 'キーワード', multiple: true },
+    ]}
+  />
+</StarlightPage>

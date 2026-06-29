@@ -24,7 +24,8 @@ const RelicSchema = z.object({
   image: z.string(),
   related: z.array(z.string()),
   translations: z.object({
-    zhHans: RelicTranslationSchema,
+    zhHans: RelicTranslationSchema.optional(),
+    ja: RelicTranslationSchema.optional(),
   }).optional(),
 });
 

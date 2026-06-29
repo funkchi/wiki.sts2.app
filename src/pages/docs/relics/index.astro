@@ -1,7 +1,6 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import EntityBrowser from '../../../components/EntityBrowser.svelte';
-import LanguageToggle from '../../../components/LanguageToggle.astro';
 import { relics } from '../../../data/relics';
 import { poolColor } from '../../../data/characters';
 
@@ -17,7 +16,6 @@ const rows = relics.map((r) => ({
 ---
 
 <StarlightPage frontmatter={{ title: 'Relics' }}>
-  <LanguageToggle />
   <p>
     All relic data on this page is sourced from the{' '}
     <a href="https://spire-codex.com/docs">Spire Codex API</a>, using the English{' '}

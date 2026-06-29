@@ -1,0 +1,23 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { characters, accentFor } from '../../../../data/characters';
+---
+
+<StarlightPage frontmatter={{ title: 'キャラクター', description: 'Slay the Spire 2 の日本語キャラクター一覧。' }}>
+  <p>
+    日本語訳は <a href="https://spire-codex.com/docs">Spire Codex</a>{' '}
+    <code>/api/exports/jpn</code> から取得しています。
+  </p>
+
+  <div class="character-gallery">
+    {characters.map((c) => (
+      <a class="char-card" href={`/jpn/docs/characters/${c.slug}/`} style={`--char-accent:${accentFor(c.slug)}`}>
+        <img class="char-card__icon" src={c.icon} alt="" loading="lazy" decoding="async" />
+        <div class="char-card__body">
+          <strong>{c.translations?.ja?.name || c.name}</strong>
+          <span class="char-card__stats">HP {c.startingHp ?? '-'} · エナジー {c.maxEnergy ?? '-'}</span>
+        </div>
+      </a>
+    ))}
+  </div>
+</StarlightPage>

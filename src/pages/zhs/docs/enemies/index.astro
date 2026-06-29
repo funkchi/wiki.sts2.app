@@ -1,7 +1,6 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import EntityBrowser from '../../../../components/EntityBrowser.svelte';
-import LanguageToggle from '../../../../components/LanguageToggle.astro';
 import { enemies } from '../../../../data/enemies';
 
 const rows = enemies.map((e) => {
@@ -19,7 +18,6 @@ const rows = enemies.map((e) => {
 ---
 
 <StarlightPage frontmatter={{ title: '敌人', description: '杀戮尖塔 2 中文敌人资料。' }}>
-  <LanguageToggle locale="zhs" />
   <p>
     敌人中文翻译来自 <a href="https://spire-codex.com/docs">Spire Codex API</a>{' '}
     <code>/api/exports/zhs</code> 导出。

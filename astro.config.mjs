@@ -17,6 +17,7 @@ export default defineConfig({
       customCss: ['./src/styles/global.css'],
       components: {
         Head: './src/components/Head.astro',
+        LanguageSelect: './src/components/LanguageToggle.astro',
       },
       sidebar: [
         { label: 'Cards', link: '/docs/cards/' },
@@ -35,14 +36,16 @@ export default defineConfig({
       serialize(item) {
         const SITE = 'https://wiki.sts2.app';
         const path = item.url.startsWith(SITE) ? item.url.slice(SITE.length) : new URL(item.url).pathname;
-        const isZhs = path.startsWith('/zhs/');
-        const enPath = isZhs ? path.replace(/^\/zhs/, '') : path;
-        const zhPath = isZhs ? path : `/zhs${enPath === '/' ? '' : enPath}`;
-        // Only entity (/docs/*) and landing (/) have a Chinese counterpart.
+        const localeMatch = path.match(/^\/(zhs|jpn)(?=\/|$)/);
+        const enPath = localeMatch ? path.replace(/^\/(zhs|jpn)/, '') || '/' : path;
+        const zhPath = `/zhs${enPath === '/' ? '/' : enPath}`;
+        const jaPath = `/jpn${enPath === '/' ? '/' : enPath}`;
+        // Only entity (/docs/*) and landing (/) have localized counterparts.
         if (enPath.startsWith('/docs/') || enPath === '/') {
           item.links = [
             { url: `${SITE}${enPath}`, lang: 'en' },
             { url: `${SITE}${zhPath}`, lang: 'zh-Hans' },
+            { url: `${SITE}${jaPath}`, lang: 'ja' },
           ];
         }
         return item;

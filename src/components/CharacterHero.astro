@@ -1,37 +1,44 @@
 ---
 import { accentFor } from '../data/characters';
 import type { Character } from '../data/characters';
+import { translationKey, type Lang } from '../data/i18n';
 
 interface Props {
   character: Character;
-  locale?: 'en' | 'zhs';
+  locale?: Lang;
 }
 const { character, locale = 'en' } = Astro.props;
 const accent = accentFor(character.slug);
 const c = character;
-const zh = locale === 'zhs' ? c.translations?.zhHans : undefined;
+const localized = translationKey(locale) ? c.translations?.[translationKey(locale)!] : undefined;
+
+const labels = {
+  en: ['Starting HP', 'Starting Gold', 'Energy', 'Orb Slots', 'Unlocks After'],
+  zhs: ['初始生命', '初始金币', '能量', '充能球栏位', '解锁条件'],
+  jpn: ['初期HP', '初期ゴールド', 'エナジー', 'オーブスロット', '解放条件'],
+}[locale];
 
 const stats: Array<[string, string | number | null]> = [
-  [locale === 'zhs' ? '初始生命' : 'Starting HP', c.startingHp],
-  [locale === 'zhs' ? '初始金币' : 'Starting Gold', c.startingGold],
-  [locale === 'zhs' ? '能量' : 'Energy', c.maxEnergy],
-  [locale === 'zhs' ? '充能球栏位' : 'Orb Slots', c.orbSlots],
-  [locale === 'zhs' ? '解锁条件' : 'Unlocks After', zh?.unlocksAfter || c.unlocksAfter],
+  [labels[0], c.startingHp],
+  [labels[1], c.startingGold],
+  [labels[2], c.maxEnergy],
+  [labels[3], c.orbSlots],
+  [labels[4], localized?.unlocksAfter || c.unlocksAfter],
 ];
 const shown = stats.filter(([, v]) => v !== null && v !== '-' && v !== '');
 ---
 
 <div class="character-hero" style={`--char-accent:${accent}`}>
-  <img class="character-hero__art" src={c.image} alt={zh?.name || c.name} loading="eager" decoding="async" fetchpriority="high" />
+  <img class="character-hero__art" src={c.image} alt={localized?.name || c.name} loading="eager" decoding="async" fetchpriority="high" />
   <div class="character-hero__body">
     <div class="character-hero__head">
       <img class="character-hero__icon" src={c.icon} alt="" loading="lazy" decoding="async" />
       <div>
-        <p class="kicker-char">{zh?.character || c.character}</p>
-        <h2>{zh?.name || c.name}</h2>
+        <p class="kicker-char">{localized?.character || c.character}</p>
+        <h2>{localized?.name || c.name}</h2>
       </div>
     </div>
-    <p class="character-hero__desc">{zh?.description || c.description || 'No description is currently available.'}</p>
+    <p class="character-hero__desc">{localized?.description || c.description || 'No description is currently available.'}</p>
     <div class="stat-badges">
       {shown.map(([label, value]) => (
         <span class="stat-badge"><strong>{value}</strong> {label}</span>

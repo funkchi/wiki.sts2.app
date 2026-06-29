@@ -1,6 +1,5 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
-import LanguageToggle from '../../../components/LanguageToggle.astro';
 import { cards } from '../../../data/cards';
 import { relics } from '../../../data/relics';
 import { enemies } from '../../../data/enemies';
@@ -15,7 +14,6 @@ const sections = [
 ---
 
 <StarlightPage frontmatter={{ title: '中文资料库', description: '杀戮尖塔 2 中文资料索引。' }}>
-  <LanguageToggle locale="zhs" />
   <p>杀戮尖塔 2 社区资料库。选择一个分类开始：</p>
   <div class="wiki-hub-grid">
     {sections.map((s) => (

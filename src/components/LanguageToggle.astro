@@ -1,18 +1,52 @@
 ---
-import { localizedPath } from '../data/i18n';
+import { languages, localeFromPath, localizedPath, type Lang } from '../data/i18n';
 
 interface Props {
-  locale?: 'en' | 'zhs';
+  locale?: Lang;
   pathname?: string;
 }
 
-const { locale = 'en', pathname = Astro.url.pathname } = Astro.props;
-const nextLocale = locale === 'zhs' ? 'en' : 'zhs';
-const href = localizedPath(pathname, nextLocale);
-const label = locale === 'zhs' ? 'English' : '中文';
+const { pathname = Astro.url.pathname } = Astro.props;
+const locale = Astro.props.locale ?? localeFromPath(pathname);
+const current = languages.find((language) => language.code === locale) ?? languages[0];
+const hasLocalizedCounterpart =
+  pathname === '/' ||
+  pathname.startsWith('/docs/') ||
+  pathname === '/docs/' ||
+  pathname.startsWith('/zhs/') ||
+  pathname.startsWith('/jpn/');
+
+function hrefFor(code: Lang): string {
+  if (hasLocalizedCounterpart) return localizedPath(pathname, code);
+  return code === 'en' ? pathname : `/${code}/docs/`;
+}
 ---
 
-<a class="language-toggle" href={href} aria-label={`Switch language to ${label}`}>
-  <img src="/images/language_selector_nobbg.png" alt="" loading="lazy" decoding="async" />
-  <span>{label}</span>
-</a>
+<details class="language-toggle">
+  <summary aria-label="Select language">
+    <img src="/images/language_selector_nobbg.png" alt="" loading="lazy" decoding="async" />
+    <span>{current.shortLabel}</span>
+  </summary>
+  <div class="language-toggle__menu">
+    {languages.map((language) => (
+      <a
+        href={hrefFor(language.code)}
+        aria-current={language.code === locale ? 'page' : undefined}
+        data-lang={language.code}
+      >
+        <span>{language.shortLabel}</span>
+        <small>{language.label}</small>
+      </a>
+    ))}
+  </div>
+</details>
+
+<script is:inline>
+  document.addEventListener('click', function (event) {
+    var link = event.target && event.target.closest && event.target.closest('.language-toggle__menu a[data-lang]');
+    if (!link) return;
+    try {
+      localStorage.setItem('preferredLanguage', link.dataset.lang);
+    } catch (_) {}
+  });
+</script>

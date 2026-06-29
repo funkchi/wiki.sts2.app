@@ -38,7 +38,8 @@ const EnemySchema = z.object({
   movesSummary: z.string(),
   image: z.string(),
   translations: z.object({
-    zhHans: EnemyTranslationSchema,
+    zhHans: EnemyTranslationSchema.optional(),
+    ja: EnemyTranslationSchema.optional(),
   }).optional(),
 });
 

@@ -24,26 +24,47 @@ sc = importlib.util.module_from_spec(_spec)
 assert _spec and _spec.loader
 _spec.loader.exec_module(sc)
 
-TRANSLATION_KEY = "zhHans"
 DEFAULT_LANG = "zhs"
 EXPORT_BASE = "https://spire-codex.com/api/exports"
 
-POOL_LABELS_ZH_HANS = {
-    "shared": "通用",
-    "ironclad": "铁甲战士",
-    "silent": "静默猎手",
-    "defect": "故障机器人",
-    "necrobinder": "亡灵束缚者",
-    "regent": "摄政者",
+LANG_CONFIG = {
+    "zhs": {
+        "translation_key": "zhHans",
+        "energy": "能量",
+        "star": "星",
+        "unknown": "未知",
+        "pool_labels": {
+            "shared": "通用",
+            "ironclad": "铁甲战士",
+            "silent": "静默猎手",
+            "defect": "故障机器人",
+            "necrobinder": "亡灵束缚者",
+            "regent": "摄政者",
+        },
+    },
+    "jpn": {
+        "translation_key": "ja",
+        "energy": "エナジー",
+        "star": "スター",
+        "unknown": "不明",
+        "pool_labels": {
+            "shared": "共通",
+            "ironclad": "アイアンクラッド",
+            "silent": "サイレント",
+            "defect": "ディフェクト",
+            "necrobinder": "ネクロバインダー",
+            "regent": "リージェント",
+        },
+    },
 }
 
 
-def clean_i18n(value: Any) -> str:
+def clean_i18n(value: Any, config: dict[str, Any]) -> str:
     if value is None:
         return ""
     text = html.unescape(str(value))
-    text = re.sub(r"\[energy:(\d+)\]", r"\1 能量", text)
-    text = re.sub(r"\[star:(\d+)\]", r"\1 星", text)
+    text = re.sub(r"\[energy:(\d+)\]", rf"\1 {config['energy']}", text)
+    text = re.sub(r"\[star:(\d+)\]", rf"\1 {config['star']}", text)
     text = re.sub(r"\[/?[^\]]+\]", "", text)
     text = re.sub(r"<[^>]+>", "", text)
     text = text.replace("\u00a0", "")
@@ -93,15 +114,15 @@ def write_payload(kind: str, payload: dict[str, Any]) -> None:
     target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
 
 
-def card_translation(card: dict[str, Any]) -> dict[str, Any]:
+def card_translation(card: dict[str, Any], config: dict[str, Any]) -> dict[str, Any]:
     return {
-        "name": clean_i18n(card.get("name")),
-        "description": clean_i18n(card.get("description")),
-        "upgradeDescription": clean_i18n(card.get("upgrade_description")),
-        "type": clean_i18n(card.get("type")),
-        "rarity": clean_i18n(card.get("rarity")),
-        "target": clean_i18n(card.get("target")),
-        "keywords": [clean_i18n(k) for k in (card.get("keywords") or [])],
+        "name": clean_i18n(card.get("name"), config),
+        "description": clean_i18n(card.get("description"), config),
+        "upgradeDescription": clean_i18n(card.get("upgrade_description"), config),
+        "type": clean_i18n(card.get("type"), config),
+        "rarity": clean_i18n(card.get("rarity"), config),
+        "target": clean_i18n(card.get("target"), config),
+        "keywords": [clean_i18n(k, config) for k in (card.get("keywords") or [])],
     }
 
 
@@ -109,28 +130,31 @@ def character_translation(
     character: dict[str, Any],
     translated_cards: dict[str, dict[str, Any]],
     translated_relics: dict[str, dict[str, Any]],
+    config: dict[str, Any],
 ) -> dict[str, Any]:
     quotes = []
     for key, value in (character.get("quotes") or {}).items():
         if value:
-            quotes.append({"key": key, "text": clean_i18n(value)})
+            quotes.append({"key": key, "text": clean_i18n(value, config)})
 
     return {
-        "name": clean_i18n(character.get("name")),
-        "character": clean_i18n(character.get("name")),
-        "description": clean_i18n(character.get("description")),
-        "unlocksAfter": clean_i18n(character.get("unlocks_after")),
+        "name": clean_i18n(character.get("name"), config),
+        "character": clean_i18n(character.get("name"), config),
+        "description": clean_i18n(character.get("description"), config),
+        "unlocksAfter": clean_i18n(character.get("unlocks_after"), config),
         "startingDeck": [
             {
                 "id": card_id,
-                "name": clean_i18n((translated_cards.get(norm_id(card_id)) or {}).get("name")) or clean_i18n(card_id),
+                "name": clean_i18n((translated_cards.get(norm_id(card_id)) or {}).get("name"), config)
+                or clean_i18n(card_id, config),
             }
             for card_id in (character.get("starting_deck") or [])
         ],
         "startingRelics": [
             {
                 "id": relic_id,
-                "name": clean_i18n((translated_relics.get(norm_id(relic_id)) or {}).get("name")) or clean_i18n(relic_id),
+                "name": clean_i18n((translated_relics.get(norm_id(relic_id)) or {}).get("name"), config)
+                or clean_i18n(relic_id, config),
             }
             for relic_id in (character.get("starting_relics") or [])
         ],
@@ -138,23 +162,23 @@ def character_translation(
     }
 
 
-def relic_translation(relic: dict[str, Any]) -> dict[str, Any]:
+def relic_translation(relic: dict[str, Any], config: dict[str, Any]) -> dict[str, Any]:
     pool_raw = relic.get("pool")
     return {
-        "name": clean_i18n(relic.get("name")),
-        "description": clean_i18n(relic.get("description")),
-        "rarity": clean_i18n(relic.get("rarity")),
-        "pool": POOL_LABELS_ZH_HANS.get(str(pool_raw), clean_i18n(pool_raw)),
-        "flavor": clean_i18n(relic.get("flavor")),
-        "notes": [clean_i18n(n) for n in (relic.get("notes") or [])],
+        "name": clean_i18n(relic.get("name"), config),
+        "description": clean_i18n(relic.get("description"), config),
+        "rarity": clean_i18n(relic.get("rarity"), config),
+        "pool": config["pool_labels"].get(str(pool_raw), clean_i18n(pool_raw, config)),
+        "flavor": clean_i18n(relic.get("flavor"), config),
+        "notes": [clean_i18n(n, config) for n in (relic.get("notes") or [])],
     }
 
 
-def enemy_translation(monster: dict[str, Any]) -> dict[str, Any]:
+def enemy_translation(monster: dict[str, Any], config: dict[str, Any]) -> dict[str, Any]:
     moves = [
         {
-            "name": clean_i18n(move.get("name") or move.get("id")),
-            "intent": clean_i18n(move.get("intent")),
+            "name": clean_i18n(move.get("name") or move.get("id"), config),
+            "intent": clean_i18n(move.get("intent"), config),
             "damage": sc.move_value(move.get("damage"), "damage") or "",
             "block": sc.move_value(move.get("block"), "block") or "",
             "heal": sc.move_value(move.get("heal"), "heal") or "",
@@ -163,16 +187,16 @@ def enemy_translation(monster: dict[str, Any]) -> dict[str, Any]:
     ]
     encounters = [
         {
-            "name": clean_i18n(encounter.get("encounter_name")) or "-",
-            "roomType": clean_i18n(encounter.get("room_type")) or "-",
+            "name": clean_i18n(encounter.get("encounter_name"), config) or "-",
+            "roomType": clean_i18n(encounter.get("room_type"), config) or "-",
             "act": encounter.get("act"),
         }
         for encounter in (monster.get("encounters") or [])
     ]
     return {
-        "name": clean_i18n(monster.get("name")),
-        "type": clean_i18n(monster.get("type")) or "Unknown",
-        "pattern": clean_i18n((monster.get("attack_pattern") or {}).get("description")),
+        "name": clean_i18n(monster.get("name"), config),
+        "type": clean_i18n(monster.get("type"), config) or config["unknown"],
+        "pattern": clean_i18n((monster.get("attack_pattern") or {}).get("description"), config),
         "moves": moves,
         "encounters": encounters,
         "encounterNames": sorted({e["name"] for e in encounters if e["name"] != "-"}),
@@ -180,7 +204,7 @@ def enemy_translation(monster: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def merge(kind: str, source: dict[str, dict[str, Any]], transform) -> tuple[int, int]:
+def merge(kind: str, source: dict[str, dict[str, Any]], translation_key: str, transform) -> tuple[int, int]:
     payload = load_payload(kind)
     items = payload[kind]
     matched = 0
@@ -188,7 +212,7 @@ def merge(kind: str, source: dict[str, dict[str, Any]], transform) -> tuple[int,
         translated = source.get(item["id"])
         if not translated:
             continue
-        item.setdefault("translations", {})[TRANSLATION_KEY] = transform(translated)
+        item.setdefault("translations", {})[translation_key] = transform(translated)
         matched += 1
     write_payload(kind, payload)
     return matched, len(items) - matched
@@ -196,8 +220,10 @@ def merge(kind: str, source: dict[str, dict[str, Any]], transform) -> tuple[int,
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--lang", default=DEFAULT_LANG, help="Spire Codex export language code")
+    parser.add_argument("--lang", default=DEFAULT_LANG, choices=sorted(LANG_CONFIG), help="Spire Codex export language code")
     args = parser.parse_args()
+    config = LANG_CONFIG[args.lang]
+    translation_key = config["translation_key"]
 
     export = fetch_export(args.lang)
     cards = by_id(export["cards"])
@@ -208,14 +234,15 @@ def main() -> None:
     relics_by_norm = by_norm_id(export["relics"])
 
     stats = {
-        "cards": merge("cards", cards, card_translation),
+        "cards": merge("cards", cards, translation_key, lambda card: card_translation(card, config)),
         "characters": merge(
             "characters",
             characters,
-            lambda character: character_translation(character, cards_by_norm, relics_by_norm),
+            translation_key,
+            lambda character: character_translation(character, cards_by_norm, relics_by_norm, config),
         ),
-        "relics": merge("relics", relics, relic_translation),
-        "enemies": merge("enemies", monsters, enemy_translation),
+        "relics": merge("relics", relics, translation_key, lambda relic: relic_translation(relic, config)),
+        "enemies": merge("enemies", monsters, translation_key, lambda monster: enemy_translation(monster, config)),
     }
 
     for kind, (matched, missing) in stats.items():

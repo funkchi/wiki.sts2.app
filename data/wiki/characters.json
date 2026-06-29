@@ -142,6 +142,90 @@
               "text": "铁甲战士的卡牌现在会出现在奖励和商店中。"
             }
           ]
+        },
+        "ja": {
+          "name": "アイアンクラッド",
+          "character": "アイアンクラッド",
+          "description": "アイアンクラッド族、最後の兵士。 己が意志に反し、剣と炎で敵を粉砕する。",
+          "unlocksAfter": "",
+          "startingDeck": [
+            {
+              "id": "StrikeIronclad",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeIronclad",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeIronclad",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeIronclad",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeIronclad",
+              "name": "ストライク"
+            },
+            {
+              "id": "DefendIronclad",
+              "name": "防御"
+            },
+            {
+              "id": "DefendIronclad",
+              "name": "防御"
+            },
+            {
+              "id": "DefendIronclad",
+              "name": "防御"
+            },
+            {
+              "id": "DefendIronclad",
+              "name": "防御"
+            },
+            {
+              "id": "Bash",
+              "name": "強打"
+            }
+          ],
+          "startingRelics": [
+            {
+              "id": "BurningBlood",
+              "name": "バーニングブラッド"
+            }
+          ],
+          "quotes": [
+            {
+              "key": "event_death_prevention",
+              "text": "仲間には、まだ俺が必要だ。"
+            },
+            {
+              "key": "gold_monologue",
+              "text": "この金があれば、我が一族の武具を強化できる……"
+            },
+            {
+              "key": "aroma_principle",
+              "text": "痛みなど感じない。眼前の敵を屠るのみ。"
+            },
+            {
+              "key": "banter_alive",
+              "text": "急げ。"
+            },
+            {
+              "key": "banter_dead",
+              "text": "……"
+            },
+            {
+              "key": "cards_modifier_title",
+              "text": "アイアンクラッドのカード"
+            },
+            {
+              "key": "cards_modifier_description",
+              "text": "報酬やショップにアイアンクラッドのカードが出現するようになる。"
+            }
+          ]
         }
       }
     },
@@ -305,6 +389,102 @@
               "text": "静默猎手的卡牌现在会出现在奖励和商店中。"
             }
           ]
+        },
+        "ja": {
+          "name": "サイレント",
+          "character": "サイレント",
+          "description": "塔の外から来た狩人。 立ちはだかる者はすべて、ナイフと毒で仕留める。",
+          "unlocksAfter": "",
+          "startingDeck": [
+            {
+              "id": "StrikeSilent",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeSilent",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeSilent",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeSilent",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeSilent",
+              "name": "ストライク"
+            },
+            {
+              "id": "DefendSilent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendSilent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendSilent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendSilent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendSilent",
+              "name": "防御"
+            },
+            {
+              "id": "Neutralize",
+              "name": "無力化"
+            },
+            {
+              "id": "Survivor",
+              "name": "サバイバー"
+            }
+          ],
+          "startingRelics": [
+            {
+              "id": "RingOfTheSnake",
+              "name": "蛇の指輪"
+            }
+          ],
+          "quotes": [
+            {
+              "key": "event_death_prevention",
+              "text": "生き延びて、また狩りをしなければ……"
+            },
+            {
+              "key": "gold_monologue",
+              "text": "同胞たちも、この「証」を認めてくれるはず……"
+            },
+            {
+              "key": "aroma_principle",
+              "text": "……狩り……証明……居場所……"
+            },
+            {
+              "key": "banter_alive",
+              "text": "……"
+            },
+            {
+              "key": "banter_dead",
+              "text": "……"
+            },
+            {
+              "key": "unlock_text",
+              "text": "1回プレイして、このキャラクターをアンロック。"
+            },
+            {
+              "key": "cards_modifier_title",
+              "text": "サイレントのカード"
+            },
+            {
+              "key": "cards_modifier_description",
+              "text": "報酬やショップにサイレントのカードが出現するようになる。"
+            }
+          ]
         }
       }
     },
@@ -458,6 +638,94 @@
             {
               "key": "cards_modifier_description",
               "text": "故障机器人的卡牌现在会出现在奖励和商店中。"
+            }
+          ]
+        },
+        "ja": {
+          "name": "ディフェクト",
+          "character": "ディフェクト",
+          "description": "生き延びるため、永遠に自身を改造し続けるオートマトン。 戦わざるを得ない時は、オーブ機能を展開する。",
+          "unlocksAfter": "Necrobinder",
+          "startingDeck": [
+            {
+              "id": "StrikeDefect",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeDefect",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeDefect",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeDefect",
+              "name": "ストライク"
+            },
+            {
+              "id": "DefendDefect",
+              "name": "防御"
+            },
+            {
+              "id": "DefendDefect",
+              "name": "防御"
+            },
+            {
+              "id": "DefendDefect",
+              "name": "防御"
+            },
+            {
+              "id": "DefendDefect",
+              "name": "防御"
+            },
+            {
+              "id": "Zap",
+              "name": "ザップ"
+            },
+            {
+              "id": "Dualcast",
+              "name": "デュアルキャスト"
+            }
+          ],
+          "startingRelics": [
+            {
+              "id": "CrackedCore",
+              "name": "ひび割れたコア"
+            }
+          ],
+          "quotes": [
+            {
+              "key": "event_death_prevention",
+              "text": "トモダチのために、生きナケレバ！"
+            },
+            {
+              "key": "gold_monologue",
+              "text": "このゴールドはパーツと交換カノウ……"
+            },
+            {
+              "key": "aroma_principle",
+              "text": "1100 0011 1100 0011……"
+            },
+            {
+              "key": "banter_alive",
+              "text": "0x54494D45 0x204C494D 0x49542045 0x58434545 0x00444544"
+            },
+            {
+              "key": "banter_dead",
+              "text": "……"
+            },
+            {
+              "key": "unlock_text",
+              "text": "{Prerequisite}で1回プレイして、このキャラクターをアンロック。"
+            },
+            {
+              "key": "cards_modifier_title",
+              "text": "ディフェクトのカード"
+            },
+            {
+              "key": "cards_modifier_description",
+              "text": "報酬やショップにディフェクトのカードが出現するようになる。"
             }
           ]
         }
@@ -615,6 +883,94 @@
               "text": "亡灵契约师的卡牌现在会出现在奖励和商店中。"
             }
           ]
+        },
+        "ja": {
+          "name": "ネクロバインダー",
+          "character": "ネクロバインダー",
+          "description": "復讐を誓うスパイア生まれのリッチ。 戦闘では頼れる相棒、左手のオスティを呼び出す。",
+          "unlocksAfter": "Regent",
+          "startingDeck": [
+            {
+              "id": "StrikeNecrobinder",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeNecrobinder",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeNecrobinder",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeNecrobinder",
+              "name": "ストライク"
+            },
+            {
+              "id": "DefendNecrobinder",
+              "name": "防御"
+            },
+            {
+              "id": "DefendNecrobinder",
+              "name": "防御"
+            },
+            {
+              "id": "DefendNecrobinder",
+              "name": "防御"
+            },
+            {
+              "id": "DefendNecrobinder",
+              "name": "防御"
+            },
+            {
+              "id": "Bodyguard",
+              "name": "ボディガード"
+            },
+            {
+              "id": "Unleash",
+              "name": "解き放つ"
+            }
+          ],
+          "startingRelics": [
+            {
+              "id": "BoundPhylactery",
+              "name": "封じられし霊箱"
+            }
+          ],
+          "quotes": [
+            {
+              "key": "event_death_prevention",
+              "text": "私がいなくなったら、仲間たちはどうなるの？"
+            },
+            {
+              "key": "gold_monologue",
+              "text": "これでやっと靴が買えるかも……"
+            },
+            {
+              "key": "aroma_principle",
+              "text": "必ず無念を晴らす……私は挫けない……"
+            },
+            {
+              "key": "banter_alive",
+              "text": "早くしてよ……"
+            },
+            {
+              "key": "banter_dead",
+              "text": "……"
+            },
+            {
+              "key": "unlock_text",
+              "text": "{Prerequisite} で1回プレイして、このキャラクターをアンロック。"
+            },
+            {
+              "key": "cards_modifier_title",
+              "text": "ネクロバインダーのカード"
+            },
+            {
+              "key": "cards_modifier_description",
+              "text": "報酬やショップにネクロバインダーのカードが出現するようになる。"
+            }
+          ]
         }
       }
     },
@@ -768,6 +1124,94 @@
             {
               "key": "cards_modifier_description",
               "text": "储君的卡牌现在会出现在奖励和商店中。"
+            }
+          ]
+        },
+        "ja": {
+          "name": "リージェント",
+          "character": "リージェント",
+          "description": "星の王座の継承者。 宇宙の力を行使するが、面倒はミニオン任せ。",
+          "unlocksAfter": "Silent",
+          "startingDeck": [
+            {
+              "id": "StrikeRegent",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeRegent",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeRegent",
+              "name": "ストライク"
+            },
+            {
+              "id": "StrikeRegent",
+              "name": "ストライク"
+            },
+            {
+              "id": "DefendRegent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendRegent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendRegent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendRegent",
+              "name": "防御"
+            },
+            {
+              "id": "FallingStar",
+              "name": "落星"
+            },
+            {
+              "id": "Venerate",
+              "name": "畏敬"
+            }
+          ],
+          "startingRelics": [
+            {
+              "id": "DivineRight",
+              "name": "神授王権"
+            }
+          ],
+          "quotes": [
+            {
+              "key": "event_death_prevention",
+              "text": "臣下共を導くため、余は生きねばならん！"
+            },
+            {
+              "key": "gold_monologue",
+              "text": "これで少しはマシな軍勢を徴用できよう……"
+            },
+            {
+              "key": "aroma_principle",
+              "text": "余こそが次なる星の王……"
+            },
+            {
+              "key": "banter_alive",
+              "text": "余を待たせるか！"
+            },
+            {
+              "key": "banter_dead",
+              "text": "……"
+            },
+            {
+              "key": "unlock_text",
+              "text": "{Prerequisite}で1回プレイして、このキャラクターをアンロック。"
+            },
+            {
+              "key": "cards_modifier_title",
+              "text": "リージェントのカード"
+            },
+            {
+              "key": "cards_modifier_description",
+              "text": "報酬やショップにリージェントのカードが出現するようになる。"
             }
           ]
         }

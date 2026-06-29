@@ -1,11 +1,9 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
-import LanguageToggle from '../../../../components/LanguageToggle.astro';
 import { characters, accentFor } from '../../../../data/characters';
 ---
 
 <StarlightPage frontmatter={{ title: '角色', description: '杀戮尖塔 2 中文角色资料。' }}>
-  <LanguageToggle locale="zhs" />
   <p>
     角色中文翻译来自 <a href="https://spire-codex.com/docs">Spire Codex</a>{' '}
     <code>/api/exports/zhs</code> 导出。

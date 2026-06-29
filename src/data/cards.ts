@@ -36,7 +36,8 @@ const CardSchema = z.object({
   imageUpg: z.string().nullable(),
   related: z.array(z.string()),
   translations: z.object({
-    zhHans: CardTranslationSchema,
+    zhHans: CardTranslationSchema.optional(),
+    ja: CardTranslationSchema.optional(),
   }).optional(),
 });
 

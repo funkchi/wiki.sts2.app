@@ -1,0 +1,69 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { relics, relicBySlug } from '../../../../data/relics';
+import { poolColor } from '../../../../data/characters';
+
+export const getStaticPaths = (() =>
+  relics.map((relic) => ({ params: { slug: relic.slug }, props: { relic } }))) satisfies GetStaticPaths;
+
+const { relic } = Astro.props;
+const ja = relic.translations?.ja;
+const related = relic.related
+  .map((s) => relicBySlug.get(s))
+  .filter((x): x is NonNullable<typeof x> => Boolean(x));
+
+const title = ja?.name || relic.name;
+const description = ja?.description || relic.description || `${title} - Slay the Spire 2 レリック。`;
+---
+
+<StarlightPage frontmatter={{ title, description }}>
+  <div class="wiki-entity-hero">
+    <img class="wiki-image" src={relic.image} alt={title} loading="eager" decoding="async" fetchpriority="high" />
+    <div class="wiki-entity-hero__details">
+      <div class="entity-badges">
+        {relic.rarity === 'Starter Relic' ? (
+          <span class="tag" style={`--tag-color:${poolColor(relic.poolRaw)}`}>{ja?.rarity || relic.rarity}</span>
+        ) : (
+          <span class="tag tag--plain">{ja?.rarity || relic.rarity}</span>
+        )}
+        <span class="badge">{ja?.pool || relic.pool}</span>
+      </div>
+      <p>{ja?.description || relic.description || '説明はまだありません。'}</p>
+      <table>
+        <tbody>
+          <tr><th scope="row">レアリティ</th><td>{ja?.rarity || relic.rarity}</td></tr>
+          <tr><th scope="row">プール</th><td>{ja?.pool || relic.pool}</td></tr>
+          <tr><th scope="row">ショップ価格</th><td>{relic.price}</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  {(ja?.flavor || relic.flavor) && (
+    <>
+      <h2 id="flavor">フレーバーテキスト</h2>
+      <p>{ja?.flavor || relic.flavor}</p>
+    </>
+  )}
+
+  {((ja?.notes || relic.notes).length > 0) && (
+    <>
+      <h2 id="notes">メモ</h2>
+      <ul>
+        {(ja?.notes || relic.notes).map((n) => <li>{n}</li>)}
+      </ul>
+    </>
+  )}
+
+  {related.length > 0 && (
+    <>
+      <h2 id="related">関連レリック</h2>
+      <ul>
+        {related.map((r) => <li><a href={`/jpn/docs/relics/${r.slug}/`}>{r.translations?.ja?.name || r.name}</a></li>)}
+      </ul>
+    </>
+  )}
+
+  <p><a href="/jpn/docs/relics/">レリック一覧に戻る</a></p>
+</StarlightPage>

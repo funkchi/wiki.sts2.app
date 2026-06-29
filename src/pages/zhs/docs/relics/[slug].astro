@@ -1,7 +1,6 @@
 ---
 import type { GetStaticPaths } from 'astro';
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
-import LanguageToggle from '../../../../components/LanguageToggle.astro';
 import { relics, relicBySlug } from '../../../../data/relics';
 import { poolColor } from '../../../../data/characters';
 
@@ -19,7 +18,6 @@ const description = zh?.description || relic.description || `${title} - 杀戮�
 ---
 
 <StarlightPage frontmatter={{ title, description }}>
-  <LanguageToggle locale="zhs" />
   <div class="wiki-entity-hero">
     <img class="wiki-image" src={relic.image} alt={title} loading="eager" decoding="async" fetchpriority="high" />
     <div class="wiki-entity-hero__details">

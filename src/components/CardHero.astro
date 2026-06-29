@@ -1,4 +1,6 @@
 ---
+import { translationKey, type Lang } from '../data/i18n';
+
 interface CostRaw {
   cost: number | null;
   starCost: number | null;
@@ -22,20 +24,53 @@ interface Props {
     matchedKeywords: string[];
     translations?: Record<string, any>;
   };
-  locale?: 'en' | 'zhs';
+  locale?: Lang;
 }
 const { card, locale = 'en' } = Astro.props;
 const c = card.costRaw;
-const zh = locale === 'zhs' ? card.translations?.zhHans : undefined;
+const translatedCard = translationKey(locale) ? card.translations?.[translationKey(locale)!] : undefined;
 const display = {
-  name: zh?.name || card.name,
-  description: zh?.description || card.description,
-  upgradeDescription: zh?.upgradeDescription || card.upgradeDescription,
-  type: zh?.type || card.type,
-  rarity: zh?.rarity || card.rarity,
-  target: zh?.target || card.target,
-  keywords: Array.isArray(zh?.keywords) ? zh.keywords : card.matchedKeywords,
+  name: translatedCard?.name || card.name,
+  description: translatedCard?.description || card.description,
+  upgradeDescription: translatedCard?.upgradeDescription || card.upgradeDescription,
+  type: translatedCard?.type || card.type,
+  rarity: translatedCard?.rarity || card.rarity,
+  target: translatedCard?.target || card.target,
+  keywords: Array.isArray(translatedCard?.keywords) ? translatedCard.keywords : card.matchedKeywords,
 };
+
+const labels = {
+  en: {
+    pool: 'Character / Pool',
+    type: 'Type',
+    rarity: 'Rarity',
+    target: 'Target',
+    cost: 'Cost',
+    unplayable: 'Unplayable',
+    hint: 'Click image to view upgrade',
+    upgradedAlt: 'upgraded',
+  },
+  zhs: {
+    pool: '角色 / 卡池',
+    type: '类型',
+    rarity: '稀有度',
+    target: '目标',
+    cost: '费用',
+    unplayable: '不可打出',
+    hint: '点击图片查看升级版',
+    upgradedAlt: '升级版',
+  },
+  jpn: {
+    pool: 'キャラクター / プール',
+    type: 'タイプ',
+    rarity: 'レアリティ',
+    target: '対象',
+    cost: 'コスト',
+    unplayable: 'プレイ不可',
+    hint: '画像をクリックしてアップグレード版を表示',
+    upgradedAlt: 'アップグレード版',
+  },
+}[locale];
 
 const norm = (val: string) =>
   String(val).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
@@ -58,10 +93,10 @@ const upgHtml = display.upgradeDescription
   : '';
 
 const rows: Array<[string, string]> = [
-  [locale === 'zhs' ? '角色 / 卡池' : 'Character / Pool', card.character],
-  [locale === 'zhs' ? '类型' : 'Type', display.type],
-  [locale === 'zhs' ? '稀有度' : 'Rarity', display.rarity],
-  [locale === 'zhs' ? '目标' : 'Target', display.target],
+  [labels.pool, card.character],
+  [labels.type, display.type],
+  [labels.rarity, display.rarity],
+  [labels.target, display.target],
 ];
 ---
 
@@ -88,7 +123,7 @@ const rows: Array<[string, string]> = [
           <img
             class="wiki-image wiki-image--card-detail wiki-image--upgraded"
             src={card.imageUpg}
-            alt={`${display.name} upgraded`}
+            alt={`${display.name} ${labels.upgradedAlt}`}
             loading="eager"
             decoding="async"
             fetchpriority="low"
@@ -96,7 +131,7 @@ const rows: Array<[string, string]> = [
         )}
       </span>
     </button>
-    {card.imageUpg && <p class="wiki-image-hint">{locale === 'zhs' ? '点击图片查看升级版' : 'Click image to view upgrade'}</p>}
+    {card.imageUpg && <p class="wiki-image-hint">{labels.hint}</p>}
   </div>
 
   <div class="wiki-entity-hero__details">
@@ -113,10 +148,10 @@ const rows: Array<[string, string]> = [
           <tr><th scope="row">{label}</th><td>{value}</td></tr>
         ))}
         <tr>
-          <th scope="row">{locale === 'zhs' ? '费用' : 'Cost'}</th>
+          <th scope="row">{labels.cost}</th>
           <td>
             {c.cost === -1 || c.cost === -2
-              ? 'Unplayable'
+              ? labels.unplayable
               : c.isXStar
                 ? (<>X <img class="star-icon" src={STAR} alt="star" /></>)
                 : c.isX

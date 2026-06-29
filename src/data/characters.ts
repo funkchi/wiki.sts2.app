@@ -36,7 +36,8 @@ const CharacterSchema = z.object({
   startingRelics: z.array(RelicSchema),
   quotes: z.array(QuoteSchema),
   translations: z.object({
-    zhHans: CharacterTranslationSchema,
+    zhHans: CharacterTranslationSchema.optional(),
+    ja: CharacterTranslationSchema.optional(),
   }).optional(),
 });
 
