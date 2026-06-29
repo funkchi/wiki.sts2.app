@@ -15,6 +15,32 @@ const originalGuides = 4;
 const title = 'Slay the Spire 2 Wiki';
 const description =
   'A fast community wiki for Slay the Spire 2 cards, relics, characters, enemies, and guides.';
+const SITE = 'https://wiki.sts2.app';
+const ogImage = `${SITE}/images/hero.png`;
+const ogDesc = 'Cards, relics, characters, enemies, and strategy for Slay the Spire 2.';
+const ldJson = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${SITE}/#website`,
+      url: SITE,
+      name: title,
+      description,
+      inLanguage: 'en',
+    },
+    {
+      '@type': 'VideoGame',
+      name: 'Slay the Spire 2',
+      description: 'Slay the Spire 2 — a roguelike deckbuilding game. Community wiki with cards, relics, characters, enemies, and guides.',
+      genre: ['Roguelike', 'Deckbuilder', 'Strategy'],
+      applicationCategory: 'Game',
+      url: SITE,
+      image: ogImage,
+      inLanguage: 'en',
+    },
+  ],
+});
 ---
 
 <!doctype html>
@@ -25,10 +51,25 @@ const description =
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href="https://wiki.sts2.app/" />
+    <link rel="alternate" hreflang="en" href="https://wiki.sts2.app/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://wiki.sts2.app/zhs/" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#100c16" />
     <meta name="google-adsense-account" content="ca-pub-8661972209515901" />
     <meta property="og:title" content={title} />
-    <meta property="og:description" content="Cards, relics, characters, enemies, and strategy for Slay the Spire 2." />
-    <meta property="og:image" content="/images/hero.png" />
+    <meta property="og:description" content={ogDesc} />
+    <meta property="og:url" content="https://wiki.sts2.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={title} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={ogDesc} />
+    <meta name="twitter:image" content={ogImage} />
+    <script type="application/ld+json" set:html={ldJson} />
     <link
       rel="preload"
       as="image"

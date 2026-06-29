@@ -31,6 +31,22 @@ export default defineConfig({
       ],
     }),
     svelte(),
-    sitemap(),
+    sitemap({
+      serialize(item) {
+        const SITE = 'https://wiki.sts2.app';
+        const path = item.url.startsWith(SITE) ? item.url.slice(SITE.length) : new URL(item.url).pathname;
+        const isZhs = path.startsWith('/zhs/');
+        const enPath = isZhs ? path.replace(/^\/zhs/, '') : path;
+        const zhPath = isZhs ? path : `/zhs${enPath === '/' ? '' : enPath}`;
+        // Only entity (/docs/*) and landing (/) have a Chinese counterpart.
+        if (enPath.startsWith('/docs/') || enPath === '/') {
+          item.links = [
+            { url: `${SITE}${enPath}`, lang: 'en' },
+            { url: `${SITE}${zhPath}`, lang: 'zh-Hans' },
+          ];
+        }
+        return item;
+      },
+    }),
   ],
 });
