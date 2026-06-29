@@ -17,6 +17,7 @@ interface Props {
     rarity: string;
     cost: string;
     costRaw: CostRaw;
+    upgradeCost?: number | null;
     target: string;
     matchedKeywords: string[];
   };
@@ -111,6 +112,9 @@ const rows: Array<[string, string]> = [
                   : c.starCost !== null && c.starCost !== undefined
                     ? (<>{c.cost}/{c.starCost} <img class="star-icon" src={STAR} alt="star" /></>)
                     : String(c.cost)}
+            {card.upgradeCost !== null && card.upgradeCost !== undefined && (
+              <span class="cost-upgrade"> → {card.upgradeCost}</span>
+            )}
           </td>
         </tr>
       </tbody>

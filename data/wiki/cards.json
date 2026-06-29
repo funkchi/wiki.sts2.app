@@ -18,6 +18,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Dexterity. Gain 4 Thorns.",
       "upgradeDescription": "Gain 1 Dexterity. Gain 6 Thorns.",
@@ -57,6 +58,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Poison is triggered 1 additional time.",
       "upgradeDescription": "Poison is triggered 2 additional times.",
@@ -92,6 +94,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Shivs deal 4 additional damage.",
       "upgradeDescription": "Shivs deal 6 additional damage.",
@@ -125,6 +128,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 3 cards. Discard 1 card.",
       "upgradeDescription": "Draw 4 cards. Discard 1 card.",
@@ -158,6 +162,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 18 damage. Add a 01 Energy copy of this card into your Discard Pile.",
       "upgradeDescription": "Deal 23 damage. Add a 01 Energy copy of this card into your Discard Pile.",
@@ -191,6 +196,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Energy. Draw 2 cards.",
       "upgradeDescription": "Gain 2 Energy. Draw 2 cards.",
@@ -228,6 +234,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you play a card, gain 1 Block.",
       "upgradeDescription": "",
@@ -261,6 +268,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Summon 6.",
       "upgradeDescription": "Summon 9.",
@@ -298,6 +306,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, put a random Attack from your Discard Pile into your Hand and Upgrade it.",
       "upgradeDescription": "",
@@ -331,6 +340,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Procure a random potion.",
       "upgradeDescription": "",
@@ -368,6 +378,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Energy.",
       "upgradeDescription": "Gain 3 Energy.",
@@ -401,6 +412,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. Put ALL 01 Energy cards from your Discard Pile into your Hand.",
       "upgradeDescription": "Deal 14 damage. Put ALL 01 Energy cards from your Discard Pile into your Hand.",
@@ -434,6 +446,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage. Add a copy of this card into your Discard Pile.",
       "upgradeDescription": "Deal 8 damage. Add a copy of this card into your Discard Pile.",
@@ -467,6 +480,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Put every Rare card from your Draw Pile into your Hand.",
       "upgradeDescription": "",
@@ -504,6 +518,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Dexterity this turn.",
       "upgradeDescription": "Gain 3 Dexterity this turn.",
@@ -539,6 +554,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "Upgrade ALL your cards.",
       "upgradeDescription": "",
@@ -578,6 +594,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Intangible.",
       "upgradeDescription": "",
@@ -617,6 +634,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 5 Block. Upgrade a card in your Hand.",
       "upgradeDescription": "Gain 5 Block. Upgrade ALL cards in your Hand.",
@@ -650,6 +668,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you create a card, gain 1 Strength.",
       "upgradeDescription": "",
@@ -685,6 +704,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -725,6 +745,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage. Deals 3 additional damage for each card in your Exhaust Pile.",
       "upgradeDescription": "Deal 6 damage. Deals 4 additional damage for each card in your Exhaust Pile.",
@@ -760,6 +781,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. Apply 1 Vulnerable.",
       "upgradeDescription": "Deal 13 damage. Apply 2 Vulnerable.",
@@ -800,6 +822,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 6 damage to ALL enemies twice.",
       "upgradeDescription": "Deal 8 damage to ALL enemies twice.",
@@ -833,6 +856,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Every 10 cards you draw, gain 1 Energy.",
       "upgradeDescription": "",
@@ -866,6 +890,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Choose a card in your Hand to Transform into Minion Strike.",
       "upgradeDescription": "Choose a card in your Hand to Transform into Minion Strike+.",
@@ -899,6 +924,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 5 Block. Draw 2 cards.",
       "upgradeDescription": "Gain 8 Block. Draw 2 cards.",
@@ -932,6 +958,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 11 damage.",
       "upgradeDescription": "Deal 15 damage.",
@@ -971,6 +998,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "At the end of your turn, if this is in your Hand, lose 13 HP.",
       "upgradeDescription": "",
@@ -1009,6 +1037,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 7 damage. Channel 1 Lightning.",
       "upgradeDescription": "Deal 10 damage. Channel 1 Lightning.",
@@ -1042,6 +1071,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 7,
       "target": "AllEnemies",
       "description": "Deal 33 damage to ALL enemies. Costs 2 Energy less for each Ethereal card played this combat.",
       "upgradeDescription": "",
@@ -1077,6 +1107,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage for each Channeled Orb.",
       "upgradeDescription": "Deal 7 damage for each Channeled Orb.",
@@ -1110,6 +1141,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 2,
       "target": "Self",
       "description": "Block is not removed at the start of your turn.",
       "upgradeDescription": "",
@@ -1143,6 +1175,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage. Apply 2 Vulnerable.",
       "upgradeDescription": "Deal 10 damage. Apply 3 Vulnerable.",
@@ -1178,6 +1211,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 3 cards. You cannot draw additional cards this turn.",
       "upgradeDescription": "Draw 4 cards. You cannot draw additional cards this turn.",
@@ -1211,6 +1245,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you gain Block on your turn, other players gain half that much Block.",
       "upgradeDescription": "",
@@ -1244,6 +1279,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 3 damage. Apply 1 Vulnerable.",
       "upgradeDescription": "Deal 4 damage. Apply 2 Vulnerable.",
@@ -1279,6 +1315,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "RandomEnemy",
       "description": "Play 3 random Attacks from your Discard Pile.",
       "upgradeDescription": "Play 4 random Attacks from your Discard Pile.",
@@ -1312,6 +1349,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage. Forge X. Forges an additional 5 for every other time you've hit the enemy this turn.",
       "upgradeDescription": "Deal 7 damage. Forge X. Forges an additional 7 for every other time you've hit the enemy this turn.",
@@ -1345,6 +1383,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "At the end of your turn, if this is in your Hand, lose 6 HP.",
       "upgradeDescription": "",
@@ -1378,6 +1417,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyAlly",
       "description": "Another player gains 2 Energy.",
       "upgradeDescription": "Another player gains 3 Energy.",
@@ -1411,6 +1451,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 4 Focus. At the start of your turn, lose 1 Focus.",
       "upgradeDescription": "Gain 5 Focus. At the start of your turn, lose 1 Focus.",
@@ -1446,6 +1487,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 1 card. Gain 1 Energy. Gain 1 Star. Forge 5.",
       "upgradeDescription": "",
@@ -1483,6 +1525,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you spend or gain 1 Star, deal 3 damage to ALL enemies.",
       "upgradeDescription": "Whenever you spend or gain 1 Star, deal 4 damage to ALL enemies.",
@@ -1516,6 +1559,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Add 3 Shivs into your Hand.",
       "upgradeDescription": "Add 4 Shivs into your Hand.",
@@ -1553,6 +1597,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Add 2 Inky Shivs into your Hand.",
       "upgradeDescription": "Add 3 Inky Shivs into your Hand.",
@@ -1586,6 +1631,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage. Apply Doom equal to damage dealt.",
       "upgradeDescription": "Deal 10 damage. Apply Doom equal to damage dealt.",
@@ -1621,6 +1667,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Lose 2 HP. Gain 16 Block.",
       "upgradeDescription": "Lose 2 HP. Gain 20 Block.",
@@ -1654,6 +1701,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Lose 3 HP. Gain 2 Energy.",
       "upgradeDescription": "Lose 3 HP. Gain 3 Energy.",
@@ -1687,6 +1735,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 32 damage.",
       "upgradeDescription": "Deal 42 damage.",
@@ -1720,6 +1769,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 5 Block. Block is not removed at the start of your next turn.",
       "upgradeDescription": "Gain 8 Block. Block is not removed at the start of your next turn.",
@@ -1753,6 +1803,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "AnyEnemy",
       "description": "Deal damage equal to your Block.",
       "upgradeDescription": "",
@@ -1786,6 +1837,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Summon 5.",
       "upgradeDescription": "Summon 7.",
@@ -1819,6 +1871,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 3 damage. At the start of your next turn, return this to your Hand.",
       "upgradeDescription": "Deal 4 damage. At the start of your next turn, return this to your Hand.",
@@ -1852,6 +1905,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 18 damage. At the start of your turn, if this is in your Exhaust Pile, play it.",
       "upgradeDescription": "Deal 24 damage. At the start of your turn, if this is in your Exhaust Pile, play it.",
@@ -1889,6 +1943,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "If Osty is alive, he deals 9 damage to ALL enemies and you gain 9 Block. Osty dies.",
       "upgradeDescription": "If Osty is alive, he deals 12 damage to ALL enemies and you gain 12 Block. Osty dies.",
@@ -1922,6 +1977,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 6 Block. Add a Dazed into your Discard Pile.",
       "upgradeDescription": "Gain 9 Block. Add a Dazed into your Discard Pile.",
@@ -1955,6 +2011,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 10 Block.",
       "upgradeDescription": "Gain 13 Block.",
@@ -1994,6 +2051,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 4 Energy. Cards cost an additional 1 Energy this turn.",
       "upgradeDescription": "Gain 6 Energy. Cards cost an additional 1 Energy this turn.",
@@ -2027,6 +2085,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "RandomEnemy",
       "description": "Apply 3 Poison to a random enemy 3 times.",
       "upgradeDescription": "Apply 3 Poison to a random enemy 4 times.",
@@ -2062,6 +2121,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Lose 1 HP. Exhaust 1 card. Gain 1 Strength.",
       "upgradeDescription": "Lose 1 HP. Exhaust 1 card. Gain 2 Strength.",
@@ -2098,6 +2158,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 20 damage. Apply 5 Vulnerable.",
       "upgradeDescription": "Deal 30 damage. Apply 7 Vulnerable.",
@@ -2133,6 +2194,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Lose 1 HP. Deal 9 damage to ALL enemies.",
       "upgradeDescription": "Lose 1 HP. Deal 13 damage to ALL enemies.",
@@ -2166,6 +2228,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Energy. Draw 2 cards. Lose 1 Max HP.",
       "upgradeDescription": "Gain 3 Energy. Draw 3 cards. Lose 1 Max HP.",
@@ -2199,6 +2262,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "If the enemy has Poison, apply 9 Poison.",
       "upgradeDescription": "If the enemy has Poison, apply 12 Poison.",
@@ -2234,6 +2298,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Prevent the next time you would lose HP.",
       "upgradeDescription": "Prevent the next 2 times you would lose HP.",
@@ -2267,6 +2332,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Lose 1 Orb Slot. Gain 2 Strength. Gain 2 Dexterity.",
       "upgradeDescription": "Lose 1 Orb Slot. Gain 3 Strength. Gain 3 Dexterity.",
@@ -2303,6 +2369,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 2,
       "target": "Self",
       "description": "You cannot draw additional cards this turn. ALL cards in your Hand are free to play this turn.",
       "upgradeDescription": "",
@@ -2336,6 +2403,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 4 damage. Deals 2 additional damage for each Vulnerable on the enemy.",
       "upgradeDescription": "Deal 4 damage. Deals 3 additional damage for each Vulnerable on the enemy.",
@@ -2371,6 +2439,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 12 Block. Forge 10.",
       "upgradeDescription": "Gain 15 Block. Forge 13.",
@@ -2404,6 +2473,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Add 3 random Colorless cards into your Hand.",
       "upgradeDescription": "Add 4 random Colorless cards into your Hand.",
@@ -2441,6 +2511,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "At the end of your turn, if this is in your Hand, take 2 damage.",
       "upgradeDescription": "",
@@ -2476,6 +2547,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Exhaust 1 card. Draw 2 cards.",
       "upgradeDescription": "Exhaust 1 card. Draw 3 cards.",
@@ -2511,6 +2583,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "This turn, your next Skill is played an extra time.",
       "upgradeDescription": "This turn, your next 2 Skills are played an extra time.",
@@ -2544,6 +2617,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 52 damage.",
       "upgradeDescription": "Deal 63 damage.",
@@ -2577,6 +2651,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 14 damage.",
       "upgradeDescription": "Deal 18 damage.",
@@ -2610,6 +2685,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "Can be hatched at a Rest Site.",
       "upgradeDescription": "",
@@ -2639,6 +2715,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Choose 2 cards in your Draw Pile to Transform into Minion Dive Bombs.",
       "upgradeDescription": "Choose 2 cards in your Draw Pile to Transform into Minion Dive Bombs+.",
@@ -2672,6 +2749,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 2,
       "target": "Self",
       "description": "Whenever you play an Attack, add a random Attack into your Hand.",
       "upgradeDescription": "",
@@ -2705,6 +2783,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Osty's attacks deal 4 additional damage.",
       "upgradeDescription": "Osty's attacks deal 6 additional damage.",
@@ -2738,6 +2817,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Discard your Hand, then draw that many cards.",
       "upgradeDescription": "",
@@ -2775,6 +2855,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, add 1 random card into your Hand. It gains Ethereal.",
       "upgradeDescription": "",
@@ -2810,6 +2891,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you are attacked, deal 3 damage back.",
       "upgradeDescription": "Whenever you are attacked, deal 5 damage back.",
@@ -2836,6 +2918,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Orb Slots.",
       "upgradeDescription": "Gain 3 Orb Slots.",
@@ -2869,6 +2952,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Enemy loses 3 HP. Add 3 Souls into your Draw Pile.",
       "upgradeDescription": "Enemy loses 4 HP. Add 4 Souls into your Draw Pile.",
@@ -2902,6 +2986,7 @@
         "isX": true,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Play the top X cards of your Draw Pile.",
       "upgradeDescription": "Play the top X+1 cards of your Draw Pile.",
@@ -2935,6 +3020,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Play 2 random cards from your Draw Pile.",
       "upgradeDescription": "Play 3 random cards from your Draw Pile.",
@@ -2968,6 +3054,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage 3 times.",
       "upgradeDescription": "Deal 6 damage 4 times.",
@@ -3001,6 +3088,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Channel 1 random Orb.",
       "upgradeDescription": "Channel 2 random Orbs.",
@@ -3034,6 +3122,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 7 Block. Next turn, gain 1 Energy.",
       "upgradeDescription": "Gain 10 Block. Next turn, gain 1 Energy.",
@@ -3067,6 +3156,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you spend 1 Star, gain 2 Block for each 1 Star spent.",
       "upgradeDescription": "Whenever you spend 1 Star, gain 3 Block for each 1 Star spent.",
@@ -3100,6 +3190,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Channel 1 Frost for each enemy.",
       "upgradeDescription": "",
@@ -3137,6 +3228,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 18 damage. Exhaust 1 card at random.",
       "upgradeDescription": "Deal 24 damage. Exhaust 1 card at random.",
@@ -3172,6 +3264,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Can only be played if every card in your Hand is an Attack. Deal 14 damage.",
       "upgradeDescription": "Can only be played if every card in your Hand is an Attack. Deal 18 damage.",
@@ -3205,6 +3298,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 3 damage. Increase the damage of ALL Claw cards by 2 this combat.",
       "upgradeDescription": "Deal 4 damage. Increase the damage of ALL Claw cards by 3 this combat.",
@@ -3238,6 +3332,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Summon 3. Exhaust 1 card from your Draw Pile.",
       "upgradeDescription": "Summon 5. Exhaust 1 card from your Draw Pile.",
@@ -3273,6 +3368,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 6 Block. Add 1 Shiv into your Hand.",
       "upgradeDescription": "Gain 6 Block. Add 2 Shivs into your Hand.",
@@ -3306,6 +3402,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 7 Block.",
       "upgradeDescription": "Gain 10 Block.",
@@ -3339,6 +3436,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -3377,6 +3475,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage. Channel 1 Frost.",
       "upgradeDescription": "Deal 9 damage. Channel 1 Frost.",
@@ -3410,6 +3509,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 11 damage. Add a Debris into your Hand.",
       "upgradeDescription": "Deal 15 damage. Add a Debris into your Hand.",
@@ -3443,6 +3543,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 5 Block. You receive 50% less damage from Vulnerable enemies this turn.",
       "upgradeDescription": "Gain 8 Block. You receive 50% less damage from Vulnerable enemies this turn.",
@@ -3478,6 +3579,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 33 damage. Apply 3 Weak. Apply 3 Vulnerable.",
       "upgradeDescription": "Deal 44 damage. Apply 3 Weak. Apply 3 Vulnerable.",
@@ -3514,6 +3616,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 6 Block. Transform all Status cards in your Hand into Fuel.",
       "upgradeDescription": "Gain 7 Block. Transform all Status cards in your Hand into Fuel+.",
@@ -3547,6 +3650,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 7 damage. Draw 1 card for each unique Orb you have.",
       "upgradeDescription": "Deal 10 damage. Draw 1 card for each unique Orb you have.",
@@ -3580,6 +3684,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 2 damage to ALL enemies 4 times.",
       "upgradeDescription": "Deal 2 damage to ALL enemies 5 times.",
@@ -3613,6 +3718,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Forge 3. Sovereign Blade deals double damage to the enemy this turn.",
       "upgradeDescription": "Forge 5. Sovereign Blade deals double damage to the enemy this turn.",
@@ -3646,6 +3752,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Channel 2 Dark. At the end of your turn, Evoke your leftmost Orb.",
       "upgradeDescription": "Channel 3 Dark. At the end of your turn, Evoke your leftmost Orb.",
@@ -3679,6 +3786,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Next turn, gain 1 Energy and 1 Star. Retain your Hand this turn.",
       "upgradeDescription": "Next turn, gain 1 Energy and 2 Star. Retain your Hand this turn.",
@@ -3714,6 +3822,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, gain 2 Block for each unique Orb you have.",
       "upgradeDescription": "At the start of your turn, gain 3 Block for each unique Orb you have.",
@@ -3747,6 +3856,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Channel 1 Frost. Draw 1 card.",
       "upgradeDescription": "Channel 1 Frost. Draw 2 cards.",
@@ -3780,6 +3890,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyAlly",
       "description": "Give another player 5 Strength this turn.",
       "upgradeDescription": "Give another player 8 Strength this turn.",
@@ -3815,6 +3926,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you draw a card this turn, apply 2 Poison to ALL enemies.",
       "upgradeDescription": "Whenever you draw a card this turn, apply 3 Poison to ALL enemies.",
@@ -3850,6 +3962,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 2,
       "target": "Self",
       "description": "Skills cost 0 1 Energy. Whenever you play a Skill, Exhaust it.",
       "upgradeDescription": "",
@@ -3885,6 +3998,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 6 Block. Put a card from your Discard Pile on top of your Draw Pile.",
       "upgradeDescription": "Gain 9 Block. Put a card from your Discard Pile on top of your Draw Pile.",
@@ -3918,6 +4032,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, apply 6 Doom to a random enemy.",
       "upgradeDescription": "At the start of your turn, apply 9 Doom to a random enemy.",
@@ -3953,6 +4068,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 21 damage to ALL enemies. Fill your Hand with Debris.",
       "upgradeDescription": "Deal 26 damage to ALL enemies. Fill your Hand with Debris.",
@@ -3986,6 +4102,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 2,
       "target": "Self",
       "description": "At the start of your turn, add a random Power into your Hand.",
       "upgradeDescription": "",
@@ -4019,6 +4136,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage. Deals 2 additional damage for ALL your cards that have a 1 Star cost.",
       "upgradeDescription": "Deal 8 damage. Deals 3 additional damage for ALL your cards that have a 1 Star cost.",
@@ -4052,6 +4170,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, lose 1 HP and gain 8 Block.",
       "upgradeDescription": "At the start of your turn, lose 1 HP and gain 10 Block.",
@@ -4085,6 +4204,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Vulnerable enemies take an additional 25% damage.",
       "upgradeDescription": "Vulnerable enemies take an additional 50% damage.",
@@ -4120,6 +4240,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 7 damage to ALL enemies. All enemies lose 1 Strength this turn.",
       "upgradeDescription": "Deal 8 damage to ALL enemies. All enemies lose 2 Strength this turn.",
@@ -4155,6 +4276,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -4193,6 +4315,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 4 damage to ALL enemies twice.",
       "upgradeDescription": "Deal 6 damage to ALL enemies twice.",
@@ -4226,6 +4349,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage. Draw 1 card. Discard 1 card.",
       "upgradeDescription": "Deal 12 damage. Draw 1 card. Discard 1 card.",
@@ -4259,6 +4383,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you play a card that costs 2 Energy or more, gain 4 Block.",
       "upgradeDescription": "Whenever you play a card that costs 2 Energy or more, gain 6 Block.",
@@ -4292,6 +4417,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "Whenever a card is Exhausted, draw 1 card.",
       "upgradeDescription": "",
@@ -4325,6 +4451,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Enemy loses 9 Strength this turn.",
       "upgradeDescription": "Enemy loses 15 Strength this turn.",
@@ -4363,6 +4490,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Channel 1 Dark. Trigger the passive ability of all Dark Orbs.",
       "upgradeDescription": "Channel 1 Dark. Trigger the passive ability of all Dark Orbs twice.",
@@ -4396,6 +4524,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Gain 10 Block. Deal 10 damage.",
       "upgradeDescription": "Gain 13 Block. Deal 13 damage.",
@@ -4429,6 +4558,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -4467,6 +4597,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Apply 5 Poison.",
       "upgradeDescription": "Apply 7 Poison.",
@@ -4502,6 +4633,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage. Deals 4 additional damage for each card drawn during your turn.",
       "upgradeDescription": "Deal 8 damage. Deals 6 additional damage for each card drawn during your turn.",
@@ -4535,6 +4667,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 6 Block. If you applied Doom this turn, gain Block 2 additional times.",
       "upgradeDescription": "Gain 7 Block. If you applied Doom this turn, gain Block 2 additional times.",
@@ -4570,6 +4703,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Apply 21 Doom and 1 Weak to ALL enemies.",
       "upgradeDescription": "Apply 26 Doom and 1 Weak to ALL enemies.",
@@ -4606,6 +4740,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. Vulnerable and Weak are twice as effective against the enemy for the next 2 turns.",
       "upgradeDescription": "Deal 12 damage. Vulnerable and Weak are twice as effective against the enemy for the next 3 turns.",
@@ -4642,6 +4777,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -4679,6 +4815,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "At the end of your turn, if this is in your Hand, lose 10 Gold.",
       "upgradeDescription": "",
@@ -4714,6 +4851,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "At the end of your turn, if this is in your Hand, take 2 damage.",
       "upgradeDescription": "",
@@ -4749,6 +4887,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 3 cards. Choose a Skill in your Hand and play it 3 times.",
       "upgradeDescription": "Draw 5 cards. Choose a Skill in your Hand and play it 3 times.",
@@ -4786,6 +4925,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 5 Block.",
       "upgradeDescription": "Gain 8 Block.",
@@ -4819,6 +4959,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 5 Block.",
       "upgradeDescription": "Gain 8 Block.",
@@ -4852,6 +4993,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 5 Block.",
       "upgradeDescription": "Gain 8 Block.",
@@ -4885,6 +5027,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 5 Block.",
       "upgradeDescription": "Gain 8 Block.",
@@ -4918,6 +5061,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 5 Block.",
       "upgradeDescription": "Gain 8 Block.",
@@ -4951,6 +5095,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 13 damage.",
       "upgradeDescription": "Deal 17 damage.",
@@ -4988,6 +5133,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 4 Block.",
       "upgradeDescription": "Gain 7 Block.",
@@ -5021,6 +5167,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Focus.",
       "upgradeDescription": "Gain 2 Focus.",
@@ -5056,6 +5203,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Gain 6 Block. Apply 1 Weak.",
       "upgradeDescription": "Gain 9 Block. Apply 1 Weak.",
@@ -5094,6 +5242,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 11 Block. Next turn, gain 1 Energy.",
       "upgradeDescription": "Gain 13 Block. Next turn, gain 2 Energy.",
@@ -5127,6 +5276,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 2,
       "target": "Self",
       "description": "At the start of your turn, gain 1 Energy and draw 1 additional card.",
       "upgradeDescription": "",
@@ -5164,6 +5314,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, gain 2 Strength.",
       "upgradeDescription": "At the start of your turn, gain 3 Strength.",
@@ -5199,6 +5350,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyAlly",
       "description": "Lose 1 HP. Give another player Block equal to your Block.",
       "upgradeDescription": "",
@@ -5236,6 +5388,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 30 damage.",
       "upgradeDescription": "Deal 40 damage.",
@@ -5269,6 +5422,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you play a Soul, Summon 1.",
       "upgradeDescription": "Whenever you play a Soul, Summon 2.",
@@ -5302,6 +5456,7 @@
         "isX": true,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Summon 3 X times. Add X Souls into your Draw Pile.",
       "upgradeDescription": "Summon 4 X times. Add X Souls+ into your Draw Pile.",
@@ -5339,6 +5494,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Choose 1 of 3 random cards to add into your Hand. It's free to play this turn.",
       "upgradeDescription": "",
@@ -5376,6 +5532,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "At the end of your turn, take 6 damage.",
       "upgradeDescription": "",
@@ -5404,6 +5561,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage. If the enemy is Vulnerable, hits twice.",
       "upgradeDescription": "Deal 10 damage. If the enemy is Vulnerable, hits twice.",
@@ -5439,6 +5597,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Add a random Skill into your Hand. It's free to play this turn.",
       "upgradeDescription": "",
@@ -5476,6 +5635,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 4 Block. Next turn, gain 4 Block.",
       "upgradeDescription": "Gain 6 Block. Next turn, gain 6 Block.",
@@ -5509,6 +5669,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Apply 1 Vulnerable. Gain 1 Strength for each Vulnerable on the enemy.",
       "upgradeDescription": "Apply 2 Vulnerable. Gain 1 Strength for each Vulnerable on the enemy.",
@@ -5548,6 +5709,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Double your Energy.",
       "upgradeDescription": "",
@@ -5585,6 +5747,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "At the end of your turn, if this is in your Hand, gain 1 Weak.",
       "upgradeDescription": "",
@@ -5622,6 +5785,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. Upgrade 2 random cards in your Discard Pile.",
       "upgradeDescription": "Deal 12 damage. Upgrade 3 random cards in your Discard Pile.",
@@ -5655,6 +5819,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 11 damage to ALL enemies.",
       "upgradeDescription": "Deal 15 damage to ALL enemies.",
@@ -5694,6 +5859,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Put 3 cards from your Discard Pile into your Hand.",
       "upgradeDescription": "",
@@ -5731,6 +5897,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 2 cards. When this card is Exhausted, gain 2 Energy.",
       "upgradeDescription": "Draw 2 cards. When this card is Exhausted, gain 3 Energy.",
@@ -5764,6 +5931,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Choose an Attack or Power card. Add a copy of that card into your Hand.",
       "upgradeDescription": "Choose an Attack or Power card. Add 2 copies of that card into your Hand.",
@@ -5797,6 +5965,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Evoke your rightmost Orb twice.",
       "upgradeDescription": "",
@@ -5830,6 +5999,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 9 damage to ALL enemies. ALL enemies lose 9 Strength this turn.",
       "upgradeDescription": "Deal 11 damage to ALL enemies. ALL enemies lose 11 Strength this turn.",
@@ -5868,6 +6038,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "The first card you play each turn is played an extra time.",
       "upgradeDescription": "",
@@ -5905,6 +6076,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 10 damage to ALL enemies. Repeat this effect for each enemy killed.",
       "upgradeDescription": "Deal 13 damage to ALL enemies. Repeat this effect for each enemy killed.",
@@ -5938,6 +6110,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "Exhaust your Hand. If 9 cards were Exhausted this way, gain 1 Intangible.",
       "upgradeDescription": "",
@@ -5973,6 +6146,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Apply 29 Doom to ALL enemies. Kill enemies with at least as much Doom as HP.",
       "upgradeDescription": "Apply 37 Doom to ALL enemies. Kill enemies with at least as much Doom as HP.",
@@ -6008,6 +6182,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllAllies",
       "description": "ALL players gain 2 Energy.",
       "upgradeDescription": "ALL players gain 3 Energy.",
@@ -6045,6 +6220,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Enemy loses 8 Strength this turn.",
       "upgradeDescription": "Enemy loses 11 Strength this turn.",
@@ -6083,6 +6259,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Reduce the cost of ALL cards in your Hand to 1 this turn.",
       "upgradeDescription": "Reduce the cost of ALL cards in your Hand to 1 this combat.",
@@ -6120,6 +6297,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "If this is in your Hand, it must be played before other cards.",
       "upgradeDescription": "",
@@ -6157,6 +6335,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "Double your Block.",
       "upgradeDescription": "",
@@ -6190,6 +6369,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, Transform 1 card in your Hand.",
       "upgradeDescription": "",
@@ -6223,6 +6403,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever an Attack deals unblocked damage, apply 1 Poison.",
       "upgradeDescription": "Whenever an Attack deals unblocked damage, apply 2 Poison.",
@@ -6258,6 +6439,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 13 Block. Retain your Hand this turn.",
       "upgradeDescription": "Gain 16 Block. Retain your Hand this turn.",
@@ -6293,6 +6475,7 @@
         "isX": true,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 11 damage X times.",
       "upgradeDescription": "Deal 14 damage X times.",
@@ -6330,6 +6513,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 1 card. If you draw a Skill, gain 3 Block.",
       "upgradeDescription": "Draw 1 card. If you draw a Skill, gain 5 Block.",
@@ -6363,6 +6547,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 9 Plating.",
       "upgradeDescription": "Gain 12 Plating.",
@@ -6396,6 +6581,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 8 Block. Gain another 8 Block if you have Exhausted a card this turn.",
       "upgradeDescription": "Gain 11 Block. Gain another 11 Block if you have Exhausted a card this turn.",
@@ -6429,6 +6615,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "Gain 1 Energy for each Attack in your Hand. You cannot gain additional 1 Energy this turn.",
       "upgradeDescription": "",
@@ -6462,6 +6649,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw cards until you have 6 in your Hand.",
       "upgradeDescription": "Draw cards until you have 7 in your Hand.",
@@ -6495,6 +6683,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Remove all Artifact and Block from the enemy. Apply 2 Vulnerable.",
       "upgradeDescription": "Remove all Artifact and Block from the enemy. Apply 3 Vulnerable.",
@@ -6533,6 +6722,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 3 damage to ALL enemies 4 times.",
       "upgradeDescription": "Deal 4 damage to ALL enemies 4 times.",
@@ -6566,6 +6756,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage. If you have played fewer than 3 cards this turn, draw 1 card.",
       "upgradeDescription": "Deal 6 damage. If you have played fewer than 4 cards this turn, draw 1 card.",
@@ -6599,6 +6790,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage. Apply 1 Weak. Apply 1 Vulnerable.",
       "upgradeDescription": "Deal 12 damage. Apply 1 Weak. Apply 1 Vulnerable.",
@@ -6635,6 +6827,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Shivs now hit ALL enemies. Add 4 Shivs into your Hand.",
       "upgradeDescription": "Shivs now hit ALL enemies. Add 5 Shivs into your Hand.",
@@ -6668,6 +6861,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain an additional 4 Block from Defend cards.",
       "upgradeDescription": "Gain an additional 6 Block from Defend cards.",
@@ -6701,6 +6895,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 7 damage. Apply 1 Vulnerable.",
       "upgradeDescription": "Deal 8 damage. Apply 2 Vulnerable.",
@@ -6739,6 +6934,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. If Fatal, raise your Max HP by 3.",
       "upgradeDescription": "Deal 12 damage. If Fatal, raise your Max HP by 4.",
@@ -6776,6 +6972,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 5 Strength this turn.",
       "upgradeDescription": "Gain 7 Strength this turn.",
@@ -6811,6 +7008,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever a card is Exhausted, gain 3 Block.",
       "upgradeDescription": "Whenever a card is Exhausted, gain 4 Block.",
@@ -6844,6 +7042,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "The first time you play a 01 Energy Attack each turn, return it to your Hand.",
       "upgradeDescription": "",
@@ -6877,6 +7076,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Osty deals 3 damage. If this is the first time this card has been played this turn, draw 1 card.",
       "upgradeDescription": "Osty deals 6 damage. If this is the first time this card has been played this turn, draw 1 card.",
@@ -6910,6 +7110,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Exhaust your Hand. Deal 7 damage for each card Exhausted.",
       "upgradeDescription": "Exhaust your Hand. Deal 10 damage for each card Exhausted.",
@@ -6947,6 +7148,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage twice. Gain 3 Strength. The enemy gains 1 Strength.",
       "upgradeDescription": "Deal 6 damage twice. Gain 4 Strength. The enemy gains 1 Strength.",
@@ -6982,6 +7184,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 13 Block. Add 2 Wounds into your Discard Pile.",
       "upgradeDescription": "Gain 17 Block. Add 2 Wounds into your Discard Pile.",
@@ -7015,6 +7218,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 4 Block. Draw 1 card.",
       "upgradeDescription": "Gain 7 Block. Draw 1 card.",
@@ -7048,6 +7252,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage for each Attack already played this turn.",
       "upgradeDescription": "Deal 8 damage for each Attack already played this turn.",
@@ -7081,6 +7286,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 7 damage. Gain Block equal to damage dealt.",
       "upgradeDescription": "Deal 9 damage. Gain Block equal to damage dealt.",
@@ -7114,6 +7320,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "RandomEnemy",
       "description": "Exhaust ALL your Status cards. Deal 8 damage to a random enemy for each card Exhausted.",
       "upgradeDescription": "Exhaust ALL your Status cards. Deal 11 damage to a random enemy for each card Exhausted.",
@@ -7149,6 +7356,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 12 Block. Whenever you are attacked this turn, deal 4 damage back.",
       "upgradeDescription": "Gain 16 Block. Whenever you are attacked this turn, deal 6 damage back.",
@@ -7182,6 +7390,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "AnyEnemy",
       "description": "The enemy takes double attack damage from other players this turn.",
       "upgradeDescription": "",
@@ -7215,6 +7424,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage. Draw 1 card.",
       "upgradeDescription": "Deal 8 damage. Draw 1 card.",
@@ -7248,6 +7458,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Osty deals 12 damage. This card costs 0 1 Energy if Osty has attacked this turn.",
       "upgradeDescription": "Osty deals 16 damage. This card costs 0 1 Energy if Osty has attacked this turn.",
@@ -7281,6 +7492,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage for each Skill in your Hand.",
       "upgradeDescription": "Deal 7 damage for each Skill in your Hand.",
@@ -7314,6 +7526,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 6 damage to ALL enemies.",
       "upgradeDescription": "Deal 8 damage to ALL enemies.",
@@ -7351,6 +7564,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage. Gain 1 Focus this turn.",
       "upgradeDescription": "Deal 11 damage. Gain 2 Focus this turn.",
@@ -7386,6 +7600,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -7428,6 +7643,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Dexterity.",
       "upgradeDescription": "Gain 3 Dexterity.",
@@ -7463,6 +7679,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "At the end of combat, you may remove a card from your Deck.",
       "upgradeDescription": "",
@@ -7500,6 +7717,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Next turn, put 2 cards from your Draw Pile into your Hand.",
       "upgradeDescription": "Next turn, put 3 cards from your Draw Pile into your Hand.",
@@ -7533,6 +7751,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "If you Exhausted a card this turn, gain 3 Energy.",
       "upgradeDescription": "If you Exhausted a card this turn, gain 4 Energy.",
@@ -7570,6 +7789,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Get farther away. Increase Sandpit by 1. Increase the cost of this card by 1.",
       "upgradeDescription": "",
@@ -7603,6 +7823,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Lose 2 Strength. Gain 1 Energy at the start of each turn.",
       "upgradeDescription": "Lose 1 Strength. Gain 1 Energy at the start of each turn.",
@@ -7638,6 +7859,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Energy. Draw 1 card.",
       "upgradeDescription": "Gain 1 Energy. Draw 2 cards.",
@@ -7670,6 +7892,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, Forge 5.",
       "upgradeDescription": "At the start of your turn, Forge 7.",
@@ -7703,6 +7926,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Channel 1 Plasma.",
       "upgradeDescription": "",
@@ -7740,6 +7964,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Transform any number of cards in your Hand into Minion Sacrifice.",
       "upgradeDescription": "Transform any number of cards in your Hand into Minion Sacrifice+.",
@@ -7777,6 +8002,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 13 damage. Apply 2 Weak. Apply 2 Vulnerable.",
       "upgradeDescription": "Deal 18 damage. Apply 2 Weak. Apply 2 Vulnerable.",
@@ -7813,6 +8039,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage. Deals 5 additional damage for each time another player has attacked the enemy this turn.",
       "upgradeDescription": "Deal 5 damage. Deals 7 additional damage for each time another player has attacked the enemy this turn.",
@@ -7846,6 +8073,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 8 Block. Gain 1 Star.",
       "upgradeDescription": "Gain 11 Block. Gain 1 Star.",
@@ -7879,6 +8107,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, gain 2 Star.",
       "upgradeDescription": "At the start of your turn, gain 3 Star.",
@@ -7912,6 +8141,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Block. Permanently increase this card's Block by 3.",
       "upgradeDescription": "Gain 1 Block. Permanently increase this card's Block by 4.",
@@ -7949,6 +8179,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 16 damage.",
       "upgradeDescription": "Deal 20 damage.",
@@ -7979,6 +8210,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 6 Block. Channel 2 Frost.",
       "upgradeDescription": "Gain 9 Block. Channel 2 Frost.",
@@ -8012,6 +8244,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 5 Block. Channel 1 Glass.",
       "upgradeDescription": "Gain 8 Block. Channel 1 Glass.",
@@ -8045,6 +8278,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 3 cards. Put 1 card from your Hand on top of your Draw Pile.",
       "upgradeDescription": "Draw 4 cards. Put 1 card from your Hand on top of your Draw Pile.",
@@ -8078,6 +8312,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllAllies",
       "description": "ALL players add 3 Souls into their Draw Pile.",
       "upgradeDescription": "ALL players add 4 Souls into their Draw Pile.",
@@ -8115,6 +8350,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 11 Block. Next turn, gain 5 Block.",
       "upgradeDescription": "Gain 13 Block. Next turn, gain 7 Block.",
@@ -8148,6 +8384,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Star. Draw 1 card. Next turn, draw 1 card.",
       "upgradeDescription": "Gain 2 Star. Draw 1 card. Next turn, draw 1 card.",
@@ -8181,6 +8418,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 3 damage. If the enemy intends to attack, apply 1 Weak.",
       "upgradeDescription": "Deal 4 damage. If the enemy intends to attack, apply 2 Weak.",
@@ -8216,6 +8454,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal damage equal to the number of cards played this combat.",
       "upgradeDescription": "",
@@ -8249,6 +8488,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Can only be played if there are no cards in your Draw Pile. Deal 60 damage to ALL enemies.",
       "upgradeDescription": "Can only be played if there are no cards in your Draw Pile. Deal 75 damage to ALL enemies.",
@@ -8282,6 +8522,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 8 Block. Add a Soul into your Draw Pile.",
       "upgradeDescription": "Gain 11 Block. Add a Soul into your Draw Pile.",
@@ -8315,6 +8556,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 4 damage. Put a card from your Discard Pile into your Hand.",
       "upgradeDescription": "Deal 6 damage. Put a card from your Discard Pile into your Hand.",
@@ -8352,6 +8594,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -8390,6 +8633,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 12 damage. Draw 2 cards.",
       "upgradeDescription": "Deal 13 damage. Draw 3 cards.",
@@ -8423,6 +8667,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "Removed from your Deck after 5 combats.",
       "upgradeDescription": "",
@@ -8458,6 +8703,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 4 damage 3 times. Add a Slimed into your Discard Pile.",
       "upgradeDescription": "Deal 5 damage 3 times. Add a Slimed into your Discard Pile.",
@@ -8491,6 +8737,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the end of your turn, if you have Frost, deal 6 damage to ALL enemies.",
       "upgradeDescription": "At the end of your turn, if you have Frost, deal 8 damage to ALL enemies.",
@@ -8524,6 +8771,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "Whenever you Forge, all allies Forge as well.",
       "upgradeDescription": "",
@@ -8557,6 +8805,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 7 Block. Add Sly to a Skill in your Hand this turn.",
       "upgradeDescription": "Gain 10 Block. Add Sly to a Skill in your Hand this turn.",
@@ -8592,6 +8841,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 20 damage. If Fatal, gain 20 Gold.",
       "upgradeDescription": "Deal 25 damage. If Fatal, gain 25 Gold.",
@@ -8625,6 +8875,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. Double the damage ALL Hang cards deal to this enemy.",
       "upgradeDescription": "Deal 13 damage. Double the damage ALL Hang cards deal to this enemy.",
@@ -8658,6 +8909,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you play a Soul, a random enemy loses 6 HP.",
       "upgradeDescription": "Whenever you play a Soul, a random enemy loses 8 HP.",
@@ -8691,6 +8943,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Play the top card of your Draw Pile and Exhaust it.",
       "upgradeDescription": "",
@@ -8726,6 +8979,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Apply 4 Poison to ALL enemies.",
       "upgradeDescription": "Apply 6 Poison to ALL enemies.",
@@ -8764,6 +9018,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage. Put a card from your Discard Pile on top of your Draw Pile.",
       "upgradeDescription": "Deal 12 damage. Put a card from your Discard Pile on top of your Draw Pile.",
@@ -8797,6 +9052,7 @@
         "isX": true,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage X times. Double X if it's 4 or more.",
       "upgradeDescription": "Deal 10 damage X times. Double X if it's 4 or more.",
@@ -8830,6 +9086,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 15 damage. Next turn, gain 2 Energy.",
       "upgradeDescription": "Deal 18 damage. Next turn, gain 3 Energy.",
@@ -8863,6 +9120,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 20 damage. Choose a Colorless card in your Hand. Add a copy of that card into your Hand.",
       "upgradeDescription": "Deal 25 damage. Choose a Colorless card in your Hand. Add a copy of that card into your Hand.",
@@ -8896,6 +9154,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 3 damage for each 1 Energy previously spent this turn.",
       "upgradeDescription": "Deal 5 damage for each 1 Energy previously spent this turn.",
@@ -8929,6 +9188,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, add a random Common card into your Hand.",
       "upgradeDescription": "",
@@ -8955,6 +9215,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "Whenever you draw a card containing \"Strike\", it is played against a random enemy.",
       "upgradeDescription": "",
@@ -8988,6 +9249,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Lose 2 HP. Deal 15 damage.",
       "upgradeDescription": "Lose 2 HP. Deal 20 damage.",
@@ -9021,6 +9283,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Star. Next turn, gain 3 Star.",
       "upgradeDescription": "Gain 1 Star. Next turn, gain 4 Star.",
@@ -9054,6 +9317,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Discard 2 cards. Add 2 Shivs into your Hand.",
       "upgradeDescription": "Discard 2 cards. Add 2 Shivs+ into your Hand.",
@@ -9087,6 +9351,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "A random card without Replay in your Draw Pile gains Replay 2.",
       "upgradeDescription": "A random card without Replay in your Draw Pile gains Replay 3.",
@@ -9120,6 +9385,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Osty deals 11 damage and applies 2 Vulnerable to ALL enemies.",
       "upgradeDescription": "Osty deals 13 damage and applies 3 Vulnerable to ALL enemies.",
@@ -9155,6 +9421,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 3 Block. Put a card from your Discard Pile into your Hand.",
       "upgradeDescription": "Gain 5 Block. Put a card from your Discard Pile into your Hand.",
@@ -9192,6 +9459,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Focus this turn.",
       "upgradeDescription": "",
@@ -9230,6 +9498,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 16 damage to ALL enemies. At the end of your turn, if this is in your Exhaust Pile, play it.",
       "upgradeDescription": "Deal 21 damage to ALL enemies. At the end of your turn, if this is in your Exhaust Pile, play it.",
@@ -9265,6 +9534,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllAllies",
       "description": "ALL players draw 2 cards.",
       "upgradeDescription": "ALL players draw 3 cards.",
@@ -9302,6 +9572,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 28 damage to ALL enemies. Lose 3 Focus.",
       "upgradeDescription": "Deal 36 damage to ALL enemies. Lose 3 Focus.",
@@ -9337,6 +9608,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 10 Block. At the end of your turn, if this is on top of your Draw Pile, play it.",
       "upgradeDescription": "Gain 13 Block. At the end of your turn, if this is on top of your Draw Pile, play it.",
@@ -9370,6 +9642,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 19 damage. Channel 3 Frost.",
       "upgradeDescription": "Deal 24 damage. Channel 3 Frost.",
@@ -9403,6 +9676,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyAlly",
       "description": "Another player Channels Plasma.",
       "upgradeDescription": "",
@@ -9440,6 +9714,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "If you have no Attacks in your Hand, draw 2 cards.",
       "upgradeDescription": "If you have no Attacks in your Hand, draw 3 cards.",
@@ -9473,6 +9748,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 30 Block.",
       "upgradeDescription": "Gain 40 Block.",
@@ -9510,6 +9786,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "At the end of your turn, if this is in your Hand, take 3 damage.",
       "upgradeDescription": "",
@@ -9545,6 +9822,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Add a random Attack into your Hand. It's free to play this turn.",
       "upgradeDescription": "",
@@ -9582,6 +9860,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, lose 1 HP. Whenever you lose HP on your turn, deal 6 damage to ALL enemies.",
       "upgradeDescription": "At the start of your turn, lose 1 HP. Whenever you lose HP on your turn, deal 9 damage to ALL enemies.",
@@ -9615,6 +9894,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, add 1 Shiv into your Hand.",
       "upgradeDescription": "",
@@ -9648,6 +9928,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Strength.",
       "upgradeDescription": "Gain 3 Strength.",
@@ -9683,6 +9964,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -9718,6 +10000,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyAlly",
       "description": "Gain 9 Block. Redirect all incoming attacks that would be dealt to another player this turn to you.",
       "upgradeDescription": "Gain 13 Block. Redirect all incoming attacks that would be dealt to another player this turn to you.",
@@ -9751,6 +10034,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Next turn, Summon 2 and gain 2 Energy.",
       "upgradeDescription": "Next turn, Summon 3 and gain 3 Energy.",
@@ -9784,6 +10068,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Gain 5 Block. Deal 5 damage.",
       "upgradeDescription": "Gain 7 Block. Deal 7 damage.",
@@ -9817,6 +10102,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "The first time you draw a Status each turn, draw 2 cards.",
       "upgradeDescription": "The first time you draw a Status each turn, draw 3 cards.",
@@ -9850,6 +10136,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Add 1 random Colorless card into your Hand.",
       "upgradeDescription": "Add 2 random Colorless cards into your Hand.",
@@ -9887,6 +10174,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 25 damage. Add 3 random 01 Energy cards into your Hand.",
       "upgradeDescription": "Deal 30 damage. Add 3 random Upgraded 01 Energy cards into your Hand.",
@@ -9920,6 +10208,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you gain Block, deal 6 damage to a random enemy.",
       "upgradeDescription": "Whenever you gain Block, deal 8 damage to a random enemy.",
@@ -9953,6 +10242,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Add a copy of the third Attack you play each turn into your Hand.",
       "upgradeDescription": "",
@@ -9986,6 +10276,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 27 damage. Whenever you draw this card, reduce its cost by 1.",
       "upgradeDescription": "Deal 35 damage. Whenever you draw this card, reduce its cost by 1.",
@@ -10019,6 +10310,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage. Whenever you draw this card, increase its damage by 4 this combat.",
       "upgradeDescription": "Deal 10 damage. Whenever you draw this card, increase its damage by 6 this combat.",
@@ -10052,6 +10344,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Play every Shiv in your Exhaust Pile on the enemy.",
       "upgradeDescription": "Upgrade and play every Shiv in your Exhaust Pile on the enemy.",
@@ -10087,6 +10380,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. The enemy takes double damage from other players this turn.",
       "upgradeDescription": "Deal 14 damage. The enemy takes triple damage from other players this turn.",
@@ -10120,6 +10414,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 30 damage. If this kills an enemy, gain 5 Star.",
       "upgradeDescription": "Deal 38 damage. If this kills an enemy, gain 5 Star.",
@@ -10153,6 +10448,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Apply 1 Weak. Apply 1 Vulnerable.",
       "upgradeDescription": "",
@@ -10192,6 +10488,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Unlocks a special event in the next Act.",
       "upgradeDescription": "",
@@ -10221,6 +10518,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyAlly",
       "description": "Another player adds 1 random Colorless card to their Hand.",
       "upgradeDescription": "Another player adds 1 random Upgraded Colorless card to their Hand.",
@@ -10254,6 +10552,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 3 damage. Add 2 Shivs into your Hand.",
       "upgradeDescription": "Deal 6 damage. Add 2 Shivs into your Hand.",
@@ -10287,6 +10586,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 9 Block.",
       "upgradeDescription": "Gain 12 Block.",
@@ -10320,6 +10620,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Apply 2 Weak. Gain 11 Block.",
       "upgradeDescription": "Apply 3 Weak. Gain 14 Block.",
@@ -10355,6 +10656,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllAllies",
       "description": "ALL players Summon 6.",
       "upgradeDescription": "ALL players Summon 8.",
@@ -10392,6 +10694,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "The first Attack each turn deals 50% additional damage.",
       "upgradeDescription": "The first Attack each turn deals 75% additional damage.",
@@ -10429,6 +10732,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyAlly",
       "description": "Give another player 11 Block.",
       "upgradeDescription": "Give another player 16 Block.",
@@ -10462,6 +10766,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 4 Block. At the start of the next 2 turns, Channel 1 Lightning.",
       "upgradeDescription": "Gain 7 Block. At the start of the next 2 turns, Channel 1 Lightning.",
@@ -10495,6 +10800,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, trigger the passive ability of your rightmost Orb.",
       "upgradeDescription": "At the start of your turn, trigger the passive ability of your rightmost Orb 2 times.",
@@ -10528,6 +10834,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Energy.",
       "upgradeDescription": "Gain 3 Energy.",
@@ -10562,6 +10869,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 4 damage for each Skill already played this turn.",
       "upgradeDescription": "Deal 5 damage for each Skill already played this turn.",
@@ -10595,6 +10903,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, draw 1 additional card.",
       "upgradeDescription": "",
@@ -10628,6 +10937,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 12 damage.",
       "upgradeDescription": "",
@@ -10661,6 +10971,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage. Every 3 Skills you play in a turn, put this into your Hand.",
       "upgradeDescription": "Deal 9 damage. Every 3 Skills you play in a turn, put this into your Hand.",
@@ -10694,6 +11005,7 @@
         "isX": true,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Enemy loses X Strength. Apply X Weak.",
       "upgradeDescription": "Enemy loses X+1 Strength. Apply X+1 Weak.",
@@ -10733,6 +11045,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 15 damage. Enemy loses 10 Strength this turn.",
       "upgradeDescription": "Deal 20 damage. Enemy loses 15 Strength this turn.",
@@ -10768,6 +11081,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 7 Block. Add 1 random Colorless card into your Hand.",
       "upgradeDescription": "Gain 8 Block. Add 1 random Upgraded Colorless card into your Hand.",
@@ -10801,6 +11115,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "When you play a Skill, it gains Sly.",
       "upgradeDescription": "",
@@ -10836,6 +11151,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 3 cards.",
       "upgradeDescription": "Draw 4 cards.",
@@ -10873,6 +11189,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage twice. Increase the damage of ALL Maul cards by 1 this combat.",
       "upgradeDescription": "Deal 6 damage twice. Increase the damage of ALL Maul cards by 2 this combat.",
@@ -10906,6 +11223,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "At the start of your turn, play the top card of your Draw Pile.",
       "upgradeDescription": "",
@@ -10939,6 +11257,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 13 Block. Reduce this card's cost by 1 Energy whenever ANYONE dies.",
       "upgradeDescription": "Gain 17 Block. Reduce this card's cost by 1 Energy whenever ANYONE dies.",
@@ -10972,6 +11291,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage. Deals 4 additional damage for each card discarded this turn.",
       "upgradeDescription": "Deal 9 damage. Deals 5 additional damage for each card discarded this turn.",
@@ -11005,6 +11325,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Add 3 random Attacks into your Draw Pile. They're free to play this combat.",
       "upgradeDescription": "Add 5 random Attacks into your Draw Pile. They're free to play this combat.",
@@ -11042,6 +11363,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 14 damage to ALL enemies. Apply 2 Weak and Vulnerable to ALL enemies.",
       "upgradeDescription": "Deal 21 damage to ALL enemies. Apply 2 Weak and Vulnerable to ALL enemies.",
@@ -11078,6 +11400,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 24 damage. Channel 3 Plasma.",
       "upgradeDescription": "Deal 30 damage. Channel 3 Plasma.",
@@ -11111,6 +11434,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyAlly",
       "description": "Gain Block equal to the Block on another player.",
       "upgradeDescription": "",
@@ -11148,6 +11472,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "AnyEnemy",
       "description": "Deal damage equal to the number of cards in your Draw Pile.",
       "upgradeDescription": "",
@@ -11185,6 +11510,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "Draw 1 fewer card each turn.",
       "upgradeDescription": "",
@@ -11213,6 +11539,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 13 damage.",
       "upgradeDescription": "Deal 16 damage.",
@@ -11247,6 +11574,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 8 Block.",
       "upgradeDescription": "Gain 11 Block.",
@@ -11279,6 +11607,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage. Draw 1 card.",
       "upgradeDescription": "Deal 9 damage. Draw 1 card.",
@@ -11313,6 +11642,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Gain Block equal to Poison on ALL enemies.",
       "upgradeDescription": "",
@@ -11351,6 +11681,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 7 damage. Apply any debuffs on the enemy to ALL other enemies.",
       "upgradeDescription": "Deal 9 damage. Apply any debuffs on the enemy to ALL other enemies.",
@@ -11384,6 +11715,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Orb Slot. Draw 1 card. Increase this card's cost by 1.",
       "upgradeDescription": "Gain 1 Orb Slot. Draw 2 cards. Increase this card's cost by 1.",
@@ -11417,6 +11749,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. Double the enemy's Vulnerable.",
       "upgradeDescription": "Deal 14 damage. Double the enemy's Vulnerable.",
@@ -11455,6 +11788,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. Reduce this card's cost to 0 1 Energy.",
       "upgradeDescription": "Deal 13 damage. Reduce this card's cost to 0 1 Energy.",
@@ -11488,6 +11822,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "Whenever you attack an enemy, it loses 1 Strength this turn.",
       "upgradeDescription": "",
@@ -11523,6 +11858,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you play a card this turn, gain 1 Strength this turn.",
       "upgradeDescription": "",
@@ -11558,6 +11894,7 @@
         "isX": true,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Evoke your rightmost Orb X times.",
       "upgradeDescription": "Evoke your rightmost Orb X+1 times.",
@@ -11591,6 +11928,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 2,
       "target": "AnyEnemy",
       "description": "Deal 1 damage. Deals 1 additional damage for each card drawn this combat.",
       "upgradeDescription": "",
@@ -11624,6 +11962,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Summon 5. Whenever Osty loses HP, ALL enemies lose that much HP as well.",
       "upgradeDescription": "Summon 8. Whenever Osty loses HP, ALL enemies lose that much HP as well.",
@@ -11657,6 +11996,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Gain 5 Block. Apply 7 Doom to ALL enemies.",
       "upgradeDescription": "Gain 6 Block. Apply 11 Doom to ALL enemies.",
@@ -11692,6 +12032,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. Put up to 2 cards from your Discard Pile into your Hand.",
       "upgradeDescription": "Deal 14 damage. Put up to 3 cards from your Discard Pile into your Hand.",
@@ -11729,6 +12070,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 3 Energy. Draw 2 cards. At the start of your turn, apply 3 Doom to yourself.",
       "upgradeDescription": "Gain 4 Energy. Draw 2 cards. At the start of your turn, apply 3 Doom to yourself.",
@@ -11764,6 +12106,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 3 damage. Apply 1 Weak.",
       "upgradeDescription": "Deal 4 damage. Apply 2 Weak.",
@@ -11799,6 +12142,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 8 Plating.",
       "upgradeDescription": "Gain 11 Plating.",
@@ -11832,6 +12176,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 2,
       "target": "Self",
       "description": "Choose a card. Next turn, add 3 copies of that card into your Hand.",
       "upgradeDescription": "",
@@ -11869,6 +12214,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Apply 10 Doom, plus an additional 5 Doom for every 10 Doom already on this enemy.",
       "upgradeDescription": "Apply 15 Doom, plus an additional 5 Doom for every 10 Doom already on this enemy.",
@@ -11904,6 +12250,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "You cannot play more than 3 cards this turn.",
       "upgradeDescription": "",
@@ -11939,6 +12286,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "The first Attack or Skill you play each turn is placed on top of your Draw Pile.",
       "upgradeDescription": "",
@@ -11972,6 +12320,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Heal 10 HP.",
       "upgradeDescription": "Heal 13 HP.",
@@ -12009,6 +12358,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, apply 2 Poison to ALL enemies.",
       "upgradeDescription": "At the start of your turn, apply 3 Poison to ALL enemies.",
@@ -12044,6 +12394,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. Apply 2 Weak. Channel 1 Dark.",
       "upgradeDescription": "Deal 13 damage. Apply 3 Weak. Channel 1 Dark.",
@@ -12079,6 +12430,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Whenever you play a card this turn, apply 3 Doom to the enemy.",
       "upgradeDescription": "Whenever you play a card this turn, apply 4 Doom to the enemy.",
@@ -12114,6 +12466,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Lose 6 HP. Gain 2 Energy. Draw 3 cards.",
       "upgradeDescription": "Lose 6 HP. Gain 2 Energy. Draw 5 cards.",
@@ -12151,6 +12504,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage. Damage ALL other enemies equal to the damage dealt.",
       "upgradeDescription": "Deal 11 damage. Damage ALL other enemies equal to the damage dealt.",
@@ -12184,6 +12538,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "This turn, your next Attack is played an extra time.",
       "upgradeDescription": "This turn, your next 2 Attacks are played an extra time.",
@@ -12217,6 +12572,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "Every 4 Energy you spend, gain 1 Energy.",
       "upgradeDescription": "",
@@ -12250,6 +12606,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Every 3 times you apply Poison, deal 11 damage to ALL enemies.",
       "upgradeDescription": "Every 3 times you apply Poison, deal 15 damage to ALL enemies.",
@@ -12285,6 +12642,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Next turn, gain 2 Energy.",
       "upgradeDescription": "Next turn, gain 3 Energy.",
@@ -12318,6 +12676,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 2 cards. Add a Burn into your Discard Pile.",
       "upgradeDescription": "Draw 3 cards. Add a Burn into your Discard Pile.",
@@ -12351,6 +12710,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "If you have 3 or more cards in your Exhaust Pile, deal 17 damage to ALL enemies.",
       "upgradeDescription": "If you have 3 or more cards in your Exhaust Pile, deal 23 damage to ALL enemies.",
@@ -12386,6 +12746,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Whenever you draw an Ethereal card, draw 1 card.",
       "upgradeDescription": "",
@@ -12421,6 +12782,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "If you play 5 or more cards in a turn, draw 1 card at the start of your next turn.",
       "upgradeDescription": "If you play 5 or more cards in a turn, draw 2 cards at the start of your next turn.",
@@ -12454,6 +12816,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Every time you play 5 cards in a single turn, deal 10 damage to ALL enemies.",
       "upgradeDescription": "Every time you play 5 cards in a single turn, deal 14 damage to ALL enemies.",
@@ -12487,6 +12850,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 30 Block. You cannot gain Block from cards for 2 turns.",
       "upgradeDescription": "Gain 40 Block. You cannot gain Block from cards for 2 turns.",
@@ -12524,6 +12888,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Sovereign Blade now gains 10 Block.",
       "upgradeDescription": "Sovereign Blade now gains 14 Block.",
@@ -12557,6 +12922,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 3 cards.",
       "upgradeDescription": "Draw 4 cards.",
@@ -12594,6 +12960,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 9 Block. Return this card to your Hand.",
       "upgradeDescription": "Gain 12 Block. Return this card to your Hand.",
@@ -12627,6 +12994,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 8 Block. Gain 2 Vigor.",
       "upgradeDescription": "Gain 10 Block. Gain 3 Vigor.",
@@ -12660,6 +13028,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 2 damage 3 times.",
       "upgradeDescription": "Deal 2 damage 4 times.",
@@ -12693,6 +13062,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage. Deals 2 additional damage for ALL your cards containing \"Strike\".",
       "upgradeDescription": "Deal 6 damage. Deals 3 additional damage for ALL your cards containing \"Strike\".",
@@ -12726,6 +13096,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Shivs gain Retain. The first Shiv you play each turn deals 9 additional damage.",
       "upgradeDescription": "Shivs gain Retain. The first Shiv you play each turn deals 12 additional damage.",
@@ -12761,6 +13132,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. Draw 1 card. Put 1 card from your Hand on top of your Draw Pile.",
       "upgradeDescription": "Deal 13 damage. Draw 2 cards. Put 1 card from your Hand on top of your Draw Pile.",
@@ -12794,6 +13166,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "ALL enemies lose 6 Strength this turn.",
       "upgradeDescription": "ALL enemies lose 8 Strength this turn.",
@@ -12832,6 +13205,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage. Draw cards until you draw a non-Attack card.",
       "upgradeDescription": "Deal 9 damage. Draw cards until you draw a non-Attack card.",
@@ -12865,6 +13239,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you create a card, gain 3 Block.",
       "upgradeDescription": "Whenever you create a card, gain 4 Block.",
@@ -12898,6 +13273,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 15 damage. Costs 1 less 1 Energy for each Skill played this turn.",
       "upgradeDescription": "Deal 19 damage. Costs 1 less 1 Energy for each Skill played this turn.",
@@ -12931,6 +13307,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage. Apply 3 Poison.",
       "upgradeDescription": "Deal 8 damage. Apply 4 Poison.",
@@ -12966,6 +13343,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Osty deals 6 damage.",
       "upgradeDescription": "Osty deals 9 damage.",
@@ -12999,6 +13377,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage. Draw 1 card.",
       "upgradeDescription": "Deal 10 damage. Draw 2 cards.",
@@ -13032,6 +13411,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -13070,6 +13450,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 14 damage. The next Skill you play costs 0 1 Energy.",
       "upgradeDescription": "Deal 20 damage. The next Skill you play costs 0 1 Energy.",
@@ -13103,6 +13484,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 13 damage. Deals 2 less damage for each other card in your Hand.",
       "upgradeDescription": "",
@@ -13136,6 +13518,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 15 damage. Next turn, draw 2 cards.",
       "upgradeDescription": "Deal 20 damage. Next turn, draw 2 cards.",
@@ -13169,6 +13552,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, gain 4 Vigor.",
       "upgradeDescription": "At the start of your turn, gain 6 Vigor.",
@@ -13202,6 +13586,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 1 card. Discard 1 card.",
       "upgradeDescription": "Draw 2 cards. Discard 2 cards.",
@@ -13235,6 +13620,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Transform all Attacks in your Hand into Giant Rock.",
       "upgradeDescription": "Transform all Attacks in your Hand into Giant Rock+.",
@@ -13268,6 +13654,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Energy.",
       "upgradeDescription": "Gain 3 Energy.",
@@ -13305,6 +13692,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Next turn, gain Block equal to your current Block.",
       "upgradeDescription": "",
@@ -13342,6 +13730,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 6 cards.",
       "upgradeDescription": "Draw 9 cards.",
@@ -13375,6 +13764,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Osty deals 10 damage. Deals additional damage equal to Osty's Max HP.",
       "upgradeDescription": "",
@@ -13408,6 +13798,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Strength. Gain 1 Dexterity.",
       "upgradeDescription": "Gain 2 Strength. Gain 2 Dexterity.",
@@ -13444,6 +13835,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Summon 4. Gain 7 Block.",
       "upgradeDescription": "Summon 5. Gain 9 Block.",
@@ -13477,6 +13869,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage for each Ethereal card played this combat.",
       "upgradeDescription": "Deal 7 damage for each Ethereal card played this combat.",
@@ -13512,6 +13905,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Exhaust up to 3 cards in your Hand.",
       "upgradeDescription": "Exhaust up to 5 cards in your Hand.",
@@ -13551,6 +13945,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Apply 2 Weak. Apply 2 Vulnerable.",
       "upgradeDescription": "Apply 3 Weak. Apply 3 Vulnerable.",
@@ -13590,6 +13985,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Energy at the start of each turn.",
       "upgradeDescription": "Gain 2 Energy at the start of each turn.",
@@ -13623,6 +14019,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Evoke your rightmost Orb 4 times.",
       "upgradeDescription": "",
@@ -13656,6 +14053,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Choose 1 of 3 random Colorless cards to add into your Hand.",
       "upgradeDescription": "Choose 1 of 3 random Upgraded Colorless cards to add into your Hand.",
@@ -13689,6 +14087,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 3 damage to ALL enemies for each 1 Star gained this turn.",
       "upgradeDescription": "Deal 4 damage to ALL enemies for each 1 Star gained this turn.",
@@ -13722,6 +14121,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you play an Attack this turn, gain 3 Block.",
       "upgradeDescription": "Whenever you play an Attack this turn, gain 5 Block.",
@@ -13755,6 +14155,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Channel 1 Lightning. Channel 1 Frost. Channel 1 Dark.",
       "upgradeDescription": "",
@@ -13792,6 +14193,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllAllies",
       "description": "ALL players gain 12 Block.",
       "upgradeDescription": "ALL players gain 17 Block.",
@@ -13825,6 +14227,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage. Increase this card's damage by 5 this combat.",
       "upgradeDescription": "Deal 9 damage. Increase this card's damage by 9 this combat.",
@@ -13858,6 +14261,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Osty deals 7 damage. Hits an additional time for each other time he has attacked this turn.",
       "upgradeDescription": "Osty deals 9 damage. Hits an additional time for each other time he has attacked this turn.",
@@ -13891,6 +14295,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Summon 20.",
       "upgradeDescription": "Summon 25.",
@@ -13928,6 +14333,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 27 damage.",
       "upgradeDescription": "Deal 33 damage.",
@@ -13965,6 +14371,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever Attacks deal damage, apply that much Doom.",
       "upgradeDescription": "",
@@ -14000,6 +14407,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage. Add a Soul into your Draw Pile.",
       "upgradeDescription": "Deal 11 damage. Add a Soul+ into your Draw Pile.",
@@ -14033,6 +14441,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Shuffle ALL your cards into your Draw Pile. Draw 4 cards.",
       "upgradeDescription": "Shuffle ALL your cards into your Draw Pile. Draw 6 cards.",
@@ -14070,6 +14479,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage. Put the next card you play this turn on top of your Draw Pile.",
       "upgradeDescription": "Deal 12 damage. Put the next card you play this turn on top of your Draw Pile.",
@@ -14103,6 +14513,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Forge 9. Next turn, gain 1 Energy.",
       "upgradeDescription": "Forge 13. Next turn, gain 1 Energy.",
@@ -14136,6 +14547,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 15 Block. Blocked attack damage is reflected to your attacker this turn.",
       "upgradeDescription": "Gain 20 Block. Blocked attack damage is reflected to your attacker this turn.",
@@ -14169,6 +14581,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 2 cards.",
       "upgradeDescription": "Draw 3 cards.",
@@ -14206,6 +14619,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage twice. Channel 2 Glass.",
       "upgradeDescription": "Deal 12 damage twice. Channel 2 Glass.",
@@ -14239,6 +14653,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "At the end of your turn, if this is in your Hand, lose 1 HP for each card in your Hand.",
       "upgradeDescription": "",
@@ -14274,6 +14689,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 15 Block. Next turn, draw 2 cards and gain 2 Energy.",
       "upgradeDescription": "Gain 17 Block. Next turn, draw 3 cards and gain 3 Energy.",
@@ -14311,6 +14727,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 15 damage. Deals 5 additional damage for each unique debuff on the enemy.",
       "upgradeDescription": "Deal 15 damage. Deals 8 additional damage for each unique debuff on the enemy.",
@@ -14344,6 +14761,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Gain 1 Strength. ALL enemies lose 1 Strength.",
       "upgradeDescription": "Gain 2 Strength. ALL enemies lose 1 Strength.",
@@ -14379,6 +14797,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "If your Hand is empty, draw 2 cards and gain 2 Energy.",
       "upgradeDescription": "If your Hand is empty, draw 3 cards and gain 3 Energy.",
@@ -14416,6 +14835,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "RandomEnemy",
       "description": "Deal 3 damage to a random enemy 4 times.",
       "upgradeDescription": "Deal 3 damage to a random enemy 5 times.",
@@ -14453,6 +14873,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Osty deals 4 damage. Whenever you play a card that costs 2 Energy or more, return this to your Hand from the Discard Pile.",
       "upgradeDescription": "Osty deals 6 damage. Whenever you play a card that costs 2 Energy or more, return this to your Hand from the Discard Pile.",
@@ -14486,6 +14907,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "RandomEnemy",
       "description": "Deal 7 damage to a random enemy twice.",
       "upgradeDescription": "Deal 9 damage to a random enemy twice.",
@@ -14519,6 +14941,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 13 damage. Draw 1 card. Whenever you create a Status, reduce this card's cost to 0 1 Energy until played.",
       "upgradeDescription": "Deal 14 damage. Draw 2 cards. Whenever you create a Status, reduce this card's cost to 0 1 Energy until played.",
@@ -14552,6 +14975,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, deal 5 damage to ALL enemies and increase this damage by 5.",
       "upgradeDescription": "At the start of your turn, deal 10 damage to ALL enemies and increase this damage by 5.",
@@ -14585,6 +15009,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 9 1 Star.",
       "upgradeDescription": "",
@@ -14622,6 +15047,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the end of combat, gain 30 Gold.",
       "upgradeDescription": "At the end of combat, gain 40 Gold.",
@@ -14655,6 +15081,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you lose HP on your turn, gain 1 Strength.",
       "upgradeDescription": "Whenever you lose HP on your turn, gain 2 Strength.",
@@ -14690,6 +15117,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "If Osty is alive, he dies and you gain Block equal to double his Max HP.",
       "upgradeDescription": "",
@@ -14727,6 +15155,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 12 damage. Retain your Hand this turn.",
       "upgradeDescription": "Deal 16 damage. Retain your Hand this turn.",
@@ -14762,6 +15191,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Apply 1 Weak to ALL enemies.",
       "upgradeDescription": "",
@@ -14800,6 +15230,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Exhaust a card. Next turn, gain 2 Energy.",
       "upgradeDescription": "Exhaust a card. Next turn, gain 3 Energy.",
@@ -14835,6 +15266,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Apply 13 Doom. Draw 1 card.",
       "upgradeDescription": "Apply 16 Doom. Draw 2 cards.",
@@ -14870,6 +15302,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 7 damage. Draw 4 cards. Discard all cards drawn this way that do not cost 0 1 Energy.",
       "upgradeDescription": "Deal 10 damage. Draw 5 cards. Discard all cards drawn this way that do not cost 0 1 Energy.",
@@ -14903,6 +15336,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw cards until your Hand is full.",
       "upgradeDescription": "",
@@ -14940,6 +15374,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage. Add Ethereal to a card in your Hand.",
       "upgradeDescription": "Deal 12 damage. Add Ethereal to a card in your Hand.",
@@ -14975,6 +15410,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Transform a card in your Draw Pile into Soul.",
       "upgradeDescription": "",
@@ -15012,6 +15448,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Exhaust all non-Attack cards in your Hand. Gain 5 Block for each card Exhausted.",
       "upgradeDescription": "Exhaust all non-Attack cards in your Hand. Gain 7 Block for each card Exhausted.",
@@ -15047,6 +15484,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Put a Skill from your Draw Pile into your Hand.",
       "upgradeDescription": "",
@@ -15084,6 +15522,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Put an Attack from your Draw Pile into your Hand.",
       "upgradeDescription": "",
@@ -15121,6 +15560,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage. Choose 1 of 3 cards in your Draw Pile to add into your Hand.",
       "upgradeDescription": "Deal 12 damage. Choose 1 of 3 cards in your Draw Pile to add into your Hand.",
@@ -15154,6 +15594,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Forge 7. Sovereign Blade now deals damage to ALL enemies.",
       "upgradeDescription": "Forge 11. Sovereign Blade now deals damage to ALL enemies.",
@@ -15187,6 +15628,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "At the start of your turn, add 1 Sweeping Gaze into your Hand.",
       "upgradeDescription": "",
@@ -15220,6 +15662,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you play a card, deal 4 damage to a random enemy.",
       "upgradeDescription": "Whenever you play a card, deal 6 damage to a random enemy.",
@@ -15253,6 +15696,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 7 damage. Gain 2 Strength this turn.",
       "upgradeDescription": "Deal 9 damage. Gain 3 Strength this turn.",
@@ -15288,6 +15732,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "AllEnemies",
       "description": "Deal 7 damage to ALL enemies 7 times.",
       "upgradeDescription": "",
@@ -15321,6 +15766,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 13 damage. Add a Soul into your Draw Pile, Hand, and Discard Pile.",
       "upgradeDescription": "Deal 18 damage. Add a Soul into your Draw Pile, Hand, and Discard Pile.",
@@ -15354,6 +15800,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 11 Block. Channel 1 Dark.",
       "upgradeDescription": "Gain 15 Block. Channel 1 Dark.",
@@ -15387,6 +15834,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Discard your Hand. Next turn, Attacks deal double damage.",
       "upgradeDescription": "",
@@ -15420,6 +15868,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Double your Block gain this turn.",
       "upgradeDescription": "",
@@ -15453,6 +15902,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "At the end of your turn, if this is in your Hand, gain 1 Frail.",
       "upgradeDescription": "",
@@ -15490,6 +15940,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Lose 2 Strength. Enemy loses 2 Strength.",
       "upgradeDescription": "Lose 2 Strength. Enemy loses 3 Strength.",
@@ -15528,6 +15979,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 7 damage to ALL enemies. Evoke all of your Orbs twice.",
       "upgradeDescription": "Deal 11 damage to ALL enemies. Evoke all of your Orbs twice.",
@@ -15561,6 +16013,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage. Gain 2 Star. Put this card on top of your Draw Pile.",
       "upgradeDescription": "Deal 11 damage. Gain 2 Star. Put this card on top of your Draw Pile.",
@@ -15594,6 +16047,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 4 damage.",
       "upgradeDescription": "Deal 6 damage.",
@@ -15628,6 +16082,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Apply 3 Weak and Vulnerable to ALL enemies.",
       "upgradeDescription": "Apply 5 Weak and Vulnerable to ALL enemies.",
@@ -15667,6 +16122,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you apply Doom, gain 2 Block.",
       "upgradeDescription": "Whenever you apply Doom, gain 3 Block.",
@@ -15702,6 +16158,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 8 Block. Draw 1 card.",
       "upgradeDescription": "Gain 11 Block. Draw 1 card.",
@@ -15735,6 +16192,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Osty deals 5 damage. Whenever Osty hits this enemy this turn, Summon 3.",
       "upgradeDescription": "Osty deals 6 damage. Whenever Osty hits this enemy this turn, Summon 4.",
@@ -15768,6 +16226,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "The next Power you play is played an additional time.",
       "upgradeDescription": "",
@@ -15805,6 +16264,7 @@
         "isX": true,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage X times.",
       "upgradeDescription": "Deal 11 damage X times.",
@@ -15838,6 +16298,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 3 cards.",
       "upgradeDescription": "Draw 4 cards.",
@@ -15871,6 +16332,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you apply a debuff to an enemy, they take 9 damage.",
       "upgradeDescription": "Whenever you apply a debuff to an enemy, they take 13 damage.",
@@ -15904,6 +16366,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage.",
       "upgradeDescription": "Deal 9 damage.",
@@ -15937,6 +16400,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "Draw 1 card.",
       "upgradeDescription": "",
@@ -15974,6 +16438,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "You cannot play more than 3 cards each turn.",
       "upgradeDescription": "",
@@ -16002,6 +16467,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you create a Status, deal 5 damage to ALL enemies.",
       "upgradeDescription": "Whenever you create a Status, deal 7 damage to ALL enemies.",
@@ -16035,6 +16501,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Apply 7 Poison.",
       "upgradeDescription": "Apply 10 Poison.",
@@ -16073,6 +16540,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Osty deals 7 damage. Add Retain to a card in your Hand.",
       "upgradeDescription": "Osty deals 10 damage. Add Retain to a card in your Hand.",
@@ -16108,6 +16576,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever another player attacks an enemy, gain 1 Block.",
       "upgradeDescription": "Whenever another player attacks an enemy, gain 2 Block.",
@@ -16145,6 +16614,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage. Gain 1 Star.",
       "upgradeDescription": "Deal 10 damage. Gain 2 Star.",
@@ -16178,6 +16648,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -16213,6 +16684,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 2 cards.",
       "upgradeDescription": "Draw 3 cards.",
@@ -16245,6 +16717,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 9 damage. Deals 2 additional damage for each Soul in your Exhaust Pile.",
       "upgradeDescription": "Deal 9 damage. Deals 3 additional damage for each Soul in your Exhaust Pile.",
@@ -16280,6 +16753,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "AnyEnemy",
       "description": "Deal 10 damage.",
       "upgradeDescription": "",
@@ -16314,6 +16788,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 8 damage to ALL enemies.",
       "upgradeDescription": "Deal 11 damage to ALL enemies.",
@@ -16351,6 +16826,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "At the start of your turn, add 1 random Colorless card into your Hand.",
       "upgradeDescription": "",
@@ -16384,6 +16860,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you draw a card during your turn, deal 2 damage to ALL enemies.",
       "upgradeDescription": "",
@@ -16417,6 +16894,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, Channel 1 Glass.",
       "upgradeDescription": "Channel 1 Glass. At the start of your turn, Channel 1 Glass.",
@@ -16450,6 +16928,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you play an Ethereal card, gain 4 Block.",
       "upgradeDescription": "Whenever you play an Ethereal card, gain 5 Block.",
@@ -16485,6 +16964,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage. If you lost HP this turn, hits 2 times.",
       "upgradeDescription": "Deal 5 damage. If you lost HP this turn, hits 3 times.",
@@ -16518,6 +16998,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Choose 1 of 3 random Attacks from another character to add into your Hand. It's free to play this turn.",
       "upgradeDescription": "Choose 1 of 3 random Upgraded Attacks from another character to add into your Hand. It's free to play this turn.",
@@ -16551,6 +17032,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Marks a site of 600 extra Gold in the next Act.",
       "upgradeDescription": "",
@@ -16580,6 +17062,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Forge 5. Draw 2 cards.",
       "upgradeDescription": "Forge 8. Draw 2 cards.",
@@ -16613,6 +17096,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -16650,6 +17134,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Summon 3. Osty heals 5 HP.",
       "upgradeDescription": "Summon 5. Osty heals 7 HP.",
@@ -16687,6 +17172,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. Apply 2 Vulnerable.",
       "upgradeDescription": "Deal 12 damage. Apply 3 Vulnerable.",
@@ -16722,6 +17208,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Osty deals 25 damage. Deals 5 additional damage for ALL your other Osty Attacks.",
       "upgradeDescription": "Osty deals 25 damage. Deals 6 additional damage for ALL your other Osty Attacks.",
@@ -16755,6 +17242,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain Block equal to the number of cards in your Discard Pile.",
       "upgradeDescription": "Gain Block equal to the number of cards in your Discard Pile +3.",
@@ -16788,6 +17276,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "At the end of your turn, 1 random Attack in your Hand is played against a random enemy.",
       "upgradeDescription": "",
@@ -16821,6 +17310,7 @@
         "isX": false,
         "isXStar": true
       },
+      "upgradeCost": null,
       "target": "RandomEnemy",
       "description": "Deal 5 damage to a random enemy X times.",
       "upgradeDescription": "Deal 7 damage to a random enemy X times.",
@@ -16854,6 +17344,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Exhaust your Hand. Add 1 random card into your Hand for each card Exhausted.",
       "upgradeDescription": "Exhaust your Hand. Add 1 random Upgraded card into your Hand for each card Exhausted.",
@@ -16889,6 +17380,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 12 damage to ALL enemies. Costs 1 less 1 Energy for each Attack played this turn.",
       "upgradeDescription": "Deal 15 damage to ALL enemies. Costs 1 less 1 Energy for each Attack played this turn.",
@@ -16922,6 +17414,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 4 Plating.",
       "upgradeDescription": "Gain 6 Plating.",
@@ -16955,6 +17448,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you play a Power, Channel 1 Lightning.",
       "upgradeDescription": "Whenever you play a Power, Channel 2 Lightning.",
@@ -16988,6 +17482,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Discard your Hand. Add 1 Shiv into your Hand for each card discarded.",
       "upgradeDescription": "Discard your Hand. Add 1 Shiv+ into your Hand for each card discarded.",
@@ -17021,6 +17516,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage. Whenever you play a card this turn, the enemy loses 2 HP.",
       "upgradeDescription": "Deal 10 damage. Whenever you play a card this turn, the enemy loses 3 HP.",
@@ -17054,6 +17550,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Whenever you shuffle your Draw Pile, choose a card from it to put into your Hand.",
       "upgradeDescription": "",
@@ -17087,6 +17584,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage.",
       "upgradeDescription": "Deal 9 damage.",
@@ -17120,6 +17618,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage.",
       "upgradeDescription": "Deal 9 damage.",
@@ -17153,6 +17652,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage.",
       "upgradeDescription": "Deal 9 damage.",
@@ -17186,6 +17686,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage.",
       "upgradeDescription": "Deal 9 damage.",
@@ -17219,6 +17720,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage.",
       "upgradeDescription": "Deal 9 damage.",
@@ -17252,6 +17754,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Whenever you play a Power, gain 1 Energy.",
       "upgradeDescription": "",
@@ -17285,6 +17788,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 8 damage. Apply 1 Weak.",
       "upgradeDescription": "Deal 10 damage. Apply 2 Weak.",
@@ -17320,6 +17824,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Put Sovereign Blade into your Hand from anywhere. Forge 8.",
       "upgradeDescription": "Put Sovereign Blade into your Hand from anywhere. Forge 11.",
@@ -17353,6 +17858,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 24 damage. If this kills an enemy, gain 3 Energy.",
       "upgradeDescription": "Deal 32 damage. If this kills an enemy, gain 3 Energy.",
@@ -17386,6 +17892,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 4 Energy.",
       "upgradeDescription": "Gain 6 Energy.",
@@ -17423,6 +17930,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage. Deals 3 additional damage for each card you created this combat.",
       "upgradeDescription": "Deal 5 damage. Deals 4 additional damage for each card you created this combat.",
@@ -17456,6 +17964,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 11 damage. Apply 3 Weak.",
       "upgradeDescription": "Deal 17 damage. Apply 5 Weak.",
@@ -17494,6 +18003,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 8 Block. Discard 1 card.",
       "upgradeDescription": "Gain 11 Block. Discard 1 card.",
@@ -17527,6 +18037,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 6 damage to ALL enemies. Draw 1 card.",
       "upgradeDescription": "Deal 9 damage to ALL enemies. Draw 1 card.",
@@ -17560,6 +18071,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "RandomEnemy",
       "description": "Osty deals 10 damage to a random enemy.",
       "upgradeDescription": "Osty deals 15 damage to a random enemy.",
@@ -17596,6 +18108,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "RandomEnemy",
       "description": "Deal 3 damage to a random enemy 3 times.",
       "upgradeDescription": "Deal 3 damage to a random enemy 4 times.",
@@ -17629,6 +18142,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "Sovereign Blade gains Replay 1.",
       "upgradeDescription": "",
@@ -17662,6 +18176,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Focus this turn for each unique Orb you have.",
       "upgradeDescription": "",
@@ -17700,6 +18215,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 14 damage. The next Power you play costs 0 1 Energy.",
       "upgradeDescription": "Deal 20 damage. The next Power you play costs 0 1 Energy.",
@@ -17733,6 +18249,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Energy. Add a Void into your Discard Pile.",
       "upgradeDescription": "Gain 3 Energy. Add a Void into your Discard Pile.",
@@ -17766,6 +18283,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Energy.",
       "upgradeDescription": "Gain 2 Energy.",
@@ -17803,6 +18321,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 11 damage. The next Attack another player plays on the enemy is played an extra time.",
       "upgradeDescription": "Deal 15 damage. The next Attack another player plays on the enemy is played an extra time.",
@@ -17836,6 +18355,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Take double damage from enemies. Allies take half damage from enemies.",
       "upgradeDescription": "",
@@ -17869,6 +18389,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Gain 7 Block. Apply 1 Vulnerable.",
       "upgradeDescription": "Gain 8 Block. Apply 2 Vulnerable.",
@@ -17904,6 +18425,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage. Hits an additional time for each time you lost HP this combat.",
       "upgradeDescription": "Deal 7 damage. Hits an additional time for each time you lost HP this combat.",
@@ -17937,6 +18459,7 @@
         "isX": true,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Channel X Lightning.",
       "upgradeDescription": "Channel X+1 Lightning.",
@@ -17970,6 +18493,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 6 Vigor.",
       "upgradeDescription": "Gain 8 Vigor.",
@@ -18003,6 +18527,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 3 damage. Trigger all Lightning against the enemy.",
       "upgradeDescription": "Deal 4 damage. Trigger all Lightning against the enemy twice.",
@@ -18036,6 +18561,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the end of 3 turns, deal 40 damage to ALL enemies.",
       "upgradeDescription": "At the end of 3 turns, deal 50 damage to ALL enemies.",
@@ -18069,6 +18595,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 50 Block. If you take unblocked attack damage this combat, die.",
       "upgradeDescription": "Gain 75 Block. If you take unblocked attack damage this combat, die.",
@@ -18102,6 +18629,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. If Fatal, gain an additional card reward.",
       "upgradeDescription": "Deal 15 damage. If Fatal, gain an additional card reward.",
@@ -18139,6 +18667,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 13 damage. Permanently increase this card's damage by 4.",
       "upgradeDescription": "Deal 13 damage. Permanently increase this card's damage by 5.",
@@ -18176,6 +18705,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Whenever you play a card, gain 1 Star.",
       "upgradeDescription": "",
@@ -18209,6 +18739,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Forge 30.",
       "upgradeDescription": "Forge 40.",
@@ -18242,6 +18773,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Draw 2 cards. Put 1 card from your Hand on top of your Draw Pile.",
       "upgradeDescription": "",
@@ -18279,6 +18811,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 4 damage twice. Exhaust a random Attack in your Hand and add its damage to this card.",
       "upgradeDescription": "Deal 6 damage twice. Exhaust a random Attack in your Hand and add its damage to this card.",
@@ -18314,6 +18847,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 11 damage. At the start of your next turn, return this to your Hand.",
       "upgradeDescription": "Deal 14 damage. At the start of your next turn, return this to your Hand.",
@@ -18347,6 +18881,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you Evoke Lightning, deal 6 damage to each enemy hit.",
       "upgradeDescription": "Whenever you Evoke Lightning, deal 8 damage to each enemy hit.",
@@ -18380,6 +18915,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 4 damage and apply 1 Vulnerable to ALL enemies.",
       "upgradeDescription": "Deal 7 damage and apply 1 Vulnerable to ALL enemies.",
@@ -18415,6 +18951,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal damage equal to the enemy's Doom.",
       "upgradeDescription": "",
@@ -18453,6 +18990,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "At the start of your turn, draw 1 card and discard 1 card.",
       "upgradeDescription": "",
@@ -18486,6 +19024,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 5 Block. Gain 5 Block at the start of the next 2 turns.",
       "upgradeDescription": "Gain 7 Block. Gain 7 Block at the start of the next 2 turns.",
@@ -18519,6 +19058,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "At the end of your turn, if this is in your Hand, take 5 damage.",
       "upgradeDescription": "",
@@ -18556,6 +19096,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "Weak enemies take double damage from Attacks.",
       "upgradeDescription": "",
@@ -18591,6 +19132,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Add Replay to a card in your Hand. It costs an extra 1 Energy.",
       "upgradeDescription": "",
@@ -18628,6 +19170,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you create a Status, Channel 1 random Orb.",
       "upgradeDescription": "",
@@ -18661,6 +19204,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Apply 3 Vulnerable.",
       "upgradeDescription": "Apply 4 Vulnerable.",
@@ -18699,6 +19243,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 7 Block. Exhaust 1 card at random.",
       "upgradeDescription": "Gain 9 Block. Exhaust 1 card.",
@@ -18734,6 +19279,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 5 damage twice.",
       "upgradeDescription": "Deal 7 damage twice.",
@@ -18767,6 +19313,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the start of your turn, draw 1 card and Exhaust 1 card from your Hand.",
       "upgradeDescription": "",
@@ -18804,6 +19351,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 11 Block.",
       "upgradeDescription": "Gain 15 Block.",
@@ -18837,6 +19385,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 14 damage.",
       "upgradeDescription": "Deal 20 damage.",
@@ -18870,6 +19419,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 7 Block. Add a copy of this card into your Discard Pile.",
       "upgradeDescription": "Gain 9 Block. Add a copy of this card into your Discard Pile.",
@@ -18903,6 +19453,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Osty deals 6 damage. Deals additional damage equal to Osty's current HP.",
       "upgradeDescription": "",
@@ -18936,6 +19487,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 1,
       "target": "Self",
       "description": "The first time you gain Block from a card each turn, double the amount gained.",
       "upgradeDescription": "",
@@ -18969,6 +19521,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 14 damage. The next Attack you play costs 0 1 Energy.",
       "upgradeDescription": "Deal 20 damage. The next Attack you play costs 0 1 Energy.",
@@ -19002,6 +19555,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 6 Block.",
       "upgradeDescription": "Gain 9 Block.",
@@ -19039,6 +19593,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Add 3 Shivs into your Hand. Reduce this card's cost by 1.",
       "upgradeDescription": "Add 4 Shivs into your Hand. Reduce this card's cost by 1.",
@@ -19072,6 +19627,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 13 damage. Apply 1 Weak. Apply 1 Vulnerable.",
       "upgradeDescription": "Deal 13 damage. Apply 2 Weak. Apply 2 Vulnerable.",
@@ -19108,6 +19664,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 6 damage twice. Play a random Attack from your Draw Pile.",
       "upgradeDescription": "Deal 8 damage twice. Play a random Attack from your Draw Pile.",
@@ -19141,6 +19698,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 10 damage. The next Ethereal card you play costs 0 1 Energy.",
       "upgradeDescription": "Deal 13 damage. The next Ethereal card you play costs 0 1 Energy.",
@@ -19176,6 +19734,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Star.",
       "upgradeDescription": "Gain 3 Star.",
@@ -19209,6 +19768,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Whenever you apply Vulnerable, draw 1 card.",
       "upgradeDescription": "Whenever you apply Vulnerable, draw 2 cards.",
@@ -19244,6 +19804,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "Whenever you draw this card, lose 1 Energy.",
       "upgradeDescription": "",
@@ -19282,6 +19843,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "End your turn. The first 2 cards you play each turn are free to play.",
       "upgradeDescription": "",
@@ -19319,6 +19881,7 @@
         "isX": true,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "RandomEnemy",
       "description": "Deal 10 damage to a random enemy X times.",
       "upgradeDescription": "Deal 14 damage to a random enemy X times.",
@@ -19352,6 +19915,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Channel Lightning equal to the Lightning already Channeled this combat.",
       "upgradeDescription": "",
@@ -19389,6 +19953,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "Gain 1 less 1 Energy per turn.",
       "upgradeDescription": "",
@@ -19417,6 +19982,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "At the end of your turn, Retain up to 1 card.",
       "upgradeDescription": "At the end of your turn, Retain up to 2 cards.",
@@ -19452,6 +20018,7 @@
         "isX": true,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AllEnemies",
       "description": "Deal 5 damage to ALL enemies X times.",
       "upgradeDescription": "Deal 8 damage to ALL enemies X times.",
@@ -19485,6 +20052,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 33 damage. Stun the enemy.",
       "upgradeDescription": "Deal 44 damage. Stun the enemy.",
@@ -19522,6 +20090,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Add a random Power into your Hand. It's free to play this turn.",
       "upgradeDescription": "",
@@ -19559,6 +20128,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Put a card from your Draw Pile into your Hand.",
       "upgradeDescription": "",
@@ -19596,6 +20166,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 1 Energy.",
       "upgradeDescription": "",
@@ -19633,6 +20204,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "At the end of your turn, if this is in your Hand, take 3 damage.",
       "upgradeDescription": "At the end of your turn, if this is in your Hand, take 6 damage.",
@@ -19668,6 +20240,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -19703,6 +20276,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "Self",
       "description": "Gain 2 Intangible. At the start of your turn, lose 1 Dexterity.",
       "upgradeDescription": "Gain 3 Intangible. At the start of your turn, lose 1 Dexterity.",
@@ -19738,6 +20312,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "None",
       "description": "",
       "upgradeDescription": "",
@@ -19776,6 +20351,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": null,
       "target": "AnyEnemy",
       "description": "Deal 7 damage. Forge 7.",
       "upgradeDescription": "Deal 9 damage. Forge 9.",
@@ -19809,6 +20385,7 @@
         "isX": false,
         "isXStar": false
       },
+      "upgradeCost": 0,
       "target": "Self",
       "description": "Channel 1 Lightning.",
       "upgradeDescription": "",

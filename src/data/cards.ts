@@ -16,6 +16,7 @@ const CardSchema = z.object({
     isX: z.boolean(),
     isXStar: z.boolean(),
   }),
+  upgradeCost: z.number().nullable(),
   target: z.string(),
   description: z.string(),
   upgradeDescription: z.string(),

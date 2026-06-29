@@ -73,6 +73,18 @@ def _cost_raw(card: dict) -> dict:
     }
 
 
+def _upgrade_cost(card: dict) -> int | None:
+    """Upgraded cost for cards whose upgrade ONLY reduces the cost (no text change)."""
+    upgrade = card.get("upgrade")
+    if (
+        isinstance(upgrade, dict)
+        and set(upgrade.keys()) == {"cost"}
+        and not card.get("upgrade_description")
+    ):
+        return upgrade.get("cost")
+    return None
+
+
 def _upgrade_image(card: dict) -> str | None:
     return card.get("image_url_card_upg") or None
 
@@ -129,6 +141,7 @@ def export_cards() -> list[dict]:
                 "rarity": sc.clean(card.get("rarity")),
                 "cost": _cost_label(card),
                 "costRaw": _cost_raw(card),
+                "upgradeCost": _upgrade_cost(card),
                 "target": sc.clean(card.get("target")) or "-",
                 "description": sc.clean(card.get("description")),
                 "upgradeDescription": sc.clean(card.get("upgrade_description")),
