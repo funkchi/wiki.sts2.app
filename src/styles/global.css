@@ -584,20 +584,20 @@ body {
   max-width: 220px;
 }
 .wiki-image-stack {
-  display: grid;
+  position: relative;
+  display: block;
   width: 220px;
   max-width: 100%;
   aspect-ratio: 400 / 520;
-  align-items: start;
-  justify-items: start;
 }
 .wiki-image-stack .wiki-image {
-  grid-area: 1 / 1;
+  position: absolute;
+  inset: 0;
   width: 100%;
   max-width: none;
   height: 100%;
   object-fit: contain;
-  object-position: top left;
+  object-position: center;
 }
 .wiki-image-stack .wiki-image--upgraded {
   opacity: 0;
