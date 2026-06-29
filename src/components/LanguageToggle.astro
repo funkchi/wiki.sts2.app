@@ -1,0 +1,18 @@
+---
+import { localizedPath } from '../data/i18n';
+
+interface Props {
+  locale?: 'en' | 'zhs';
+  pathname?: string;
+}
+
+const { locale = 'en', pathname = Astro.url.pathname } = Astro.props;
+const nextLocale = locale === 'zhs' ? 'en' : 'zhs';
+const href = localizedPath(pathname, nextLocale);
+const label = locale === 'zhs' ? 'English' : '中文';
+---
+
+<a class="language-toggle" href={href} aria-label={`Switch language to ${label}`}>
+  <img src="/images/language_selector_nobbg.png" alt="" loading="lazy" decoding="async" />
+  <span>{label}</span>
+</a>

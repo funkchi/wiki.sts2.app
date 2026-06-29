@@ -40,18 +40,30 @@
   };
   const rarityRank: Record<string, number> = {
     basic: 0,
+    '基础': 0,
     common: 1,
+    '普通': 1,
     uncommon: 2,
+    '罕见': 2,
     rare: 3,
+    '稀有': 3,
     ancient: 4,
+    '先古': 4,
+    '先古遗物': 4,
     special: 5,
+    '特殊': 5,
     curse: 6,
+    '诅咒': 6,
     status: 7,
+    '状态': 7,
     token: 8,
     event: 9,
+    '事件': 9,
     'starter relic': 10,
+    '初始遗物': 10,
     boss: 11,
     shop: 12,
+    '商店遗物': 12,
   };
 
   const asArray = (v: any): string[] =>

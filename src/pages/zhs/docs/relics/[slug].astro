@@ -1,0 +1,71 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import LanguageToggle from '../../../../components/LanguageToggle.astro';
+import { relics, relicBySlug } from '../../../../data/relics';
+import { poolColor } from '../../../../data/characters';
+
+export const getStaticPaths = (() =>
+  relics.map((relic) => ({ params: { slug: relic.slug }, props: { relic } }))) satisfies GetStaticPaths;
+
+const { relic } = Astro.props;
+const zh = relic.translations?.zhHans;
+const related = relic.related
+  .map((s) => relicBySlug.get(s))
+  .filter((x): x is NonNullable<typeof x> => Boolean(x));
+
+const title = zh?.name || relic.name;
+const description = zh?.description || relic.description || `${title} - 杀戮尖塔 2 遗物。`;
+---
+
+<StarlightPage frontmatter={{ title, description }}>
+  <LanguageToggle locale="zhs" />
+  <div class="wiki-entity-hero">
+    <img class="wiki-image" src={relic.image} alt={title} loading="eager" decoding="async" fetchpriority="high" />
+    <div class="wiki-entity-hero__details">
+      <div class="entity-badges">
+        {relic.rarity === 'Starter Relic' ? (
+          <span class="tag" style={`--tag-color:${poolColor(relic.poolRaw)}`}>{zh?.rarity || relic.rarity}</span>
+        ) : (
+          <span class="tag tag--plain">{zh?.rarity || relic.rarity}</span>
+        )}
+        <span class="badge">{zh?.pool || relic.pool}</span>
+      </div>
+      <p>{zh?.description || relic.description || '暂无描述。'}</p>
+      <table>
+        <tbody>
+          <tr><th scope="row">稀有度</th><td>{zh?.rarity || relic.rarity}</td></tr>
+          <tr><th scope="row">卡池</th><td>{zh?.pool || relic.pool}</td></tr>
+          <tr><th scope="row">商店价格</th><td>{relic.price}</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  {(zh?.flavor || relic.flavor) && (
+    <>
+      <h2 id="flavor">风味文本</h2>
+      <p>{zh?.flavor || relic.flavor}</p>
+    </>
+  )}
+
+  {((zh?.notes || relic.notes).length > 0) && (
+    <>
+      <h2 id="notes">备注</h2>
+      <ul>
+        {(zh?.notes || relic.notes).map((n) => <li>{n}</li>)}
+      </ul>
+    </>
+  )}
+
+  {related.length > 0 && (
+    <>
+      <h2 id="related">相关遗物</h2>
+      <ul>
+        {related.map((r) => <li><a href={`/zhs/docs/relics/${r.slug}/`}>{r.translations?.zhHans?.name || r.name}</a></li>)}
+      </ul>
+    </>
+  )}
+
+  <p><a href="/zhs/docs/relics/">返回全部遗物</a></p>
+</StarlightPage>

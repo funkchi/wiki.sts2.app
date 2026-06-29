@@ -20,10 +20,22 @@ interface Props {
     upgradeCost?: number | null;
     target: string;
     matchedKeywords: string[];
+    translations?: Record<string, any>;
   };
+  locale?: 'en' | 'zhs';
 }
-const { card } = Astro.props;
+const { card, locale = 'en' } = Astro.props;
 const c = card.costRaw;
+const zh = locale === 'zhs' ? card.translations?.zhHans : undefined;
+const display = {
+  name: zh?.name || card.name,
+  description: zh?.description || card.description,
+  upgradeDescription: zh?.upgradeDescription || card.upgradeDescription,
+  type: zh?.type || card.type,
+  rarity: zh?.rarity || card.rarity,
+  target: zh?.target || card.target,
+  keywords: Array.isArray(zh?.keywords) ? zh.keywords : card.matchedKeywords,
+};
 
 const norm = (val: string) =>
   String(val).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
@@ -38,18 +50,18 @@ function highlight(text: string, terms: string[], cls: string): string {
   const re = new RegExp('\\b(' + terms.map(escRe).join('|') + ')\\b', 'gi');
   return safe.replace(re, `<span class="${cls}">$1</span>`);
 }
-const descHtml = card.description
-  ? highlight(card.description, card.matchedKeywords, 'kw')
+const descHtml = display.description
+  ? highlight(display.description, display.keywords, 'kw')
   : 'No description is currently available.';
-const upgHtml = card.upgradeDescription
-  ? highlight(card.upgradeDescription, card.matchedKeywords, 'kw kw--muted')
+const upgHtml = display.upgradeDescription
+  ? highlight(display.upgradeDescription, display.keywords, 'kw kw--muted')
   : '';
 
 const rows: Array<[string, string]> = [
-  ['Character / Pool', card.character],
-  ['Type', card.type],
-  ['Rarity', card.rarity],
-  ['Target', card.target],
+  [locale === 'zhs' ? '角色 / 卡池' : 'Character / Pool', card.character],
+  [locale === 'zhs' ? '类型' : 'Type', display.type],
+  [locale === 'zhs' ? '稀有度' : 'Rarity', display.rarity],
+  [locale === 'zhs' ? '目标' : 'Target', display.target],
 ];
 ---
 
@@ -67,7 +79,7 @@ const rows: Array<[string, string]> = [
         <img
           class="wiki-image wiki-image--card-detail wiki-image--base"
           src={card.image}
-          alt={card.name}
+          alt={display.name}
           loading="eager"
           decoding="async"
           fetchpriority="high"
@@ -76,7 +88,7 @@ const rows: Array<[string, string]> = [
           <img
             class="wiki-image wiki-image--card-detail wiki-image--upgraded"
             src={card.imageUpg}
-            alt={`${card.name} upgraded`}
+            alt={`${display.name} upgraded`}
             loading="eager"
             decoding="async"
             fetchpriority="low"
@@ -84,12 +96,12 @@ const rows: Array<[string, string]> = [
         )}
       </span>
     </button>
-    {card.imageUpg && <p class="wiki-image-hint">Click image to view upgrade</p>}
+    {card.imageUpg && <p class="wiki-image-hint">{locale === 'zhs' ? '点击图片查看升级版' : 'Click image to view upgrade'}</p>}
   </div>
 
   <div class="wiki-entity-hero__details">
     <div class="entity-badges">
-      <span class={`tag tag--rarity-${norm(card.rarity)}`}>{card.rarity}</span>
+      <span class={`tag tag--rarity-${norm(card.rarity)}`}>{display.rarity}</span>
     </div>
 
     <p set:html={descHtml} />
@@ -101,7 +113,7 @@ const rows: Array<[string, string]> = [
           <tr><th scope="row">{label}</th><td>{value}</td></tr>
         ))}
         <tr>
-          <th scope="row">Cost</th>
+          <th scope="row">{locale === 'zhs' ? '费用' : 'Cost'}</th>
           <td>
             {c.cost === -1 || c.cost === -2
               ? 'Unplayable'

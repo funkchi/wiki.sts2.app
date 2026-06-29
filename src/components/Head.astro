@@ -1,9 +1,21 @@
 ---
 import Analytics from './Analytics.astro';
+import { localizedPath } from '../data/i18n';
 // Mirrors Starlight's default Head.astro, then appends the analytics snippet
 // so every docs page is tracked.
 const { head } = Astro.locals.starlightRoute;
+const pathname = Astro.url.pathname;
+const isLocalizedPath = pathname.startsWith('/docs/') || pathname === '/docs/' || pathname.startsWith('/zhs/');
+const origin = Astro.site ?? new URL('https://wiki.sts2.app');
+const englishUrl = new URL(localizedPath(pathname, 'en'), origin);
+const chineseUrl = new URL(localizedPath(pathname, 'zhs'), origin);
 ---
 
 {head.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
+{isLocalizedPath && (
+  <>
+    <link rel="alternate" hreflang="en" href={englishUrl.toString()} />
+    <link rel="alternate" hreflang="zh-Hans" href={chineseUrl.toString()} />
+  </>
+)}
 <Analytics />

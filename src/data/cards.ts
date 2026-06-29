@@ -1,6 +1,16 @@
 import { z } from 'astro:schema';
 import cardsData from '../../data/wiki/cards.json';
 
+const CardTranslationSchema = z.object({
+  name: z.string(),
+  description: z.string(),
+  upgradeDescription: z.string(),
+  type: z.string(),
+  rarity: z.string(),
+  target: z.string(),
+  keywords: z.array(z.string()),
+});
+
 const CardSchema = z.object({
   id: z.string(),
   slug: z.string(),
@@ -25,6 +35,9 @@ const CardSchema = z.object({
   image: z.string(),
   imageUpg: z.string().nullable(),
   related: z.array(z.string()),
+  translations: z.object({
+    zhHans: CardTranslationSchema,
+  }).optional(),
 });
 
 const CardsFileSchema = z.object({

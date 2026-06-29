@@ -1,9 +1,11 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import LanguageToggle from '../../../components/LanguageToggle.astro';
 import { characters, accentFor } from '../../../data/characters';
 ---
 
 <StarlightPage frontmatter={{ title: 'Characters' }}>
+  <LanguageToggle />
   <p>
     Character data and original combat-model artwork are sourced from{' '}
     <a href="https://spire-codex.com/docs">Spire Codex</a>, using the English{' '}

@@ -17,7 +17,17 @@
       "image": "/media/relics/bound-phylactery.webp",
       "related": [
         "phylactery-unbound"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "缚魂命匣",
+          "description": "在你的回合开始时，召唤1",
+          "rarity": "初始遗物",
+          "pool": "亡灵束缚者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BURNING_BLOOD",
@@ -33,7 +43,17 @@
       "image": "/media/relics/burning-blood.webp",
       "related": [
         "black-blood"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "燃烧之血",
+          "description": "在战斗结束时，回复6点生命。",
+          "rarity": "初始遗物",
+          "pool": "铁甲战士",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CRACKED_CORE",
@@ -49,7 +69,17 @@
       "image": "/media/relics/cracked-core.webp",
       "related": [
         "infused-core"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "破损核心",
+          "description": "在每场战斗开始时，生成1个闪电充能球。",
+          "rarity": "初始遗物",
+          "pool": "故障机器人",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DIVINE_DESTINY",
@@ -65,7 +95,17 @@
       "image": "/media/relics/divine-destiny.webp",
       "related": [
         "divine-right"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "天命所归",
+          "description": "在每场战斗开始时，获得6 星。",
+          "rarity": "初始遗物",
+          "pool": "摄政者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DIVINE_RIGHT",
@@ -81,7 +121,17 @@
       "image": "/media/relics/divine-right.webp",
       "related": [
         "divine-destiny"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "天赋君权",
+          "description": "在每场战斗开始时，获得3 星。",
+          "rarity": "初始遗物",
+          "pool": "摄政者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "INFUSED_CORE",
@@ -97,7 +147,17 @@
       "image": "/media/relics/infused-core.webp",
       "related": [
         "cracked-core"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "注能核心",
+          "description": "在每场战斗开始时，生成3个闪电充能球。闪电充能球额外造成1点伤害。",
+          "rarity": "初始遗物",
+          "pool": "故障机器人",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PHYLACTERY_UNBOUND",
@@ -113,7 +173,17 @@
       "image": "/media/relics/phylactery-unbound.webp",
       "related": [
         "bound-phylactery"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "无界命匣",
+          "description": "在每场战斗开始时，召唤5。在你的回合开始时，召唤2。",
+          "rarity": "初始遗物",
+          "pool": "亡灵束缚者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "RING_OF_THE_DRAKE",
@@ -129,7 +199,17 @@
       "image": "/media/relics/ring-of-the-drake.webp",
       "related": [
         "ring-of-the-snake"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "长蛇戒指",
+          "description": "在战斗开始时的前3个回合，你额外抽2张牌。",
+          "rarity": "初始遗物",
+          "pool": "静默猎手",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "RING_OF_THE_SNAKE",
@@ -145,7 +225,17 @@
       "image": "/media/relics/ring-of-the-snake.webp",
       "related": [
         "ring-of-the-drake"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "蛇之戒指",
+          "description": "在每场战斗开始时，额外抽2张牌。",
+          "rarity": "初始遗物",
+          "pool": "静默猎手",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BLACK_BLOOD",
@@ -161,7 +251,17 @@
       "image": "/media/relics/black-blood.webp",
       "related": [
         "burning-blood"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "黑暗之血",
+          "description": "在战斗结束时，回复12点生命。",
+          "rarity": "初始遗物",
+          "pool": "铁甲战士",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "AMETHYST_AUBERGINE",
@@ -184,7 +284,17 @@
         "bronze-scales",
         "centennial-puzzle",
         "festive-popper"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "紫水晶茄子",
+          "description": "敌人额外掉落15金币。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ANCHOR",
@@ -207,7 +317,17 @@
         "bronze-scales",
         "centennial-puzzle",
         "festive-popper"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "锚",
+          "description": "每场战斗开始时获得10点格挡。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BAG_OF_MARBLES",
@@ -230,7 +350,17 @@
         "bronze-scales",
         "centennial-puzzle",
         "festive-popper"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "弹珠袋",
+          "description": "在每场战斗开始时，给予所有敌人1层易伤。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BAG_OF_PREPARATION",
@@ -253,7 +383,17 @@
         "bronze-scales",
         "centennial-puzzle",
         "festive-popper"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "准备背包",
+          "description": "在每场战斗开始时，额外抽2张牌。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BLOOD_VIAL",
@@ -276,7 +416,17 @@
         "bronze-scales",
         "centennial-puzzle",
         "festive-popper"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "小血瓶",
+          "description": "在每场战斗开始时，回复2点生命。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BONE_FLUTE",
@@ -290,7 +440,17 @@
       "flavor": "Details for this relic will be revealed in the future...",
       "notes": [],
       "image": "/media/relics/bone-flute.webp",
-      "related": []
+      "related": [],
+      "translations": {
+        "zhHans": {
+          "name": "骨笛",
+          "description": "每当奥斯提攻击时，获得2点格挡。",
+          "rarity": "普通遗物",
+          "pool": "亡灵束缚者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BOOK_OF_FIVE_RINGS",
@@ -313,7 +473,17 @@
         "bronze-scales",
         "centennial-puzzle",
         "festive-popper"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "五轮书",
+          "description": "你每将5张牌加入你的牌组时，回复20点生命。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BRONZE_SCALES",
@@ -336,7 +506,17 @@
         "book-of-five-rings",
         "centennial-puzzle",
         "festive-popper"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "铜质鳞片",
+          "description": "在每场战斗开始时，获得3点荆棘。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CENTENNIAL_PUZZLE",
@@ -359,7 +539,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "festive-popper"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "百年积木",
+          "description": "你在每场战斗中第一次损失生命值时，抽3张牌。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DATA_DISK",
@@ -373,7 +563,17 @@
       "flavor": "Details for this relic will be revealed in the future...",
       "notes": [],
       "image": "/media/relics/data-disk.webp",
-      "related": []
+      "related": [],
+      "translations": {
+        "zhHans": {
+          "name": "数据磁盘",
+          "description": "在每场战斗开始时，获得1点集中。",
+          "rarity": "普通遗物",
+          "pool": "故障机器人",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FENCING_MANUAL",
@@ -387,7 +587,17 @@
       "flavor": "Details for this relic will be revealed in the future...",
       "notes": [],
       "image": "/media/relics/fencing-manual.webp",
-      "related": []
+      "related": [],
+      "translations": {
+        "zhHans": {
+          "name": "击剑指南",
+          "description": "在每场战斗开始时，铸造10。",
+          "rarity": "普通遗物",
+          "pool": "摄政者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FESTIVE_POPPER",
@@ -410,7 +620,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "节日拉炮",
+          "description": "在每场战斗开始时，对所有敌人造成9点伤害。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GORGET",
@@ -433,7 +653,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "护喉甲",
+          "description": "在每场战斗开始时，获得4层覆甲。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "HAPPY_FLOWER",
@@ -456,7 +686,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "开心小花",
+          "description": "每3个回合，获得1 能量。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "JUZU_BRACELET",
@@ -479,7 +719,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "佛珠手链",
+          "description": "你在?房间中不会再遭遇常规战斗。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LANTERN",
@@ -502,7 +752,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "灯笼",
+          "description": "在每场战斗的第一回合获得1 能量。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MEAL_TICKET",
@@ -525,7 +785,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "餐券",
+          "description": "每当你进入商店房间时，回复15点生命。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ODDLY_SMOOTH_STONE",
@@ -548,7 +818,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "意外光滑的石头",
+          "description": "在每场战斗开始时，获得1点敏捷。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PENDULUM",
@@ -571,7 +851,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "摆动球",
+          "description": "每3个回合，抽1张牌",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "POTION_BELT",
@@ -594,7 +884,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "药水腰带",
+          "description": "拾起时，获得2个药水栏位。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "RED_MASK",
@@ -617,7 +917,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "红面具",
+          "description": "在每场战斗开始时，给于所有敌人1层虚弱。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "RED_SKULL",
@@ -631,7 +941,17 @@
       "flavor": "Details for this relic will be revealed in the future...",
       "notes": [],
       "image": "/media/relics/red-skull.webp",
-      "related": []
+      "related": [],
+      "translations": {
+        "zhHans": {
+          "name": "红头骨",
+          "description": "当你的生命值低于或等于50%时，你额外获得3点力量",
+          "rarity": "普通遗物",
+          "pool": "铁甲战士",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "REGAL_PILLOW",
@@ -654,7 +974,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "皇家枕头",
+          "description": "在休息时，额外回复15点生命。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SNECKO_SKULL",
@@ -668,7 +998,17 @@
       "flavor": "Details for this relic will be revealed in the future...",
       "notes": [],
       "image": "/media/relics/snecko-skull.webp",
-      "related": []
+      "related": [],
+      "translations": {
+        "zhHans": {
+          "name": "异蛇头骨",
+          "description": "每当你给予敌人中毒时，所给予的中毒层数增加1层。",
+          "rarity": "普通遗物",
+          "pool": "静默猎手",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "STRAWBERRY",
@@ -691,7 +1031,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "草莓",
+          "description": "拾起时，将你的最大生命值提升7。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "STRIKE_DUMMY",
@@ -714,7 +1064,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "打击木偶",
+          "description": "名字中有“打击”的卡牌造成3点额外伤害。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "VAJRA",
@@ -737,7 +1097,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "金刚杵",
+          "description": "在每场战斗开始时，获得1点力量。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "VENERABLE_TEA_SET",
@@ -760,7 +1130,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "古茶具套装",
+          "description": "到达休息处后的下一场战斗开始时额外获得2 能量。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "WAR_PAINT",
@@ -783,7 +1163,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "战纹涂料",
+          "description": "拾起时，随机升级2张技能牌。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "WHETSTONE",
@@ -806,7 +1196,17 @@
         "book-of-five-rings",
         "bronze-scales",
         "centennial-puzzle"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "磨刀石",
+          "description": "拾起时，随机升级2张攻击牌。",
+          "rarity": "普通遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "AKABEKO",
@@ -829,7 +1229,17 @@
         "joss-paper",
         "kusarigama",
         "lasting-candy"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "赤牛",
+          "description": "在每场战斗开始时，获得8点活力。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BOOK_REPAIR_KNIFE",
@@ -845,7 +1255,17 @@
       "image": "/media/relics/book-repair-knife.webp",
       "related": [
         "funerary-mask"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "修书小刀",
+          "description": "每当有一名不是“爪牙”的敌人死于灾厄时，回复3点生命。",
+          "rarity": "罕见遗物",
+          "pool": "亡灵束缚者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BOWLER_HAT",
@@ -868,7 +1288,17 @@
         "joss-paper",
         "kusarigama",
         "lasting-candy"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "圆顶礼帽",
+          "description": "额外获得25%的金币。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CANDELABRA",
@@ -891,7 +1321,17 @@
         "joss-paper",
         "kusarigama",
         "lasting-candy"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "烛台",
+          "description": "在你的第2回合开始时，获得2 能量。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ETERNAL_FEATHER",
@@ -914,7 +1354,17 @@
         "joss-paper",
         "kusarigama",
         "lasting-candy"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "永恒羽毛",
+          "description": "你的牌组中每有5张牌，当你进入休息处时就会回复3点生命。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FUNERARY_MASK",
@@ -930,7 +1380,17 @@
       "image": "/media/relics/funerary-mask.webp",
       "related": [
         "book-repair-knife"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "葬礼面具",
+          "description": "在每场战斗开始时，将3张灵魂加入你的抽牌堆。",
+          "rarity": "罕见遗物",
+          "pool": "亡灵束缚者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GALACTIC_DUST",
@@ -946,7 +1406,17 @@
       "image": "/media/relics/galactic-dust.webp",
       "related": [
         "regalite"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "星系尘埃",
+          "description": "每消耗10点1 星，就获得10格挡。",
+          "rarity": "罕见遗物",
+          "pool": "摄政者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GOLD_PLATED_CABLES",
@@ -962,7 +1432,17 @@
       "image": "/media/relics/gold-plated-cables.webp",
       "related": [
         "symbiotic-virus"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "镀金缆线",
+          "description": "你最右侧的充能球会额外触发一次被动效果。",
+          "rarity": "罕见遗物",
+          "pool": "故障机器人",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GREMLIN_HORN",
@@ -985,7 +1465,17 @@
         "joss-paper",
         "kusarigama",
         "lasting-candy"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "地精之角",
+          "description": "每当有一名敌人死亡时，获得1 能量并抽1张牌。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "HORN_CLEAT",
@@ -1008,7 +1498,17 @@
         "joss-paper",
         "kusarigama",
         "lasting-candy"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "船夹板",
+          "description": "在你的第二回合开始时，获得14点格挡。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "JOSS_PAPER",
@@ -1031,7 +1531,17 @@
         "horn-cleat",
         "kusarigama",
         "lasting-candy"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "金纸",
+          "description": "你每消耗5张牌，就抽1张牌。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "KUSARIGAMA",
@@ -1054,7 +1564,17 @@
         "horn-cleat",
         "joss-paper",
         "lasting-candy"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "锁镰",
+          "description": "你每在同一回合内打出3张攻击牌，就随机对一名敌人造成6点伤害。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LASTING_CANDY",
@@ -1077,7 +1597,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "吃不完的糖",
+          "description": "每两场战斗，你的卡牌奖励就会额外包含一张能力牌。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LETTER_OPENER",
@@ -1100,7 +1630,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "开信刀",
+          "description": "你每在同一回合内打出3张技能牌，就对所有敌人造成5点伤害。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LUCKY_FYSH",
@@ -1123,7 +1663,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "招财异鱼",
+          "description": "每当你将一张卡牌加入你的牌组时，获得15金币。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MERCURY_HOURGLASS",
@@ -1146,7 +1696,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "水银沙漏",
+          "description": "在你的回合开始时，对所有敌人造成3点伤害。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MINIATURE_CANNON",
@@ -1169,7 +1729,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "微型大炮",
+          "description": "升级的攻击牌额外造成3点伤害。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "NUNCHAKU",
@@ -1192,7 +1762,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "双截棍",
+          "description": "你每打出10张攻击牌，获得1 能量。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ORICHALCUM",
@@ -1215,7 +1795,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "奥利哈钢",
+          "description": "如果你在回合结束时没有任何格挡，获得6点格挡。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ORNAMENTAL_FAN",
@@ -1238,7 +1828,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "精致折扇",
+          "description": "你每在同一回合内打出3张攻击牌，就获得4点格挡。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PANTOGRAPH",
@@ -1261,7 +1861,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "缩放仪",
+          "description": "在Boss战开始时，回复25点生命值。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PAPER_PHROG",
@@ -1277,7 +1887,17 @@
       "image": "/media/relics/paper-phrog.webp",
       "related": [
         "self-forming-clay"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "纸蛙",
+          "description": "有易伤状态的敌人受到的伤害增加75%而非50%。",
+          "rarity": "罕见遗物",
+          "pool": "铁甲战士",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PARRYING_SHIELD",
@@ -1300,7 +1920,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "招架盾",
+          "description": "如果你在回合结束时拥有至少10点格挡，则对随机敌人造成6点伤害。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PEAR",
@@ -1323,7 +1953,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "梨子",
+          "description": "拾起时，将你的最大生命值提升10。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PEN_NIB",
@@ -1346,7 +1986,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "钢笔尖",
+          "description": "你每打出的第10张攻击牌将会造成双倍伤害。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PERMAFROST",
@@ -1369,7 +2019,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "永冻冰晶",
+          "description": "当你在战斗中第一次打出能力牌时，获得7点格挡。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PETRIFIED_TOAD",
@@ -1392,7 +2052,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "石化蟾蜍",
+          "description": "在每场战斗开始时，获得一瓶药水形状的石头",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PLANISPHERE",
@@ -1415,7 +2085,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "活动星图",
+          "description": "每当你进入？房间的时候，回复5点生命。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "REGALITE",
@@ -1431,7 +2111,17 @@
       "image": "/media/relics/regalite.webp",
       "related": [
         "galactic-dust"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "君王矿石",
+          "description": "每当你生成一张牌时，获得2点格挡。",
+          "rarity": "罕见遗物",
+          "pool": "摄政者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "REPTILE_TRINKET",
@@ -1454,7 +2144,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "爬行动物饰品",
+          "description": "当你使用药水时，在本回合获得3力量。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "RIPPLE_BASIN",
@@ -1477,7 +2177,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "波纹水盆",
+          "description": "如果你在本回合中没有打出过攻击牌，则获得4点格挡。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SELF_FORMING_CLAY",
@@ -1493,7 +2203,17 @@
       "image": "/media/relics/self-forming-clay.webp",
       "related": [
         "paper-phrog"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "自成型黏土",
+          "description": "每当你在战斗中失去生命，就在下回合获得3点格挡。",
+          "rarity": "罕见遗物",
+          "pool": "铁甲战士",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SPARKLING_ROUGE",
@@ -1516,7 +2236,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "闪亮口红",
+          "description": "在你的第3回合开始时，获得1点力量和1点敏捷。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "STONE_CRACKER",
@@ -1539,7 +2269,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "碎石钻",
+          "description": "在每场战斗开始时，在本场战斗中随机升级你抽牌堆中的2张牌。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SYMBIOTIC_VIRUS",
@@ -1555,7 +2295,17 @@
       "image": "/media/relics/symbiotic-virus.webp",
       "related": [
         "gold-plated-cables"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "共生病毒",
+          "description": "在每场战斗开始时，生成1个黑暗充能球。",
+          "rarity": "罕见遗物",
+          "pool": "故障机器人",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TINGSHA",
@@ -1571,7 +2321,17 @@
       "image": "/media/relics/tingsha.webp",
       "related": [
         "twisted-funnel"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "铜钹",
+          "description": "你每在你的回合丢弃一张牌，就对一名随机敌人造成3点伤害。",
+          "rarity": "罕见遗物",
+          "pool": "静默猎手",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TINY_MAILBOX",
@@ -1594,7 +2354,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "小邮箱",
+          "description": "每当你休息时，获得2瓶随机药水。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TUNING_FORK",
@@ -1617,7 +2387,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "音叉",
+          "description": "你每打出10张技能牌，获得7点格挡。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TWISTED_FUNNEL",
@@ -1633,7 +2413,17 @@
       "image": "/media/relics/twisted-funnel.webp",
       "related": [
         "tingsha"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "扭曲漏斗",
+          "description": "在每场战斗开始时，给予所有敌人4层中毒。",
+          "rarity": "罕见遗物",
+          "pool": "静默猎手",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "VAMBRACE",
@@ -1656,7 +2446,17 @@
         "horn-cleat",
         "joss-paper",
         "kusarigama"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "臂甲",
+          "description": "每场战斗中，你第一次从卡牌中获得的格挡值翻倍。",
+          "rarity": "罕见遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ART_OF_WAR",
@@ -1679,7 +2479,17 @@
         "frozen-egg",
         "gambling-chip",
         "game-piece"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "孙子兵法",
+          "description": "如果你在本回合中没有打出过攻击牌，则在下一回合额外获得1点1 能量。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BEATING_REMNANT",
@@ -1702,7 +2512,17 @@
         "frozen-egg",
         "gambling-chip",
         "game-piece"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "律动残余",
+          "description": "你在一回合内失去的生命值不会超过20点。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BELLOWS",
@@ -1725,7 +2545,17 @@
         "frozen-egg",
         "gambling-chip",
         "game-piece"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "风箱",
+          "description": "你在每场战斗开始时的手牌，将被升级。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BIG_HAT",
@@ -1742,7 +2572,17 @@
       "related": [
         "bookmark",
         "ivory-tile"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "大帽子",
+          "description": "在每场战斗开始时，将2张随机虚无牌加入你的手牌。",
+          "rarity": "稀有遗物",
+          "pool": "亡灵束缚者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BOOKMARK",
@@ -1759,7 +2599,17 @@
       "related": [
         "big-hat",
         "ivory-tile"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "书签",
+          "description": "每回合结束时，随机一张被保留的牌在被打出前的耗能减少1。",
+          "rarity": "稀有遗物",
+          "pool": "亡灵束缚者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CAPTAINS_WHEEL",
@@ -1782,7 +2632,17 @@
         "frozen-egg",
         "gambling-chip",
         "game-piece"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "舵盘",
+          "description": "在你的第三回合开始时，获得18点格挡。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CHANDELIER",
@@ -1805,7 +2665,17 @@
         "frozen-egg",
         "gambling-chip",
         "game-piece"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "吊灯",
+          "description": "在你的第三回合开始时，获得3 能量。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CHARONS_ASHES",
@@ -1822,7 +2692,17 @@
       "related": [
         "demon-tongue",
         "ruined-helmet"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "卡戎之灰",
+          "description": "每当你消耗一张牌，对所有敌人造成3点伤害。",
+          "rarity": "稀有遗物",
+          "pool": "铁甲战士",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CLOAK_CLASP",
@@ -1845,7 +2725,17 @@
         "frozen-egg",
         "gambling-chip",
         "game-piece"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "斗篷扣",
+          "description": "在你的回合结束时，每有一张手牌，就获得1点格挡",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DEMON_TONGUE",
@@ -1862,7 +2752,17 @@
       "related": [
         "charons-ashes",
         "ruined-helmet"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "恶魔之舌",
+          "description": "每回合第一次在回合内失去生命值时，回复等量的生命值。",
+          "rarity": "稀有遗物",
+          "pool": "铁甲战士",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "EMOTION_CHIP",
@@ -1879,7 +2779,17 @@
       "related": [
         "metronome",
         "power-cell"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "情感芯片",
+          "description": "在每回合开始时，如果你在之前回合受到过伤害，则触发所有充能球的被动效果。",
+          "rarity": "稀有遗物",
+          "pool": "故障机器人",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FROZEN_EGG",
@@ -1902,7 +2812,17 @@
         "cloak-clasp",
         "gambling-chip",
         "game-piece"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "冻结之蛋",
+          "description": "每当你获得能力牌时，将其升级。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GAMBLING_CHIP",
@@ -1925,7 +2845,17 @@
         "cloak-clasp",
         "frozen-egg",
         "game-piece"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "赌博筹码",
+          "description": "在每场战斗开始时，丢弃任意张牌，然后抽相同数量张牌。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GAME_PIECE",
@@ -1948,7 +2878,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "棋子",
+          "description": "每当你打出能力牌时，抽1张牌。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GIRYA",
@@ -1971,7 +2911,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "壶铃",
+          "description": "你现在能在休息处获得力量。（最多3次）",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "HELICAL_DART",
@@ -1988,7 +2938,17 @@
       "related": [
         "paper-krane",
         "tough-bandages"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "螺线飞镖",
+          "description": "你每打出一张小刀，就在本回合获得1点敏捷。",
+          "rarity": "稀有遗物",
+          "pool": "静默猎手",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ICE_CREAM",
@@ -2011,7 +2971,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "冰淇淋",
+          "description": "多余的能量可以留到下一回合。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "INTIMIDATING_HELMET",
@@ -2034,7 +3004,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "骇人头盔",
+          "description": "每当你打出一张耗能大于等于2 能量的牌，获得4点格挡。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "IVORY_TILE",
@@ -2051,7 +3031,17 @@
       "related": [
         "big-hat",
         "bookmark"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "象牙麻将牌",
+          "description": "每当你打出一张耗能大于等于3 能量的牌时，获得1 能量。",
+          "rarity": "稀有遗物",
+          "pool": "亡灵束缚者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "KUNAI",
@@ -2074,7 +3064,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "苦无",
+          "description": "你每在同一回合内打出3张攻击牌，就获得1点敏捷。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LIZARD_TAIL",
@@ -2097,7 +3097,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "蜥蜴尾巴",
+          "description": "当你的生命值将要降低至0或以下时，回复到最大生命值的50%（仅能起效一次）。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LUNAR_PASTRY",
@@ -2114,7 +3124,17 @@
       "related": [
         "mini-regent",
         "orange-dough"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "月亮糕点",
+          "description": "在你的回合结束时，获得1 星。",
+          "rarity": "稀有遗物",
+          "pool": "摄政者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MANGO",
@@ -2137,7 +3157,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "芒果",
+          "description": "拾起时，将你的最大生命值提升14。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MEAT_ON_THE_BONE",
@@ -2160,7 +3190,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "带骨肉",
+          "description": "如果你在战斗结束时生命值等于或低于50%，回复12点生命。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "METRONOME",
@@ -2177,7 +3217,17 @@
       "related": [
         "emotion-chip",
         "power-cell"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "节拍器",
+          "description": "每场战斗中你首次生成7个充能球时，对所有敌人造成30点伤害。",
+          "rarity": "稀有遗物",
+          "pool": "故障机器人",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MINI_REGENT",
@@ -2194,7 +3244,17 @@
       "related": [
         "lunar-pastry",
         "orange-dough"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "迷你储君",
+          "description": "每回合你第一次花费1 星时，获得1点力量。",
+          "rarity": "稀有遗物",
+          "pool": "摄政者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MOLTEN_EGG",
@@ -2217,7 +3277,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "熔火之蛋",
+          "description": "每当你获得攻击牌时，将其升级。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MUMMIFIED_HAND",
@@ -2240,7 +3310,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "干瘪之手",
+          "description": "你每打出一张能力牌，手牌中就有一张随机牌在这个回合可以免费打出。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "OLD_COIN",
@@ -2263,7 +3343,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "古钱币",
+          "description": "拾起时，获得300金币。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ORANGE_DOUGH",
@@ -2280,7 +3370,17 @@
       "related": [
         "lunar-pastry",
         "mini-regent"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "橙色团块",
+          "description": "在每场战斗开始时，将2张随机无色牌加入你的手牌。",
+          "rarity": "稀有遗物",
+          "pool": "摄政者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PAPER_KRANE",
@@ -2297,7 +3397,17 @@
       "related": [
         "helical-dart",
         "tough-bandages"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "纸鹤",
+          "description": "有虚弱状态的敌人造成的伤害降低40%而非25%。",
+          "rarity": "稀有遗物",
+          "pool": "静默猎手",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "POCKETWATCH",
@@ -2320,7 +3430,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "怀表",
+          "description": "当你在本回合打出的牌少于等于3张时，则在你的下个回合开始时额外抽3张牌。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "POWER_CELL",
@@ -2337,7 +3457,17 @@
       "related": [
         "emotion-chip",
         "metronome"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "能量电池",
+          "description": "在每场战斗开始时，将2张耗能为0的卡牌从你的抽牌堆放入你的手牌。",
+          "rarity": "稀有遗物",
+          "pool": "故障机器人",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PRAYER_WHEEL",
@@ -2360,7 +3490,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "转经轮",
+          "description": "普通敌人额外掉落一次卡牌奖励。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "RAINBOW_RING",
@@ -2383,7 +3523,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "彩虹戒指",
+          "description": "每回合，你第一次打出攻击牌、技能牌和能力牌各一张时，获得1点力量和1点敏捷。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "RAZOR_TOOTH",
@@ -2406,7 +3556,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "剃刀牙",
+          "description": "你打出攻击牌和技能牌时，将其在本场战斗内升级。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "RUINED_HELMET",
@@ -2423,7 +3583,17 @@
       "related": [
         "charons-ashes",
         "demon-tongue"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "损毁头盔",
+          "description": "你在每场战斗中第一次获得的力量值翻倍。",
+          "rarity": "稀有遗物",
+          "pool": "铁甲战士",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SHOVEL",
@@ -2446,7 +3616,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "铲子",
+          "description": "现在你可以在休息处挖掘遗物。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SHURIKEN",
@@ -2469,7 +3649,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "手里剑",
+          "description": "你每在同一回合内打出3张攻击牌，获得1点力量。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "STONE_CALENDAR",
@@ -2492,7 +3682,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "历石",
+          "description": "在第7回合结束时，对所有敌人造成52点伤害。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "STURDY_CLAMP",
@@ -2515,7 +3715,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "坚固钳子",
+          "description": "可以跨回合保留最多10点格挡。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "THE_COURIER",
@@ -2538,7 +3748,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "送货员",
+          "description": "商人的卡牌、遗物和药水不再会卖光，并且所有商品打折20%。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TOUGH_BANDAGES",
@@ -2555,7 +3775,17 @@
       "related": [
         "helical-dart",
         "paper-krane"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "结实绷带",
+          "description": "你每在你的回合丢弃一张牌，就获得3点格挡。",
+          "rarity": "稀有遗物",
+          "pool": "静默猎手",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TOXIC_EGG",
@@ -2578,7 +3808,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "毒素之蛋",
+          "description": "每当你获得技能牌时，将其升级。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TUNGSTEN_ROD",
@@ -2601,7 +3841,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "钨合金棍",
+          "description": "你每次失去生命时，减少失去的生命值1点。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "UNCEASING_TOP",
@@ -2624,7 +3874,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "不休陀螺",
+          "description": "在你的回合，当你没有手牌时，抽一张牌。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "UNSETTLING_LAMP",
@@ -2647,7 +3907,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "不安油灯",
+          "description": "你在每场战斗中第一次打出能给予敌人负面状态的牌时，将其效果翻倍。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "VEXING_PUZZLEBOX",
@@ -2670,7 +3940,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "烦人机关盒",
+          "description": "在每场战斗开始时，将一张随机卡牌加入你的手牌。这张牌在本回合可以免费打出。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "WHITE_BEAST_STATUE",
@@ -2693,7 +3973,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "白兽雕像",
+          "description": "战斗结束后必定掉落药水。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "WHITE_STAR",
@@ -2716,7 +4006,17 @@
         "cloak-clasp",
         "frozen-egg",
         "gambling-chip"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "白星",
+          "description": "精英敌人额外掉落一次稀有卡牌奖励。",
+          "rarity": "稀有遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BELT_BUCKLE",
@@ -2739,7 +4039,17 @@
         "dollys-mirror",
         "dragon-fruit",
         "ghost-seed"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "腰带扣",
+          "description": "当你没有药水时，你额外拥有2点敏捷。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BREAD",
@@ -2762,7 +4072,17 @@
         "dollys-mirror",
         "dragon-fruit",
         "ghost-seed"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "面包",
+          "description": "在你的第一个回合开始时，失去2 能量。在其余的回合开始时，获得1 能量。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BRIMSTONE",
@@ -2776,7 +4096,17 @@
       "flavor": "Details for this relic will be revealed in the future...",
       "notes": [],
       "image": "/media/relics/brimstone.webp",
-      "related": []
+      "related": [],
+      "translations": {
+        "zhHans": {
+          "name": "硫磺",
+          "description": "在你的每个回合开始时，你获得2点力量，所有敌人获得1点力量。",
+          "rarity": "商店遗物",
+          "pool": "铁甲战士",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BURNING_STICKS",
@@ -2799,7 +4129,17 @@
         "dollys-mirror",
         "dragon-fruit",
         "ghost-seed"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "燃烧木棍",
+          "description": "每场战斗中你第一次消耗技能牌时，将那张牌的复制品加入你的手牌",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CAULDRON",
@@ -2822,7 +4162,17 @@
         "dollys-mirror",
         "dragon-fruit",
         "ghost-seed"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "大锅",
+          "description": "拾起时，制作5瓶随机药水。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CHEMICAL_X",
@@ -2845,7 +4195,17 @@
         "dollys-mirror",
         "dragon-fruit",
         "ghost-seed"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "化学物X",
+          "description": "耗能为X的牌的效果数值增加2点。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "警告：严禁与糖、香料还有一切美好的味道混合在一起。",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DINGY_RUG",
@@ -2868,7 +4228,17 @@
         "dollys-mirror",
         "dragon-fruit",
         "ghost-seed"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "肮脏地毯",
+          "description": "卡牌奖励现在会包括无色牌。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DOLLYS_MIRROR",
@@ -2891,7 +4261,17 @@
         "dingy-rug",
         "dragon-fruit",
         "ghost-seed"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "多利之镜",
+          "description": "拾起时，从你的牌组中选择一张牌进行复制。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DRAGON_FRUIT",
@@ -2914,7 +4294,17 @@
         "dingy-rug",
         "dollys-mirror",
         "ghost-seed"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "火龙果",
+          "description": "每当你获得金币时，提升1点你的最大生命值。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GHOST_SEED",
@@ -2937,7 +4327,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "幽灵种子",
+          "description": "打击和防御获得虚无。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GNARLED_HAMMER",
@@ -2960,7 +4360,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "扭曲锤子",
+          "description": "拾起时，从你的牌组中选择至多3张攻击牌，附魔：锋利3。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "KIFUDA",
@@ -2983,7 +4393,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "木札",
+          "description": "拾起时，从你的牌组中选择至多3张牌，附魔：伶俐。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LAVA_LAMP",
@@ -3006,7 +4426,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "熔岩灯",
+          "description": "在战斗结束时，如果你没有受到伤害，则升级你的所有卡牌奖励。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LEES_WAFFLE",
@@ -3029,7 +4459,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "李家华夫饼",
+          "description": "拾起时，将你的最大生命值提升7点，并回复所有生命。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MEMBERSHIP_CARD",
@@ -3052,7 +4492,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "会员卡",
+          "description": "所有商品打折50%！",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MINIATURE_TENT",
@@ -3075,7 +4525,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "微型帐篷",
+          "description": "你可以在休息处选择任意数量的选项。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MYSTIC_LIGHTER",
@@ -3098,7 +4558,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "神秘打火机",
+          "description": "有附魔的攻击牌额外造成9点伤害。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "NINJA_SCROLL",
@@ -3112,7 +4582,17 @@
       "flavor": "Details for this relic will be revealed in the future...",
       "notes": [],
       "image": "/media/relics/ninja-scroll.webp",
-      "related": []
+      "related": [],
+      "translations": {
+        "zhHans": {
+          "name": "忍术卷轴",
+          "description": "每场战斗开始时，将3张小刀加入你的手牌。",
+          "rarity": "商店遗物",
+          "pool": "静默猎手",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ORRERY",
@@ -3135,7 +4615,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "星系仪",
+          "description": "拾起时，获得5次卡牌奖励",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PUNCH_DAGGER",
@@ -3158,7 +4648,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "拳刃",
+          "description": "拾起时，选择一张攻击牌为它附魔：动量5。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "RINGING_TRIANGLE",
@@ -3181,7 +4681,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "三角铃鼓",
+          "description": "在每场战斗的第一回合保留你的手牌。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ROYAL_STAMP",
@@ -3204,7 +4714,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "王室印章",
+          "description": "拾起时，从牌组中选择一张攻击牌或技能牌，为它附魔：王室认证。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "RUNIC_CAPACITOR",
@@ -3218,7 +4738,17 @@
       "flavor": "Details for this relic will be revealed in the future...",
       "notes": [],
       "image": "/media/relics/runic-capacitor.webp",
-      "related": []
+      "related": [],
+      "translations": {
+        "zhHans": {
+          "name": "符文电容器",
+          "description": "每场战斗开始时，获得3个额外充能球栏位。",
+          "rarity": "商店遗物",
+          "pool": "故障机器人",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SCREAMING_FLAGON",
@@ -3241,7 +4771,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "尖叫酒壶",
+          "description": "如果你在回合结束时没有任何手牌，则对所有敌人造成20点伤害。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SLING_OF_COURAGE",
@@ -3264,7 +4804,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "勇气投石索",
+          "description": "在与精英敌人战斗时，获得2点力量。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "THE_ABACUS",
@@ -3287,7 +4837,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "算盘",
+          "description": "你每次将抽牌堆洗牌时，获得6点格挡。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TOOLBOX",
@@ -3310,7 +4870,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "工具箱",
+          "description": "在每场战斗开始时，从3张随机无色牌中选择1张加入你的手牌。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "UNDYING_SIGIL",
@@ -3324,7 +4894,17 @@
       "flavor": "Details for this relic will be revealed in the future...",
       "notes": [],
       "image": "/media/relics/undying-sigil.webp",
-      "related": []
+      "related": [],
+      "translations": {
+        "zhHans": {
+          "name": "不死符文",
+          "description": "当敌人的灾厄层数大于等于其生命值时，它造成的伤害降低50%。",
+          "rarity": "商店遗物",
+          "pool": "亡灵束缚者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "VITRUVIAN_MINION",
@@ -3338,7 +4918,17 @@
       "flavor": "Details for this relic will be revealed in the future...",
       "notes": [],
       "image": "/media/relics/vitruvian-minion.webp",
-      "related": []
+      "related": [],
+      "translations": {
+        "zhHans": {
+          "name": "维特鲁威仆从",
+          "description": "名字中有“仆从”的卡牌造成双倍的伤害与格挡。",
+          "rarity": "商店遗物",
+          "pool": "摄政者",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "WING_CHARM",
@@ -3361,7 +4951,17 @@
         "dingy-rug",
         "dollys-mirror",
         "dragon-fruit"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "羽翼护符",
+          "description": "每次卡牌奖励中，都会有随机一张牌被附魔：迅捷1。",
+          "rarity": "商店遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FAKE_ANCHOR",
@@ -3384,7 +4984,17 @@
         "darkstone-periapt",
         "daughter-of-the-wind",
         "dream-catcher"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "锚？？？",
+          "description": "在每场战斗开始时，获得4点格挡。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BIG_MUSHROOM",
@@ -3407,7 +5017,17 @@
         "darkstone-periapt",
         "daughter-of-the-wind",
         "dream-catcher"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "大蘑菇",
+          "description": "拾起时，将你的最大生命值提升20。在每场战斗开始时，少抽2张牌。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BING_BONG",
@@ -3430,7 +5050,17 @@
         "darkstone-periapt",
         "daughter-of-the-wind",
         "dream-catcher"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "宾邦",
+          "description": "每当你往牌组中增添卡牌时，都将额外添加一张相同的牌。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FAKE_BLOOD_VIAL",
@@ -3453,7 +5083,17 @@
         "darkstone-periapt",
         "daughter-of-the-wind",
         "dream-catcher"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "小血瓶？？？",
+          "description": "在每场战斗开始时，回复1点生命。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BONE_TEA",
@@ -3476,7 +5116,17 @@
         "darkstone-periapt",
         "daughter-of-the-wind",
         "dream-catcher"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "骨茶",
+          "description": "在你接下来的1场战斗开始时，升级你的初始手牌。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BYRDPIP",
@@ -3499,7 +5149,17 @@
         "darkstone-periapt",
         "daughter-of-the-wind",
         "dream-catcher"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "异鸟宝宝",
+          "description": "拾起时，获得一张异鸟扑击。一只幼年异鸟会在战斗中陪伴你。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DARKSTONE_PERIAPT",
@@ -3522,7 +5182,17 @@
         "byrdpip",
         "daughter-of-the-wind",
         "dream-catcher"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "黑石护符",
+          "description": "每当你获得一张诅咒，就将你的最大生命值提升6。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DAUGHTER_OF_THE_WIND",
@@ -3545,7 +5215,17 @@
         "byrdpip",
         "darkstone-periapt",
         "dream-catcher"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "风的女儿",
+          "description": "每当你打出一张攻击牌时，获得1点格挡。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DREAM_CATCHER",
@@ -3568,7 +5248,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "捕梦网",
+          "description": "每当你休息时，可以添加一张牌到你的牌组。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "EMBER_TEA",
@@ -3591,7 +5281,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "余烬茶",
+          "description": "在接下来的5场战斗开始时，获得2点力量。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FORGOTTEN_SOUL",
@@ -3614,7 +5314,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "遗忘之魂",
+          "description": "每当你消耗一张牌，随机对一名敌人造成1点伤害。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FRAGRANT_MUSHROOM",
@@ -3637,7 +5347,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "芳香蘑菇",
+          "description": "拾起时，失去15点生命，然后随机升级2张牌。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FRESNEL_LENS",
@@ -3660,7 +5380,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "菲涅耳透镜",
+          "description": "每当你将一张带有格挡的牌加入你的牌组时，为那张牌附魔：灵巧2",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "HAND_DRILL",
@@ -3683,7 +5413,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "手钻",
+          "description": "每当你突破敌人的格挡时，给予其2层易伤。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FAKE_HAPPY_FLOWER",
@@ -3706,7 +5446,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "开心小花？？？",
+          "description": "每5个回合，获得1 能量。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "HISTORY_COURSE",
@@ -3729,7 +5479,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "历史课",
+          "description": "在你的回合开始时，打出一张你上一回合最后打出的攻击牌或技能牌的复制品。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FAKE_LEES_WAFFLE",
@@ -3752,7 +5512,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "李家华夫饼？？？",
+          "description": "拾起时，回复你10%的生命值。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LOST_WISP",
@@ -3775,7 +5545,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "迷失鬼火",
+          "description": "你每打出一张能力牌，就对所有敌人造成8点伤害。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FAKE_MANGO",
@@ -3798,7 +5578,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "芒果？？？",
+          "description": "拾起时，将你的最大生命值提升3。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MAW_BANK",
@@ -3821,7 +5611,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "巨口储蓄罐",
+          "description": "每攀爬一层楼层，就获得12金币。一旦在商店中花费金币就会使其失效。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MR_STRUGGLES",
@@ -3844,7 +5644,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "抱抱先生",
+          "description": "在你的回合开始时，对所有敌人造成等量于当前回合数的伤害。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FAKE_ORICHALCUM",
@@ -3867,7 +5677,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "奥利哈钢？？？",
+          "description": "如果你在回合结束时没有任何格挡，获得3点格挡。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "POLLINOUS_CORE",
@@ -3890,7 +5710,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "花粉核心",
+          "description": "每4个回合，额外抽2张牌。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ROYAL_POISON",
@@ -3913,7 +5743,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "王室猛毒",
+          "description": "在每场战斗开始时，失去4点生命。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FAKE_SNECKO_EYE",
@@ -3936,7 +5776,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "异蛇之眼？？？",
+          "description": "每场战斗开始时获得混乱效果。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FAKE_STRIKE_DUMMY",
@@ -3959,7 +5809,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "打击木偶？？？",
+          "description": "名字中有“打击”的卡牌造成1点额外伤害。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SWORD_OF_JADE",
@@ -3982,7 +5842,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "玉之剑",
+          "description": "在每场战斗开始时，获得3点力量。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SWORD_OF_STONE",
@@ -4005,7 +5875,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "石之剑",
+          "description": "在击败5名精英敌人之后将变化为一件强力遗物。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TEA_OF_DISCOURTESY",
@@ -4028,7 +5908,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "无礼之茶",
+          "description": "在下一场战斗开始时，将2张晕眩放入你的抽牌堆。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "THE_BOOT",
@@ -4051,7 +5941,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "发条靴",
+          "description": "每当你造成小于等于4点未被格挡的攻击伤害时，将伤害提升为5。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CHOSEN_CHEESE",
@@ -4074,7 +5974,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "天选芝士",
+          "description": "在战斗结束时，获得1点最大生命值。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FAKE_MERCHANTS_RUG",
@@ -4097,7 +6007,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "商人的地毯？？？",
+          "description": "低劣的仿制品。没有任何作用。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FAKE_VENERABLE_TEA_SET",
@@ -4120,7 +6040,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "古茶具套装？？？",
+          "description": "到达休息处后的下一场战斗开始时额外获得1 能量。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "WONGO_CUSTOMER_APPRECIATION_BADGE",
@@ -4143,7 +6073,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "旺购客户感恩徽章",
+          "description": "没有任何作用。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "WONGOS_MYSTERY_TICKET",
@@ -4166,7 +6106,17 @@
         "byrdpip",
         "darkstone-periapt",
         "daughter-of-the-wind"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "旺购神秘券",
+          "description": "在5场战斗后，获得随机3件遗物。",
+          "rarity": "事件遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ALCHEMICAL_COFFER",
@@ -4189,7 +6139,17 @@
         "black-star",
         "blessed-antler",
         "blood-soaked-rose"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "炼金箱",
+          "description": "拾起时，获得4个放有随机药水的药水栏位。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ARCANE_SCROLL",
@@ -4212,7 +6172,17 @@
         "black-star",
         "blessed-antler",
         "blood-soaked-rose"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "奥术卷轴",
+          "description": "拾起时，将一张随机稀有牌加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ARCHAIC_TOOTH",
@@ -4235,7 +6205,17 @@
         "black-star",
         "blessed-antler",
         "blood-soaked-rose"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "古老牙齿",
+          "description": "拾起时，将一张初始卡牌变化为先古版本。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ASTROLABE",
@@ -4258,7 +6238,17 @@
         "black-star",
         "blessed-antler",
         "blood-soaked-rose"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "星盘",
+          "description": "拾起时，选择3张牌进行变化，然后将这些牌升级。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BEAUTIFUL_BRACELET",
@@ -4281,7 +6271,17 @@
         "black-star",
         "blessed-antler",
         "blood-soaked-rose"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "华美手镯",
+          "description": "拾起时，从你的牌组中选择3张牌，附魔：迅捷3。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BIIIG_HUG",
@@ -4304,7 +6304,17 @@
         "black-star",
         "blessed-antler",
         "blood-soaked-rose"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "大～抱抱",
+          "description": "拾起时，从你的牌组中移除4张牌。每当你的抽牌堆打乱洗牌时，将一张煤灰加入你的抽牌堆。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BLACK_STAR",
@@ -4327,7 +6337,17 @@
         "biiig-hug",
         "blessed-antler",
         "blood-soaked-rose"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "黑星",
+          "description": "精英敌人在被打败时多掉落一件遗物。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BLESSED_ANTLER",
@@ -4350,7 +6370,17 @@
         "biiig-hug",
         "black-star",
         "blood-soaked-rose"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "赐福鹿角",
+          "description": "在每回合开始时获得1 能量。在战斗开始时，将3张晕眩放入你的抽牌堆。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BLOOD_SOAKED_ROSE",
@@ -4373,7 +6403,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "血染玫瑰",
+          "description": "拾起时，将1张执迷加入你的牌组。在回合开始时获得1 能量。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BOOMING_CONCH",
@@ -4396,7 +6436,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "轰鸣海螺",
+          "description": "在精英战的战斗开始时，额外抽2张牌并获得1 能量。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "BRILLIANT_SCARF",
@@ -4419,7 +6469,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "艳丽围巾",
+          "description": "你每回合从你的手牌打出的第5张牌可以被免费打出。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CALLING_BELL",
@@ -4442,7 +6502,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "召唤铃铛",
+          "description": "拾起时，获得一个独特的诅咒和3件遗物。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CHOICES_PARADOX",
@@ -4465,7 +6535,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "选择悖论",
+          "description": "在每场战斗开始时，从5张随机牌中选择1张放入你的手牌。被选中的牌获得保留。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CLAWS",
@@ -4488,7 +6568,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "利爪",
+          "description": "拾起时，将至多6张牌变化为撕咬。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CROSSBOW",
@@ -4511,7 +6601,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "十字弓",
+          "description": "在你的回合开始时，将一张随机攻击牌加入你的手牌。这张牌在本回合可以免费打出。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CURSED_PEARL",
@@ -4534,7 +6634,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "诅咒珍珠",
+          "description": "拾起时，获得一张贪婪，获得333金币。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DELICATE_FROND",
@@ -4557,7 +6667,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "娇嫩蕨草",
+          "description": "在每场战斗开始时，用随机药水将你的空药水栏位填满。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DIAMOND_DIADEM",
@@ -4580,7 +6700,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "钻石头冠",
+          "description": "如果你在本回合打出的牌少于等于2张，则受到敌人的伤害减半。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DISTINGUISHED_CAPE",
@@ -4603,7 +6733,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "卓越斗篷",
+          "description": "拾起时，失去9点最大生命值。将3张灵体加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DRIFTWOOD",
@@ -4626,7 +6766,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "浮木",
+          "description": "你可以在每一个卡牌奖励中重掷一次。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "DUSTY_TOME",
@@ -4649,7 +6799,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "尘封魔典",
+          "description": "拾起时，获得一张先古牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ECTOPLASM",
@@ -4672,7 +6832,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "灵体外质",
+          "description": "你不能再获得任何金币。在回合开始时获得1 能量",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "ELECTRIC_SHRYMP",
@@ -4695,7 +6865,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "放电异虾",
+          "description": "拾起时，选择一张技能牌为它附魔：注能。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "EMPTY_CAGE",
@@ -4718,7 +6898,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "空鸟笼",
+          "description": "拾起时，选择移除牌组中的2张牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FIDDLE",
@@ -4741,7 +6931,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "小提琴",
+          "description": "在每个回合开始时，额外抽2张牌。你在回合进行中不再能抽任何牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FISHING_ROD",
@@ -4764,7 +6964,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "钓鱼竿",
+          "description": "每3场普通战斗，随机升级你牌组中的一张牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "FUR_COAT",
@@ -4787,7 +6997,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "皮草大衣",
+          "description": "拾起时，随机标记7处战斗。这些战斗中的敌人将只有1点生命。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GLASS_EYE",
@@ -4810,7 +7030,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "玻璃眼珠",
+          "description": "拾起时，获得2组普通、2组罕见、和1组稀有卡牌奖励。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GLITTER",
@@ -4833,7 +7063,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "亮片",
+          "description": "为之后的所有卡牌奖励附魔：华彩。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GOLDEN_COMPASS",
@@ -4856,7 +7096,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "黄金罗盘",
+          "description": "拾起时，将第2阶段的地图替换为一条特殊的直道。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "GOLDEN_PEARL",
@@ -4879,7 +7129,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "金色珍珠",
+          "description": "拾起时，获得150金币。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "HEFTY_TABLET",
@@ -4902,7 +7162,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "沉重石板",
+          "description": "拾起时，从3张稀有牌中选择1张加入你的牌组，同时将1张受伤加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "IRON_CLUB",
@@ -4925,7 +7195,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "铁棒",
+          "description": "你每打出4张牌，就抽1张牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "JEWELED_MASK",
@@ -4948,7 +7228,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "宝石面具",
+          "description": "在每场战斗开始时，将一张随机能力牌从你的抽牌堆放入你的手牌，这张牌在本场战斗可以免费打出。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "JEWELRY_BOX",
@@ -4971,7 +7261,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "珠宝盒",
+          "description": "拾起时，将1张神化加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "KALEIDOSCOPE",
@@ -4994,7 +7294,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "万花筒",
+          "description": "拾起时，获得2次来自其他角色的卡牌奖励。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LARGE_CAPSULE",
@@ -5017,7 +7327,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "巨大扭蛋",
+          "description": "拾起时，获得2件随机遗物。额外将一对打击和防御，加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LAVA_ROCK",
@@ -5040,7 +7360,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "熔岩石",
+          "description": "第一阶段的Boss敌人额外掉落2件遗物。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LEAD_PAPERWEIGHT",
@@ -5063,7 +7393,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "铅制镇纸",
+          "description": "拾起时，从2张无色牌中选择1张加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LEAFY_POULTICE",
@@ -5086,7 +7426,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "树叶药膏",
+          "description": "拾起时，变化你的1张打击和1张防御，然后失去12点最大生命。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LOOMING_FRUIT",
@@ -5112,7 +7462,20 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "布质果实",
+          "description": "拾起时，将你的最大生命值提升31。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": [
+            "Looming Fruit ships two icons (Cornucopia and Fruit). The game picks one per save based on whether your save's UniqueId ends in an even or odd digit, so half the playerbase sees each variant.",
+            "Both variants are functionally identical — same +31 Max HP effect — and the choice is permanent for a given save file. Use the toggle above to preview the one your save shows."
+          ]
+        }
+      }
     },
     {
       "id": "LORDS_PARASOL",
@@ -5135,7 +7498,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "领主阳伞",
+          "description": "当你遇见商人时，立刻获得他所出售的所有物品。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "LOST_COFFER",
@@ -5158,7 +7531,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "失物盒",
+          "description": "拾起时，获得1次卡牌奖励和1瓶随机药水。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MASSIVE_SCROLL",
@@ -5181,7 +7564,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "巨大卷轴",
+          "description": "拾起时，从3张多人游戏牌中选择1张加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MEAT_CLEAVER",
@@ -5204,7 +7597,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "切肉刀",
+          "description": "你可以在休息处进行烹饪。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "MUSIC_BOX",
@@ -5227,7 +7630,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "音乐盒",
+          "description": "将你每回合打出的第一张攻击牌的一张虚无复制品加入你的手牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "NEOWS_BONES",
@@ -5250,7 +7663,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "涅奥骨骰",
+          "description": "拾起时，获得2件随机涅奥遗物。将1张随机诅咒加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "NEOWS_TALISMAN",
@@ -5273,7 +7696,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "涅奥的护符",
+          "description": "拾起时，升级你的1张打击和1张防御。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "NEOWS_TORMENT",
@@ -5296,7 +7729,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "涅奥的苦痛",
+          "description": "拾起时，将1张涅奥之怒加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "NEW_LEAF",
@@ -5319,7 +7762,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "新叶",
+          "description": "拾起时，变化1张牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "NUTRITIOUS_OYSTER",
@@ -5342,7 +7795,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "营养牡蛎",
+          "description": "拾起时，将你的最大生命值提升11。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "NUTRITIOUS_SOUP",
@@ -5365,7 +7828,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "营养汤",
+          "description": "拾起时，为你牌组中的所有“打击”附魔：特兹卡塔拉的余烬",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PAELS_BLOOD",
@@ -5388,7 +7861,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "佩尔之血",
+          "description": "在你的回合开始时，额外抽1张牌",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PAELS_CLAW",
@@ -5411,7 +7894,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "佩尔之爪",
+          "description": "拾起时，为所有的“防御”附魔：黏糊。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PAELS_EYE",
@@ -5434,7 +7927,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "佩尔之眼",
+          "description": "你在每场战斗中第一次没有打出任何牌就结束回合时，消耗所有手牌然后进行一个额外回合。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PAELS_FLESH",
@@ -5457,7 +7960,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "佩尔之肉",
+          "description": "从你的第3回合开始，在回合开始时额外获得1 能量。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PAELS_GROWTH",
@@ -5480,7 +7993,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "佩尔的增生组织",
+          "description": "拾起时，从牌组中选择一张牌，为其附魔：克隆。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PAELS_HORN",
@@ -5503,7 +8026,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "佩尔之角",
+          "description": "拾起时，将2张放松加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PAELS_LEGION",
@@ -5526,7 +8059,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "佩尔的士兵",
+          "description": "将你从一张卡牌中获得的格挡翻倍，然后此遗物会休眠2回合。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PAELS_TEARS",
@@ -5549,7 +8092,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "佩尔之泪",
+          "description": "如果你在拥有未花费的1 能量情况下结束回合，则下个回合额外获得2 能量。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PAELS_TOOTH",
@@ -5572,7 +8125,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "佩尔之牙",
+          "description": "拾起时，从你的牌组中选择5张牌移除。在每场战斗结束时，将其中随机1张牌升级然后返还。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PAELS_WING",
@@ -5595,7 +8158,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "佩尔之翼",
+          "description": "你可以将你的卡牌奖励献祭给佩尔。每献祭2次，就能获得一件遗物。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PANDORAS_BOX",
@@ -5618,7 +8191,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "潘多拉魔盒",
+          "description": "变化所有“打击”和“防御”。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PHIAL_HOLSTER",
@@ -5641,7 +8224,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "药瓶皮套",
+          "description": "拾起时，获得1个药水栏位并获得2瓶随机药水。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PHILOSOPHERS_STONE",
@@ -5664,7 +8257,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "贤者之石",
+          "description": "在每回合开始时获得1 能量。所有敌人初始获得1点力量。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "POMANDER",
@@ -5687,7 +8290,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "橙型香盒",
+          "description": "拾起时，升级一张牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PRECARIOUS_SHEARS",
@@ -5710,7 +8323,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "松动羊毛剪",
+          "description": "拾起时，从你的牌组中移除2张牌并失去16点生命。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PRECISE_SCISSORS",
@@ -5733,7 +8356,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "精准剪刀",
+          "description": "拾起时，从你的牌组中移除1张牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PRESERVED_FOG",
@@ -5756,7 +8389,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "腌制活雾",
+          "description": "拾起时，从你的牌组中移除3张牌。将一张愚行加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PRISMATIC_GEM",
@@ -5779,7 +8422,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "棱彩宝石",
+          "description": "在每个回合开始时获得1 能量。卡牌奖励现在会包含其他颜色的卡牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "PUMPKIN_CANDLE",
@@ -5802,7 +8455,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "南瓜蜡烛",
+          "description": "在每个回合开始时获得1 能量。这件遗物会在5场战斗后熄灭。可以在休息处为其添火。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "RADIANT_PEARL",
@@ -5825,7 +8488,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "发光珍珠",
+          "description": "在每场战斗开始时，将1张冷光加入你的手牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "RUNIC_PYRAMID",
@@ -5848,7 +8521,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "符文金字塔",
+          "description": "你在回合结束时不再自动丢弃所有手牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SAI",
@@ -5871,7 +8554,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "钗",
+          "description": "在你的回合开始时，获得7点格挡。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SAND_CASTLE",
@@ -5894,7 +8587,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "沙堡",
+          "description": "拾起时，随机升级6张牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SCROLL_BOXES",
@@ -5917,7 +8620,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "卷轴箱",
+          "description": "拾起时，从2个卡牌包中选择1包加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SEA_GLASS",
@@ -5940,7 +8653,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "海玻璃",
+          "description": "查看15张来自其他角色的牌。从中选择任意数量的卡牌加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SEAL_OF_GOLD",
@@ -5963,7 +8686,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "黄金印",
+          "description": "在你的回合开始时，花费5金币来获得1 能量。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SERE_TALON",
@@ -5986,7 +8719,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "原初之爪",
+          "description": "拾起时，将2张随机诅咒牌和3张许愿加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SIGNET_RING",
@@ -6009,7 +8752,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "图章戒指",
+          "description": "拾起时，获得999金币。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SILKEN_TRESS",
@@ -6032,7 +8785,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "华美发束",
+          "description": "拾起时，失去所有金币。为第一次卡牌奖励中的所有牌附魔：华彩。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SILVER_CRUCIBLE",
@@ -6055,7 +8818,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "白银熔炉",
+          "description": "你遇到的前3次卡牌奖励将是被升级过的。你打开的第一个宝箱将是空的",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SMALL_CAPSULE",
@@ -6078,7 +8851,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "小型扭蛋",
+          "description": "拾起时，获得一件随机遗物。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SNECKO_EYE",
@@ -6101,7 +8884,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "异蛇之眼",
+          "description": "每回合多抽2张牌。每场战斗开始时获得混乱效果。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SOZU",
@@ -6124,7 +8917,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "添水",
+          "description": "你无法再获得药水。在每回合开始时获得1 能量。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "SPIKED_GAUNTLETS",
@@ -6147,7 +8950,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "带刺手甲",
+          "description": "在每回合开始时获得1 能量。能力牌的耗能增加11 能量。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "STONE_HUMIDIFIER",
@@ -6170,7 +8983,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "石炉加湿器",
+          "description": "每当你在休息处休息时，将你的最大生命值提升5点。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "STORYBOOK",
@@ -6193,7 +9016,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "故事书",
+          "description": "拾起时，将1张至亮之焰添加到你的牌组中。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TANXS_WHISTLE",
@@ -6216,7 +9049,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "坦克斯的哨子",
+          "description": "拾起时，将1张吹哨加入你的牌组。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "THROWING_AXE",
@@ -6239,7 +9082,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "投斧",
+          "description": "你在每场战斗中打出的第一张牌会多打出一次。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TOASTY_MITTENS",
@@ -6262,7 +9115,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "烘焙手套",
+          "description": "在你的回合开始时，消耗你抽牌堆顶部的牌并获得1点力量。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TOUCH_OF_OROBAS",
@@ -6285,7 +9148,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "欧洛巴斯之触",
+          "description": "拾起时，将你的初始遗物替换为先古版本。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "TOY_BOX",
@@ -6312,7 +9185,21 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "玩具盒",
+          "description": "拾起时，获得4件蜡制遗物。每经过3场战斗，你最左侧的蜡制遗物将会融化。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": [
+            "Wax Relics are pulled from the normal relic pool — any non-Ancient relic can be waxed.",
+            "Wax Relic rarity: 50% Common, 33% Uncommon, 17% Rare (standard relic rarity roll).",
+            "All wax relics melt after 12 total combats, then Toy Box is used up."
+          ]
+        }
+      }
     },
     {
       "id": "TRI_BOOMERANG",
@@ -6335,7 +9222,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "三刃回旋镖",
+          "description": "从你的牌组中选择3张攻击牌。为这些牌附魔：本能。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "VELVET_CHOKER",
@@ -6358,7 +9255,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "天鹅绒颈圈",
+          "description": "在每回合开始时获得1 能量。你每回合不能打出超过6张牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "VERY_HOT_COCOA",
@@ -6381,7 +9288,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "烫嘴可可",
+          "description": "在每场战斗的第一回合额外获得4 能量。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "WAR_HAMMER",
@@ -6404,7 +9321,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "战锤",
+          "description": "每当你击败一名精英敌人的时候，随机升级4张牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "WHISPERING_EARRING",
@@ -6427,7 +9354,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "低语耳环",
+          "description": "在每个回合开始时，获得1 能量。瓦库将接管你的第一回合。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "WINGED_BOOTS",
@@ -6450,7 +9387,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "羽翼之靴",
+          "description": "你在选择下一层的房间时有3次机会可以无视当前的路线。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "YUMMY_COOKIE",
@@ -6473,7 +9420,17 @@
         "biiig-hug",
         "black-star",
         "blessed-antler"
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "美味饼干",
+          "description": "拾起时，升级4张牌。",
+          "rarity": "先古遗物",
+          "pool": "通用",
+          "flavor": "这个遗物的细节将在未来揭晓……",
+          "notes": []
+        }
+      }
     },
     {
       "id": "CIRCLET",
@@ -6487,7 +9444,17 @@
       "flavor": "A curious relic which appears when there's a problem within the Spire or there are no more relics to discover.",
       "notes": [],
       "image": "/media/relics/circlet.webp",
-      "related": []
+      "related": [],
+      "translations": {
+        "zhHans": {
+          "name": "头环",
+          "description": "这是一个头环。",
+          "rarity": "遗物",
+          "pool": "通用",
+          "flavor": "一件有趣的遗物，只有当高塔中出现问题，或没有更多遗物可被发现时才会出现。",
+          "notes": []
+        }
+      }
     }
   ]
 }

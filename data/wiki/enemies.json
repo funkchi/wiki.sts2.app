@@ -47,7 +47,48 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Ebb: Attack + Defend (26 (Asc 32) dmg, 33 block); Eye Lasers: Attack (11 (Asc 12) dmg); Increasing Intensity: Status + Buff",
-      "image": "/media/enemies/aeonglass.webp"
+      "image": "/media/enemies/aeonglass.webp",
+      "translations": {
+        "zhHans": {
+          "name": "永世沙漏",
+          "type": "Boss",
+          "pattern": "消退 → 眼部激光 → 加大力度 → repeat",
+          "moves": [
+            {
+              "name": "消退",
+              "intent": "Attack + Defend",
+              "damage": "26 (Asc 32) damage",
+              "block": "33 block",
+              "heal": ""
+            },
+            {
+              "name": "眼部激光",
+              "intent": "Attack",
+              "damage": "11 (Asc 12) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "加大力度",
+              "intent": "Status + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "永世沙漏",
+              "roomType": "Boss",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "永世沙漏"
+          ],
+          "movesSummary": "消退: Attack + Defend (26 (Asc 32) dmg, 33 block); 眼部激光: Attack (11 (Asc 12) dmg); 加大力度: Status + Buff"
+        }
+      }
     },
     {
       "id": "CEREMONIAL_BEAST",
@@ -114,7 +155,69 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Stamp: Buff; Plow: Attack + Buff (18 (Asc 20) dmg); Stun: Stun; +3 more",
-      "image": "/media/enemies/ceremonial-beast.webp"
+      "image": "/media/enemies/ceremonial-beast.webp",
+      "translations": {
+        "zhHans": {
+          "name": "仪式兽",
+          "type": "Boss",
+          "pattern": "跺地 → 横冲直撞 → repeat",
+          "moves": [
+            {
+              "name": "跺地",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "横冲直撞",
+              "intent": "Attack + Buff",
+              "damage": "18 (Asc 20) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Stun",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "野兽咆哮",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "踩踏",
+              "intent": "Attack",
+              "damage": "15 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "碾碎",
+              "intent": "Attack + Buff",
+              "damage": "17 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "仪式兽",
+              "roomType": "Boss",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "仪式兽"
+          ],
+          "movesSummary": "跺地: Buff; 横冲直撞: Attack + Buff (18 (Asc 20) dmg); Stun: Stun; +3 more"
+        }
+      }
     },
     {
       "id": "CRUSHER",
@@ -174,7 +277,62 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Thrash: Attack (12 (Asc 14) dmg); Enlarging Strike: Attack (4 dmg); Bug Sting: Attack + Debuff (6x2 (Asc 7x2) dmg); +2 more",
-      "image": "/media/enemies/crusher.webp"
+      "image": "/media/enemies/crusher.webp",
+      "translations": {
+        "zhHans": {
+          "name": "碾碎爪",
+          "type": "Boss",
+          "pattern": "撕扯 → 巨化打击 → 虫蛰 → 适应 → 戒备打击 → repeat",
+          "moves": [
+            {
+              "name": "撕扯",
+              "intent": "Attack",
+              "damage": "12 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "巨化打击",
+              "intent": "Attack",
+              "damage": "4 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "虫蛰",
+              "intent": "Attack + Debuff",
+              "damage": "6x2 (Asc 7x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "适应",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "戒备打击",
+              "intent": "Attack + Defend",
+              "damage": "12 (Asc 14) damage",
+              "block": "18 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "帝皇蟹",
+              "roomType": "Boss",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "帝皇蟹"
+          ],
+          "movesSummary": "撕扯: Attack (12 (Asc 14) dmg); 巨化打击: Attack (4 dmg); 虫蛰: Attack + Debuff (6x2 (Asc 7x2) dmg); +2 more"
+        }
+      }
     },
     {
       "id": "KIN_FOLLOWER",
@@ -220,7 +378,48 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Quick Slash: Attack (5 dmg); Boomerang: Attack (2x2 dmg); Power Dance: Buff",
-      "image": "/media/enemies/kin-follower.webp"
+      "image": "/media/enemies/kin-follower.webp",
+      "translations": {
+        "zhHans": {
+          "name": "同族信徒",
+          "type": "Boss",
+          "pattern": "力量之舞 → 快斩 → 回旋镖 → repeat",
+          "moves": [
+            {
+              "name": "快斩",
+              "intent": "Attack",
+              "damage": "5 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "回旋镖",
+              "intent": "Attack",
+              "damage": "2x2 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "力量之舞",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "同族小队",
+              "roomType": "Boss",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "同族小队"
+          ],
+          "movesSummary": "快斩: Attack (5 dmg); 回旋镖: Attack (2x2 dmg); 力量之舞: Buff"
+        }
+      }
     },
     {
       "id": "KIN_PRIEST",
@@ -273,7 +472,55 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Orb of Frailty: Attack + Debuff (8 (Asc 9) dmg); Orb of Weakness: Attack + Debuff (8 (Asc 9) dmg); Soul Beam: Attack (3x3 dmg); +1 more",
-      "image": "/media/enemies/kin-priest.webp"
+      "image": "/media/enemies/kin-priest.webp",
+      "translations": {
+        "zhHans": {
+          "name": "同族神官",
+          "type": "Boss",
+          "pattern": "脆弱法球 → 虚弱法球 → 灵魂光束 → 黑暗仪式 → repeat",
+          "moves": [
+            {
+              "name": "脆弱法球",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "虚弱法球",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "灵魂光束",
+              "intent": "Attack",
+              "damage": "3x3 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "黑暗仪式",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "同族小队",
+              "roomType": "Boss",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "同族小队"
+          ],
+          "movesSummary": "脆弱法球: Attack + Debuff (8 (Asc 9) dmg); 虚弱法球: Attack + Debuff (8 (Asc 9) dmg); 灵魂光束: Attack (3x3 dmg); +1 more"
+        }
+      }
     },
     {
       "id": "KNOWLEDGE_DEMON",
@@ -326,7 +573,55 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Curse of Knowledge: Debuff; Slap: Attack (17 (Asc 18) dmg); Knowledge Overwhelming: Attack (8x3 (Asc 9x3) dmg); +1 more",
-      "image": "/media/enemies/knowledge-demon.webp"
+      "image": "/media/enemies/knowledge-demon.webp",
+      "translations": {
+        "zhHans": {
+          "name": "知识恶魔",
+          "type": "Boss",
+          "pattern": "Starts: 知识的诅咒 → 抽打 → 知识过载 → 思考; then conditional: 知识的诅咒 (if curse of knowledge counter = 3)",
+          "moves": [
+            {
+              "name": "知识的诅咒",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "抽打",
+              "intent": "Attack",
+              "damage": "17 (Asc 18) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "知识过载",
+              "intent": "Attack",
+              "damage": "8x3 (Asc 9x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "思考",
+              "intent": "Attack + Heal + Buff",
+              "damage": "11 (Asc 13) damage",
+              "block": "",
+              "heal": "30 heal"
+            }
+          ],
+          "encounters": [
+            {
+              "name": "知识恶魔",
+              "roomType": "Boss",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "知识恶魔"
+          ],
+          "movesSummary": "知识的诅咒: Debuff; 抽打: Attack (17 (Asc 18) dmg); 知识过载: Attack (8x3 (Asc 9x3) dmg); +1 more"
+        }
+      }
     },
     {
       "id": "LAGAVULIN_MATRIARCH",
@@ -386,7 +681,62 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Sleep: Sleep; Slash: Attack (19 (Asc 21) dmg); Slash2: Attack + Defend (12 (Asc 14) dmg, 12 block); +2 more",
-      "image": "/media/enemies/lagavulin-matriarch.webp"
+      "image": "/media/enemies/lagavulin-matriarch.webp",
+      "translations": {
+        "zhHans": {
+          "name": "乐加维林族母",
+          "type": "Boss",
+          "pattern": "Starts with 沉睡",
+          "moves": [
+            {
+              "name": "沉睡",
+              "intent": "Sleep",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "斩击",
+              "intent": "Attack",
+              "damage": "19 (Asc 21) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Slash2",
+              "intent": "Attack + Defend",
+              "damage": "12 (Asc 14) damage",
+              "block": "12 block",
+              "heal": ""
+            },
+            {
+              "name": "开膛破肚",
+              "intent": "Attack",
+              "damage": "9x2 (Asc 10x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "灵魂汲取",
+              "intent": "Debuff + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "乐加维林族母",
+              "roomType": "Boss",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "乐加维林族母"
+          ],
+          "movesSummary": "沉睡: Sleep; 斩击: Attack (19 (Asc 21) dmg); Slash2: Attack + Defend (12 (Asc 14) dmg, 12 block); +2 more"
+        }
+      }
     },
     {
       "id": "QUEEN",
@@ -453,7 +803,69 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Puppet Strings: Debuff; You Are Mine: Debuff; Burn Bright for Me: Buff + Defend (20 block); +3 more",
-      "image": "/media/enemies/queen.webp"
+      "image": "/media/enemies/queen.webp",
+      "translations": {
+        "zhHans": {
+          "name": "女王",
+          "type": "Boss",
+          "pattern": "Starts: Puppet Strings → 你是我的了; then conditional: 为我尽力燃烧吧 (if does not have amalgam died) / 将头砍下 (if has amalgam died); then conditional: 为我尽力燃烧吧 (if does not have amalgam died) / 将头砍下 (if has amalgam died)",
+          "moves": [
+            {
+              "name": "Puppet Strings",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "你是我的了",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "为我尽力燃烧吧",
+              "intent": "Buff + Defend",
+              "damage": "",
+              "block": "20 block",
+              "heal": ""
+            },
+            {
+              "name": "将头砍下",
+              "intent": "Attack",
+              "damage": "3x5 (Asc 4x5) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "处决",
+              "intent": "Attack",
+              "damage": "15 (Asc 18) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Enrage",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "女王",
+              "roomType": "Boss",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "女王"
+          ],
+          "movesSummary": "Puppet Strings: Debuff; 你是我的了: Debuff; 为我尽力燃烧吧: Buff + Defend (20 block); +3 more"
+        }
+      }
     },
     {
       "id": "ROCKET",
@@ -513,7 +925,62 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Targeting Reticle: Attack (3 (Asc 4) dmg); Precision Beam: Attack (18 (Asc 20) dmg); Charge Up: Buff; +2 more",
-      "image": "/media/enemies/rocket.webp"
+      "image": "/media/enemies/rocket.webp",
+      "translations": {
+        "zhHans": {
+          "name": "火箭",
+          "type": "Boss",
+          "pattern": "瞄准十字 → 精准光束 → 蓄能 → 激光 → 重新充能 → repeat",
+          "moves": [
+            {
+              "name": "瞄准十字",
+              "intent": "Attack",
+              "damage": "3 (Asc 4) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "精准光束",
+              "intent": "Attack",
+              "damage": "18 (Asc 20) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "蓄能",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "激光",
+              "intent": "Attack",
+              "damage": "31 (Asc 35) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "重新充能",
+              "intent": "Sleep",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "帝皇蟹",
+              "roomType": "Boss",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "帝皇蟹"
+          ],
+          "movesSummary": "瞄准十字: Attack (3 (Asc 4) dmg); 精准光束: Attack (18 (Asc 20) dmg); 蓄能: Buff; +2 more"
+        }
+      }
     },
     {
       "id": "SOUL_FYSH",
@@ -573,7 +1040,62 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Beckon: Status; De-Gas: Attack (16 (Asc 17) dmg); Gaze: Attack + Status (7 (Asc 8) dmg); +2 more",
-      "image": "/media/enemies/soul-fysh.webp"
+      "image": "/media/enemies/soul-fysh.webp",
+      "translations": {
+        "zhHans": {
+          "name": "灵魂异鱼",
+          "type": "Boss",
+          "pattern": "呼唤 → 排气 → 凝视 → 消逝 → 尖叫 → repeat",
+          "moves": [
+            {
+              "name": "呼唤",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "排气",
+              "intent": "Attack",
+              "damage": "16 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "凝视",
+              "intent": "Attack + Status",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "消逝",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "尖叫",
+              "intent": "Attack + Debuff",
+              "damage": "13 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "灵魂异鱼",
+              "roomType": "Boss",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "灵魂异鱼"
+          ],
+          "movesSummary": "呼唤: Status; 排气: Attack (16 (Asc 17) dmg); 凝视: Attack + Status (7 (Asc 8) dmg); +2 more"
+        }
+      }
     },
     {
       "id": "TEST_SUBJECT",
@@ -647,7 +1169,76 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Respawn: Heal + Buff; Bite: Attack (20 (Asc 22) dmg); Skull Bash: Attack + Debuff (14 (Asc 16) dmg); +4 more",
-      "image": "/media/enemies/test-subject.webp"
+      "image": "/media/enemies/test-subject.webp",
+      "translations": {
+        "zhHans": {
+          "name": "实验体 #C14",
+          "type": "Boss",
+          "pattern": "Starts: 噬咬 → 颅骨重击; then conditional: 多次爪击 (if respawns = 2)",
+          "moves": [
+            {
+              "name": "重生",
+              "intent": "Heal + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "噬咬",
+              "intent": "Attack",
+              "damage": "20 (Asc 22) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "颅骨重击",
+              "intent": "Attack + Debuff",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "多次爪击",
+              "intent": "Attack",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "撕碎",
+              "intent": "Attack",
+              "damage": "10x3 (Asc 11x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "大力猛扑",
+              "intent": "Attack",
+              "damage": "45 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "燃烧之吼",
+              "intent": "Status + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "实验体",
+              "roomType": "Boss",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "实验体"
+          ],
+          "movesSummary": "重生: Heal + Buff; 噬咬: Attack (20 (Asc 22) dmg); 颅骨重击: Attack + Debuff (14 (Asc 16) dmg); +4 more"
+        }
+      }
     },
     {
       "id": "THE_INSATIABLE",
@@ -707,7 +1298,62 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Liquify Ground: Buff + Status; Thrash: Attack (8x2 (Asc 9x2) dmg); Thrash Move 2: Attack (8x2 (Asc 9x2) dmg); +2 more",
-      "image": "/media/enemies/the-insatiable.webp"
+      "image": "/media/enemies/the-insatiable.webp",
+      "translations": {
+        "zhHans": {
+          "name": "无厌沙虫",
+          "type": "Boss",
+          "pattern": "液化地面 → 撕扯 → 前扑啃咬 → 分泌唾液 → Thrash Move 2 → repeat",
+          "moves": [
+            {
+              "name": "液化地面",
+              "intent": "Buff + Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "撕扯",
+              "intent": "Attack",
+              "damage": "8x2 (Asc 9x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Thrash Move 2",
+              "intent": "Attack",
+              "damage": "8x2 (Asc 9x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "前扑啃咬",
+              "intent": "Attack",
+              "damage": "28 (Asc 31) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "分泌唾液",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "无厌沙虫",
+              "roomType": "Boss",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "无厌沙虫"
+          ],
+          "movesSummary": "液化地面: Buff + Status; 撕扯: Attack (8x2 (Asc 9x2) dmg); Thrash Move 2: Attack (8x2 (Asc 9x2) dmg); +2 more"
+        }
+      }
     },
     {
       "id": "TORCH_HEAD_AMALGAM",
@@ -767,7 +1413,62 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Tackle: Attack (18 (Asc 19) dmg); Tackle 2: Attack (18 (Asc 19) dmg); Beam: Attack (8x3 dmg); +2 more",
-      "image": "/media/enemies/torch-head-amalgam.webp"
+      "image": "/media/enemies/torch-head-amalgam.webp",
+      "translations": {
+        "zhHans": {
+          "name": "火炬头聚合体",
+          "type": "Boss",
+          "pattern": "冲撞 → Tackle 2 → 光束 → Tackle 3 → Tackle 4 → repeat",
+          "moves": [
+            {
+              "name": "冲撞",
+              "intent": "Attack",
+              "damage": "18 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Tackle 2",
+              "intent": "Attack",
+              "damage": "18 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "光束",
+              "intent": "Attack",
+              "damage": "8x3 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Tackle 3",
+              "intent": "Attack",
+              "damage": "14 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Tackle 4",
+              "intent": "Attack",
+              "damage": "14 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "女王",
+              "roomType": "Boss",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "女王"
+          ],
+          "movesSummary": "冲撞: Attack (18 (Asc 19) dmg); Tackle 2: Attack (18 (Asc 19) dmg); 光束: Attack (8x3 dmg); +2 more"
+        }
+      }
     },
     {
       "id": "VANTOM",
@@ -820,7 +1521,55 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Ink Blot: Attack (7 (Asc 8) dmg); Inky Lance: Attack (6x2 (Asc 7x2) dmg); Dismember: Attack + Status (26 (Asc 30) dmg); +1 more",
-      "image": "/media/enemies/vantom.webp"
+      "image": "/media/enemies/vantom.webp",
+      "translations": {
+        "zhHans": {
+          "name": "墨影幻灵",
+          "type": "Boss",
+          "pattern": "墨迹 → 墨水长枪 → 肢解 → 准备 → repeat",
+          "moves": [
+            {
+              "name": "墨迹",
+              "intent": "Attack",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "墨水长枪",
+              "intent": "Attack",
+              "damage": "6x2 (Asc 7x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "肢解",
+              "intent": "Attack + Status",
+              "damage": "26 (Asc 30) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "准备",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "墨影幻灵",
+              "roomType": "Boss",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "墨影幻灵"
+          ],
+          "movesSummary": "墨迹: Attack (7 (Asc 8) dmg); 墨水长枪: Attack (6x2 (Asc 7x2) dmg); 肢解: Attack + Status (26 (Asc 30) dmg); +1 more"
+        }
+      }
     },
     {
       "id": "WATERFALL_GIANT",
@@ -901,7 +1650,83 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Pressurize: Buff; Stomp: Attack + Debuff + Buff (15 (Asc 16) dmg); Ram: Attack + Buff (10 (Asc 11) dmg); +5 more",
-      "image": "/media/enemies/waterfall-giant.webp"
+      "image": "/media/enemies/waterfall-giant.webp",
+      "translations": {
+        "zhHans": {
+          "name": "瀑布巨兽",
+          "type": "Boss",
+          "pattern": "增压 → 践踏 → 撞击 → 虹吸 → 压力炮 → 增压 → repeat",
+          "moves": [
+            {
+              "name": "增压",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "践踏",
+              "intent": "Attack + Debuff + Buff",
+              "damage": "15 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "撞击",
+              "intent": "Attack + Buff",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "虹吸",
+              "intent": "Heal + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "压力炮",
+              "intent": "Attack + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "增压",
+              "intent": "Attack + Buff",
+              "damage": "13 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "即将爆发",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "爆炸",
+              "intent": "Special",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "瀑布巨兽",
+              "roomType": "Boss",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "瀑布巨兽"
+          ],
+          "movesSummary": "增压: Buff; 践踏: Attack + Debuff + Buff (15 (Asc 16) dmg); 撞击: Attack + Buff (10 (Asc 11) dmg); +5 more"
+        }
+      }
     },
     {
       "id": "BYGONE_EFFIGY",
@@ -954,7 +1779,55 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Sleep: Sleep; Wake: Buff; Sleep Move 2: Sleep; +1 more",
-      "image": "/media/enemies/bygone-effigy.webp"
+      "image": "/media/enemies/bygone-effigy.webp",
+      "translations": {
+        "zhHans": {
+          "name": "旧日雕像",
+          "type": "Elite",
+          "pattern": "沉睡 → 苏醒 → 斩击 → repeat",
+          "moves": [
+            {
+              "name": "沉睡",
+              "intent": "Sleep",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "苏醒",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Sleep Move 2",
+              "intent": "Sleep",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "斩击",
+              "intent": "Attack",
+              "damage": "13 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "旧日雕像",
+              "roomType": "Elite",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "旧日雕像"
+          ],
+          "movesSummary": "沉睡: Sleep; 苏醒: Buff; Sleep Move 2: Sleep; +1 more"
+        }
+      }
     },
     {
       "id": "BYRDONIS",
@@ -993,7 +1866,41 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Peck: Attack (3x3 (Asc 4x3) dmg); Swoop: Attack (17 (Asc 19) dmg)",
-      "image": "/media/enemies/byrdonis.webp"
+      "image": "/media/enemies/byrdonis.webp",
+      "translations": {
+        "zhHans": {
+          "name": "多尼斯异鸟",
+          "type": "Elite",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "啄击",
+              "intent": "Attack",
+              "damage": "3x3 (Asc 4x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "飞扑",
+              "intent": "Attack",
+              "damage": "17 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "多尼斯异鸟",
+              "roomType": "Elite",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "多尼斯异鸟"
+          ],
+          "movesSummary": "啄击: Attack (3x3 (Asc 4x3) dmg); 飞扑: Attack (17 (Asc 19) dmg)"
+        }
+      }
     },
     {
       "id": "DECIMILLIPEDE_SEGMENT",
@@ -1043,7 +1950,54 @@
       "encounterNames": [],
       "acts": [],
       "movesSummary": "Writhe: Attack (5x2 (Asc 6x2) dmg); Bulk: Attack + Buff (6 (Asc 7) dmg); Constrict: Attack + Debuff (8 (Asc 9) dmg); +2 more",
-      "image": "/media/enemies/decimillipede-segment.webp"
+      "image": "/media/enemies/decimillipede-segment.webp",
+      "translations": {
+        "zhHans": {
+          "name": "残杀千足虫",
+          "type": "Elite",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "扭动",
+              "intent": "Attack",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "胀大",
+              "intent": "Attack + Buff",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "紧缠",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "死亡",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "接续",
+              "intent": "Heal",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "扭动: Attack (5x2 (Asc 6x2) dmg); 胀大: Attack + Buff (6 (Asc 7) dmg); 紧缠: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+        }
+      }
     },
     {
       "id": "DECIMILLIPEDE_SEGMENT_BACK",
@@ -1103,7 +2057,62 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Writhe: Attack (5x2 (Asc 6x2) dmg); Bulk: Attack + Buff (6 (Asc 7) dmg); Constrict: Attack + Debuff (8 (Asc 9) dmg); +2 more",
-      "image": "/media/enemies/decimillipede-segment-back.webp"
+      "image": "/media/enemies/decimillipede-segment-back.webp",
+      "translations": {
+        "zhHans": {
+          "name": "Decimillipede Segment (Back)",
+          "type": "Elite",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "扭动",
+              "intent": "Attack",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "胀大",
+              "intent": "Attack + Buff",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "紧缠",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "死亡",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "接续",
+              "intent": "Heal",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "残杀千足虫",
+              "roomType": "Elite",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "残杀千足虫"
+          ],
+          "movesSummary": "扭动: Attack (5x2 (Asc 6x2) dmg); 胀大: Attack + Buff (6 (Asc 7) dmg); 紧缠: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+        }
+      }
     },
     {
       "id": "DECIMILLIPEDE_SEGMENT_FRONT",
@@ -1163,7 +2172,62 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Writhe: Attack (5x2 (Asc 6x2) dmg); Bulk: Attack + Buff (6 (Asc 7) dmg); Constrict: Attack + Debuff (8 (Asc 9) dmg); +2 more",
-      "image": "/media/enemies/decimillipede-segment-front.webp"
+      "image": "/media/enemies/decimillipede-segment-front.webp",
+      "translations": {
+        "zhHans": {
+          "name": "Decimillipede Segment (Front)",
+          "type": "Elite",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "扭动",
+              "intent": "Attack",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "胀大",
+              "intent": "Attack + Buff",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "紧缠",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "死亡",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "接续",
+              "intent": "Heal",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "残杀千足虫",
+              "roomType": "Elite",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "残杀千足虫"
+          ],
+          "movesSummary": "扭动: Attack (5x2 (Asc 6x2) dmg); 胀大: Attack + Buff (6 (Asc 7) dmg); 紧缠: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+        }
+      }
     },
     {
       "id": "DECIMILLIPEDE_SEGMENT_MIDDLE",
@@ -1223,7 +2287,62 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Writhe: Attack (5x2 (Asc 6x2) dmg); Bulk: Attack + Buff (6 (Asc 7) dmg); Constrict: Attack + Debuff (8 (Asc 9) dmg); +2 more",
-      "image": "/media/enemies/decimillipede-segment-middle.webp"
+      "image": "/media/enemies/decimillipede-segment-middle.webp",
+      "translations": {
+        "zhHans": {
+          "name": "Decimillipede Segment (Middle)",
+          "type": "Elite",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "扭动",
+              "intent": "Attack",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "胀大",
+              "intent": "Attack + Buff",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "紧缠",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "死亡",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "接续",
+              "intent": "Heal",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "残杀千足虫",
+              "roomType": "Elite",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "残杀千足虫"
+          ],
+          "movesSummary": "扭动: Attack (5x2 (Asc 6x2) dmg); 胀大: Attack + Buff (6 (Asc 7) dmg); 紧缠: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+        }
+      }
     },
     {
       "id": "ENTOMANCER",
@@ -1269,7 +2388,48 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Pheromone Spit: Buff; Beeeees!: Attack (3x7 dmg); Spear!: Attack (18 (Asc 20) dmg)",
-      "image": "/media/enemies/entomancer.webp"
+      "image": "/media/enemies/entomancer.webp",
+      "translations": {
+        "zhHans": {
+          "name": "蜂群术士",
+          "type": "Elite",
+          "pattern": "Always uses 蜜——蜂——！",
+          "moves": [
+            {
+              "name": "喷射信息素",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "蜜——蜂——！",
+              "intent": "Attack",
+              "damage": "3x7 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "矛击！",
+              "intent": "Attack",
+              "damage": "18 (Asc 20) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "蜂群术士",
+              "roomType": "Elite",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "蜂群术士"
+          ],
+          "movesSummary": "喷射信息素: Buff; 蜜--蜂--！: Attack (3x7 dmg); 矛击！: Attack (18 (Asc 20) dmg)"
+        }
+      }
     },
     {
       "id": "FLAIL_KNIGHT",
@@ -1315,7 +2475,48 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "War Chant: Buff; Flail: Attack (9x2 (Asc 10x2) dmg); Ram: Attack (15 (Asc 17) dmg)",
-      "image": "/media/enemies/flail-knight.webp"
+      "image": "/media/enemies/flail-knight.webp",
+      "translations": {
+        "zhHans": {
+          "name": "连枷骑士",
+          "type": "Elite",
+          "pattern": "Starts with 撞击",
+          "moves": [
+            {
+              "name": "战争吟唱",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "连枷",
+              "intent": "Attack",
+              "damage": "9x2 (Asc 10x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "撞击",
+              "intent": "Attack",
+              "damage": "15 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "骑士团伙",
+              "roomType": "Elite",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "骑士团伙"
+          ],
+          "movesSummary": "战争吟唱: Buff; 连枷: Attack (9x2 (Asc 10x2) dmg); 撞击: Attack (15 (Asc 17) dmg)"
+        }
+      }
     },
     {
       "id": "INFESTED_PRISM",
@@ -1368,7 +2569,55 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Jab: Attack (15 (Asc 17) dmg); Radiate: Attack + Defend (11 (Asc 13) dmg, 11 block); Whirlwind: Attack (5x3 (Asc 6x3) dmg); +1 more",
-      "image": "/media/enemies/infested-prism.webp"
+      "image": "/media/enemies/infested-prism.webp",
+      "translations": {
+        "zhHans": {
+          "name": "感染棱柱",
+          "type": "Elite",
+          "pattern": "刺击 → 辐射 → 旋风 → 脉动 → repeat",
+          "moves": [
+            {
+              "name": "刺击",
+              "intent": "Attack",
+              "damage": "15 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "辐射",
+              "intent": "Attack + Defend",
+              "damage": "11 (Asc 13) damage",
+              "block": "11 block",
+              "heal": ""
+            },
+            {
+              "name": "旋风",
+              "intent": "Attack",
+              "damage": "5x3 (Asc 6x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "脉动",
+              "intent": "Attack + Buff + Defend",
+              "damage": "8 (Asc 10) damage",
+              "block": "20 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "感染棱柱",
+              "roomType": "Elite",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "感染棱柱"
+          ],
+          "movesSummary": "刺击: Attack (15 (Asc 17) dmg); 辐射: Attack + Defend (11 (Asc 13) dmg, 11 block); 旋风: Attack (5x3 (Asc 6x3) dmg); +1 more"
+        }
+      }
     },
     {
       "id": "MAGI_KNIGHT",
@@ -1428,7 +2677,62 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Power Shield: Attack + Defend (6 (Asc 7) dmg, 5 block); Dampen: Debuff; Prep: Defend (5 block); +2 more",
-      "image": "/media/enemies/magi-knight.webp"
+      "image": "/media/enemies/magi-knight.webp",
+      "translations": {
+        "zhHans": {
+          "name": "魔法骑士",
+          "type": "Elite",
+          "pattern": "强力护盾 → 抑制 → 撞击 → Prep → 魔法炸弹 → repeat",
+          "moves": [
+            {
+              "name": "强力护盾",
+              "intent": "Attack + Defend",
+              "damage": "6 (Asc 7) damage",
+              "block": "5 block",
+              "heal": ""
+            },
+            {
+              "name": "抑制",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Prep",
+              "intent": "Defend",
+              "damage": "",
+              "block": "5 block",
+              "heal": ""
+            },
+            {
+              "name": "魔法炸弹",
+              "intent": "Attack",
+              "damage": "35 (Asc 40) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "撞击",
+              "intent": "Attack",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "骑士团伙",
+              "roomType": "Elite",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "骑士团伙"
+          ],
+          "movesSummary": "强力护盾: Attack + Defend (6 (Asc 7) dmg, 5 block); 抑制: Debuff; Prep: Defend (5 block); +2 more"
+        }
+      }
     },
     {
       "id": "MECHA_KNIGHT",
@@ -1481,7 +2785,55 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Charge: Attack (25 (Asc 30) dmg); Flamethrower: Status; Windup: Defend + Buff (15 block); +1 more",
-      "image": "/media/enemies/mecha-knight.webp"
+      "image": "/media/enemies/mecha-knight.webp",
+      "translations": {
+        "zhHans": {
+          "name": "机甲骑士",
+          "type": "Elite",
+          "pattern": "冲锋 → 喷火器 → 举起蓄力 → 重斩 → repeat",
+          "moves": [
+            {
+              "name": "冲锋",
+              "intent": "Attack",
+              "damage": "25 (Asc 30) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "喷火器",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "举起蓄力",
+              "intent": "Defend + Buff",
+              "damage": "",
+              "block": "15 block",
+              "heal": ""
+            },
+            {
+              "name": "重斩",
+              "intent": "Attack",
+              "damage": "35 (Asc 40) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "机甲骑士",
+              "roomType": "Elite",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "机甲骑士"
+          ],
+          "movesSummary": "冲锋: Attack (25 (Asc 30) dmg); 喷火器: Status; 举起蓄力: Defend + Buff (15 block); +1 more"
+        }
+      }
     },
     {
       "id": "PHANTASMAL_GARDENER",
@@ -1534,7 +2886,55 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Bite: Attack (5 dmg); Lash: Attack (7 dmg); Flail: Attack (1x3 dmg); +1 more",
-      "image": "/media/enemies/phantasmal-gardener.webp"
+      "image": "/media/enemies/phantasmal-gardener.webp",
+      "translations": {
+        "zhHans": {
+          "name": "花园幽灵鳗",
+          "type": "Elite",
+          "pattern": "then conditional: 猛晃 (if in first slot) / 啃咬 (if in second slot) / 甩动 (if in third slot) / 变大 (if in fourth slot)",
+          "moves": [
+            {
+              "name": "啃咬",
+              "intent": "Attack",
+              "damage": "5 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "甩动",
+              "intent": "Attack",
+              "damage": "7 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "猛晃",
+              "intent": "Attack",
+              "damage": "1x3 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "变大",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "花园幽灵鳗",
+              "roomType": "Elite",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "花园幽灵鳗"
+          ],
+          "movesSummary": "啃咬: Attack (5 dmg); 甩动: Attack (7 dmg); 猛晃: Attack (1x3 dmg); +1 more"
+        }
+      }
     },
     {
       "id": "PHROG_PARASITE",
@@ -1573,7 +2973,41 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Infect: Status; Lash: Attack (4x4 (Asc 5x4) dmg)",
-      "image": "/media/enemies/phrog-parasite.webp"
+      "image": "/media/enemies/phrog-parasite.webp",
+      "translations": {
+        "zhHans": {
+          "name": "异蛙寄生虫",
+          "type": "Elite",
+          "pattern": "Starts: 感染 → 甩动",
+          "moves": [
+            {
+              "name": "感染",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "甩动",
+              "intent": "Attack",
+              "damage": "4x4 (Asc 5x4) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "异蛙寄生虫",
+              "roomType": "Elite",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "异蛙寄生虫"
+          ],
+          "movesSummary": "感染: Status; 甩动: Attack (4x4 (Asc 5x4) dmg)"
+        }
+      }
     },
     {
       "id": "SKULKING_COLONY",
@@ -1626,7 +3060,55 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Zoom: Attack (14 (Asc 16) dmg); Zoom Move 2: Attack (14 (Asc 16) dmg); Inertia: Attack + Buff (9 (Asc 11) dmg); +1 more",
-      "image": "/media/enemies/skulking-colony.webp"
+      "image": "/media/enemies/skulking-colony.webp",
+      "translations": {
+        "zhHans": {
+          "name": "鬼祟珊瑚群",
+          "type": "Elite",
+          "pattern": "猛冲 → Zoom Move 2 → 惯性 → 穿刺戳击 → repeat",
+          "moves": [
+            {
+              "name": "猛冲",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Zoom Move 2",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "惯性",
+              "intent": "Attack + Buff",
+              "damage": "9 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "穿刺戳击",
+              "intent": "Attack",
+              "damage": "7x2 (Asc 8x2) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "鬼祟珊瑚群",
+              "roomType": "Elite",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "鬼祟珊瑚群"
+          ],
+          "movesSummary": "猛冲: Attack (14 (Asc 16) dmg); Zoom Move 2: Attack (14 (Asc 16) dmg); 惯性: Attack + Buff (9 (Asc 11) dmg); +1 more"
+        }
+      }
     },
     {
       "id": "SOUL_NEXUS",
@@ -1672,7 +3154,48 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Soul Burn: Attack (29 (Asc 31) dmg); Maelstrom: Attack (6x4 (Asc 7x4) dmg); Drain Life: Attack + Debuff (18 (Asc 19) dmg)",
-      "image": "/media/enemies/soul-nexus.webp"
+      "image": "/media/enemies/soul-nexus.webp",
+      "translations": {
+        "zhHans": {
+          "name": "灵魂枢纽",
+          "type": "Elite",
+          "pattern": "Starts with 灵魂灼烧; then random: 灵魂灼烧 (no repeat), 大漩涡 (no repeat), 汲取生命 (no repeat)",
+          "moves": [
+            {
+              "name": "灵魂灼烧",
+              "intent": "Attack",
+              "damage": "29 (Asc 31) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "大漩涡",
+              "intent": "Attack",
+              "damage": "6x4 (Asc 7x4) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "汲取生命",
+              "intent": "Attack + Debuff",
+              "damage": "18 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "灵魂枢纽",
+              "roomType": "Elite",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "灵魂枢纽"
+          ],
+          "movesSummary": "灵魂灼烧: Attack (29 (Asc 31) dmg); 大漩涡: Attack (6x4 (Asc 7x4) dmg); 汲取生命: Attack + Debuff (18 (Asc 19) dmg)"
+        }
+      }
     },
     {
       "id": "SPECTRAL_KNIGHT",
@@ -1718,7 +3241,48 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Hex: Debuff; Soul Slash: Attack (15 (Asc 17) dmg); Soul Flame: Attack (3x3 (Asc 4x3) dmg)",
-      "image": "/media/enemies/spectral-knight.webp"
+      "image": "/media/enemies/spectral-knight.webp",
+      "translations": {
+        "zhHans": {
+          "name": "幽灵骑士",
+          "type": "Elite",
+          "pattern": "Starts: 恶咒 → 灵魂斩击",
+          "moves": [
+            {
+              "name": "恶咒",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "灵魂斩击",
+              "intent": "Attack",
+              "damage": "15 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "灵魂火焰",
+              "intent": "Attack",
+              "damage": "3x3 (Asc 4x3) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "骑士团伙",
+              "roomType": "Elite",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "骑士团伙"
+          ],
+          "movesSummary": "恶咒: Debuff; 灵魂斩击: Attack (15 (Asc 17) dmg); 灵魂火焰: Attack (3x3 (Asc 4x3) dmg)"
+        }
+      }
     },
     {
       "id": "TERROR_EEL",
@@ -1771,7 +3335,55 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Crash: Attack (16 (Asc 18) dmg); Thrash: Attack + Buff (3x3 (Asc 4x3) dmg); Stun: Stun; +1 more",
-      "image": "/media/enemies/terror-eel.webp"
+      "image": "/media/enemies/terror-eel.webp",
+      "translations": {
+        "zhHans": {
+          "name": "骇鳗",
+          "type": "Elite",
+          "pattern": "撞击 → 撕扯 → repeat",
+          "moves": [
+            {
+              "name": "撞击",
+              "intent": "Attack",
+              "damage": "16 (Asc 18) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "撕扯",
+              "intent": "Attack + Buff",
+              "damage": "3x3 (Asc 4x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Stun",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "恐吓",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "骇鳗",
+              "roomType": "Elite",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "骇鳗"
+          ],
+          "movesSummary": "撞击: Attack (16 (Asc 18) dmg); 撕扯: Attack + Buff (3x3 (Asc 4x3) dmg); Stun: Stun; +1 more"
+        }
+      }
     },
     {
       "id": "WRIGGLER",
@@ -1823,7 +3435,54 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Nasty Bite: Attack (6 (Asc 7) dmg); Wriggle: Buff + Status; Spawned: Stun",
-      "image": "/media/enemies/wriggler.webp"
+      "image": "/media/enemies/wriggler.webp",
+      "translations": {
+        "zhHans": {
+          "name": "扭动虫",
+          "type": "Elite",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "污秽啃咬",
+              "intent": "Attack",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "扭动",
+              "intent": "Buff + Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "生成",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "扭动虫",
+              "roomType": "Monster",
+              "act": null
+            },
+            {
+              "name": "异蛙寄生虫",
+              "roomType": "Elite",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "异蛙寄生虫",
+            "扭动虫"
+          ],
+          "movesSummary": "污秽啃咬: Attack (6 (Asc 7) dmg); 扭动: Buff + Status; 生成: Stun"
+        }
+      }
     },
     {
       "id": "ASSASSIN_RUBY_RAIDER",
@@ -1855,7 +3514,34 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Killshot: Attack (10 (Asc 11) dmg)",
-      "image": "/media/enemies/assassin-ruby-raider.webp"
+      "image": "/media/enemies/assassin-ruby-raider.webp",
+      "translations": {
+        "zhHans": {
+          "name": "劫掠者刺客",
+          "type": "Normal",
+          "pattern": "Always uses 致命射击",
+          "moves": [
+            {
+              "name": "致命射击",
+              "intent": "Attack",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "红宝石劫掠者",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "红宝石劫掠者"
+          ],
+          "movesSummary": "致命射击: Attack (10 (Asc 11) dmg)"
+        }
+      }
     },
     {
       "id": "AXE_RUBY_RAIDER",
@@ -1901,7 +3587,48 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Swing 1: Attack + Defend (5 (Asc 6) dmg, 5 block); Swing 2: Attack + Defend (5 (Asc 6) dmg, 5 block); Big Swing: Attack (12 (Asc 13) dmg)",
-      "image": "/media/enemies/axe-ruby-raider.webp"
+      "image": "/media/enemies/axe-ruby-raider.webp",
+      "translations": {
+        "zhHans": {
+          "name": "劫掠者斧手",
+          "type": "Normal",
+          "pattern": "Swing 1 → Swing 2 → 大力挥舞 → repeat",
+          "moves": [
+            {
+              "name": "Swing 1",
+              "intent": "Attack + Defend",
+              "damage": "5 (Asc 6) damage",
+              "block": "5 block",
+              "heal": ""
+            },
+            {
+              "name": "Swing 2",
+              "intent": "Attack + Defend",
+              "damage": "5 (Asc 6) damage",
+              "block": "5 block",
+              "heal": ""
+            },
+            {
+              "name": "大力挥舞",
+              "intent": "Attack",
+              "damage": "12 (Asc 13) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "红宝石劫掠者",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "红宝石劫掠者"
+          ],
+          "movesSummary": "Swing 1: Attack + Defend (5 (Asc 6) dmg, 5 block); Swing 2: Attack + Defend (5 (Asc 6) dmg, 5 block); 大力挥舞: Attack (12 (Asc 13) dmg)"
+        }
+      }
     },
     {
       "id": "AXEBOT",
@@ -1947,7 +3674,48 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Boot Up: Defend + Buff (10 block); The One-Two: Attack (9x2 (Asc 10x2) dmg); Hammer Uppercut: Attack + Debuff (12 (Asc 14) dmg)",
-      "image": "/media/enemies/axebot.webp"
+      "image": "/media/enemies/axebot.webp",
+      "translations": {
+        "zhHans": {
+          "name": "巨斧机器人",
+          "type": "Normal",
+          "pattern": "Always uses 启动",
+          "moves": [
+            {
+              "name": "启动",
+              "intent": "Defend + Buff",
+              "damage": "",
+              "block": "10 block",
+              "heal": ""
+            },
+            {
+              "name": "两连击",
+              "intent": "Attack",
+              "damage": "9x2 (Asc 10x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "上勾锤击",
+              "intent": "Attack + Debuff",
+              "damage": "12 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "巨斧机器人",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "巨斧机器人"
+          ],
+          "movesSummary": "启动: Defend + Buff (10 block); 两连击: Attack (9x2 (Asc 10x2) dmg); 上勾锤击: Attack + Debuff (12 (Asc 14) dmg)"
+        }
+      }
     },
     {
       "id": "BATTLE_FRIEND_V1",
@@ -1977,7 +3745,34 @@
       ],
       "acts": [],
       "movesSummary": "Nothing: Unknown",
-      "image": "/media/enemies/battle-friend-v1.webp"
+      "image": "/media/enemies/battle-friend-v1.webp",
+      "translations": {
+        "zhHans": {
+          "name": "战斗好伙伴V1.0",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "无",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "历战假人",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "历战假人"
+          ],
+          "movesSummary": "无: Unknown"
+        }
+      }
     },
     {
       "id": "BATTLE_FRIEND_V2",
@@ -2007,7 +3802,34 @@
       ],
       "acts": [],
       "movesSummary": "Nothing: Unknown",
-      "image": "/media/enemies/battle-friend-v2.webp"
+      "image": "/media/enemies/battle-friend-v2.webp",
+      "translations": {
+        "zhHans": {
+          "name": "战斗好伙伴V2.0",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "无",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "历战假人",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "历战假人"
+          ],
+          "movesSummary": "无: Unknown"
+        }
+      }
     },
     {
       "id": "BATTLE_FRIEND_V3",
@@ -2037,7 +3859,34 @@
       ],
       "acts": [],
       "movesSummary": "Nothing: Unknown",
-      "image": "/media/enemies/battle-friend-v3.webp"
+      "image": "/media/enemies/battle-friend-v3.webp",
+      "translations": {
+        "zhHans": {
+          "name": "战斗好伙伴V3.0",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "无",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "历战假人",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "历战假人"
+          ],
+          "movesSummary": "无: Unknown"
+        }
+      }
     },
     {
       "id": "BOWLBUG_EGG",
@@ -2075,7 +3924,40 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Bite: Attack + Defend (7 (Asc 8) dmg, 7 block)",
-      "image": "/media/enemies/bowlbug-egg.webp"
+      "image": "/media/enemies/bowlbug-egg.webp",
+      "translations": {
+        "zhHans": {
+          "name": "盛碗虫（卵）",
+          "type": "Normal",
+          "pattern": "Always uses 啃咬",
+          "moves": [
+            {
+              "name": "啃咬",
+              "intent": "Attack + Defend",
+              "damage": "7 (Asc 8) damage",
+              "block": "7 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "盛碗虫群",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "盛碗虫",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "盛碗虫",
+            "盛碗虫群"
+          ],
+          "movesSummary": "啃咬: Attack + Defend (7 (Asc 8) dmg, 7 block)"
+        }
+      }
     },
     {
       "id": "BOWLBUG_NECTAR",
@@ -2127,7 +4009,54 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Thrash: Attack (3 dmg); Buff: Buff; Thrash2: Attack (3 dmg)",
-      "image": "/media/enemies/bowlbug-nectar.webp"
+      "image": "/media/enemies/bowlbug-nectar.webp",
+      "translations": {
+        "zhHans": {
+          "name": "盛碗虫（蜜）",
+          "type": "Normal",
+          "pattern": "撕扯 → 强化 → Thrash2 → repeat",
+          "moves": [
+            {
+              "name": "撕扯",
+              "intent": "Attack",
+              "damage": "3 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "强化",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Thrash2",
+              "intent": "Attack",
+              "damage": "3 damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "盛碗虫群",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "盛碗虫",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "盛碗虫",
+            "盛碗虫群"
+          ],
+          "movesSummary": "撕扯: Attack (3 dmg); 强化: Buff; Thrash2: Attack (3 dmg)"
+        }
+      }
     },
     {
       "id": "BOWLBUG_ROCK",
@@ -2178,7 +4107,53 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Headbutt: Attack (15 (Asc 16) dmg); Dizzy: Stun",
-      "image": "/media/enemies/bowlbug-rock.webp"
+      "image": "/media/enemies/bowlbug-rock.webp",
+      "translations": {
+        "zhHans": {
+          "name": "盛碗虫（石）",
+          "type": "Normal",
+          "pattern": "Starts with 头槌",
+          "moves": [
+            {
+              "name": "头槌",
+              "intent": "Attack",
+              "damage": "15 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "昏头转向",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "盛碗虫群",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "盛碗虫",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "熟睡派对",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "熟睡派对",
+            "盛碗虫",
+            "盛碗虫群"
+          ],
+          "movesSummary": "头槌: Attack (15 (Asc 16) dmg); 昏头转向: Stun"
+        }
+      }
     },
     {
       "id": "BOWLBUG_SILK",
@@ -2223,7 +4198,47 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Thrash: Attack (4x2 (Asc 5x2) dmg); Toxic Spit: Debuff",
-      "image": "/media/enemies/bowlbug-silk.webp"
+      "image": "/media/enemies/bowlbug-silk.webp",
+      "translations": {
+        "zhHans": {
+          "name": "盛碗虫（丝）",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "撕扯",
+              "intent": "Attack",
+              "damage": "4x2 (Asc 5x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "毒性喷吐",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "盛碗虫群",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "熟睡派对",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "熟睡派对",
+            "盛碗虫群"
+          ],
+          "movesSummary": "撕扯: Attack (4x2 (Asc 5x2) dmg); 毒性喷吐: Debuff"
+        }
+      }
     },
     {
       "id": "BRUTE_RUBY_RAIDER",
@@ -2262,7 +4277,41 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Beat: Attack (7 (Asc 8) dmg); Roar: Buff",
-      "image": "/media/enemies/brute-ruby-raider.webp"
+      "image": "/media/enemies/brute-ruby-raider.webp",
+      "translations": {
+        "zhHans": {
+          "name": "劫掠者暴徒",
+          "type": "Normal",
+          "pattern": "Always uses 殴打",
+          "moves": [
+            {
+              "name": "殴打",
+              "intent": "Attack",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "怒吼",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "红宝石劫掠者",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "红宝石劫掠者"
+          ],
+          "movesSummary": "殴打: Attack (7 (Asc 8) dmg); 怒吼: Buff"
+        }
+      }
     },
     {
       "id": "BYRDPIP",
@@ -2284,7 +4333,26 @@
       "encounterNames": [],
       "acts": [],
       "movesSummary": "Nothing: Unknown",
-      "image": "/media/enemies/byrdpip.webp"
+      "image": "/media/enemies/byrdpip.webp",
+      "translations": {
+        "zhHans": {
+          "name": "异鸟宝宝",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "无",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "无: Unknown"
+        }
+      }
     },
     {
       "id": "CALCIFIED_CULTIST",
@@ -2329,7 +4397,47 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Incantation: Buff; Dark Strike: Attack (9 (Asc 11) dmg)",
-      "image": "/media/enemies/calcified-cultist.webp"
+      "image": "/media/enemies/calcified-cultist.webp",
+      "translations": {
+        "zhHans": {
+          "name": "钙化邪教徒",
+          "type": "Normal",
+          "pattern": "Always uses 念咒",
+          "moves": [
+            {
+              "name": "念咒",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "黑暗打击",
+              "intent": "Attack",
+              "damage": "9 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "邪教徒们",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            },
+            {
+              "name": "暗港野生动物",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "暗港野生动物",
+            "邪教徒们"
+          ],
+          "movesSummary": "念咒: Buff; 黑暗打击: Attack (9 (Asc 11) dmg)"
+        }
+      }
     },
     {
       "id": "CHOMPER",
@@ -2374,7 +4482,47 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Clamp: Attack (8x2 (Asc 9x2) dmg); Screech: Status",
-      "image": "/media/enemies/chomper.webp"
+      "image": "/media/enemies/chomper.webp",
+      "translations": {
+        "zhHans": {
+          "name": "啃咬机",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "猛夹",
+              "intent": "Attack",
+              "damage": "8x2 (Asc 9x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "尖锐鸣叫",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "一对自动机械",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "地道组合",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "一对自动机械",
+            "地道组合"
+          ],
+          "movesSummary": "猛夹: Attack (8x2 (Asc 9x2) dmg); 尖锐鸣叫: Status"
+        }
+      }
     },
     {
       "id": "CORPSE_SLUG",
@@ -2426,7 +4574,54 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Whip Slap: Attack (3x2 dmg); Glomp: Attack (8 (Asc 9) dmg); Goop: Debuff",
-      "image": "/media/enemies/corpse-slug.webp"
+      "image": "/media/enemies/corpse-slug.webp",
+      "translations": {
+        "zhHans": {
+          "name": "噬尸蛞蝓",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "鞭打",
+              "intent": "Attack",
+              "damage": "3x2 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "扑上",
+              "intent": "Attack",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "黏液",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "许多噬尸蛞蝓",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            },
+            {
+              "name": "一些噬尸蛞蝓",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "一些噬尸蛞蝓",
+            "许多噬尸蛞蝓"
+          ],
+          "movesSummary": "鞭打: Attack (3x2 dmg); 扑上: Attack (8 (Asc 9) dmg); 黏液: Debuff"
+        }
+      }
     },
     {
       "id": "CROSSBOW_RUBY_RAIDER",
@@ -2465,7 +4660,41 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Fire!: Attack (14 (Asc 16) dmg); Reload: Defend (3 block)",
-      "image": "/media/enemies/crossbow-ruby-raider.webp"
+      "image": "/media/enemies/crossbow-ruby-raider.webp",
+      "translations": {
+        "zhHans": {
+          "name": "劫掠者弩手",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "射击！",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "装填",
+              "intent": "Defend",
+              "damage": "",
+              "block": "3 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "红宝石劫掠者",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "红宝石劫掠者"
+          ],
+          "movesSummary": "射击！: Attack (14 (Asc 16) dmg); 装填: Defend (3 block)"
+        }
+      }
     },
     {
       "id": "CUBEX_CONSTRUCT",
@@ -2525,7 +4754,61 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Charge Up: Buff; Repeater Blast: Attack + Buff (7 (Asc 8) dmg); Repeater Blast Move 2: Attack + Buff (7 (Asc 8) dmg); +1 more",
-      "image": "/media/enemies/cubex-construct.webp"
+      "image": "/media/enemies/cubex-construct.webp",
+      "translations": {
+        "zhHans": {
+          "name": "立柱构造体",
+          "type": "Normal",
+          "pattern": "蓄能 → 重复轰击 → Repeater Blast Move 2 → 排出 → repeat",
+          "moves": [
+            {
+              "name": "蓄能",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "重复轰击",
+              "intent": "Attack + Buff",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Repeater Blast Move 2",
+              "intent": "Attack + Buff",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "排出",
+              "intent": "Attack",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "一些构装体",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            },
+            {
+              "name": "方柱构装体",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "一些构装体",
+            "方柱构装体"
+          ],
+          "movesSummary": "蓄能: Buff; 重复轰击: Attack + Buff (7 (Asc 8) dmg); Repeater Blast Move 2: Attack + Buff (7 (Asc 8) dmg); +1 more"
+        }
+      }
     },
     {
       "id": "DAMP_CULTIST",
@@ -2564,7 +4847,41 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Incantation: Buff; Dark Strike: Attack (1 (Asc 3) dmg)",
-      "image": "/media/enemies/damp-cultist.webp"
+      "image": "/media/enemies/damp-cultist.webp",
+      "translations": {
+        "zhHans": {
+          "name": "潮湿邪教徒",
+          "type": "Normal",
+          "pattern": "Always uses 念咒",
+          "moves": [
+            {
+              "name": "念咒",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "黑暗打击",
+              "intent": "Attack",
+              "damage": "1 (Asc 3) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "邪教徒们",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "邪教徒们"
+          ],
+          "movesSummary": "念咒: Buff; 黑暗打击: Attack (1 (Asc 3) dmg)"
+        }
+      }
     },
     {
       "id": "DEVOTED_SCULPTOR",
@@ -2603,7 +4920,41 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Forbidden Incantation: Buff; Savage: Attack (12 (Asc 15) dmg)",
-      "image": "/media/enemies/devoted-sculptor.webp"
+      "image": "/media/enemies/devoted-sculptor.webp",
+      "translations": {
+        "zhHans": {
+          "name": "虔诚雕刻师",
+          "type": "Normal",
+          "pattern": "Always uses 禁忌唱诵",
+          "moves": [
+            {
+              "name": "禁忌唱诵",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "猛烈攻击",
+              "intent": "Attack",
+              "damage": "12 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "虔诚雕刻师",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "虔诚雕刻师"
+          ],
+          "movesSummary": "禁忌唱诵: Buff; 猛烈攻击: Attack (12 (Asc 15) dmg)"
+        }
+      }
     },
     {
       "id": "EXOSKELETON",
@@ -2655,7 +5006,54 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Skitter: Attack (1x3 dmg); Mandibles: Attack (8 (Asc 9) dmg); Enrage: Buff",
-      "image": "/media/enemies/exoskeleton.webp"
+      "image": "/media/enemies/exoskeleton.webp",
+      "translations": {
+        "zhHans": {
+          "name": "外骨骼虫",
+          "type": "Normal",
+          "pattern": "then random: 忙乱 (no repeat), 啃食 (no repeat); then conditional: 忙乱 (if in first slot) / 啃食 (if in second slot) / 激怒 (if in third slot) / Rand (if in fourth slot)",
+          "moves": [
+            {
+              "name": "忙乱",
+              "intent": "Attack",
+              "damage": "1x3 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "啃食",
+              "intent": "Attack",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "激怒",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "许多外骨骼虫",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            },
+            {
+              "name": "外骨骼虫",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "外骨骼虫",
+            "许多外骨骼虫"
+          ],
+          "movesSummary": "忙乱: Attack (1x3 dmg); 啃食: Attack (8 (Asc 9) dmg); 激怒: Buff"
+        }
+      }
     },
     {
       "id": "EYE_WITH_TEETH",
@@ -2687,7 +5085,34 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Distract: Status",
-      "image": "/media/enemies/eye-with-teeth.webp"
+      "image": "/media/enemies/eye-with-teeth.webp",
+      "translations": {
+        "zhHans": {
+          "name": "利齿之眼",
+          "type": "Normal",
+          "pattern": "Always uses 牵制",
+          "moves": [
+            {
+              "name": "牵制",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "雾菇",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "雾菇"
+          ],
+          "movesSummary": "牵制: Status"
+        }
+      }
     },
     {
       "id": "FABRICATOR",
@@ -2733,7 +5158,48 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Fabricate: Summon; Fabricating Strike: Attack + Summon (18 (Asc 21) dmg); Disintegrate: Attack (11 (Asc 13) dmg)",
-      "image": "/media/enemies/fabricator.webp"
+      "image": "/media/enemies/fabricator.webp",
+      "translations": {
+        "zhHans": {
+          "name": "组装师",
+          "type": "Normal",
+          "pattern": "then random: 组装, 组装打击; then conditional: Rand (if can fabricate) / 瓦解 (if cannot fabricate)",
+          "moves": [
+            {
+              "name": "组装",
+              "intent": "Summon",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "组装打击",
+              "intent": "Attack + Summon",
+              "damage": "18 (Asc 21) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "瓦解",
+              "intent": "Attack",
+              "damage": "11 (Asc 13) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "组装师",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "组装师"
+          ],
+          "movesSummary": "组装: Summon; 组装打击: Attack + Summon (18 (Asc 21) dmg); 瓦解: Attack (11 (Asc 13) dmg)"
+        }
+      }
     },
     {
       "id": "FAT_GREMLIN",
@@ -2772,7 +5238,41 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Wake Up: Stun; Flee: Escape",
-      "image": "/media/enemies/fat-gremlin.webp"
+      "image": "/media/enemies/fat-gremlin.webp",
+      "translations": {
+        "zhHans": {
+          "name": "胖地精",
+          "type": "Normal",
+          "pattern": "Always uses 醒来",
+          "moves": [
+            {
+              "name": "醒来",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "逃跑",
+              "intent": "Escape",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "穿着一件大衣的两只地精",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "穿着一件大衣的两只地精"
+          ],
+          "movesSummary": "醒来: Stun; 逃跑: Escape"
+        }
+      }
     },
     {
       "id": "FLYCONID",
@@ -2824,7 +5324,54 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Vulnerable Spores: Debuff (8 (Asc 9) dmg); Frail Spores: Attack + Debuff (8 (Asc 9) dmg); Smash: Attack (11 (Asc 12) dmg)",
-      "image": "/media/enemies/flyconid.webp"
+      "image": "/media/enemies/flyconid.webp",
+      "translations": {
+        "zhHans": {
+          "name": "飞蝇菌子",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "易伤孢子",
+              "intent": "Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "脆弱孢子",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "猛砸",
+              "intent": "Attack",
+              "damage": "11 (Asc 12) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "真菌与史莱姆",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "密林植物",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "密林植物",
+            "真菌与史莱姆"
+          ],
+          "movesSummary": "易伤孢子: Debuff (8 (Asc 9) dmg); 脆弱孢子: Attack + Debuff (8 (Asc 9) dmg); 猛砸: Attack (11 (Asc 12) dmg)"
+        }
+      }
     },
     {
       "id": "FOGMOG",
@@ -2877,7 +5424,55 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Illusory Spores: Summon; Thwack: Attack + Buff (8 (Asc 9) dmg); Swipe Random: Attack + Buff (8 (Asc 9) dmg); +1 more",
-      "image": "/media/enemies/fogmog.webp"
+      "image": "/media/enemies/fogmog.webp",
+      "translations": {
+        "zhHans": {
+          "name": "雾菇",
+          "type": "Normal",
+          "pattern": "Starts with 虚幻孢子, then random: Swipe Random (no repeat, 40%), Headbutt (no repeat, 60%)",
+          "moves": [
+            {
+              "name": "虚幻孢子",
+              "intent": "Summon",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "重击",
+              "intent": "Attack + Buff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Swipe Random",
+              "intent": "Attack + Buff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Headbutt",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "雾菇",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "雾菇"
+          ],
+          "movesSummary": "虚幻孢子: Summon; 重击: Attack + Buff (8 (Asc 9) dmg); Swipe Random: Attack + Buff (8 (Asc 9) dmg); +1 more"
+        }
+      }
     },
     {
       "id": "FOSSIL_STALKER",
@@ -2923,7 +5518,48 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Tackle: Attack + Debuff (9 (Asc 11) dmg); Latch: Attack (12 (Asc 14) dmg); Lash: Attack (3x2 (Asc 4x2) dmg)",
-      "image": "/media/enemies/fossil-stalker.webp"
+      "image": "/media/enemies/fossil-stalker.webp",
+      "translations": {
+        "zhHans": {
+          "name": "化石追踪者",
+          "type": "Normal",
+          "pattern": "Starts with 缠上",
+          "moves": [
+            {
+              "name": "冲撞",
+              "intent": "Attack + Debuff",
+              "damage": "9 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "缠上",
+              "intent": "Attack",
+              "damage": "12 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "甩动",
+              "intent": "Attack",
+              "damage": "3x2 (Asc 4x2) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "化石追踪者",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "化石追踪者"
+          ],
+          "movesSummary": "冲撞: Attack + Debuff (9 (Asc 11) dmg); 缠上: Attack (12 (Asc 14) dmg); 甩动: Attack (3x2 (Asc 4x2) dmg)"
+        }
+      }
     },
     {
       "id": "FROG_KNIGHT",
@@ -2976,7 +5612,55 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "For the Queen: Buff; Strike Down Evil: Attack (21 (Asc 23) dmg); Tongue Lash: Attack + Debuff (13 (Asc 14) dmg); +1 more",
-      "image": "/media/enemies/frog-knight.webp"
+      "image": "/media/enemies/frog-knight.webp",
+      "translations": {
+        "zhHans": {
+          "name": "青蛙骑士",
+          "type": "Normal",
+          "pattern": "Starts: 吐舌 → 惩恶一击 → 为了女王; then conditional: 吐舌 (if HasBeetleCharged || CurrentHp >= MaxHp / 2) / 甲虫冲锋 (if !HasBeetleCharged && CurrentHp < MaxHp / 2)",
+          "moves": [
+            {
+              "name": "为了女王",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "惩恶一击",
+              "intent": "Attack",
+              "damage": "21 (Asc 23) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "吐舌",
+              "intent": "Attack + Debuff",
+              "damage": "13 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "甲虫冲锋",
+              "intent": "Attack",
+              "damage": "35 (Asc 40) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "青蛙骑士",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "青蛙骑士"
+          ],
+          "movesSummary": "为了女王: Buff; 惩恶一击: Attack (21 (Asc 23) dmg); 吐舌: Attack + Debuff (13 (Asc 14) dmg); +1 more"
+        }
+      }
     },
     {
       "id": "FUZZY_WURM_CRAWLER",
@@ -3028,7 +5712,54 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "First Acid Goop: Attack (4 (Asc 6) dmg); Acid Goop: Attack (4 (Asc 6) dmg); Inhale: Buff",
-      "image": "/media/enemies/fuzzy-wurm-crawler.webp"
+      "image": "/media/enemies/fuzzy-wurm-crawler.webp",
+      "translations": {
+        "zhHans": {
+          "name": "毛绒伏地虫",
+          "type": "Normal",
+          "pattern": "Always uses First Acid Goop",
+          "moves": [
+            {
+              "name": "First Acid Goop",
+              "intent": "Attack",
+              "damage": "4 (Asc 6) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "酸液黏球",
+              "intent": "Attack",
+              "damage": "4 (Asc 6) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "吸入",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "毛绒伏地虫",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "密林爬虫",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "密林爬虫",
+            "毛绒伏地虫"
+          ],
+          "movesSummary": "First Acid Goop: Attack (4 (Asc 6) dmg); 酸液黏球: Attack (4 (Asc 6) dmg); 吸入: Buff"
+        }
+      }
     },
     {
       "id": "GAS_BOMB",
@@ -3060,7 +5791,34 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Explode: Special (8 (Asc 9) dmg)",
-      "image": "/media/enemies/gas-bomb.webp"
+      "image": "/media/enemies/gas-bomb.webp",
+      "translations": {
+        "zhHans": {
+          "name": "气态炸弹",
+          "type": "Normal",
+          "pattern": "Always uses 爆炸",
+          "moves": [
+            {
+              "name": "爆炸",
+              "intent": "Special",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "邪恶气体",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "邪恶气体"
+          ],
+          "movesSummary": "爆炸: Special (8 (Asc 9) dmg)"
+        }
+      }
     },
     {
       "id": "GLOBE_HEAD",
@@ -3106,7 +5864,48 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Channel Lightning: Attack (6x3 (Asc 7x3) dmg); Shocking Slap: Attack + Debuff (13 (Asc 14) dmg); Galvanic Burst: Attack + Buff (16 (Asc 17) dmg)",
-      "image": "/media/enemies/globe-head.webp"
+      "image": "/media/enemies/globe-head.webp",
+      "translations": {
+        "zhHans": {
+          "name": "电球头",
+          "type": "Normal",
+          "pattern": "电击掌 → 生成闪电 → Galvanic Burst → repeat",
+          "moves": [
+            {
+              "name": "生成闪电",
+              "intent": "Attack",
+              "damage": "6x3 (Asc 7x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "电击掌",
+              "intent": "Attack + Debuff",
+              "damage": "13 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Galvanic Burst",
+              "intent": "Attack + Buff",
+              "damage": "16 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "一个孤单的电球头",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "一个孤单的电球头"
+          ],
+          "movesSummary": "生成闪电: Attack (6x3 (Asc 7x3) dmg); 电击掌: Attack + Debuff (13 (Asc 14) dmg); Galvanic Burst: Attack + Buff (16 (Asc 17) dmg)"
+        }
+      }
     },
     {
       "id": "GREMLIN_MERC",
@@ -3152,7 +5951,48 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Gimme: Attack (7x2 (Asc 8x2) dmg); Double Smash: Attack + Debuff (6x2 (Asc 7x2) dmg); Hehe: Attack + Buff (8 (Asc 9) dmg)",
-      "image": "/media/enemies/gremlin-merc.webp"
+      "image": "/media/enemies/gremlin-merc.webp",
+      "translations": {
+        "zhHans": {
+          "name": "地精佣兵",
+          "type": "Normal",
+          "pattern": "拿来 → 双重猛击 → 嘿嘿 → repeat",
+          "moves": [
+            {
+              "name": "拿来",
+              "intent": "Attack",
+              "damage": "7x2 (Asc 8x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "双重猛击",
+              "intent": "Attack + Debuff",
+              "damage": "6x2 (Asc 7x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "嘿嘿",
+              "intent": "Attack + Buff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "穿着一件大衣的两只地精",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "穿着一件大衣的两只地精"
+          ],
+          "movesSummary": "拿来: Attack (7x2 (Asc 8x2) dmg); 双重猛击: Attack + Debuff (6x2 (Asc 7x2) dmg); 嘿嘿: Attack + Buff (8 (Asc 9) dmg)"
+        }
+      }
     },
     {
       "id": "GUARDBOT",
@@ -3174,7 +6014,26 @@
       "encounterNames": [],
       "acts": [],
       "movesSummary": "Guard: Defend (15 block)",
-      "image": "/media/enemies/guardbot.webp"
+      "image": "/media/enemies/guardbot.webp",
+      "translations": {
+        "zhHans": {
+          "name": "守护机器人",
+          "type": "Normal",
+          "pattern": "Always uses 守护",
+          "moves": [
+            {
+              "name": "守护",
+              "intent": "Defend",
+              "damage": "",
+              "block": "15 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "守护: Defend (15 block)"
+        }
+      }
     },
     {
       "id": "HAUNTED_SHIP",
@@ -3220,7 +6079,48 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Swipe: Attack (13 (Asc 14) dmg); Stomp: Attack (4x3 (Asc 5x3) dmg); Haunt: Debuff + Status",
-      "image": "/media/enemies/haunted-ship.webp"
+      "image": "/media/enemies/haunted-ship.webp",
+      "translations": {
+        "zhHans": {
+          "name": "幽灵船",
+          "type": "Normal",
+          "pattern": "Always uses 纠缠",
+          "moves": [
+            {
+              "name": "扫击",
+              "intent": "Attack",
+              "damage": "13 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "践踏",
+              "intent": "Attack",
+              "damage": "4x3 (Asc 5x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "纠缠",
+              "intent": "Debuff + Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "幽灵船",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "幽灵船"
+          ],
+          "movesSummary": "扫击: Attack (13 (Asc 14) dmg); 践踏: Attack (4x3 (Asc 5x3) dmg); 纠缠: Debuff + Status"
+        }
+      }
     },
     {
       "id": "HUNTER_KILLER",
@@ -3266,7 +6166,48 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Tenderizing Goop: Debuff; Bite: Attack (17 (Asc 19) dmg); Puncture: Attack (7x3 (Asc 8x3) dmg)",
-      "image": "/media/enemies/hunter-killer.webp"
+      "image": "/media/enemies/hunter-killer.webp",
+      "translations": {
+        "zhHans": {
+          "name": "猎人杀手",
+          "type": "Normal",
+          "pattern": "Starts with 嫩化黏液",
+          "moves": [
+            {
+              "name": "嫩化黏液",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "啃咬",
+              "intent": "Attack",
+              "damage": "17 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "刺穿",
+              "intent": "Attack",
+              "damage": "7x3 (Asc 8x3) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "猎人杀手",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "猎人杀手"
+          ],
+          "movesSummary": "嫩化黏液: Debuff; 啃咬: Attack (17 (Asc 19) dmg); 刺穿: Attack (7x3 (Asc 8x3) dmg)"
+        }
+      }
     },
     {
       "id": "INKLET",
@@ -3312,7 +6253,48 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Jab: Attack (3 (Asc 4) dmg); Whirlwind: Attack (2x3 (Asc 3x3) dmg); Piercing Gaze: Attack (10 (Asc 11) dmg)",
-      "image": "/media/enemies/inklet.webp"
+      "image": "/media/enemies/inklet.webp",
+      "translations": {
+        "zhHans": {
+          "name": "墨宝",
+          "type": "Normal",
+          "pattern": "Starts: 旋风 → 刺击; then random: 刺击, 旋风 (no repeat); then random: 锐利凝视 (no repeat), 旋风 (no repeat)",
+          "moves": [
+            {
+              "name": "刺击",
+              "intent": "Attack",
+              "damage": "3 (Asc 4) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "旋风",
+              "intent": "Attack",
+              "damage": "2x3 (Asc 3x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "锐利凝视",
+              "intent": "Attack",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "墨宝",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "墨宝"
+          ],
+          "movesSummary": "刺击: Attack (3 (Asc 4) dmg); 旋风: Attack (2x3 (Asc 3x3) dmg); 锐利凝视: Attack (10 (Asc 11) dmg)"
+        }
+      }
     },
     {
       "id": "LEAF_SLIME_M",
@@ -3369,7 +6351,59 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Clump Shot: Attack (8 (Asc 9) dmg); Sticky Shot: Status",
-      "image": "/media/enemies/leaf-slime-m.webp"
+      "image": "/media/enemies/leaf-slime-m.webp",
+      "translations": {
+        "zhHans": {
+          "name": "树叶史莱姆（中）",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "团块射击",
+              "intent": "Attack",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "黏糊射击",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "真菌与史莱姆",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "一大群史莱姆",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "一群史莱姆",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "扼杀者与伙伴",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "一大群史莱姆",
+            "一群史莱姆",
+            "扼杀者与伙伴",
+            "真菌与史莱姆"
+          ],
+          "movesSummary": "团块射击: Attack (8 (Asc 9) dmg); 黏糊射击: Status"
+        }
+      }
     },
     {
       "id": "LEAF_SLIME_S",
@@ -3420,7 +6454,53 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Tackle: Attack (3 (Asc 4) dmg); Goop: Status",
-      "image": "/media/enemies/leaf-slime-s.webp"
+      "image": "/media/enemies/leaf-slime-s.webp",
+      "translations": {
+        "zhHans": {
+          "name": "树叶史莱姆（小）",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "冲撞",
+              "intent": "Attack",
+              "damage": "3 (Asc 4) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "黏液",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "一大群史莱姆",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "一群史莱姆",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "扼杀者与伙伴",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "一大群史莱姆",
+            "一群史莱姆",
+            "扼杀者与伙伴"
+          ],
+          "movesSummary": "冲撞: Attack (3 (Asc 4) dmg); 黏液: Status"
+        }
+      }
     },
     {
       "id": "LIVING_FOG",
@@ -3466,7 +6546,48 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Advanced Gas: Attack + Debuff (8 (Asc 9) dmg); Bloat: Attack + Summon (5 (Asc 6) dmg); Super Gas Blast: Attack (8 (Asc 9) dmg)",
-      "image": "/media/enemies/living-fog.webp"
+      "image": "/media/enemies/living-fog.webp",
+      "translations": {
+        "zhHans": {
+          "name": "活雾",
+          "type": "Normal",
+          "pattern": "先进毒气 → 膨胀 → 超级毒气爆炸 → repeat",
+          "moves": [
+            {
+              "name": "先进毒气",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "膨胀",
+              "intent": "Attack + Summon",
+              "damage": "5 (Asc 6) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "超级毒气爆炸",
+              "intent": "Attack",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "邪恶气体",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "邪恶气体"
+          ],
+          "movesSummary": "先进毒气: Attack + Debuff (8 (Asc 9) dmg); 膨胀: Attack + Summon (5 (Asc 6) dmg); 超级毒气爆炸: Attack (8 (Asc 9) dmg)"
+        }
+      }
     },
     {
       "id": "LIVING_SHIELD",
@@ -3505,7 +6626,41 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Shield Slam: Attack (6 dmg); Smash: Attack + Buff (16 (Asc 18) dmg)",
-      "image": "/media/enemies/living-shield.webp"
+      "image": "/media/enemies/living-shield.webp",
+      "translations": {
+        "zhHans": {
+          "name": "活体盾",
+          "type": "Normal",
+          "pattern": "Starts with 盾击; then conditional: 盾击 (if has allies) / 砸击 (if no allies)",
+          "moves": [
+            {
+              "name": "盾击",
+              "intent": "Attack",
+              "damage": "6 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "砸击",
+              "intent": "Attack + Buff",
+              "damage": "16 (Asc 18) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "高塔炮手",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "高塔炮手"
+          ],
+          "movesSummary": "盾击: Attack (6 dmg); 砸击: Attack + Buff (16 (Asc 18) dmg)"
+        }
+      }
     },
     {
       "id": "LOUSE_PROGENITOR",
@@ -3551,7 +6706,48 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Web Cannon: Attack + Debuff (9 (Asc 10) dmg); Pounce: Attack (14 (Asc 16) dmg); Curl and Grow: Defend + Buff (14 block)",
-      "image": "/media/enemies/louse-progenitor.webp"
+      "image": "/media/enemies/louse-progenitor.webp",
+      "translations": {
+        "zhHans": {
+          "name": "虱虫之祖",
+          "type": "Normal",
+          "pattern": "Always uses 吐网炮",
+          "moves": [
+            {
+              "name": "吐网炮",
+              "intent": "Attack + Debuff",
+              "damage": "9 (Asc 10) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "猛扑",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "蜷身成长",
+              "intent": "Defend + Buff",
+              "damage": "",
+              "block": "14 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "虱虫之祖",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "虱虫之祖"
+          ],
+          "movesSummary": "吐网炮: Attack + Debuff (9 (Asc 10) dmg); 猛扑: Attack (14 (Asc 16) dmg); 蜷身成长: Defend + Buff (14 block)"
+        }
+      }
     },
     {
       "id": "MAWLER",
@@ -3597,7 +6793,48 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Rip and Tear: Attack (14 (Asc 16) dmg); Roar: Debuff; Claw: Attack (4x2 (Asc 5x2) dmg)",
-      "image": "/media/enemies/mawler.webp"
+      "image": "/media/enemies/mawler.webp",
+      "translations": {
+        "zhHans": {
+          "name": "蛮兽",
+          "type": "Normal",
+          "pattern": "Starts with 爪击; then random: 狂乱撕扯 (no repeat), 怒吼 (once), 爪击 (no repeat)",
+          "moves": [
+            {
+              "name": "狂乱撕扯",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "怒吼",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "爪击",
+              "intent": "Attack",
+              "damage": "4x2 (Asc 5x2) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "蛮兽",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "蛮兽"
+          ],
+          "movesSummary": "狂乱撕扯: Attack (14 (Asc 16) dmg); 怒吼: Debuff; 爪击: Attack (4x2 (Asc 5x2) dmg)"
+        }
+      }
     },
     {
       "id": "MYSTERIOUS_KNIGHT",
@@ -3641,7 +6878,48 @@
       ],
       "acts": [],
       "movesSummary": "War Chant: Buff; Flail: Attack (9x2 (Asc 10x2) dmg); Ram: Attack (15 (Asc 17) dmg)",
-      "image": "/media/enemies/mysterious-knight.webp"
+      "image": "/media/enemies/mysterious-knight.webp",
+      "translations": {
+        "zhHans": {
+          "name": "神秘骑士",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "战争吟唱",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "连枷",
+              "intent": "Attack",
+              "damage": "9x2 (Asc 10x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "撞击",
+              "intent": "Attack",
+              "damage": "15 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "神秘骑士",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "神秘骑士"
+          ],
+          "movesSummary": "战争吟唱: Buff; 连枷: Attack (9x2 (Asc 10x2) dmg); 撞击: Attack (15 (Asc 17) dmg)"
+        }
+      }
     },
     {
       "id": "MYTE",
@@ -3687,7 +6965,48 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Toxic Cornucopia: Status; Bite: Attack (13 (Asc 15) dmg); Suck: Attack + Buff (4 (Asc 6) dmg)",
-      "image": "/media/enemies/myte.webp"
+      "image": "/media/enemies/myte.webp",
+      "translations": {
+        "zhHans": {
+          "name": "异螨",
+          "type": "Normal",
+          "pattern": "then conditional: 浓毒 (if in first slot) / 吸吮 (if in second slot)",
+          "moves": [
+            {
+              "name": "浓毒",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "啃咬",
+              "intent": "Attack",
+              "damage": "13 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "吸吮",
+              "intent": "Attack + Buff",
+              "damage": "4 (Asc 6) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "一群异螨",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "一群异螨"
+          ],
+          "movesSummary": "浓毒: Status; 啃咬: Attack (13 (Asc 15) dmg); 吸吮: Attack + Buff (4 (Asc 6) dmg)"
+        }
+      }
     },
     {
       "id": "NIBBIT",
@@ -3739,7 +7058,54 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Butt: Attack (12 (Asc 13) dmg); Slice: Attack + Defend (6 (Asc 7) dmg, 5 block); Hiss: Buff",
-      "image": "/media/enemies/nibbit.webp"
+      "image": "/media/enemies/nibbit.webp",
+      "translations": {
+        "zhHans": {
+          "name": "小啃兽",
+          "type": "Normal",
+          "pattern": "then conditional: 顶撞 (if alone) / 哈气 (if not in front) / Slice (if in front)",
+          "moves": [
+            {
+              "name": "顶撞",
+              "intent": "Attack",
+              "damage": "12 (Asc 13) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Slice",
+              "intent": "Attack + Defend",
+              "damage": "6 (Asc 7) damage",
+              "block": "5 block",
+              "heal": ""
+            },
+            {
+              "name": "哈气",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "两只小啃兽",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "一只落单的小啃兽",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "一只落单的小啃兽",
+            "两只小啃兽"
+          ],
+          "movesSummary": "顶撞: Attack (12 (Asc 13) dmg); Slice: Attack + Defend (6 (Asc 7) dmg, 5 block); 哈气: Buff"
+        }
+      }
     },
     {
       "id": "NOISEBOT",
@@ -3761,7 +7127,26 @@
       "encounterNames": [],
       "acts": [],
       "movesSummary": "Noise: Status",
-      "image": "/media/enemies/noisebot.webp"
+      "image": "/media/enemies/noisebot.webp",
+      "translations": {
+        "zhHans": {
+          "name": "噪音机器人",
+          "type": "Normal",
+          "pattern": "Always uses 噪音",
+          "moves": [
+            {
+              "name": "噪音",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "噪音: Status"
+        }
+      }
     },
     {
       "id": "OSTY",
@@ -3783,7 +7168,26 @@
       "encounterNames": [],
       "acts": [],
       "movesSummary": "Nothing: Unknown",
-      "image": "/media/enemies/osty.webp"
+      "image": "/media/enemies/osty.webp",
+      "translations": {
+        "zhHans": {
+          "name": "奥斯提",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "Nothing",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "Nothing: Unknown"
+        }
+      }
     },
     {
       "id": "OVICOPTER",
@@ -3836,7 +7240,55 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Lay Eggs: Summon; Smash: Attack (16 (Asc 17) dmg); Tenderizer: Attack + Debuff (7 (Asc 8) dmg); +1 more",
-      "image": "/media/enemies/ovicopter.webp"
+      "image": "/media/enemies/ovicopter.webp",
+      "translations": {
+        "zhHans": {
+          "name": "直飞产卵虫",
+          "type": "Normal",
+          "pattern": "Starts: 产卵 → 猛砸 → 嫩化; then conditional: 产卵 (if can lay) / 高营养糊糊 (if cannot lay)",
+          "moves": [
+            {
+              "name": "产卵",
+              "intent": "Summon",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "猛砸",
+              "intent": "Attack",
+              "damage": "16 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "嫩化",
+              "intent": "Attack + Debuff",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "高营养糊糊",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "直飞产卵虫",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "直飞产卵虫"
+          ],
+          "movesSummary": "产卵: Summon; 猛砸: Attack (16 (Asc 17) dmg); 嫩化: Attack + Debuff (7 (Asc 8) dmg); +1 more"
+        }
+      }
     },
     {
       "id": "OWL_MAGISTRATE",
@@ -3889,7 +7341,55 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Magistrate Scrutiny: Attack (16 (Asc 17) dmg); Peck Assault: Attack (4x6 dmg); Judicial Flight: Buff; +1 more",
-      "image": "/media/enemies/owl-magistrate.webp"
+      "image": "/media/enemies/owl-magistrate.webp",
+      "translations": {
+        "zhHans": {
+          "name": "猫头鹰法官",
+          "type": "Normal",
+          "pattern": "法官审查 → 猛啄袭击 → 飞法行为 → 裁决 → repeat",
+          "moves": [
+            {
+              "name": "法官审查",
+              "intent": "Attack",
+              "damage": "16 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "猛啄袭击",
+              "intent": "Attack",
+              "damage": "4x6 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "飞法行为",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "裁决",
+              "intent": "Attack + Debuff",
+              "damage": "33 (Asc 36) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "猫头鹰法官",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "猫头鹰法官"
+          ],
+          "movesSummary": "法官审查: Attack (16 (Asc 17) dmg); 猛啄袭击: Attack (4x6 dmg); 飞法行为: Buff; +1 more"
+        }
+      }
     },
     {
       "id": "PAELS_LEGION",
@@ -3911,7 +7411,26 @@
       "encounterNames": [],
       "acts": [],
       "movesSummary": "Nothing: Unknown",
-      "image": "/media/enemies/paels-legion.webp"
+      "image": "/media/enemies/paels-legion.webp",
+      "translations": {
+        "zhHans": {
+          "name": "佩尔的士兵",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "无",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "无: Unknown"
+        }
+      }
     },
     {
       "id": "PARAFRIGHT",
@@ -3943,7 +7462,34 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Slam: Attack (16 (Asc 17) dmg)",
-      "image": "/media/enemies/parafright.webp"
+      "image": "/media/enemies/parafright.webp",
+      "translations": {
+        "zhHans": {
+          "name": "寄生惧魔",
+          "type": "Normal",
+          "pattern": "Always uses 砸击",
+          "moves": [
+            {
+              "name": "砸击",
+              "intent": "Attack",
+              "damage": "16 (Asc 17) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "胧光怪",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "胧光怪"
+          ],
+          "movesSummary": "砸击: Attack (16 (Asc 17) dmg)"
+        }
+      }
     },
     {
       "id": "PUNCH_CONSTRUCT",
@@ -4002,7 +7548,59 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "READY: Defend (10 block); Strong Punch: Attack (14 (Asc 16) dmg); Fast Punch: Attack + Debuff (5x2 (Asc 6x2) dmg)",
-      "image": "/media/enemies/punch-construct.webp"
+      "image": "/media/enemies/punch-construct.webp",
+      "translations": {
+        "zhHans": {
+          "name": "拳击构装体",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "准备就绪",
+              "intent": "Defend",
+              "damage": "",
+              "block": "10 block",
+              "heal": ""
+            },
+            {
+              "name": "强力拳",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "快速拳",
+              "intent": "Attack + Debuff",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "一些构装体",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            },
+            {
+              "name": "拳击构装体",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            },
+            {
+              "name": "拳击构装体",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "一些构装体",
+            "拳击构装体"
+          ],
+          "movesSummary": "准备就绪: Defend (10 block); 强力拳: Attack (14 (Asc 16) dmg); 快速拳: Attack + Debuff (5x2 (Asc 6x2) dmg)"
+        }
+      }
     },
     {
       "id": "SCROLL_OF_BITING",
@@ -4054,7 +7652,54 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Chomp: Attack (14 (Asc 16) dmg); Chew: Attack (5x2 (Asc 6x2) dmg); More Teeth: Buff",
-      "image": "/media/enemies/scroll-of-biting.webp"
+      "image": "/media/enemies/scroll-of-biting.webp",
+      "translations": {
+        "zhHans": {
+          "name": "咬人卷轴",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "大啃",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "咀嚼",
+              "intent": "Attack",
+              "damage": "5x2 (Asc 6x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "更多牙齿",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "许多咬人卷轴",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            },
+            {
+              "name": "咬人卷轴",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "咬人卷轴",
+            "许多咬人卷轴"
+          ],
+          "movesSummary": "大啃: Attack (14 (Asc 16) dmg); 咀嚼: Attack (5x2 (Asc 6x2) dmg); 更多牙齿: Buff"
+        }
+      }
     },
     {
       "id": "SEAPUNK",
@@ -4106,7 +7751,54 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Sea Kick: Attack (11 (Asc 13) dmg); Spinning Kick: Attack (2x4 dmg); Bubble Burp: Buff + Defend (7 block)",
-      "image": "/media/enemies/seapunk.webp"
+      "image": "/media/enemies/seapunk.webp",
+      "translations": {
+        "zhHans": {
+          "name": "海洋混混",
+          "type": "Normal",
+          "pattern": "海洋踢 → 回旋踢 → 吐泡泡 → repeat",
+          "moves": [
+            {
+              "name": "海洋踢",
+              "intent": "Attack",
+              "damage": "11 (Asc 13) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "回旋踢",
+              "intent": "Attack",
+              "damage": "2x4 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "吐泡泡",
+              "intent": "Buff + Defend",
+              "damage": "",
+              "block": "7 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "暗港野生动物",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            },
+            {
+              "name": "海洋混混",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "暗港野生动物",
+            "海洋混混"
+          ],
+          "movesSummary": "海洋踢: Attack (11 (Asc 13) dmg); 回旋踢: Attack (2x4 dmg); 吐泡泡: Buff + Defend (7 block)"
+        }
+      }
     },
     {
       "id": "SEWER_CLAM",
@@ -4145,7 +7837,41 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Pressurize: Buff; Jet: Attack (10 (Asc 11) dmg)",
-      "image": "/media/enemies/sewer-clam.webp"
+      "image": "/media/enemies/sewer-clam.webp",
+      "translations": {
+        "zhHans": {
+          "name": "下水道蚌",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "增压",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "喷射",
+              "intent": "Attack",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "下水道蚌",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "下水道蚌"
+          ],
+          "movesSummary": "增压: Buff; 喷射: Attack (10 (Asc 11) dmg)"
+        }
+      }
     },
     {
       "id": "SHRINKER_BEETLE",
@@ -4197,7 +7923,54 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Shrinker: Debuff; Chomp: Attack (7 (Asc 8) dmg); Stomp: Attack (13 (Asc 14) dmg)",
-      "image": "/media/enemies/shrinker-beetle.webp"
+      "image": "/media/enemies/shrinker-beetle.webp",
+      "translations": {
+        "zhHans": {
+          "name": "缩小甲虫",
+          "type": "Normal",
+          "pattern": "缩小 → 大啃 → 践踏 → repeat",
+          "moves": [
+            {
+              "name": "缩小",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "大啃",
+              "intent": "Attack",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "践踏",
+              "intent": "Attack",
+              "damage": "13 (Asc 14) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "密林爬虫",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "缩小甲虫",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "密林爬虫",
+            "缩小甲虫"
+          ],
+          "movesSummary": "缩小: Debuff; 大啃: Attack (7 (Asc 8) dmg); 践踏: Attack (13 (Asc 14) dmg)"
+        }
+      }
     },
     {
       "id": "SLIMED_BERSERKER",
@@ -4250,7 +8023,55 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Vomit Ichor: Status; Leeching Hug: Debuff + Buff; Smother: Attack (30 (Asc 33) dmg); +1 more",
-      "image": "/media/enemies/slimed-berserker.webp"
+      "image": "/media/enemies/slimed-berserker.webp",
+      "translations": {
+        "zhHans": {
+          "name": "史莱姆狂战士",
+          "type": "Normal",
+          "pattern": "Always uses 喷吐脓水",
+          "moves": [
+            {
+              "name": "喷吐脓水",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "汲取之拥",
+              "intent": "Debuff + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Smother",
+              "intent": "Attack",
+              "damage": "30 (Asc 33) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "狂怒连击",
+              "intent": "Attack",
+              "damage": "4x4 (Asc 5x4) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "史莱姆狂战士",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "史莱姆狂战士"
+          ],
+          "movesSummary": "喷吐脓水: Status; 汲取之拥: Debuff + Buff; Smother: Attack (30 (Asc 33) dmg); +1 more"
+        }
+      }
     },
     {
       "id": "SLITHERING_STRANGLER",
@@ -4296,7 +8117,48 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Constrict: Debuff; Thwack: Attack + Defend (7 (Asc 8) dmg, 5 block); Lash: Attack (12 (Asc 13) dmg)",
-      "image": "/media/enemies/slithering-strangler.webp"
+      "image": "/media/enemies/slithering-strangler.webp",
+      "translations": {
+        "zhHans": {
+          "name": "蛇行扼杀者",
+          "type": "Normal",
+          "pattern": "Starts with 缠身",
+          "moves": [
+            {
+              "name": "缠身",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "重击",
+              "intent": "Attack + Defend",
+              "damage": "7 (Asc 8) damage",
+              "block": "5 block",
+              "heal": ""
+            },
+            {
+              "name": "甩动",
+              "intent": "Attack",
+              "damage": "12 (Asc 13) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "扼杀者与伙伴",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "扼杀者与伙伴"
+          ],
+          "movesSummary": "缠身: Debuff; 重击: Attack + Defend (7 (Asc 8) dmg, 5 block); 甩动: Attack (12 (Asc 13) dmg)"
+        }
+      }
     },
     {
       "id": "SLUDGE_SPINNER",
@@ -4342,7 +8204,48 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Oil Spray: Attack + Debuff (8 (Asc 9) dmg); Slam: Attack (11 (Asc 12) dmg); Rage: Attack + Buff (6 (Asc 7) dmg)",
-      "image": "/media/enemies/sludge-spinner.webp"
+      "image": "/media/enemies/sludge-spinner.webp",
+      "translations": {
+        "zhHans": {
+          "name": "淤泥旋螺",
+          "type": "Normal",
+          "pattern": "Starts with 喷油",
+          "moves": [
+            {
+              "name": "喷油",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "砸击",
+              "intent": "Attack",
+              "damage": "11 (Asc 12) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "狂怒",
+              "intent": "Attack + Buff",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "淤泥旋螺",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "淤泥旋螺"
+          ],
+          "movesSummary": "喷油: Attack + Debuff (8 (Asc 9) dmg); 砸击: Attack (11 (Asc 12) dmg); 狂怒: Attack + Buff (6 (Asc 7) dmg)"
+        }
+      }
     },
     {
       "id": "SLUMBERING_BEETLE",
@@ -4381,7 +8284,41 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Snore: Sleep; Roll Out: Attack + Buff (16 (Asc 18) dmg)",
-      "image": "/media/enemies/slumbering-beetle.webp"
+      "image": "/media/enemies/slumbering-beetle.webp",
+      "translations": {
+        "zhHans": {
+          "name": "熟睡甲虫",
+          "type": "Normal",
+          "pattern": "Starts with 打鼾",
+          "moves": [
+            {
+              "name": "打鼾",
+              "intent": "Sleep",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "出击",
+              "intent": "Attack + Buff",
+              "damage": "16 (Asc 18) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "熟睡派对",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "熟睡派对"
+          ],
+          "movesSummary": "打鼾: Sleep; 出击: Attack + Buff (16 (Asc 18) dmg)"
+        }
+      }
     },
     {
       "id": "SNAPPING_JAXFRUIT",
@@ -4419,7 +8356,40 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Energy Orb: Attack + Buff (3 (Asc 4) dmg)",
-      "image": "/media/enemies/snapping-jaxfruit.webp"
+      "image": "/media/enemies/snapping-jaxfruit.webp",
+      "translations": {
+        "zhHans": {
+          "name": "闪光贾克斯果",
+          "type": "Normal",
+          "pattern": "Always uses 能量球",
+          "moves": [
+            {
+              "name": "能量球",
+              "intent": "Attack + Buff",
+              "damage": "3 (Asc 4) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "扼杀者与伙伴",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "密林植物",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "密林植物",
+            "扼杀者与伙伴"
+          ],
+          "movesSummary": "能量球: Attack + Buff (3 (Asc 4) dmg)"
+        }
+      }
     },
     {
       "id": "SNEAKY_GREMLIN",
@@ -4458,7 +8428,41 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Wake Up: Stun; Tackle: Attack (9 (Asc 10) dmg)",
-      "image": "/media/enemies/sneaky-gremlin.webp"
+      "image": "/media/enemies/sneaky-gremlin.webp",
+      "translations": {
+        "zhHans": {
+          "name": "卑鄙地精",
+          "type": "Normal",
+          "pattern": "Always uses 醒来",
+          "moves": [
+            {
+              "name": "醒来",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "冲撞",
+              "intent": "Attack",
+              "damage": "9 (Asc 10) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "穿着一件大衣的两只地精",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "穿着一件大衣的两只地精"
+          ],
+          "movesSummary": "醒来: Stun; 冲撞: Attack (9 (Asc 10) dmg)"
+        }
+      }
     },
     {
       "id": "SPINY_TOAD",
@@ -4504,7 +8508,48 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Protruding Spikes: Buff; Spike Explosion: Attack (23 (Asc 25) dmg); Tongue Lash: Attack (17 (Asc 19) dmg)",
-      "image": "/media/enemies/spiny-toad.webp"
+      "image": "/media/enemies/spiny-toad.webp",
+      "translations": {
+        "zhHans": {
+          "name": "棘刺蟾蜍",
+          "type": "Normal",
+          "pattern": "伸出尖刺 → 尖刺爆破 → 吐舌 → repeat",
+          "moves": [
+            {
+              "name": "伸出尖刺",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "尖刺爆破",
+              "intent": "Attack",
+              "damage": "23 (Asc 25) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "吐舌",
+              "intent": "Attack",
+              "damage": "17 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "棘刺蟾蜍",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "棘刺蟾蜍"
+          ],
+          "movesSummary": "伸出尖刺: Buff; 尖刺爆破: Attack (23 (Asc 25) dmg); 吐舌: Attack (17 (Asc 19) dmg)"
+        }
+      }
     },
     {
       "id": "STABBOT",
@@ -4526,7 +8571,26 @@
       "encounterNames": [],
       "acts": [],
       "movesSummary": "Stab: Attack + Debuff (11 (Asc 12) dmg)",
-      "image": "/media/enemies/stabbot.webp"
+      "image": "/media/enemies/stabbot.webp",
+      "translations": {
+        "zhHans": {
+          "name": "戳刺机器人",
+          "type": "Normal",
+          "pattern": "Always uses 戳刺",
+          "moves": [
+            {
+              "name": "戳刺",
+              "intent": "Attack + Debuff",
+              "damage": "11 (Asc 12) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "戳刺: Attack + Debuff (11 (Asc 12) dmg)"
+        }
+      }
     },
     {
       "id": "THE_ADVERSARY_MK_ONE",
@@ -4562,7 +8626,40 @@
       "encounterNames": [],
       "acts": [],
       "movesSummary": "Smash: Attack (12 dmg); Beam: Attack (15 dmg); Barrage: Attack + Buff (8x2 dmg)",
-      "image": "/media/enemies/the-adversary-mk-one.webp"
+      "image": "/media/enemies/the-adversary-mk-one.webp",
+      "translations": {
+        "zhHans": {
+          "name": "对手1型",
+          "type": "Normal",
+          "pattern": "砸击 → 光束 → 弹幕 → repeat",
+          "moves": [
+            {
+              "name": "砸击",
+              "intent": "Attack",
+              "damage": "12 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "光束",
+              "intent": "Attack",
+              "damage": "15 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "弹幕",
+              "intent": "Attack + Buff",
+              "damage": "8x2 damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "砸击: Attack (12 dmg); 光束: Attack (15 dmg); 弹幕: Attack + Buff (8x2 dmg)"
+        }
+      }
     },
     {
       "id": "THE_ADVERSARY_MK_TWO",
@@ -4598,7 +8695,40 @@
       "encounterNames": [],
       "acts": [],
       "movesSummary": "Bash: Attack (13 dmg); Flame Beam: Attack (16 dmg); Barrage: Attack + Buff (9x2 dmg)",
-      "image": "/media/enemies/the-adversary-mk-two.webp"
+      "image": "/media/enemies/the-adversary-mk-two.webp",
+      "translations": {
+        "zhHans": {
+          "name": "对手2型",
+          "type": "Normal",
+          "pattern": "猛击 → 火焰光束 → 弹幕 → repeat",
+          "moves": [
+            {
+              "name": "猛击",
+              "intent": "Attack",
+              "damage": "13 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "火焰光束",
+              "intent": "Attack",
+              "damage": "16 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "弹幕",
+              "intent": "Attack + Buff",
+              "damage": "9x2 damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "猛击: Attack (13 dmg); 火焰光束: Attack (16 dmg); 弹幕: Attack + Buff (9x2 dmg)"
+        }
+      }
     },
     {
       "id": "THE_ADVERSARY_MK_THREE",
@@ -4634,7 +8764,40 @@
       "encounterNames": [],
       "acts": [],
       "movesSummary": "Crash: Attack (15 dmg); Flame Beam: Attack (18 dmg); Barrage: Attack + Buff (10x2 dmg)",
-      "image": "/media/enemies/the-adversary-mk-three.webp"
+      "image": "/media/enemies/the-adversary-mk-three.webp",
+      "translations": {
+        "zhHans": {
+          "name": "对手3型",
+          "type": "Normal",
+          "pattern": "冲击 → 火焰光束 → 弹幕 → repeat",
+          "moves": [
+            {
+              "name": "冲击",
+              "intent": "Attack",
+              "damage": "15 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "火焰光束",
+              "intent": "Attack",
+              "damage": "18 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "弹幕",
+              "intent": "Attack + Buff",
+              "damage": "10x2 damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "冲击: Attack (15 dmg); 火焰光束: Attack (18 dmg); 弹幕: Attack + Buff (10x2 dmg)"
+        }
+      }
     },
     {
       "id": "ARCHITECT",
@@ -4664,7 +8827,34 @@
       ],
       "acts": [],
       "movesSummary": "Nothing: Unknown",
-      "image": "/media/enemies/architect.webp"
+      "image": "/media/enemies/architect.webp",
+      "translations": {
+        "zhHans": {
+          "name": "建筑师",
+          "type": "Normal",
+          "pattern": "Always uses 无",
+          "moves": [
+            {
+              "name": "无",
+              "intent": "Unknown",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "建筑师",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "建筑师"
+          ],
+          "movesSummary": "无: Unknown"
+        }
+      }
     },
     {
       "id": "THE_FORGOTTEN",
@@ -4703,7 +8893,41 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Miasma: Debuff + Defend + Buff (8 block); Dread: Attack",
-      "image": "/media/enemies/the-forgotten.webp"
+      "image": "/media/enemies/the-forgotten.webp",
+      "translations": {
+        "zhHans": {
+          "name": "遗忘之物",
+          "type": "Normal",
+          "pattern": "Always uses 瘴气",
+          "moves": [
+            {
+              "name": "瘴气",
+              "intent": "Debuff + Defend + Buff",
+              "damage": "",
+              "block": "8 block",
+              "heal": ""
+            },
+            {
+              "name": "恐惧",
+              "intent": "Attack",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "失落与遗忘之物",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "失落与遗忘之物"
+          ],
+          "movesSummary": "瘴气: Debuff + Defend + Buff (8 block); 恐惧: Attack"
+        }
+      }
     },
     {
       "id": "THE_LOST",
@@ -4742,7 +8966,41 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Debilitating Smog: Debuff + Buff; Eye Lasers: Attack (4x2 (Asc 5x2) dmg)",
-      "image": "/media/enemies/the-lost.webp"
+      "image": "/media/enemies/the-lost.webp",
+      "translations": {
+        "zhHans": {
+          "name": "失落之物",
+          "type": "Normal",
+          "pattern": "Always uses 致残雾霾",
+          "moves": [
+            {
+              "name": "致残雾霾",
+              "intent": "Debuff + Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "眼部激光",
+              "intent": "Attack",
+              "damage": "4x2 (Asc 5x2) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "失落与遗忘之物",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "失落与遗忘之物"
+          ],
+          "movesSummary": "致残雾霾: Debuff + Buff; 眼部激光: Attack (4x2 (Asc 5x2) dmg)"
+        }
+      }
     },
     {
       "id": "FAKE_MERCHANT_MONSTER",
@@ -4793,7 +9051,55 @@
       ],
       "acts": [],
       "movesSummary": "Swipe: Attack (13 (Asc 15) dmg); Spew Coins: Attack (2 dmg); Throw Relic: Attack + Debuff (9 (Asc 10) dmg); +1 more",
-      "image": "/media/enemies/fake-merchant-monster.webp"
+      "image": "/media/enemies/fake-merchant-monster.webp",
+      "translations": {
+        "zhHans": {
+          "name": "商人？？？",
+          "type": "Normal",
+          "pattern": "Starts with 顺走",
+          "moves": [
+            {
+              "name": "顺走",
+              "intent": "Attack",
+              "damage": "13 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "喷吐硬币",
+              "intent": "Attack",
+              "damage": "2 damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "投掷遗物",
+              "intent": "Attack + Debuff",
+              "damage": "9 (Asc 10) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "激怒",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "商人？？？",
+              "roomType": "Monster",
+              "act": null
+            }
+          ],
+          "encounterNames": [
+            "商人？？？"
+          ],
+          "movesSummary": "顺走: Attack (13 (Asc 15) dmg); 喷吐硬币: Attack (2 dmg); 投掷遗物: Attack + Debuff (9 (Asc 10) dmg); +1 more"
+        }
+      }
     },
     {
       "id": "THE_OBSCURA",
@@ -4846,7 +9152,55 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Illusion: Summon; Piercing Gaze: Attack (10 (Asc 11) dmg); Sail: Buff; +1 more",
-      "image": "/media/enemies/the-obscura.webp"
+      "image": "/media/enemies/the-obscura.webp",
+      "translations": {
+        "zhHans": {
+          "name": "胧光怪",
+          "type": "Normal",
+          "pattern": "Starts with 幻象",
+          "moves": [
+            {
+              "name": "幻象",
+              "intent": "Summon",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "锐利凝视",
+              "intent": "Attack",
+              "damage": "10 (Asc 11) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "起航",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "硬化攻击",
+              "intent": "Attack + Defend",
+              "damage": "6 (Asc 7) damage",
+              "block": "6 block",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "胧光怪",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "胧光怪"
+          ],
+          "movesSummary": "幻象: Summon; 锐利凝视: Attack (10 (Asc 11) dmg); 起航: Buff; +1 more"
+        }
+      }
     },
     {
       "id": "THIEVING_HOPPER",
@@ -4906,7 +9260,62 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Thievery: Attack + Debuff (17 (Asc 19) dmg); Nab: Attack (14 (Asc 16) dmg); Hat Trick: Attack (21 (Asc 23) dmg); +2 more",
-      "image": "/media/enemies/thieving-hopper.webp"
+      "image": "/media/enemies/thieving-hopper.webp",
+      "translations": {
+        "zhHans": {
+          "name": "偷窃草蜢",
+          "type": "Normal",
+          "pattern": "偷盗 → 振翅 → 帽子戏法 → 抢夺 → 逃跑 → repeat",
+          "moves": [
+            {
+              "name": "偷盗",
+              "intent": "Attack + Debuff",
+              "damage": "17 (Asc 19) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "抢夺",
+              "intent": "Attack",
+              "damage": "14 (Asc 16) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "帽子戏法",
+              "intent": "Attack",
+              "damage": "21 (Asc 23) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "振翅",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "逃跑",
+              "intent": "Escape",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "偷窃草蜢",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "偷窃草蜢"
+          ],
+          "movesSummary": "偷盗: Attack + Debuff (17 (Asc 19) dmg); 抢夺: Attack (14 (Asc 16) dmg); 帽子戏法: Attack (21 (Asc 23) dmg); +2 more"
+        }
+      }
     },
     {
       "id": "TOADPOLE",
@@ -4952,7 +9361,48 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Spike Spit: Attack (3x3 (Asc 4x3) dmg); Whirl: Attack (7 (Asc 8) dmg); Spiken: Buff",
-      "image": "/media/enemies/toadpole.webp"
+      "image": "/media/enemies/toadpole.webp",
+      "translations": {
+        "zhHans": {
+          "name": "蟾蜍蝌蚪",
+          "type": "Normal",
+          "pattern": "then conditional: 旋转 (if not in front) / 带刺 (if in front)",
+          "moves": [
+            {
+              "name": "吐刺",
+              "intent": "Attack",
+              "damage": "3x3 (Asc 4x3) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "旋转",
+              "intent": "Attack",
+              "damage": "7 (Asc 8) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "带刺",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "蟾蜍蝌蚪",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "蟾蜍蝌蚪"
+          ],
+          "movesSummary": "吐刺: Attack (3x3 (Asc 4x3) dmg); 旋转: Attack (7 (Asc 8) dmg); 带刺: Buff"
+        }
+      }
     },
     {
       "id": "TOUGH_EGG",
@@ -4991,7 +9441,41 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Hatch: Summon; Nibble: Attack (4 (Asc 5) dmg)",
-      "image": "/media/enemies/tough-egg.webp"
+      "image": "/media/enemies/tough-egg.webp",
+      "translations": {
+        "zhHans": {
+          "name": "结实的卵",
+          "type": "Normal",
+          "pattern": "Always uses 孵化",
+          "moves": [
+            {
+              "name": "孵化",
+              "intent": "Summon",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "啃咬",
+              "intent": "Attack",
+              "damage": "4 (Asc 5) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "直飞产卵虫",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "直飞产卵虫"
+          ],
+          "movesSummary": "孵化: Summon; 啃咬: Attack (4 (Asc 5) dmg)"
+        }
+      }
     },
     {
       "id": "TRACKER_RUBY_RAIDER",
@@ -5030,7 +9514,41 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Track: Debuff; Unleash the Hounds: Attack (1x8 dmg)",
-      "image": "/media/enemies/tracker-ruby-raider.webp"
+      "image": "/media/enemies/tracker-ruby-raider.webp",
+      "translations": {
+        "zhHans": {
+          "name": "劫掠者追踪手",
+          "type": "Normal",
+          "pattern": "Always uses 追踪",
+          "moves": [
+            {
+              "name": "追踪",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "放狗",
+              "intent": "Attack",
+              "damage": "1x8 damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "红宝石劫掠者",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "红宝石劫掠者"
+          ],
+          "movesSummary": "追踪: Debuff; 放狗: Attack (1x8 dmg)"
+        }
+      }
     },
     {
       "id": "TUNNELER",
@@ -5089,7 +9607,61 @@
         "Act 2 - Hive"
       ],
       "movesSummary": "Bite: Attack (13 (Asc 15) dmg); Burrow: Buff + Defend (32 block); Attack from Below: Attack (23 (Asc 26) dmg); +1 more",
-      "image": "/media/enemies/tunneler.webp"
+      "image": "/media/enemies/tunneler.webp",
+      "translations": {
+        "zhHans": {
+          "name": "地道虫",
+          "type": "Normal",
+          "pattern": "啃咬 → 钻洞 → 下方攻击 → repeat",
+          "moves": [
+            {
+              "name": "啃咬",
+              "intent": "Attack",
+              "damage": "13 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "钻洞",
+              "intent": "Buff + Defend",
+              "damage": "",
+              "block": "32 block",
+              "heal": ""
+            },
+            {
+              "name": "下方攻击",
+              "intent": "Attack",
+              "damage": "23 (Asc 26) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Dizzy",
+              "intent": "Stun",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "地道组合",
+              "roomType": "Monster",
+              "act": null
+            },
+            {
+              "name": "地道虫",
+              "roomType": "Monster",
+              "act": "Act 2 - Hive"
+            }
+          ],
+          "encounterNames": [
+            "地道组合",
+            "地道虫"
+          ],
+          "movesSummary": "啃咬: Attack (13 (Asc 15) dmg); 钻洞: Buff + Defend (32 block); 下方攻击: Attack (23 (Asc 26) dmg); +1 more"
+        }
+      }
     },
     {
       "id": "TURRET_OPERATOR",
@@ -5135,7 +9707,48 @@
         "Act 3 - Glory"
       ],
       "movesSummary": "Unload!: Attack (3x5 (Asc 4x5) dmg); Unload Move 2: Attack (3x5 (Asc 4x5) dmg); Reload: Buff",
-      "image": "/media/enemies/turret-operator.webp"
+      "image": "/media/enemies/turret-operator.webp",
+      "translations": {
+        "zhHans": {
+          "name": "高塔炮手",
+          "type": "Normal",
+          "pattern": "弹雨！ → Unload Move 2 → 装弹 → repeat",
+          "moves": [
+            {
+              "name": "弹雨！",
+              "intent": "Attack",
+              "damage": "3x5 (Asc 4x5) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "Unload Move 2",
+              "intent": "Attack",
+              "damage": "3x5 (Asc 4x5) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "装弹",
+              "intent": "Buff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "高塔炮手",
+              "roomType": "Monster",
+              "act": "Act 3 - Glory"
+            }
+          ],
+          "encounterNames": [
+            "高塔炮手"
+          ],
+          "movesSummary": "弹雨！: Attack (3x5 (Asc 4x5) dmg); Unload Move 2: Attack (3x5 (Asc 4x5) dmg); 装弹: Buff"
+        }
+      }
     },
     {
       "id": "TWIG_SLIME_M",
@@ -5192,7 +9805,59 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Pokey Pounce: Attack (11 (Asc 12) dmg); Sticky Shot: Status",
-      "image": "/media/enemies/twig-slime-m.webp"
+      "image": "/media/enemies/twig-slime-m.webp",
+      "translations": {
+        "zhHans": {
+          "name": "树枝史莱姆（中）",
+          "type": "Normal",
+          "pattern": "Starts with 黏糊射击",
+          "moves": [
+            {
+              "name": "戳刺扑击",
+              "intent": "Attack",
+              "damage": "11 (Asc 12) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "黏糊射击",
+              "intent": "Status",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "真菌与史莱姆",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "一大群史莱姆",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "一群史莱姆",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "扼杀者与伙伴",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "一大群史莱姆",
+            "一群史莱姆",
+            "扼杀者与伙伴",
+            "真菌与史莱姆"
+          ],
+          "movesSummary": "戳刺扑击: Attack (11 (Asc 12) dmg); 黏糊射击: Status"
+        }
+      }
     },
     {
       "id": "TWIG_SLIME_S",
@@ -5236,7 +9901,46 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Tackle: Attack (4 (Asc 5) dmg)",
-      "image": "/media/enemies/twig-slime-s.webp"
+      "image": "/media/enemies/twig-slime-s.webp",
+      "translations": {
+        "zhHans": {
+          "name": "树枝史莱姆（小）",
+          "type": "Normal",
+          "pattern": "Always uses 冲撞",
+          "moves": [
+            {
+              "name": "冲撞",
+              "intent": "Attack",
+              "damage": "4 (Asc 5) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "一大群史莱姆",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "一群史莱姆",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            },
+            {
+              "name": "扼杀者与伙伴",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "一大群史莱姆",
+            "一群史莱姆",
+            "扼杀者与伙伴"
+          ],
+          "movesSummary": "冲撞: Attack (4 (Asc 5) dmg)"
+        }
+      }
     },
     {
       "id": "TWO_TAILED_RAT",
@@ -5289,7 +9993,55 @@
         "Act 1 - Underdocks"
       ],
       "movesSummary": "Scratch: Attack (8 (Asc 9) dmg); Disease Bite: Attack (6 (Asc 7) dmg); Screech: Debuff; +1 more",
-      "image": "/media/enemies/two-tailed-rat.webp"
+      "image": "/media/enemies/two-tailed-rat.webp",
+      "translations": {
+        "zhHans": {
+          "name": "双尾鼠",
+          "type": "Normal",
+          "pattern": "",
+          "moves": [
+            {
+              "name": "抓挠",
+              "intent": "Attack",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "疾病啃咬",
+              "intent": "Attack",
+              "damage": "6 (Asc 7) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "尖声嘶吼",
+              "intent": "Debuff",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "呼唤后援",
+              "intent": "Summon",
+              "damage": "",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "双尾鼠",
+              "roomType": "Monster",
+              "act": "Act 1 - Underdocks"
+            }
+          ],
+          "encounterNames": [
+            "双尾鼠"
+          ],
+          "movesSummary": "抓挠: Attack (8 (Asc 9) dmg); 疾病啃咬: Attack (6 (Asc 7) dmg); 尖声嘶吼: Debuff; +1 more"
+        }
+      }
     },
     {
       "id": "VINE_SHAMBLER",
@@ -5335,7 +10087,48 @@
         "Act 1 - Overgrowth"
       ],
       "movesSummary": "Grasping Vines: Attack + Debuff (8 (Asc 9) dmg); Swipe: Attack (6x2 (Asc 7x2) dmg); Chomp: Attack (16 (Asc 18) dmg)",
-      "image": "/media/enemies/vine-shambler.webp"
+      "image": "/media/enemies/vine-shambler.webp",
+      "translations": {
+        "zhHans": {
+          "name": "藤蔓蹒跚者",
+          "type": "Normal",
+          "pattern": "挥击 → 紧绕藤蔓 → 大啃 → repeat",
+          "moves": [
+            {
+              "name": "紧绕藤蔓",
+              "intent": "Attack + Debuff",
+              "damage": "8 (Asc 9) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "挥击",
+              "intent": "Attack",
+              "damage": "6x2 (Asc 7x2) damage",
+              "block": "",
+              "heal": ""
+            },
+            {
+              "name": "大啃",
+              "intent": "Attack",
+              "damage": "16 (Asc 18) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [
+            {
+              "name": "藤蔓蹒跚者",
+              "roomType": "Monster",
+              "act": "Act 1 - Overgrowth"
+            }
+          ],
+          "encounterNames": [
+            "藤蔓蹒跚者"
+          ],
+          "movesSummary": "紧绕藤蔓: Attack + Debuff (8 (Asc 9) dmg); 挥击: Attack (6x2 (Asc 7x2) dmg); 大啃: Attack (16 (Asc 18) dmg)"
+        }
+      }
     },
     {
       "id": "ZAPBOT",
@@ -5357,7 +10150,26 @@
       "encounterNames": [],
       "acts": [],
       "movesSummary": "Zap: Attack (14 (Asc 15) dmg)",
-      "image": "/media/enemies/zapbot.webp"
+      "image": "/media/enemies/zapbot.webp",
+      "translations": {
+        "zhHans": {
+          "name": "电击机器人",
+          "type": "Normal",
+          "pattern": "Always uses 电击",
+          "moves": [
+            {
+              "name": "电击",
+              "intent": "Attack",
+              "damage": "14 (Asc 15) damage",
+              "block": "",
+              "heal": ""
+            }
+          ],
+          "encounters": [],
+          "encounterNames": [],
+          "movesSummary": "电击: Attack (14 (Asc 15) dmg)"
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,79 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import LanguageToggle from '../../../../components/LanguageToggle.astro';
+import { enemies } from '../../../../data/enemies';
+
+export const getStaticPaths = (() =>
+  enemies.map((enemy) => ({ params: { slug: enemy.slug }, props: { enemy } }))) satisfies GetStaticPaths;
+
+const { enemy } = Astro.props;
+const zh = enemy.translations?.zhHans;
+const title = zh?.name || enemy.name;
+const type = zh?.type || enemy.type;
+const pattern = zh?.pattern || enemy.pattern;
+const moves = zh?.moves || enemy.moves;
+const encounters = zh?.encounters || enemy.encounters;
+const norm = (val: string) =>
+  String(val).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+const description = `${type} 敌人，生命 ${enemy.hp}。${pattern}`;
+---
+
+<StarlightPage frontmatter={{ title, description }}>
+  <LanguageToggle locale="zhs" />
+  <div class="wiki-entity-hero">
+    <img class="wiki-image" src={enemy.image} alt={title} loading="eager" decoding="async" fetchpriority="high" />
+    <div class="wiki-entity-hero__details">
+      <div class="entity-badges">
+        <span class={`tag tag--type-${norm(enemy.type)}`}>{type}</span>
+        <span class="badge">{enemy.hp} 生命</span>
+      </div>
+      <table>
+        <tbody>
+          <tr><th scope="row">类型</th><td>{type}</td></tr>
+          <tr><th scope="row">生命</th><td>{enemy.hp}</td></tr>
+          <tr><th scope="row">行动模式</th><td>{pattern}</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <h2 id="moves">行动</h2>
+  <table>
+    <thead>
+      <tr><th>行动</th><th>意图</th><th>伤害</th><th>格挡</th><th>治疗</th></tr>
+    </thead>
+    <tbody>
+      {moves.length > 0 ? (
+        moves.map((m) => (
+          <tr>
+            <td>{m.name}</td>
+            <td>{m.intent || '-'}</td>
+            <td>{m.damage || '-'}</td>
+            <td>{m.block || '-'}</td>
+            <td>{m.heal || '-'}</td>
+          </tr>
+        ))
+      ) : (
+        <tr><td colspan="5">暂无行动数据。</td></tr>
+      )}
+    </tbody>
+  </table>
+
+  {encounters.length > 0 && (
+    <>
+      <h2 id="encounters">遭遇</h2>
+      <table>
+        <thead><tr><th>遭遇</th><th>房间</th><th>章节</th></tr></thead>
+        <tbody>
+          {encounters.map((en) => (
+            <tr><td>{en.name}</td><td>{en.roomType}</td><td>{en.act || '-'}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )}
+
+  <p><a href="/zhs/docs/enemies/">返回全部敌人</a></p>
+</StarlightPage>

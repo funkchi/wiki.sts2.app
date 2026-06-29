@@ -57,7 +57,93 @@
           "label": "Banter Dead",
           "text": "..."
         }
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "铁甲战士",
+          "character": "铁甲战士",
+          "description": "铁甲军团最后的士兵。 并非出自自身的意愿，用刀剑与烈焰击溃敌人们。",
+          "unlocksAfter": "",
+          "startingDeck": [
+            {
+              "id": "StrikeIronclad",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeIronclad",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeIronclad",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeIronclad",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeIronclad",
+              "name": "打击"
+            },
+            {
+              "id": "DefendIronclad",
+              "name": "防御"
+            },
+            {
+              "id": "DefendIronclad",
+              "name": "防御"
+            },
+            {
+              "id": "DefendIronclad",
+              "name": "防御"
+            },
+            {
+              "id": "DefendIronclad",
+              "name": "防御"
+            },
+            {
+              "id": "Bash",
+              "name": "痛击"
+            }
+          ],
+          "startingRelics": [
+            {
+              "id": "BurningBlood",
+              "name": "燃烧之血"
+            }
+          ],
+          "quotes": [
+            {
+              "key": "event_death_prevention",
+              "text": "我的队伍还需要我。"
+            },
+            {
+              "key": "gold_monologue",
+              "text": "这些财富可以充实部落的军库……"
+            },
+            {
+              "key": "aroma_principle",
+              "text": "疼痛算得了什么，我的敌人们必须死。"
+            },
+            {
+              "key": "banter_alive",
+              "text": "快点。"
+            },
+            {
+              "key": "banter_dead",
+              "text": "……"
+            },
+            {
+              "key": "cards_modifier_title",
+              "text": "铁甲战士卡牌"
+            },
+            {
+              "key": "cards_modifier_description",
+              "text": "铁甲战士的卡牌现在会出现在奖励和商店中。"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "SILENT",
@@ -122,7 +208,105 @@
           "label": "Unlock Text",
           "text": "Play a single run to unlock this character."
         }
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "静默猎手",
+          "character": "静默猎手",
+          "description": "一位来自尖塔之外的女猎手。 随时准备刀刺与毒杀任何拦路者。",
+          "unlocksAfter": "",
+          "startingDeck": [
+            {
+              "id": "StrikeSilent",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeSilent",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeSilent",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeSilent",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeSilent",
+              "name": "打击"
+            },
+            {
+              "id": "DefendSilent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendSilent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendSilent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendSilent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendSilent",
+              "name": "防御"
+            },
+            {
+              "id": "Neutralize",
+              "name": "中和"
+            },
+            {
+              "id": "Survivor",
+              "name": "生存者"
+            }
+          ],
+          "startingRelics": [
+            {
+              "id": "RingOfTheSnake",
+              "name": "蛇之戒指"
+            }
+          ],
+          "quotes": [
+            {
+              "key": "event_death_prevention",
+              "text": "活下去才能继续狩猎……"
+            },
+            {
+              "key": "gold_monologue",
+              "text": "我的姐妹们一定会为这些财富感到骄傲……"
+            },
+            {
+              "key": "aroma_principle",
+              "text": "……狩猎……证明……属于……"
+            },
+            {
+              "key": "banter_alive",
+              "text": "……"
+            },
+            {
+              "key": "banter_dead",
+              "text": "……"
+            },
+            {
+              "key": "unlock_text",
+              "text": "进行一局游戏来解锁这个角色。"
+            },
+            {
+              "key": "cards_modifier_title",
+              "text": "静默猎手卡牌"
+            },
+            {
+              "key": "cards_modifier_description",
+              "text": "静默猎手的卡牌现在会出现在奖励和商店中。"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "DEFECT",
@@ -187,7 +371,97 @@
           "label": "Unlock Text",
           "text": "Play a single run with {Prerequisite} to unlock this character."
         }
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "故障机器人",
+          "character": "故障机器人",
+          "description": "一具不停改造自己来生存下去的自动机械。 在不得不战斗时，它会使用充能球科技来作战。",
+          "unlocksAfter": "Necrobinder",
+          "startingDeck": [
+            {
+              "id": "StrikeDefect",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeDefect",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeDefect",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeDefect",
+              "name": "打击"
+            },
+            {
+              "id": "DefendDefect",
+              "name": "防御"
+            },
+            {
+              "id": "DefendDefect",
+              "name": "防御"
+            },
+            {
+              "id": "DefendDefect",
+              "name": "防御"
+            },
+            {
+              "id": "DefendDefect",
+              "name": "防御"
+            },
+            {
+              "id": "Zap",
+              "name": "电击"
+            },
+            {
+              "id": "Dualcast",
+              "name": "双重释放"
+            }
+          ],
+          "startingRelics": [
+            {
+              "id": "CrackedCore",
+              "name": "破损核心"
+            }
+          ],
+          "quotes": [
+            {
+              "key": "event_death_prevention",
+              "text": "为了我的朋友们，我必须活下去！"
+            },
+            {
+              "key": "gold_monologue",
+              "text": "这些金币可以用来交换零件……"
+            },
+            {
+              "key": "aroma_principle",
+              "text": "1100 0011 1100 0011……"
+            },
+            {
+              "key": "banter_alive",
+              "text": "0x54494D45 0x204C494D 0x49542045 0x58434545 0x00444544"
+            },
+            {
+              "key": "banter_dead",
+              "text": "……"
+            },
+            {
+              "key": "unlock_text",
+              "text": "用{Prerequisite}进行一局游戏来解锁这个角色。"
+            },
+            {
+              "key": "cards_modifier_title",
+              "text": "故障机器人卡牌"
+            },
+            {
+              "key": "cards_modifier_description",
+              "text": "故障机器人的卡牌现在会出现在奖励和商店中。"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "NECROBINDER",
@@ -252,7 +526,97 @@
           "label": "Unlock Text",
           "text": "Play a single run with {Prerequisite} to unlock this character."
         }
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "亡灵契约师",
+          "character": "亡灵契约师",
+          "description": "一位出生在尖塔的巫妖，正在寻求复仇。 战斗中会召唤她可靠的左手奥斯提。",
+          "unlocksAfter": "Regent",
+          "startingDeck": [
+            {
+              "id": "StrikeNecrobinder",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeNecrobinder",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeNecrobinder",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeNecrobinder",
+              "name": "打击"
+            },
+            {
+              "id": "DefendNecrobinder",
+              "name": "防御"
+            },
+            {
+              "id": "DefendNecrobinder",
+              "name": "防御"
+            },
+            {
+              "id": "DefendNecrobinder",
+              "name": "防御"
+            },
+            {
+              "id": "DefendNecrobinder",
+              "name": "防御"
+            },
+            {
+              "id": "Bodyguard",
+              "name": "护卫"
+            },
+            {
+              "id": "Unleash",
+              "name": "出击"
+            }
+          ],
+          "startingRelics": [
+            {
+              "id": "BoundPhylactery",
+              "name": "缚魂命匣"
+            }
+          ],
+          "quotes": [
+            {
+              "key": "event_death_prevention",
+              "text": "我的朋友们可不能没有我。"
+            },
+            {
+              "key": "gold_monologue",
+              "text": "或许我终于可以买几双鞋子了……"
+            },
+            {
+              "key": "aroma_principle",
+              "text": "他们的仇一定要报……我不会动摇……"
+            },
+            {
+              "key": "banter_alive",
+              "text": "再等几天也行……"
+            },
+            {
+              "key": "banter_dead",
+              "text": "……"
+            },
+            {
+              "key": "unlock_text",
+              "text": "用{Prerequisite}进行一局游戏来解锁这个角色。"
+            },
+            {
+              "key": "cards_modifier_title",
+              "text": "亡灵契约师卡牌"
+            },
+            {
+              "key": "cards_modifier_description",
+              "text": "亡灵契约师的卡牌现在会出现在奖励和商店中。"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "REGENT",
@@ -317,7 +681,97 @@
           "label": "Unlock Text",
           "text": "Play a single run with {Prerequisite} to unlock this character."
         }
-      ]
+      ],
+      "translations": {
+        "zhHans": {
+          "name": "储君",
+          "character": "储君",
+          "description": "群星王座的继承人。 拥有宇宙的力量，但总是让他的仆从们去做各种事情。",
+          "unlocksAfter": "Silent",
+          "startingDeck": [
+            {
+              "id": "StrikeRegent",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeRegent",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeRegent",
+              "name": "打击"
+            },
+            {
+              "id": "StrikeRegent",
+              "name": "打击"
+            },
+            {
+              "id": "DefendRegent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendRegent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendRegent",
+              "name": "防御"
+            },
+            {
+              "id": "DefendRegent",
+              "name": "防御"
+            },
+            {
+              "id": "FallingStar",
+              "name": "陨星"
+            },
+            {
+              "id": "Venerate",
+              "name": "崇拜"
+            }
+          ],
+          "startingRelics": [
+            {
+              "id": "DivineRight",
+              "name": "天赋君权"
+            }
+          ],
+          "quotes": [
+            {
+              "key": "event_death_prevention",
+              "text": "为了我的队伍，我必须活下去！！"
+            },
+            {
+              "key": "gold_monologue",
+              "text": "我可以用这来征召一支不是白痴的军队……"
+            },
+            {
+              "key": "aroma_principle",
+              "text": "我是下一任群星之王……"
+            },
+            {
+              "key": "banter_alive",
+              "text": "我等着！！"
+            },
+            {
+              "key": "banter_dead",
+              "text": "……"
+            },
+            {
+              "key": "unlock_text",
+              "text": "用{Prerequisite}进行一局游戏来解锁这个角色。"
+            },
+            {
+              "key": "cards_modifier_title",
+              "text": "储君卡牌"
+            },
+            {
+              "key": "cards_modifier_description",
+              "text": "储君的卡牌现在会出现在奖励和商店中。"
+            }
+          ]
+        }
+      }
     }
   ]
 }

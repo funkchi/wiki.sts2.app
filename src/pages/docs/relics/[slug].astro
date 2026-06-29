@@ -1,6 +1,7 @@
 ---
 import type { GetStaticPaths } from 'astro';
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import LanguageToggle from '../../../components/LanguageToggle.astro';
 import { relics, relicBySlug } from '../../../data/relics';
 import { poolColor } from '../../../data/characters';
 
@@ -19,6 +20,7 @@ const description = relic.description || `${relic.name} - ${relic.rarity} relic.
 ---
 
 <StarlightPage frontmatter={{ title: relic.name, description }}>
+  <LanguageToggle />
   <div class="wiki-entity-hero">
     <img class="wiki-image" src={relic.image} alt={relic.name} loading="eager" decoding="async" fetchpriority="high" />
     <div class="wiki-entity-hero__details">

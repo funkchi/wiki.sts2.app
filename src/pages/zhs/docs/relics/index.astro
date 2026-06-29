@@ -1,0 +1,43 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../../components/EntityBrowser.svelte';
+import LanguageToggle from '../../../../components/LanguageToggle.astro';
+import { relics } from '../../../../data/relics';
+import { poolColor } from '../../../../data/characters';
+
+const rows = relics.map((r) => {
+  const zh = r.translations?.zhHans;
+  return {
+    slug: r.slug,
+    name: zh?.name || r.name,
+    englishName: r.name,
+    pool: zh?.pool || r.pool,
+    poolColor: poolColor(r.poolRaw),
+    price: r.price,
+    rarity: zh?.rarity || r.rarity,
+    description: zh?.description || r.description,
+  };
+});
+---
+
+<StarlightPage frontmatter={{ title: '遗物', description: '杀戮尖塔 2 中文遗物资料。' }}>
+  <LanguageToggle locale="zhs" />
+  <p>
+    本页中文翻译来自 <a href="https://spire-codex.com/docs">Spire Codex API</a>{' '}
+    <code>/api/exports/zhs</code> 导出。
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/zhs/docs/relics/"
+    noun="件遗物"
+    nameLabel="遗物"
+    columns={[
+      { field: 'englishName', label: '英文', width: '16rem' },
+      { field: 'pool', label: '卡池' },
+      { field: 'price', label: '价格' },
+      { field: 'rarity', label: '稀有度', format: 'relicRarity' },
+    ]}
+    filters={[{ field: 'rarity', label: '稀有度' }, { field: 'pool', label: '卡池' }]}
+  />
+</StarlightPage>

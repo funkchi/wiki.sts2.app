@@ -30,6 +30,41 @@ body {
   font-family: var(--sts2-font);
 }
 
+.language-toggle {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 10;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.65rem 0.4rem 0.45rem;
+  border: 1px solid var(--sts2-line);
+  border-radius: var(--sts2-radius-pill);
+  background: color-mix(in srgb, var(--sl-color-bg) 88%, transparent);
+  color: var(--sl-color-text);
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(8px);
+}
+.language-toggle:hover,
+.language-toggle:focus-visible {
+  color: var(--sl-color-text-accent);
+  border-color: var(--sl-color-text-accent);
+  outline: none;
+}
+.language-toggle img {
+  width: 1.35rem;
+  height: 1.35rem;
+  object-fit: contain;
+  filter: invert(1);
+}
+:root[data-theme='light'] .language-toggle img {
+  filter: none;
+}
+
 /* ===== Recolor Starlight to match the landing's identity ===== */
 :root,
 :root[data-theme='dark'] {

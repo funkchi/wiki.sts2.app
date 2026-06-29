@@ -1,0 +1,29 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import LanguageToggle from '../../../components/LanguageToggle.astro';
+import { cards } from '../../../data/cards';
+import { relics } from '../../../data/relics';
+import { enemies } from '../../../data/enemies';
+import { characters } from '../../../data/characters';
+
+const sections = [
+  { label: '卡牌', href: '/zhs/docs/cards/', count: cards.length, blurb: '可搜索的卡牌库，包含基础和升级文本。' },
+  { label: '遗物', href: '/zhs/docs/relics/', count: relics.length, blurb: '遗物效果、归属、稀有度与商店价格。' },
+  { label: '敌人', href: '/zhs/docs/enemies/', count: enemies.length, blurb: '敌人的生命、行动、意图和遭遇。' },
+  { label: '角色', href: '/zhs/docs/characters/', count: characters.length, blurb: '可玩角色、初始卡组和初始遗物。' },
+];
+---
+
+<StarlightPage frontmatter={{ title: '中文资料库', description: '杀戮尖塔 2 中文资料索引。' }}>
+  <LanguageToggle locale="zhs" />
+  <p>杀戮尖塔 2 社区资料库。选择一个分类开始：</p>
+  <div class="wiki-hub-grid">
+    {sections.map((s) => (
+      <a class="hub-card" href={s.href}>
+        <strong>{s.label}</strong>
+        <span class="hub-count">{s.count}</span>
+        <span class="hub-blurb">{s.blurb}</span>
+      </a>
+    ))}
+  </div>
+</StarlightPage>

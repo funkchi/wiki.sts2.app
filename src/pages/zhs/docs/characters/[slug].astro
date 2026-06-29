@@ -1,0 +1,44 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import CharacterHero from '../../../../components/CharacterHero.astro';
+import LanguageToggle from '../../../../components/LanguageToggle.astro';
+import { characters } from '../../../../data/characters';
+import { cardBySlug } from '../../../../data/cards';
+import { relicBySlug } from '../../../../data/relics';
+
+export const getStaticPaths = (() => {
+  return characters.map((character) => ({
+    params: { slug: character.slug },
+    props: { character },
+  }));
+}) satisfies GetStaticPaths;
+
+const { character } = Astro.props;
+const zh = character.translations?.zhHans;
+const title = zh?.name || character.name;
+const description = zh?.description || character.description || `${title} - 杀戮尖塔 2 角色。`;
+---
+
+<StarlightPage frontmatter={{ title, description }}>
+  <LanguageToggle locale="zhs" />
+  <CharacterHero character={character} locale="zhs" />
+
+  <h2 id="deck">初始卡组</h2>
+  <ul>
+    {character.startingDeck.map((d) => {
+      const card = cardBySlug.get(d.slug);
+      return <li>{d.count > 1 ? `${d.count}x ` : ''}<a href={`/zhs/docs/cards/${d.slug}/`}>{card?.translations?.zhHans?.name || d.name}</a></li>;
+    })}
+  </ul>
+
+  <h2 id="relics">初始遗物</h2>
+  <ul>
+    {character.startingRelics.map((r) => {
+      const relic = relicBySlug.get(r.slug);
+      return <li>{relic?.translations?.zhHans?.name || r.name}</li>;
+    })}
+  </ul>
+
+  <p><a href="/zhs/docs/characters/">返回全部角色</a></p>
+</StarlightPage>
