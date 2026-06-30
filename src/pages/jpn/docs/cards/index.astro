@@ -17,6 +17,13 @@ const rows = cardIndexRows('jpn');
     linkBase="/jpn/docs/cards/"
     noun="枚のカード"
     nameLabel="カード"
+    ui={{
+      search: '検索',
+      all: 'すべて',
+      reset: 'リセット',
+      of: '/',
+      searchPlaceholder: 'カードを検索',
+    }}
     columns={[
       { field: 'character', label: 'キャラクター', width: '13rem' },
       { field: 'cost', label: 'コスト', format: 'cardCost', width: '7rem' },

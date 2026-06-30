@@ -18,6 +18,7 @@ export default defineConfig({
       components: {
         Head: './src/components/Head.astro',
         LanguageSelect: './src/components/LanguageToggle.astro',
+        Search: './src/components/Search.astro',
         Sidebar: './src/components/Sidebar.astro',
         SiteTitle: './src/components/SiteTitle.astro',
       },

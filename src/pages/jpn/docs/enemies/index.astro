@@ -27,6 +27,13 @@ const rows = enemies.map((e) => {
     linkBase="/jpn/docs/enemies/"
     noun="体の敵"
     nameLabel="敵"
+    ui={{
+      search: '検索',
+      all: 'すべて',
+      reset: 'リセット',
+      of: '/',
+      searchPlaceholder: '敵を検索',
+    }}
     columns={[
       { field: 'type', label: 'タイプ' },
       { field: 'hp', label: 'HP' },

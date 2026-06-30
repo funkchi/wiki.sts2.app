@@ -16,9 +16,23 @@
     nameLabel: string;
     columns: Column[];
     filters: Filter[];
+    ui?: Partial<{
+      search: string;
+      all: string;
+      reset: string;
+      of: string;
+      searchPlaceholder: string;
+    }>;
   }
 
-  let { entities, linkBase, noun, nameLabel, columns, filters }: Props = $props();
+  let { entities, linkBase, noun, nameLabel, columns, filters, ui = {} }: Props = $props();
+  const text = {
+    search: ui.search ?? 'Search',
+    all: ui.all ?? 'All',
+    reset: ui.reset ?? 'Reset',
+    of: ui.of ?? 'of',
+    searchPlaceholder: ui.searchPlaceholder ?? `Search ${noun}`,
+  };
 
   let query = $state('');
   let selections: Record<string, string> = $state({});
@@ -202,24 +216,24 @@
 <div class="card-browser">
   <div class="card-browser__controls">
     <label>
-      <span>Search</span>
-      <input type="search" bind:value={query} placeholder={`Search ${noun}`} />
+      <span>{text.search}</span>
+      <input type="search" bind:value={query} placeholder={text.searchPlaceholder} />
     </label>
     {#each filters as f (f.field)}
       <label>
         <span>{f.label}</span>
         <select bind:value={selections[f.field]}>
-          <option value="">All</option>
+          <option value="">{text.all}</option>
           {#each filterOptions[f.field] as value}
             <option value={value}>{value}</option>
           {/each}
         </select>
       </label>
     {/each}
-    <button type="button" onclick={reset}>Reset</button>
+    <button type="button" onclick={reset}>{text.reset}</button>
   </div>
 
-  <output class="card-browser__status">{filtered.length} of {entities.length} {noun}</output>
+  <output class="card-browser__status">{filtered.length} {text.of} {entities.length} {noun}</output>
 
   <div class="card-browser__table-wrap">
     <table>

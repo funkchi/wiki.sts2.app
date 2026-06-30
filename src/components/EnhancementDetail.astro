@@ -1,5 +1,10 @@
 ---
-import { enchantmentForLocale, type Enchantment } from '../data/enchantments';
+import {
+  enchantmentForLocale,
+  localizedApplicableTo,
+  localizedCardType,
+  type Enchantment,
+} from '../data/enchantments';
 import { renderEntityTextHtml } from '../data/textHtml';
 import type { Lang } from '../data/i18n';
 
@@ -57,13 +62,15 @@ const descriptionHtml = display.description
 const extraHtml = display.extraCardText
   ? renderEntityTextHtml(display.extraCardText, { locale })
   : labels.none;
+const cardType = localizedCardType(display.cardType, locale) || labels.any;
+const applicableTo = localizedApplicableTo(display.applicableTo, locale) || labels.any;
 ---
 
 <div class="wiki-entity-hero enhancement-hero">
   {display.image && <img class="wiki-image enhancement-image" src={display.image} alt={display.name} loading="eager" decoding="async" fetchpriority="high" />}
   <div class="wiki-entity-hero__details">
     <div class="entity-badges">
-      <span class="tag tag--type-enhancement">{display.cardType || labels.any}</span>
+      <span class="tag tag--type-enhancement">{cardType}</span>
       <span class="badge">{display.isStackable ? labels.yes : labels.no}</span>
     </div>
     <p set:html={descriptionHtml} />
@@ -75,8 +82,8 @@ const extraHtml = display.extraCardText
     )}
     <table>
       <tbody>
-        <tr><th scope="row">{labels.cardType}</th><td>{display.cardType || labels.any}</td></tr>
-        <tr><th scope="row">{labels.applicableTo}</th><td>{display.applicableTo || labels.any}</td></tr>
+        <tr><th scope="row">{labels.cardType}</th><td>{cardType}</td></tr>
+        <tr><th scope="row">{labels.applicableTo}</th><td>{applicableTo}</td></tr>
         <tr><th scope="row">{labels.stackable}</th><td>{display.isStackable ? labels.yes : labels.no}</td></tr>
       </tbody>
     </table>

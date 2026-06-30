@@ -17,6 +17,13 @@ const rows = eventIndexRows('jpn');
     linkBase="/jpn/docs/events/"
     noun="件のイベント"
     nameLabel="イベント"
+    ui={{
+      search: '検索',
+      all: 'すべて',
+      reset: 'リセット',
+      of: '/',
+      searchPlaceholder: 'イベントを検索',
+    }}
     columns={[
       { field: 'type', label: 'タイプ', badge: 'type', width: '9rem' },
       { field: 'act', label: '場所', width: '16rem' },

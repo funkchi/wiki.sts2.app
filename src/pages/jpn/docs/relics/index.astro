@@ -29,6 +29,13 @@ const rows = relics.map((r) => {
     linkBase="/jpn/docs/relics/"
     noun="個のレリック"
     nameLabel="レリック"
+    ui={{
+      search: '検索',
+      all: 'すべて',
+      reset: 'リセット',
+      of: '/',
+      searchPlaceholder: 'レリックを検索',
+    }}
     columns={[
       { field: 'pool', label: 'プール' },
       { field: 'price', label: '価格' },

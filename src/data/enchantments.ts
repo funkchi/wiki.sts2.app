@@ -60,6 +60,44 @@ const labels: Record<Lang, { yes: string; no: string; any: string }> = {
   jpn: { yes: 'あり', no: 'なし', any: '任意' },
 };
 
+const cardTypeLabels: Record<Lang, Record<string, string>> = {
+  en: {},
+  zhs: {
+    Attack: '攻击',
+    Skill: '技能',
+    'Attack, Skill': '攻击、技能',
+  },
+  jpn: {
+    Attack: 'アタック',
+    Skill: 'スキル',
+    'Attack, Skill': 'アタック、スキル',
+  },
+};
+
+const applicableToLabels: Record<Lang, Record<string, string>> = {
+  en: {},
+  zhs: {
+    'Basic Strike or Defend cards': '基础打击或防御牌',
+    'Defend cards': '防御牌',
+    'cards that gain Block': '获得格挡的牌',
+  },
+  jpn: {
+    'Basic Strike or Defend cards': '基本のストライクまたは防御カード',
+    'Defend cards': '防御カード',
+    'cards that gain Block': 'ブロックを得るカード',
+  },
+};
+
+export function localizedCardType(value: string | null | undefined, locale: Lang): string | null {
+  if (!value) return null;
+  return cardTypeLabels[locale]?.[value] ?? value;
+}
+
+export function localizedApplicableTo(value: string | null | undefined, locale: Lang): string | null {
+  if (!value) return null;
+  return applicableToLabels[locale]?.[value] ?? value;
+}
+
 export function enhancementIndexRows(locale: Lang) {
   const localeLabels = labels[locale];
   return enchantments.map((enchantment) => {
@@ -68,8 +106,8 @@ export function enhancementIndexRows(locale: Lang) {
       slug: enchantment.slug,
       name: localized.name,
       sortName: enchantment.name,
-      cardType: localized.cardType || localeLabels.any,
-      applicableTo: localized.applicableTo || localeLabels.any,
+      cardType: localizedCardType(localized.cardType, locale) || localeLabels.any,
+      applicableTo: localizedApplicableTo(localized.applicableTo, locale) || localeLabels.any,
       stackable: localized.isStackable ? localeLabels.yes : localeLabels.no,
       extraCardText: localized.extraCardText || '-',
     };
