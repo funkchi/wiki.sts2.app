@@ -1,0 +1,209 @@
+---
+import { eventDisplay, eventSourceUrl, type Event } from '../data/events';
+import { cards } from '../data/cards';
+import { relics } from '../data/relics';
+import { localizedCharacterLabel, type Lang } from '../data/i18n';
+
+interface Props {
+  event: Event;
+  locale: Lang;
+}
+
+const { event, locale } = Astro.props;
+const localized = eventDisplay(event, locale);
+const localePrefix = locale === 'en' ? '' : `/${locale}`;
+const translationKey = locale === 'zhs' ? 'zhHans' : locale === 'jpn' ? 'ja' : undefined;
+
+const labels = {
+  en: {
+    type: 'Type',
+    act: 'Act',
+    preconditions: 'Preconditions',
+    relics: 'Related Relics',
+    relatedCard: 'Related Card',
+    dustyTomeCards: 'Dusty Tome Ancient Cards',
+    fullText: 'Full text on Spire Codex',
+    flow: 'Choice Flow',
+    terminal: 'Terminal States',
+    none: 'None',
+    noChoices: 'No choice/result data is exposed for this event yet.',
+    back: 'Back to all events',
+  },
+  zhs: {
+    type: '类型',
+    act: '地点',
+    preconditions: '前置条件',
+    relics: '相关遗物',
+    relatedCard: '相关卡牌',
+    dustyTomeCards: '尘封魔典先古卡',
+    fullText: '在 Spire Codex 查看完整文本',
+    flow: '选项流程',
+    terminal: '终点状态',
+    none: '无',
+    noChoices: '该事件目前没有公开的选项 / 结果数据。',
+    back: '返回全部事件',
+  },
+  jpn: {
+    type: 'タイプ',
+    act: '場所',
+    preconditions: '条件',
+    relics: '関連レリック',
+    relatedCard: '関連カード',
+    dustyTomeCards: '薄汚れた本のエンシェントカード',
+    fullText: 'Spire Codexで全文を見る',
+    flow: '選択フロー',
+    terminal: '終端状態',
+    none: 'なし',
+    noChoices: 'このイベントには、選択肢 / 結果データがまだ公開されていません。',
+    back: 'イベント一覧に戻る',
+  },
+}[locale];
+
+const pagesForFlow = localized.pages.length > 0
+  ? localized.pages
+  : localized.options.length > 0
+    ? [{ id: 'INITIAL', options: localized.options }]
+    : [];
+const pagesWithChoices = pagesForFlow
+  .filter((page) => page.options.length > 0)
+  .sort((a, b) => (a.id === 'INITIAL' ? -1 : b.id === 'INITIAL' ? 1 : a.id.localeCompare(b.id)));
+const terminalPages = localized.pages.filter((page) => page.options.length === 0);
+const relatedRelics = localized.relics
+  .map((id) => relics.find((relic) => relic.id === id))
+  .filter(Boolean);
+const cardById = new Map(cards.map((card) => [card.id, card]));
+const ancientRelicCards: Record<string, string[]> = {
+  PAELS_HORN: ['RELAX'],
+  CALLING_BELL: ['CURSE_OF_THE_BELL'],
+};
+const dustyTomeGroups = ['ironclad', 'silent', 'defect', 'necrobinder', 'regent', 'event'].map((color) => ({
+  color,
+  label: localizedCharacterLabel(locale, color),
+  cards: cards.filter((card) => card.rarity === 'Ancient' && card.color === color),
+})).filter((group) => group.cards.length > 0);
+
+function isLocked(option: EventOption): boolean {
+  return option.title.toLowerCase() === 'locked' || option.id.toLowerCase().includes('locked');
+}
+
+function relicName(relic: NonNullable<(typeof relatedRelics)[number]>): string {
+  return translationKey ? relic.translations?.[translationKey]?.name || relic.name : relic.name;
+}
+
+function cardName(card: (typeof cards)[number]): string {
+  return translationKey ? card.translations?.[translationKey]?.name || card.name : card.name;
+}
+
+function relatedCardsForRelic(relicId: string) {
+  return (ancientRelicCards[relicId] || [])
+    .map((id) => cardById.get(id))
+    .filter(Boolean);
+}
+
+const sourceUrl = eventSourceUrl(event, locale);
+---
+
+<div class="event-hero">
+  {localized.imageUrl && <img class="event-hero__image" src={localized.imageUrl} alt={localized.name} loading="eager" decoding="async" />}
+  <div class="event-hero__body">
+    <div class="entity-badges">
+      <span class="tag tag--type-event">{localized.type}</span>
+      <span class="badge">{localized.act || labels.none}</span>
+    </div>
+    <table>
+      <tbody>
+        <tr><th scope="row">{labels.type}</th><td>{localized.type}</td></tr>
+        <tr><th scope="row">{labels.act}</th><td>{localized.act || labels.none}</td></tr>
+        <tr>
+          <th scope="row">{labels.preconditions}</th>
+          <td>{localized.preconditions.length ? localized.preconditions.join('; ') : labels.none}</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="event-source"><a href={sourceUrl}>{labels.fullText}</a></p>
+  </div>
+</div>
+
+{pagesWithChoices.length > 0 && (
+  <>
+    <h2 id="choice-flow">{labels.flow}</h2>
+    <div class="event-flow">
+      {pagesWithChoices.map((page) => (
+        <section class="event-state">
+          <h3>{page.id}</h3>
+          <div class="event-choice-list">
+            {page.options.map((option) => (
+              <article class={`event-choice ${isLocked(option) ? 'event-choice--locked' : ''}`}>
+                <div class="event-choice__title">
+                  <strong>{option.title}</strong>
+                </div>
+                <p>{option.description || labels.none}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </>
+)}
+
+{pagesWithChoices.length === 0 && <p>{labels.noChoices}</p>}
+
+{terminalPages.length > 0 && (
+  <>
+    <h2 id="terminal-states">{labels.terminal}</h2>
+    <p class="event-terminal-list">
+      {terminalPages.map((page) => <span class="event-terminal">{page.id}</span>)}
+    </p>
+  </>
+)}
+
+{relatedRelics.length > 0 && (
+  <>
+    <h2 id="relics">{labels.relics}</h2>
+    <div class="ancient-relic-grid">
+      {relatedRelics.map((relic) => {
+        const linkedCards = relatedCardsForRelic(relic!.id);
+        return (
+          <article class="ancient-relic-card">
+            <a class="ancient-relic-card__main" href={`${localePrefix}/docs/relics/${relic!.slug}/`}>
+              <img src={relic!.image} alt={relicName(relic!)} loading="lazy" decoding="async" />
+              <strong>{relicName(relic!)}</strong>
+            </a>
+            {linkedCards.length > 0 && (
+              <div class="ancient-card-preview">
+                <span>{labels.relatedCard}</span>
+                {linkedCards.map((card) => (
+                  <a href={`${localePrefix}/docs/cards/${card!.slug}/`}>
+                    <img src={card!.image} alt={cardName(card!)} loading="lazy" decoding="async" />
+                    <strong>{cardName(card!)}</strong>
+                  </a>
+                ))}
+              </div>
+            )}
+            {relic!.id === 'DUSTY_TOME' && (
+              <div class="dusty-tome-groups">
+                <span>{labels.dustyTomeCards}</span>
+                {dustyTomeGroups.map((group) => (
+                  <details>
+                    <summary>{group.label}</summary>
+                    <div class="dusty-card-grid">
+                      {group.cards.map((card) => (
+                        <a href={`${localePrefix}/docs/cards/${card.slug}/`}>
+                          <img src={card.image} alt={cardName(card)} loading="lazy" decoding="async" />
+                          <strong>{cardName(card)}</strong>
+                        </a>
+                      ))}
+                    </div>
+                  </details>
+                ))}
+              </div>
+            )}
+          </article>
+        );
+      })}
+    </div>
+  </>
+)}
+
+<p><a href={`${localePrefix}/docs/events/`}>{labels.back}</a></p>

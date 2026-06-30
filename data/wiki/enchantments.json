@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "kind": "enchantments",
+  "count": 22,
+  "enchantments": [
+    {
+      "id": "ADROIT",
+      "slug": "adroit",
+      "name": "Adroit",
+      "description": "Gain X Block.",
+      "extraCardText": "Gain X Block.",
+      "cardType": null,
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/adroit.png",
+      "translations": {
+        "zhHans": {
+          "name": "伶俐",
+          "description": "获得X点格挡。",
+          "extraCardText": "获得X点格挡。",
+          "cardType": null,
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "巧妙",
+          "description": "Xブロックを得る。",
+          "extraCardText": "Xブロックを得る。",
+          "cardType": null,
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "CLONE",
+      "slug": "clone",
+      "name": "Clone",
+      "description": "This card can be duplicated at Rest Sites.",
+      "extraCardText": "",
+      "cardType": null,
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/clone.png",
+      "translations": {
+        "zhHans": {
+          "name": "克隆",
+          "description": "这张牌能在休息处被复制。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "クローン",
+          "description": "このカードは休憩所で複製できる。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "CORRUPTED",
+      "slug": "corrupted",
+      "name": "Corrupted",
+      "description": "Deal 50% more damage, but lose 2 HP.",
+      "extraCardText": "Lose 2 HP.",
+      "cardType": "Attack",
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/corrupted.png",
+      "translations": {
+        "zhHans": {
+          "name": "腐化",
+          "description": "造成的伤害增加50%，但会失去2生命。",
+          "extraCardText": "失去2点生命。",
+          "cardType": "Attack",
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "蝕み",
+          "description": "ダメージが50%増加するが、HPを2失う。",
+          "extraCardText": "HPを2失う。",
+          "cardType": "Attack",
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "GLAM",
+      "slug": "glam",
+      "name": "Glam",
+      "description": "This card has Replay once per combat.",
+      "extraCardText": "",
+      "cardType": null,
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/glam.png",
+      "translations": {
+        "zhHans": {
+          "name": "华彩",
+          "description": "这张牌每场战斗能够重放一次。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "魅惑",
+          "description": "各戦闘につき1回、リプレイを得る。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "GOOPY",
+      "slug": "goopy",
+      "name": "Goopy",
+      "description": "This card gains Exhaust. When played, permanently increase this card's Block by 1.",
+      "extraCardText": "Permanently increase this card's Block by 1.",
+      "cardType": null,
+      "applicableTo": "Defend cards",
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/goopy.png",
+      "translations": {
+        "zhHans": {
+          "name": "黏糊",
+          "description": "这张牌获得消耗。当被打出时，这张牌的格挡值永久增加1点。",
+          "extraCardText": "这张牌的格挡值永久增加1点。",
+          "cardType": null,
+          "applicableTo": "Defend cards"
+        },
+        "ja": {
+          "name": "べとべと",
+          "description": "廃棄を得る。プレイ時、このカードのブロックが永続的に1増加する。",
+          "extraCardText": "このカードのブロックが永続的に1増加する。",
+          "cardType": null,
+          "applicableTo": "Defend cards"
+        }
+      }
+    },
+    {
+      "id": "IMBUED",
+      "slug": "imbued",
+      "name": "Imbued",
+      "description": "This card is played automatically at the start of each combat.",
+      "extraCardText": "Imbued.",
+      "cardType": "Skill",
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/imbued.png",
+      "translations": {
+        "zhHans": {
+          "name": "注能",
+          "description": "这张牌在每场战斗开始时自动打出。",
+          "extraCardText": "注能。",
+          "cardType": "Skill",
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "刻印",
+          "description": "戦闘開始時、自動的にプレイする。",
+          "extraCardText": "刻印されている。",
+          "cardType": "Skill",
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "INKY",
+      "slug": "inky",
+      "name": "Inky",
+      "description": "This card deals 1 additional damage and applies 1 Weak.",
+      "extraCardText": "Apply 1 Weak.",
+      "cardType": null,
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/inky.png",
+      "translations": {
+        "zhHans": {
+          "name": "墨影",
+          "description": "这张牌额外造成1点伤害，并造成1层虚弱。",
+          "extraCardText": "造成1层虚弱。",
+          "cardType": null,
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "墨塗り",
+          "description": "このカードは追加で1ダメージを与え、脱力1を付与する。",
+          "extraCardText": "脱力1を付与する。",
+          "cardType": null,
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "INSTINCT",
+      "slug": "instinct",
+      "name": "Instinct",
+      "description": "This card's attack damage is doubled.",
+      "extraCardText": "",
+      "cardType": "Attack",
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/instinct.png",
+      "translations": {
+        "zhHans": {
+          "name": "本能",
+          "description": "这张牌的攻击伤害翻倍。",
+          "extraCardText": "",
+          "cardType": "Attack",
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "本能",
+          "description": "このカードのアタックダメージが2倍になる。",
+          "extraCardText": "",
+          "cardType": "Attack",
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "MOMENTUM",
+      "slug": "momentum",
+      "name": "Momentum",
+      "description": "Increase this card's attack damage by X this combat when played.",
+      "extraCardText": "Increase this card's damage by X this combat.",
+      "cardType": "Attack",
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/momentum.png",
+      "translations": {
+        "zhHans": {
+          "name": "动量",
+          "description": "在本场战斗中，每次打出就增加这张牌的攻击伤害X点。",
+          "extraCardText": "在本场战斗中这张牌的伤害增加X点。",
+          "cardType": "Attack",
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "モメンタム",
+          "description": "プレイ時、この戦闘中に限りこのカードのダメージがX増加する。",
+          "extraCardText": "この戦闘中、ダメージがX増加する。",
+          "cardType": "Attack",
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "NIMBLE",
+      "slug": "nimble",
+      "name": "Nimble",
+      "description": "Increases Block gained from this card by X.",
+      "extraCardText": "",
+      "cardType": null,
+      "applicableTo": "cards that gain Block",
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/nimble.png",
+      "translations": {
+        "zhHans": {
+          "name": "灵巧",
+          "description": "这张牌获得的格挡值增加X点。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": "cards that gain Block"
+        },
+        "ja": {
+          "name": "身軽",
+          "description": "このカードから得るブロックがX増加する。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": "cards that gain Block"
+        }
+      }
+    },
+    {
+      "id": "PERFECT_FIT",
+      "slug": "perfect-fit",
+      "name": "Perfect Fit",
+      "description": "Whenever this would be shuffled into your Draw Pile, place it on the top instead.",
+      "extraCardText": "Perfect Fit.",
+      "cardType": null,
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/perfect_fit.png",
+      "translations": {
+        "zhHans": {
+          "name": "完美契合",
+          "description": "每当这张牌要被洗入抽牌堆时，将其放在抽牌堆顶。",
+          "extraCardText": "完美契合。",
+          "cardType": null,
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "完璧な適合",
+          "description": "山札にシャッフルされる際、代わりに山札の一番上に置く。",
+          "extraCardText": "ぴったり。",
+          "cardType": null,
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "ROYALLY_APPROVED",
+      "slug": "royally-approved",
+      "name": "Royally Approved",
+      "description": "This card has Innate and Retain.",
+      "extraCardText": "",
+      "cardType": "Attack, Skill",
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/royally_approved.png",
+      "translations": {
+        "zhHans": {
+          "name": "王室认证",
+          "description": "这张牌拥有固有和保留。",
+          "extraCardText": "",
+          "cardType": "Attack, Skill",
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "王室認可",
+          "description": "天賦と保留を得る。",
+          "extraCardText": "",
+          "cardType": "Attack, Skill",
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "SHARP",
+      "slug": "sharp",
+      "name": "Sharp",
+      "description": "Increases damage on this card by X.",
+      "extraCardText": "",
+      "cardType": "Attack",
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/sharp.png",
+      "translations": {
+        "zhHans": {
+          "name": "锋利",
+          "description": "这张牌上的伤害值增加X点。",
+          "extraCardText": "",
+          "cardType": "Attack",
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "鋭利",
+          "description": "ダメージがX増加する。",
+          "extraCardText": "",
+          "cardType": "Attack",
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "SLITHER",
+      "slug": "slither",
+      "name": "Slither",
+      "description": "When you draw this card, randomize its cost from 0 to 3.",
+      "extraCardText": "",
+      "cardType": null,
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/slither.png",
+      "translations": {
+        "zhHans": {
+          "name": "蛇行",
+          "description": "当你抽到这张牌时，使其费用在0到3之间随机变化。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "スリザー",
+          "description": "このカードを引いた時、コストが0から3の間でランダムに変化する。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "SLUMBERING_ESSENCE",
+      "slug": "slumbering-essence",
+      "name": "Slumbering Essence",
+      "description": "If this card is in your hand at the end of turn, reduce its cost by 1 until it is played.",
+      "extraCardText": "",
+      "cardType": null,
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/slumbering_essence.png",
+      "translations": {
+        "zhHans": {
+          "name": "沉眠精华",
+          "description": "回合结束时，如果这张牌在你的手牌中，则将其费用降低1点，直到其被打出。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "眠れる真髄",
+          "description": "ターン終了時に手札にある場合、プレイするまでコストが1下がる。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "SOULS_POWER",
+      "slug": "souls-power",
+      "name": "Soul's Power",
+      "description": "This card loses Exhaust.",
+      "extraCardText": "",
+      "cardType": null,
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/souls_power.png",
+      "translations": {
+        "zhHans": {
+          "name": "灵魂之力",
+          "description": "这张牌失去消耗。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "魂力",
+          "description": "廃棄を失う。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "SOWN",
+      "slug": "sown",
+      "name": "Sown",
+      "description": "The first time you play this card each combat, gain .",
+      "extraCardText": "Gain .",
+      "cardType": null,
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/sown.png",
+      "translations": {
+        "zhHans": {
+          "name": "播种",
+          "description": "你在每场战斗中第一次打出这张牌时，获得。",
+          "extraCardText": "获得。",
+          "cardType": null,
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "芽吹き",
+          "description": "各戦闘で初めてプレイした時、を得る。",
+          "extraCardText": "を得る。",
+          "cardType": null,
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "SPIRAL",
+      "slug": "spiral",
+      "name": "Spiral",
+      "description": "This card gains Replay 1.",
+      "extraCardText": "",
+      "cardType": null,
+      "applicableTo": "Basic Strike or Defend cards",
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/spiral.png",
+      "translations": {
+        "zhHans": {
+          "name": "涡旋",
+          "description": "这张牌获得重放1。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": "Basic Strike or Defend cards"
+        },
+        "ja": {
+          "name": "らせん",
+          "description": "リプレイ1を得る。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": "Basic Strike or Defend cards"
+        }
+      }
+    },
+    {
+      "id": "STEADY",
+      "slug": "steady",
+      "name": "Steady",
+      "description": "This card gains Retain.",
+      "extraCardText": "",
+      "cardType": null,
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/steady.png",
+      "translations": {
+        "zhHans": {
+          "name": "稳定",
+          "description": "这张牌获得保留。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "安定性",
+          "description": "保留を得る。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "SWIFT",
+      "slug": "swift",
+      "name": "Swift",
+      "description": "The first time you play this card, draw X cards.",
+      "extraCardText": "Draw X cards the first time this is played.",
+      "cardType": null,
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/swift.png",
+      "translations": {
+        "zhHans": {
+          "name": "迅速",
+          "description": "你第一次打出这张牌时，抽X张牌。",
+          "extraCardText": "第一次打出时抽X张牌。",
+          "cardType": null,
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "迅速",
+          "description": "各戦闘で初めてプレイした時、カードをX枚引く。",
+          "extraCardText": "初めてプレイした時、カードをX枚引く。",
+          "cardType": null,
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "TEZCATARAS_EMBER",
+      "slug": "tezcataras-ember",
+      "name": "Tezcatara's Ember",
+      "description": "Costs 0, deals 3 additional damage, and gains Eternal.",
+      "extraCardText": "",
+      "cardType": null,
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/tezcataras_ember.png",
+      "translations": {
+        "zhHans": {
+          "name": "特兹卡塔拉的余烬",
+          "description": "费用为0，造成3 点额外伤害，且获得永恒。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "テスカタラの残り火",
+          "description": "コストが0になり、追加ダメージ3と永劫を得る。",
+          "extraCardText": "",
+          "cardType": null,
+          "applicableTo": null
+        }
+      }
+    },
+    {
+      "id": "VIGOROUS",
+      "slug": "vigorous",
+      "name": "Vigorous",
+      "description": "The first time this card is played, it deals X additional damage.",
+      "extraCardText": "",
+      "cardType": "Attack",
+      "applicableTo": null,
+      "isStackable": false,
+      "image": "https://spire-codex.com/static/images/enchantments/vigorous.png",
+      "translations": {
+        "zhHans": {
+          "name": "活力",
+          "description": "第一次打出这张牌时，造成X点额外伤害。",
+          "extraCardText": "",
+          "cardType": "Attack",
+          "applicableTo": null
+        },
+        "ja": {
+          "name": "活気",
+          "description": "各戦闘で初めてプレイした時、Xの追加ダメージを与える。",
+          "extraCardText": "",
+          "cardType": "Attack",
+          "applicableTo": null
+        }
+      }
+    }
+  ]
+}

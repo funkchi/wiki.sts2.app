@@ -1,5 +1,7 @@
 ---
 import { cards } from '../data/cards';
+import { events } from '../data/events';
+import { enchantments } from '../data/enchantments';
 import Analytics from './Analytics.astro';
 import LanguageToggle from './LanguageToggle.astro';
 import snapshot from '../../data/spire-codex-snapshot.json';
@@ -17,6 +19,8 @@ const counts = {
   relics: sc.relics.length,
   enemies: sc.monsters.length,
   characters: sc.characters.length,
+  events: events.length,
+  enhancements: enchantments.length,
   communityGuides: sc.guides.length,
 };
 const originalGuides = 4;
@@ -35,10 +39,12 @@ const copy = {
       { label: 'Cards', href: '/docs/cards/' },
       { label: 'Characters', href: '/docs/characters/' },
       { label: 'Relics', href: '/docs/relics/' },
+      { label: 'Events', href: '/docs/events/' },
+      { label: 'Enhancements', href: '/docs/enhancements/' },
       { label: 'Guides', href: '/guides/' },
     ],
     kicker: 'Community reference',
-    subtitle: `${counts.cards} cards, ${counts.relics} relics, ${counts.enemies} enemies, characters, and strategy notes for faster run planning.`,
+    subtitle: `${counts.cards} cards, ${counts.relics} relics, ${counts.enemies} enemies, ${counts.events} events, characters, and strategy notes for faster run planning.`,
     primary: 'Browse cards',
     secondary: 'Open wiki',
     primaryHref: '/docs/cards/',
@@ -72,6 +78,18 @@ const copy = {
         text: `${counts.enemies} enemies with encounters, moves, and patterns.`,
       },
       {
+        href: '/docs/events/',
+        eyebrow: 'Choices',
+        title: 'Events',
+        text: `${counts.events} events with requirements, rewards, and branching results.`,
+      },
+      {
+        href: '/docs/enhancements/',
+        eyebrow: 'Modifiers',
+        title: 'Enhancements',
+        text: `${counts.enhancements} card enhancements with restrictions and extra text.`,
+      },
+      {
         href: '/guides/',
         eyebrow: 'Strategy',
         title: 'Guides',
@@ -100,9 +118,11 @@ const copy = {
       { label: '角色', href: '/zhs/docs/characters/' },
       { label: '遗物', href: '/zhs/docs/relics/' },
       { label: '敌人', href: '/zhs/docs/enemies/' },
+      { label: '事件', href: '/zhs/docs/events/' },
+      { label: '附魔', href: '/zhs/docs/enhancements/' },
     ],
     kicker: '社区资料库',
-    subtitle: `${counts.cards} 张卡牌、${counts.relics} 件遗物、${counts.enemies} 个敌人，以及角色资料，帮助你更快规划路线。`,
+    subtitle: `${counts.cards} 张卡牌、${counts.relics} 件遗物、${counts.enemies} 个敌人、${counts.events} 个事件，以及角色资料，帮助你更快规划路线。`,
     primary: '浏览卡牌',
     secondary: '进入资料库',
     primaryHref: '/zhs/docs/cards/',
@@ -135,6 +155,18 @@ const copy = {
         title: '敌人',
         text: `${counts.enemies} 个敌人的遭遇、行动和规律。`,
       },
+      {
+        href: '/zhs/docs/events/',
+        eyebrow: '选项',
+        title: '事件',
+        text: `${counts.events} 个事件的条件、奖励与分支结果。`,
+      },
+      {
+        href: '/zhs/docs/enhancements/',
+        eyebrow: '附魔',
+        title: '附魔',
+        text: `${counts.enhancements} 个卡牌附魔，包含限制与额外卡牌文本。`,
+      },
     ],
     source:
       '游戏数据来自 <a href="https://spire-codex.com/docs">Spire Codex API</a>。随着抢先体验信息更加可靠，资料库会继续扩展。',
@@ -144,6 +176,8 @@ const copy = {
       { label: '遗物', href: '/zhs/docs/relics/' },
       { label: '敌人', href: '/zhs/docs/enemies/' },
       { label: '角色', href: '/zhs/docs/characters/' },
+      { label: '事件', href: '/zhs/docs/events/' },
+      { label: '附魔', href: '/zhs/docs/enhancements/' },
     ],
   },
   jpn: {
@@ -158,9 +192,11 @@ const copy = {
       { label: 'キャラクター', href: '/jpn/docs/characters/' },
       { label: 'レリック', href: '/jpn/docs/relics/' },
       { label: '敵', href: '/jpn/docs/enemies/' },
+      { label: 'イベント', href: '/jpn/docs/events/' },
+      { label: 'エンチャント', href: '/jpn/docs/enhancements/' },
     ],
     kicker: 'コミュニティ資料',
-    subtitle: `${counts.cards} 枚のカード、${counts.relics} 個のレリック、${counts.enemies} 体の敵、キャラクター情報を素早く確認できます。`,
+    subtitle: `${counts.cards} 枚のカード、${counts.relics} 個のレリック、${counts.enemies} 体の敵、${counts.events} 件のイベント、キャラクター情報を素早く確認できます。`,
     primary: 'カードを見る',
     secondary: 'Wikiを開く',
     primaryHref: '/jpn/docs/cards/',
@@ -193,6 +229,18 @@ const copy = {
         title: '敵',
         text: `${counts.enemies} 体の敵の遭遇、行動、パターン。`,
       },
+      {
+        href: '/jpn/docs/events/',
+        eyebrow: '選択肢',
+        title: 'イベント',
+        text: `${counts.events} 件のイベントの条件、報酬、分岐結果。`,
+      },
+      {
+        href: '/jpn/docs/enhancements/',
+        eyebrow: 'エンチャント',
+        title: 'エンチャント',
+        text: `${counts.enhancements} 件のカードエンチャント、制限、追加テキスト。`,
+      },
     ],
     source:
       'ゲームデータは <a href="https://spire-codex.com/docs">Spire Codex API</a> から取得しています。早期アクセス情報の信頼性が高まり次第、Wikiも拡張します。',
@@ -202,6 +250,8 @@ const copy = {
       { label: 'レリック', href: '/jpn/docs/relics/' },
       { label: '敵', href: '/jpn/docs/enemies/' },
       { label: 'キャラクター', href: '/jpn/docs/characters/' },
+      { label: 'イベント', href: '/jpn/docs/events/' },
+      { label: 'エンチャント', href: '/jpn/docs/enhancements/' },
     ],
   },
 } satisfies Record<Lang, any>;

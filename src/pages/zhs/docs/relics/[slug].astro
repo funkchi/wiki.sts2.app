@@ -3,6 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { relics, relicBySlug } from '../../../../data/relics';
 import { poolColor } from '../../../../data/characters';
+import { renderEntityTextHtml } from '../../../../data/textHtml';
 
 export const getStaticPaths = (() =>
   relics.map((relic) => ({ params: { slug: relic.slug }, props: { relic } }))) satisfies GetStaticPaths;
@@ -15,6 +16,11 @@ const related = relic.related
 
 const title = zh?.name || relic.name;
 const description = zh?.description || relic.description || `${title} - 杀戮尖塔 2 遗物。`;
+const displayDescription = zh?.description || relic.description;
+const descriptionHtml = displayDescription
+  ? renderEntityTextHtml(displayDescription, { locale: 'zhs' })
+  : '暂无描述。';
+const notesHtml = (zh?.notes || relic.notes).map((note) => renderEntityTextHtml(note, { locale: 'zhs' }));
 ---
 
 <StarlightPage frontmatter={{ title, description }}>
@@ -29,7 +35,7 @@ const description = zh?.description || relic.description || `${title} - 杀戮�
         )}
         <span class="badge">{zh?.pool || relic.pool}</span>
       </div>
-      <p>{zh?.description || relic.description || '暂无描述。'}</p>
+      <p set:html={descriptionHtml} />
       <table>
         <tbody>
           <tr><th scope="row">稀有度</th><td>{zh?.rarity || relic.rarity}</td></tr>
@@ -51,7 +57,7 @@ const description = zh?.description || relic.description || `${title} - 杀戮�
     <>
       <h2 id="notes">备注</h2>
       <ul>
-        {(zh?.notes || relic.notes).map((n) => <li>{n}</li>)}
+        {notesHtml.map((note) => <li set:html={note}></li>)}
       </ul>
     </>
   )}

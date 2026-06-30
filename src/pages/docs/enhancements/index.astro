@@ -1,0 +1,32 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../components/EntityBrowser.svelte';
+import { enhancementIndexRows } from '../../../data/enchantments';
+
+const rows = enhancementIndexRows('en');
+---
+
+<StarlightPage frontmatter={{ title: 'Enhancements', description: 'Slay the Spire 2 card enhancements and enchantments.' }}>
+  <p>
+    Enhancement data is sourced from the <a href="https://spire-codex.com/docs">Spire Codex API</a>{' '}
+    <code>/api/enchantments</code> endpoint.
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/docs/enhancements/"
+    noun="enhancements"
+    nameLabel="Enhancement"
+    columns={[
+      { field: 'cardType', label: 'Card Type', width: '10rem' },
+      { field: 'applicableTo', label: 'Applicable To', width: '16rem' },
+      { field: 'stackable', label: 'Stackable', width: '9rem' },
+      { field: 'extraCardText', label: 'Extra Card Text', width: '30rem' },
+    ]}
+    filters={[
+      { field: 'cardType', label: 'Card Type' },
+      { field: 'applicableTo', label: 'Applicable To' },
+      { field: 'stackable', label: 'Stackable' },
+    ]}
+  />
+</StarlightPage>

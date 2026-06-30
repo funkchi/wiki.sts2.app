@@ -1,0 +1,32 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../../components/EntityBrowser.svelte';
+import { eventIndexRows } from '../../../../data/events';
+
+const rows = eventIndexRows('zhs');
+---
+
+<StarlightPage frontmatter={{ title: '事件', description: '杀戮尖塔 2 事件选项、条件、奖励与分支结果。' }}>
+  <p>
+    事件数据来自 <a href="https://spire-codex.com/docs">Spire Codex API</a>{' '}
+    <code>/api/events?lang=zhs</code>。本站只整理选项与结果，完整事件叙事文本请查看 Spire Codex。
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/zhs/docs/events/"
+    noun="个事件"
+    nameLabel="事件"
+    columns={[
+      { field: 'type', label: '类型', badge: 'type', width: '9rem' },
+      { field: 'act', label: '地点', width: '16rem' },
+      { field: 'preconditions', label: '前置条件', width: '22rem' },
+    ]}
+    filters={[
+      { field: 'type', label: '类型' },
+      { field: 'act', label: '地点' },
+      { field: 'hasPreconditions', label: '有前置条件' },
+      { field: 'hasRelics', label: '有关联遗物' },
+    ]}
+  />
+</StarlightPage>

@@ -3,6 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { relics, relicBySlug } from '../../../data/relics';
 import { poolColor } from '../../../data/characters';
+import { renderEntityTextHtml } from '../../../data/textHtml';
 
 export const getStaticPaths = (() =>
   relics.map((relic) => ({ params: { slug: relic.slug }, props: { relic } }))) satisfies GetStaticPaths;
@@ -16,6 +17,10 @@ const norm = (val: string) =>
   String(val).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
 const description = relic.description || `${relic.name} - ${relic.rarity} relic.`;
+const descriptionHtml = relic.description
+  ? renderEntityTextHtml(relic.description)
+  : 'No description is currently available.';
+const notesHtml = relic.notes.map((note) => renderEntityTextHtml(note));
 ---
 
 <StarlightPage frontmatter={{ title: relic.name, description }}>
@@ -30,7 +35,7 @@ const description = relic.description || `${relic.name} - ${relic.rarity} relic.
         )}
         <span class="badge">{relic.pool} pool</span>
       </div>
-      <p>{relic.description || 'No description is currently available.'}</p>
+      <p set:html={descriptionHtml} />
       <table>
         <tbody>
           <tr><th scope="row">Rarity</th><td>{relic.rarity}</td></tr>
@@ -52,7 +57,7 @@ const description = relic.description || `${relic.name} - ${relic.rarity} relic.
     <>
       <h2 id="notes">Notes</h2>
       <ul>
-        {relic.notes.map((n) => <li>{n}</li>)}
+        {notesHtml.map((note) => <li set:html={note}></li>)}
       </ul>
     </>
   )}

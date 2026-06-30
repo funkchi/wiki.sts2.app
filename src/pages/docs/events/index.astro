@@ -1,0 +1,32 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../components/EntityBrowser.svelte';
+import { eventIndexRows } from '../../../data/events';
+
+const rows = eventIndexRows('en');
+---
+
+<StarlightPage frontmatter={{ title: 'Events', description: 'Slay the Spire 2 event choices, requirements, rewards, and branching results.' }}>
+  <p>
+    Event data is sourced from the <a href="https://spire-codex.com/docs">Spire Codex API</a>{' '}
+    <code>/api/events</code> endpoint. This wiki summarizes choices and results; full narrative event text stays on Spire Codex.
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/docs/events/"
+    noun="events"
+    nameLabel="Event"
+    columns={[
+      { field: 'type', label: 'Type', badge: 'type', width: '9rem' },
+      { field: 'act', label: 'Act', width: '16rem' },
+      { field: 'preconditions', label: 'Preconditions', width: '22rem' },
+    ]}
+    filters={[
+      { field: 'type', label: 'Type' },
+      { field: 'act', label: 'Act' },
+      { field: 'hasPreconditions', label: 'Has Preconditions' },
+      { field: 'hasRelics', label: 'Has Relics' },
+    ]}
+  />
+</StarlightPage>

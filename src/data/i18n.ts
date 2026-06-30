@@ -35,6 +35,8 @@ export const sidebarLabels: Record<Lang, Record<string, string>> = {
     relics: 'Relics',
     enemies: 'Enemies',
     characters: 'Characters',
+    events: 'Events',
+    enhancements: 'Enhancements',
     guides: 'Guides',
     about: 'About',
     privacy: 'Privacy',
@@ -46,6 +48,8 @@ export const sidebarLabels: Record<Lang, Record<string, string>> = {
     relics: '遗物',
     enemies: '敌人',
     characters: '角色',
+    events: '事件',
+    enhancements: '附魔',
     guides: '指南',
     about: '关于',
     privacy: '隐私',
@@ -57,6 +61,8 @@ export const sidebarLabels: Record<Lang, Record<string, string>> = {
     relics: 'レリック',
     enemies: '敵',
     characters: 'キャラクター',
+    events: 'イベント',
+    enhancements: 'エンチャント',
     guides: 'ガイド',
     about: '概要',
     privacy: 'プライバシー',
@@ -70,6 +76,8 @@ const entitySections = [
   { key: 'relics', path: '/docs/relics/' },
   { key: 'enemies', path: '/docs/enemies/' },
   { key: 'characters', path: '/docs/characters/' },
+  { key: 'events', path: '/docs/events/' },
+  { key: 'enhancements', path: '/docs/enhancements/' },
 ] as const;
 
 const englishEditorial = [
@@ -155,7 +163,7 @@ export function localizedPath(pathname: string, locale: Lang): string {
 export function hasLocalizedCounterpart(pathname: string): boolean {
   const clean = pathname.endsWith('/') ? pathname : `${pathname}/`;
   const base = clean.replace(localizedPrefixes, '') || '/';
-  return base === '/' || base === '/docs/' || /^\/docs\/(?:cards|relics|enemies|characters)(?:\/|$)/.test(base);
+  return base === '/' || base === '/docs/' || /^\/docs\/(?:cards|relics|enemies|characters|events|enhancements)(?:\/|$)/.test(base);
 }
 
 export function siteTitleFor(locale: Lang): string {

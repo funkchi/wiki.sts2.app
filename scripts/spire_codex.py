@@ -49,8 +49,11 @@ POOL_ORDER = ["shared", "ironclad", "silent", "defect", "necrobinder", "regent"]
 
 MONSTER_TYPE_ORDER = ["Boss", "Elite", "Normal", "Minion", "Event", "Unknown"]
 
-def fetch_json(endpoint: str, lang: bool = True) -> Any:
-    suffix = "?lang=eng" if lang else ""
+def fetch_json(endpoint: str, lang: bool | str = True) -> Any:
+    if isinstance(lang, str):
+        suffix = f"?lang={lang}"
+    else:
+        suffix = "?lang=eng" if lang else ""
     request = urllib.request.Request(
         f"{API_BASE}/{endpoint}{suffix}",
         headers={"User-Agent": "wiki.sts2.app content sync"},
@@ -206,5 +209,4 @@ def first_moves(monster: dict[str, Any], limit: int = 3) -> str:
     if extra > 0:
         parts.append(f"+{extra} more")
     return "; ".join(parts) or "-"
-
 

@@ -26,6 +26,8 @@ export default defineConfig({
         { label: 'Relics', link: '/docs/relics/' },
         { label: 'Enemies', link: '/docs/enemies/' },
         { label: 'Characters', link: '/docs/characters/' },
+        { label: 'Events', link: '/docs/events/' },
+        { label: 'Enhancements', link: '/docs/enhancements/' },
         { label: 'Guides', slug: 'guides' },
         { label: 'About', slug: 'about' },
         { label: 'Privacy', slug: 'privacy' },

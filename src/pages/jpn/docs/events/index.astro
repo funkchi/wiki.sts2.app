@@ -1,0 +1,32 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../../components/EntityBrowser.svelte';
+import { eventIndexRows } from '../../../../data/events';
+
+const rows = eventIndexRows('jpn');
+---
+
+<StarlightPage frontmatter={{ title: 'イベント', description: 'Slay the Spire 2 のイベント選択肢、条件、報酬、分岐結果。' }}>
+  <p>
+    イベントデータは <a href="https://spire-codex.com/docs">Spire Codex API</a>{' '}
+    <code>/api/events?lang=jpn</code> から取得しています。このWikiでは選択肢と結果を要約し、全文は Spire Codex に任せます。
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/jpn/docs/events/"
+    noun="件のイベント"
+    nameLabel="イベント"
+    columns={[
+      { field: 'type', label: 'タイプ', badge: 'type', width: '9rem' },
+      { field: 'act', label: '場所', width: '16rem' },
+      { field: 'preconditions', label: '条件', width: '22rem' },
+    ]}
+    filters={[
+      { field: 'type', label: 'タイプ' },
+      { field: 'act', label: '場所' },
+      { field: 'hasPreconditions', label: '条件あり' },
+      { field: 'hasRelics', label: '関連レリックあり' },
+    ]}
+  />
+</StarlightPage>

@@ -1,0 +1,17 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EnhancementDetail from '../../../../components/EnhancementDetail.astro';
+import { enchantmentForLocale, enchantments } from '../../../../data/enchantments';
+
+export const getStaticPaths = (() =>
+  enchantments.map((enhancement) => ({ params: { slug: enhancement.slug }, props: { enhancement } }))) satisfies GetStaticPaths;
+
+const { enhancement } = Astro.props;
+const localized = enchantmentForLocale(enhancement, 'jpn');
+const description = localized.description || `${localized.name} - Slay the Spire 2 エンチャント。`;
+---
+
+<StarlightPage frontmatter={{ title: localized.name, description }}>
+  <EnhancementDetail enhancement={enhancement} locale="jpn" />
+</StarlightPage>

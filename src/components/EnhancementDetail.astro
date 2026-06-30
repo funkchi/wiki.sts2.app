@@ -1,0 +1,86 @@
+---
+import { enchantmentForLocale, type Enchantment } from '../data/enchantments';
+import { renderEntityTextHtml } from '../data/textHtml';
+import type { Lang } from '../data/i18n';
+
+interface Props {
+  enhancement: Enchantment;
+  locale: Lang;
+}
+
+const { enhancement, locale } = Astro.props;
+const display = enchantmentForLocale(enhancement, locale);
+
+const labels = {
+  en: {
+    description: 'Description',
+    extraCardText: 'Extra Card Text',
+    cardType: 'Card Type',
+    applicableTo: 'Applicable To',
+    stackable: 'Stackable',
+    yes: 'Yes',
+    no: 'No',
+    any: 'Any',
+    none: 'None',
+    back: 'Back to all enhancements',
+  },
+  zhs: {
+    description: '描述',
+    extraCardText: '额外卡牌文本',
+    cardType: '卡牌类型',
+    applicableTo: '适用于',
+    stackable: '可叠加',
+    yes: '是',
+    no: '否',
+    any: '任意',
+    none: '无',
+    back: '返回全部附魔',
+  },
+  jpn: {
+    description: '説明',
+    extraCardText: '追加カードテキスト',
+    cardType: 'カードタイプ',
+    applicableTo: '適用対象',
+    stackable: 'スタック可能',
+    yes: 'あり',
+    no: 'なし',
+    any: '任意',
+    none: 'なし',
+    back: 'エンチャント一覧に戻る',
+  },
+}[locale];
+
+const localePrefix = locale === 'en' ? '' : `/${locale}`;
+const descriptionHtml = display.description
+  ? renderEntityTextHtml(display.description, { locale })
+  : labels.none;
+const extraHtml = display.extraCardText
+  ? renderEntityTextHtml(display.extraCardText, { locale })
+  : labels.none;
+---
+
+<div class="wiki-entity-hero enhancement-hero">
+  {display.image && <img class="wiki-image enhancement-image" src={display.image} alt={display.name} loading="eager" decoding="async" fetchpriority="high" />}
+  <div class="wiki-entity-hero__details">
+    <div class="entity-badges">
+      <span class="tag tag--type-enhancement">{display.cardType || labels.any}</span>
+      <span class="badge">{display.isStackable ? labels.yes : labels.no}</span>
+    </div>
+    <p set:html={descriptionHtml} />
+    {display.extraCardText && (
+      <>
+        <h2 id="extra-card-text">{labels.extraCardText}</h2>
+        <p set:html={extraHtml} />
+      </>
+    )}
+    <table>
+      <tbody>
+        <tr><th scope="row">{labels.cardType}</th><td>{display.cardType || labels.any}</td></tr>
+        <tr><th scope="row">{labels.applicableTo}</th><td>{display.applicableTo || labels.any}</td></tr>
+        <tr><th scope="row">{labels.stackable}</th><td>{display.isStackable ? labels.yes : labels.no}</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<p><a href={`${localePrefix}/docs/enhancements/`}>{labels.back}</a></p>

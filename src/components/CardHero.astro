@@ -1,5 +1,6 @@
 ---
 import { localizedCharacterLabel, translationKey, type Lang } from '../data/i18n';
+import { renderEntityTextHtml } from '../data/textHtml';
 
 interface CostRaw {
   cost: number | null;
@@ -76,20 +77,11 @@ const norm = (val: string) =>
   String(val).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 const STAR = 'https://cdn.spire-codex.com/icons/star_icon.webp';
 
-const esc = (s: string) =>
-  s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-const escRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-function highlight(text: string, terms: string[], cls: string): string {
-  const safe = esc(text);
-  if (!terms || terms.length === 0) return safe;
-  const re = new RegExp('\\b(' + terms.map(escRe).join('|') + ')\\b', 'gi');
-  return safe.replace(re, `<span class="${cls}">$1</span>`);
-}
 const descHtml = display.description
-  ? highlight(display.description, display.keywords, 'kw')
+  ? renderEntityTextHtml(display.description, { locale, keywords: display.keywords, keywordClass: 'kw' })
   : 'No description is currently available.';
 const upgHtml = display.upgradeDescription
-  ? highlight(display.upgradeDescription, display.keywords, 'kw kw--muted')
+  ? renderEntityTextHtml(display.upgradeDescription, { locale, keywords: display.keywords, keywordClass: 'kw kw--muted' })
   : '';
 
 const rows: Array<[string, string]> = [

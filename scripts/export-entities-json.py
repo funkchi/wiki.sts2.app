@@ -89,6 +89,135 @@ def _upgrade_image(card: dict) -> str | None:
     return card.get("image_url_card_upg") or None
 
 
+def _event_image(value: str | None) -> str | None:
+    if not value:
+        return None
+    if value.startswith("http"):
+        return value
+    if value.startswith("/"):
+        return f"https://spire-codex.com{value}"
+    return value
+
+
+def _event_options(options: list[dict] | None) -> list[dict]:
+    return [
+        {
+            "id": option.get("id"),
+            "title": sc.clean(option.get("title")),
+            "description": sc.clean(option.get("description")),
+        }
+        for option in (options or [])
+    ]
+
+
+def _event_pages(pages: list[dict] | None) -> list[dict]:
+    return [
+        {
+            "id": page.get("id"),
+            "options": _event_options(page.get("options")),
+        }
+        for page in (pages or [])
+    ]
+
+
+def _event_translation(event: dict) -> dict:
+    return {
+        "name": sc.clean(event.get("name")),
+        "type": sc.clean(event.get("type")),
+        "act": sc.clean(event.get("act")) or None,
+        "preconditions": [sc.clean(p) for p in (event.get("preconditions") or [])],
+        "options": _event_options(event.get("options")),
+        "pages": _event_pages(event.get("pages")),
+    }
+
+
+def export_events() -> list[dict]:
+    events = sc.fetch_json("events")
+    zhs = {event.get("id"): event for event in sc.fetch_json("events", lang="zhs")}
+    jpn = {event.get("id"): event for event in sc.fetch_json("events", lang="jpn")}
+    items = sorted(
+        events,
+        key=lambda event: (
+            sc.clean(event.get("act")) or "zz",
+            sc.clean(event.get("type")) or "zz",
+            sc.clean(event.get("name")) or "",
+        ),
+    )
+    out = []
+    for event in items:
+        event_id = event.get("id")
+        translations = {}
+        if event_id in zhs:
+            translations["zhHans"] = _event_translation(zhs[event_id])
+        if event_id in jpn:
+            translations["ja"] = _event_translation(jpn[event_id])
+        out.append(
+            {
+                "id": event_id,
+                "slug": sc.entity_slug(event_id),
+                "name": sc.clean(event.get("name")),
+                "type": sc.clean(event.get("type")),
+                "act": sc.clean(event.get("act")) or None,
+                "preconditions": [sc.clean(p) for p in (event.get("preconditions") or [])],
+                "options": _event_options(event.get("options")),
+                "pages": _event_pages(event.get("pages")),
+                "relics": [str(r) for r in (event.get("relics") or [])],
+                "imageUrl": _event_image(event.get("image_url")),
+                "translations": translations,
+            }
+        )
+    return out
+
+
+def _enchantment_image(value: str | None) -> str | None:
+    if not value:
+        return None
+    if value.startswith("http"):
+        return value
+    if value.startswith("/"):
+        return f"https://spire-codex.com{value}"
+    return value
+
+
+def _enchantment_translation(enchantment: dict) -> dict:
+    return {
+        "name": sc.clean(enchantment.get("name")),
+        "description": sc.clean(enchantment.get("description")),
+        "extraCardText": sc.clean(enchantment.get("extra_card_text")),
+        "cardType": sc.clean(enchantment.get("card_type")) or None,
+        "applicableTo": sc.clean(enchantment.get("applicable_to")) or None,
+    }
+
+
+def export_enchantments() -> list[dict]:
+    enchantments = sc.fetch_json("enchantments")
+    zhs = {item.get("id"): item for item in sc.fetch_json("enchantments", lang="zhs")}
+    jpn = {item.get("id"): item for item in sc.fetch_json("enchantments", lang="jpn")}
+    out = []
+    for item in sorted(enchantments, key=lambda e: sc.clean(e.get("name"))):
+        item_id = item.get("id")
+        translations = {}
+        if item_id in zhs:
+            translations["zhHans"] = _enchantment_translation(zhs[item_id])
+        if item_id in jpn:
+            translations["ja"] = _enchantment_translation(jpn[item_id])
+        out.append(
+            {
+                "id": item_id,
+                "slug": sc.entity_slug(item_id),
+                "name": sc.clean(item.get("name")),
+                "description": sc.clean(item.get("description")),
+                "extraCardText": sc.clean(item.get("extra_card_text")),
+                "cardType": sc.clean(item.get("card_type")) or None,
+                "applicableTo": sc.clean(item.get("applicable_to")) or None,
+                "isStackable": bool(item.get("is_stackable")),
+                "image": _enchantment_image(item.get("image_url")),
+                "translations": translations,
+            }
+        )
+    return out
+
+
 # Vocabulary of in-game keywords/buffs/debuffs to surface for search + highlight.
 KEYWORDS = [
     "Exhaust", "Ethereal", "Retain", "Innate", "Sly", "Eternal",
@@ -334,6 +463,8 @@ def main() -> None:
     _write("characters", export_characters())
     _write("relics", export_relics())
     _write("enemies", export_enemies())
+    _write("events", export_events())
+    _write("enchantments", export_enchantments())
 
 
 if __name__ == "__main__":

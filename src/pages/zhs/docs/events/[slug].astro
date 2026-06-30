@@ -1,0 +1,17 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EventDetail from '../../../../components/EventDetail.astro';
+import { eventForLocale, events } from '../../../../data/events';
+
+export const getStaticPaths = (() =>
+  events.map((event) => ({ params: { slug: event.slug }, props: { event } }))) satisfies GetStaticPaths;
+
+const { event } = Astro.props;
+const localized = eventForLocale(event, 'zhs');
+const description = `${localized.type}${localized.act ? `: ${localized.act}` : ''}。事件选项与结果摘要，不包含叙事全文。`;
+---
+
+<StarlightPage frontmatter={{ title: localized.name, description }}>
+  <EventDetail event={event} locale="zhs" />
+</StarlightPage>

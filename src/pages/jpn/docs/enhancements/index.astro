@@ -1,0 +1,32 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../../components/EntityBrowser.svelte';
+import { enhancementIndexRows } from '../../../../data/enchantments';
+
+const rows = enhancementIndexRows('jpn');
+---
+
+<StarlightPage frontmatter={{ title: 'エンチャント', description: 'Slay the Spire 2 のカードエンチャント資料。' }}>
+  <p>
+    エンチャントデータは <a href="https://spire-codex.com/docs">Spire Codex API</a>{' '}
+    <code>/api/enchantments?lang=jpn</code> から取得しています。
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/jpn/docs/enhancements/"
+    noun="件のエンチャント"
+    nameLabel="エンチャント"
+    columns={[
+      { field: 'cardType', label: 'カードタイプ', width: '10rem' },
+      { field: 'applicableTo', label: '適用対象', width: '16rem' },
+      { field: 'stackable', label: 'スタック可能', width: '9rem' },
+      { field: 'extraCardText', label: '追加カードテキスト', width: '30rem' },
+    ]}
+    filters={[
+      { field: 'cardType', label: 'カードタイプ' },
+      { field: 'applicableTo', label: '適用対象' },
+      { field: 'stackable', label: 'スタック可能' },
+    ]}
+  />
+</StarlightPage>
