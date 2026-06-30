@@ -1,22 +1,9 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import EntityBrowser from '../../../../components/EntityBrowser.svelte';
-import { cards } from '../../../../data/cards';
-import { localizedCharacterLabel } from '../../../../data/i18n';
+import { cardIndexRows } from '../../../../data/cardIndexRows';
 
-const rows = cards.map((c) => {
-  const zh = c.translations?.zhHans;
-  return {
-    slug: c.slug,
-    name: zh?.name || c.name,
-    character: localizedCharacterLabel('zhs', c.character),
-    cost: c.cost,
-    costRaw: c.costRaw,
-    type: zh?.type || c.type,
-    rarity: zh?.rarity || c.rarity,
-    keywords: zh?.keywords?.length ? zh.keywords : c.matchedKeywords,
-  };
-});
+const rows = cardIndexRows('zhs');
 ---
 
 <StarlightPage frontmatter={{ title: '卡牌', description: '杀戮尖塔 2 中文卡牌资料。' }}>

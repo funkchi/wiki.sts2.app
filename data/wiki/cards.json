@@ -4827,7 +4827,7 @@
       "character": "Ironclad",
       "type": "Skill",
       "rarity": "Rare",
-      "cost": "Unplayable",
+      "cost": "X",
       "costRaw": {
         "cost": -1,
         "starCost": null,

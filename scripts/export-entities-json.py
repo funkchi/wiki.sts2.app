@@ -51,12 +51,12 @@ def _norm(value: str) -> str:
 def _cost_label(card: dict) -> str:
     cost = card.get("cost")
     star = card.get("star_cost")
-    if cost in (-1, -2):
-        return "Unplayable"
     if card.get("is_x_star_cost"):
         return "X★"
     if card.get("is_x_cost"):
         return "X"
+    if cost in (-1, -2):
+        return "Unplayable"
     if star is not None:
         return f"{cost}/{star}★"
     if cost is None:

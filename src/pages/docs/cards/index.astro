@@ -1,18 +1,9 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import EntityBrowser from '../../../components/EntityBrowser.svelte';
-import { cards } from '../../../data/cards';
+import { cardIndexRows } from '../../../data/cardIndexRows';
 
-const rows = cards.map((c) => ({
-  slug: c.slug,
-  name: c.name,
-  character: c.character,
-  cost: c.cost,
-  costRaw: c.costRaw,
-  type: c.type,
-  rarity: c.rarity,
-  keywords: c.matchedKeywords,
-}));
+const rows = cardIndexRows('en');
 ---
 
 <StarlightPage frontmatter={{ title: 'Cards' }}>

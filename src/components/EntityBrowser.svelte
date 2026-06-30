@@ -101,9 +101,9 @@
 
   function costHtml(cr: any) {
     if (!cr) return '';
-    if (cr.cost === -1 || cr.cost === -2) return 'Unplayable';
     if (cr.isXStar) return 'X ' + STAR_IMG;
     if (cr.isX) return 'X';
+    if (cr.cost === -1 || cr.cost === -2) return 'Unplayable';
     if (cr.starCost !== null && cr.starCost !== undefined)
       return `${cr.cost}/${cr.starCost} ` + STAR_IMG;
     return String(cr.cost);
@@ -111,8 +111,8 @@
 
   function costRank(cr: any): number {
     if (!cr) return Number.POSITIVE_INFINITY;
-    if (cr.cost === -1 || cr.cost === -2) return 200;
     if (cr.isX || cr.isXStar) return 100;
+    if (cr.cost === -1 || cr.cost === -2) return 200;
     if (typeof cr.cost === 'number') {
       return cr.cost + (typeof cr.starCost === 'number' ? cr.starCost / 10 : 0);
     }
@@ -139,6 +139,7 @@
   function sortValue(e: Record<string, any>, field: string) {
     const col = sortColumnsByField[field];
     if (col?.format === 'cardCost') return costRank(e.costRaw);
+    if (field === 'name') return e.sortName ?? e.name ?? '';
     if (field === 'rarity') {
       const key = String(e[field] ?? '').toLowerCase();
       return rarityRank[key] ?? 999;
