@@ -1,0 +1,30 @@
+---
+import { localeFromPath, localizedHome, siteTitleFor } from '../data/i18n';
+
+const locale = localeFromPath(Astro.url.pathname);
+const title = siteTitleFor(locale);
+const href = localizedHome(locale);
+---
+
+<a href={href} class="site-title sl-flex">
+  <span translate="no">{title}</span>
+</a>
+
+<style>
+  @layer starlight.core {
+    .site-title {
+      align-items: center;
+      gap: var(--sl-nav-gap);
+      font-size: var(--sl-text-h4);
+      font-weight: 600;
+      color: var(--sl-color-text-accent);
+      text-decoration: none;
+      white-space: nowrap;
+      min-width: 0;
+    }
+    span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+</style>

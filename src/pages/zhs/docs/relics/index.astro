@@ -9,7 +9,6 @@ const rows = relics.map((r) => {
   return {
     slug: r.slug,
     name: zh?.name || r.name,
-    englishName: r.name,
     pool: zh?.pool || r.pool,
     poolColor: poolColor(r.poolRaw),
     price: r.price,
@@ -31,7 +30,6 @@ const rows = relics.map((r) => {
     noun="件遗物"
     nameLabel="遗物"
     columns={[
-      { field: 'englishName', label: '英文', width: '16rem' },
       { field: 'pool', label: '卡池' },
       { field: 'price', label: '价格' },
       { field: 'rarity', label: '稀有度', format: 'relicRarity' },

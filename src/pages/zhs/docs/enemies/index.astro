@@ -8,7 +8,6 @@ const rows = enemies.map((e) => {
   return {
     slug: e.slug,
     name: zh?.name || e.name,
-    englishName: e.name,
     type: zh?.type || e.type,
     hp: e.hp,
     acts: e.acts,
@@ -29,7 +28,6 @@ const rows = enemies.map((e) => {
     noun="个敌人"
     nameLabel="敌人"
     columns={[
-      { field: 'englishName', label: '英文', width: '16rem' },
       { field: 'type', label: '类型' },
       { field: 'hp', label: '生命' },
       { field: 'acts', label: '章节' },

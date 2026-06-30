@@ -1,0 +1,85 @@
+---
+import MobileMenuFooter from 'virtual:starlight/components/MobileMenuFooter';
+import { localeFromPath, sidebarItemsFor } from '../data/i18n';
+
+const pathname = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
+const locale = localeFromPath(pathname);
+const items = sidebarItemsFor(locale);
+
+function isCurrent(href: string): boolean {
+  const normalized = href.endsWith('/') ? href : `${href}/`;
+  return pathname === normalized || (normalized !== '/' && pathname.startsWith(normalized));
+}
+---
+
+<ul class="top-level">
+  {items.map((item) => (
+    <li>
+      <a href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined} class="large">
+        <span>{item.label}</span>
+      </a>
+    </li>
+  ))}
+</ul>
+
+<div class="md:sl-hidden">
+  <MobileMenuFooter />
+</div>
+
+<style>
+  @layer starlight.core {
+    ul {
+      --sl-sidebar-item-padding-inline: 0.5rem;
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      overflow-wrap: anywhere;
+    }
+
+    .large {
+      font-size: var(--sl-text-lg);
+      font-weight: 600;
+      color: var(--sl-color-white);
+    }
+
+    .top-level > li + li {
+      margin-top: 0.75rem;
+    }
+
+    a {
+      display: block;
+      border-radius: 0.25rem;
+      text-decoration: none;
+      color: var(--sl-color-gray-2);
+      padding: 0.3em var(--sl-sidebar-item-padding-inline);
+      line-height: 1.4;
+    }
+
+    a:hover,
+    a:focus {
+      color: var(--sl-color-white);
+    }
+
+    [aria-current='page'],
+    [aria-current='page']:hover,
+    [aria-current='page']:focus {
+      font-weight: 600;
+      color: var(--sl-color-text-invert);
+      background-color: var(--sl-color-text-accent);
+    }
+
+    @media (min-width: 50rem) {
+      .top-level > li + li {
+        margin-top: 0.5rem;
+      }
+      .large {
+        font-size: var(--sl-text-base);
+      }
+      a {
+        font-size: var(--sl-text-sm);
+      }
+    }
+  }
+</style>

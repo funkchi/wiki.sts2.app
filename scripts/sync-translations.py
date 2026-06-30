@@ -33,6 +33,7 @@ LANG_CONFIG = {
         "energy": "能量",
         "star": "星",
         "unknown": "未知",
+        "move_labels": {"damage": "伤害", "block": "格挡", "heal": "治疗", "more": "个额外行动"},
         "pool_labels": {
             "shared": "通用",
             "ironclad": "铁甲战士",
@@ -41,12 +42,32 @@ LANG_CONFIG = {
             "necrobinder": "亡灵束缚者",
             "regent": "摄政者",
         },
+        "keyword_terms": [
+            {"id": "ETERNAL", "label": "永恒", "aliases": ["永恒"]},
+            {"id": "ETHEREAL", "label": "虚无", "aliases": ["虚无"]},
+            {"id": "EXHAUST", "label": "消耗", "aliases": ["消耗"]},
+            {"id": "INNATE", "label": "固有", "aliases": ["固有"]},
+            {"id": "RETAIN", "label": "保留", "aliases": ["保留"]},
+            {"id": "SLY", "label": "奇巧", "aliases": ["奇巧"]},
+            {"id": "UNPLAYABLE", "label": "不能被打出", "aliases": ["不能被打出", "不可打出"]},
+            {"id": "VULNERABLE", "label": "易伤", "aliases": ["易伤"]},
+            {"id": "WEAK", "label": "虚弱", "aliases": ["虚弱"]},
+            {"id": "FRAIL", "label": "脆弱", "aliases": ["脆弱"]},
+            {"id": "POISON", "label": "中毒", "aliases": ["中毒", "毒"]},
+            {"id": "DOOM", "label": "厄运", "aliases": ["厄运"]},
+            {"id": "STRENGTH", "label": "力量", "aliases": ["力量"]},
+            {"id": "DEXTERITY", "label": "敏捷", "aliases": ["敏捷"]},
+            {"id": "THORNS", "label": "荆棘", "aliases": ["荆棘"]},
+            {"id": "REGEN", "label": "再生", "aliases": ["再生"]},
+            {"id": "FOCUS", "label": "集中", "aliases": ["集中"]},
+        ],
     },
     "jpn": {
         "translation_key": "ja",
         "energy": "エナジー",
         "star": "スター",
         "unknown": "不明",
+        "move_labels": {"damage": "ダメージ", "block": "ブロック", "heal": "回復", "more": "件の追加行動"},
         "pool_labels": {
             "shared": "共通",
             "ironclad": "アイアンクラッド",
@@ -55,6 +76,25 @@ LANG_CONFIG = {
             "necrobinder": "ネクロバインダー",
             "regent": "リージェント",
         },
+        "keyword_terms": [
+            {"id": "ETERNAL", "label": "永劫", "aliases": ["永劫"]},
+            {"id": "ETHEREAL", "label": "エセリアル", "aliases": ["エセリアル"]},
+            {"id": "EXHAUST", "label": "廃棄", "aliases": ["廃棄"]},
+            {"id": "INNATE", "label": "天賦", "aliases": ["天賦"]},
+            {"id": "RETAIN", "label": "保留", "aliases": ["保留"]},
+            {"id": "SLY", "label": "スライ", "aliases": ["スライ"]},
+            {"id": "UNPLAYABLE", "label": "プレイ不可", "aliases": ["プレイ不可"]},
+            {"id": "VULNERABLE", "label": "弱体", "aliases": ["弱体"]},
+            {"id": "WEAK", "label": "脱力", "aliases": ["脱力"]},
+            {"id": "FRAIL", "label": "脆弱", "aliases": ["脆弱"]},
+            {"id": "POISON", "label": "毒", "aliases": ["毒"]},
+            {"id": "DOOM", "label": "破滅", "aliases": ["破滅"]},
+            {"id": "STRENGTH", "label": "筋力", "aliases": ["筋力"]},
+            {"id": "DEXTERITY", "label": "敏捷", "aliases": ["敏捷"]},
+            {"id": "THORNS", "label": "トゲ", "aliases": ["トゲ"]},
+            {"id": "REGEN", "label": "再生", "aliases": ["再生"]},
+            {"id": "FOCUS", "label": "集中力", "aliases": ["集中力", "集中"]},
+        ],
     },
 }
 
@@ -105,6 +145,10 @@ def by_norm_id(items: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
     return {norm_id(item.get("id")): item for item in items if item.get("id")}
 
 
+def keyword_names(items: list[dict[str, Any]], config: dict[str, Any]) -> dict[str, str]:
+    return {str(item.get("id")): clean_i18n(item.get("name"), config) for item in items if item.get("id")}
+
+
 def load_payload(kind: str) -> dict[str, Any]:
     return json.loads((ROOT / "data" / "wiki" / f"{kind}.json").read_text())
 
@@ -114,7 +158,30 @@ def write_payload(kind: str, payload: dict[str, Any]) -> None:
     target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
 
 
-def card_translation(card: dict[str, Any], config: dict[str, Any]) -> dict[str, Any]:
+def localized_keywords(card: dict[str, Any], config: dict[str, Any], official_keywords: dict[str, str]) -> list[str]:
+    text = " ".join(
+        [
+            clean_i18n(card.get("description"), config),
+            clean_i18n(card.get("upgrade_description"), config),
+        ]
+    )
+    field_values = {clean_i18n(k, config) for k in (card.get("keywords") or [])}
+    field_ids = {norm_id(k) for k in (card.get("keywords") or [])}
+    out: list[str] = []
+    seen: set[str] = set()
+    for term in config["keyword_terms"]:
+        term_id = str(term["id"])
+        label = official_keywords.get(term_id) or term["label"]
+        aliases = [label, *term.get("aliases", [])]
+        matched_field = norm_id(term_id) in field_ids or label in field_values
+        matched_text = any(alias and alias in text for alias in aliases)
+        if (matched_field or matched_text) and label not in seen:
+            out.append(label)
+            seen.add(label)
+    return out
+
+
+def card_translation(card: dict[str, Any], config: dict[str, Any], official_keywords: dict[str, str]) -> dict[str, Any]:
     return {
         "name": clean_i18n(card.get("name"), config),
         "description": clean_i18n(card.get("description"), config),
@@ -122,7 +189,7 @@ def card_translation(card: dict[str, Any], config: dict[str, Any]) -> dict[str, 
         "type": clean_i18n(card.get("type"), config),
         "rarity": clean_i18n(card.get("rarity"), config),
         "target": clean_i18n(card.get("target"), config),
-        "keywords": [clean_i18n(k, config) for k in (card.get("keywords") or [])],
+        "keywords": localized_keywords(card, config, official_keywords),
     }
 
 
@@ -200,8 +267,28 @@ def enemy_translation(monster: dict[str, Any], config: dict[str, Any]) -> dict[s
         "moves": moves,
         "encounters": encounters,
         "encounterNames": sorted({e["name"] for e in encounters if e["name"] != "-"}),
-        "movesSummary": sc.first_moves(monster),
+        "movesSummary": localized_moves_summary(monster, config),
     }
+
+
+def localized_moves_summary(monster: dict[str, Any], config: dict[str, Any], limit: int = 3) -> str:
+    parts = []
+    moves = monster.get("moves") or []
+    labels = config["move_labels"]
+    for move in moves[:limit]:
+        name = clean_i18n(move.get("name") or move.get("id"), config)
+        intent = clean_i18n(move.get("intent"), config)
+        details = []
+        for key, label in [("damage", labels["damage"]), ("block", labels["block"]), ("heal", labels["heal"])]:
+            rendered = sc.move_value(move.get(key), label)
+            if rendered:
+                details.append(rendered)
+        suffix = f" ({', '.join(details)})" if details else ""
+        parts.append(f"{name}: {intent}{suffix}" if intent else f"{name}{suffix}")
+    extra = len(moves) - limit
+    if extra > 0:
+        parts.append(f"+{extra} {labels['more']}")
+    return "; ".join(parts) or "-"
 
 
 def merge(kind: str, source: dict[str, dict[str, Any]], translation_key: str, transform) -> tuple[int, int]:
@@ -232,9 +319,10 @@ def main() -> None:
     monsters = by_id(export["monsters"])
     cards_by_norm = by_norm_id(export["cards"])
     relics_by_norm = by_norm_id(export["relics"])
+    official_keywords = keyword_names(export.get("keywords") or [], config)
 
     stats = {
-        "cards": merge("cards", cards, translation_key, lambda card: card_translation(card, config)),
+        "cards": merge("cards", cards, translation_key, lambda card: card_translation(card, config, official_keywords)),
         "characters": merge(
             "characters",
             characters,

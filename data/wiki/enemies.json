@@ -86,7 +86,7 @@
           "encounterNames": [
             "永世沙漏"
           ],
-          "movesSummary": "消退: Attack + Defend (26 (Asc 32) dmg, 33 block); 眼部激光: Attack (11 (Asc 12) dmg); 加大力度: Status + Buff"
+          "movesSummary": "消退: Attack + Defend (26 (Asc 32) 伤害, 33 格挡); 眼部激光: Attack (11 (Asc 12) 伤害); 加大力度: Status + Buff"
         },
         "ja": {
           "name": "永劫の砂時計",
@@ -125,7 +125,7 @@
           "encounterNames": [
             "永劫の砂時計"
           ],
-          "movesSummary": "衰退: Attack + Defend (26 (Asc 32) dmg, 33 block); アイレーザー: Attack (11 (Asc 12) dmg); 激化: Status + Buff"
+          "movesSummary": "衰退: Attack + Defend (26 (Asc 32) ダメージ, 33 ブロック); アイレーザー: Attack (11 (Asc 12) ダメージ); 激化: Status + Buff"
         }
       }
     },
@@ -254,7 +254,7 @@
           "encounterNames": [
             "仪式兽"
           ],
-          "movesSummary": "跺地: Buff; 横冲直撞: Attack + Buff (18 (Asc 20) dmg); Stun: Stun; +3 more"
+          "movesSummary": "跺地: Buff; 横冲直撞: Attack + Buff (18 (Asc 20) 伤害); Stun: Stun; +3 个额外行动"
         },
         "ja": {
           "name": "儀式の獣",
@@ -314,7 +314,7 @@
           "encounterNames": [
             "儀式の獣"
           ],
-          "movesSummary": "スタンプ: Buff; 突進: Attack + Buff (18 (Asc 20) dmg); Stun: Stun; +3 more"
+          "movesSummary": "スタンプ: Buff; 突進: Attack + Buff (18 (Asc 20) ダメージ); Stun: Stun; +3 件の追加行動"
         }
       }
     },
@@ -429,7 +429,7 @@
           "encounterNames": [
             "帝皇蟹"
           ],
-          "movesSummary": "撕扯: Attack (12 (Asc 14) dmg); 巨化打击: Attack (4 dmg); 虫蛰: Attack + Debuff (6x2 (Asc 7x2) dmg); +2 more"
+          "movesSummary": "撕扯: Attack (12 (Asc 14) 伤害); 巨化打击: Attack (4 伤害); 虫蛰: Attack + Debuff (6x2 (Asc 7x2) 伤害); +2 个额外行动"
         },
         "ja": {
           "name": "クラッシャー",
@@ -482,7 +482,7 @@
           "encounterNames": [
             "カイザークラブ"
           ],
-          "movesSummary": "大暴れ: Attack (12 (Asc 14) dmg); 巨大化攻撃: Attack (4 dmg); 虫刺し: Attack + Debuff (6x2 (Asc 7x2) dmg); +2 more"
+          "movesSummary": "大暴れ: Attack (12 (Asc 14) ダメージ); 巨大化攻撃: Attack (4 ダメージ); 虫刺し: Attack + Debuff (6x2 (Asc 7x2) ダメージ); +2 件の追加行動"
         }
       }
     },
@@ -569,7 +569,7 @@
           "encounterNames": [
             "同族小队"
           ],
-          "movesSummary": "快斩: Attack (5 dmg); 回旋镖: Attack (2x2 dmg); 力量之舞: Buff"
+          "movesSummary": "快斩: Attack (5 伤害); 回旋镖: Attack (2x2 伤害); 力量之舞: Buff"
         },
         "ja": {
           "name": "血族の信者",
@@ -608,7 +608,7 @@
           "encounterNames": [
             "血族"
           ],
-          "movesSummary": "はやぶさ斬り: Attack (5 dmg); ブーメラン: Attack (2x2 dmg); 力のダンス: Buff"
+          "movesSummary": "はやぶさ斬り: Attack (5 ダメージ); ブーメラン: Attack (2x2 ダメージ); 力のダンス: Buff"
         }
       }
     },
@@ -709,7 +709,7 @@
           "encounterNames": [
             "同族小队"
           ],
-          "movesSummary": "脆弱法球: Attack + Debuff (8 (Asc 9) dmg); 虚弱法球: Attack + Debuff (8 (Asc 9) dmg); 灵魂光束: Attack (3x3 dmg); +1 more"
+          "movesSummary": "脆弱法球: Attack + Debuff (8 (Asc 9) 伤害); 虚弱法球: Attack + Debuff (8 (Asc 9) 伤害); 灵魂光束: Attack (3x3 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "血族の司祭",
@@ -755,7 +755,7 @@
           "encounterNames": [
             "血族"
           ],
-          "movesSummary": "脆弱のオーブ: Attack + Debuff (8 (Asc 9) dmg); 脱力のオーブ: Attack + Debuff (8 (Asc 9) dmg); ソウルビーム: Attack (3x3 dmg); +1 more"
+          "movesSummary": "脆弱のオーブ: Attack + Debuff (8 (Asc 9) ダメージ); 脱力のオーブ: Attack + Debuff (8 (Asc 9) ダメージ); ソウルビーム: Attack (3x3 ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -856,7 +856,7 @@
           "encounterNames": [
             "知识恶魔"
           ],
-          "movesSummary": "知识的诅咒: Debuff; 抽打: Attack (17 (Asc 18) dmg); 知识过载: Attack (8x3 (Asc 9x3) dmg); +1 more"
+          "movesSummary": "知识的诅咒: Debuff; 抽打: Attack (17 (Asc 18) 伤害); 知识过载: Attack (8x3 (Asc 9x3) 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "知識の悪魔",
@@ -902,7 +902,7 @@
           "encounterNames": [
             "知識の悪魔"
           ],
-          "movesSummary": "知識の呪い: Debuff; はたく: Attack (17 (Asc 18) dmg); 知識の本流: Attack (8x3 (Asc 9x3) dmg); +1 more"
+          "movesSummary": "知識の呪い: Debuff; はたく: Attack (17 (Asc 18) ダメージ); 知識の本流: Attack (8x3 (Asc 9x3) ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -1017,7 +1017,7 @@
           "encounterNames": [
             "乐加维林族母"
           ],
-          "movesSummary": "沉睡: Sleep; 斩击: Attack (19 (Asc 21) dmg); Slash2: Attack + Defend (12 (Asc 14) dmg, 12 block); +2 more"
+          "movesSummary": "沉睡: Sleep; 斩击: Attack (19 (Asc 21) 伤害); Slash2: Attack + Defend (12 (Asc 14) 伤害, 12 格挡); +2 个额外行动"
         },
         "ja": {
           "name": "ラガヴーリン・メイトリアーク",
@@ -1070,7 +1070,7 @@
           "encounterNames": [
             "ラガヴーリン・メイトリアーク"
           ],
-          "movesSummary": "睡眠: Sleep; 切り裂き: Attack (19 (Asc 21) dmg); Slash2: Attack + Defend (12 (Asc 14) dmg, 12 block); +2 more"
+          "movesSummary": "睡眠: Sleep; 切り裂き: Attack (19 (Asc 21) ダメージ); Slash2: Attack + Defend (12 (Asc 14) ダメージ, 12 ブロック); +2 件の追加行動"
         }
       }
     },
@@ -1199,7 +1199,7 @@
           "encounterNames": [
             "女王"
           ],
-          "movesSummary": "Puppet Strings: Debuff; 你是我的了: Debuff; 为我尽力燃烧吧: Buff + Defend (20 block); +3 more"
+          "movesSummary": "Puppet Strings: Debuff; 你是我的了: Debuff; 为我尽力燃烧吧: Buff + Defend (20 格挡); +3 个额外行动"
         },
         "ja": {
           "name": "クイーン",
@@ -1259,7 +1259,7 @@
           "encounterNames": [
             "クイーン"
           ],
-          "movesSummary": "Puppet Strings: Debuff; お前は私のものだ: Debuff; 燃え上がれ: Buff + Defend (20 block); +3 more"
+          "movesSummary": "Puppet Strings: Debuff; お前は私のものだ: Debuff; 燃え上がれ: Buff + Defend (20 ブロック); +3 件の追加行動"
         }
       }
     },
@@ -1374,7 +1374,7 @@
           "encounterNames": [
             "帝皇蟹"
           ],
-          "movesSummary": "瞄准十字: Attack (3 (Asc 4) dmg); 精准光束: Attack (18 (Asc 20) dmg); 蓄能: Buff; +2 more"
+          "movesSummary": "瞄准十字: Attack (3 (Asc 4) 伤害); 精准光束: Attack (18 (Asc 20) 伤害); 蓄能: Buff; +2 个额外行动"
         },
         "ja": {
           "name": "ロケット",
@@ -1427,7 +1427,7 @@
           "encounterNames": [
             "カイザークラブ"
           ],
-          "movesSummary": "ターゲットを照準: Attack (3 (Asc 4) dmg); 精密ビーム: Attack (18 (Asc 20) dmg); チャージアップ: Buff; +2 more"
+          "movesSummary": "ターゲットを照準: Attack (3 (Asc 4) ダメージ); 精密ビーム: Attack (18 (Asc 20) ダメージ); チャージアップ: Buff; +2 件の追加行動"
         }
       }
     },
@@ -1542,7 +1542,7 @@
           "encounterNames": [
             "灵魂异鱼"
           ],
-          "movesSummary": "呼唤: Status; 排气: Attack (16 (Asc 17) dmg); 凝视: Attack + Status (7 (Asc 8) dmg); +2 more"
+          "movesSummary": "呼唤: Status; 排气: Attack (16 (Asc 17) 伤害); 凝视: Attack + Status (7 (Asc 8) 伤害); +2 个额外行动"
         },
         "ja": {
           "name": "ソウルフィッシュ",
@@ -1595,7 +1595,7 @@
           "encounterNames": [
             "ソウルフィッシュ"
           ],
-          "movesSummary": "誘い: Status; ガス抜き: Attack (16 (Asc 17) dmg); 凝視: Attack + Status (7 (Asc 8) dmg); +2 more"
+          "movesSummary": "誘い: Status; ガス抜き: Attack (16 (Asc 17) ダメージ); 凝視: Attack + Status (7 (Asc 8) ダメージ); +2 件の追加行動"
         }
       }
     },
@@ -1738,7 +1738,7 @@
           "encounterNames": [
             "实验体"
           ],
-          "movesSummary": "重生: Heal + Buff; 噬咬: Attack (20 (Asc 22) dmg); 颅骨重击: Attack + Debuff (14 (Asc 16) dmg); +4 more"
+          "movesSummary": "重生: Heal + Buff; 噬咬: Attack (20 (Asc 22) 伤害); 颅骨重击: Attack + Debuff (14 (Asc 16) 伤害); +4 个额外行动"
         },
         "ja": {
           "name": "実験体 #C14",
@@ -1805,7 +1805,7 @@
           "encounterNames": [
             "実験体"
           ],
-          "movesSummary": "復活: Heal + Buff; 噛みつき: Attack (20 (Asc 22) dmg); スカルバッシュ: Attack + Debuff (14 (Asc 16) dmg); +4 more"
+          "movesSummary": "復活: Heal + Buff; 噛みつき: Attack (20 (Asc 22) ダメージ); スカルバッシュ: Attack + Debuff (14 (Asc 16) ダメージ); +4 件の追加行動"
         }
       }
     },
@@ -1920,7 +1920,7 @@
           "encounterNames": [
             "无厌沙虫"
           ],
-          "movesSummary": "液化地面: Buff + Status; 撕扯: Attack (8x2 (Asc 9x2) dmg); Thrash Move 2: Attack (8x2 (Asc 9x2) dmg); +2 more"
+          "movesSummary": "液化地面: Buff + Status; 撕扯: Attack (8x2 (Asc 9x2) 伤害); Thrash Move 2: Attack (8x2 (Asc 9x2) 伤害); +2 个额外行动"
         },
         "ja": {
           "name": "貪りの獣",
@@ -1973,7 +1973,7 @@
           "encounterNames": [
             "貪りの獣"
           ],
-          "movesSummary": "大地の溶解: Buff + Status; 大暴れ: Attack (8x2 (Asc 9x2) dmg); Thrash Move 2: Attack (8x2 (Asc 9x2) dmg); +2 more"
+          "movesSummary": "大地の溶解: Buff + Status; 大暴れ: Attack (8x2 (Asc 9x2) ダメージ); Thrash Move 2: Attack (8x2 (Asc 9x2) ダメージ); +2 件の追加行動"
         }
       }
     },
@@ -2088,7 +2088,7 @@
           "encounterNames": [
             "女王"
           ],
-          "movesSummary": "冲撞: Attack (18 (Asc 19) dmg); Tackle 2: Attack (18 (Asc 19) dmg); 光束: Attack (8x3 dmg); +2 more"
+          "movesSummary": "冲撞: Attack (18 (Asc 19) 伤害); Tackle 2: Attack (18 (Asc 19) 伤害); 光束: Attack (8x3 伤害); +2 个额外行动"
         },
         "ja": {
           "name": "トーチヘッド・アマルガム",
@@ -2141,7 +2141,7 @@
           "encounterNames": [
             "クイーン"
           ],
-          "movesSummary": "体当たり: Attack (18 (Asc 19) dmg); Tackle 2: Attack (18 (Asc 19) dmg); ビーム: Attack (8x3 dmg); +2 more"
+          "movesSummary": "体当たり: Attack (18 (Asc 19) ダメージ); Tackle 2: Attack (18 (Asc 19) ダメージ); ビーム: Attack (8x3 ダメージ); +2 件の追加行動"
         }
       }
     },
@@ -2242,7 +2242,7 @@
           "encounterNames": [
             "墨影幻灵"
           ],
-          "movesSummary": "墨迹: Attack (7 (Asc 8) dmg); 墨水长枪: Attack (6x2 (Asc 7x2) dmg); 肢解: Attack + Status (26 (Asc 30) dmg); +1 more"
+          "movesSummary": "墨迹: Attack (7 (Asc 8) 伤害); 墨水长枪: Attack (6x2 (Asc 7x2) 伤害); 肢解: Attack + Status (26 (Asc 30) 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "ヴァントム",
@@ -2288,7 +2288,7 @@
           "encounterNames": [
             "ヴァントム"
           ],
-          "movesSummary": "インクの染み: Attack (7 (Asc 8) dmg); インクの槍: Attack (6x2 (Asc 7x2) dmg); 切断: Attack + Status (26 (Asc 30) dmg); +1 more"
+          "movesSummary": "インクの染み: Attack (7 (Asc 8) ダメージ); インクの槍: Attack (6x2 (Asc 7x2) ダメージ); 切断: Attack + Status (26 (Asc 30) ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -2445,7 +2445,7 @@
           "encounterNames": [
             "瀑布巨兽"
           ],
-          "movesSummary": "增压: Buff; 践踏: Attack + Debuff + Buff (15 (Asc 16) dmg); 撞击: Attack + Buff (10 (Asc 11) dmg); +5 more"
+          "movesSummary": "增压: Buff; 践踏: Attack + Debuff + Buff (15 (Asc 16) 伤害); 撞击: Attack + Buff (10 (Asc 11) 伤害); +5 个额外行动"
         },
         "ja": {
           "name": "滝の巨人",
@@ -2519,7 +2519,7 @@
           "encounterNames": [
             "滝の巨人"
           ],
-          "movesSummary": "加圧: Buff; 踏みつけ: Attack + Debuff + Buff (15 (Asc 16) dmg); 打ち込み: Attack + Buff (10 (Asc 11) dmg); +5 more"
+          "movesSummary": "加圧: Buff; 踏みつけ: Attack + Debuff + Buff (15 (Asc 16) ダメージ); 打ち込み: Attack + Buff (10 (Asc 11) ダメージ); +5 件の追加行動"
         }
       }
     },
@@ -2620,7 +2620,7 @@
           "encounterNames": [
             "旧日雕像"
           ],
-          "movesSummary": "沉睡: Sleep; 苏醒: Buff; Sleep Move 2: Sleep; +1 more"
+          "movesSummary": "沉睡: Sleep; 苏醒: Buff; Sleep Move 2: Sleep; +1 个额外行动"
         },
         "ja": {
           "name": "古の偶像",
@@ -2666,7 +2666,7 @@
           "encounterNames": [
             "古の偶像"
           ],
-          "movesSummary": "ねむる: Sleep; 目覚め: Buff; Sleep Move 2: Sleep; +1 more"
+          "movesSummary": "ねむる: Sleep; 目覚め: Buff; Sleep Move 2: Sleep; +1 件の追加行動"
         }
       }
     },
@@ -2739,7 +2739,7 @@
           "encounterNames": [
             "多尼斯异鸟"
           ],
-          "movesSummary": "啄击: Attack (3x3 (Asc 4x3) dmg); 飞扑: Attack (17 (Asc 19) dmg)"
+          "movesSummary": "啄击: Attack (3x3 (Asc 4x3) 伤害); 飞扑: Attack (17 (Asc 19) 伤害)"
         },
         "ja": {
           "name": "ビャードニス",
@@ -2771,7 +2771,7 @@
           "encounterNames": [
             "ビャードニス"
           ],
-          "movesSummary": "つつく: Attack (3x3 (Asc 4x3) dmg); 急降下: Attack (17 (Asc 19) dmg)"
+          "movesSummary": "つつく: Attack (3x3 (Asc 4x3) ダメージ); 急降下: Attack (17 (Asc 19) ダメージ)"
         }
       }
     },
@@ -2868,7 +2868,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "扭动: Attack (5x2 (Asc 6x2) dmg); 胀大: Attack + Buff (6 (Asc 7) dmg); 紧缠: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+          "movesSummary": "扭动: Attack (5x2 (Asc 6x2) 伤害); 胀大: Attack + Buff (6 (Asc 7) 伤害); 紧缠: Attack + Debuff (8 (Asc 9) 伤害); +2 个额外行动"
         },
         "ja": {
           "name": "万足ムカデ",
@@ -2913,7 +2913,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "のたうち: Attack (5x2 (Asc 6x2) dmg); バルク: Attack + Buff (6 (Asc 7) dmg); 締め付け: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+          "movesSummary": "のたうち: Attack (5x2 (Asc 6x2) ダメージ); バルク: Attack + Buff (6 (Asc 7) ダメージ); 締め付け: Attack + Debuff (8 (Asc 9) ダメージ); +2 件の追加行動"
         }
       }
     },
@@ -3028,7 +3028,7 @@
           "encounterNames": [
             "残杀千足虫"
           ],
-          "movesSummary": "扭动: Attack (5x2 (Asc 6x2) dmg); 胀大: Attack + Buff (6 (Asc 7) dmg); 紧缠: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+          "movesSummary": "扭动: Attack (5x2 (Asc 6x2) 伤害); 胀大: Attack + Buff (6 (Asc 7) 伤害); 紧缠: Attack + Debuff (8 (Asc 9) 伤害); +2 个额外行动"
         },
         "ja": {
           "name": "Decimillipede Segment (Back)",
@@ -3081,7 +3081,7 @@
           "encounterNames": [
             "万足ムカデ"
           ],
-          "movesSummary": "のたうち: Attack (5x2 (Asc 6x2) dmg); バルク: Attack + Buff (6 (Asc 7) dmg); 締め付け: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+          "movesSummary": "のたうち: Attack (5x2 (Asc 6x2) ダメージ); バルク: Attack + Buff (6 (Asc 7) ダメージ); 締め付け: Attack + Debuff (8 (Asc 9) ダメージ); +2 件の追加行動"
         }
       }
     },
@@ -3196,7 +3196,7 @@
           "encounterNames": [
             "残杀千足虫"
           ],
-          "movesSummary": "扭动: Attack (5x2 (Asc 6x2) dmg); 胀大: Attack + Buff (6 (Asc 7) dmg); 紧缠: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+          "movesSummary": "扭动: Attack (5x2 (Asc 6x2) 伤害); 胀大: Attack + Buff (6 (Asc 7) 伤害); 紧缠: Attack + Debuff (8 (Asc 9) 伤害); +2 个额外行动"
         },
         "ja": {
           "name": "Decimillipede Segment (Front)",
@@ -3249,7 +3249,7 @@
           "encounterNames": [
             "万足ムカデ"
           ],
-          "movesSummary": "のたうち: Attack (5x2 (Asc 6x2) dmg); バルク: Attack + Buff (6 (Asc 7) dmg); 締め付け: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+          "movesSummary": "のたうち: Attack (5x2 (Asc 6x2) ダメージ); バルク: Attack + Buff (6 (Asc 7) ダメージ); 締め付け: Attack + Debuff (8 (Asc 9) ダメージ); +2 件の追加行動"
         }
       }
     },
@@ -3364,7 +3364,7 @@
           "encounterNames": [
             "残杀千足虫"
           ],
-          "movesSummary": "扭动: Attack (5x2 (Asc 6x2) dmg); 胀大: Attack + Buff (6 (Asc 7) dmg); 紧缠: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+          "movesSummary": "扭动: Attack (5x2 (Asc 6x2) 伤害); 胀大: Attack + Buff (6 (Asc 7) 伤害); 紧缠: Attack + Debuff (8 (Asc 9) 伤害); +2 个额外行动"
         },
         "ja": {
           "name": "Decimillipede Segment (Middle)",
@@ -3417,7 +3417,7 @@
           "encounterNames": [
             "万足ムカデ"
           ],
-          "movesSummary": "のたうち: Attack (5x2 (Asc 6x2) dmg); バルク: Attack + Buff (6 (Asc 7) dmg); 締め付け: Attack + Debuff (8 (Asc 9) dmg); +2 more"
+          "movesSummary": "のたうち: Attack (5x2 (Asc 6x2) ダメージ); バルク: Attack + Buff (6 (Asc 7) ダメージ); 締め付け: Attack + Debuff (8 (Asc 9) ダメージ); +2 件の追加行動"
         }
       }
     },
@@ -3504,7 +3504,7 @@
           "encounterNames": [
             "蜂群术士"
           ],
-          "movesSummary": "喷射信息素: Buff; 蜜--蜂--！: Attack (3x7 dmg); 矛击！: Attack (18 (Asc 20) dmg)"
+          "movesSummary": "喷射信息素: Buff; 蜜——蜂——！: Attack (3x7 伤害); 矛击！: Attack (18 (Asc 20) 伤害)"
         },
         "ja": {
           "name": "エントマンサー",
@@ -3543,7 +3543,7 @@
           "encounterNames": [
             "エントマンサー"
           ],
-          "movesSummary": "フェロモン噴射: Buff; ハチだ！: Attack (3x7 dmg); スピア！: Attack (18 (Asc 20) dmg)"
+          "movesSummary": "フェロモン噴射: Buff; ハチだ！: Attack (3x7 ダメージ); スピア！: Attack (18 (Asc 20) ダメージ)"
         }
       }
     },
@@ -3630,7 +3630,7 @@
           "encounterNames": [
             "骑士团伙"
           ],
-          "movesSummary": "战争吟唱: Buff; 连枷: Attack (9x2 (Asc 10x2) dmg); 撞击: Attack (15 (Asc 17) dmg)"
+          "movesSummary": "战争吟唱: Buff; 连枷: Attack (9x2 (Asc 10x2) 伤害); 撞击: Attack (15 (Asc 17) 伤害)"
         },
         "ja": {
           "name": "フレイルナイト",
@@ -3669,7 +3669,7 @@
           "encounterNames": [
             "騎士のギャング"
           ],
-          "movesSummary": "戦いの歌: Buff; フレイル: Attack (9x2 (Asc 10x2) dmg); 打ち込み: Attack (15 (Asc 17) dmg)"
+          "movesSummary": "戦いの歌: Buff; フレイル: Attack (9x2 (Asc 10x2) ダメージ); 打ち込み: Attack (15 (Asc 17) ダメージ)"
         }
       }
     },
@@ -3770,7 +3770,7 @@
           "encounterNames": [
             "感染棱柱"
           ],
-          "movesSummary": "刺击: Attack (15 (Asc 17) dmg); 辐射: Attack + Defend (11 (Asc 13) dmg, 11 block); 旋风: Attack (5x3 (Asc 6x3) dmg); +1 more"
+          "movesSummary": "刺击: Attack (15 (Asc 17) 伤害); 辐射: Attack + Defend (11 (Asc 13) 伤害, 11 格挡); 旋风: Attack (5x3 (Asc 6x3) 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "寄生されたプリズム",
@@ -3816,7 +3816,7 @@
           "encounterNames": [
             "寄生されたプリズム"
           ],
-          "movesSummary": "ジャブ: Attack (15 (Asc 17) dmg); 放射: Attack + Defend (11 (Asc 13) dmg, 11 block); 旋風: Attack (5x3 (Asc 6x3) dmg); +1 more"
+          "movesSummary": "ジャブ: Attack (15 (Asc 17) ダメージ); 放射: Attack + Defend (11 (Asc 13) ダメージ, 11 ブロック); 旋風: Attack (5x3 (Asc 6x3) ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -3931,7 +3931,7 @@
           "encounterNames": [
             "骑士团伙"
           ],
-          "movesSummary": "强力护盾: Attack + Defend (6 (Asc 7) dmg, 5 block); 抑制: Debuff; Prep: Defend (5 block); +2 more"
+          "movesSummary": "强力护盾: Attack + Defend (6 (Asc 7) 伤害, 5 格挡); 抑制: Debuff; Prep: Defend (5 格挡); +2 个额外行动"
         },
         "ja": {
           "name": "マギナイト",
@@ -3984,7 +3984,7 @@
           "encounterNames": [
             "騎士のギャング"
           ],
-          "movesSummary": "パワーシールド: Attack + Defend (6 (Asc 7) dmg, 5 block); 減衰: Debuff; Prep: Defend (5 block); +2 more"
+          "movesSummary": "パワーシールド: Attack + Defend (6 (Asc 7) ダメージ, 5 ブロック); 減衰: Debuff; Prep: Defend (5 ブロック); +2 件の追加行動"
         }
       }
     },
@@ -4085,7 +4085,7 @@
           "encounterNames": [
             "机甲骑士"
           ],
-          "movesSummary": "冲锋: Attack (25 (Asc 30) dmg); 喷火器: Status; 举起蓄力: Defend + Buff (15 block); +1 more"
+          "movesSummary": "冲锋: Attack (25 (Asc 30) 伤害); 喷火器: Status; 举起蓄力: Defend + Buff (15 格挡); +1 个额外行动"
         },
         "ja": {
           "name": "メカナイト",
@@ -4131,7 +4131,7 @@
           "encounterNames": [
             "メカナイト"
           ],
-          "movesSummary": "突撃: Attack (25 (Asc 30) dmg); 火炎放射: Status; ワインドアップ: Defend + Buff (15 block); +1 more"
+          "movesSummary": "突撃: Attack (25 (Asc 30) ダメージ); 火炎放射: Status; ワインドアップ: Defend + Buff (15 ブロック); +1 件の追加行動"
         }
       }
     },
@@ -4232,7 +4232,7 @@
           "encounterNames": [
             "花园幽灵鳗"
           ],
-          "movesSummary": "啃咬: Attack (5 dmg); 甩动: Attack (7 dmg); 猛晃: Attack (1x3 dmg); +1 more"
+          "movesSummary": "啃咬: Attack (5 伤害); 甩动: Attack (7 伤害); 猛晃: Attack (1x3 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "幻影蟲",
@@ -4278,7 +4278,7 @@
           "encounterNames": [
             "幻影蟲"
           ],
-          "movesSummary": "噛みつき: Attack (5 dmg); ムチ打ち: Attack (7 dmg); フレイル: Attack (1x3 dmg); +1 more"
+          "movesSummary": "噛みつき: Attack (5 ダメージ); ムチ打ち: Attack (7 ダメージ); フレイル: Attack (1x3 ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -4351,7 +4351,7 @@
           "encounterNames": [
             "异蛙寄生虫"
           ],
-          "movesSummary": "感染: Status; 甩动: Attack (4x4 (Asc 5x4) dmg)"
+          "movesSummary": "感染: Status; 甩动: Attack (4x4 (Asc 5x4) 伤害)"
         },
         "ja": {
           "name": "寄生キャエル",
@@ -4383,7 +4383,7 @@
           "encounterNames": [
             "寄生キャエル"
           ],
-          "movesSummary": "感染: Status; ムチ打ち: Attack (4x4 (Asc 5x4) dmg)"
+          "movesSummary": "感染: Status; ムチ打ち: Attack (4x4 (Asc 5x4) ダメージ)"
         }
       }
     },
@@ -4484,7 +4484,7 @@
           "encounterNames": [
             "鬼祟珊瑚群"
           ],
-          "movesSummary": "猛冲: Attack (14 (Asc 16) dmg); Zoom Move 2: Attack (14 (Asc 16) dmg); 惯性: Attack + Buff (9 (Asc 11) dmg); +1 more"
+          "movesSummary": "猛冲: Attack (14 (Asc 16) 伤害); Zoom Move 2: Attack (14 (Asc 16) 伤害); 惯性: Attack + Buff (9 (Asc 11) 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "蠢く群生体",
@@ -4530,7 +4530,7 @@
           "encounterNames": [
             "蠢く群生体"
           ],
-          "movesSummary": "ズーム: Attack (14 (Asc 16) dmg); Zoom Move 2: Attack (14 (Asc 16) dmg); 慣性: Attack + Buff (9 (Asc 11) dmg); +1 more"
+          "movesSummary": "ズーム: Attack (14 (Asc 16) ダメージ); Zoom Move 2: Attack (14 (Asc 16) ダメージ); 慣性: Attack + Buff (9 (Asc 11) ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -4617,7 +4617,7 @@
           "encounterNames": [
             "灵魂枢纽"
           ],
-          "movesSummary": "灵魂灼烧: Attack (29 (Asc 31) dmg); 大漩涡: Attack (6x4 (Asc 7x4) dmg); 汲取生命: Attack + Debuff (18 (Asc 19) dmg)"
+          "movesSummary": "灵魂灼烧: Attack (29 (Asc 31) 伤害); 大漩涡: Attack (6x4 (Asc 7x4) 伤害); 汲取生命: Attack + Debuff (18 (Asc 19) 伤害)"
         },
         "ja": {
           "name": "ソウルネクサス",
@@ -4656,7 +4656,7 @@
           "encounterNames": [
             "ソウルネクサス"
           ],
-          "movesSummary": "ソウルバーン: Attack (29 (Asc 31) dmg); メイルシュトローム: Attack (6x4 (Asc 7x4) dmg); 生命吸収: Attack + Debuff (18 (Asc 19) dmg)"
+          "movesSummary": "ソウルバーン: Attack (29 (Asc 31) ダメージ); メイルシュトローム: Attack (6x4 (Asc 7x4) ダメージ); 生命吸収: Attack + Debuff (18 (Asc 19) ダメージ)"
         }
       }
     },
@@ -4743,7 +4743,7 @@
           "encounterNames": [
             "骑士团伙"
           ],
-          "movesSummary": "恶咒: Debuff; 灵魂斩击: Attack (15 (Asc 17) dmg); 灵魂火焰: Attack (3x3 (Asc 4x3) dmg)"
+          "movesSummary": "恶咒: Debuff; 灵魂斩击: Attack (15 (Asc 17) 伤害); 灵魂火焰: Attack (3x3 (Asc 4x3) 伤害)"
         },
         "ja": {
           "name": "スペクトルナイト",
@@ -4782,7 +4782,7 @@
           "encounterNames": [
             "騎士のギャング"
           ],
-          "movesSummary": "呪術: Debuff; ソウルスラッシュ: Attack (15 (Asc 17) dmg); ソウルフレイム: Attack (3x3 (Asc 4x3) dmg)"
+          "movesSummary": "呪術: Debuff; ソウルスラッシュ: Attack (15 (Asc 17) ダメージ); ソウルフレイム: Attack (3x3 (Asc 4x3) ダメージ)"
         }
       }
     },
@@ -4883,7 +4883,7 @@
           "encounterNames": [
             "骇鳗"
           ],
-          "movesSummary": "撞击: Attack (16 (Asc 18) dmg); 撕扯: Attack + Buff (3x3 (Asc 4x3) dmg); Stun: Stun; +1 more"
+          "movesSummary": "撞击: Attack (16 (Asc 18) 伤害); 撕扯: Attack + Buff (3x3 (Asc 4x3) 伤害); Stun: Stun; +1 个额外行动"
         },
         "ja": {
           "name": "テラーウツボ",
@@ -4929,7 +4929,7 @@
           "encounterNames": [
             "テラーウツボ"
           ],
-          "movesSummary": "クラッシュ: Attack (16 (Asc 18) dmg); 大暴れ: Attack + Buff (3x3 (Asc 4x3) dmg); Stun: Stun; +1 more"
+          "movesSummary": "クラッシュ: Attack (16 (Asc 18) ダメージ); 大暴れ: Attack + Buff (3x3 (Asc 4x3) ダメージ); Stun: Stun; +1 件の追加行動"
         }
       }
     },
@@ -5028,7 +5028,7 @@
             "异蛙寄生虫",
             "扭动虫"
           ],
-          "movesSummary": "污秽啃咬: Attack (6 (Asc 7) dmg); 扭动: Buff + Status; 生成: Stun"
+          "movesSummary": "污秽啃咬: Attack (6 (Asc 7) 伤害); 扭动: Buff + Status; 生成: Stun"
         },
         "ja": {
           "name": "リグラー",
@@ -5073,7 +5073,7 @@
             "リグラー",
             "寄生キャエル"
           ],
-          "movesSummary": "厄介な噛みつき: Attack (6 (Asc 7) dmg); うごめき: Buff + Status; 出現: Stun"
+          "movesSummary": "厄介な噛みつき: Attack (6 (Asc 7) ダメージ); うごめき: Buff + Status; 出現: Stun"
         }
       }
     },
@@ -5132,7 +5132,7 @@
           "encounterNames": [
             "红宝石劫掠者"
           ],
-          "movesSummary": "致命射击: Attack (10 (Asc 11) dmg)"
+          "movesSummary": "致命射击: Attack (10 (Asc 11) 伤害)"
         },
         "ja": {
           "name": "アサシンレイダー",
@@ -5157,7 +5157,7 @@
           "encounterNames": [
             "ルビーレイダーズ"
           ],
-          "movesSummary": "キルショット: Attack (10 (Asc 11) dmg)"
+          "movesSummary": "キルショット: Attack (10 (Asc 11) ダメージ)"
         }
       }
     },
@@ -5244,7 +5244,7 @@
           "encounterNames": [
             "红宝石劫掠者"
           ],
-          "movesSummary": "Swing 1: Attack + Defend (5 (Asc 6) dmg, 5 block); Swing 2: Attack + Defend (5 (Asc 6) dmg, 5 block); 大力挥舞: Attack (12 (Asc 13) dmg)"
+          "movesSummary": "Swing 1: Attack + Defend (5 (Asc 6) 伤害, 5 格挡); Swing 2: Attack + Defend (5 (Asc 6) 伤害, 5 格挡); 大力挥舞: Attack (12 (Asc 13) 伤害)"
         },
         "ja": {
           "name": "アックスレイダー",
@@ -5283,7 +5283,7 @@
           "encounterNames": [
             "ルビーレイダーズ"
           ],
-          "movesSummary": "Swing 1: Attack + Defend (5 (Asc 6) dmg, 5 block); Swing 2: Attack + Defend (5 (Asc 6) dmg, 5 block); 大振り: Attack (12 (Asc 13) dmg)"
+          "movesSummary": "Swing 1: Attack + Defend (5 (Asc 6) ダメージ, 5 ブロック); Swing 2: Attack + Defend (5 (Asc 6) ダメージ, 5 ブロック); 大振り: Attack (12 (Asc 13) ダメージ)"
         }
       }
     },
@@ -5370,7 +5370,7 @@
           "encounterNames": [
             "巨斧机器人"
           ],
-          "movesSummary": "启动: Defend + Buff (10 block); 两连击: Attack (9x2 (Asc 10x2) dmg); 上勾锤击: Attack + Debuff (12 (Asc 14) dmg)"
+          "movesSummary": "启动: Defend + Buff (10 格挡); 两连击: Attack (9x2 (Asc 10x2) 伤害); 上勾锤击: Attack + Debuff (12 (Asc 14) 伤害)"
         },
         "ja": {
           "name": "アックスマシン",
@@ -5409,7 +5409,7 @@
           "encounterNames": [
             "アックスマシン"
           ],
-          "movesSummary": "起動: Defend + Buff (10 block); ワンツー: Attack (9x2 (Asc 10x2) dmg); ハンマーアッパー: Attack + Debuff (12 (Asc 14) dmg)"
+          "movesSummary": "起動: Defend + Buff (10 ブロック); ワンツー: Attack (9x2 (Asc 10x2) ダメージ); ハンマーアッパー: Attack + Debuff (12 (Asc 14) ダメージ)"
         }
       }
     },
@@ -5726,7 +5726,7 @@
             "盛碗虫",
             "盛碗虫群"
           ],
-          "movesSummary": "啃咬: Attack + Defend (7 (Asc 8) dmg, 7 block)"
+          "movesSummary": "啃咬: Attack + Defend (7 (Asc 8) 伤害, 7 格挡)"
         },
         "ja": {
           "name": "ボウルバグ（卵）",
@@ -5757,7 +5757,7 @@
             "ボウルバグ",
             "ボウルバグの群れ"
           ],
-          "movesSummary": "噛みつき: Attack + Defend (7 (Asc 8) dmg, 7 block)"
+          "movesSummary": "噛みつき: Attack + Defend (7 (Asc 8) ダメージ, 7 ブロック)"
         }
       }
     },
@@ -5856,7 +5856,7 @@
             "盛碗虫",
             "盛碗虫群"
           ],
-          "movesSummary": "撕扯: Attack (3 dmg); 强化: Buff; Thrash2: Attack (3 dmg)"
+          "movesSummary": "撕扯: Attack (3 伤害); 强化: Buff; Thrash2: Attack (3 伤害)"
         },
         "ja": {
           "name": "ボウルバグ（みつ）",
@@ -5901,7 +5901,7 @@
             "ボウルバグ",
             "ボウルバグの群れ"
           ],
-          "movesSummary": "大暴れ: Attack (3 dmg); 強化: Buff; Thrash2: Attack (3 dmg)"
+          "movesSummary": "大暴れ: Attack (3 ダメージ); 強化: Buff; Thrash2: Attack (3 ダメージ)"
         }
       }
     },
@@ -5998,7 +5998,7 @@
             "盛碗虫",
             "盛碗虫群"
           ],
-          "movesSummary": "头槌: Attack (15 (Asc 16) dmg); 昏头转向: Stun"
+          "movesSummary": "头槌: Attack (15 (Asc 16) 伤害); 昏头转向: Stun"
         },
         "ja": {
           "name": "ボウルバグ（岩）",
@@ -6042,7 +6042,7 @@
             "ボウルバグ",
             "ボウルバグの群れ"
           ],
-          "movesSummary": "頭突き: Attack (15 (Asc 16) dmg); めまい: Stun"
+          "movesSummary": "頭突き: Attack (15 (Asc 16) ダメージ); めまい: Stun"
         }
       }
     },
@@ -6127,7 +6127,7 @@
             "熟睡派对",
             "盛碗虫群"
           ],
-          "movesSummary": "撕扯: Attack (4x2 (Asc 5x2) dmg); 毒性喷吐: Debuff"
+          "movesSummary": "撕扯: Attack (4x2 (Asc 5x2) 伤害); 毒性喷吐: Debuff"
         },
         "ja": {
           "name": "ボウルバグ（糸）",
@@ -6165,7 +6165,7 @@
             "パジャマパーティー",
             "ボウルバグの群れ"
           ],
-          "movesSummary": "大暴れ: Attack (4x2 (Asc 5x2) dmg); 酸液: Debuff"
+          "movesSummary": "大暴れ: Attack (4x2 (Asc 5x2) ダメージ); 酸液: Debuff"
         }
       }
     },
@@ -6238,7 +6238,7 @@
           "encounterNames": [
             "红宝石劫掠者"
           ],
-          "movesSummary": "殴打: Attack (7 (Asc 8) dmg); 怒吼: Buff"
+          "movesSummary": "殴打: Attack (7 (Asc 8) 伤害); 怒吼: Buff"
         },
         "ja": {
           "name": "ブルートレイダー",
@@ -6270,7 +6270,7 @@
           "encounterNames": [
             "ルビーレイダーズ"
           ],
-          "movesSummary": "ビート: Attack (7 (Asc 8) dmg); 咆哮: Buff"
+          "movesSummary": "ビート: Attack (7 (Asc 8) ダメージ); 咆哮: Buff"
         }
       }
     },
@@ -6413,7 +6413,7 @@
             "暗港野生动物",
             "邪教徒们"
           ],
-          "movesSummary": "念咒: Buff; 黑暗打击: Attack (9 (Asc 11) dmg)"
+          "movesSummary": "念咒: Buff; 黑暗打击: Attack (9 (Asc 11) 伤害)"
         },
         "ja": {
           "name": "石を纏った狂信者",
@@ -6451,7 +6451,7 @@
             "地下ドックに生きるものたち",
             "狂信者たち"
           ],
-          "movesSummary": "祈祷: Buff; ダークストライク: Attack (9 (Asc 11) dmg)"
+          "movesSummary": "祈祷: Buff; ダークストライク: Attack (9 (Asc 11) ダメージ)"
         }
       }
     },
@@ -6536,7 +6536,7 @@
             "一对自动机械",
             "地道组合"
           ],
-          "movesSummary": "猛夹: Attack (8x2 (Asc 9x2) dmg); 尖锐鸣叫: Status"
+          "movesSummary": "猛夹: Attack (8x2 (Asc 9x2) 伤害); 尖锐鸣叫: Status"
         },
         "ja": {
           "name": "チョンパー",
@@ -6574,7 +6574,7 @@
             "オートマトンのコンビ",
             "トンネリング"
           ],
-          "movesSummary": "はさむ: Attack (8x2 (Asc 9x2) dmg); 金切り声: Status"
+          "movesSummary": "はさむ: Attack (8x2 (Asc 9x2) ダメージ); 金切り声: Status"
         }
       }
     },
@@ -6673,7 +6673,7 @@
             "一些噬尸蛞蝓",
             "许多噬尸蛞蝓"
           ],
-          "movesSummary": "鞭打: Attack (3x2 dmg); 扑上: Attack (8 (Asc 9) dmg); 黏液: Debuff"
+          "movesSummary": "鞭打: Attack (3x2 伤害); 扑上: Attack (8 (Asc 9) 伤害); 黏液: Debuff"
         },
         "ja": {
           "name": "屍ナメクジ",
@@ -6718,7 +6718,7 @@
             "多数の屍ナメクジ",
             "屍ナメクジ"
           ],
-          "movesSummary": "ムチ打ち: Attack (3x2 dmg); 飛びつき: Attack (8 (Asc 9) dmg); 粘液: Debuff"
+          "movesSummary": "ムチ打ち: Attack (3x2 ダメージ); 飛びつき: Attack (8 (Asc 9) ダメージ); 粘液: Debuff"
         }
       }
     },
@@ -6791,7 +6791,7 @@
           "encounterNames": [
             "红宝石劫掠者"
           ],
-          "movesSummary": "射击！: Attack (14 (Asc 16) dmg); 装填: Defend (3 block)"
+          "movesSummary": "射击！: Attack (14 (Asc 16) 伤害); 装填: Defend (3 格挡)"
         },
         "ja": {
           "name": "クロスボウレイダー",
@@ -6823,7 +6823,7 @@
           "encounterNames": [
             "ルビーレイダーズ"
           ],
-          "movesSummary": "発射！: Attack (14 (Asc 16) dmg); リロード: Defend (3 block)"
+          "movesSummary": "発射！: Attack (14 (Asc 16) ダメージ); リロード: Defend (3 ブロック)"
         }
       }
     },
@@ -6937,7 +6937,7 @@
             "一些构装体",
             "方柱构装体"
           ],
-          "movesSummary": "蓄能: Buff; 重复轰击: Attack + Buff (7 (Asc 8) dmg); Repeater Blast Move 2: Attack + Buff (7 (Asc 8) dmg); +1 more"
+          "movesSummary": "蓄能: Buff; 重复轰击: Attack + Buff (7 (Asc 8) 伤害); Repeater Blast Move 2: Attack + Buff (7 (Asc 8) 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "キューベックス",
@@ -6989,7 +6989,7 @@
             "キューベックス",
             "機械兵の動物園"
           ],
-          "movesSummary": "チャージアップ: Buff; リピーターブラスト: Attack + Buff (7 (Asc 8) dmg); Repeater Blast Move 2: Attack + Buff (7 (Asc 8) dmg); +1 more"
+          "movesSummary": "チャージアップ: Buff; リピーターブラスト: Attack + Buff (7 (Asc 8) ダメージ); Repeater Blast Move 2: Attack + Buff (7 (Asc 8) ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -7062,7 +7062,7 @@
           "encounterNames": [
             "邪教徒们"
           ],
-          "movesSummary": "念咒: Buff; 黑暗打击: Attack (1 (Asc 3) dmg)"
+          "movesSummary": "念咒: Buff; 黑暗打击: Attack (1 (Asc 3) 伤害)"
         },
         "ja": {
           "name": "湿った狂信者",
@@ -7094,7 +7094,7 @@
           "encounterNames": [
             "狂信者たち"
           ],
-          "movesSummary": "祈祷: Buff; ダークストライク: Attack (1 (Asc 3) dmg)"
+          "movesSummary": "祈祷: Buff; ダークストライク: Attack (1 (Asc 3) ダメージ)"
         }
       }
     },
@@ -7167,7 +7167,7 @@
           "encounterNames": [
             "虔诚雕刻师"
           ],
-          "movesSummary": "禁忌唱诵: Buff; 猛烈攻击: Attack (12 (Asc 15) dmg)"
+          "movesSummary": "禁忌唱诵: Buff; 猛烈攻击: Attack (12 (Asc 15) 伤害)"
         },
         "ja": {
           "name": "狂信の彫刻家",
@@ -7199,7 +7199,7 @@
           "encounterNames": [
             "狂信の彫刻家"
           ],
-          "movesSummary": "禁じられた祈り: Buff; 野蛮な一撃: Attack (12 (Asc 15) dmg)"
+          "movesSummary": "禁じられた祈り: Buff; 野蛮な一撃: Attack (12 (Asc 15) ダメージ)"
         }
       }
     },
@@ -7298,7 +7298,7 @@
             "外骨骼虫",
             "许多外骨骼虫"
           ],
-          "movesSummary": "忙乱: Attack (1x3 dmg); 啃食: Attack (8 (Asc 9) dmg); 激怒: Buff"
+          "movesSummary": "忙乱: Attack (1x3 伤害); 啃食: Attack (8 (Asc 9) 伤害); 激怒: Buff"
         },
         "ja": {
           "name": "外骨格蟲",
@@ -7343,7 +7343,7 @@
             "外骨格蟲",
             "数多の外骨格蟲"
           ],
-          "movesSummary": "這い回る: Attack (1x3 dmg); 大顎: Attack (8 (Asc 9) dmg); 激怒: Buff"
+          "movesSummary": "這い回る: Attack (1x3 ダメージ); 大顎: Attack (8 (Asc 9) ダメージ); 激怒: Buff"
         }
       }
     },
@@ -7514,7 +7514,7 @@
           "encounterNames": [
             "组装师"
           ],
-          "movesSummary": "组装: Summon; 组装打击: Attack + Summon (18 (Asc 21) dmg); 瓦解: Attack (11 (Asc 13) dmg)"
+          "movesSummary": "组装: Summon; 组装打击: Attack + Summon (18 (Asc 21) 伤害); 瓦解: Attack (11 (Asc 13) 伤害)"
         },
         "ja": {
           "name": "ファブリケーター",
@@ -7553,7 +7553,7 @@
           "encounterNames": [
             "ファブリケーター"
           ],
-          "movesSummary": "製造: Summon; 製造ストライク: Attack + Summon (18 (Asc 21) dmg); 崩壊: Attack (11 (Asc 13) dmg)"
+          "movesSummary": "製造: Summon; 製造ストライク: Attack + Summon (18 (Asc 21) ダメージ); 崩壊: Attack (11 (Asc 13) ダメージ)"
         }
       }
     },
@@ -7757,7 +7757,7 @@
             "密林植物",
             "真菌与史莱姆"
           ],
-          "movesSummary": "易伤孢子: Debuff (8 (Asc 9) dmg); 脆弱孢子: Attack + Debuff (8 (Asc 9) dmg); 猛砸: Attack (11 (Asc 12) dmg)"
+          "movesSummary": "易伤孢子: Debuff (8 (Asc 9) 伤害); 脆弱孢子: Attack + Debuff (8 (Asc 9) 伤害); 猛砸: Attack (11 (Asc 12) 伤害)"
         },
         "ja": {
           "name": "フライコニド",
@@ -7802,7 +7802,7 @@
             "キノコとスライム",
             "繁茂の地の植物"
           ],
-          "movesSummary": "弱体の胞子: Debuff (8 (Asc 9) dmg); 脆弱の胞子: Attack + Debuff (8 (Asc 9) dmg); スマッシュ: Attack (11 (Asc 12) dmg)"
+          "movesSummary": "弱体の胞子: Debuff (8 (Asc 9) ダメージ); 脆弱の胞子: Attack + Debuff (8 (Asc 9) ダメージ); スマッシュ: Attack (11 (Asc 12) ダメージ)"
         }
       }
     },
@@ -7903,7 +7903,7 @@
           "encounterNames": [
             "雾菇"
           ],
-          "movesSummary": "虚幻孢子: Summon; 重击: Attack + Buff (8 (Asc 9) dmg); Swipe Random: Attack + Buff (8 (Asc 9) dmg); +1 more"
+          "movesSummary": "虚幻孢子: Summon; 重击: Attack + Buff (8 (Asc 9) 伤害); Swipe Random: Attack + Buff (8 (Asc 9) 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "フォグモグ",
@@ -7949,7 +7949,7 @@
           "encounterNames": [
             "フォグモグ"
           ],
-          "movesSummary": "幻惑の胞子: Summon; 痛撃: Attack + Buff (8 (Asc 9) dmg); Swipe Random: Attack + Buff (8 (Asc 9) dmg); +1 more"
+          "movesSummary": "幻惑の胞子: Summon; 痛撃: Attack + Buff (8 (Asc 9) ダメージ); Swipe Random: Attack + Buff (8 (Asc 9) ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -8036,7 +8036,7 @@
           "encounterNames": [
             "化石追踪者"
           ],
-          "movesSummary": "冲撞: Attack + Debuff (9 (Asc 11) dmg); 缠上: Attack (12 (Asc 14) dmg); 甩动: Attack (3x2 (Asc 4x2) dmg)"
+          "movesSummary": "冲撞: Attack + Debuff (9 (Asc 11) 伤害); 缠上: Attack (12 (Asc 14) 伤害); 甩动: Attack (3x2 (Asc 4x2) 伤害)"
         },
         "ja": {
           "name": "化石のストーカー",
@@ -8075,7 +8075,7 @@
           "encounterNames": [
             "化石のストーカー"
           ],
-          "movesSummary": "体当たり: Attack + Debuff (9 (Asc 11) dmg); ラッチ: Attack (12 (Asc 14) dmg); ムチ打ち: Attack (3x2 (Asc 4x2) dmg)"
+          "movesSummary": "体当たり: Attack + Debuff (9 (Asc 11) ダメージ); ラッチ: Attack (12 (Asc 14) ダメージ); ムチ打ち: Attack (3x2 (Asc 4x2) ダメージ)"
         }
       }
     },
@@ -8176,7 +8176,7 @@
           "encounterNames": [
             "青蛙骑士"
           ],
-          "movesSummary": "为了女王: Buff; 惩恶一击: Attack (21 (Asc 23) dmg); 吐舌: Attack + Debuff (13 (Asc 14) dmg); +1 more"
+          "movesSummary": "为了女王: Buff; 惩恶一击: Attack (21 (Asc 23) 伤害); 吐舌: Attack + Debuff (13 (Asc 14) 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "カエルの騎士",
@@ -8222,7 +8222,7 @@
           "encounterNames": [
             "カエルの騎士"
           ],
-          "movesSummary": "女王のために: Buff; 悪を討つ: Attack (21 (Asc 23) dmg); ベロラッシュ: Attack + Debuff (13 (Asc 14) dmg); +1 more"
+          "movesSummary": "女王のために: Buff; 悪を討つ: Attack (21 (Asc 23) ダメージ); ベロラッシュ: Attack + Debuff (13 (Asc 14) ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -8321,7 +8321,7 @@
             "密林爬虫",
             "毛绒伏地虫"
           ],
-          "movesSummary": "First Acid Goop: Attack (4 (Asc 6) dmg); 酸液黏球: Attack (4 (Asc 6) dmg); 吸入: Buff"
+          "movesSummary": "First Acid Goop: Attack (4 (Asc 6) 伤害); 酸液黏球: Attack (4 (Asc 6) 伤害); 吸入: Buff"
         },
         "ja": {
           "name": "剛毛のワーム",
@@ -8366,7 +8366,7 @@
             "剛毛のワーム",
             "繁茂の地のクローラー"
           ],
-          "movesSummary": "First Acid Goop: Attack (4 (Asc 6) dmg); 酸の粘液: Attack (4 (Asc 6) dmg); 吸い込み: Buff"
+          "movesSummary": "First Acid Goop: Attack (4 (Asc 6) ダメージ); 酸の粘液: Attack (4 (Asc 6) ダメージ); 吸い込み: Buff"
         }
       }
     },
@@ -8425,7 +8425,7 @@
           "encounterNames": [
             "邪恶气体"
           ],
-          "movesSummary": "爆炸: Special (8 (Asc 9) dmg)"
+          "movesSummary": "爆炸: Special (8 (Asc 9) 伤害)"
         },
         "ja": {
           "name": "ガス爆弾",
@@ -8450,7 +8450,7 @@
           "encounterNames": [
             "邪悪なガス"
           ],
-          "movesSummary": "爆発: Special (8 (Asc 9) dmg)"
+          "movesSummary": "爆発: Special (8 (Asc 9) ダメージ)"
         }
       }
     },
@@ -8537,7 +8537,7 @@
           "encounterNames": [
             "一个孤单的电球头"
           ],
-          "movesSummary": "生成闪电: Attack (6x3 (Asc 7x3) dmg); 电击掌: Attack + Debuff (13 (Asc 14) dmg); Galvanic Burst: Attack + Buff (16 (Asc 17) dmg)"
+          "movesSummary": "生成闪电: Attack (6x3 (Asc 7x3) 伤害); 电击掌: Attack + Debuff (13 (Asc 14) 伤害); Galvanic Burst: Attack + Buff (16 (Asc 17) 伤害)"
         },
         "ja": {
           "name": "グローブヘッド",
@@ -8576,7 +8576,7 @@
           "encounterNames": [
             "孤独なグローブヘッド"
           ],
-          "movesSummary": "ライトニング生成: Attack (6x3 (Asc 7x3) dmg); ショッキングスラップ: Attack + Debuff (13 (Asc 14) dmg); Galvanic Burst: Attack + Buff (16 (Asc 17) dmg)"
+          "movesSummary": "ライトニング生成: Attack (6x3 (Asc 7x3) ダメージ); ショッキングスラップ: Attack + Debuff (13 (Asc 14) ダメージ); Galvanic Burst: Attack + Buff (16 (Asc 17) ダメージ)"
         }
       }
     },
@@ -8663,7 +8663,7 @@
           "encounterNames": [
             "穿着一件大衣的两只地精"
           ],
-          "movesSummary": "拿来: Attack (7x2 (Asc 8x2) dmg); 双重猛击: Attack + Debuff (6x2 (Asc 7x2) dmg); 嘿嘿: Attack + Buff (8 (Asc 9) dmg)"
+          "movesSummary": "拿来: Attack (7x2 (Asc 8x2) 伤害); 双重猛击: Attack + Debuff (6x2 (Asc 7x2) 伤害); 嘿嘿: Attack + Buff (8 (Asc 9) 伤害)"
         },
         "ja": {
           "name": "傭兵グレムリン",
@@ -8702,7 +8702,7 @@
           "encounterNames": [
             "トレンチコートのグレムリン"
           ],
-          "movesSummary": "よこせ: Attack (7x2 (Asc 8x2) dmg); ダブルスマッシュ: Attack + Debuff (6x2 (Asc 7x2) dmg); ヘヘッ: Attack + Buff (8 (Asc 9) dmg)"
+          "movesSummary": "よこせ: Attack (7x2 (Asc 8x2) ダメージ); ダブルスマッシュ: Attack + Debuff (6x2 (Asc 7x2) ダメージ); ヘヘッ: Attack + Buff (8 (Asc 9) ダメージ)"
         }
       }
     },
@@ -8743,7 +8743,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "守护: Defend (15 block)"
+          "movesSummary": "守护: Defend (15 格挡)"
         },
         "ja": {
           "name": "ガードマシン",
@@ -8760,7 +8760,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "ガード: Defend (15 block)"
+          "movesSummary": "ガード: Defend (15 ブロック)"
         }
       }
     },
@@ -8847,7 +8847,7 @@
           "encounterNames": [
             "幽灵船"
           ],
-          "movesSummary": "扫击: Attack (13 (Asc 14) dmg); 践踏: Attack (4x3 (Asc 5x3) dmg); 纠缠: Debuff + Status"
+          "movesSummary": "扫击: Attack (13 (Asc 14) 伤害); 践踏: Attack (4x3 (Asc 5x3) 伤害); 纠缠: Debuff + Status"
         },
         "ja": {
           "name": "幽霊船",
@@ -8886,7 +8886,7 @@
           "encounterNames": [
             "幽霊船"
           ],
-          "movesSummary": "なぎ払い: Attack (13 (Asc 14) dmg); 踏みつけ: Attack (4x3 (Asc 5x3) dmg); 取り憑く: Debuff + Status"
+          "movesSummary": "なぎ払い: Attack (13 (Asc 14) ダメージ); 踏みつけ: Attack (4x3 (Asc 5x3) ダメージ); 取り憑く: Debuff + Status"
         }
       }
     },
@@ -8973,7 +8973,7 @@
           "encounterNames": [
             "猎人杀手"
           ],
-          "movesSummary": "嫩化黏液: Debuff; 啃咬: Attack (17 (Asc 19) dmg); 刺穿: Attack (7x3 (Asc 8x3) dmg)"
+          "movesSummary": "嫩化黏液: Debuff; 啃咬: Attack (17 (Asc 19) 伤害); 刺穿: Attack (7x3 (Asc 8x3) 伤害)"
         },
         "ja": {
           "name": "ハンターキラー",
@@ -9012,7 +9012,7 @@
           "encounterNames": [
             "ハンターキラー"
           ],
-          "movesSummary": "軟化の粘液: Debuff; 噛みつき: Attack (17 (Asc 19) dmg); 穿刺: Attack (7x3 (Asc 8x3) dmg)"
+          "movesSummary": "軟化の粘液: Debuff; 噛みつき: Attack (17 (Asc 19) ダメージ); 穿刺: Attack (7x3 (Asc 8x3) ダメージ)"
         }
       }
     },
@@ -9099,7 +9099,7 @@
           "encounterNames": [
             "墨宝"
           ],
-          "movesSummary": "刺击: Attack (3 (Asc 4) dmg); 旋风: Attack (2x3 (Asc 3x3) dmg); 锐利凝视: Attack (10 (Asc 11) dmg)"
+          "movesSummary": "刺击: Attack (3 (Asc 4) 伤害); 旋风: Attack (2x3 (Asc 3x3) 伤害); 锐利凝视: Attack (10 (Asc 11) 伤害)"
         },
         "ja": {
           "name": "インクレット",
@@ -9138,7 +9138,7 @@
           "encounterNames": [
             "インクレット"
           ],
-          "movesSummary": "ジャブ: Attack (3 (Asc 4) dmg); 旋風: Attack (2x3 (Asc 3x3) dmg); 鋭い視線: Attack (10 (Asc 11) dmg)"
+          "movesSummary": "ジャブ: Attack (3 (Asc 4) ダメージ); 旋風: Attack (2x3 (Asc 3x3) ダメージ); 鋭い視線: Attack (10 (Asc 11) ダメージ)"
         }
       }
     },
@@ -9247,7 +9247,7 @@
             "扼杀者与伙伴",
             "真菌与史莱姆"
           ],
-          "movesSummary": "团块射击: Attack (8 (Asc 9) dmg); 黏糊射击: Status"
+          "movesSummary": "团块射击: Attack (8 (Asc 9) 伤害); 黏糊射击: Status"
         },
         "ja": {
           "name": "リーフスライム (中)",
@@ -9297,7 +9297,7 @@
             "スライムの群れ",
             "絞蛇と友達"
           ],
-          "movesSummary": "塊ショット: Attack (8 (Asc 9) dmg); 粘着ショット: Status"
+          "movesSummary": "塊ショット: Attack (8 (Asc 9) ダメージ); 粘着ショット: Status"
         }
       }
     },
@@ -9394,7 +9394,7 @@
             "一群史莱姆",
             "扼杀者与伙伴"
           ],
-          "movesSummary": "冲撞: Attack (3 (Asc 4) dmg); 黏液: Status"
+          "movesSummary": "冲撞: Attack (3 (Asc 4) 伤害); 黏液: Status"
         },
         "ja": {
           "name": "リーフスライム (小)",
@@ -9438,7 +9438,7 @@
             "スライムの群れ",
             "絞蛇と友達"
           ],
-          "movesSummary": "体当たり: Attack (3 (Asc 4) dmg); 粘液: Status"
+          "movesSummary": "体当たり: Attack (3 (Asc 4) ダメージ); 粘液: Status"
         }
       }
     },
@@ -9525,7 +9525,7 @@
           "encounterNames": [
             "邪恶气体"
           ],
-          "movesSummary": "先进毒气: Attack + Debuff (8 (Asc 9) dmg); 膨胀: Attack + Summon (5 (Asc 6) dmg); 超级毒气爆炸: Attack (8 (Asc 9) dmg)"
+          "movesSummary": "先进毒气: Attack + Debuff (8 (Asc 9) 伤害); 膨胀: Attack + Summon (5 (Asc 6) 伤害); 超级毒气爆炸: Attack (8 (Asc 9) 伤害)"
         },
         "ja": {
           "name": "生きた霧",
@@ -9564,7 +9564,7 @@
           "encounterNames": [
             "邪悪なガス"
           ],
-          "movesSummary": "濃縮ガス: Attack + Debuff (8 (Asc 9) dmg); 膨張: Attack + Summon (5 (Asc 6) dmg); ガス大爆発: Attack (8 (Asc 9) dmg)"
+          "movesSummary": "濃縮ガス: Attack + Debuff (8 (Asc 9) ダメージ); 膨張: Attack + Summon (5 (Asc 6) ダメージ); ガス大爆発: Attack (8 (Asc 9) ダメージ)"
         }
       }
     },
@@ -9637,7 +9637,7 @@
           "encounterNames": [
             "高塔炮手"
           ],
-          "movesSummary": "盾击: Attack (6 dmg); 砸击: Attack + Buff (16 (Asc 18) dmg)"
+          "movesSummary": "盾击: Attack (6 伤害); 砸击: Attack + Buff (16 (Asc 18) 伤害)"
         },
         "ja": {
           "name": "リビングシールド",
@@ -9669,7 +9669,7 @@
           "encounterNames": [
             "タレットオペレーター"
           ],
-          "movesSummary": "シールドスラム: Attack (6 dmg); スマッシュ: Attack + Buff (16 (Asc 18) dmg)"
+          "movesSummary": "シールドスラム: Attack (6 ダメージ); スマッシュ: Attack + Buff (16 (Asc 18) ダメージ)"
         }
       }
     },
@@ -9756,7 +9756,7 @@
           "encounterNames": [
             "虱虫之祖"
           ],
-          "movesSummary": "吐网炮: Attack + Debuff (9 (Asc 10) dmg); 猛扑: Attack (14 (Asc 16) dmg); 蜷身成长: Defend + Buff (14 block)"
+          "movesSummary": "吐网炮: Attack + Debuff (9 (Asc 10) 伤害); 猛扑: Attack (14 (Asc 16) 伤害); 蜷身成长: Defend + Buff (14 格挡)"
         },
         "ja": {
           "name": "始祖虫",
@@ -9795,7 +9795,7 @@
           "encounterNames": [
             "始祖ラミー"
           ],
-          "movesSummary": "ウェブ・キャノン: Attack + Debuff (9 (Asc 10) dmg); 飛び掛かり: Attack (14 (Asc 16) dmg); まるくなり成長: Defend + Buff (14 block)"
+          "movesSummary": "ウェブ・キャノン: Attack + Debuff (9 (Asc 10) ダメージ); 飛び掛かり: Attack (14 (Asc 16) ダメージ); まるくなり成長: Defend + Buff (14 ブロック)"
         }
       }
     },
@@ -9882,7 +9882,7 @@
           "encounterNames": [
             "蛮兽"
           ],
-          "movesSummary": "狂乱撕扯: Attack (14 (Asc 16) dmg); 怒吼: Debuff; 爪击: Attack (4x2 (Asc 5x2) dmg)"
+          "movesSummary": "狂乱撕扯: Attack (14 (Asc 16) 伤害); 怒吼: Debuff; 爪击: Attack (4x2 (Asc 5x2) 伤害)"
         },
         "ja": {
           "name": "モーラー",
@@ -9921,7 +9921,7 @@
           "encounterNames": [
             "モーラー"
           ],
-          "movesSummary": "引き裂き: Attack (14 (Asc 16) dmg); 咆哮: Debuff; 爪: Attack (4x2 (Asc 5x2) dmg)"
+          "movesSummary": "引き裂き: Attack (14 (Asc 16) ダメージ); 咆哮: Debuff; 爪: Attack (4x2 (Asc 5x2) ダメージ)"
         }
       }
     },
@@ -10006,7 +10006,7 @@
           "encounterNames": [
             "神秘骑士"
           ],
-          "movesSummary": "战争吟唱: Buff; 连枷: Attack (9x2 (Asc 10x2) dmg); 撞击: Attack (15 (Asc 17) dmg)"
+          "movesSummary": "战争吟唱: Buff; 连枷: Attack (9x2 (Asc 10x2) 伤害); 撞击: Attack (15 (Asc 17) 伤害)"
         },
         "ja": {
           "name": "謎の騎士",
@@ -10045,7 +10045,7 @@
           "encounterNames": [
             "謎の騎士"
           ],
-          "movesSummary": "戦いの歌: Buff; フレイル: Attack (9x2 (Asc 10x2) dmg); 打ち込み: Attack (15 (Asc 17) dmg)"
+          "movesSummary": "戦いの歌: Buff; フレイル: Attack (9x2 (Asc 10x2) ダメージ); 打ち込み: Attack (15 (Asc 17) ダメージ)"
         }
       }
     },
@@ -10132,7 +10132,7 @@
           "encounterNames": [
             "一群异螨"
           ],
-          "movesSummary": "浓毒: Status; 啃咬: Attack (13 (Asc 15) dmg); 吸吮: Attack + Buff (4 (Asc 6) dmg)"
+          "movesSummary": "浓毒: Status; 啃咬: Attack (13 (Asc 15) 伤害); 吸吮: Attack + Buff (4 (Asc 6) 伤害)"
         },
         "ja": {
           "name": "マイト",
@@ -10171,7 +10171,7 @@
           "encounterNames": [
             "マイトの群れ"
           ],
-          "movesSummary": "毒角: Status; 噛みつき: Attack (13 (Asc 15) dmg); 吸い取る: Attack + Buff (4 (Asc 6) dmg)"
+          "movesSummary": "毒角: Status; 噛みつき: Attack (13 (Asc 15) ダメージ); 吸い取る: Attack + Buff (4 (Asc 6) ダメージ)"
         }
       }
     },
@@ -10270,7 +10270,7 @@
             "一只落单的小啃兽",
             "两只小啃兽"
           ],
-          "movesSummary": "顶撞: Attack (12 (Asc 13) dmg); Slice: Attack + Defend (6 (Asc 7) dmg, 5 block); 哈气: Buff"
+          "movesSummary": "顶撞: Attack (12 (Asc 13) 伤害); Slice: Attack + Defend (6 (Asc 7) 伤害, 5 格挡); 哈气: Buff"
         },
         "ja": {
           "name": "ニビット",
@@ -10315,7 +10315,7 @@
             "ニビットのコンビ",
             "孤独なニビット"
           ],
-          "movesSummary": "バット: Attack (12 (Asc 13) dmg); Slice: Attack + Defend (6 (Asc 7) dmg, 5 block); 威嚇: Buff"
+          "movesSummary": "バット: Attack (12 (Asc 13) ダメージ); Slice: Attack + Defend (6 (Asc 7) ダメージ, 5 ブロック); 威嚇: Buff"
         }
       }
     },
@@ -10532,7 +10532,7 @@
           "encounterNames": [
             "直飞产卵虫"
           ],
-          "movesSummary": "产卵: Summon; 猛砸: Attack (16 (Asc 17) dmg); 嫩化: Attack + Debuff (7 (Asc 8) dmg); +1 more"
+          "movesSummary": "产卵: Summon; 猛砸: Attack (16 (Asc 17) 伤害); 嫩化: Attack + Debuff (7 (Asc 8) 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "オビコプター",
@@ -10578,7 +10578,7 @@
           "encounterNames": [
             "オビコプター"
           ],
-          "movesSummary": "産卵: Summon; スマッシュ: Attack (16 (Asc 17) dmg); テンダライザー: Attack + Debuff (7 (Asc 8) dmg); +1 more"
+          "movesSummary": "産卵: Summon; スマッシュ: Attack (16 (Asc 17) ダメージ); テンダライザー: Attack + Debuff (7 (Asc 8) ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -10679,7 +10679,7 @@
           "encounterNames": [
             "猫头鹰法官"
           ],
-          "movesSummary": "法官审查: Attack (16 (Asc 17) dmg); 猛啄袭击: Attack (4x6 dmg); 飞法行为: Buff; +1 more"
+          "movesSummary": "法官审查: Attack (16 (Asc 17) 伤害); 猛啄袭击: Attack (4x6 伤害); 飞法行为: Buff; +1 个额外行动"
         },
         "ja": {
           "name": "フクロウ判事",
@@ -10725,7 +10725,7 @@
           "encounterNames": [
             "裁きのフクロウ"
           ],
-          "movesSummary": "判事の監視: Attack (16 (Asc 17) dmg); 強襲つっつき: Attack (4x6 dmg); 司法の飛行: Buff; +1 more"
+          "movesSummary": "判事の監視: Attack (16 (Asc 17) ダメージ); 強襲つっつき: Attack (4x6 ダメージ); 司法の飛行: Buff; +1 件の追加行動"
         }
       }
     },
@@ -10842,7 +10842,7 @@
           "encounterNames": [
             "胧光怪"
           ],
-          "movesSummary": "砸击: Attack (16 (Asc 17) dmg)"
+          "movesSummary": "砸击: Attack (16 (Asc 17) 伤害)"
         },
         "ja": {
           "name": "パラフライト",
@@ -10867,7 +10867,7 @@
           "encounterNames": [
             "オブスキュラ"
           ],
-          "movesSummary": "スラム: Attack (16 (Asc 17) dmg)"
+          "movesSummary": "スラム: Attack (16 (Asc 17) ダメージ)"
         }
       }
     },
@@ -10978,7 +10978,7 @@
             "一些构装体",
             "拳击构装体"
           ],
-          "movesSummary": "准备就绪: Defend (10 block); 强力拳: Attack (14 (Asc 16) dmg); 快速拳: Attack + Debuff (5x2 (Asc 6x2) dmg)"
+          "movesSummary": "准备就绪: Defend (10 格挡); 强力拳: Attack (14 (Asc 16) 伤害); 快速拳: Attack + Debuff (5x2 (Asc 6x2) 伤害)"
         },
         "ja": {
           "name": "パンチマシン",
@@ -11028,7 +11028,7 @@
             "パンチマシーン",
             "機械兵の動物園"
           ],
-          "movesSummary": "準備完了: Defend (10 block); ストロングパンチ: Attack (14 (Asc 16) dmg); ファストパンチ: Attack + Debuff (5x2 (Asc 6x2) dmg)"
+          "movesSummary": "準備完了: Defend (10 ブロック); ストロングパンチ: Attack (14 (Asc 16) ダメージ); ファストパンチ: Attack + Debuff (5x2 (Asc 6x2) ダメージ)"
         }
       }
     },
@@ -11127,7 +11127,7 @@
             "咬人卷轴",
             "许多咬人卷轴"
           ],
-          "movesSummary": "大啃: Attack (14 (Asc 16) dmg); 咀嚼: Attack (5x2 (Asc 6x2) dmg); 更多牙齿: Buff"
+          "movesSummary": "大啃: Attack (14 (Asc 16) 伤害); 咀嚼: Attack (5x2 (Asc 6x2) 伤害); 更多牙齿: Buff"
         },
         "ja": {
           "name": "噛みつきの巻物",
@@ -11172,7 +11172,7 @@
             "噛みつきの巻物",
             "多数の噛みつきの巻物"
           ],
-          "movesSummary": "噛み砕く: Attack (14 (Asc 16) dmg); 咀嚼: Attack (5x2 (Asc 6x2) dmg); もっと歯を: Buff"
+          "movesSummary": "噛み砕く: Attack (14 (Asc 16) ダメージ); 咀嚼: Attack (5x2 (Asc 6x2) ダメージ); もっと歯を: Buff"
         }
       }
     },
@@ -11271,7 +11271,7 @@
             "暗港野生动物",
             "海洋混混"
           ],
-          "movesSummary": "海洋踢: Attack (11 (Asc 13) dmg); 回旋踢: Attack (2x4 dmg); 吐泡泡: Buff + Defend (7 block)"
+          "movesSummary": "海洋踢: Attack (11 (Asc 13) 伤害); 回旋踢: Attack (2x4 伤害); 吐泡泡: Buff + Defend (7 格挡)"
         },
         "ja": {
           "name": "シーパンク",
@@ -11316,7 +11316,7 @@
             "シーパンク",
             "地下ドックに生きるものたち"
           ],
-          "movesSummary": "シーキック: Attack (11 (Asc 13) dmg); スピニングキック: Attack (2x4 dmg); バブルゲップ: Buff + Defend (7 block)"
+          "movesSummary": "シーキック: Attack (11 (Asc 13) ダメージ); スピニングキック: Attack (2x4 ダメージ); バブルゲップ: Buff + Defend (7 ブロック)"
         }
       }
     },
@@ -11389,7 +11389,7 @@
           "encounterNames": [
             "下水道蚌"
           ],
-          "movesSummary": "增压: Buff; 喷射: Attack (10 (Asc 11) dmg)"
+          "movesSummary": "增压: Buff; 喷射: Attack (10 (Asc 11) 伤害)"
         },
         "ja": {
           "name": "下水貝",
@@ -11421,7 +11421,7 @@
           "encounterNames": [
             "下水貝"
           ],
-          "movesSummary": "加圧: Buff; ジェット: Attack (10 (Asc 11) dmg)"
+          "movesSummary": "加圧: Buff; ジェット: Attack (10 (Asc 11) ダメージ)"
         }
       }
     },
@@ -11520,7 +11520,7 @@
             "密林爬虫",
             "缩小甲虫"
           ],
-          "movesSummary": "缩小: Debuff; 大啃: Attack (7 (Asc 8) dmg); 践踏: Attack (13 (Asc 14) dmg)"
+          "movesSummary": "缩小: Debuff; 大啃: Attack (7 (Asc 8) 伤害); 践踏: Attack (13 (Asc 14) 伤害)"
         },
         "ja": {
           "name": "シュリンカービートル",
@@ -11565,7 +11565,7 @@
             "シュリンカービートル",
             "繁茂の地のクローラー"
           ],
-          "movesSummary": "シュリンカー: Debuff; 噛み砕く: Attack (7 (Asc 8) dmg); 踏みつけ: Attack (13 (Asc 14) dmg)"
+          "movesSummary": "シュリンカー: Debuff; 噛み砕く: Attack (7 (Asc 8) ダメージ); 踏みつけ: Attack (13 (Asc 14) ダメージ)"
         }
       }
     },
@@ -11666,7 +11666,7 @@
           "encounterNames": [
             "史莱姆狂战士"
           ],
-          "movesSummary": "喷吐脓水: Status; 汲取之拥: Debuff + Buff; Smother: Attack (30 (Asc 33) dmg); +1 more"
+          "movesSummary": "喷吐脓水: Status; 汲取之拥: Debuff + Buff; Smother: Attack (30 (Asc 33) 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "スライムバーサーカー",
@@ -11712,7 +11712,7 @@
           "encounterNames": [
             "スライムバーサーカー"
           ],
-          "movesSummary": "霊液噴出: Status; 吸血ハグ: Debuff + Buff; Smother: Attack (30 (Asc 33) dmg); +1 more"
+          "movesSummary": "霊液噴出: Status; 吸血ハグ: Debuff + Buff; Smother: Attack (30 (Asc 33) ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -11799,7 +11799,7 @@
           "encounterNames": [
             "扼杀者与伙伴"
           ],
-          "movesSummary": "缠身: Debuff; 重击: Attack + Defend (7 (Asc 8) dmg, 5 block); 甩动: Attack (12 (Asc 13) dmg)"
+          "movesSummary": "缠身: Debuff; 重击: Attack + Defend (7 (Asc 8) 伤害, 5 格挡); 甩动: Attack (12 (Asc 13) 伤害)"
         },
         "ja": {
           "name": "絞蛇",
@@ -11838,7 +11838,7 @@
           "encounterNames": [
             "絞蛇と友達"
           ],
-          "movesSummary": "締め付け: Debuff; 痛撃: Attack + Defend (7 (Asc 8) dmg, 5 block); ムチ打ち: Attack (12 (Asc 13) dmg)"
+          "movesSummary": "締め付け: Debuff; 痛撃: Attack + Defend (7 (Asc 8) ダメージ, 5 ブロック); ムチ打ち: Attack (12 (Asc 13) ダメージ)"
         }
       }
     },
@@ -11925,7 +11925,7 @@
           "encounterNames": [
             "淤泥旋螺"
           ],
-          "movesSummary": "喷油: Attack + Debuff (8 (Asc 9) dmg); 砸击: Attack (11 (Asc 12) dmg); 狂怒: Attack + Buff (6 (Asc 7) dmg)"
+          "movesSummary": "喷油: Attack + Debuff (8 (Asc 9) 伤害); 砸击: Attack (11 (Asc 12) 伤害); 狂怒: Attack + Buff (6 (Asc 7) 伤害)"
         },
         "ja": {
           "name": "スラッジスピナー",
@@ -11964,7 +11964,7 @@
           "encounterNames": [
             "スラッジスピナー"
           ],
-          "movesSummary": "オイルスプレー: Attack + Debuff (8 (Asc 9) dmg); スラム: Attack (11 (Asc 12) dmg); 激怒: Attack + Buff (6 (Asc 7) dmg)"
+          "movesSummary": "オイルスプレー: Attack + Debuff (8 (Asc 9) ダメージ); スラム: Attack (11 (Asc 12) ダメージ); 激怒: Attack + Buff (6 (Asc 7) ダメージ)"
         }
       }
     },
@@ -12037,7 +12037,7 @@
           "encounterNames": [
             "熟睡派对"
           ],
-          "movesSummary": "打鼾: Sleep; 出击: Attack + Buff (16 (Asc 18) dmg)"
+          "movesSummary": "打鼾: Sleep; 出击: Attack + Buff (16 (Asc 18) 伤害)"
         },
         "ja": {
           "name": "眠れるビートル",
@@ -12069,7 +12069,7 @@
           "encounterNames": [
             "パジャマパーティー"
           ],
-          "movesSummary": "いびき: Sleep; ロールアウト: Attack + Buff (16 (Asc 18) dmg)"
+          "movesSummary": "いびき: Sleep; ロールアウト: Attack + Buff (16 (Asc 18) ダメージ)"
         }
       }
     },
@@ -12140,7 +12140,7 @@
             "密林植物",
             "扼杀者与伙伴"
           ],
-          "movesSummary": "能量球: Attack + Buff (3 (Asc 4) dmg)"
+          "movesSummary": "能量球: Attack + Buff (3 (Asc 4) 伤害)"
         },
         "ja": {
           "name": "暴れジャックフルーツ",
@@ -12171,7 +12171,7 @@
             "絞蛇と友達",
             "繁茂の地の植物"
           ],
-          "movesSummary": "エナジーオーブ: Attack + Buff (3 (Asc 4) dmg)"
+          "movesSummary": "エナジーオーブ: Attack + Buff (3 (Asc 4) ダメージ)"
         }
       }
     },
@@ -12244,7 +12244,7 @@
           "encounterNames": [
             "穿着一件大衣的两只地精"
           ],
-          "movesSummary": "醒来: Stun; 冲撞: Attack (9 (Asc 10) dmg)"
+          "movesSummary": "醒来: Stun; 冲撞: Attack (9 (Asc 10) 伤害)"
         },
         "ja": {
           "name": "スニーキーグレムリン",
@@ -12276,7 +12276,7 @@
           "encounterNames": [
             "トレンチコートのグレムリン"
           ],
-          "movesSummary": "目覚め: Stun; 体当たり: Attack (9 (Asc 10) dmg)"
+          "movesSummary": "目覚め: Stun; 体当たり: Attack (9 (Asc 10) ダメージ)"
         }
       }
     },
@@ -12363,7 +12363,7 @@
           "encounterNames": [
             "棘刺蟾蜍"
           ],
-          "movesSummary": "伸出尖刺: Buff; 尖刺爆破: Attack (23 (Asc 25) dmg); 吐舌: Attack (17 (Asc 19) dmg)"
+          "movesSummary": "伸出尖刺: Buff; 尖刺爆破: Attack (23 (Asc 25) 伤害); 吐舌: Attack (17 (Asc 19) 伤害)"
         },
         "ja": {
           "name": "トゲヒキガエル",
@@ -12402,7 +12402,7 @@
           "encounterNames": [
             "トゲヒキガエル"
           ],
-          "movesSummary": "突き出るスパイク: Buff; スパイク爆発: Attack (23 (Asc 25) dmg); 舌打ち: Attack (17 (Asc 19) dmg)"
+          "movesSummary": "突き出るスパイク: Buff; スパイク爆発: Attack (23 (Asc 25) ダメージ); 舌打ち: Attack (17 (Asc 19) ダメージ)"
         }
       }
     },
@@ -12443,7 +12443,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "戳刺: Attack + Debuff (11 (Asc 12) dmg)"
+          "movesSummary": "戳刺: Attack + Debuff (11 (Asc 12) 伤害)"
         },
         "ja": {
           "name": "スタブマシン",
@@ -12460,7 +12460,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "突き: Attack + Debuff (11 (Asc 12) dmg)"
+          "movesSummary": "突き: Attack + Debuff (11 (Asc 12) ダメージ)"
         }
       }
     },
@@ -12529,7 +12529,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "砸击: Attack (12 dmg); 光束: Attack (15 dmg); 弹幕: Attack + Buff (8x2 dmg)"
+          "movesSummary": "砸击: Attack (12 伤害); 光束: Attack (15 伤害); 弹幕: Attack + Buff (8x2 伤害)"
         },
         "ja": {
           "name": "アドバーサリー Mk 1",
@@ -12560,7 +12560,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "スマッシュ: Attack (12 dmg); ビーム: Attack (15 dmg); 一斉発射: Attack + Buff (8x2 dmg)"
+          "movesSummary": "スマッシュ: Attack (12 ダメージ); ビーム: Attack (15 ダメージ); 一斉発射: Attack + Buff (8x2 ダメージ)"
         }
       }
     },
@@ -12629,7 +12629,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "猛击: Attack (13 dmg); 火焰光束: Attack (16 dmg); 弹幕: Attack + Buff (9x2 dmg)"
+          "movesSummary": "猛击: Attack (13 伤害); 火焰光束: Attack (16 伤害); 弹幕: Attack + Buff (9x2 伤害)"
         },
         "ja": {
           "name": "アドバーサリー Mk 2",
@@ -12660,7 +12660,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "バッシュ: Attack (13 dmg); フレイムビーム: Attack (16 dmg); 一斉発射: Attack + Buff (9x2 dmg)"
+          "movesSummary": "バッシュ: Attack (13 ダメージ); フレイムビーム: Attack (16 ダメージ); 一斉発射: Attack + Buff (9x2 ダメージ)"
         }
       }
     },
@@ -12729,7 +12729,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "冲击: Attack (15 dmg); 火焰光束: Attack (18 dmg); 弹幕: Attack + Buff (10x2 dmg)"
+          "movesSummary": "冲击: Attack (15 伤害); 火焰光束: Attack (18 伤害); 弹幕: Attack + Buff (10x2 伤害)"
         },
         "ja": {
           "name": "アドバーサリー Mk 3",
@@ -12760,7 +12760,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "クラッシュ: Attack (15 dmg); フレイムビーム: Attack (18 dmg); 一斉発射: Attack + Buff (10x2 dmg)"
+          "movesSummary": "クラッシュ: Attack (15 ダメージ); フレイムビーム: Attack (18 ダメージ); 一斉発射: Attack + Buff (10x2 ダメージ)"
         }
       }
     },
@@ -12915,7 +12915,7 @@
           "encounterNames": [
             "失落与遗忘之物"
           ],
-          "movesSummary": "瘴气: Debuff + Defend + Buff (8 block); 恐惧: Attack"
+          "movesSummary": "瘴气: Debuff + Defend + Buff (8 格挡); 恐惧: Attack"
         },
         "ja": {
           "name": "忘れられし者",
@@ -12947,7 +12947,7 @@
           "encounterNames": [
             "迷える者と忘れられし者"
           ],
-          "movesSummary": "瘴気: Debuff + Defend + Buff (8 block); 恐怖: Attack"
+          "movesSummary": "瘴気: Debuff + Defend + Buff (8 ブロック); 恐怖: Attack"
         }
       }
     },
@@ -13020,7 +13020,7 @@
           "encounterNames": [
             "失落与遗忘之物"
           ],
-          "movesSummary": "致残雾霾: Debuff + Buff; 眼部激光: Attack (4x2 (Asc 5x2) dmg)"
+          "movesSummary": "致残雾霾: Debuff + Buff; 眼部激光: Attack (4x2 (Asc 5x2) 伤害)"
         },
         "ja": {
           "name": "迷える者",
@@ -13052,7 +13052,7 @@
           "encounterNames": [
             "迷える者と忘れられし者"
           ],
-          "movesSummary": "衰弱スモッグ: Debuff + Buff; アイレーザー: Attack (4x2 (Asc 5x2) dmg)"
+          "movesSummary": "衰弱スモッグ: Debuff + Buff; アイレーザー: Attack (4x2 (Asc 5x2) ダメージ)"
         }
       }
     },
@@ -13151,7 +13151,7 @@
           "encounterNames": [
             "商人？？？"
           ],
-          "movesSummary": "顺走: Attack (13 (Asc 15) dmg); 喷吐硬币: Attack (2 dmg); 投掷遗物: Attack + Debuff (9 (Asc 10) dmg); +1 more"
+          "movesSummary": "顺走: Attack (13 (Asc 15) 伤害); 喷吐硬币: Attack (2 伤害); 投掷遗物: Attack + Debuff (9 (Asc 10) 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "商人？",
@@ -13197,7 +13197,7 @@
           "encounterNames": [
             "商人？"
           ],
-          "movesSummary": "なぎ払い: Attack (13 (Asc 15) dmg); コイン吐き: Attack (2 dmg); レリック投げ: Attack + Debuff (9 (Asc 10) dmg); +1 more"
+          "movesSummary": "なぎ払い: Attack (13 (Asc 15) ダメージ); コイン吐き: Attack (2 ダメージ); レリック投げ: Attack + Debuff (9 (Asc 10) ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -13298,7 +13298,7 @@
           "encounterNames": [
             "胧光怪"
           ],
-          "movesSummary": "幻象: Summon; 锐利凝视: Attack (10 (Asc 11) dmg); 起航: Buff; +1 more"
+          "movesSummary": "幻象: Summon; 锐利凝视: Attack (10 (Asc 11) 伤害); 起航: Buff; +1 个额外行动"
         },
         "ja": {
           "name": "オブスキュラ",
@@ -13344,7 +13344,7 @@
           "encounterNames": [
             "オブスキュラ"
           ],
-          "movesSummary": "イリュージョン: Summon; 鋭い視線: Attack (10 (Asc 11) dmg); セイル: Buff; +1 more"
+          "movesSummary": "イリュージョン: Summon; 鋭い視線: Attack (10 (Asc 11) ダメージ); セイル: Buff; +1 件の追加行動"
         }
       }
     },
@@ -13459,7 +13459,7 @@
           "encounterNames": [
             "偷窃草蜢"
           ],
-          "movesSummary": "偷盗: Attack + Debuff (17 (Asc 19) dmg); 抢夺: Attack (14 (Asc 16) dmg); 帽子戏法: Attack (21 (Asc 23) dmg); +2 more"
+          "movesSummary": "偷盗: Attack + Debuff (17 (Asc 19) 伤害); 抢夺: Attack (14 (Asc 16) 伤害); 帽子戏法: Attack (21 (Asc 23) 伤害); +2 个额外行动"
         },
         "ja": {
           "name": "泥棒バッタ",
@@ -13512,7 +13512,7 @@
           "encounterNames": [
             "泥棒バッタ"
           ],
-          "movesSummary": "泥棒: Attack + Debuff (17 (Asc 19) dmg); ひったくり: Attack (14 (Asc 16) dmg); ハットトリック: Attack (21 (Asc 23) dmg); +2 more"
+          "movesSummary": "泥棒: Attack + Debuff (17 (Asc 19) ダメージ); ひったくり: Attack (14 (Asc 16) ダメージ); ハットトリック: Attack (21 (Asc 23) ダメージ); +2 件の追加行動"
         }
       }
     },
@@ -13599,7 +13599,7 @@
           "encounterNames": [
             "蟾蜍蝌蚪"
           ],
-          "movesSummary": "吐刺: Attack (3x3 (Asc 4x3) dmg); 旋转: Attack (7 (Asc 8) dmg); 带刺: Buff"
+          "movesSummary": "吐刺: Attack (3x3 (Asc 4x3) 伤害); 旋转: Attack (7 (Asc 8) 伤害); 带刺: Buff"
         },
         "ja": {
           "name": "ヒキジャクシ",
@@ -13638,7 +13638,7 @@
           "encounterNames": [
             "ヒキジャクシ"
           ],
-          "movesSummary": "スパイクスピット: Attack (3x3 (Asc 4x3) dmg); 旋回: Attack (7 (Asc 8) dmg); トゲトゲ: Buff"
+          "movesSummary": "スパイクスピット: Attack (3x3 (Asc 4x3) ダメージ); 旋回: Attack (7 (Asc 8) ダメージ); トゲトゲ: Buff"
         }
       }
     },
@@ -13711,7 +13711,7 @@
           "encounterNames": [
             "直飞产卵虫"
           ],
-          "movesSummary": "孵化: Summon; 啃咬: Attack (4 (Asc 5) dmg)"
+          "movesSummary": "孵化: Summon; 啃咬: Attack (4 (Asc 5) 伤害)"
         },
         "ja": {
           "name": "固い卵",
@@ -13743,7 +13743,7 @@
           "encounterNames": [
             "オビコプター"
           ],
-          "movesSummary": "ふ化: Summon; かじりつき: Attack (4 (Asc 5) dmg)"
+          "movesSummary": "ふ化: Summon; かじりつき: Attack (4 (Asc 5) ダメージ)"
         }
       }
     },
@@ -13816,7 +13816,7 @@
           "encounterNames": [
             "红宝石劫掠者"
           ],
-          "movesSummary": "追踪: Debuff; 放狗: Attack (1x8 dmg)"
+          "movesSummary": "追踪: Debuff; 放狗: Attack (1x8 伤害)"
         },
         "ja": {
           "name": "トラッカーレイダー",
@@ -13848,7 +13848,7 @@
           "encounterNames": [
             "ルビーレイダーズ"
           ],
-          "movesSummary": "追跡: Debuff; 猟犬を放つ: Attack (1x8 dmg)"
+          "movesSummary": "追跡: Debuff; 猟犬を放つ: Attack (1x8 ダメージ)"
         }
       }
     },
@@ -13961,7 +13961,7 @@
             "地道组合",
             "地道虫"
           ],
-          "movesSummary": "啃咬: Attack (13 (Asc 15) dmg); 钻洞: Buff + Defend (32 block); 下方攻击: Attack (23 (Asc 26) dmg); +1 more"
+          "movesSummary": "啃咬: Attack (13 (Asc 15) 伤害); 钻洞: Buff + Defend (32 格挡); 下方攻击: Attack (23 (Asc 26) 伤害); +1 个额外行动"
         },
         "ja": {
           "name": "トンネラー",
@@ -14013,7 +14013,7 @@
             "トンネラー",
             "トンネリング"
           ],
-          "movesSummary": "噛みつき: Attack (13 (Asc 15) dmg); 潜伏: Buff + Defend (32 block); 下からの攻撃: Attack (23 (Asc 26) dmg); +1 more"
+          "movesSummary": "噛みつき: Attack (13 (Asc 15) ダメージ); 潜伏: Buff + Defend (32 ブロック); 下からの攻撃: Attack (23 (Asc 26) ダメージ); +1 件の追加行動"
         }
       }
     },
@@ -14100,7 +14100,7 @@
           "encounterNames": [
             "高塔炮手"
           ],
-          "movesSummary": "弹雨！: Attack (3x5 (Asc 4x5) dmg); Unload Move 2: Attack (3x5 (Asc 4x5) dmg); 装弹: Buff"
+          "movesSummary": "弹雨！: Attack (3x5 (Asc 4x5) 伤害); Unload Move 2: Attack (3x5 (Asc 4x5) 伤害); 装弹: Buff"
         },
         "ja": {
           "name": "タレットオペレーター",
@@ -14139,7 +14139,7 @@
           "encounterNames": [
             "タレットオペレーター"
           ],
-          "movesSummary": "アンロード！: Attack (3x5 (Asc 4x5) dmg); Unload Move 2: Attack (3x5 (Asc 4x5) dmg); リロード: Buff"
+          "movesSummary": "アンロード！: Attack (3x5 (Asc 4x5) ダメージ); Unload Move 2: Attack (3x5 (Asc 4x5) ダメージ); リロード: Buff"
         }
       }
     },
@@ -14248,7 +14248,7 @@
             "扼杀者与伙伴",
             "真菌与史莱姆"
           ],
-          "movesSummary": "戳刺扑击: Attack (11 (Asc 12) dmg); 黏糊射击: Status"
+          "movesSummary": "戳刺扑击: Attack (11 (Asc 12) 伤害); 黏糊射击: Status"
         },
         "ja": {
           "name": "細枝スライム (中)",
@@ -14298,7 +14298,7 @@
             "スライムの群れ",
             "絞蛇と友達"
           ],
-          "movesSummary": "小枝の飛び掛かり: Attack (11 (Asc 12) dmg); 粘着ショット: Status"
+          "movesSummary": "小枝の飛び掛かり: Attack (11 (Asc 12) ダメージ); 粘着ショット: Status"
         }
       }
     },
@@ -14381,7 +14381,7 @@
             "一群史莱姆",
             "扼杀者与伙伴"
           ],
-          "movesSummary": "冲撞: Attack (4 (Asc 5) dmg)"
+          "movesSummary": "冲撞: Attack (4 (Asc 5) 伤害)"
         },
         "ja": {
           "name": "細枝スライム (小)",
@@ -14418,7 +14418,7 @@
             "スライムの群れ",
             "絞蛇と友達"
           ],
-          "movesSummary": "体当たり: Attack (4 (Asc 5) dmg)"
+          "movesSummary": "体当たり: Attack (4 (Asc 5) ダメージ)"
         }
       }
     },
@@ -14519,7 +14519,7 @@
           "encounterNames": [
             "双尾鼠"
           ],
-          "movesSummary": "抓挠: Attack (8 (Asc 9) dmg); 疾病啃咬: Attack (6 (Asc 7) dmg); 尖声嘶吼: Debuff; +1 more"
+          "movesSummary": "抓挠: Attack (8 (Asc 9) 伤害); 疾病啃咬: Attack (6 (Asc 7) 伤害); 尖声嘶吼: Debuff; +1 个额外行动"
         },
         "ja": {
           "name": "双尾のネズミ",
@@ -14565,7 +14565,7 @@
           "encounterNames": [
             "双尾のネズミ"
           ],
-          "movesSummary": "引っかき: Attack (8 (Asc 9) dmg); 病の噛みつき: Attack (6 (Asc 7) dmg); 金切り声: Debuff; +1 more"
+          "movesSummary": "引っかき: Attack (8 (Asc 9) ダメージ); 病の噛みつき: Attack (6 (Asc 7) ダメージ); 金切り声: Debuff; +1 件の追加行動"
         }
       }
     },
@@ -14652,7 +14652,7 @@
           "encounterNames": [
             "藤蔓蹒跚者"
           ],
-          "movesSummary": "紧绕藤蔓: Attack + Debuff (8 (Asc 9) dmg); 挥击: Attack (6x2 (Asc 7x2) dmg); 大啃: Attack (16 (Asc 18) dmg)"
+          "movesSummary": "紧绕藤蔓: Attack + Debuff (8 (Asc 9) 伤害); 挥击: Attack (6x2 (Asc 7x2) 伤害); 大啃: Attack (16 (Asc 18) 伤害)"
         },
         "ja": {
           "name": "ヴァインシャンブラー",
@@ -14691,7 +14691,7 @@
           "encounterNames": [
             "ヴァインシャンブラー"
           ],
-          "movesSummary": "掴みかかるツタ: Attack + Debuff (8 (Asc 9) dmg); なぎ払い: Attack (6x2 (Asc 7x2) dmg); 噛み砕く: Attack (16 (Asc 18) dmg)"
+          "movesSummary": "掴みかかるツタ: Attack + Debuff (8 (Asc 9) ダメージ); なぎ払い: Attack (6x2 (Asc 7x2) ダメージ); 噛み砕く: Attack (16 (Asc 18) ダメージ)"
         }
       }
     },
@@ -14732,7 +14732,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "电击: Attack (14 (Asc 15) dmg)"
+          "movesSummary": "电击: Attack (14 (Asc 15) 伤害)"
         },
         "ja": {
           "name": "ザップマシン",
@@ -14749,7 +14749,7 @@
           ],
           "encounters": [],
           "encounterNames": [],
-          "movesSummary": "ザップ: Attack (14 (Asc 15) dmg)"
+          "movesSummary": "ザップ: Attack (14 (Asc 15) ダメージ)"
         }
       }
     }

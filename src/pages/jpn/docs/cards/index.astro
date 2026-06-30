@@ -2,14 +2,14 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import EntityBrowser from '../../../../components/EntityBrowser.svelte';
 import { cards } from '../../../../data/cards';
+import { localizedCharacterLabel } from '../../../../data/i18n';
 
 const rows = cards.map((c) => {
   const ja = c.translations?.ja;
   return {
     slug: c.slug,
     name: ja?.name || c.name,
-    englishName: c.name,
-    character: c.character,
+    character: localizedCharacterLabel('jpn', c.character),
     cost: c.cost,
     costRaw: c.costRaw,
     type: ja?.type || c.type,
@@ -31,7 +31,6 @@ const rows = cards.map((c) => {
     noun="枚のカード"
     nameLabel="カード"
     columns={[
-      { field: 'englishName', label: '英語名', width: '16rem' },
       { field: 'character', label: 'キャラクター', width: '13rem' },
       { field: 'cost', label: 'コスト', format: 'cardCost', width: '7rem' },
       { field: 'type', label: 'タイプ', width: '9rem' },

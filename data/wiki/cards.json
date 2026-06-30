@@ -51,7 +51,9 @@
           "rarity": "稀有",
           "target": "Self",
           "keywords": [
-            "奇巧"
+            "奇巧",
+            "敏捷",
+            "荆棘"
           ]
         },
         "ja": {
@@ -62,7 +64,9 @@
           "rarity": "レア",
           "target": "Self",
           "keywords": [
-            "スライ"
+            "スライ",
+            "敏捷",
+            "トゲ"
           ]
         }
       }
@@ -110,7 +114,9 @@
           "type": "能力",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "中毒"
+          ]
         },
         "ja": {
           "name": "促進剤",
@@ -119,7 +125,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "毒"
+          ]
         }
       }
     },
@@ -846,7 +854,9 @@
           "type": "技能",
           "rarity": "普通",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "敏捷"
+          ]
         },
         "ja": {
           "name": "機先",
@@ -855,7 +865,9 @@
           "type": "スキル",
           "rarity": "コモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "敏捷"
+          ]
         }
       }
     },
@@ -973,8 +985,8 @@
           "rarity": "先古",
           "target": "Self",
           "keywords": [
-            "消耗",
-            "虚无"
+            "虚无",
+            "消耗"
           ]
         },
         "ja": {
@@ -985,8 +997,8 @@
           "rarity": "エンシェント",
           "target": "Self",
           "keywords": [
-            "廃棄",
-            "エセリアル"
+            "エセリアル",
+            "廃棄"
           ]
         }
       }
@@ -1088,7 +1100,9 @@
           "type": "能力",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "武器庫",
@@ -1097,7 +1111,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -1150,9 +1166,9 @@
           "rarity": "诅咒",
           "target": "None",
           "keywords": [
+            "永恒",
             "虚无",
-            "不能被打出",
-            "永恒"
+            "不能被打出"
           ]
         },
         "ja": {
@@ -1163,9 +1179,9 @@
           "rarity": "呪い",
           "target": "None",
           "keywords": [
+            "永劫",
             "エセリアル",
-            "プレイ不可",
-            "永劫"
+            "プレイ不可"
           ]
         }
       }
@@ -1213,7 +1229,9 @@
           "type": "攻击",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "アッシュストライク",
@@ -1222,7 +1240,9 @@
           "type": "アタック",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -1276,7 +1296,8 @@
           "target": "AnyEnemy",
           "keywords": [
             "消耗",
-            "固有"
+            "固有",
+            "易伤"
           ]
         },
         "ja": {
@@ -1288,7 +1309,8 @@
           "target": "AnyEnemy",
           "keywords": [
             "廃棄",
-            "天賦"
+            "天賦",
+            "弱体"
           ]
         }
       }
@@ -1622,8 +1644,8 @@
           "rarity": "诅咒",
           "target": "None",
           "keywords": [
-            "不能被打出",
-            "永恒"
+            "永恒",
+            "不能被打出"
           ]
         },
         "ja": {
@@ -1634,8 +1656,8 @@
           "rarity": "呪い",
           "target": "None",
           "keywords": [
-            "プレイ不可",
-            "永劫"
+            "永劫",
+            "プレイ不可"
           ]
         }
       }
@@ -1737,7 +1759,9 @@
           "type": "攻击",
           "rarity": "稀有",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "虚无"
+          ]
         },
         "ja": {
           "name": "バンシーの叫び",
@@ -1746,7 +1770,9 @@
           "type": "アタック",
           "rarity": "レア",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "エセリアル"
+          ]
         }
       }
     },
@@ -1901,7 +1927,9 @@
           "type": "攻击",
           "rarity": "基础",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "易伤"
+          ]
         },
         "ja": {
           "name": "強打",
@@ -1910,7 +1938,9 @@
           "type": "アタック",
           "rarity": "ベーシック",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "弱体"
+          ]
         }
       }
     },
@@ -2065,7 +2095,9 @@
           "type": "攻击",
           "rarity": "普通",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "易伤"
+          ]
         },
         "ja": {
           "name": "ビームセル",
@@ -2074,7 +2106,9 @@
           "type": "アタック",
           "rarity": "コモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "弱体"
+          ]
         }
       }
     },
@@ -2337,7 +2371,9 @@
           "type": "能力",
           "rarity": "先古",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "集中"
+          ]
         },
         "ja": {
           "name": "認知偏向",
@@ -2346,7 +2382,9 @@
           "type": "パワー",
           "rarity": "エンシェント",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "集中力"
+          ]
         }
       }
     },
@@ -2634,7 +2672,9 @@
           "type": "アタック",
           "rarity": "コモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "破滅"
+          ]
         }
       }
     },
@@ -3349,7 +3389,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "RandomEnemy",
-          "keywords": []
+          "keywords": [
+            "中毒"
+          ]
         },
         "ja": {
           "name": "バウンドフラスコ",
@@ -3358,7 +3400,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "RandomEnemy",
-          "keywords": []
+          "keywords": [
+            "毒"
+          ]
         }
       }
     },
@@ -3406,7 +3450,10 @@
           "type": "技能",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗",
+            "力量"
+          ]
         },
         "ja": {
           "name": "焼印",
@@ -3415,7 +3462,10 @@
           "type": "スキル",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄",
+            "筋力"
+          ]
         }
       }
     },
@@ -3462,7 +3512,9 @@
           "type": "攻击",
           "rarity": "先古",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "易伤"
+          ]
         },
         "ja": {
           "name": "破砕",
@@ -3471,7 +3523,9 @@
           "type": "アタック",
           "rarity": "エンシェント",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "弱体"
+          ]
         }
       }
     },
@@ -3626,7 +3680,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "中毒"
+          ]
         },
         "ja": {
           "name": "バブル・バブル",
@@ -3635,7 +3691,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "毒"
+          ]
         }
       }
     },
@@ -3737,7 +3795,10 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "力量",
+            "敏捷"
+          ]
         },
         "ja": {
           "name": "肉体改造",
@@ -3746,7 +3807,10 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "筋力",
+            "敏捷"
+          ]
         }
       }
     },
@@ -3847,7 +3911,9 @@
           "type": "攻击",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "易伤"
+          ]
         },
         "ja": {
           "name": "ごろつき",
@@ -3856,7 +3922,9 @@
           "type": "アタック",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "弱体"
+          ]
         }
       }
     },
@@ -4079,7 +4147,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "焦熱の契約",
@@ -4088,7 +4158,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -4575,7 +4647,9 @@
           "type": "能力",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "虚无"
+          ]
         },
         "ja": {
           "name": "虚空の呼び声",
@@ -4584,7 +4658,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "エセリアル"
+          ]
         }
       }
     },
@@ -5172,7 +5248,9 @@
           "type": "攻击",
           "rarity": "普通",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "黒焦げ",
@@ -5181,7 +5259,9 @@
           "type": "アタック",
           "rarity": "コモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -5336,7 +5416,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "浄化",
@@ -5345,7 +5427,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -5673,7 +5757,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "易伤"
+          ]
         },
         "ja": {
           "name": "巨人",
@@ -5682,7 +5768,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "弱体"
+          ]
         }
       }
     },
@@ -5730,7 +5818,10 @@
           "type": "攻击",
           "rarity": "稀有",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "易伤",
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "彗星",
@@ -5739,7 +5830,10 @@
           "type": "アタック",
           "rarity": "レア",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "弱体",
+            "脱力"
+          ]
         }
       }
     },
@@ -6056,7 +6150,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "保留"
+          ]
         },
         "ja": {
           "name": "集約",
@@ -6065,7 +6161,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "保留"
+          ]
         }
       }
     },
@@ -6220,7 +6318,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "AnyAlly",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "連携",
@@ -6229,7 +6329,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "AnyAlly",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -6276,7 +6378,9 @@
           "type": "技能",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "中毒"
+          ]
         },
         "ja": {
           "name": "腐食の波",
@@ -6285,7 +6389,9 @@
           "type": "スキル",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "毒"
+          ]
         }
       }
     },
@@ -6332,7 +6438,9 @@
           "type": "能力",
           "rarity": "先古",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "堕落",
@@ -6341,7 +6449,9 @@
           "type": "パワー",
           "rarity": "エンシェント",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -6451,7 +6561,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "破滅"
+          ]
         }
       }
     },
@@ -6714,7 +6826,9 @@
           "type": "能力",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "易伤"
+          ]
         },
         "ja": {
           "name": "無慈悲",
@@ -6723,7 +6837,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "弱体"
+          ]
         }
       }
     },
@@ -6770,7 +6886,9 @@
           "type": "攻击",
           "rarity": "普通",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "重圧",
@@ -6779,7 +6897,9 @@
           "type": "アタック",
           "rarity": "コモン",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -6830,8 +6950,8 @@
           "rarity": "诅咒",
           "target": "None",
           "keywords": [
-            "不能被打出",
-            "永恒"
+            "永恒",
+            "不能被打出"
           ]
         },
         "ja": {
@@ -6842,8 +6962,8 @@
           "rarity": "呪い",
           "target": "None",
           "keywords": [
-            "プレイ不可",
-            "永劫"
+            "永劫",
+            "プレイ不可"
           ]
         }
       }
@@ -7051,7 +7171,9 @@
           "type": "能力",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "闇の抱擁",
@@ -7060,7 +7182,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -7111,7 +7235,8 @@
           "rarity": "罕见",
           "target": "AnyEnemy",
           "keywords": [
-            "消耗"
+            "消耗",
+            "力量"
           ]
         },
         "ja": {
@@ -7122,7 +7247,8 @@
           "rarity": "アンコモン",
           "target": "AnyEnemy",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "筋力"
           ]
         }
       }
@@ -7343,7 +7469,9 @@
           "type": "技能",
           "rarity": "普通",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "中毒"
+          ]
         },
         "ja": {
           "name": "致死毒",
@@ -7352,7 +7480,9 @@
           "type": "スキル",
           "rarity": "コモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "毒"
+          ]
         }
       }
     },
@@ -7462,7 +7592,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "破滅"
+          ]
         }
       }
     },
@@ -7510,7 +7642,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "デスブリンガー",
@@ -7519,7 +7653,10 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "脱力",
+            "破滅"
+          ]
         }
       }
     },
@@ -7567,7 +7704,10 @@
           "type": "攻击",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "易伤",
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "衰弱",
@@ -7576,7 +7716,10 @@
           "type": "アタック",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "弱体",
+            "脱力"
+          ]
         }
       }
     },
@@ -8253,7 +8396,9 @@
           "type": "能力",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "集中"
+          ]
         },
         "ja": {
           "name": "デフラグ",
@@ -8262,7 +8407,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "集中力"
+          ]
         }
       }
     },
@@ -8313,7 +8460,8 @@
           "rarity": "普通",
           "target": "AnyEnemy",
           "keywords": [
-            "虚无"
+            "虚无",
+            "虚弱"
           ]
         },
         "ja": {
@@ -8324,7 +8472,8 @@
           "rarity": "コモン",
           "target": "AnyEnemy",
           "keywords": [
-            "エセリアル"
+            "エセリアル",
+            "脱力"
           ]
         }
       }
@@ -8488,7 +8637,9 @@
           "type": "能力",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "悪魔化",
@@ -8497,7 +8648,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -8887,7 +9040,9 @@
           "type": "攻击",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "易伤"
+          ]
         },
         "ja": {
           "name": "解体",
@@ -8896,7 +9051,9 @@
           "type": "アタック",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "弱体"
+          ]
         }
       }
     },
@@ -9064,7 +9221,9 @@
           "rarity": "罕见",
           "target": "AnyEnemy",
           "keywords": [
-            "消耗"
+            "消耗",
+            "易伤",
+            "力量"
           ]
         },
         "ja": {
@@ -9075,7 +9234,9 @@
           "rarity": "アンコモン",
           "target": "AnyEnemy",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "弱体",
+            "筋力"
           ]
         }
       }
@@ -9188,7 +9349,8 @@
           "rarity": "诅咒",
           "target": "None",
           "keywords": [
-            "不能被打出"
+            "不能被打出",
+            "虚弱"
           ]
         },
         "ja": {
@@ -9199,7 +9361,8 @@
           "rarity": "呪い",
           "target": "None",
           "keywords": [
-            "プレイ不可"
+            "プレイ不可",
+            "脱力"
           ]
         }
       }
@@ -9427,7 +9590,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "戦いのドラム",
@@ -9436,7 +9601,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -9595,7 +9762,8 @@
           "rarity": "稀有",
           "target": "AllEnemies",
           "keywords": [
-            "虚无"
+            "虚无",
+            "力量"
           ]
         },
         "ja": {
@@ -9606,7 +9774,8 @@
           "rarity": "レア",
           "target": "AllEnemies",
           "keywords": [
-            "エセリアル"
+            "エセリアル",
+            "筋力"
           ]
         }
       }
@@ -9770,7 +9939,9 @@
           "type": "技能",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "亡霊の儀",
@@ -9779,7 +9950,9 @@
           "type": "スキル",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -9835,7 +10008,9 @@
           "type": "スキル",
           "rarity": "レア",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "破滅"
+          ]
         }
       }
     },
@@ -9948,7 +10123,8 @@
           "rarity": "罕见",
           "target": "AnyEnemy",
           "keywords": [
-            "虚无"
+            "虚无",
+            "力量"
           ]
         },
         "ja": {
@@ -9959,7 +10135,8 @@
           "rarity": "アンコモン",
           "target": "AnyEnemy",
           "keywords": [
-            "エセリアル"
+            "エセリアル",
+            "筋力"
           ]
         }
       }
@@ -10239,7 +10416,9 @@
           "type": "能力",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "中毒"
+          ]
         },
         "ja": {
           "name": "毒の仕込み",
@@ -10248,7 +10427,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "毒"
+          ]
         }
       }
     },
@@ -10295,7 +10476,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "保留"
+          ]
         },
         "ja": {
           "name": "均衡",
@@ -10304,7 +10487,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "保留"
+          ]
         }
       }
     },
@@ -10519,7 +10704,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "イービルアイ",
@@ -10528,7 +10715,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -10687,7 +10876,8 @@
           "rarity": "罕见",
           "target": "AnyEnemy",
           "keywords": [
-            "消耗"
+            "消耗",
+            "易伤"
           ]
         },
         "ja": {
@@ -10698,7 +10888,8 @@
           "rarity": "アンコモン",
           "target": "AnyEnemy",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "弱体"
           ]
         }
       }
@@ -10855,7 +11046,10 @@
           "type": "攻击",
           "rarity": "基础",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "易伤",
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "落星",
@@ -10864,7 +11058,10 @@
           "type": "アタック",
           "rarity": "ベーシック",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "弱体",
+            "脱力"
+          ]
         }
       }
     },
@@ -11023,7 +11220,8 @@
           "rarity": "普通",
           "target": "AnyEnemy",
           "keywords": [
-            "虚无"
+            "虚无",
+            "易伤"
           ]
         },
         "ja": {
@@ -11034,7 +11232,8 @@
           "rarity": "コモン",
           "target": "AnyEnemy",
           "keywords": [
-            "エセリアル"
+            "エセリアル",
+            "弱体"
           ]
         }
       }
@@ -11144,7 +11343,9 @@
           "type": "技能",
           "rarity": "事件",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "フードファイト",
@@ -11153,7 +11354,9 @@
           "type": "スキル",
           "rarity": "イベント",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -11198,7 +11401,9 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "無痛",
@@ -11207,7 +11412,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -11424,7 +11631,9 @@
           "type": "攻击",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "俺と戦え！",
@@ -11433,7 +11642,9 @@
           "type": "アタック",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -11696,7 +11907,9 @@
           "type": "攻击",
           "rarity": "稀有",
           "target": "RandomEnemy",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "フラックキャノン",
@@ -11705,7 +11918,9 @@
           "type": "アタック",
           "rarity": "レア",
           "target": "RandomEnemy",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -12084,7 +12299,9 @@
           "type": "攻击",
           "rarity": "普通",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "集中"
+          ]
         },
         "ja": {
           "name": "フォーカスストライク",
@@ -12093,7 +12310,9 @@
           "type": "アタック",
           "rarity": "コモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "集中力"
+          ]
         }
       }
     },
@@ -12148,10 +12367,10 @@
           "rarity": "诅咒",
           "target": "None",
           "keywords": [
-            "固有",
+            "永恒",
             "虚无",
-            "不能被打出",
-            "永恒"
+            "固有",
+            "不能被打出"
           ]
         },
         "ja": {
@@ -12162,10 +12381,10 @@
           "rarity": "呪い",
           "target": "None",
           "keywords": [
-            "天賦",
+            "永劫",
             "エセリアル",
-            "プレイ不可",
-            "永劫"
+            "天賦",
+            "プレイ不可"
           ]
         }
       }
@@ -12213,7 +12432,9 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "敏捷"
+          ]
         },
         "ja": {
           "name": "フットワーク",
@@ -12222,7 +12443,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "敏捷"
+          ]
         }
       }
     },
@@ -12501,7 +12724,9 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "フレンドシップ",
@@ -12510,7 +12735,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -12793,7 +13020,10 @@
           "type": "攻击",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "易伤",
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "ガンマブラスト",
@@ -12802,7 +13032,10 @@
           "type": "アタック",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "弱体",
+            "脱力"
+          ]
         }
       }
     },
@@ -13456,7 +13689,9 @@
           "type": "攻击",
           "rarity": "普通",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "目潰し",
@@ -13465,7 +13700,9 @@
           "type": "アタック",
           "rarity": "コモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "脱力"
+          ]
         }
       }
     },
@@ -13740,8 +13977,8 @@
           "rarity": "诅咒",
           "target": "None",
           "keywords": [
-            "不能被打出",
-            "永恒"
+            "永恒",
+            "不能被打出"
           ]
         },
         "ja": {
@@ -13752,8 +13989,8 @@
           "rarity": "呪い",
           "target": "None",
           "keywords": [
-            "プレイ不可",
-            "永劫"
+            "永劫",
+            "プレイ不可"
           ]
         }
       }
@@ -14077,7 +14314,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "奇巧"
+          ]
         },
         "ja": {
           "name": "手品",
@@ -14086,7 +14325,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "スライ"
+          ]
         }
       }
     },
@@ -14295,7 +14536,9 @@
           "type": "技能",
           "rarity": "普通",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "荒廃",
@@ -14304,7 +14547,9 @@
           "type": "スキル",
           "rarity": "コモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -14355,7 +14600,8 @@
           "rarity": "罕见",
           "target": "AllEnemies",
           "keywords": [
-            "奇巧"
+            "奇巧",
+            "中毒"
           ]
         },
         "ja": {
@@ -14366,7 +14612,8 @@
           "rarity": "アンコモン",
           "target": "AllEnemies",
           "keywords": [
-            "スライ"
+            "スライ",
+            "毒"
           ]
         }
       }
@@ -15001,7 +15248,9 @@
           "type": "攻击",
           "rarity": "罕见",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "易伤"
+          ]
         },
         "ja": {
           "name": "ハイタッチ",
@@ -15010,7 +15259,9 @@
           "type": "アタック",
           "rarity": "アンコモン",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "弱体"
+          ]
         }
       }
     },
@@ -15123,7 +15374,8 @@
           "rarity": "普通",
           "target": "Self",
           "keywords": [
-            "消耗"
+            "消耗",
+            "集中"
           ]
         },
         "ja": {
@@ -15134,7 +15386,8 @@
           "rarity": "コモン",
           "target": "Self",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "集中力"
           ]
         }
       }
@@ -15182,7 +15435,9 @@
           "type": "攻击",
           "rarity": "罕见",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "彼方からの遠吠え",
@@ -15191,7 +15446,9 @@
           "type": "アタック",
           "rarity": "アンコモン",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -15300,7 +15557,9 @@
           "type": "攻击",
           "rarity": "稀有",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "集中"
+          ]
         },
         "ja": {
           "name": "ハイパービーム",
@@ -15309,7 +15568,9 @@
           "type": "アタック",
           "rarity": "レア",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "集中力"
+          ]
         }
       }
     },
@@ -15872,7 +16133,9 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "発火",
@@ -15881,7 +16144,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -16536,7 +16801,9 @@
           "type": "技能",
           "rarity": "稀有",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "ナイフの罠",
@@ -16545,7 +16812,9 @@
           "type": "スキル",
           "rarity": "レア",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -16705,7 +16974,9 @@
           "rarity": "普通",
           "target": "AnyEnemy",
           "keywords": [
-            "消耗"
+            "消耗",
+            "易伤",
+            "虚弱"
           ]
         },
         "ja": {
@@ -16716,7 +16987,9 @@
           "rarity": "コモン",
           "target": "AnyEnemy",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "弱体",
+            "脱力"
           ]
         }
       }
@@ -16980,7 +17253,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "足払い",
@@ -16989,7 +17264,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "脱力"
+          ]
         }
       }
     },
@@ -17604,7 +17881,9 @@
           "rarity": "稀有",
           "target": "AnyEnemy",
           "keywords": [
-            "消耗"
+            "消耗",
+            "虚弱",
+            "力量"
           ]
         },
         "ja": {
@@ -17615,7 +17894,9 @@
           "rarity": "レア",
           "target": "AnyEnemy",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "脱力",
+            "筋力"
           ]
         }
       }
@@ -17663,7 +17944,9 @@
           "type": "攻击",
           "rarity": "稀有",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "切り刻み",
@@ -17672,7 +17955,9 @@
           "type": "アタック",
           "rarity": "レア",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -17773,7 +18058,9 @@
           "type": "能力",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "奇巧"
+          ]
         },
         "ja": {
           "name": "完璧な段取り",
@@ -17782,7 +18069,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "スライ"
+          ]
         }
       }
     },
@@ -18170,7 +18459,10 @@
           "type": "攻击",
           "rarity": "先古",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "易伤",
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "流星群",
@@ -18179,7 +18471,10 @@
           "type": "アタック",
           "rarity": "エンシェント",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "弱体",
+            "脱力"
+          ]
         }
       }
     },
@@ -18632,7 +18927,8 @@
           "rarity": "罕见",
           "target": "Self",
           "keywords": [
-            "消耗"
+            "消耗",
+            "中毒"
           ]
         },
         "ja": {
@@ -18643,7 +18939,8 @@
           "rarity": "アンコモン",
           "target": "Self",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "毒"
           ]
         }
       }
@@ -18803,7 +19100,8 @@
           "rarity": "普通",
           "target": "AnyEnemy",
           "keywords": [
-            "消耗"
+            "消耗",
+            "易伤"
           ]
         },
         "ja": {
@@ -18814,7 +19112,8 @@
           "rarity": "コモン",
           "target": "AnyEnemy",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "弱体"
           ]
         }
       }
@@ -18916,7 +19215,9 @@
           "type": "能力",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "君主の睨み",
@@ -18925,7 +19226,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -18972,7 +19275,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "モノローグ",
@@ -18981,7 +19286,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -19199,7 +19506,9 @@
           "type": "スキル",
           "rarity": "コモン",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "破滅"
+          ]
         }
       }
     },
@@ -19317,7 +19626,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "破滅"
+          ]
         }
       }
     },
@@ -19364,7 +19675,9 @@
           "type": "攻击",
           "rarity": "基础",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "無力化",
@@ -19373,7 +19686,9 @@
           "type": "アタック",
           "rarity": "ベーシック",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "脱力"
+          ]
         }
       }
     },
@@ -19545,7 +19860,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "破滅"
+          ]
         }
       }
     },
@@ -19768,7 +20085,9 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "中毒"
+          ]
         },
         "ja": {
           "name": "有毒ガス",
@@ -19777,7 +20096,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "毒"
+          ]
         }
       }
     },
@@ -19824,7 +20145,9 @@
           "type": "攻击",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "ヌル",
@@ -19833,7 +20156,9 @@
           "type": "アタック",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "脱力"
+          ]
         }
       }
     },
@@ -19889,7 +20214,9 @@
           "type": "スキル",
           "rarity": "レア",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "破滅"
+          ]
         }
       }
     },
@@ -20160,7 +20487,9 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "中毒"
+          ]
         },
         "ja": {
           "name": "感染爆発",
@@ -20169,7 +20498,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "毒"
+          ]
         }
       }
     },
@@ -20324,7 +20655,9 @@
           "type": "攻击",
           "rarity": "稀有",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "契約の終わり",
@@ -20333,7 +20666,9 @@
           "type": "アタック",
           "rarity": "レア",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -20380,7 +20715,9 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "虚无"
+          ]
         },
         "ja": {
           "name": "紙の嵐",
@@ -20389,7 +20726,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "エセリアル"
+          ]
         }
       }
     },
@@ -20938,7 +21277,9 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "保留"
+          ]
         },
         "ja": {
           "name": "ファントムブレード",
@@ -20947,7 +21288,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "保留"
+          ]
         }
       }
     },
@@ -21052,7 +21395,8 @@
           "rarity": "普通",
           "target": "AllEnemies",
           "keywords": [
-            "消耗"
+            "消耗",
+            "力量"
           ]
         },
         "ja": {
@@ -21063,7 +21407,8 @@
           "rarity": "コモン",
           "target": "AllEnemies",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "筋力"
           ]
         }
       }
@@ -21273,7 +21618,9 @@
           "type": "攻击",
           "rarity": "普通",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "中毒"
+          ]
         },
         "ja": {
           "name": "毒の一刺し",
@@ -21282,7 +21629,9 @@
           "type": "アタック",
           "rarity": "コモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "毒"
+          ]
         }
       }
     },
@@ -22059,7 +22408,10 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "力量",
+            "敏捷"
+          ]
         },
         "ja": {
           "name": "武勇",
@@ -22068,7 +22420,10 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "筋力",
+            "敏捷"
+          ]
         }
       }
     },
@@ -22169,7 +22524,9 @@
           "type": "攻击",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "虚无"
+          ]
         },
         "ja": {
           "name": "地底からの引き寄せ",
@@ -22178,7 +22535,9 @@
           "type": "アタック",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "エセリアル"
+          ]
         }
       }
     },
@@ -22296,7 +22655,9 @@
           "rarity": "罕见",
           "target": "AnyEnemy",
           "keywords": [
-            "消耗"
+            "消耗",
+            "易伤",
+            "虚弱"
           ]
         },
         "ja": {
@@ -22307,7 +22668,9 @@
           "rarity": "アンコモン",
           "target": "AnyEnemy",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "弱体",
+            "脱力"
           ]
         }
       }
@@ -22982,7 +23345,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "破滅"
+          ]
         }
       }
     },
@@ -23599,7 +23964,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "共鳴",
@@ -23608,7 +23975,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -24111,7 +24480,9 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "血の沸騰",
@@ -24120,7 +24491,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -24229,7 +24602,9 @@
           "type": "攻击",
           "rarity": "稀有",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "保留"
+          ]
         },
         "ja": {
           "name": "一斉射撃",
@@ -24238,7 +24613,9 @@
           "type": "アタック",
           "rarity": "レア",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "保留"
+          ]
         }
       }
     },
@@ -24289,7 +24666,8 @@
           "rarity": "罕见",
           "target": "AllEnemies",
           "keywords": [
-            "消耗"
+            "消耗",
+            "虚弱"
           ]
         },
         "ja": {
@@ -24300,7 +24678,8 @@
           "rarity": "アンコモン",
           "target": "AllEnemies",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "脱力"
           ]
         }
       }
@@ -24348,7 +24727,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "廃品回収",
@@ -24357,7 +24738,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -24413,7 +24796,9 @@
           "type": "スキル",
           "rarity": "コモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "破滅"
+          ]
         }
       }
     },
@@ -24576,7 +24961,9 @@
           "type": "攻击",
           "rarity": "普通",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "虚无"
+          ]
         },
         "ja": {
           "name": "彫刻のストライク",
@@ -24585,7 +24972,9 @@
           "type": "アタック",
           "rarity": "コモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "エセリアル"
+          ]
         }
       }
     },
@@ -24694,7 +25083,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "セカンドウィンド",
@@ -24703,7 +25094,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -25090,7 +25483,9 @@
           "type": "攻击",
           "rarity": "普通",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "力量"
+          ]
         },
         "ja": {
           "name": "セットアップストライク",
@@ -25099,7 +25494,9 @@
           "type": "アタック",
           "rarity": "コモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "筋力"
+          ]
         }
       }
     },
@@ -25419,7 +25816,8 @@
           "rarity": "诅咒",
           "target": "None",
           "keywords": [
-            "不能被打出"
+            "不能被打出",
+            "脆弱"
           ]
         },
         "ja": {
@@ -25430,7 +25828,8 @@
           "rarity": "呪い",
           "target": "None",
           "keywords": [
-            "プレイ不可"
+            "プレイ不可",
+            "脆弱"
           ]
         }
       }
@@ -25482,7 +25881,8 @@
           "rarity": "稀有",
           "target": "AnyEnemy",
           "keywords": [
-            "消耗"
+            "消耗",
+            "力量"
           ]
         },
         "ja": {
@@ -25493,7 +25893,8 @@
           "rarity": "レア",
           "target": "AnyEnemy",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "筋力"
           ]
         }
       }
@@ -25713,7 +26114,9 @@
           "rarity": "罕见",
           "target": "AllEnemies",
           "keywords": [
-            "消耗"
+            "消耗",
+            "易伤",
+            "虚弱"
           ]
         },
         "ja": {
@@ -25724,7 +26127,9 @@
           "rarity": "アンコモン",
           "target": "AllEnemies",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "弱体",
+            "脱力"
           ]
         }
       }
@@ -25781,7 +26186,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "破滅"
+          ]
         }
       }
     },
@@ -26383,7 +26790,8 @@
           "rarity": "普通",
           "target": "AnyEnemy",
           "keywords": [
-            "保留"
+            "保留",
+            "中毒"
           ]
         },
         "ja": {
@@ -26394,7 +26802,8 @@
           "rarity": "コモン",
           "target": "AnyEnemy",
           "keywords": [
-            "保留"
+            "保留",
+            "毒"
           ]
         }
       }
@@ -26442,7 +26851,9 @@
           "type": "攻击",
           "rarity": "普通",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "保留"
+          ]
         },
         "ja": {
           "name": "パチン",
@@ -26451,7 +26862,9 @@
           "type": "アタック",
           "rarity": "コモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "保留"
+          ]
         }
       }
     },
@@ -26731,7 +27144,9 @@
           "type": "攻击",
           "rarity": "稀有",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "ソウルストーム",
@@ -26740,7 +27155,9 @@
           "type": "アタック",
           "rarity": "レア",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -27070,7 +27487,9 @@
           "type": "能力",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "虚无"
+          ]
         },
         "ja": {
           "name": "灰の精霊",
@@ -27079,7 +27498,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "エセリアル"
+          ]
         }
       }
     },
@@ -27466,7 +27887,9 @@
           "type": "攻击",
           "rarity": "事件",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "易伤"
+          ]
         },
         "ja": {
           "name": "踏み潰し",
@@ -27475,7 +27898,9 @@
           "type": "アタック",
           "rarity": "イベント",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "弱体"
+          ]
         }
       }
     },
@@ -27738,7 +28163,9 @@
           "type": "技能",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "焚きつけ",
@@ -27747,7 +28174,9 @@
           "type": "スキル",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -28442,7 +28871,9 @@
           "type": "攻击",
           "rarity": "普通",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "不意打ち",
@@ -28451,7 +28882,9 @@
           "type": "アタック",
           "rarity": "コモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "脱力"
+          ]
         }
       }
     },
@@ -28726,7 +29159,8 @@
           "rarity": "先古",
           "target": "AnyEnemy",
           "keywords": [
-            "固有"
+            "固有",
+            "虚弱"
           ]
         },
         "ja": {
@@ -28737,7 +29171,8 @@
           "rarity": "エンシェント",
           "target": "AnyEnemy",
           "keywords": [
-            "天賦"
+            "天賦",
+            "脱力"
           ]
         }
       }
@@ -28895,8 +29330,8 @@
           "rarity": "衍生",
           "target": "RandomEnemy",
           "keywords": [
-            "消耗",
-            "虚无"
+            "虚无",
+            "消耗"
           ]
         },
         "ja": {
@@ -28907,8 +29342,8 @@
           "rarity": "トークン",
           "target": "RandomEnemy",
           "keywords": [
-            "廃棄",
-            "エセリアル"
+            "エセリアル",
+            "廃棄"
           ]
         }
       }
@@ -29068,7 +29503,8 @@
           "rarity": "罕见",
           "target": "Self",
           "keywords": [
-            "消耗"
+            "消耗",
+            "集中"
           ]
         },
         "ja": {
@@ -29079,7 +29515,8 @@
           "rarity": "アンコモン",
           "target": "Self",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "集中力"
           ]
         }
       }
@@ -29405,7 +29842,9 @@
           "type": "技能",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "易伤"
+          ]
         },
         "ja": {
           "name": "挑発",
@@ -29414,7 +29853,9 @@
           "type": "スキル",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "弱体"
+          ]
         }
       }
     },
@@ -30079,7 +30520,9 @@
           "type": "攻击",
           "rarity": "稀有",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "滅多打ち",
@@ -30088,7 +30531,9 @@
           "type": "アタック",
           "rarity": "レア",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -30243,7 +30688,9 @@
           "type": "攻击",
           "rarity": "普通",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "易伤"
+          ]
         },
         "ja": {
           "name": "サンダークラップ",
@@ -30252,7 +30699,9 @@
           "type": "アタック",
           "rarity": "コモン",
           "target": "AllEnemies",
-          "keywords": []
+          "keywords": [
+            "弱体"
+          ]
         }
       }
     },
@@ -30314,7 +30763,8 @@
           "rarity": "レア",
           "target": "AnyEnemy",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "破滅"
           ]
         }
       }
@@ -30532,7 +30982,9 @@
           "type": "能力",
           "rarity": "稀有",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "追跡",
@@ -30541,7 +30993,9 @@
           "type": "パワー",
           "rarity": "レア",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "脱力"
+          ]
         }
       }
     },
@@ -30708,7 +31162,8 @@
           "rarity": "普通",
           "target": "AnyEnemy",
           "keywords": [
-            "消耗"
+            "消耗",
+            "易伤"
           ]
         },
         "ja": {
@@ -30719,7 +31174,8 @@
           "rarity": "コモン",
           "target": "AnyEnemy",
           "keywords": [
-            "廃棄"
+            "廃棄",
+            "弱体"
           ]
         }
       }
@@ -30767,7 +31223,9 @@
           "type": "技能",
           "rarity": "普通",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "消耗"
+          ]
         },
         "ja": {
           "name": "不屈の闘志",
@@ -30776,7 +31234,9 @@
           "type": "スキル",
           "rarity": "コモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "廃棄"
+          ]
         }
       }
     },
@@ -31380,7 +31840,10 @@
           "type": "攻击",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "易伤",
+            "虚弱"
+          ]
         },
         "ja": {
           "name": "アッパーカット",
@@ -31389,7 +31852,10 @@
           "type": "アタック",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "弱体",
+            "脱力"
+          ]
         }
       }
     },
@@ -31490,7 +31956,9 @@
           "type": "攻击",
           "rarity": "罕见",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "虚无"
+          ]
         },
         "ja": {
           "name": "ベールピアサー",
@@ -31499,7 +31967,9 @@
           "type": "アタック",
           "rarity": "アンコモン",
           "target": "AnyEnemy",
-          "keywords": []
+          "keywords": [
+            "エセリアル"
+          ]
         }
       }
     },
@@ -31600,7 +32070,9 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "易伤"
+          ]
         },
         "ja": {
           "name": "残忍",
@@ -31609,7 +32081,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "弱体"
+          ]
         }
       }
     },
@@ -31948,7 +32422,9 @@
           "type": "能力",
           "rarity": "罕见",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "保留"
+          ]
         },
         "ja": {
           "name": "用意周到",
@@ -31957,7 +32433,9 @@
           "type": "パワー",
           "rarity": "アンコモン",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "保留"
+          ]
         }
       }
     },
@@ -32426,7 +32904,9 @@
           "type": "能力",
           "rarity": "先古",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "敏捷"
+          ]
         },
         "ja": {
           "name": "死霊化",
@@ -32435,7 +32915,9 @@
           "type": "パワー",
           "rarity": "エンシェント",
           "target": "Self",
-          "keywords": []
+          "keywords": [
+            "敏捷"
+          ]
         }
       }
     },

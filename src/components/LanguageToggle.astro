@@ -1,5 +1,5 @@
 ---
-import { languages, localeFromPath, localizedPath, type Lang } from '../data/i18n';
+import { hasLocalizedCounterpart, languages, localeFromPath, localizedPath, type Lang } from '../data/i18n';
 
 interface Props {
   locale?: Lang;
@@ -9,20 +9,15 @@ interface Props {
 const { pathname = Astro.url.pathname } = Astro.props;
 const locale = Astro.props.locale ?? localeFromPath(pathname);
 const current = languages.find((language) => language.code === locale) ?? languages[0];
-const hasLocalizedCounterpart =
-  pathname === '/' ||
-  pathname.startsWith('/docs/') ||
-  pathname === '/docs/' ||
-  pathname.startsWith('/zhs/') ||
-  pathname.startsWith('/jpn/');
+const hasCounterpart = hasLocalizedCounterpart(pathname);
 
 function hrefFor(code: Lang): string {
-  if (hasLocalizedCounterpart) return localizedPath(pathname, code);
+  if (hasCounterpart) return localizedPath(pathname, code);
   return code === 'en' ? pathname : `/${code}/docs/`;
 }
 ---
 
-<details class="language-toggle">
+<details class="language-toggle" data-current-locale={locale} data-has-counterpart={hasCounterpart ? 'true' : 'false'}>
   <summary aria-label="Select language">
     <img src="/images/language_selector_nobbg.png" alt="" loading="lazy" decoding="async" />
     <span>{current.shortLabel}</span>
@@ -42,11 +37,48 @@ function hrefFor(code: Lang): string {
 </details>
 
 <script is:inline>
-  document.addEventListener('click', function (event) {
-    var link = event.target && event.target.closest && event.target.closest('.language-toggle__menu a[data-lang]');
-    if (!link) return;
-    try {
-      localStorage.setItem('preferredLanguage', link.dataset.lang);
-    } catch (_) {}
-  });
+  (function () {
+    var key = 'preferredLanguage';
+    var valid = { en: true, zhs: true, jpn: true };
+
+    function preferredLanguage() {
+      try {
+        var stored = localStorage.getItem(key);
+        return valid[stored] ? stored : '';
+      } catch (_) {
+        return '';
+      }
+    }
+
+    function redirectToPreferred() {
+      var toggle = document.querySelector('.language-toggle');
+      if (!toggle || toggle.dataset.hasCounterpart !== 'true') return;
+      var preferred = preferredLanguage();
+      if (!preferred || preferred === toggle.dataset.currentLocale) return;
+      var link = toggle.querySelector('.language-toggle__menu a[data-lang="' + preferred + '"]');
+      if (!link) return;
+      var target = new URL(link.href, window.location.href);
+      target.search = window.location.search;
+      target.hash = window.location.hash;
+      if (target.href !== window.location.href) window.location.assign(target.href);
+    }
+
+    document.addEventListener('click', function (event) {
+      var link = event.target && event.target.closest && event.target.closest('.language-toggle__menu a[data-lang]');
+      if (!link) return;
+      try {
+        localStorage.setItem(key, link.dataset.lang);
+      } catch (_) {}
+    });
+
+    window.addEventListener('storage', function (event) {
+      if (event.key === key) redirectToPreferred();
+    });
+
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'visible') redirectToPreferred();
+    });
+
+    redirectToPreferred();
+  })();
 </script>

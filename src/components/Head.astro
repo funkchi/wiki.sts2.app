@@ -1,6 +1,6 @@
 ---
 import Analytics from './Analytics.astro';
-import { languages, localizedPath } from '../data/i18n';
+import { languages, localeFromPath, localizedPath, siteTitleFor } from '../data/i18n';
 import { cardBySlug } from '../data/cards';
 import { relicBySlug } from '../data/relics';
 import { enemyBySlug } from '../data/enemies';
@@ -8,8 +8,12 @@ import { characterBySlug } from '../data/characters';
 
 const SITE = 'https://wiki.sts2.app';
 const DEFAULT_OG = `${SITE}/images/hero.png`;
-const { head } = Astro.locals.starlightRoute as any;
+const route = Astro.locals.starlightRoute as any;
+const { head } = route;
 const pathname = Astro.url.pathname;
+const locale = localeFromPath(pathname);
+const siteTitle = siteTitleFor(locale);
+const pageTitle = route.entry?.data?.title;
 
 type Kind = 'cards' | 'relics' | 'enemies' | 'characters';
 function resolveEntity(path: string): { kind: Kind; name: string; image?: string } | null {
@@ -27,8 +31,12 @@ const ogImage = entity?.image
   ? entity.image.startsWith('http') ? entity.image : `${SITE}${entity.image}`
   : DEFAULT_OG;
 
-// Drop Starlight's own twitter:card so we can force summary_large_image with an image.
-const filteredHead = head.filter((h: any) => h.attrs?.name !== 'twitter:card');
+// Drop Starlight tags that we replace with localized or image-aware variants.
+const filteredHead = head.filter((h: any) =>
+  h.tag !== 'title' &&
+  h.attrs?.name !== 'twitter:card' &&
+  h.attrs?.property !== 'og:site_name'
+);
 
 const base = Astro.site ?? new URL(SITE);
 const alternateUrls = languages.map((language) => ({
@@ -58,6 +66,7 @@ const ldJson = breadcrumbJson();
 ---
 
 {filteredHead.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
+{pageTitle && <title>{`${pageTitle} | ${siteTitle}`}</title>}
 {isLocalizedPath && (
   <>
     {alternateUrls.map(({ language, url }) => (
@@ -73,6 +82,6 @@ const ldJson = breadcrumbJson();
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:image" content={ogImage} />
 <meta property="og:image" content={ogImage} />
-<meta property="og:site_name" content="Slay the Spire 2 Wiki" />
+<meta property="og:site_name" content={siteTitle} />
 {ldJson && <script type="application/ld+json" set:html={ldJson} />}
 <Analytics />

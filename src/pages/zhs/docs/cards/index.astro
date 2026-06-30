@@ -2,14 +2,14 @@
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import EntityBrowser from '../../../../components/EntityBrowser.svelte';
 import { cards } from '../../../../data/cards';
+import { localizedCharacterLabel } from '../../../../data/i18n';
 
 const rows = cards.map((c) => {
   const zh = c.translations?.zhHans;
   return {
     slug: c.slug,
     name: zh?.name || c.name,
-    englishName: c.name,
-    character: c.character,
+    character: localizedCharacterLabel('zhs', c.character),
     cost: c.cost,
     costRaw: c.costRaw,
     type: zh?.type || c.type,
@@ -31,7 +31,6 @@ const rows = cards.map((c) => {
     noun="张卡牌"
     nameLabel="卡牌"
     columns={[
-      { field: 'englishName', label: '英文', width: '16rem' },
       { field: 'character', label: '角色', width: '13rem' },
       { field: 'cost', label: '费用', format: 'cardCost', width: '7rem' },
       { field: 'type', label: '类型', width: '9rem' },

@@ -1,5 +1,5 @@
 ---
-import { translationKey, type Lang } from '../data/i18n';
+import { localizedCharacterLabel, translationKey, type Lang } from '../data/i18n';
 
 interface CostRaw {
   cost: number | null;
@@ -93,7 +93,7 @@ const upgHtml = display.upgradeDescription
   : '';
 
 const rows: Array<[string, string]> = [
-  [labels.pool, card.character],
+  [labels.pool, localizedCharacterLabel(locale, card.character)],
   [labels.type, display.type],
   [labels.rarity, display.rarity],
   [labels.target, display.target],

@@ -18,6 +18,8 @@ export default defineConfig({
       components: {
         Head: './src/components/Head.astro',
         LanguageSelect: './src/components/LanguageToggle.astro',
+        Sidebar: './src/components/Sidebar.astro',
+        SiteTitle: './src/components/SiteTitle.astro',
       },
       sidebar: [
         { label: 'Cards', link: '/docs/cards/' },
