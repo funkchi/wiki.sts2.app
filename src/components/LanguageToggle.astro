@@ -4,10 +4,12 @@ import { hasLocalizedCounterpart, languages, localeFromPath, localizedPath, type
 interface Props {
   locale?: Lang;
   pathname?: string;
+  autoDetect?: boolean;
 }
 
 const { pathname = Astro.url.pathname } = Astro.props;
 const locale = Astro.props.locale ?? localeFromPath(pathname);
+const autoDetect = Astro.props.autoDetect ?? false;
 const current = languages.find((language) => language.code === locale) ?? languages[0];
 const hasCounterpart = hasLocalizedCounterpart(pathname);
 
@@ -17,7 +19,12 @@ function hrefFor(code: Lang): string {
 }
 ---
 
-<details class="language-toggle" data-current-locale={locale} data-has-counterpart={hasCounterpart ? 'true' : 'false'}>
+<details
+  class="language-toggle"
+  data-current-locale={locale}
+  data-has-counterpart={hasCounterpart ? 'true' : 'false'}
+  data-auto-detect={autoDetect ? 'true' : 'false'}
+>
   <summary aria-label="Select language">
     <img src="/images/language_selector_nobbg.png" alt="" loading="lazy" decoding="async" />
     <span>{current.shortLabel}</span>
@@ -50,10 +57,28 @@ function hrefFor(code: Lang): string {
       }
     }
 
+    function browserLanguage() {
+      var languages = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+      for (var i = 0; i < languages.length; i += 1) {
+        var language = String(languages[i] || '').toLowerCase();
+        if (language.indexOf('zh') === 0) return 'zhs';
+        if (language.indexOf('ja') === 0) return 'jpn';
+        if (language.indexOf('en') === 0) return 'en';
+      }
+      return '';
+    }
+
+    function selectedLanguage(toggle) {
+      var preferred = preferredLanguage();
+      if (preferred) return preferred;
+      if (toggle.dataset.autoDetect === 'true' && toggle.dataset.currentLocale === 'en') return browserLanguage();
+      return '';
+    }
+
     function redirectToPreferred() {
       var toggle = document.querySelector('.language-toggle');
       if (!toggle || toggle.dataset.hasCounterpart !== 'true') return;
-      var preferred = preferredLanguage();
+      var preferred = selectedLanguage(toggle);
       if (!preferred || preferred === toggle.dataset.currentLocale) return;
       var link = toggle.querySelector('.language-toggle__menu a[data-lang="' + preferred + '"]');
       if (!link) return;
