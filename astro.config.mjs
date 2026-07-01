@@ -7,7 +7,7 @@ import { defineConfig } from 'astro/config';
 // Editorial pages live in Starlight's content collection; entity pages are
 // data-driven custom routes under /docs/cards/ wrapped in <StarlightPage>.
 export default defineConfig({
-  site: 'https://wiki.sts2.app',
+  site: 'https://sts2.app',
   output: 'static',
   trailingSlash: 'always',
   integrations: [
@@ -39,7 +39,7 @@ export default defineConfig({
     svelte(),
     sitemap({
       serialize(item) {
-        const SITE = 'https://wiki.sts2.app';
+        const SITE = 'https://sts2.app';
         const path = item.url.startsWith(SITE) ? item.url.slice(SITE.length) : new URL(item.url).pathname;
         const localeMatch = path.match(/^\/(zhs|jpn)(?=\/|$)/);
         const enPath = localeMatch ? path.replace(/^\/(zhs|jpn)/, '') || '/' : path;
