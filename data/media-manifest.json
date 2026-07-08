@@ -3,1553 +3,1548 @@
   "items": {
     "cards/abrasive.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/abrasive.webp",
-      "sha256": "1bbc67a5c641eee1240f32e9bab1b605e51937d54df4205bfedeb1134757c475",
-      "size": 33832
+      "sha256": "3764bc2af86ff51bb610db72db68d97e0d735ea7ef582eb8f5a5b06fee2f9a88",
+      "size": 35200
     },
     "cards/accelerant.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/accelerant.webp",
-      "sha256": "1a96e0f583db78f5a82696042473bc68730202a7e7143d008cba6a102f79bd7e",
-      "size": 35250
+      "sha256": "a4bf393ef0a6f1354f88d0ec5812b9e44b6153d0329586478d735d32023c6b65",
+      "size": 32046
     },
     "cards/accuracy.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/accuracy.webp",
-      "sha256": "2b166316c28f48dcc84c39290a08231f21a55f97abe5a78812a65b417fdf2021",
-      "size": 33782
+      "sha256": "fa4466d8087f6e49cef998e8202aac50951e8e5727c8a1bcbac6a8927df7ecef",
+      "size": 31162
     },
     "cards/acrobatics.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/acrobatics.webp",
-      "sha256": "0b2397c9fd25af3f5ca284a3917ccbd0d86e3d5ebd93a9e4d8beb31c5f1e2621",
-      "size": 33538
+      "sha256": "aad28ed46b2536e71ddcb33e588c708884bab370dc425094fb47b72b4f0238f6",
+      "size": 30712
     },
     "cards/adaptive-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/adaptive_strike.webp",
-      "sha256": "8de726dd3eb1c535fa0c3b8f3b73b7c03187e14158d86311d528358697e7d293",
-      "size": 40274
+      "sha256": "297b7eec860ac0368a8eb573155dc270d925c5eee7ebecd23462109e58a70dbc",
+      "size": 37454
     },
     "cards/adrenaline.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/adrenaline.webp",
-      "sha256": "b222249337f4b071d89511afd499edf51381297a82a86c94df0c7ecd170827f9",
-      "size": 30510
+      "sha256": "3d328324b2bcfa4c0387514a12e7bb09ac670c9182e463c5f1eef0ac686a487e",
+      "size": 27738
     },
     "cards/afterimage.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/afterimage.webp",
-      "sha256": "03aef6230a8abc39ac10a9309850677c38a7cf642d22052a18a1d040d4882ae9",
-      "size": 39784
+      "sha256": "020414ac176b2c3cf839de7e707ec1cd97f7144c16fd5cd21ce225945d11b721",
+      "size": 37150
     },
     "cards/afterlife.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/afterlife.webp",
-      "sha256": "a5220d1b68eae8e7e724dad759ea54759768d7c11015b25b73dc0be93b7c8d9d",
-      "size": 29400
+      "sha256": "a9528701d6d7b55aa33889a3c3788acec870854e2424854495614600500113f9",
+      "size": 28076
     },
     "cards/aggression.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/aggression.webp",
-      "sha256": "bda23d806e59bc2b9c19ff9b6308b1013d267d7dc36d730ec11ec79fb88d893c",
-      "size": 40380
+      "sha256": "f858381f5781e3b96041c474a1c3d098404f2e97b6738c08e9411a9f46c4a8e9",
+      "size": 37688
     },
     "cards/alchemize.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/alchemize.webp",
-      "sha256": "de3aa2b304b350226cee7e2773ba1a608e22b3b3d1d7e95592f25f148ad662a9",
-      "size": 36168
+      "sha256": "70ffa6a19d80b9ab703ac0e87827fb337d1174ffa9c1a4d23d893750a97c0e72",
+      "size": 32944
     },
     "cards/alignment.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/alignment.webp",
-      "sha256": "8eddeb3a91b9a72296891e840aeed30bcfacb291999014053020d50963150dfa",
-      "size": 30948
+      "sha256": "0abe43f9712bfaa4544c764e9039fcb55e0637b5d02a2321509e706fb3bafce7",
+      "size": 28958
     },
     "cards/all-for-one.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/all_for_one.webp",
-      "sha256": "f8c8c7b6e901ce63019c9659129b30465a83b320d75ddeb4a848791215c5652d",
-      "size": 37954
+      "sha256": "f44eff3a1f521c5deb23a852aafe8d25213faea4955105fd78865f02e9640310",
+      "size": 34974
     },
     "cards/anger.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/anger.webp",
-      "sha256": "974fdb0be54268b1fdf7ade5b429442cb7b2374337c886b0778c8495e4785bcb",
-      "size": 35166
+      "sha256": "b887cf842ab0c71e0df0eef881b29eedfac169fcc9e3178c2988410065a197e9",
+      "size": 32380
     },
     "cards/anointed.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/anointed.webp",
-      "sha256": "551d28bc21f0eb04a5baad059370e29fb180e96eedc026600bba01ad0f6874c9",
-      "size": 35544
+      "sha256": "f2ba6d49e424fddf624b8da6c379a2f30a07e1a2fe9291a8a0767b3f1583f8d4",
+      "size": 32398
     },
     "cards/anticipate.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/anticipate.webp",
-      "sha256": "bebfefcffbe9afdfb94d0d5fdb5838eb28c1f3409754fdcc07110d8fa4458166",
-      "size": 32642
+      "sha256": "4613a8406075d35a5d3a07e218faa19c35c6edd415d4923bbf2de3532cbaad09",
+      "size": 29642
     },
     "cards/apotheosis.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/apotheosis.webp",
-      "sha256": "ac61fe72213ecf996ccb8c7355dac35f13f05d10f82f037389af8eff5432dc72",
-      "size": 48046
+      "sha256": "211731f970bff3d202427124305a8807c0f75715eac9e6b33461c1bdf8c2c1ce",
+      "size": 43074
     },
     "cards/apparition.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/apparition.webp",
-      "sha256": "14a07d867ec000bda27fadd31de97f5118d24eb0532afb8199619be3da50f917",
-      "size": 47092
+      "sha256": "04a12c6f159bfc897a2c1310bc765ef899819190f37fa90f16ab0b3a9776aa44",
+      "size": 44408
     },
     "cards/armaments.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/armaments.webp",
-      "sha256": "0fc864b7c796daded475b48131a40c24488461d977180346fe0d66d2c40904be",
-      "size": 32440
+      "sha256": "2ff8ded9483bb3f7ccbafc1fcc7be25c2c54beba8b85afb84cbee9bd9c2df3cc",
+      "size": 29958
     },
     "cards/arsenal.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/arsenal.webp",
-      "sha256": "137a7bce11d52419315a918445dbfeae9a0311ca112d56f5f4c1ca0c8d42cb5f",
-      "size": 39498
+      "sha256": "4056f454f377f0336e385148a19aaa4109eecd4161e8835c6c2ebce30456b706",
+      "size": 38084
     },
     "cards/ascenders-bane.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/ascenders_bane.webp",
-      "sha256": "d0c087100c6166635020b9f9b6285e4b6efb9854d501af647d1a5d47dd698b33",
-      "size": 31564
+      "sha256": "dd7c81dfe53832227a6833dd617b90875f1f9d55ba077df6bc5aae5a6d9d2948",
+      "size": 28448
     },
     "cards/ashen-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/ashen_strike.webp",
-      "sha256": "2517d7c9a602995d71157f670638933977be7588cfb7eaeb2a0dc42c2905783e",
-      "size": 40844
+      "sha256": "9def96cbfc05292107f208244b7ff0914821c3f07c197453f517005ef626f736",
+      "size": 38102
     },
     "cards/assassinate.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/assassinate.webp",
-      "sha256": "aac6abc87fa189bcd6f079197b1db1445f136f8173daaa86429b247ef8a308d8",
-      "size": 40140
+      "sha256": "a9344f1846c0b1e7d6769d26ed38b72f59632051d70fbdd86f141024bcf921da",
+      "size": 37072
     },
     "cards/astral-pulse.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/astral_pulse.webp",
-      "sha256": "bee50ec7de3a6e2c3f03ae14e88ac33ef45900cba22d796ef930c6e0ee843451",
-      "size": 35266
+      "sha256": "b08cc035e52074cc601f070221048b5237a454b6ec48ec75f28d66f587dff23d",
+      "size": 33856
     },
     "cards/automation.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/automation.webp",
-      "sha256": "98853a187a3f65c8b4c2b333ac68c4cd3a3e7de64bc74585df0e8a514afc0d20",
-      "size": 36582
+      "sha256": "ee067a95d0b1314495b32da0b84be72761ad7fa0eddf2f275a20db89059ce865",
+      "size": 33422
     },
     "cards/backflip.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/backflip.webp",
-      "sha256": "6647972d6122f444a0816e24e4cd3baca1423a74c60d50befae585fdab795370",
-      "size": 33116
+      "sha256": "00c862926556cbe05ac242412e4dce35ed9f955614301b96a3948f2a7c507dd0",
+      "size": 29992
     },
     "cards/backstab.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/backstab.webp",
-      "sha256": "e51da034f31ac31a2a07f05771a3c4a5f8826d2cbff0be53e1ba1d010093e833",
-      "size": 31768
+      "sha256": "5c9ee411d72ad289a2704e134525ab5eadf13110f97b4f045724285e0543eca2",
+      "size": 29162
     },
     "cards/bad-luck.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bad_luck.webp",
-      "sha256": "c5c438d5df848ee30feef054f1af80a1e77aefe3ca9c86178921b998110ecb87",
-      "size": 39396
+      "sha256": "c2d612f322886a587401d457bc39f8b75a8b8785002783126796b3cf19c730d8",
+      "size": 35156
     },
     "cards/ball-lightning.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/ball_lightning.webp",
-      "sha256": "a1a4afcb48c7def15aef6d3637d4c880b1eda868b20f4e834a3a3967b891b2d4",
-      "size": 34860
+      "sha256": "7073e2cdc88413eac177830c9ad47cbd300b84427b875baa6d38bc879c2d3777",
+      "size": 31810
     },
     "cards/banshees-cry.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/banshees_cry.webp",
-      "sha256": "3a2d59fdad684950e804bacaf6e3fe2b03e0a68a0135c1c9d088e6886448a16a",
-      "size": 44244
+      "sha256": "39a7eeb635d3e491d8806fc81849f0571d2432906bd472afcdd7a3f56d46b9e7",
+      "size": 42420
     },
     "cards/barrage.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/barrage.webp",
-      "sha256": "ae7338ae40c4bf99d87a7a6c0add2992fe2210839c80ca2e107af720d867be8c",
-      "size": 34564
+      "sha256": "55cf9dceb4aa72a1b6886f7eeebbc22560345ad45d6424dd58d082d22ec65e5c",
+      "size": 32126
     },
     "cards/barricade.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/barricade.webp",
-      "sha256": "74d1fe9ff75abc987c313e776235497a89b3586ea21f519ebd2701ef376deb6f",
-      "size": 34694
+      "sha256": "2485b1a49b330d011b59dbb1bc0d92bee355862df1a89299d125b6a7febfa9b0",
+      "size": 31660
     },
     "cards/bash.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bash.webp",
-      "sha256": "7e230a01c839486525f709050661859781b6e4f445217afb7874993639de32f6",
-      "size": 31870
+      "sha256": "4cff502bb952dc0cf33673cfcc6bba29eafe8ba3b2f6a1550f0e2ebf28702c99",
+      "size": 29398
     },
     "cards/battle-trance.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/battle_trance.webp",
-      "sha256": "a3078bf40354e8a392a4797ecc3853b52f6806a9e5c5ec52540f64e18e30fc8a",
-      "size": 36816
+      "sha256": "ab353116d9e4573c0d89d4176628f8f57544758d7c54b0060e5a45c90521e67a",
+      "size": 33626
     },
     "cards/beacon-of-hope.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/beacon_of_hope.webp",
-      "sha256": "8e8ca16564fc454ed7748241732d4a69018e78d681876b176a62c1d66a13bb81",
-      "size": 41214
+      "sha256": "809e38d620b118c3712bc3551fe1fd8136fb574fc03ccb7b534a796c7e907621",
+      "size": 37618
     },
     "cards/beam-cell.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/beam_cell.webp",
-      "sha256": "49dc734a176a6ff9a7f64b1e70a2774225299db5e7150be9cf9546c0def7f430",
-      "size": 35156
+      "sha256": "42e21df618a38bf2c6ef7f65cd67007948b5462795b3ce956573288553860631",
+      "size": 32166
     },
     "cards/beat-down.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/beat_down.webp",
-      "sha256": "d2b9724935ee292af2382d793b5f5ce1cd8802baea32b6dc87d01fa3861ff29a",
-      "size": 37312
+      "sha256": "67f8499dba08d5cc9f14ed1f868cbc74de1fd40926e1bbf8b425543243f8d52f",
+      "size": 33438
     },
     "cards/beat-into-shape.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/beat_into_shape.webp",
-      "sha256": "fe432b74061be451cede5b96f4b600dcc127ba6650828302dfd6763c2409aa4e",
-      "size": 43764
+      "sha256": "3117fba62207b74a1a6694c9355c25b3428960adb2e283b8a2feee9889503d04",
+      "size": 41594
     },
     "cards/beckon.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/beckon.webp",
-      "sha256": "da87d579233cd13b8644ac07f93c079f1f83a3a5f0e6cab900b759d42acecd95",
-      "size": 33742
+      "sha256": "f1210ba41bfc19078785eae39edd77c45a06becfbac465d08d9f79593d084989",
+      "size": 30072
     },
     "cards/begone.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/begone.webp",
-      "sha256": "fcf874551e2635b2a43bc89684f6a464c9dd58ba33365952af5dc311e7cd35fd",
-      "size": 34192
+      "sha256": "7fe26282823b5b86c7e80c1ae88d160a3aece3056b198845623d49aef7b91ae5",
+      "size": 32302
     },
     "cards/believe-in-you.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/believe_in_you.webp",
-      "sha256": "0dd637f9bbc8bce803246081c65b70713f85243ef678847c0ea1bfa95b80a3f1",
-      "size": 33564
+      "sha256": "7ec9851888e6ace729081995f6af0ff925391a14357fab0e1082c844e40f48ef",
+      "size": 29460
     },
     "cards/biased-cognition.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/biased_cognition.webp",
-      "sha256": "eaa93ef1ef43bc751150b38c1911e8f4c53ae64a667e3dea867c9ee134ea65a1",
-      "size": 45864
+      "sha256": "9ec4acf0c00f53ed6a0b9e833d20ca48b09d82f41f68e72024d04ad03b457051",
+      "size": 40792
     },
     "cards/big-bang.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/big_bang.webp",
-      "sha256": "cf4b1890fc0a19f277e1cfb043bb9a432b35fce5b99b8a8bef557d9482a5e036",
-      "size": 40696
+      "sha256": "5beef656cb43a949c33c5847b6e7f1d0be74dbd4c1b13f0a2458b18e126880e6",
+      "size": 38100
     },
     "cards/black-hole.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/black_hole.webp",
-      "sha256": "958814f6906f7f0f17a88649953d3b6badf3a3a0a7bcc4b55fdc5e87fdd3bcb5",
-      "size": 40860
+      "sha256": "45e3e550e9cf866da101d8d6e89808720c9a8428c673b1d6db74b3dead080d4c",
+      "size": 38338
     },
     "cards/blade-dance.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/blade_dance.webp",
-      "sha256": "a5d5d12bb0f2acfab7d1ed9dc63213bbc1249778f9e48f62ec81af9f3ee2b243",
-      "size": 34464
+      "sha256": "8f87f1dfce38a03834c32934bae23ef601046d2f1f202d9a936761c746ea9dbf",
+      "size": 30858
     },
     "cards/blade-of-ink.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/blade_of_ink.webp",
-      "sha256": "f781634a21780c14bb0b4b9271e6c8b0b7e5ddad7d80471ad6a41d702276687c",
-      "size": 32408
+      "sha256": "7b5b02b6a256dfac07cba089b725a33d5e57541bfecc8397cb02ebec2559ae91",
+      "size": 28480
     },
     "cards/blight-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/blight_strike.webp",
-      "sha256": "e278e29c2fc080fb926c2ab82e29a6ecf3f49233013a28a760826d08487156d1",
-      "size": 34266
+      "sha256": "104c694ab92fd8d74b1a90b2e1b136acb3d3fe30c18b4728efcff79be4fc4048",
+      "size": 31942
     },
     "cards/blood-wall.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/blood_wall.webp",
-      "sha256": "6231e2987363d76afd4f8927dae0186dc3f8e58de67b0f544a44903533f53a37",
-      "size": 34430
+      "sha256": "a082aa52d31d22f83292806f67409789bf0237c10db5bd27f691893ff67e15fa",
+      "size": 31840
     },
     "cards/bloodletting.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bloodletting.webp",
-      "sha256": "ae48876dd9a3ff37901ef83e58415ec73b0503dfb872f708bb960c2b09a785c9",
-      "size": 29300
+      "sha256": "f5c5fb5bcf66e74e5e740acc87672f70b0011db11b0891d809beeb2974be43d8",
+      "size": 26888
     },
     "cards/bludgeon.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bludgeon.webp",
-      "sha256": "3a5734905490923ffc95c1aee06dd16a80b263a5ff3e2c0efac51c7151dee726",
-      "size": 32948
+      "sha256": "f51202d29436c312f594801a03285ab7a822cb8db128b3dff1f3df569b13f3c6",
+      "size": 30170
     },
     "cards/blur.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/blur.webp",
-      "sha256": "29d6e035af8674b2732c13f1e5e0806355614ceebaf75dd651b53c5b9614671a",
-      "size": 37384
+      "sha256": "867891af867c3942522eeadb7bb48845e86dd0c912950760ea50c4fcf4e096f3",
+      "size": 33390
     },
     "cards/body-slam.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/body_slam.webp",
-      "sha256": "b8a87725ad33165e241817a5dc513aeb872c5c1dc6897eef41a82c984486d61e",
-      "size": 30720
+      "sha256": "e520e996053d20139286e4ed8e642bbe6e23da5553237a8a24dbbcb25eff5077",
+      "size": 27988
     },
     "cards/bodyguard.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bodyguard.webp",
-      "sha256": "b99b6318281ba0e3bfcc4646422fd61c78fc1ace3865740fcc7169892b56d2cb",
-      "size": 33244
+      "sha256": "24d3ee84ef71928d056ee950479664dd3fc3eb141b64c778bc8e048110c80ce6",
+      "size": 30738
     },
     "cards/bolas.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bolas.webp",
-      "sha256": "c798e2c3ff0c0c216e01bf7b6c9faa07ee0afda11bc77722bf193a9ed5d0e778",
-      "size": 36270
+      "sha256": "1bf1980097bc8f2b972c8b58be89533f588d9b67b19f5f31a66dace5544440e4",
+      "size": 32662
     },
     "cards/bombardment.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bombardment.webp",
-      "sha256": "df0ae0f18b2a5b60cfcab5cf3358e49b8480c1fe084b116d24b960d34ecfbfa7",
-      "size": 44778
+      "sha256": "3181286bcb3366600aaf63571197d0e27d3891572142d609538b19fa559a0d93",
+      "size": 41936
     },
     "cards/bone-shards.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bone_shards.webp",
-      "sha256": "15682d43c420f4cf22309a1adbe6500074e8967d012396705a35823c77b4b8e1",
-      "size": 44304
+      "sha256": "964b9e671b24a58c9cff5b975cd8bf1008b2229a0f61426d5f4b969734c4dbc6",
+      "size": 41252
     },
     "cards/boost-away.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/boost_away.webp",
-      "sha256": "a385efe9bd80e442814bee71ac4d68f62ba1b21bbdd845f11dbfec69e77f2893",
-      "size": 36012
+      "sha256": "96d60dd19854538a2a838ffbef8c421632875767531370d9da631193d367400a",
+      "size": 32486
     },
     "cards/boot-sequence.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/boot_sequence.webp",
-      "sha256": "3129b97953472b841d20ed595e45e6dbc5840a0a7a3fa00ebd733992e56de078",
-      "size": 33578
+      "sha256": "1fbecf263192d183856abb118b9c4b0f7a674b605ecdd10e74eb99f4301a1f2c",
+      "size": 30288
     },
     "cards/borrowed-time.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/borrowed_time.webp",
-      "sha256": "699b784fa8c1b85c18773f66693e624f30a4c49eb60ce71c8cdafd33f1491496",
-      "size": 34332
+      "sha256": "5d0d16ca40e3eb154ae47da26d780791fa6dd319619ccee74842461975345135",
+      "size": 32058
     },
     "cards/bouncing-flask.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bouncing_flask.webp",
-      "sha256": "fd5023d4ae2534d54b4e7652221079bf2c46eaccb699f7c5f7ead41586c6131a",
-      "size": 38120
+      "sha256": "22ef570a487f7fee28ff2d72716c33877410e41bb147879ffae310bb858ddad3",
+      "size": 34474
     },
     "cards/brand.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/brand.webp",
-      "sha256": "c9c8f6d1b76510a2b779331609f85fcd328666839df65a0c5b0e313ab70d3ea5",
-      "size": 34996
+      "sha256": "a2ab3af1772d78d4a3ddfb40f3c84b23b64ce6af26be47562ef9222e67c3c586",
+      "size": 31984
     },
     "cards/break.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/break.webp",
-      "sha256": "e75ec3eb24c428e403758b10cb375f799ee5833f6ca0def48a38f2747940bd9a",
-      "size": 47682
+      "sha256": "e702845ace22b7bb129ef2712a4026f34c60e20463b9db7b1934b09478f726ec",
+      "size": 42184
     },
     "cards/breakthrough.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/breakthrough.webp",
-      "sha256": "cdc6b7f69606f9a5fa9b2e36c2b19e9de94701c7b035eb55566f850ac2811385",
-      "size": 35892
+      "sha256": "4c5b16cbd37dc843374bc274e236e2d4a949b15e85084da530932bffc2c057d2",
+      "size": 32828
     },
     "cards/brightest-flame.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/brightest_flame.webp",
-      "sha256": "93052bc4218ffa6e990a07746a38cececea18404a9d3adc036d54ad5b135d0bc",
-      "size": 43936
+      "sha256": "f88519ba621de26a2b56250c203b6acce70e4ad0781a0f8bbb231d9c03d38a8e",
+      "size": 38930
     },
     "cards/bubble-bubble.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bubble_bubble.webp",
-      "sha256": "ca4fdeed1d0bda16abc1c5a743afcd7ebbd8704d48d4a2542d9d2b64b0798dc8",
-      "size": 36404
+      "sha256": "5c7150074343b2d6b39f31d58fc430399fbf4938eb9c76a9a5c97fe6e3628f1c",
+      "size": 32682
     },
     "cards/buffer.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/buffer.webp",
-      "sha256": "afa1a6e7aa29c3991cf4bb0ce27da488a5a894b417b29450d1e18473bd557b12",
-      "size": 31358
+      "sha256": "1c507ba2bbbd6b83ea9494160fee3ef458f86547d1cb377f9c1ddca5d5c3b1d0",
+      "size": 28326
     },
     "cards/bulk-up.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bulk_up.webp",
-      "sha256": "0401b1830bf3c1967298c3f6825d80123b12072754df1aaaf47565bd17c6e5e1",
-      "size": 34136
+      "sha256": "cc6bec9f860b8fe943ba553720243899e4623373589a6f4362c7dbfd5e5f5080",
+      "size": 30606
     },
     "cards/bullet-time.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bullet_time.webp",
-      "sha256": "c5131107ce6bf1331b784440c555f6898b890bb1f11a1140fa2eab45f26a790c",
-      "size": 39492
+      "sha256": "af593c779ddff6e92791be9a3a24ff6e218a7ca028119b4371de8e52e7ca317a",
+      "size": 35888
     },
     "cards/bully.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bully.webp",
-      "sha256": "1aa1e9ad727d0e1143da00608d9a518b6d989d981cbe4b43dc7da8f5260fae8d",
-      "size": 37028
+      "sha256": "8f67eb9d21db85a941ee773a553c7f0d0d5bbd328cab67ae609826410ff10552",
+      "size": 34524
     },
     "cards/bulwark.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bulwark.webp",
-      "sha256": "a8ff5b2cd876afe39742d166a0c28491b1aab2afe5879ca22a6467b72fd0cd51",
-      "size": 38696
+      "sha256": "156bb584f97f879e5419076fef1c8b8549cf7fdb14a716747586ba621985548f",
+      "size": 35428
     },
     "cards/bundle-of-joy.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bundle_of_joy.webp",
-      "sha256": "ca7ed5baf13b6185ac4eb6e2436782aa3ec9ed336fbcbf963cf6bee7bd725954",
-      "size": 39570
+      "sha256": "6fd8996773a3ae10eb47b213a3fd2b01a7058095275719da91517ed3f25cf314",
+      "size": 36634
     },
     "cards/burn.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/burn.webp",
-      "sha256": "61d75c7d804c8a2fcb3e98048a480eecff7d70a409bbb355854479a234249e04",
-      "size": 31170
+      "sha256": "feb23831300d36c3f7649a419a5389a6e4eae964c0989a0e2c2eed9281bf9068",
+      "size": 27388
     },
     "cards/burning-pact.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/burning_pact.webp",
-      "sha256": "d0d099a7c7dfd1936bf7bdeb5aa758a21640f946147d0c4ef5763ceffd986535",
-      "size": 36400
+      "sha256": "6896e8ab9e827ee13b9c575448a7149880022534850264ac9544d8a8dd1728dc",
+      "size": 33754
     },
     "cards/burst.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/burst.webp",
-      "sha256": "436ec8ed1eddc9734f5873c0ce7dbcc379082d4ea30c74d327532b8f5e129b67",
-      "size": 32868
+      "sha256": "6138a081db65ec2a6a9d2d99a8b8defb58504e75b51010e04b406aef0bf9aaef",
+      "size": 28518
     },
     "cards/bury.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/bury.webp",
-      "sha256": "7a6a2843e9183d3738ff59bf8342475ca7c7494cec50b12dfafe78572e23f267",
-      "size": 33202
+      "sha256": "b64771a686f8f33fc7940b36e7cfe8cdd529fb8dff62d9c265f066d03468b3e5",
+      "size": 30228
     },
     "cards/byrd-swoop.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/byrd_swoop.webp",
-      "sha256": "1db5697c8236a91c0c4b59995a0c9524bdd2c90ee75023e843f16d5dcc4dc99a",
-      "size": 34938
+      "sha256": "fd3f029b1aa6e4f88907bc61e494bf89427843b06ef835ce4f0d2642766ec105",
+      "size": 32004
     },
     "cards/byrdonis-egg.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/byrdonis_egg.webp",
-      "sha256": "830f0981ee1948a9fd2bf5cd0a59e6d678e1ec041893757ce2e7228f5052f4da",
-      "size": 35152
+      "sha256": "a6d9e20ce8924e382e08e7119811ff45613bcc824ecfd1b9b9ad353fce8d2303",
+      "size": 32958
     },
     "cards/calamity.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/calamity.webp",
-      "sha256": "8146c33174d91113052c692ba9b0fc3fc81d43f2c41928d0958ae225a2adf29e",
-      "size": 34332
+      "sha256": "cfd62eea424eff5ca2d27bbb1aead9e097414ce1c0d8e94bf3ef7d71c8238a7c",
+      "size": 31234
     },
     "cards/calcify.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/calcify.webp",
-      "sha256": "2b85f39b9a17f7411dc283775c670225ad7ac6209a62f7bdea078850713c3804",
-      "size": 30296
+      "sha256": "44202043a8e7f6109ffac26f092f2d240ea3b57e59b52c26e87a2f267241fb75",
+      "size": 27242
     },
     "cards/calculated-gamble.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/calculated_gamble.webp",
-      "sha256": "8b76c55c18584771c2b9252a96035892fa3cb84bbca3ce0d85af9cd9f043daf8",
-      "size": 34622
+      "sha256": "41371b08a10a7c7fdffb6b08a4ead20e8336989ac15d36bce5c882068f8304be",
+      "size": 31368
     },
     "cards/call-of-the-void.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/call_of_the_void.webp",
-      "sha256": "1430f5504c21ebcde118da771d843d7734188e3110f28953072ca02072db62ab",
-      "size": 37938
+      "sha256": "62007b5d04bb3d69be050d4f982df87edfe12c5a44269062d397f082a275beac",
+      "size": 35078
     },
     "cards/caltrops.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/caltrops.webp",
-      "sha256": "a3bd1babdf4bef52906e6b1e8ef12827c3bb3e0ac02f0355a74fbdc1b57d26f6",
-      "size": 31208
+      "sha256": "5870c1d91526df50832ac03d7083363af126fbada6840ad9286ab19a5497acb4",
+      "size": 28370
     },
     "cards/capacitor.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/capacitor.webp",
-      "sha256": "5386527b32662f830a8d6928d6e375c76a98a1568325dec7b1997d0493629f6c",
-      "size": 35312
+      "sha256": "59bb3aa2912152c4b8030ee3d96b90a6cf7ecb61f5e4fa85a3bc15d598ac8b0f",
+      "size": 31276
     },
     "cards/capture-spirit.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/capture_spirit.webp",
-      "sha256": "34ebce9926642a88808983807e3082d248c4abf71e2aab923c21d0c502cd28eb",
-      "size": 36500
+      "sha256": "b0f413583ce9d2b7371801ef191ab3f30547df0396d92884146ef33513b8554d",
+      "size": 33702
     },
     "cards/cascade.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/cascade.webp",
-      "sha256": "c9adcf35a14208f0ffda5ec70fa79bb4520e4cf9636a10b6d0cef509ea281b62",
-      "size": 32118
+      "sha256": "6b775536dcb335b8dad0644b4f4e84d637a7cd9ce6c11d3e25d58025a20d55ad",
+      "size": 30138
     },
     "cards/catastrophe.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/catastrophe.webp",
-      "sha256": "a3dcf6f1c98ee81b3dda032073aa951d826fc4c7ff4ca8d04925fc8b4ec7647a",
-      "size": 35022
+      "sha256": "d6a39018f0a6392e161ab4c42487ee57543f1f9c9e035095d5bf65f8296074dd",
+      "size": 31654
     },
     "cards/celestial-might.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/celestial_might.webp",
-      "sha256": "8ba134c20f2ec86cb2263b68935b459ea8612c1a1f88930f93046b95fbd994b3",
-      "size": 36248
+      "sha256": "0b8d5a17b27a275cbe79f9868d8e6ecb121583721c465cd20b9702fc6aa5afd5",
+      "size": 33588
     },
     "cards/chaos.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/chaos.webp",
-      "sha256": "bcdca5d6cd14d1605f78989893ea7e7f2dd08ecb8dc19687e60f7d831e08e914",
-      "size": 35274
+      "sha256": "fd688c16e6e44f37b4123be67b737a11120e86ebadf06a0178d24c50e3c6cf05",
+      "size": 31294
     },
     "cards/charge-battery.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/charge_battery.webp",
-      "sha256": "b1a85682cc681fb313c842422490d44dfa1f0724858ec2266672af83eda02ffd",
-      "size": 34928
+      "sha256": "396f73dd22bf7c45713a83d1864d69205a66b37f607efe9575cfefcedcdb2abd",
+      "size": 31444
     },
     "cards/charge.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/charge.webp",
-      "sha256": "a61b2bab758b46ac3cc824eed1ed1b2ca749ceb5c4ba38b7e46215834a720520",
-      "size": 39742
+      "sha256": "2d3770ccde35628abe71974a891abc85233a90bab22c7ccd4734b81ce079c724",
+      "size": 37174
     },
     "cards/child-of-the-stars.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/child_of_the_stars.webp",
-      "sha256": "e0737cdd8b3cb603a85cd59e662848171d19e4b2d0c9d574eb5c01f7d3ea61e2",
-      "size": 39504
+      "sha256": "5687447c959b85778d83108708aff422c1064da483c145befbaa657c01393ac7",
+      "size": 36978
     },
     "cards/chill.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/chill.webp",
-      "sha256": "c183fa044b3517373999cfcaf7763bcdc2446517b34bdc66d18f24650a811024",
-      "size": 33336
+      "sha256": "d6d99fed034b5170959cf60101ffbd9fbf6a44228be9fe31d09f0e6e1206df8b",
+      "size": 29264
     },
     "cards/cinder.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/cinder.webp",
-      "sha256": "75909a6b80d3cf4f8f5e56bc0f3a9e333ad665005d4794956706f957960843a3",
-      "size": 35124
+      "sha256": "92b7f1da7897c7c32ded4bab2316b715297968cb1475585e1025da683addcb8b",
+      "size": 32856
     },
     "cards/clash.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/clash.webp",
-      "sha256": "4aa94c8d47a7c1320410122728ca9a348085147da1303d1a7551d2c6cebed098",
-      "size": 34938
+      "sha256": "05664c07f2e4c3d329e605b177bdef4030e3c3462130ab6296102bf87ccf4b03",
+      "size": 32380
     },
     "cards/claw.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/claw.webp",
-      "sha256": "e98d0088d207efd6c958bb3d1c039a68e975dccd048b75a2e235def7d54ffeca",
-      "size": 32778
+      "sha256": "d7f173a8069815a92e89c407edda9e83b744c5b64611e3e12c0154d13ae3e290",
+      "size": 29794
     },
     "cards/cleanse.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/cleanse.webp",
-      "sha256": "f248e2f509e35bbc982f34756c5cd55b15261ec1153ffc03ece524d2031bb933",
-      "size": 35392
+      "sha256": "a911010e3cf87e4cee60ed3079cdabbae34a906c752274e3f46a5d0b8103c3cd",
+      "size": 32692
     },
     "cards/cloak-and-dagger.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/cloak_and_dagger.webp",
-      "sha256": "4711c6b1edc212e70c1217f63e22d42d00c5c3a999c6f32ac12c6c24f342256c",
-      "size": 30486
+      "sha256": "81f31d6b61398c5f6e9f4f07ab57d5bcc884b1456102f60b9372ba196c11d2e6",
+      "size": 26794
     },
     "cards/cloak-of-stars.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/cloak_of_stars.webp",
-      "sha256": "4b90bce71fc8341fac65a20bb1035a9c004a9c85b07beaefe4d8f64d7131e65a",
-      "size": 35084
+      "sha256": "882a528594884674a0c7e8fe73d852d23c3278798b70f22f27731c3842c9eef0",
+      "size": 32604
     },
     "cards/clumsy.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/clumsy.webp",
-      "sha256": "85fd16be9ba5f8f39ea71bc38165087818297dd58ee37ce02006e25c2223f9db",
-      "size": 27710
+      "sha256": "9aa422eece42f2f15ab8892aecf939d5958488eea8664a77da183bae004646e1",
+      "size": 25618
     },
     "cards/cold-snap.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/cold_snap.webp",
-      "sha256": "2508fdbb2fbf5aa5e8a47cf07aa92d5fa02d2bda084537feebf81985d55dc0fa",
-      "size": 32882
+      "sha256": "005922004ed3e11251f610945a0ef38658b8dfc0ba6880efb43717648a7ff88a",
+      "size": 29798
     },
     "cards/collision-course.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/collision_course.webp",
-      "sha256": "590c6205de3507848c628116c2d5c1835ac575bb4597db51a49d741ae8a511af",
-      "size": 40032
+      "sha256": "df5f0c309cb63937babc72b2dc5cef7c72a147740512f014a43f4cc28a49eb4d",
+      "size": 37318
     },
     "cards/colossus.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/colossus.webp",
-      "sha256": "8a48201357aef5f175644e9485cad04535ea1c1e3b0c351e22ffc665372c6dce",
-      "size": 34188
+      "sha256": "c90617d7b70dae57a7f4492f2d5aa22034dbb2a23a4d217d54eaa307c0785efc",
+      "size": 31686
     },
     "cards/comet.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/comet.webp",
-      "sha256": "e0268cca6e50fe220837da52e04aa6a67317671f9c051b08c716d157707e40c7",
-      "size": 36846
+      "sha256": "8c995c837acb46dcf5fd9b9062f0ba7bd321e94808406990e80330e7f2965fc1",
+      "size": 34078
     },
     "cards/compact.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/compact.webp",
-      "sha256": "223e8856d6b6966454e52f175560c450e411a8cf1b89d6bf371d9915c8975569",
-      "size": 42470
+      "sha256": "a5ac789aa638449d5bf6ffa0061825a6878da296314503adc7a7f328eba23875",
+      "size": 38554
     },
     "cards/compile-driver.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/compile_driver.webp",
-      "sha256": "1cd82dced8bf056e24f169d76eb8b366390db1e07cd7cffc9b8221ef4caec33a",
-      "size": 37240
+      "sha256": "2fac179a2bf97423ad9886a5888cfe8dc690eb4e4f5f50e32cba26ad0be3a6ca",
+      "size": 33762
     },
     "cards/conflagration.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/conflagration.webp",
-      "sha256": "0ff41170ca3ea2d9f1cfc45910cd56b3801acfc98bde8cd9b0b7db3d4d61737d",
-      "size": 43064
+      "sha256": "17aeb6c91d5bd0137a24d23d0686399b0b8917f236ca31d63af70fbbc527cf9e",
+      "size": 34662
     },
     "cards/conqueror.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/conqueror.webp",
-      "sha256": "08c8b9ca356b4551f0f521e389c7aca7e6bd538d914d899185da0049bc1263ee",
-      "size": 39056
+      "sha256": "a98fc90acf9e67f76b5dff25450417d0ae3f5256c71ce11fa51701b6a1870ab7",
+      "size": 35890
     },
     "cards/consuming-shadow.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/consuming_shadow.webp",
-      "sha256": "d42d34aefd808d31bf5ddd3ebbaa722e0eb565e21e8d4045a7d8d4730a1cbc24",
-      "size": 38608
+      "sha256": "13f0ac3e19eec4ac7305901eb4798eb4d6f7ec6cd3a6e020b58af0f2591feae3",
+      "size": 35140
     },
     "cards/convergence.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/convergence.webp",
-      "sha256": "159adada7fc8a1b7cb6c63c518f0c33744e48dc092fc71898957a11227109a48",
-      "size": 39452
+      "sha256": "bcd7b9e87afe5c03922120c00c63175d57d6ebc177920876cd06aefba05621f1",
+      "size": 36746
     },
     "cards/coolant.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/coolant.webp",
-      "sha256": "913e3204aedbc914678f4dca3ae3f3e2e870ef1d78af0553d5ce803a297ba3aa",
-      "size": 39196
+      "sha256": "83908a426f0bbfade3090559d19cab3a9d06545fc5126be41e45d381ab848bad",
+      "size": 35526
     },
     "cards/coolheaded.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/coolheaded.webp",
-      "sha256": "9d30340bc86e28eb85e03aa925688bea233e8ffb8f712d78066819e55c1b2ef6",
-      "size": 31766
+      "sha256": "db8623d7fd282bc3074083260e7bcde8345afa9edf6adbcc08d08c8bb060bede",
+      "size": 28432
     },
     "cards/coordinate.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/coordinate.webp",
-      "sha256": "4e41480fd3f50540df688fbbe7d6f7740977aad3719762139a847633ea6e7cc6",
-      "size": 35558
+      "sha256": "e4407f74c3356c8b6d0d3ac649fb7d6b801ae5b090a10cd408d8b29f75abd853",
+      "size": 32110
     },
     "cards/corrosive-wave.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/corrosive_wave.webp",
-      "sha256": "d964807d1a5f3a7db7ed1af8f044ec48b7568e823d5b5f4a80c41e9fad988d50",
-      "size": 39678
+      "sha256": "b38bb99e49e30d02a27113892ad34c5124153364a47f374f516d284c7533a28b",
+      "size": 35776
     },
     "cards/corruption.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/corruption.webp",
-      "sha256": "ea87db6113eeb0f22a57fa390f71ada684e2044aafa09958864c0c3f03433c24",
-      "size": 42584
+      "sha256": "79a2ceebab713121e08b0304f285ec886a9e66b8c41bf21b66d6dbf75cba105b",
+      "size": 37418
     },
     "cards/cosmic-indifference.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/cosmic_indifference.webp",
-      "sha256": "3a6f1385aac09a417701811c4544afcd0a6acb291d79f8ec8ec781dc734446b9",
-      "size": 42358
+      "sha256": "2c2c410e3c3b41035e96e98d325771206025697155427b0f13c5171ec814d02e",
+      "size": 39724
     },
     "cards/countdown.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/countdown.webp",
-      "sha256": "f5cc9fca3a3dcf3eb8da49742775a9e1ee027e54a286ae2f33fb1a6a36916ed0",
-      "size": 38242
+      "sha256": "d8cea0f96878965640efc9481327145abd495a5212a35b8e438ae28851547dc1",
+      "size": 35396
     },
     "cards/crash-landing.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/crash_landing.webp",
-      "sha256": "fb887f55303aa6c17e0cf365afa11670b0e2bfe8029d841b70219478abc4bd27",
-      "size": 42682
+      "sha256": "b48e1ef8ab69a791d8b4d80935f9c855c123cbe86c6ebfc1c3f7b5f666bbc031",
+      "size": 39994
     },
     "cards/creative-ai.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/creative_ai.webp",
-      "sha256": "d253aff9f2f6ee6fe34f71c1a7f024e143394aae3472de8604fde3c3158b961a",
-      "size": 40072
+      "sha256": "24af8c31e5eb54efadaa668aa1d0dab274bca6dffe2bab7878d0fa30bd35352a",
+      "size": 36262
     },
     "cards/crescent-spear.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/crescent_spear.webp",
-      "sha256": "cb259579b42383e4afbc52740c2cd9eb2f6ab10de0b0ffe7f1ce4e91caaffddb",
-      "size": 38654
+      "sha256": "22107004bfea982b38b6a3c605c7e0a67e4f1810d50449ced39af8a2b4e402ca",
+      "size": 35560
     },
     "cards/crimson-mantle.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/crimson_mantle.webp",
-      "sha256": "ea828dcc9cadbcfb486c549333d356ea0ee41ad5ef43847f936da2e9ccc7798a",
-      "size": 41848
+      "sha256": "d371673b825100852efdc5797e8acf57c527b2b9287245eedaeb995681d82691",
+      "size": 40092
     },
     "cards/cruelty.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/cruelty.webp",
-      "sha256": "07ca3a27ed9a0bf8f482753b4eb3afc26a4ad012c3fafaa04a93e4633399870f",
-      "size": 36544
+      "sha256": "5330f436bdd2272120cd486da009b3a4f4cd0033157f61ce17ba35aa3c825b62",
+      "size": 34092
     },
     "cards/crush-under.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/crush_under.webp",
-      "sha256": "7aa5097ed6c07a5e7d39532d756a684a611bf00cf875bfa24ea86531a0c7bd7f",
-      "size": 40642
+      "sha256": "afb66331687fb6eeaac32bd32ae9836fd1eb19e60fbf0d04bfb464a199f5a434",
+      "size": 37492
     },
     "cards/curse-of-the-bell.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/curse_of_the_bell.webp",
-      "sha256": "cd583fc0064ada41f8093763bf663189b63e1998dad541c7db04c74b609083e1",
-      "size": 30546
+      "sha256": "4c76ace5a20df413ba1b00f826e94c5b088bcaf8ea7d4230a6e0697e12d007aa",
+      "size": 27624
     },
     "cards/dagger-spray.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dagger_spray.webp",
-      "sha256": "456d9d7030812b5bbdc7832231fbe6336ac52dc4286866f96f36cd0dda54767f",
-      "size": 34688
+      "sha256": "fa9d7d24320f5501eb69837993c7a9587838e70d21c8db0916e6e6a0b3d5c082",
+      "size": 31298
     },
     "cards/dagger-throw.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dagger_throw.webp",
-      "sha256": "f164b94b1f5e161612648222fdcd6f0053730b08d8a330b4dc896e22225d1b97",
-      "size": 30470
+      "sha256": "5fab7da1a05d45bb6847ec8db3b9c2068c69d6c5fdaa9097722e44d778d06129",
+      "size": 27750
     },
     "cards/danse-macabre.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/danse_macabre.webp",
-      "sha256": "30347debad766ec04769af3cb9c8b3dd7fa9d3de241cc0731ab882603c8e893e",
-      "size": 40800
+      "sha256": "d04e4653c1a1efeace835927b8dbbf1f7e23a0b02dda7288dd4e2041071b8ec7",
+      "size": 37946
     },
     "cards/dark-embrace.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dark_embrace.webp",
-      "sha256": "cd72b71d64b5fb696a27fb98901f69d88d640b9bd73aa8acd4da8c77f8dd4705",
-      "size": 32606
+      "sha256": "d3ff98d73db093546de3954880e54f59358eb752d7ab1df18b45259288dc3cf7",
+      "size": 30708
     },
     "cards/dark-shackles.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dark_shackles.webp",
-      "sha256": "f27f08e829e56c3d3563c4adcd4ff2dced9ea3dfdd781dd8c7a72f6a2530cf8a",
-      "size": 37916
+      "sha256": "4e1419962e0721772722cfa03b19c3bd9f75f6302d5af647c2aea71b03ee1fd0",
+      "size": 34354
     },
     "cards/darkness.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/darkness.webp",
-      "sha256": "c623d450c16f09a6dd9aec640e19c201e9cd1b093875451a1350866c6d5cf0b7",
-      "size": 34542
+      "sha256": "b659a7583431b28cf2659b6f031f7898b7c1d7ef12498bd43be74a90dd6852cf",
+      "size": 31392
     },
     "cards/dash.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dash.webp",
-      "sha256": "1779cf57d058e151cb0576d7e8840a79402b6e5cfb66bbfe8790e9483c486cbb",
-      "size": 31602
+      "sha256": "b9bef94d431ce06a2474c09a5aedc055a12134e2b30d5860cc19ff2cc1bd8483",
+      "size": 28094
     },
     "cards/dazed.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dazed.webp",
-      "sha256": "c7fd0a95dedf14163c085acc5c40dda58cc144329adfce319bed672fa05cb05d",
-      "size": 28452
+      "sha256": "bc308a81470ac49254284208daf64c7b4dd58affdffb44933e35e0e98a39daf2",
+      "size": 25572
     },
     "cards/deadly-poison.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/deadly_poison.webp",
-      "sha256": "f6552aed99c0d49041863790a1321d1de74f1f93f5b952df05d13684b24fa27d",
-      "size": 28396
+      "sha256": "89937bbac5f3ba694b73d2fbd0d6af4d5e6f412fd5d27a31b82787bcd14ab6e5",
+      "size": 25618
     },
     "cards/death-march.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/death_march.webp",
-      "sha256": "1a17aad26e1d075f16445682e622f924d07601031bbd25640c4f5d22d6ea0fdf",
-      "size": 42436
+      "sha256": "934e767c455a6a8442b037acab2e6718c8c527ffdd00567f5eea6bda711de707",
+      "size": 39432
     },
     "cards/deathbringer.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/deathbringer.webp",
-      "sha256": "50137cf4c68dff061f50aa200eb20bb5d148ed4a9767112fd2a0d2e044046c0f",
-      "size": 35704
+      "sha256": "b7d1ca02ac7807dcb712dd2a6ab5b7fe21b1bd93e3df5ea53be4a9f856225098",
+      "size": 32972
     },
     "cards/deaths-door.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/deaths_door.webp",
-      "sha256": "ca5cafe6ff7256c9e0c4d52e1484e7156683529bf21922f992dee6261b39a0cf",
-      "size": 40660
+      "sha256": "b3cf209aad6bca0834c6a80a8ec450126b6dfeba7065feba695d3493ad1767ac",
+      "size": 37952
     },
     "cards/debilitate.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/debilitate.webp",
-      "sha256": "7ccb0b9e7fe8df1e6b1d7bf333c2eedbfbb89bba2f7571fff777dfd07d75378f",
-      "size": 42490
+      "sha256": "ea8fd360345ac96138400ae6eb31f8f8756594d61391018800c125046a2b99e8",
+      "size": 39318
     },
     "cards/debris.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/debris.webp",
-      "sha256": "6b54f306772dc89dd150fef95973a54dd276fa1523e8068c7cf68d96e8b89a72",
-      "size": 31528
+      "sha256": "814cffc3eb4652aac344c446c696412f164744b3322727c43c244bc8c889c8b2",
+      "size": 27048
     },
     "cards/debt.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/debt.webp",
-      "sha256": "31f6c2fd3f9e194e1dad9f4b6b6800388dfa3bfdad97db0f18e509fd449f9bbc",
-      "size": 34206
+      "sha256": "d60d40972ba3ceb4b269810c0b7c0c6b1b953ef35de8f202f0ee837d3bd05f66",
+      "size": 30798
     },
     "cards/decay.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/decay.webp",
-      "sha256": "7c153536d80571939b8b760f014938b99921c001a9db04b141f842df1bda3828",
-      "size": 33570
+      "sha256": "7534f02f72a7c23d1fbf12422cbbb378910979912f8301990737c103c70782fc",
+      "size": 30430
     },
     "cards/decisions-decisions.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/decisions_decisions.webp",
-      "sha256": "2861d55f03ebf289681949420472f714a9f09bcc6bf9d89ffe7af578677b300b",
-      "size": 40562
+      "sha256": "ddcbd5f77dd9c5c77db9543fb210f132860e888f3f02f882ca6568ccbd9f33ac",
+      "size": 37262
     },
     "cards/defend-defect.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/defend_defect.webp",
-      "sha256": "3fe2db602a2b17023e6af493caab8155c41ddf5cdad65ffd55e0e85974a906ea",
-      "size": 30314
+      "sha256": "df218d12dbdf3e0b29a5303a65ff1d88b38382f923fafb4c096363efc27b6e1a",
+      "size": 26638
     },
     "cards/defend-ironclad.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/defend_ironclad.webp",
-      "sha256": "d74d123ac62253cba61b19e031a027287c21d5402af7bfbabe019c1ab6278d81",
-      "size": 30192
+      "sha256": "c4a34f37d9387557cbe5d645f02653ecbd6413affda6856ece223d490f44c1ca",
+      "size": 27760
     },
     "cards/defend-necrobinder.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/defend_necrobinder.webp",
-      "sha256": "64140185420b3ff51dcfc642a67f41bfb4b03ad76f96f6a2f2109f2c6781956d",
-      "size": 31106
+      "sha256": "948a9e13816a251828ddf08a084ad073a4d97191628161698acd9a3377ad9122",
+      "size": 28724
     },
     "cards/defend-regent.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/defend_regent.webp",
-      "sha256": "5ad56c7a3b9b42d0f41a99d1c4082cf842f8942f4656ef7982f00ed5347850a5",
-      "size": 33664
+      "sha256": "f0ae4451412f6721aa89af3ee37dad1757461e7f2a1888be192bfa7c51b795a5",
+      "size": 30202
     },
     "cards/defend-silent.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/defend_silent.webp",
-      "sha256": "a0f0ed646a5b23c26c0c07e5236ec0e4ef2aea8e6f4a0cefa36a47168e6f5a70",
-      "size": 33338
+      "sha256": "22c146c12b3972cf27df20235c9278d462d088436876b15c70200f0bfa5ae9f8",
+      "size": 29100
     },
     "cards/defile.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/defile.webp",
-      "sha256": "0acd87cca4472f102e2651ecfaf6201fdf1f0607c18bd1f7dbd8158d9fe64639",
-      "size": 33308
+      "sha256": "f0b306af4eb3b2caa7ebfa033687daa36fccaafe27a2c4d58a811139707cb827",
+      "size": 30920
     },
     "cards/deflect.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/deflect.webp",
-      "sha256": "833c353f45e28a692938ca376037869688314380b4d1459843f645d13bcf4d60",
-      "size": 29942
+      "sha256": "ff5451d8fc26a6e934a59cc3975f5694f9fb9a4d86fedc2cb9b8fc938860da5a",
+      "size": 25952
     },
     "cards/defragment.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/defragment.webp",
-      "sha256": "b879d85cf58aef3aed33054c0718230ecd9d86e327b167b9a746b7d9a0fd9244",
-      "size": 31822
+      "sha256": "44ddf6afe1201f3ce41290600f70e3f8979dc7168add5904d339df72aca87dda",
+      "size": 28434
     },
     "cards/defy.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/defy.webp",
-      "sha256": "1da2f70f7d35f53690682703364d0c90fea86769f09866d6ae020b7a84131dee",
-      "size": 32692
+      "sha256": "65a1158cec38dcd37f2e88f2deb53f5522055e0b7f0fc1a1e34f86e36e4cbeee",
+      "size": 29970
     },
     "cards/delay.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/delay.webp",
-      "sha256": "9410ee21cca23e75350579fdebbc44afd9cec02d3356ed91420014ca321309c3",
-      "size": 36368
+      "sha256": "c4dc83b192bbf1541c7fc4c9956b85f7073965c0a3ee41b45019ff663e5b1aed",
+      "size": 33676
     },
     "cards/demesne.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/demesne.webp",
-      "sha256": "c94b3925e8c8b7b6847abdd02d5ace97ad2785e3272084c029bf6e2eb6280270",
-      "size": 40468
+      "sha256": "48a656add96b0b57d3beef10f1b606a5fae64e35945ce9262616f28ad8e8545a",
+      "size": 37926
     },
     "cards/demon-form.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/demon_form.webp",
-      "sha256": "b91ee7860e1c2fbfd33672283a19eac65b5ae8e3ff31626a47c218f8a55bca80",
-      "size": 34204
+      "sha256": "99c2317175ec490eb2e4eb4a48bba6863b9b1f09003a1547dfae63bcfdadf4d2",
+      "size": 32092
     },
     "cards/demonic-shield.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/demonic_shield.webp",
-      "sha256": "f06ec855c97e5d5b033db893774ca56fc4f2fc8d387886a60f1828d774accc28",
-      "size": 39328
+      "sha256": "2dde3afcfad58f7e30ba44f84306b224deec865091beb5f03f9a02aa7bf727e9",
+      "size": 37246
     },
     "cards/devastate.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/devastate.webp",
-      "sha256": "47edae3d1fe149c56e28f236d3602ac58b15bcc4c4f13e90abef7ee52301eab8",
-      "size": 37422
+      "sha256": "17212ee40a913b639aeeae4c63f630a858190edd577c04a68423917d5a6e81d7",
+      "size": 33538
     },
     "cards/devour-life.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/devour_life.webp",
-      "sha256": "555be5aeb3a0af8e343fd5bc790ca55ec4a778ba05da43733588ec8065b4429c",
-      "size": 34084
+      "sha256": "91ebd73690e97864c8de22de4e3f96e5f8acf18dfc64e3a8ae93b088cf7dd9d4",
+      "size": 31722
     },
     "cards/dirge.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dirge.webp",
-      "sha256": "1d26d3e108e0ed9fb78c54cbc8a4bc3a173b2fe71815c695aeed9ab398447de1",
-      "size": 40678
+      "sha256": "a8aa634f3db6e021e5e6fb373324512c6b1cc37c0cebec1fbde377fd6bd7b9e3",
+      "size": 38194
     },
     "cards/discovery.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/discovery.webp",
-      "sha256": "38d3127689919911022843ca1e05930184da8c110268fd8cee7ecbc8cae5f8cd",
-      "size": 37552
+      "sha256": "d1e8b8f0d9de1841ae771b0c7e735dbe0b2dd5fd05d52188ce0db0a982b9f64f",
+      "size": 33528
     },
     "cards/disintegration.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/disintegration.webp",
-      "sha256": "466c4d255035c5438bd6c607418e0bb40f75df82b92aaa0e028fe2e7fbf2c71a",
-      "size": 32502
+      "sha256": "eabb5463512ed6665e10c71e8a02b7f530b50d6ff44caf4537a9aa4e5f4de448",
+      "size": 29048
     },
     "cards/dismantle.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dismantle.webp",
-      "sha256": "0c70f9a2f89676308bf220578a4a435fdcebcdca71b9cdf5f7065af04222e37d",
-      "size": 36900
+      "sha256": "d008866e161d1bed32507c77483292c48e2f88396e8af414015744e817004cb3",
+      "size": 35186
     },
     "cards/distraction.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/distraction.webp",
-      "sha256": "3d58eb14037a084f6a17d9599d77e6084bd821e30b85b12cc62489f75614c3ef",
-      "size": 35022
+      "sha256": "ac202a411ea04926b4f83d8d7d78b940a24e07423bbddd0fb19b7082b1bc765e",
+      "size": 32252
     },
     "cards/dodge-and-roll.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dodge_and_roll.webp",
-      "sha256": "0d31a6215d0147b0c90d6f5351cddddebbe4d8bf35cc4f54d8a21caa1e31320b",
-      "size": 32722
+      "sha256": "7740b76d8be5f08655a607f6e664456ab3be3e0f7f6a03f041b294d0510bd9b1",
+      "size": 29054
     },
     "cards/dominate.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dominate.webp",
-      "sha256": "a8ecd6a639fa235455999473cd5dd1597b20dd0334cff2eb5c3cbac6233770f0",
-      "size": 35014
+      "sha256": "8d3ac8112ab7cc53688972c936a514b193db250b2883290d5aac91cd9bcf2a8f",
+      "size": 33046
     },
     "cards/double-energy.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/double_energy.webp",
-      "sha256": "ac417c95e86044d019defe36f6f7ead5b104333d691f86ae9118b49571b3cc99",
-      "size": 32766
+      "sha256": "2204b928e9a242d85ceb9294f5c5d641d36a7e48c61f1601571e21bbd4e7b66f",
+      "size": 29056
     },
     "cards/doubt.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/doubt.webp",
-      "sha256": "90db7b659a8a5adbc00d2b918a00596bb082db5cc87642a5ccc41c4cfaa314e2",
-      "size": 32202
+      "sha256": "eb5420bd4dcb8ed410c4fab4e9728a661a0d59b064a334deafa16059652b64a2",
+      "size": 29112
     },
     "cards/drain-power.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/drain_power.webp",
-      "sha256": "1fbe724573a85bc8593a588018fdd5029ed8a67ecd92dcab0d9d7f480a3e6b3b",
-      "size": 37710
+      "sha256": "d0f57c9857f9fd1aa439e174c789caf19d139e71f53d5d11cdeac0911be9caed",
+      "size": 35156
     },
     "cards/dramatic-entrance.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dramatic_entrance.webp",
-      "sha256": "e42569bb3b5ec2a470492ee86dc1fbf176b77170cced9922bf37419a977340d1",
-      "size": 32904
+      "sha256": "9d45e1c0436307cc5bd4ee14c7c558f938f6c035fbe6e007f5683cf3dcdf75a7",
+      "size": 29854
     },
     "cards/dredge.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dredge.webp",
-      "sha256": "4d04341dc2f9a710c52eb6e56d55aa3829a5bdd781ef0f45ff386bcf2160ade9",
-      "size": 34356
+      "sha256": "e7a584f4f6699dc274c8ee6f8fa4bb7a61031802c58c0ea8b294c78214acaf8c",
+      "size": 32084
     },
     "cards/drum-of-battle.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/drum_of_battle.webp",
-      "sha256": "bf38f774bc421805cdc32bee2c0082f8c7315e7c6059f65e60d090378354016d",
-      "size": 39588
+      "sha256": "ba00a168815354e28dc06b90387fbd453980661f7a9fafc01ed8e49cdc35cb35",
+      "size": 35036
     },
     "cards/dual-wield.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dual_wield.webp",
-      "sha256": "dc15b2a1abe97e838617a1724c5d6dc961a9c6d86fca3e40a3ae0422ce170121",
-      "size": 31854
+      "sha256": "29687a71a486d236e557d1d98383ce58ab6f440f780cbeb8e7cf7ac7ef4980b3",
+      "size": 28680
     },
     "cards/dualcast.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dualcast.webp",
-      "sha256": "0406935bc2b84b93024054f5289ab891368e3b52e1ec60f299401187258b9bba",
-      "size": 31810
+      "sha256": "6c3e1cfddde8470ff045f6d01c097ddaefec589b6af7499d0bd88308a80a566a",
+      "size": 28552
     },
     "cards/dying-star.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/dying_star.webp",
-      "sha256": "0d9a935d31cbf306e129fad7837db39352997e95969498ad76d892c415c4e15e",
-      "size": 43270
+      "sha256": "eb6bb6a3a994d8ea08d40d3f18742d9ffee3e771bed225bf4558ed17e2844d38",
+      "size": 39986
     },
     "cards/echo-form.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/echo_form.webp",
-      "sha256": "d20133dcd6832554aa8b7017b1803abce8185c60e180095a5348bc6cf863cbe5",
-      "size": 42208
+      "sha256": "0181e3b7ba9476303e3dfeb477da713b2d96d9c75b545d6120c20f0fbf440f5a",
+      "size": 38100
     },
     "cards/echoing-slash.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/echoing_slash.webp",
-      "sha256": "f7afc972558ba68b6ba0c00cf61df7b91218572ec3abc764ba93d1bfade7adcc",
-      "size": 42046
+      "sha256": "43c156741b3546dfa4efaebdcbbd52e2bbc98df411d55783c1a8d52cee599aef",
+      "size": 38312
     },
     "cards/eidolon.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/eidolon.webp",
-      "sha256": "9623223a1a70c248a1bed588381d54d64516ebe840f336213dc192469ac730fe",
-      "size": 39216
+      "sha256": "02b5305228db3c5e1390bb40192e92f9f8b6519478c65968f74b7fe22ce69845",
+      "size": 36672
     },
     "cards/end-of-days.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/end_of_days.webp",
-      "sha256": "bc5f32737757eecbc61c64d607b8aae8480498a58e940b230f17997f54fc5613",
-      "size": 38304
+      "sha256": "00844821a457d5d16bd8f34f43f33f193002cc159e14a0fbe2bd3311f7e1ce8e",
+      "size": 35646
     },
     "cards/energy-surge.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/energy_surge.webp",
-      "sha256": "920d6d3bc6200d99ab014dd66383db3ec62a5bb7de2c82991ed7348b1b0f772d",
-      "size": 37642
+      "sha256": "a63ade73c1d1891e38aea018effde71a3235ed6b7926828b594e78ed2dd53f10",
+      "size": 33794
     },
     "cards/enfeebling-touch.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/enfeebling_touch.webp",
-      "sha256": "d17cf972d05da0fef3ccd2d9be2b13fb834c2a6ac688432341664f4894ef401d",
-      "size": 35498
+      "sha256": "1550135731f05c6b6b25e94b022ff41c03de87838664b26c3584cc6c745d608d",
+      "size": 33118
     },
     "cards/enlightenment.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/enlightenment.webp",
-      "sha256": "27cc7f286d53f20de3cab5c77b6b643a2ca0c5922e6e05ad4e21a43e4f311e7b",
-      "size": 35910
+      "sha256": "ae50c344a1ec01d8b73bebe3e50a4c57856eaec09efdef2a9423f48242ffc898",
+      "size": 33078
     },
     "cards/enthralled.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/enthralled.webp",
-      "sha256": "9534ef4e99b0313a6f94253c83d2f9575eebb676bcaf467310c7e93ce6f7cf77",
-      "size": 34298
+      "sha256": "7578044d4afbf98ccc5f619e78c332debea5afd87488828c4a1697b738985d9e",
+      "size": 31336
     },
     "cards/entrench.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/entrench.webp",
-      "sha256": "0d939fc98dbe0f0d35eeddc50fdbd56dc0d36c60fbc74fdc08f33375ef95fed7",
-      "size": 30214
+      "sha256": "3dc9ecfeaba34576f79238f862740f1277144e5bf524cfcb4e2c34bf9fd8d851",
+      "size": 27612
     },
     "cards/entropy.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/entropy.webp",
-      "sha256": "74fe94b6d48e97c9523e2fd29b37305ec72b4ae9787d411bd55823c8f89d17d8",
-      "size": 36840
+      "sha256": "f3c4ada90109956d0f19cd2ec57d25c792bf6963984c0dffc6dd235f47d411a4",
+      "size": 32992
     },
     "cards/envenom.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/envenom.webp",
-      "sha256": "9fa91d0676c165b04b043b529eeaa878c7c6af3c8f40cf36b644724bff16ed99",
-      "size": 33662
+      "sha256": "c643e59aed27d1bfe007e94ef09b5545423d6a4305e67baceb110db3ddebc7ad",
+      "size": 30146
     },
     "cards/equilibrium.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/equilibrium.webp",
-      "sha256": "22e130414a1bfa7c82447ffd3de238b54d69dba31f055b7aefb1e3fe696e17a5",
-      "size": 29850
+      "sha256": "7f68bad9f1990cfca54a298f2b9213fc5fd5472948d699f481e6d23aa6310c11",
+      "size": 26630
     },
     "cards/eradicate.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/eradicate.webp",
-      "sha256": "9d01ad7e3408af007420b9b2647566fd1f1539d740ec9c326bb4e0a745dded46",
-      "size": 35932
+      "sha256": "21f1bf88f2b7d75c8ba07e7a6f7d8e82812a37ebc89a720aeca76a13fd39bc41",
+      "size": 33330
     },
     "cards/escape-plan.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/escape_plan.webp",
-      "sha256": "d78b2a08398063fe2ee0f21b338633ccacd8c6876fbd8ad0eb5b3f48d45e7045",
-      "size": 33724
+      "sha256": "c667ec319d12cc4df0d49deaf4fed79f8cc2dc5338916648261ed4c908f2a909",
+      "size": 30208
     },
     "cards/eternal-armor.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/eternal_armor.webp",
-      "sha256": "6613b1c42a5333b09774b737885fa390d7daa0c9b2099815e6cd74de9c8d4643",
-      "size": 35382
+      "sha256": "129dd472a30a7088af394f30882f0859d23bceff77bc2ad4ab1157daf7e6915f",
+      "size": 31484
     },
     "cards/evil-eye.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/evil_eye.webp",
-      "sha256": "9ef1486fb653f87884f81e5f82d85d1c10d7763d0810cdf913ba10c002f29ac7",
-      "size": 39408
+      "sha256": "29574172f2c1c95bbdc3a2f9e7daa170753afb251d3cee6f8c9521c9f934d856",
+      "size": 37704
     },
     "cards/expect-a-fight.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/expect_a_fight.webp",
-      "sha256": "2203afc4b3cf8a96195cc42ebf2a2066a76d18a90ad406369bc3c014b08b9175",
-      "size": 36982
+      "sha256": "f2b64d734c2511e3b4f5fe5f8642ce0b18e4a9f5c4c7e4cfec9c812fbed4b91e",
+      "size": 35068
     },
     "cards/expertise.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/expertise.webp",
-      "sha256": "6747982e2eaadc9e2cc7d416191c8d6234e704e7bdd5ed4af5064c8a546c0386",
-      "size": 35618
+      "sha256": "99e9fc77aa7e43fcce9a359c1e62f260570fe1db1f82867aeacfafa5a86db07d",
+      "size": 31926
     },
     "cards/expose.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/expose.webp",
-      "sha256": "e46747d30a7d136995b401c8781e034b05235160dded686af637148789aacc1b",
-      "size": 37628
+      "sha256": "3b438fefa3eb4462c84ee896a2899c55ab8e33d25f835df520f79b5314bb2d58",
+      "size": 34016
     },
     "cards/exterminate.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/exterminate.webp",
-      "sha256": "c068a69199d3b5ae04c0cb1c0de12822c85cf0559a876d0fd4abd21992159fce",
-      "size": 36936
+      "sha256": "9707e207505337966e88a71e1a4738e9c4db39b7edca7cbcadd4839fa025783e",
+      "size": 34106
     },
     "cards/falling-star.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/falling_star.webp",
-      "sha256": "4d11511805ae6e06b16f6441e66d6cdb19416b08fae7f1190e9ea31288278d87",
-      "size": 37286
+      "sha256": "b40293287ed655f251cdbf4021380fbfd11f357d517e81e3777cfe99c001cc6a",
+      "size": 34234
     },
     "cards/fan-of-knives.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/fan_of_knives.webp",
-      "sha256": "46b34ef868fbe9d17eef598cc3593bf41ca68585413f5f6d7a0e1181b24df2d6",
-      "size": 38990
+      "sha256": "8fd5ea26d8b70840d74f2e712f18929fca26f8652e2eb6fab35055f5c326da7e",
+      "size": 35528
     },
     "cards/fasten.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/fasten.webp",
-      "sha256": "2bf9b9200349c0cb04c4d54d3f7415f3824ca8f732b9f0814dfa71e0ce5eaa6f",
-      "size": 33096
+      "sha256": "3cfc1cda2680cbc795ecb782d11105c061724145279a9d6d6a1f28ccb97945e4",
+      "size": 29882
     },
     "cards/fear.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/fear.webp",
-      "sha256": "f34b0c8b94dc2fd05485486bcf0a887c7c0efc9b1e376158d995c7acecd21c5d",
-      "size": 32410
+      "sha256": "1378fc69f2d80e662305a54b69d8900006d9faefc0e68ea8e2f27671152db8e2",
+      "size": 30236
     },
     "cards/feed.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/feed.webp",
-      "sha256": "91e94601a198f1298f9f1418474375f858d00f940b4e3f88a69f1aa782fd69ab",
-      "size": 35886
+      "sha256": "1f28f21355da2b80f9af22c0b723e9e2df0ae120f08e8deb9360511047fd4b15",
+      "size": 33860
     },
     "cards/feeding-frenzy.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/feeding_frenzy.webp",
-      "sha256": "f8b1006dbdc9d9efed98f5fadccf236ccef2ed3c1fcf0e07af3c096d9b53fcac",
-      "size": 34028
+      "sha256": "ae877afcdc05d61008e51b05096c2a5dec78b96de9bf4210ac2ca42ba1314fab",
+      "size": 31430
     },
     "cards/feel-no-pain.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/feel_no_pain.webp",
-      "sha256": "745a74421201b564f4403ae7489e09c57f9e898503db3d10204f509402a9a0fc",
-      "size": 35224
+      "sha256": "11f2d3b4ee892e119ff214da5c3980727b01e30df70297c8e90cf584ec109b86",
+      "size": 33566
     },
     "cards/feral.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/feral.webp",
-      "sha256": "9e59bd387c3cc65e09a4d14bb596363bf2cd670dcdd597f27923e78bfebe216e",
-      "size": 34370
+      "sha256": "741838abcd116fb012a51fc32ce3046659078064b77c8ff9faadae71517c25ff",
+      "size": 34044
     },
     "cards/fetch.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/fetch.webp",
-      "sha256": "95e30282b20852c3bd0bece807eb6848375ba5c07562aa891c6f510730e4413f",
-      "size": 41180
+      "sha256": "ec6bcd68908645659c4c5d374c42d7c1b516d23ee81bdec8b0002dcfde715424",
+      "size": 38626
     },
     "cards/fiend-fire.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/fiend_fire.webp",
-      "sha256": "7ad48b59001f37a10cb3fd63ed2c03bd035b959d5867e0c24c5c4ab1bebb1de5",
-      "size": 33936
+      "sha256": "698f2071c9561e7907c9431d2928fa6f54aadab357eaed6e494988eddb1ed0c6",
+      "size": 31604
     },
     "cards/fight-me.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/fight_me.webp",
-      "sha256": "44c2cb9e017f649594ac545e0b20f089aaab970de398c6ff958dcb0c62cd0c9d",
-      "size": 37742
+      "sha256": "8e69d4a8a59840d4fb612d523208bbc1f5013b1bf229eb0162764dbc95d92cb0",
+      "size": 35678
     },
     "cards/fight-through.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/fight_through.webp",
-      "sha256": "e907de239c8c7b5da96e9f131cf8126ec7cf4ff4a394a0795724983333f3613d",
-      "size": 42480
+      "sha256": "f20ec31f55b64cd1db9b1fecfaa220023817fea7c38a624b8cd5e4c9696227aa",
+      "size": 35624
     },
     "cards/finesse.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/finesse.webp",
-      "sha256": "1d4e4ec04317e80d8319b5d5d3fabb1e0edcf4eb442ec725520e95936c141464",
-      "size": 29152
+      "sha256": "2949320205c04cd9c6832ac9cb5a432af9bd1f502e115751e8d1b3d7bdfcba89",
+      "size": 25872
     },
     "cards/finisher.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/finisher.webp",
-      "sha256": "a337a90bed5c6e696e08b232ec7b50d22eeedc6fde6bb4b8807cb76c1205bc05",
-      "size": 37124
+      "sha256": "b2a8e31f1f2f0c0884a10c34a7034905de461a740adf0aa146658af0dccf7d0c",
+      "size": 33124
     },
     "cards/fisticuffs.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/fisticuffs.webp",
-      "sha256": "4a472eb865e451f95b4958553b2084e31ff513b30199cd9fe6d9fbd5e8632787",
-      "size": 35576
+      "sha256": "caf56ae9a3418daf84ceefdc8e1b0a893cd42c02498251e7719c47b83123a90e",
+      "size": 31882
     },
     "cards/flak-cannon.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/flak_cannon.webp",
-      "sha256": "e45275b9604a037e6daed9fe77c3783cf9fae135e3562e9a69d7651cb695670c",
-      "size": 44244
+      "sha256": "b5750022612e14eed7410613ebf6181558c6bc4dcfc3e033965d2a89f39e494c",
+      "size": 40936
     },
     "cards/flame-barrier.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/flame_barrier.webp",
-      "sha256": "0bd23a045c32b714b43223fb549781c2b2732ded4a3bc3d5d4fd1d323325d743",
-      "size": 36448
+      "sha256": "c896fe456b0d79fd55b2cee984fba2a617778c67f4340d2dc5a25aeb6ad3f946",
+      "size": 34564
     },
     "cards/flanking.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/flanking.webp",
-      "sha256": "d5ff5c4c4a57865abfbf6ccb419144d867eb4ebe62e83cb127c96b53c818c685",
-      "size": 36890
+      "sha256": "6f115bc136b68113dca04f064e15943ae20f1253f57f4cb4464552c4b1d60234",
+      "size": 32900
     },
     "cards/flash-of-steel.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/flash_of_steel.webp",
-      "sha256": "b8728c5104e70c5ae7c7f514e36cd2b12a01781515cfecf0cca7197b129e9b9f",
-      "size": 28472
+      "sha256": "c18957f69d861e47336465d0d8cac45ae28db89d4c14983eb412b68288d6802e",
+      "size": 26006
     },
     "cards/flatten.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/flatten.webp",
-      "sha256": "56f5fc2de399222fc9ba1637f33d9e1803788bca2a130e389b271887e42703f9",
-      "size": 35262
+      "sha256": "fb0473cc306ed1cf37b5df815adbdced1ac938b5577e5879c93e7ee5d996eeda",
+      "size": 32458
     },
     "cards/flechettes.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/flechettes.webp",
-      "sha256": "17fad015f64832cb24b1e91ebfd6ee2734cc860ca9bfff10e0fc995c418bcb68",
-      "size": 32700
+      "sha256": "3026173dd5101737f995dcf848799a4592c85a365343f7401c6625781ad82056",
+      "size": 29418
     },
     "cards/flick-flack.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/flick_flack.webp",
-      "sha256": "be80a5148560d964d312a4b9bd09e33551029c209c4d5d125921bdd963f4212f",
-      "size": 34174
+      "sha256": "b98dd597595443255738fd7cb7f17a99e66c98b775862ab979364cfadab3337a",
+      "size": 30538
     },
     "cards/focused-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/focused_strike.webp",
-      "sha256": "1ba09498bbe1bad63c954cd38ef72db790cf55aad404d138dfa25e0dee5ead75",
-      "size": 35674
-    },
-    "cards/follow-through.webp": {
-      "source_url": "https://cdn.spire-codex.com/cards-full/stable/follow_through.webp",
-      "sha256": "59a05238385888463c7077dbf267b12ba783926e12dcf6dbe9ae3c61eaef75e3",
-      "size": 40746
+      "sha256": "49115001c8379fa97c936395ab37f4a1beb318b296fd9057d9f1fc27cdb3d070",
+      "size": 32690
     },
     "cards/folly.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/folly.webp",
-      "sha256": "c8295660176766584c5b20b2e2a748989452a7a9258e352749c83dc20e788d97",
-      "size": 26920
+      "sha256": "4eedc3d7e91c2197a8bf2713c5ac5daa02239125d06c5c26210bb1df4355dd43",
+      "size": 24574
     },
     "cards/footwork.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/footwork.webp",
-      "sha256": "e2f5713a26f757dcbff4f7bc0f0fa3ad93eaf402cec5f277b9690c8d8e808dc6",
-      "size": 30720
+      "sha256": "7c9b84e635b67fe450e421537b6c32b3453d8d306c2003985d8895d323f76b10",
+      "size": 27208
     },
     "cards/forbidden-grimoire.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/forbidden_grimoire.webp",
-      "sha256": "db6990e0cb02c4e7dc11ff0439aa46c29c427cefb4bae31b48dac0a08d3d7c4d",
-      "size": 56716
+      "sha256": "179cd30c092c20aa873c9282a68694b808810293472d97c8fc856a164be413b5",
+      "size": 50510
     },
     "cards/foregone-conclusion.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/foregone_conclusion.webp",
-      "sha256": "8a14c46dd8a7d0e35d3d9336064d5065df8ad3ac766afad60bd61b5b2dfb01ab",
-      "size": 38316
+      "sha256": "a2151040d84f28a63fcb3b36bcfcdfd255e3f8ef88f06c21d22997a766cef37b",
+      "size": 35200
     },
     "cards/forgotten-ritual.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/forgotten_ritual.webp",
-      "sha256": "7760752e02358b567b8a23333798890b001a7a33fa48fb81860c0d7929a75019",
-      "size": 37778
+      "sha256": "577aa22d29ad1623abea6c2e43af1838d1ff5a2f78e8e9a2c1ec0758a408ddc2",
+      "size": 36134
     },
     "cards/frantic-escape.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/frantic_escape.webp",
-      "sha256": "e1aca09b85e26557ced491d1ce027a794b4ab10270ad6cc7a329d47bbb9acf8d",
-      "size": 34958
+      "sha256": "96991cde7ec7d39f3763cd31679eaedb97d133eb8fbd39fb807e8f417cac994a",
+      "size": 31208
     },
     "cards/friendship.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/friendship.webp",
-      "sha256": "bde8787a0fce5197cf3a51b0a9863ddff6d46bd2afdca868ad3d9cf334775252",
-      "size": 33670
+      "sha256": "e7e05d1db9f27987ab5d016b14c93e77460eac26c59adc4f571668717647e3fa",
+      "size": 31120
     },
     "cards/ftl.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/ftl.webp",
-      "sha256": "4a3ea4a61acb79db924fc1253399ca70f74fa8889558d94f9f99b15cd4b2571f",
-      "size": 37540
+      "sha256": "679ee3c030f752e373a719e40334d6cb34f222529e0610c020b9b48c7d553ff4",
+      "size": 33576
     },
     "cards/fuel.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/fuel.webp",
-      "sha256": "648eabc4990f03bf2206df0c95340c05e693921617853772c99358aa01a78810",
-      "size": 33238
+      "sha256": "00084f6a88796da890ae19103bf22f6d83154fb349e2a1d1912e4a96e07a55cd",
+      "size": 29240
     },
     "cards/furnace.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/furnace.webp",
-      "sha256": "f27f5fa6767942345e799e554ec2c566a7c460291bc789245167888f4aa671de",
-      "size": 36164
+      "sha256": "0b3ee44ba50e8f5175d2e0d8129f9defb48e0f03df7a7c97d0c847c41d044c50",
+      "size": 32502
     },
     "cards/fusion.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/fusion.webp",
-      "sha256": "1560d7173b14f30cf02cc0c25df37b349509e56789b02ff6f724de3a1f22bc33",
-      "size": 35000
+      "sha256": "bc6bfce8eea86d4d0c9f043d99d2c8de83475f1274c4e701c39271f9d06a4cf1",
+      "size": 31864
     },
     "cards/gamma-blast.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/gamma_blast.webp",
-      "sha256": "ce544e286882a89436cda75e2e162a8a38d5e64d2ade7392bc137887ecb291c5",
-      "size": 41432
+      "sha256": "cd5d4db88c3756e7a433cef5aa20bede36073c765906b6c932ae375da840193c",
+      "size": 38282
     },
     "cards/gang-up.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/gang_up.webp",
-      "sha256": "5821ce41d1b06345fb8e6eb06fe685a3577543300d55c1b736732d4bc1e99df5",
-      "size": 43106
+      "sha256": "d4a3ef79fe2c3a8b463bbe9c4de90ab06dc07b5f3d6cccce95a1f0fe7fcf3ad0",
+      "size": 38952
     },
     "cards/gather-light.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/gather_light.webp",
-      "sha256": "a9148f7e4292680a5f4f46db257726d230d0b73b1662a2e588d96f3fc62ecfd0",
-      "size": 33388
+      "sha256": "6025d419b06a972d8e5a1f08da6a9d9c9401afb2687f8e563a948442994ccf81",
+      "size": 30300
     },
     "cards/genesis.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/genesis.webp",
-      "sha256": "65ab0861637310bc5dbf440d985e57ec23ce842ee4bd6d66ac7b38e945e70c4b",
-      "size": 34496
+      "sha256": "98ea80bbe5ee1f3405c848574b5cf6abf9b342a0eec6af8f3966f1dc24641caa",
+      "size": 31642
     },
     "cards/genetic-algorithm.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/genetic_algorithm.webp",
-      "sha256": "187a28a960151c282e93ffe8b9ae319754a937384801957da41d35bd651e0c2f",
-      "size": 39558
+      "sha256": "57c6b55077512868d030b0af5df5b7274def0f1bfb6517df91419e256b5f1232",
+      "size": 35708
     },
     "cards/giant-rock.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/giant_rock.webp",
-      "sha256": "60d8c75f8f99636fd6af1cdc0473b99fd16cfd40eaab016e3ce4b3c825d02130",
-      "size": 25208
+      "sha256": "a9eb563dc4d150fba051a298ba1bd449cde8741e78ba0aa1630e26f612037583",
+      "size": 22832
     },
     "cards/glacier.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/glacier.webp",
-      "sha256": "c335cbe9eef8a38a1de8bdadd4e8977cb700adcdbec86a1e60d724f568f0c778",
-      "size": 32530
+      "sha256": "58a9ca4c951c52d0b2f974478dd97838c0a0fa96b487df081b4d115473375215",
+      "size": 28684
     },
     "cards/glasswork.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/glasswork.webp",
-      "sha256": "220e43dbfa0465ae5e16d885fadc8243f0761613fce984c597d7901e195ba59b",
-      "size": 33496
+      "sha256": "1d700e330d53adfc08863f1df8eba066fa905495b5bfdc892588133690d6e033",
+      "size": 29742
     },
     "cards/glimmer.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/glimmer.webp",
-      "sha256": "0f2d7ef859e6f7a8222e81a790c7ce30a4bdd36074d6778df73a39dc89dfe303",
-      "size": 36238
+      "sha256": "dcf6247e67587a18ab98cbd5aaf8559ffd84aa14ebd0e27f5dd8fd7240eeb228",
+      "size": 32578
     },
     "cards/glimpse-beyond.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/glimpse_beyond.webp",
-      "sha256": "a0f941f71c8c52f8bd7a4bacde10236fbdc64598e20308d4ea240f7a2aef1e24",
-      "size": 40724
+      "sha256": "b44e3ed44b39f24f36f21e26279ed88a2895348ef3eed9ccd33e92a386ea1ccc",
+      "size": 38176
     },
     "cards/glitterstream.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/glitterstream.webp",
-      "sha256": "1f22728e6778e575256ad6610bb74a8547807dfebe3a78c12f2f0b6f1d1cefdc",
-      "size": 36640
+      "sha256": "d920f0e6a00e9888476441b1e03a5e24c66caf9f23907d5caae79bde57cf72d4",
+      "size": 33138
     },
     "cards/glow.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/glow.webp",
-      "sha256": "90d36a0af11c00ad2be60feda88ab8b38eb97e5b456916044719be180e51e874",
-      "size": 31148
+      "sha256": "bea79a5e4fbb0ef27ea30df3067304e8c1ab2501a070abf7e9b35e56850ccf1e",
+      "size": 28186
     },
     "cards/go-for-the-eyes.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/go_for_the_eyes.webp",
-      "sha256": "af8f4298f3ccb89a17310f27b6d6e4fa79256d92df2fbcd4e0e0e30e270c4095",
-      "size": 36680
+      "sha256": "ddc63a58124aba4b7ab4347a9c9eec63f6bb239594381abf9fef6f7edd2b9784",
+      "size": 32840
     },
     "cards/gold-axe.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/gold_axe.webp",
-      "sha256": "fd5a7bfe4f43f221bf8fe47a0b3d9a1cd03edf31c43dd59c955fae6f9d038444",
-      "size": 37338
+      "sha256": "714164127117af01431e56c8f0f5c841356d6811f61e81cb95ae083387321ee6",
+      "size": 33824
     },
     "cards/grand-finale.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/grand_finale.webp",
-      "sha256": "72f9606645ca8cf35ff8dd5e37ebd82f6a975113b660fca60eadeb7ba5a444bc",
-      "size": 39002
+      "sha256": "6b86c5679428c972dd8b574d7c1974f31e1ad0332bed24b6e1f78eecb42d8791",
+      "size": 35914
     },
     "cards/grave-warden.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/grave_warden.webp",
-      "sha256": "0589c73130d551d7d99fb8f9a642044fec9daf875fa7e367e9341c8bf67b75e4",
-      "size": 35352
+      "sha256": "2f8211715945137038944ded37dcc4c3ade1c577a1e5244c70aaf0971aa1ee32",
+      "size": 32932
     },
     "cards/graveblast.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/graveblast.webp",
-      "sha256": "57c992e3542b23c8d391bffdd72f406c569c6c0bbd6e265b6c28af92f95de348",
-      "size": 35956
+      "sha256": "25affa37d94dede127f31fafc194ea7e764fed9a39fbb63862dc66193c2fedf3",
+      "size": 33604
     },
     "cards/greed.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/greed.webp",
-      "sha256": "d68e0889d426ce2a94448536ab4fe32e7c58a4781319d95e48d6aa60bc0c3159",
-      "size": 30814
+      "sha256": "82f481942fd3599cbd8390b087e78d993df388bd7c7da3126f40dbe233275125",
+      "size": 28176
     },
     "cards/guards.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/guards.webp",
-      "sha256": "da05034348dbb6f032cbb293b10047693b9ddad98d4bc73594b33ccd69c985dc",
-      "size": 40580
+      "sha256": "90a5b53923a3517f23461e656f5ba91dc2a07d798cfbc7b2b741095687e09f00",
+      "size": 36782
     },
     "cards/guiding-star.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/guiding_star.webp",
-      "sha256": "406f749ca6c8bc52ffe2ec0dbe0138e47920b36aecbe99997586ed1147ec8d10",
-      "size": 35816
+      "sha256": "dcd4a6d7113beab3e91dee71f9d8c141aa7970e0f7656bfc3d14220cd80befac",
+      "size": 31988
     },
     "cards/guilty.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/guilty.webp",
-      "sha256": "186d02dc5de259d9ca836935aaed905c99691952623d0f16abb70f6928b8324a",
-      "size": 27926
+      "sha256": "dbb9fde27964b494d7099a401cdb5d3e355524196e7f0d50457cc7c41d4ecd08",
+      "size": 25954
     },
     "cards/gunk-up.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/gunk_up.webp",
-      "sha256": "022a0c1fa46ceebb2a63aed1ecdd17c68ec30b6ddbce2560b9d449c7eafb073b",
-      "size": 36864
+      "sha256": "ba85d57a3abfbe6747fd01c7db596bb541d1877bc2cf688215a0359bedec3486",
+      "size": 33220
     },
     "cards/hailstorm.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hailstorm.webp",
-      "sha256": "829c21d8e371aa027831b7799479b1d0ef14704b371200548a7c020dfc314a3f",
-      "size": 34208
+      "sha256": "76146e24768153e0ad03f3fa4e4b6ca9c71112b26e1d58be875286c1c4b147e2",
+      "size": 36376
     },
     "cards/hammer-time.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hammer_time.webp",
-      "sha256": "08dcbde5f1054a7f8ca8b7501453c436997a931f9922539a1680b849207bc285",
-      "size": 40754
+      "sha256": "312746bc296a1425e14816251c681b816c0d5d6cb371da6bdaba5d286f266e9d",
+      "size": 36726
     },
     "cards/hand-of-greed.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hand_of_greed.webp",
-      "sha256": "df8b52240a612dbc39290b876238aeea12842d522fbf009cc3df65c48a8d5522",
-      "size": 34660
+      "sha256": "049883a97ff18be1f495f1d2a33c796b1d53c928f22e297ed9ddcd4c7c8e3e24",
+      "size": 31950
     },
     "cards/hand-trick.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hand_trick.webp",
-      "sha256": "c2d27e384640e3d742634cf6eb69ba21733ba341aba8c910aae6a6d276888991",
-      "size": 34748
+      "sha256": "fe6845d7c7db27875df78d874e5e0a6427bcb7201e56bc89409aa865f26b2a58",
+      "size": 31608
     },
     "cards/hang.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hang.webp",
-      "sha256": "ab1527aba2a963529e227ba6c01afd2a5cf8597d862d5ead0091b91b3f52d9e7",
-      "size": 36316
+      "sha256": "a0a074adcce8cb6da1a5ca5fb29a87a9ce3ac7d7c531f9bbbe63b96d1958417c",
+      "size": 33940
     },
     "cards/haunt.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/haunt.webp",
-      "sha256": "dd9675987941d0288d94ba054022886e14c493d26e6f4be3102713fd7c17e8d1",
-      "size": 34194
+      "sha256": "df2caf912761a85ffdab26ce26c6079b6d5390536fbc5a2af7eb5e5c3d79bfe7",
+      "size": 32106
     },
     "cards/havoc.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/havoc.webp",
-      "sha256": "cfcd28eb7f0afc59e4a624c2e71d98a227400fb9f3c05d259859ea221efbb376",
-      "size": 30662
+      "sha256": "832de60bfe4f061768119e1c48524e265864f9e1fc8f58316864af9276d5861b",
+      "size": 28670
     },
     "cards/haze.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/haze.webp",
-      "sha256": "f3d697e27b95d7e8286ae4902f235e862c5de7aa2da8e82bd262a0536a98b868",
-      "size": 36432
+      "sha256": "ba3d6a0161423047f26d1cb907bedc53954e03f008ab47cdc46ba0b9a45fecf3",
+      "size": 32668
     },
     "cards/headbutt.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/headbutt.webp",
-      "sha256": "3c17f4ee543ff5c150a492631361333684dee715d114bd6c2181a0e2061a44ba",
-      "size": 37476
+      "sha256": "0a3278af8ccec40ca5a31fd439d9c7990c256eda5b3f44622cb13f9ee1b9637d",
+      "size": 35382
     },
     "cards/heavenly-drill.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/heavenly_drill.webp",
-      "sha256": "4e7842410d57caf4e3813c738783a42bc049d415f76684a1437bfb01e7c80bbb",
-      "size": 40360
+      "sha256": "79b0e7faa7d8b3deaaa8b65e1e9df7b348969d7a179b794c46c834c8e2abc458",
+      "size": 36938
     },
     "cards/hegemony.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hegemony.webp",
-      "sha256": "fc1ec43ac526b90072ffb867735c96c7d39f4afc983fbd5378474fb5278b31de",
-      "size": 39634
+      "sha256": "0b309e5669ab5cd736b0bd77c98f6bf3d89853ee1f480cd486466dfc38500d7b",
+      "size": 36080
     },
     "cards/heirloom-hammer.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/heirloom_hammer.webp",
-      "sha256": "3f6d557da3c237ba2df485222cf18066f4b92624497f36659cae28b44559044e",
-      "size": 44362
+      "sha256": "1ea299880aecd0679d81ad9a4ce23623e2170a41f6f42f54d448c2fd7cf54866",
+      "size": 40720
     },
     "cards/helix-drill.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/helix_drill.webp",
-      "sha256": "08fe23d88213f25ffcac5135510510f3ba7aefb97f7c8ae31b9f0f1501890b68",
-      "size": 36600
+      "sha256": "968f38fdcf599f0c6b927e97dcf154b22dcfec8bb3c1e12a2a6c024bced819c5",
+      "size": 32914
     },
     "cards/hello-world.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hello_world.webp",
-      "sha256": "0483b544694d6a1ee1cd179df9575d9c714d0f26e3c6ed9fc9a0242625e03ed2",
-      "size": 32566
+      "sha256": "1b0f4c2525b7c010f06e482d2a0c6f0b6e78576e314903d99401d1a123d404da",
+      "size": 30046
     },
     "cards/hellraiser.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hellraiser.webp",
-      "sha256": "cc7c4999db0c94ca4a3dc64c28fc98cf6e7503dbfa0f7643f4f28a90982467b3",
-      "size": 40174
+      "sha256": "7cb53138602ed3f62c1d3cdd79eea4f245bc002cf4f52ffe405ffdc16f8cbb08",
+      "size": 38584
     },
     "cards/hemokinesis.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hemokinesis.webp",
-      "sha256": "f358df8a151ea28fe6b2e9000148bbd41b2ca70e09f8cf38b68f8f69467890ae",
-      "size": 34570
+      "sha256": "257e9ed5fa3d8d95ec951fc5c4b237d70013c4dde706c1463078084a4d23e881",
+      "size": 32444
     },
     "cards/hidden-cache.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hidden_cache.webp",
-      "sha256": "c2027ef82560557a90fb054b1ec2d8afdaa43f5b9f624f680438dc719542ebe3",
-      "size": 34846
+      "sha256": "89c7c8f3dbc69ff917f76122c8382731acde4d14fcb9f91dbf6046414ee76daa",
+      "size": 31032
     },
     "cards/hidden-daggers.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hidden_daggers.webp",
-      "sha256": "89f4a823b65a453d581deaba30faea77ae38d667d58bb1ad833fd58872da3f5b",
-      "size": 37968
+      "sha256": "f999e92660e5dff327d3094d0fa7e9ee7da50079c90d6c24b124dd6a3f788e12",
+      "size": 34240
     },
     "cards/hidden-gem.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hidden_gem.webp",
-      "sha256": "7c50b877aad73e8966be08d976aea46ea062b51bd111a9c29ff76c7b798ccdad",
-      "size": 36506
+      "sha256": "bbc4ad50d62999aaffa582d5f5a8f6b4adfc6a867fb8023e029e1ca1e00677b1",
+      "size": 32812
     },
     "cards/high-five.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/high_five.webp",
-      "sha256": "33d4baf7fdc28a87ae6af12c344c97255cda59c090988cddc600aca0f9cd5e3a",
-      "size": 36088
+      "sha256": "e9d7d3735eb07ad6d6fbe51e1db31beba6cd48bba4ac5cbba87339bc0b12a2c4",
+      "size": 33760
     },
     "cards/hologram.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hologram.webp",
-      "sha256": "76be588520f0d78be9c7de3cfb6a483071a0391c7e14e37f63cde7389a76e0ab",
-      "size": 38380
+      "sha256": "d261dd0f78726d170c4158d19f59e2b7c0014578d563be9c6b352b5d4b1bede6",
+      "size": 34612
     },
     "cards/hotfix.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hotfix.webp",
-      "sha256": "ffb85c5c1a8ea22d1e2e621deb63357ab074046afde6c4cdffce9fd4b4b55636",
-      "size": 33018
+      "sha256": "7af153d6bbf39daf1a73118f347c370157a98aee49baaf365a53fa3b92ace082",
+      "size": 29522
     },
     "cards/howl-from-beyond.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/howl_from_beyond.webp",
-      "sha256": "38117a37f73d26c97ee44d29465b83bc4464df4b7913c9d7ef246585d04d6922",
-      "size": 37716
+      "sha256": "e221b3876bcf07f3d9c55e34bc7da0ca3ea617404dcc99659a8fd4ad69096d46",
+      "size": 35320
     },
     "cards/huddle-up.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/huddle_up.webp",
-      "sha256": "8f0f8831c7adaa4296348393671d087600cf8afeb6632db82dcbc6f19542f027",
-      "size": 40292
+      "sha256": "26ac556e5c378f91598f845e217a1aaea4833902ad5ff9da39086d267bacedbf",
+      "size": 35850
     },
     "cards/hyperbeam.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/hyperbeam.webp",
-      "sha256": "b7c91fda2c5a164ee2dd09b38dc89ad08603aa95ab1bb95f857ffd5785e6af8e",
-      "size": 36012
+      "sha256": "4ff870762fa6bac9f115d462185f55d0ca9b58afc17d07aa058aa14a3ffcee84",
+      "size": 32644
     },
     "cards/i-am-invincible.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/i_am_invincible.webp",
-      "sha256": "181edc4744ba200ecbae94f91a7b7f888e7d9dced7c181041f5fd265a919cdac",
-      "size": 43624
+      "sha256": "7d006b43fc1a490d14ace23b5b39c8d3229bae7e93795c996ba3f9ea2de5ac6f",
+      "size": 40238
     },
     "cards/ice-lance.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/ice_lance.webp",
-      "sha256": "aa7cd656435d9d4c3ae6371d90d15be32ea1647706e23b5bced482440dee5a7a",
-      "size": 37444
+      "sha256": "fb839ca867b892fe187e752a4e973cc56be0ed17e3a0b94dc907fa6fa629ecc5",
+      "size": 34486
     },
     "cards/ignition.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/ignition.webp",
-      "sha256": "47519aacc2e4d02d7e0593f0e6a016e428ae30ca977f342e9f27302467571843",
-      "size": 37946
+      "sha256": "c7c260ce427d82eb9a3fbb81460d4702089a10bff65a0d51302f472891a02718",
+      "size": 33674
     },
     "cards/impatience.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/impatience.webp",
-      "sha256": "99e49f0e4deb72570fbfead92dec3a14b45658d6026e4d8a1e7a4cebe88d1fc1",
-      "size": 30682
+      "sha256": "3c2d4dce6376fd61611faa33f9ceb9c7a70f79979b650661a5b924cc8981c445",
+      "size": 27706
     },
     "cards/impervious.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/impervious.webp",
-      "sha256": "2509fb141722a8199ea1a767c3c8fb547a3508d63f6582adf0c940ef0b92ff00",
-      "size": 31182
+      "sha256": "e7f33aa7ca262882f86553bc15303520a220c2d56e5bb06e34c0f6cda966b654",
+      "size": 29236
     },
     "cards/infection.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/infection.webp",
-      "sha256": "e8a7f50daec13c983d70024d88905514b13fb63add2dd2f2a14236ba563aa071",
-      "size": 51682
+      "sha256": "b1e3e04d005a818293f2eab703bff80344704a696029340fa45dd3890e9bb2bb",
+      "size": 45766
     },
     "cards/infernal-blade.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/infernal_blade.webp",
-      "sha256": "964122f4fd19d54db756fa923a3b7e4c19f207060fd2622e67717509e8c2f93d",
-      "size": 35562
+      "sha256": "d0bf1a8bc3ef6e581b82ddf582c15b22fd4c834a0578f31ae086d7280227b68a",
+      "size": 33032
     },
     "cards/inferno.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/inferno.webp",
-      "sha256": "4a026093188911b660e7d0d9d7ea70007f0bcb6baa702574c2c0d6dacd3e7fa3",
-      "size": 41264
+      "sha256": "5057bf6f71d28aae0d3692c549535e9b4ff76aad03c901d49d71c14d7b13d76b",
+      "size": 39490
     },
     "cards/infinite-blades.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/infinite_blades.webp",
-      "sha256": "100581de277f4bee173bb37a76f9430f4fe507aeef6b98070116400dbb6f63d3",
-      "size": 34130
+      "sha256": "5fa882f1599915f14cc3242a20b6b7d535ae39e4c244d2814fde17db2b144c1d",
+      "size": 30986
     },
     "cards/inflame.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/inflame.webp",
-      "sha256": "a19bc9dfdf19c3b7a45c416e36d3ef276d4d2a33158108deccaa37139c8423c5",
-      "size": 29826
+      "sha256": "14170e175398667c0b22f2e3714f6e43527ed076646115fef21f5e0c19a0af26",
+      "size": 27876
     },
     "cards/injury.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/injury.webp",
-      "sha256": "8f9cd90b4d0721f5947e91cccdc58bff05d53cbad4d048d0c277a7ed519da37e",
-      "size": 24536
+      "sha256": "2534d7926baeca1363f2457dcbbfc459a17139ff5271404946c59c4352e63982",
+      "size": 22720
     },
     "cards/intercept.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/intercept.webp",
-      "sha256": "61f9c1733a37e7372c781dbef421b64d054d5bb89df933c0292becc9c5c84073",
-      "size": 40222
+      "sha256": "2befd856dea61ec0d163f8a1de9d83f74ac5625778b0a597796c1fded6388f90",
+      "size": 36146
     },
     "cards/invoke.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/invoke.webp",
-      "sha256": "e58f9ada0bf2e47a9a89b6b04276c0ebf740cedf9821b2aa4e54ade008ed7f31",
-      "size": 32600
+      "sha256": "806949f0c66a75d58959acd61ecc11a2221019130957aebbba80c3a5491f6916",
+      "size": 30316
     },
     "cards/iron-wave.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/iron_wave.webp",
-      "sha256": "b403e1d22f18e4c6c59cb2b7365b39243e4773bedf5a364e3a9b94fc18d23edf",
-      "size": 29998
+      "sha256": "1f726cc7a96f81aefe0a839896e06da171af97490103db58aa6e76e3dc26010f",
+      "size": 28430
     },
     "cards/iteration.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/iteration.webp",
-      "sha256": "6d50ce4e721cafe31ae11f4df5026595aae74fe3130dbf3ec26ab3485644e55d",
-      "size": 30914
+      "sha256": "b9a3caee544577c6cd69d1197413e14bf54b6d84213cbb3dfcc139e0e3949e91",
+      "size": 35048
     },
     "cards/jack-of-all-trades.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/jack_of_all_trades.webp",
-      "sha256": "1eb2e9736f8207957a618a6c7c313217ffca369a87cb7ea7f9dc7c583e2d3bc9",
-      "size": 38350
+      "sha256": "2acb509c4c7da28ad20e0a516a5766b6ea7fbcb08eb8292cd071d15c53996674",
+      "size": 34384
     },
     "cards/jackpot.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/jackpot.webp",
-      "sha256": "5faa763a8cdc2bd40f7d1564d32d1529debfcf58f8baed28f1e43dbb3450add3",
-      "size": 40868
+      "sha256": "6beab07c3494d1a52f4e7abf505425e26ed633f5386f8e7ef5ac0619071a4f15",
+      "size": 37212
     },
     "cards/juggernaut.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/juggernaut.webp",
-      "sha256": "4006f9e3208fa7ddc921212cd34fcff99f942e69a12f9afdfb23c1d69122681f",
-      "size": 39068
+      "sha256": "e2cd1dada8b7895b4897cef8285239134087b7e19511bd29f51e37fcaeb3dd4a",
+      "size": 37512
     },
     "cards/juggling.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/juggling.webp",
-      "sha256": "2fdd09b92e77efd5f250a6ad51e07da3bde5e2d4a95acc234ac260998d900f36",
-      "size": 38194
+      "sha256": "2ed009861b9d61976230903831b579b7450ea360a52c953824b85191035eee1f",
+      "size": 36398
     },
     "cards/kingly-kick.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/kingly_kick.webp",
-      "sha256": "74d86ef4c61e3fce2160a04d868bccc7879aeb42a1e291660cdc763adda6febb",
-      "size": 39116
+      "sha256": "bf2fdf4ff610b2026002ebad95e1e1264b826f5eb1ae7aed5ca7ed0a579572e0",
+      "size": 35552
     },
     "cards/kingly-punch.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/kingly_punch.webp",
-      "sha256": "ee195d20995f5d4b2de45440082edee82a82fc33849d64bc3527706d0c51cd97",
-      "size": 42926
+      "sha256": "a2068639822e63034f56d80da601425180494cb1d7c122b4fbbbd3cd592f57dd",
+      "size": 39176
     },
     "cards/knife-trap.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/knife_trap.webp",
-      "sha256": "f40a3fa8bd25e3f8eea808005a86b94e32e9929fe013099135e97d0f458afe2a",
-      "size": 38620
+      "sha256": "1988f9edd58e702db8988f9b5f10288a0712d647d28a526c92afa25fb0b0e86f",
+      "size": 35338
     },
     "cards/knockdown.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/knockdown.webp",
-      "sha256": "01fc65100274f46bbb2471452a89be29cea832abd1e2871df85139bc5dcd94c2",
-      "size": 40204
+      "sha256": "652b4ef8b0339a852931138deb52b36de41f0c982fc8a9bda6d1acf78928854a",
+      "size": 36252
     },
     "cards/knockout-blow.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/knockout_blow.webp",
-      "sha256": "77f4d9422a12f70503841f3a95bd1162f37e49049fafb41bbdf25fdb276e5aea",
-      "size": 42460
+      "sha256": "398c2b6847bc5b4f0e313485569063cceb71e5bfabd04e17f76fe07488c87323",
+      "size": 38972
     },
     "cards/know-thy-place.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/know_thy_place.webp",
-      "sha256": "042060bd9462ad8c305eca399468ad424d8a3993329d10637e720a269dfe1eca",
-      "size": 33240
+      "sha256": "2e83bb7ce70bc1ab47ecc5f8104d23e413f274423244f829715398779cb23e68",
+      "size": 29666
     },
     "cards/lantern-key.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/lantern_key.webp",
-      "sha256": "a056c2f157d10920728416f6ace659aef4b6b51dfa6f179a40d769525c37a70f",
-      "size": 32870
+      "sha256": "c23c1d539069a8f9eff574120ee8b802842bef9a579721a45596ff286abe5cdb",
+      "size": 30834
     },
     "cards/largesse.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/largesse.webp",
-      "sha256": "a1e87fbd47d5efc220abdad9e38ac9f6918baa952a27df241260e6625df10039",
-      "size": 36556
+      "sha256": "0845e56bb6f4f869e9280686b3cae39755a3964067bc48a5d93fee9629f68572",
+      "size": 32986
     },
     "cards/leading-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/leading_strike.webp",
-      "sha256": "33391fdeac8371d40ae6c9aab5864452d5a9a1e6ce0d47c5f40b58d13d0be6d3",
-      "size": 32732
+      "sha256": "d95657e580c199d6c72007211faeefd82deb490dfb90eba77a7c9dfbe5257dc0",
+      "size": 29952
     },
     "cards/leap.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/leap.webp",
-      "sha256": "a18d2c99ffe124bf3ff5568d054a606c5ac93a3000ce18e71966b982a6f6d804",
-      "size": 29706
+      "sha256": "86e78da1245e79eeea6757cf1a81a207fad5f055c478c5fdd1d3c2adefc27fcb",
+      "size": 26046
     },
     "cards/leg-sweep.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/leg_sweep.webp",
-      "sha256": "6bf9af35a1fcff0307209be82445e63a464e6cfeb6319c61d486a3daa072caef",
-      "size": 32966
+      "sha256": "c955c17a61634569548a9e1421c741304daad1921be637570217fff49b2ec236",
+      "size": 29676
     },
     "cards/legion-of-bone.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/legion_of_bone.webp",
-      "sha256": "a0e7a97737703a9f3d197b5784da341c7c6e36785b0f86dc3be58f9b9d1a2f57",
-      "size": 37356
+      "sha256": "3c0b46abe5b452246005a1a0f1001ad45b7ac0107c49c11577556de4e62182fb",
+      "size": 35430
     },
     "cards/lethality.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/lethality.webp",
-      "sha256": "f9844ad336aff98a43452d9fe8af79b4beb88bc1bcc010343fc1ac5234976f98",
-      "size": 35112
+      "sha256": "870c0a79ed0c4d3c4d3d73bf1f9b43e176f49116f19bc997d5c01f51e41725f1",
+      "size": 32918
     },
     "cards/lift.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/lift.webp",
-      "sha256": "39525853d6cd63438678fb1b5f8a0d2250604fd8b0267d5d2028e33898a40f99",
-      "size": 34970
+      "sha256": "57b1d65895f373641ec1abff406d406a109ca4c0c44cd813473e4d630c43b6d6",
+      "size": 30830
     },
     "cards/lightning-rod.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/lightning_rod.webp",
-      "sha256": "481c56cdfadb9115369e25f12c82daf7a46ef6cf2ae099db8b5179cab849df7d",
-      "size": 38440
+      "sha256": "bb059edc8e8ed7523101bc851d20bee7e71d2fa6673b3317bbaea50d610048de",
+      "size": 34296
     },
     "cards/loop.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/loop.webp",
-      "sha256": "a27bbdfc583f444652793055325c098e52b21a44fb0c4417f50de3496b0439d3",
-      "size": 35198
+      "sha256": "e92af3e2ac50b1e208480930279a2e6ae98c99f3e729786f3de692406da2d45d",
+      "size": 31922
     },
     "cards/luminesce.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/luminesce.webp",
-      "sha256": "43538ee1c7ff2b824a9325c8a4a015cc759d904e63eb51855221e7fe6925e354",
-      "size": 33066
+      "sha256": "0af1ab103926bfaf3ea69e434d2062c1acff8f5eb41f50fd25a143a56e0b70e6",
+      "size": 28846
     },
     "cards/lunar-blast.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/lunar_blast.webp",
-      "sha256": "ba3e20182041ce6d9c431494d04d03294fef1f2c5a3e433faf9a48986963e56e",
-      "size": 38786
+      "sha256": "5249d8f363b47a6cbde63c00946ba5334f635f334c01f29ceef77110feee9918",
+      "size": 34268
     },
     "cards/machine-learning.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/machine_learning.webp",
-      "sha256": "5512f337279475ef8aab93cc9a7ab543beb01ef4c7fcd7042ce950c8b65e4a6c",
-      "size": 41074
+      "sha256": "46de1baab9ea0c745779bc4f44d3fbbc3db351a8d64ac9bd33f5218ee1a5bba0",
+      "size": 37732
     },
     "cards/mad-science.webp": {
       "source_url": "https://spire-codex.com/static/images/cards/mad_science_attack.webp",
@@ -1558,1328 +1553,1338 @@
     },
     "cards/make-it-so.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/make_it_so.webp",
-      "sha256": "98544b246e7fbdfc2561856c892609d0d88a659a0b60a3c9bd807c7e20f36a22",
-      "size": 43162
+      "sha256": "a60e2686c0cecbd2f6568db0d130b5759476632341bdaa117f04d7b375a54149",
+      "size": 39278
     },
     "cards/malaise.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/malaise.webp",
-      "sha256": "09d0097a9fc1e8768b721076b69c971be27adb2c61d4c195e984327e02157ac1",
-      "size": 38222
+      "sha256": "13634338c890e03f3f41e59fffc6968e44dae6ce66c6eeb8be13065026b3df8b",
+      "size": 34262
     },
     "cards/mangle.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/mangle.webp",
-      "sha256": "fb82c8eb835460c915890204eab9339925cbd8609dcdd6409f8141970086bd11",
-      "size": 35632
+      "sha256": "0151117547d64b7eabe9f8960b900bf325e568eaeb7d2aa8a5d42476fbda5ca2",
+      "size": 33770
     },
     "cards/manifest-authority.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/manifest_authority.webp",
-      "sha256": "e89e2645c03bae08014c1ae5b2d68e8d86b7f413aa3fb4742ba6a8f057c58869",
-      "size": 43266
+      "sha256": "29238cc155e0566abe930da9708af9b418f82bca4b2ca2905ea7ce90a64bc4ba",
+      "size": 39236
     },
     "cards/master-of-strategy.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/master_of_strategy.webp",
-      "sha256": "332bc0a462c8e5e037f4a848677b7d89f1e64817d8b7252ddcc57d3a47eb5ce0",
-      "size": 31768
+      "sha256": "6090cf8a9b7829938b5a65eafa718f7a8434fabcd7556b5482f18a336785b30e",
+      "size": 28372
     },
     "cards/master-planner.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/master_planner.webp",
-      "sha256": "c6a446dbe1baa0fa01ac57920ce7ead53f338c6de31a608fe85c31b91ac248e1",
-      "size": 39138
+      "sha256": "5d8100350f58b44585728142d757623ca29736328bdeda48b632b7cc2675d28e",
+      "size": 35972
     },
     "cards/maul.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/maul.webp",
-      "sha256": "95a8e5d033f453e91bbf4d88ff67b661dbbd427dbe2b7c78d57ee5a55cb90f0a",
-      "size": 52662
+      "sha256": "84c35e6463cf98c5a6f27c3f76fc8db66e4ae902fb1b8a7967ab51c97c9c84a9",
+      "size": 46164
     },
     "cards/mayhem.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/mayhem.webp",
-      "sha256": "3aa36752c63b44c08325e3edc6d8089846b268765763a75b68573b584e7c305d",
-      "size": 35668
+      "sha256": "ad3e970e09b6fa21daf3001d6f695b9812a5043752a82b512a85f7adeeed8cb9",
+      "size": 31968
     },
     "cards/melancholy.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/melancholy.webp",
-      "sha256": "d5e4f51a80a2899070e095e998f8e919e1d990b6be1657b63ecaa3debd21ec80",
-      "size": 38350
+      "sha256": "0d1548e9266200e1006a60532ad904bfea4ba85716d5af3ab29823722723efa1",
+      "size": 35380
     },
     "cards/memento-mori.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/memento_mori.webp",
-      "sha256": "437aaa620d0b131179750ab94d9be2c4b299c66e602ea615d18c36fd995d9ff4",
-      "size": 42000
+      "sha256": "de49de6ef37dd4691897dc344e1da262a485e612fcf2870cb56e15fe2ab33079",
+      "size": 38338
     },
     "cards/metamorphosis.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/metamorphosis.webp",
-      "sha256": "e792c0ecc8f36edc1725be27c6395b4ff93c3a47bcfaac4bb25a22a3888e525a",
-      "size": 39018
+      "sha256": "e1573eebdd3f20fdc7106ebd797d45caa46fc2a092ec260a3d270ffb92dd6b70",
+      "size": 36046
     },
     "cards/meteor-shower.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/meteor_shower.webp",
-      "sha256": "fefde0d918ed7df65ca13310445d74dd1b1bc7410f55450690a6b29843883264",
-      "size": 53116
+      "sha256": "736925e0f2c81e312db0d6638b3e858482f13d29d382a83e87caa6a246d8fdcc",
+      "size": 46914
     },
     "cards/meteor-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/meteor_strike.webp",
-      "sha256": "0fb61677d899bfc4b070c88800b701a4dae7454531a93a6b5ea7abc086ba98a3",
-      "size": 37406
+      "sha256": "65db333807c85d0b0420d9fd411962d87a32ac5b3350d7ae16699b5239167bb9",
+      "size": 33124
     },
     "cards/mimic.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/mimic.webp",
-      "sha256": "9469adbeb62d36ff87c2d9546a4805d4cf896bcec12bb282691dd17a049f4a68",
-      "size": 38654
+      "sha256": "3a385ba81328e1d3e2234c2a47f1f3dd36463e38bdc83452dc1c384bdc6aab7a",
+      "size": 34886
     },
     "cards/mind-blast.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/mind_blast.webp",
-      "sha256": "0cc99bdcc7a519923ea51e092136a9460a282a8009fc565999a6112699cde397",
-      "size": 35874
+      "sha256": "c332f880cd6d0d210dff188e8d9d43a828b53a9c5a581b012edfc7029bed9c3c",
+      "size": 33174
     },
     "cards/mind-rot.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/mind_rot.webp",
-      "sha256": "bac682b2836177d9e49f7e136b4c0fbb4fa44a0c2960aa6a3a27f926f631072a",
-      "size": 35256
+      "sha256": "2d79c41405fbcd7e1e849645923a33811c40a56d612b793628509ae8ee4a61cb",
+      "size": 31150
     },
     "cards/minion-dive-bomb.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/minion_dive_bomb.webp",
-      "sha256": "fe55861afee5f9312c8d19f5a814a1f2e11010f37ce278238387907f26746d96",
-      "size": 35326
+      "sha256": "cb7f26d12c78ffebbed69265c6bed594cb283b61718421f8bf35ff790008bb5c",
+      "size": 31892
     },
     "cards/minion-sacrifice.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/minion_sacrifice.webp",
-      "sha256": "3ce026439b11121eb678620c525c33cfa367d82ecb40691c94dc95e6cb1f3be6",
-      "size": 33288
+      "sha256": "4dc30a43aaefa96b4e7bdf3d05b139d2192d4b31e0f3b97319f19ec311ea95f9",
+      "size": 29992
     },
     "cards/minion-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/minion_strike.webp",
-      "sha256": "6ae2686301d12997f97459943809a474f8873a2cd730a051aeac87ff6c93334a",
-      "size": 31672
+      "sha256": "c27fec3606f7566b56f7390ddc1073910fc9c504e35203f1089e8d80710aa180",
+      "size": 28488
     },
     "cards/mirage.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/mirage.webp",
-      "sha256": "98f61d65fa7988acebeaebd057780f020bd28aedb58ab91a3cf378d159c845ca",
-      "size": 36772
+      "sha256": "f760281c57fecfcc90691bc9298695b8aa03ca2f4cc1508b13a04f1f80ffa478",
+      "size": 33190
     },
     "cards/misery.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/misery.webp",
-      "sha256": "2bb9afbd6577ed6162154ab113ceb28592e5875b0e89257b71affd7440240113",
-      "size": 39802
+      "sha256": "9cba6218239df8aa5fe243bb60c7ddccffe8927b025135be86e9713f5f62e7ac",
+      "size": 37574
     },
     "cards/modded.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/modded.webp",
-      "sha256": "2ec57f913fe3fdf46f01418d990aaeea43639f8db996b0025e54b597cb7766b4",
-      "size": 39736
+      "sha256": "42d0ddd529d50207126db506d418d7c57a71304ad642f7099bd7f2749dccf4b4",
+      "size": 35654
     },
     "cards/molten-fist.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/molten_fist.webp",
-      "sha256": "4611bc0fbf3794dfe0989e46cd70ac6350571f1d15c33d5938f22571fd714bd0",
-      "size": 36102
+      "sha256": "f6a24df335e039d3b53ffbb0736ec6722506f9ae9dcebb50229f5918b7f05e42",
+      "size": 33954
     },
     "cards/momentum-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/momentum_strike.webp",
-      "sha256": "4274682ac78f1887ddd45ac6ca2ae7d9fc30f3a2aa9f6433aec2402ae4c12090",
-      "size": 36424
+      "sha256": "45c76d7c1ffb6ffa5f63e72df15b4ebfbcb59fc38b636eaa1b417e4b658b7afb",
+      "size": 32776
     },
     "cards/monarchs-gaze.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/monarchs_gaze.webp",
-      "sha256": "b2ecbabe20777cfc8ccbc361b8cd26fc2c5398f6dfadde880149688e2f1de949",
-      "size": 35960
+      "sha256": "47bd3c14848f62c576b6ba8fc39574cd2190677de4dcf7ce421c888b53ea4695",
+      "size": 32788
     },
     "cards/monologue.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/monologue.webp",
-      "sha256": "6d783bd4224893c520cbb24f9c1d08b0d86b45e93d50d0edadfcf66d82d03978",
-      "size": 40480
+      "sha256": "78e9bd652ff717fcfbad6c6a2c502ac95174b8a64a9b6669354dd4875316410e",
+      "size": 35994
     },
     "cards/multi-cast.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/multi_cast.webp",
-      "sha256": "c14ba41ee9f4d60147fb5b7e2a21c5fe663bbb9eb4619b78269b0af490f5d7ad",
-      "size": 32574
+      "sha256": "81f80a26b6bd9ae667639a156a20385bd4b0eeead990505693712ee34f22f21c",
+      "size": 29560
     },
     "cards/murder.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/murder.webp",
-      "sha256": "23d39f8ff256ea28d96c9cf8ccdb0f4195a6a28e816f4f7f2f3d6c0722658048",
-      "size": 33422
+      "sha256": "ceed9da979171c2cebb76bc9b7cf78321e8db54ebe9297c14e285a99e61dac19",
+      "size": 30680
     },
     "cards/necro-mastery.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/necro_mastery.webp",
-      "sha256": "aa4a7aaabc7405e9424608a7c985dc44806f750431017057f29c604f19bcde48",
-      "size": 40364
+      "sha256": "6bc406e70ae494f1a6e89a0aa270eb90ea4e8f8a79abb32ac1651612f2fd6b84",
+      "size": 38106
     },
     "cards/negative-pulse.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/negative_pulse.webp",
-      "sha256": "531e24aef47e88f8d16e3f0eaaadbb131831be65b80540422eaab7befa0e69e2",
-      "size": 37550
+      "sha256": "c15a66848767d3a36e4dd3640611557874dd5dffc6b38bbd7cb12c133cd34005",
+      "size": 35268
     },
     "cards/neows-fury.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/neows_fury.webp",
-      "sha256": "ff631e9922ef7682835aa80e76dc5ce62e1a11d20b23a05edf25cf4e0ec4ac9a",
-      "size": 53938
+      "sha256": "a636ce00e9861f198acd6fa53d1f7c9250b49a46227dca19e4fea376af4c3ec0",
+      "size": 47154
     },
     "cards/neurosurge.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/neurosurge.webp",
-      "sha256": "14a1d206866cc3952eb030e69068ee368f7153605d8c0a056fb638293e8980d3",
-      "size": 39204
+      "sha256": "77e239d567c269beb02e474e72cc24ea05df29439a586ed83de27971b14364b5",
+      "size": 37076
     },
     "cards/neutralize.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/neutralize.webp",
-      "sha256": "229d13d41df26a8798bbf32ee170e220263d0766c26932a5be3b72b0b080f36e",
-      "size": 31958
+      "sha256": "6bb5a80a43351e6a73098233cabfbff70e6a452701f4d7ac71b2f90384e17a26",
+      "size": 29234
     },
     "cards/neutron-aegis.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/neutron_aegis.webp",
-      "sha256": "b55e99f32729a5ed5ce5a4273b850c4b022166aa5f8632e61fe4eaa5d21f3261",
-      "size": 39750
+      "sha256": "8f105c2e8460cfcbff6bb552628debf58698ea32ead5a86534633503e45432ea",
+      "size": 35550
     },
     "cards/nightmare.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/nightmare.webp",
-      "sha256": "f8eeee71a1991faee69327fcd37268e246ee8792959287ec3bb55de475b97414",
-      "size": 40096
+      "sha256": "83d111cb14fa787e3bc704fad0127a85a39e3a6460f6f9cd58724448e599b517",
+      "size": 36950
     },
     "cards/no-escape.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/no_escape.webp",
-      "sha256": "8955b33473094b7c02c63f9b7ef572a665b2ee849d4f234cec0ae98c1d03e963",
-      "size": 36450
+      "sha256": "480504a35153401b4258c4b815c1f1789ccbbdae0a986623f702726aadb82984",
+      "size": 34008
     },
     "cards/normality.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/normality.webp",
-      "sha256": "848128a331690ad33b28581028789d47384a3678458f6c4d266ff417e4c0d198",
-      "size": 32870
+      "sha256": "8448330d198e13bdc8faa0ca1bc9f7626a845dc278cf0821da9dd37bc5d2918e",
+      "size": 29376
     },
     "cards/nostalgia.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/nostalgia.webp",
-      "sha256": "a46d3b213a6355dd782d5cd237bade1edda14d9b709a871e0cb14c3ba6a4a0af",
-      "size": 37962
+      "sha256": "9d7e5d07e393c41ee8fb3e4db4965ff79e91cb74ff68e439645dd8d6a052c383",
+      "size": 35136
     },
     "cards/not-yet.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/not_yet.webp",
-      "sha256": "59edcd38a68583cba707624594416cdb4a55bc9c04fd78390a8dee90c4b037d8",
-      "size": 29790
+      "sha256": "1f0cfae14c09d2207990da3ba27de56800a92d0efef1a17bf6b243c0750680e8",
+      "size": 35662
     },
     "cards/noxious-fumes.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/noxious_fumes.webp",
-      "sha256": "e8efe741941e3594e1e154741b7e21698f4fd34cc2524becb06d41f1be622997",
-      "size": 35094
+      "sha256": "e7e534ef6fd84f7cb931542f4fe4cb5241b95e1a3d2962d48cc855f15c7e2db8",
+      "size": 32472
     },
     "cards/null.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/null.webp",
-      "sha256": "e74c069e367450b15ceb62366783b8956f98b5401fa6fbe6b1ea5c3d2c8f750a",
-      "size": 34466
+      "sha256": "26953551ecab8897f5f98462af528fd993b71d97f454cc7138c0e955b73b4015",
+      "size": 31038
     },
     "cards/oblivion.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/oblivion.webp",
-      "sha256": "8afb47e67a3a7e3ab3ac2345ffbb47579989e5acd2ca7cd994415c1ef046ce62",
-      "size": 33740
+      "sha256": "ebf8df913036d39ab4327eae48d80013fb354514b82e5d4a56c97bc55b806aa6",
+      "size": 31048
     },
     "cards/offering.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/offering.webp",
-      "sha256": "0f82c7cf4acb0a8962ca394e86ee52f9d65e64929577ac88a48ddd8a841502bc",
-      "size": 33002
+      "sha256": "24299745fdc4b959107f98b30454879d0b75ab0cd3b6e9c74ad2e0a389a62d15",
+      "size": 31362
     },
     "cards/omnislice.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/omnislice.webp",
-      "sha256": "a2c547d5ad498916d9031b8de265782c586ac2cd9c0b4de675ecf5aee0a2716f",
-      "size": 39902
+      "sha256": "2f6c73e31dfb1aa424817faeb8fd28f48e5ef0b9bf4b536feb356869bc1651ec",
+      "size": 35734
     },
     "cards/one-two-punch.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/one_two_punch.webp",
-      "sha256": "6130935071e40f879be605cbfa178caa899321d26578c24fe574bf4c52d2aed7",
-      "size": 34288
+      "sha256": "8900a0145868661e34e6a9301a48ff5fe0fec4abc69c829eb90df7e934f74bf5",
+      "size": 32174
     },
     "cards/orbit.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/orbit.webp",
-      "sha256": "9f3a506748a2348259ea74e9f203ec5ab85aee70ad5e01fb3fde08e782971fd1",
-      "size": 36624
+      "sha256": "ae7ec1dc7aa85cb69c0c70043ff57295ae6cb92b82e345b173ec346cdf24ad78",
+      "size": 32490
     },
     "cards/outbreak.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/outbreak.webp",
-      "sha256": "fa58f4f80ece6c4412f7ef826a288526d065e5e2121ca9584a74824a573dd914",
-      "size": 40504
+      "sha256": "564c13d09f4ce540e7dc260dbed1c6dc727931c19d0045733e51d0f6f8091e8b",
+      "size": 37566
     },
     "cards/outmaneuver.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/outmaneuver.webp",
-      "sha256": "f68371f4291059da00e13c44dcfbcc6648964a51027ca15eaf8b3452993386e8",
-      "size": 29160
+      "sha256": "ca4dfc8ed54dcacd2dde117792f365cc35e285923a09e809f4d2b849994f1d03",
+      "size": 26388
     },
     "cards/overclock.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/overclock.webp",
-      "sha256": "83dce0e03f39ace77811dfc4a35eaef6d3a40625c6442f006c1a25c1be390921",
-      "size": 35928
+      "sha256": "967eddb59d9fe3bf5875a701a83660698a44a8eb970e81205f524724ea1e71ea",
+      "size": 32328
     },
     "cards/pacts-end.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/pacts_end.webp",
-      "sha256": "8a944681af10386bf5ca7f69124cc50d6b3a919f51cebb780d5c3c6a8169f934",
-      "size": 41456
+      "sha256": "d72b7e273aac4d2c04fcf72fc613dabaf8d2090f775ac66752404522d9dc2540",
+      "size": 38066
     },
     "cards/pagestorm.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/pagestorm.webp",
-      "sha256": "2a01339ff966a6a627ee90c28f872a39b2c0d4de6b483b36c262d53165999035",
-      "size": 36830
+      "sha256": "f8660296d8c38aed9f3ba29df709b2a33968e734ca2634c57fed3d39e745df0c",
+      "size": 34716
     },
     "cards/pale-blue-dot.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/pale_blue_dot.webp",
-      "sha256": "05c41fcec3d0bd7d96ec785c8203c1f461190b82bbab6e42109197439c973782",
-      "size": 42084
+      "sha256": "5623073c5d71f1eb3e77adf9edbcfb837496323ddd91df82772f458bf74e5f14",
+      "size": 37634
     },
     "cards/panache.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/panache.webp",
-      "sha256": "eeb8232fc8c68ee6c1525e1bbcc615c8417d5ac90605c9e2ce8a87efecc1b802",
-      "size": 35180
+      "sha256": "beed4afb772140ffc6f09a0a36e91d1c9b92abcaf73510b70163a42dc6f3bedb",
+      "size": 31260
     },
     "cards/panic-button.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/panic_button.webp",
-      "sha256": "b06ec3ff4ee1afd54258e47f6415504d9f940a1c5691f4b9cff5e5fbe7bfb999",
-      "size": 37092
+      "sha256": "e2c14a1a52419b657df556be16a6a8555503cd64d1f374a2a76f385358f13e82",
+      "size": 33574
     },
     "cards/parry.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/parry.webp",
-      "sha256": "fa989d8e359f5d31a5cff14a69bdfa9831ff4b5da4d29c0acd6309bf7dc643bd",
-      "size": 37182
+      "sha256": "f48c66778a302208331dc75141e0d0df7b112ffbb1d36b6be40315e1502c1617",
+      "size": 31708
     },
     "cards/parse.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/parse.webp",
-      "sha256": "18f8583dd7db1e8cec7d94520706cf13f205961ada899a1a6ce2b4b658b80c05",
-      "size": 30950
+      "sha256": "055ed36fda4a9f024ae74698e064ae69467dd01f46964410c85fac4e06d82dc1",
+      "size": 28770
     },
     "cards/particle-wall.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/particle_wall.webp",
-      "sha256": "ae61563a39b078d355c7503f7e96997ad44e0e4fe0e5275bf8cba4453bd18e43",
-      "size": 43194
+      "sha256": "a80aae6c6c69cfb8d1faea8c0b68666eb791192a5e29f5203ba1394f6b209251",
+      "size": 39002
     },
     "cards/patter.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/patter.webp",
-      "sha256": "b95359fc4eb71fac4c12a3ef3924a574d9713a00b8fd3316624ecf39f179df11",
-      "size": 37384
+      "sha256": "735df2c64180eddbc35145d7a750253bb2e943ad3002d1fd4e9b247dc8343f31",
+      "size": 33276
     },
     "cards/peck.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/peck.webp",
-      "sha256": "bbc11be3371752a533b66fc7c598062f7d89a5e3bcf969f86bcfe2f50402c4ae",
-      "size": 29888
+      "sha256": "69c53094dd691ddd07743a4bc99895721421979cade85f98442fc816cde892e2",
+      "size": 27458
     },
     "cards/perfected-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/perfected_strike.webp",
-      "sha256": "a900e3299b0a2dfefe100ecbe7bb0a1d7a8672e6721e711633a27f62ac3bb970",
-      "size": 37818
+      "sha256": "3c2fd48c76215a25afbc7d7b462be834ee50cbf4736499f1b64eb01dc02f2d4f",
+      "size": 36090
     },
     "cards/phantom-blades.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/phantom_blades.webp",
-      "sha256": "1cf6671eaf1a96a66d1dee7f11f7417d343f3e20a44dc5d44f7bac028bdfd400",
-      "size": 40656
+      "sha256": "41c46828bdc4f5494d332e249e36f0a8592350a8b688666e1b3aa838dd5db3af",
+      "size": 37766
     },
     "cards/photon-cut.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/photon_cut.webp",
-      "sha256": "0ec6b5a398a92b151514fefb874d3cb6e024e97afb96c92768100ab4cd48429c",
-      "size": 40146
+      "sha256": "633e53131cb0f3cb0249fdea9a53442799f5c4ac86ed9c826c002f76440a2f4e",
+      "size": 36332
     },
     "cards/piercing-wail.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/piercing_wail.webp",
-      "sha256": "9e6f1fff8b472574460aac98aec8060504dace7d755b15c2498317dc130ad18d",
-      "size": 33838
+      "sha256": "06eed7d52b974d1ff080ab82029e2f74dd6fe42e5c640a8aec9fa284d817c6b3",
+      "size": 30454
     },
     "cards/pillage.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/pillage.webp",
-      "sha256": "6d8b00d9ca9c0e7bdd832e2f9f53f2c591071edb7a4f07ceec5982d9d349cc3c",
-      "size": 34806
+      "sha256": "9b0240f5158ecd81e766b8e13d230718045b62db1f76656dd534eedf03202445",
+      "size": 32982
     },
     "cards/pillar-of-creation.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/pillar_of_creation.webp",
-      "sha256": "04b6c96dd5146c5f82fe34049fdfd7c0e97f62f33ca4c5e84495d998ffaec593",
-      "size": 41782
+      "sha256": "4c7d6a2de542c0d6496e694765b772f3375dfd2fd5a488b7f226688c00320df9",
+      "size": 37946
     },
     "cards/pinpoint.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/pinpoint.webp",
-      "sha256": "22454818d8af99112fc16886b6d643ee7719a2b18ab386a2a2799b395983cd68",
-      "size": 36982
+      "sha256": "339a049c175ffc241b517f217d2d8fa7fbe7e95b5fd6506651148d1f27dc2335",
+      "size": 34048
     },
     "cards/poisoned-stab.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/poisoned_stab.webp",
-      "sha256": "2ee636bcb66d19c11b8a679c55f5c96d8b23890e2ba5b5fffe434356ac3e45c1",
-      "size": 31848
+      "sha256": "df71792fc0a1da9d8317f77b38252bc96f31329d56169266e4600158b2d0ab89",
+      "size": 29016
     },
     "cards/poke.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/poke.webp",
-      "sha256": "000d0f809745b14678a2e15ec2b0f3aa9b39bf8eecfe4247234cc6f779e287bc",
-      "size": 29822
+      "sha256": "fa5356e9a6e6b32d73461de443b33a487ae73c37285218fb3c37932319153e68",
+      "size": 27616
     },
     "cards/pommel-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/pommel_strike.webp",
-      "sha256": "36ddb096fa4670fe23db847bae24310817a4c1ed32fe18ecdd5d2d850215d4f1",
-      "size": 29360
+      "sha256": "d5272c47ff0ca562d0cfc193c83065eba78e8efff3f3fea33db6cbfead9e7705",
+      "size": 27428
     },
     "cards/poor-sleep.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/poor_sleep.webp",
-      "sha256": "caa4ccbc9ce7122fe849eaf07639d2e5563b91e335911f7d5cc0cc1d29e31a60",
-      "size": 31156
+      "sha256": "e0e858cbfee7254551f021402ef0a75afe1c61c39408e0dc08a3791755824b5e",
+      "size": 28734
     },
     "cards/pounce.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/pounce.webp",
-      "sha256": "cd3ab2ebbd0583731af803ebb57a1bfb9b44791151461f12811521a0b514007f",
-      "size": 33140
+      "sha256": "3eefde8b59fd149ece9a6af7d32312ff078a38f2ebe9a558b376cc8adf0547c3",
+      "size": 30676
     },
     "cards/precise-cut.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/precise_cut.webp",
-      "sha256": "8dc9bf86099dafc7a6e492b70501867f20bb5a601e72ddf7104042b46c93843a",
-      "size": 39758
+      "sha256": "fb735018fdd1ced289cec099ae867ad7f9f98025812cf5a69718b82d3eea37fc",
+      "size": 36960
     },
     "cards/predator.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/predator.webp",
-      "sha256": "5dd7bd7e1b40e7142d933661f88602f4c89648cf5c57de11a42757bbe8a76f04",
-      "size": 32450
+      "sha256": "8ea50b10dc9c26c0d00b83e6150a4be59650ad3f404e6af93dd419983de7f84b",
+      "size": 28524
     },
     "cards/prep-time.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/prep_time.webp",
-      "sha256": "a803b3ff66723c2dffcf174ae59530751a0fce8868522f78336817f12d0e2f22",
-      "size": 33756
+      "sha256": "d434883c4630b9bba1345e211b6715a15be5cecc940ef8e694be2c8bfe17a192",
+      "size": 30188
     },
     "cards/prepared.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/prepared.webp",
-      "sha256": "c95362ce3d78d306c3e48ef76243910e0c836efb703d6a0a376c53e22c8b6f3e",
-      "size": 32322
+      "sha256": "9c1c3882c72710b686a73c0c672793672fe22a12b8cae67c4167f967b91e91ef",
+      "size": 28984
     },
     "cards/primal-force.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/primal_force.webp",
-      "sha256": "eca09e67232ca1371f9d7f9fa183b2a6bd1c4054b08d953db8b1d72fcdec5f15",
-      "size": 35164
+      "sha256": "29f2ff9a330c0f33c1c45679590dee057e38d92a19df73fb8fb3ccfb1e34f84d",
+      "size": 33448
     },
     "cards/production.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/production.webp",
-      "sha256": "838f2d1df44cd5149185a9b79b2c14c5ff2e986daeeef95778263b420444c5cc",
-      "size": 34424
+      "sha256": "da133bb048ac2134e7ee583c3ea6d818568075bfed788bd1263b3ee87659bba0",
+      "size": 30544
     },
     "cards/prolong.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/prolong.webp",
-      "sha256": "cc38339add27394eb8ce4389fcbb2138fc3008cbd148fbc433b0b0e4a275705e",
-      "size": 35158
+      "sha256": "fb7f2cc192e3e366cc586971c9f74707a0c083ab0108b8d6d421caa26a8578e4",
+      "size": 31618
     },
     "cards/prophesize.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/prophesize.webp",
-      "sha256": "824bd6f29ba8e5864967989474718b854a9043dc1bcf937368e05178c007e9d1",
-      "size": 32502
+      "sha256": "81cb8b01cd997c4e82b654bc527efa018dbbfebac571673dde5a1df71e467e0b",
+      "size": 28646
     },
     "cards/protector.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/protector.webp",
-      "sha256": "e13df22d36f25db989657c68ba43b79a19964c19604e531c2ad0f644abcbe6f2",
-      "size": 51538
+      "sha256": "fa81975bdf391250452dd6bb7bf8780772d3fa2d063f2083f59a25715e0d767e",
+      "size": 46000
     },
     "cards/prowess.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/prowess.webp",
-      "sha256": "bf9f39e52f13ddaa50cbb71b76feaa13e4c9121a694b9e8b4df838076683722f",
-      "size": 31534
+      "sha256": "f9cc58a74c17c3ed38929b62b49377fe88ca36a0cd7b625cbcfd1db47e6ec50a",
+      "size": 28300
     },
     "cards/pull-aggro.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/pull_aggro.webp",
-      "sha256": "ea0a845de45991b03166a9f4929119320c6cd2c419a2a1c464816ff3622c3cd3",
-      "size": 31330
+      "sha256": "deaee874e5fb18be93d3608f1c5ed7deba4b25d92febdb36f7e6b8447df1abf5",
+      "size": 29564
     },
     "cards/pull-from-below.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/pull_from_below.webp",
-      "sha256": "03b475129652e11ede2ab0104b6d3902802ec093a01cf484b379422ec9a7a930",
-      "size": 37154
+      "sha256": "161a14595fb8b3f084b7a92197dcc5b432625ea4144ff0e9a454ede127533c66",
+      "size": 35010
     },
     "cards/purity.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/purity.webp",
-      "sha256": "06c7520b59912a1e29848247305d51b72ac59a920d7efe02ed3b7bac4497330e",
-      "size": 35422
+      "sha256": "cbca211b429b3ea8769f36a0e9d2ce06630cdca6d2b66251549e1b7b6bdc3651",
+      "size": 31752
     },
     "cards/putrefy.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/putrefy.webp",
-      "sha256": "7f9347694df1f734be783a5d70f3bed3e82fd7c474dc4b860a4578ccba220fe5",
-      "size": 32486
+      "sha256": "4d26edd71f2c406829c7a2a6fb0e3ee410aa9b8a1effaad2d33c266abeddbdc7",
+      "size": 30594
     },
     "cards/pyre.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/pyre.webp",
-      "sha256": "b660e16456003df9ce8a29d44229bd0a77d209e423583342031592b114c73fc0",
-      "size": 33500
+      "sha256": "59426f08a6a9e0e715d81e55322b99d43edf4c683a97d471575feb67db3ecbb0",
+      "size": 31064
     },
     "cards/quadcast.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/quadcast.webp",
-      "sha256": "9ad9a3e6a95e6ed6033d757d5c407f54bd06f1bf1fba3d48511723bc0d1c3a97",
-      "size": 48714
+      "sha256": "4e823f18b7f43ac709037f8646d11a279475729a3a0be64b2ab1aed8c3c5b3b0",
+      "size": 42896
     },
     "cards/quasar.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/quasar.webp",
-      "sha256": "ab9769bfae1790a3cdc6e2c39fb035b3ff2de700e340059eb173af036a197bff",
-      "size": 40532
+      "sha256": "dcb498f21cc58d94b781a9c69e28c94683a1c7abcc176270ef16a5fdebf6721d",
+      "size": 36246
     },
     "cards/radiate.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/radiate.webp",
-      "sha256": "365ac957214095842a822c63cfc3b0d0e306c34b7b4b2d308799ad272d48d445",
-      "size": 37914
+      "sha256": "1b6ffa6bf166b9930330dc0207d2d3d8f94c3cc68bca18b8d8f199aed1ac8976",
+      "size": 33616
     },
     "cards/rage.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/rage.webp",
-      "sha256": "58bb9488e4d36aa0f2ae74df8289e8828909ae3bf808fb25f1f03a6398319a4d",
-      "size": 33316
+      "sha256": "b4fe6235504f0dc9a20c7e1442c3b01b125ca9584018ad1fe3495f4fbe3a719e",
+      "size": 31204
     },
     "cards/rainbow.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/rainbow.webp",
-      "sha256": "7555e11d3aeb7d8c1f02d8915219e816bfb5245391e08d56f9532cc855cda1cf",
-      "size": 37116
+      "sha256": "4847d5be8f1558ed2dcb6b4235b256a4305151db0b3566083543c7299bcfd2f2",
+      "size": 33720
     },
     "cards/rally.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/rally.webp",
-      "sha256": "96f8cfd9c427f9cec9ec67d381a76b8288a1ca0b724e7c25921f6668657fdaf6",
-      "size": 38322
+      "sha256": "4b4ae53cd6f5edbbffaf88590d4eadbef4341377d2fd07503759429c08d99924",
+      "size": 34012
     },
     "cards/rampage.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/rampage.webp",
-      "sha256": "469824196f22a87062081c776133c33d316174b7a2da559b91f9949c81c58fae",
-      "size": 37914
+      "sha256": "d045e8c7bc58b8f233ffe77746f8a005a8052195e26c19d74b7f0c74a8290c29",
+      "size": 35588
     },
     "cards/rattle.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/rattle.webp",
-      "sha256": "7d104c674c491bac49480d40a23d4ee674d4feecb12cd2a339a4dbb44c284c12",
-      "size": 40136
+      "sha256": "6cf9ad6a6aee2d3e5c72ff7581c9bdeed6bcf67a956774b0529bb13b21b44bf2",
+      "size": 37884
     },
     "cards/reanimate.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/reanimate.webp",
-      "sha256": "d41028bed069a04080289f4827f90c8c53e7b85267756f41fd89375c9c1f6e57",
-      "size": 30556
+      "sha256": "b2108ec6964d9828fb99c84813bd31a4357fa6eaa12694db6fbbc62a188e02a0",
+      "size": 28292
     },
     "cards/reap.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/reap.webp",
-      "sha256": "c73386c0235a0e06cb7d9768a33a33fdcb69cb74338a54b497fb3a89f95af383",
-      "size": 31630
+      "sha256": "6ba327df436b24d09ea86cf12ac7cb4e735666b9368a4ea54bf4135ce4835bad",
+      "size": 30112
     },
     "cards/reaper-form.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/reaper_form.webp",
-      "sha256": "ec75f9221c2fc262c6927d7388cb1820f86bb0952f1383e3cf56a4045154f5f7",
-      "size": 38150
+      "sha256": "d495ba213faac32fc71a338e50716e637ddf0ab3580fddd471f34dfea2265e99",
+      "size": 35372
     },
     "cards/reave.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/reave.webp",
-      "sha256": "e0e96f596228c3c136566172bbf114acd8ff4239569a3d7f2908819dd6e57b4f",
-      "size": 31458
+      "sha256": "d461131516b7e0137dfef8412af67bd6ee88fd1ed6939576e217b542228a2d25",
+      "size": 29610
     },
     "cards/reboot.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/reboot.webp",
-      "sha256": "fcbe02f2a0fe2ac87d8d2320eca3f09c523c103cf3b4427b3382c11120313677",
-      "size": 34950
+      "sha256": "53f3a1901b2fd18cd462a93931a7e9463385ed46f86ad7a2baa110b7697c0572",
+      "size": 31074
     },
     "cards/rebound.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/rebound.webp",
-      "sha256": "7fefc0c34a9d12972304f2424a985a24e779bdbfe492d47b66a261f85116e82c",
-      "size": 35462
+      "sha256": "8c20e623f795646e07a3ceaa42c114f018fb5f1c46a85d65a4c350202cc2c798",
+      "size": 32524
     },
     "cards/refine-blade.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/refine_blade.webp",
-      "sha256": "73935a70a09c5a808910f2511bb93815d4bc5d267961101a30a1afe590f6681c",
-      "size": 35578
+      "sha256": "44f7e15846924fbc243da99fcb075bd09e28c6cb4371eab7c841cca85271e430",
+      "size": 31460
     },
     "cards/reflect.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/reflect.webp",
-      "sha256": "ac0a5e66f210670fb724baca49cb62e47d6b870ad4f3f92e7c9a25166e504f85",
-      "size": 41832
+      "sha256": "be192033d78cf70c07c486db0463d9a277027cd7f254b4070fccb2067798d23c",
+      "size": 38116
     },
     "cards/reflex.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/reflex.webp",
-      "sha256": "d517efa41cc279c626b05b2f3593910f39d824b8e42e8c33e652b811cd81aec6",
-      "size": 33572
+      "sha256": "295b6b262a85358cc97305dcd3ca26a67db7b67fe5436e7ce748dbf9e37d14d9",
+      "size": 30354
     },
     "cards/refract.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/refract.webp",
-      "sha256": "25cb665030b515dfd7e06ab363f44623ef1035d98b0ac72d67f8e48d40948848",
-      "size": 36036
+      "sha256": "19373cad4ddbefa9d8666c109270acd9cedc48626f07a9af5d509445ac3655de",
+      "size": 32374
     },
     "cards/regret.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/regret.webp",
-      "sha256": "4d79e2cd011c9d258f50cf2ddc193ac2b19c107499be54a8702d46d35634fc12",
-      "size": 29402
+      "sha256": "36a551fe18dbdae7765342bc3242fe2a837035b1bdf1757613bc864ec77448a8",
+      "size": 27466
     },
     "cards/relax.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/relax.webp",
-      "sha256": "756a3784f00c42ba6681d034afbbce95f8765e0f5d1e6fa785d1747d14930150",
-      "size": 43850
+      "sha256": "119e83f0a4cae24084b6635bc8604bdc8556fe107441f60214c8eb99b34596bc",
+      "size": 38918
     },
     "cards/rend.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/rend.webp",
-      "sha256": "54811fcf359c315983bc4a320dcc412a51d55597b2ace42bc328b610eb673284",
-      "size": 38126
+      "sha256": "06e6b1b584c56ae7baa248fcfb61a0d2ba94885a8ed5ac081507a88ba5064598",
+      "size": 34860
     },
     "cards/resonance.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/resonance.webp",
-      "sha256": "9fb4a9bfe264d7fa11a23c4b938aa1116ba62e22a421baa7def95a856ddc505c",
-      "size": 40358
+      "sha256": "04bb79c654ad561070ea20958a6f4feee37b53adeae8ecffbe78eee8ba907e83",
+      "size": 36570
     },
     "cards/restlessness.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/restlessness.webp",
-      "sha256": "8c39a31b1e1950bc62e0ffd698b52a7c46b751e601a831809e24f231d01df928",
-      "size": 36092
+      "sha256": "0cb2c67c72eb5af83f06e2935823df6a81ff6bccbbc95be0903f0831c83a0e80",
+      "size": 32932
     },
     "cards/ricochet.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/ricochet.webp",
-      "sha256": "4d643138eb0485575ed70aa02439ec7c951d47bc091a2a4b4eca676b3e7cc733",
-      "size": 36310
+      "sha256": "2a7ef032ce4270140c371733bdb7112612d67ef4622533cc929b3188729b6ea8",
+      "size": 33480
     },
     "cards/right-hand-hand.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/right_hand_hand.webp",
-      "sha256": "5ef3c26bee74af60a91642628d397368cf63f5f63119c745e68612134af8f36d",
-      "size": 43632
+      "sha256": "ff5756675c05d204c255bef169fc71bc867f3eb1b1f874262ded110c42baf2b9",
+      "size": 41180
     },
     "cards/rip-and-tear.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/rip_and_tear.webp",
-      "sha256": "74a3744ae4fbfa8707e4a85fe3b02abc982a53cd5742f617af4384ea4d4348f0",
-      "size": 36260
+      "sha256": "b7c5c54b3176ed63eefafce56b60764bbc55fe76a5c0b1098690c476367757cf",
+      "size": 33612
     },
     "cards/rocket-punch.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/rocket_punch.webp",
-      "sha256": "b3fcd2e222c56306b75d24abf01aded9346bf3c4e44676505ee59ba2938ba7ed",
-      "size": 40594
+      "sha256": "16cde9a2f8a7794a49bbde8533063d442400eea590ad6181374af5595644bcfc",
+      "size": 37156
     },
     "cards/rolling-boulder.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/rolling_boulder.webp",
-      "sha256": "7c816143c47682adde0ccf2a41ee7a691970a77da66ea902dd9abade72bc02d5",
-      "size": 40602
+      "sha256": "0992fae4ec385c0b3f715b0606fed336bcbb4bf303f099ee2e56069ae4464665",
+      "size": 37496
     },
     "cards/royal-gamble.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/royal_gamble.webp",
-      "sha256": "1c5dd21eb914b59a23cd884237cd9d7ad0f84d539087734361be71ed09eaf402",
-      "size": 38348
+      "sha256": "f21097dbb99fc0493a499b697e8ffbd6eb92ee57d12a66a73052c2ea50b66bd0",
+      "size": 34282
     },
     "cards/royalties.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/royalties.webp",
-      "sha256": "3076d8d47d40ee34f673036c3d0da157d03aef534c82fd157b66caaa1b1b1bbb",
-      "size": 37536
+      "sha256": "60c63bc688353d258d15f36514ff17f6e9b6112bee2df896d64d2044cfb2c9e7",
+      "size": 34008
     },
     "cards/rupture.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/rupture.webp",
-      "sha256": "839aa3c7ad06811379954c45965f1ee91fcff5e3bbc37def6bbdbd6688f4551f",
-      "size": 34740
+      "sha256": "8f436fc1466b2d9db83de141d5339550657ba1b2985fe66157aa9e2a271040be",
+      "size": 32922
     },
     "cards/sacrifice.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sacrifice.webp",
-      "sha256": "7eadc8f57d7de60b3ad9fafe1da7b62dff92618de363c37983d400cd76ab563e",
-      "size": 39666
+      "sha256": "0f70d6672b0adcd3012af5379e64924c2ecf1b73837bf66cb27e6ecae640346b",
+      "size": 37598
     },
     "cards/salvo.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/salvo.webp",
-      "sha256": "d6b098000a6896ad5a7378b4c797b2dd4406a9e79bfb014d86f4f0ee43940d6d",
-      "size": 37694
+      "sha256": "40e56655b864f87af8a75612e8e6dacc15e4479819eae3bc9b51eb7a28c7cf1c",
+      "size": 34596
+    },
+    "cards/scare.webp": {
+      "source_url": "https://cdn.spire-codex.com/cards-full/stable/scare.webp",
+      "sha256": "4e46bb7ef2ad5e91862285bd766680ba8026e33ba0a0b3605aaceddd2076a673",
+      "size": 32974
     },
     "cards/scavenge.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/scavenge.webp",
-      "sha256": "dd9ded8a82abb5cf62786490f79cf2f43586336b4e517472bb9e2612d96ea878",
-      "size": 33874
+      "sha256": "1581be8025efed900a4d973a7bd0773162b94e01c9a06da8a02bdc3aa2eb96e8",
+      "size": 30544
     },
     "cards/scourge.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/scourge.webp",
-      "sha256": "849218031a4b80e5f815b39d6372cef3a1d543ff6f4e9b191db91885a29bc33d",
-      "size": 33504
+      "sha256": "0e6a57960ed4aa1fffdd61afd8a24ae9f21eabb5c8c5e3901c97ee000eaae84f",
+      "size": 31708
     },
     "cards/scrape.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/scrape.webp",
-      "sha256": "86edf617b27c09567d875e406372cf14e52ffe802f7d36ccaf90453bf9366510",
-      "size": 35254
+      "sha256": "c8a5dd1e879d8e4df931008a0950b3806a54e72859378cd40fd6016cead856d3",
+      "size": 32094
     },
     "cards/scrawl.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/scrawl.webp",
-      "sha256": "96633fe3f4bef14164f4e2d64b0de3956363f1d2dca16d8a72714277d8ef5b65",
-      "size": 36370
+      "sha256": "a5a873fdc3eed18c387fc22a1f7ffbd4e787578aeb0af16f2bda17cbd80b6f06",
+      "size": 32436
     },
     "cards/sculpting-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sculpting_strike.webp",
-      "sha256": "66a5156b29948ba2fcee818b465bbbb2eeb673d7638c1d1604b3ad2ef3186926",
-      "size": 36270
+      "sha256": "071b048dcd03df60d2e7a9a78fcdc498de460973523b8dae6f85c2c445165358",
+      "size": 34324
     },
     "cards/seance.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/seance.webp",
-      "sha256": "cc87c81324da32b9c583c82b4b103c03f35e2fa492f51e05833e428b4852d3b5",
-      "size": 35008
+      "sha256": "ed36a600855c21e3d6dec208cf32de07e88e8c157a1fbf550ca874a2b5e0b494",
+      "size": 33054
     },
     "cards/second-wind.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/second_wind.webp",
-      "sha256": "c31b4c8656a5be276c94fb5818cf3fc7ed9118806f85beee521c8102fb04ed58",
-      "size": 37668
+      "sha256": "e6c8c210584375c9cb19457c0693dd4cf71af33bab48334d916d26104b076100",
+      "size": 35862
     },
     "cards/secret-technique.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/secret_technique.webp",
-      "sha256": "59a94d748f6c1453ff896a0f0efc349d9c9d97de803bf1f493b5c3defa5dadd1",
-      "size": 35074
+      "sha256": "cb67c581963e825aa902af0bc703212f80708e98fb7e8af8c7711123390ff8b1",
+      "size": 31808
     },
     "cards/secret-weapon.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/secret_weapon.webp",
-      "sha256": "62d6d83b36bb4a96d8bb8cdbc29c04edb4ebc9c7754bfb5a8406b0a771991bd3",
-      "size": 36180
+      "sha256": "d7d59e143fec85ed2ad1b2d6778d2be93c4ef5d111d0c191ca0a6e1047f3671b",
+      "size": 32724
     },
     "cards/seeker-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/seeker_strike.webp",
-      "sha256": "9dc978875d7a09e2a7bc357f7c9174d1d016046766404efb61257a44bf058291",
-      "size": 38650
+      "sha256": "6f66135e2d3f14138bb16b47dfd933d401d0e61960847965ec6393a724f037e5",
+      "size": 35082
     },
     "cards/seeking-edge.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/seeking_edge.webp",
-      "sha256": "a27a8af465b35d5175d510a388e59ca0b078f30ec95fc501fb00154f6c3afd07",
-      "size": 39876
+      "sha256": "f115a17c29771cb1e1f4b3b2ddc181d4bb5695448ba3ba2181da2f8c8dfba314",
+      "size": 36170
     },
     "cards/sentry-mode.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sentry_mode.webp",
-      "sha256": "7e17fb1dd2c99ef089d5459fcff4ac1c3dad3fbd674dd97fb4bd0b465552e386",
-      "size": 35802
+      "sha256": "57df55fdf94299642df6dfbd5839cd5f9c44ecf2f6024ba2963acbe3f9df3771",
+      "size": 33538
     },
     "cards/serpent-form.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/serpent_form.webp",
-      "sha256": "2f19487c5bda9bed147899e2fb48dde2516750142c10b973f019b1e8c6468050",
-      "size": 39490
+      "sha256": "b5a2687de8ffb612456f83c36534c510bf0d38df51ddae774690ad772928c7fd",
+      "size": 36164
     },
     "cards/setup-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/setup_strike.webp",
-      "sha256": "11cdf95f13fa6538e84942f238c30ba44c6744b4036daa532705cfa8d51a1575",
-      "size": 33624
+      "sha256": "5fd9d2c2ea3001cf6f1bd829d51fe7d30980f87c7603f43052549b6ab8b8a82b",
+      "size": 31880
     },
     "cards/seven-stars.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/seven_stars.webp",
-      "sha256": "c863aa78ed7ec1ab5e07ba362325f8da91b506068fde36f63725f0664fe6cf8c",
-      "size": 39010
+      "sha256": "c201e55c5db63053b05f868ec5e84dabb52831918076081c109fea2aed5bd513",
+      "size": 35112
     },
     "cards/severance.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/severance.webp",
-      "sha256": "dce3c0d79100ef03a2ca659dd82f38e49c3f19f2142277a225804c5a3891a0bd",
-      "size": 35112
+      "sha256": "ee63a1f3e80032359350c484a5606a017587caf1b6b5786b695d22c07ce05406",
+      "size": 32878
     },
     "cards/shadow-shield.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/shadow_shield.webp",
-      "sha256": "8e532183ee853e245e782e895cb8ecddca7707f1af7d8ba0c0da82b898a33afd",
-      "size": 36038
+      "sha256": "6111e923d7ea4ba436ba15600845e86f473f7fce3ee001d12df9d4c9a57fd204",
+      "size": 32106
     },
     "cards/shadow-step.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/shadow_step.webp",
-      "sha256": "3d53e0cdd072c75e8d8dea8af8e4e541c9128b9592c7c2ecbf13f9e1ac708258",
-      "size": 32522
+      "sha256": "f6e544f5acb99f8ed3954b00fd6694be507e3d25ac685340c0b30e562b1082fb",
+      "size": 29298
     },
     "cards/shadowmeld.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/shadowmeld.webp",
-      "sha256": "9694ae0756bb70413f0261de8e2ccd42200051231b96f0e9d715704e380a2091",
-      "size": 32270
+      "sha256": "79a41cae5f644de5acf814cb2c067fa557007f7868016f5d8f9da5ccec31f555",
+      "size": 28374
     },
     "cards/shame.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/shame.webp",
-      "sha256": "9d528ff49be659c1c128dc6172b412a7c1b652a970e0b885000a4ac874411e52",
-      "size": 30764
+      "sha256": "c321cc72d9852b8c8b7b024a7f167a5531c354c63463fb39245262ea8cade8f5",
+      "size": 27828
     },
     "cards/shared-fate.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/shared_fate.webp",
-      "sha256": "e3966ea99a1d3fc940df3cb820a46b39372dc97418d8a2a1daf78bfde680e6d3",
-      "size": 33194
+      "sha256": "256b8db88f2506d4ef41c156c5ba411d97d61e580dd58f3774b18c0b9e4c72d3",
+      "size": 31254
     },
     "cards/shatter.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/shatter.webp",
-      "sha256": "617c032b870cf8924ba4edd7c5c2cb80933554f01aabd7626b62b9643ad22b76",
-      "size": 41332
+      "sha256": "a866efb3f048b023b7f9bf895f7ec9cae0e2a00eaf2b4d9c4bc902bd0d157d28",
+      "size": 38788
     },
     "cards/shining-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/shining_strike.webp",
-      "sha256": "33d3364515189e93a53a9c64d1dfb837a493d892795bd6d205176ff3a0459074",
-      "size": 40146
+      "sha256": "6f0aa82620e2f32d4c3d31c1e79c99ab85f7d6ede64f8426eaf7003457de3b9e",
+      "size": 36188
     },
     "cards/shiv.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/shiv.webp",
-      "sha256": "92ca3de048e267e40cd457aae9dc9375447f799f9aa2dd53b84512a8e23975e3",
-      "size": 26624
+      "sha256": "34fe421d40bf6b2c6d9e2edd802f3598f4097cc20d1d4cd8b440613c04a26b19",
+      "size": 23980
     },
     "cards/shockwave.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/shockwave.webp",
-      "sha256": "f3fab23848d7e550267fb7beb9eb2e373ca1e1969f638fc95b0beca7f2600667",
-      "size": 35714
+      "sha256": "dcd006eef0eee11ff783163162c2a1b5a9b3cf20bcf81a1c074f5731134709ca",
+      "size": 32280
     },
     "cards/shroud.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/shroud.webp",
-      "sha256": "b351d8a9c150f3da704ed167cd8cbf56ac122705f21301ce9e450dc566f80e7e",
-      "size": 37068
+      "sha256": "5b7a9ed906fcc144d525958e8370e1660b7bc6e4817e441fa9ebe91f59c0fe5d",
+      "size": 35052
     },
     "cards/shrug-it-off.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/shrug_it_off.webp",
-      "sha256": "203f9d2c2f59ecbed0551932dc17204ce5c936397c7c66f270ed98278b0b8462",
-      "size": 32450
+      "sha256": "c0a7e088f334a60f720bb882989cbef9b28d25b6872bdd39cd7ac7824500a873",
+      "size": 30826
     },
     "cards/sic-em.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sic_em.webp",
-      "sha256": "48ee4e8061e012aae724fa2aa9869f2516d8e268e0b2afc847dd50192daf4828",
-      "size": 40646
+      "sha256": "23e6f29b7ce272b79e8117bd212f573bccdd8bff029ef3c30a4190a948be09e5",
+      "size": 38658
     },
     "cards/signal-boost.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/signal_boost.webp",
-      "sha256": "c3e6cb2b4bb86a495e594a2154fac71965cc2d054028501dcb3963c3a40a2d22",
-      "size": 36780
+      "sha256": "6684203448c7a1e0f181ddbb8c03ea17ae697f1ab9ce9467a3bf0c13ff603d8f",
+      "size": 33836
     },
     "cards/skewer.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/skewer.webp",
-      "sha256": "3afd22bad9837207960c55a8c85f0383c24b22eb41ca3391b499820f4c0dc68c",
-      "size": 31954
+      "sha256": "a3588cc1e03b8d3cd900ffd3e2ab17cfffdc3ac04c53ca00e20ca6b983a09515",
+      "size": 28688
     },
     "cards/skim.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/skim.webp",
-      "sha256": "3333e7cb4d4e2d0f6dbdc759252238daff111df37adccf8c933c5a164d2f351f",
-      "size": 29162
+      "sha256": "3280e9617dac6c12f73d91d6a4e769a3b240d79165766fe40d74540e50bb6895",
+      "size": 26004
     },
     "cards/sleight-of-flesh.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sleight_of_flesh.webp",
-      "sha256": "9484670476fff973078f0ddc06f1d441663fdd0db59e7eb20441ff7dcb017648",
-      "size": 39644
+      "sha256": "cd6095700016c13a998df8837feed63c8d4133d6e7ba5a9eccbfda6a1b1f1915",
+      "size": 37776
     },
     "cards/slice.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/slice.webp",
-      "sha256": "bc84fbdda116d6a5e52981f4423e2cf6f4cf022e81f8da1ce3821c1414412cb0",
-      "size": 31084
+      "sha256": "95e495c14efa95355a5a29e678feecbec5a8fc709247cdfdd0d08da0f71c2784",
+      "size": 28062
     },
     "cards/slimed.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/slimed.webp",
-      "sha256": "6e55512912ad3496a9495ae8054f3415a172dde69bf324603e2a3ca8d8912fa8",
-      "size": 24246
+      "sha256": "7c09d3b310a4bccd49f83b66fbc292b0171137644c3fcb856c3e4d50be08c70c",
+      "size": 22188
     },
     "cards/sloth.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sloth.webp",
-      "sha256": "d30004862da8ae782632ddbfc6ca96f1e0695790560388c9f1f09b51f3fab9e7",
-      "size": 31798
+      "sha256": "c36d7a01547f41949e185ff1d4fecfb5d5070da1a7f05250aa9890837a181399",
+      "size": 28124
     },
     "cards/smokestack.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/smokestack.webp",
-      "sha256": "9382c0e6a627d46d05c7e4a375ae84ea5ebc49259afb609cb44db42546bbb743",
-      "size": 37710
+      "sha256": "a048c638c9f4d85e2bd9211958d865a9e22db13ebf61537a07a8b93fceff48eb",
+      "size": 34024
     },
     "cards/snakebite.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/snakebite.webp",
-      "sha256": "348955caa277222a69058e32f5a7f518e37ce24e9a57f2d8e4b8ac61c3bd2b9e",
-      "size": 31950
+      "sha256": "097bebf7d607868967b7f8c387f009c7893a9bcb90b4cf6cece87286435761b3",
+      "size": 28966
     },
     "cards/snap.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/snap.webp",
-      "sha256": "586449e98b7490c6c0bd13feb9b1ee6ec5cde77733901c2261c68b723dab6da1",
-      "size": 32438
+      "sha256": "4736a64fa189ca7583c2b2c6c19ed8b6398103623f3a26faf83a6498800f0c8c",
+      "size": 30424
     },
     "cards/sneaky.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sneaky.webp",
-      "sha256": "450e23e24bedc697c84c9f409b2b934fb72d0c193afeccd766848e88428ea751",
-      "size": 35968
+      "sha256": "006fd9b64e58ab7c157600c5e662dd50a41f8c297f691df5345a2a96cf597414",
+      "size": 32902
     },
     "cards/solar-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/solar_strike.webp",
-      "sha256": "ec564d52dde68183245c6a80835fcd36a3230fe20fd5d7240743c68bf7ead6dd",
-      "size": 33760
+      "sha256": "7d45b91472333c13b6970320070b07d20b7d4975c867f9f897be7ac6a2b81dd7",
+      "size": 30364
     },
     "cards/soot.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/soot.webp",
-      "sha256": "bce5ad81f708db3831b350eaeaa2ef9672d6e74848a19f5a0460452eb33d7723",
-      "size": 27304
+      "sha256": "c011b701e8ed6f42c59295e3bae6221ef09f1821168525e1dd91e5ebea4ccff3",
+      "size": 24346
     },
     "cards/soul-storm.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/soul_storm.webp",
-      "sha256": "c3a2baa397661eae77c58b4df9c15cd703cd8fe5f77a0c94ab7be6b87eeedac7",
-      "size": 42076
+      "sha256": "6358d8a2b81c8602eb6de2d39cf47bfb4921ecd0b7f6fc7f9213902193f18707",
+      "size": 40278
     },
     "cards/soul.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/soul.webp",
-      "sha256": "06a953a2cb8316b526d464a08962c8949b3135bc681afa881b440a7cdd682ab0",
-      "size": 26364
+      "sha256": "35e196adb15fb0124f8f6bbe7392bbad621de33f9e32f315490c1da5e22c8852",
+      "size": 23928
     },
     "cards/sovereign-blade.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sovereign_blade.webp",
-      "sha256": "8914de5d5fe42a1baf7fd1256378bc5b2bf3e3a92f17bc54ddda5552a395c40e",
-      "size": 32670
+      "sha256": "84af39fadd79f31e0139633bdb2ca4be87b42664c3cda63a80e3612761570a17",
+      "size": 29530
     },
     "cards/sow.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sow.webp",
-      "sha256": "5be591bb5c52c56b00c2a965746a2808d17e47ae9c5f732e51f4d6538dc00677",
-      "size": 31788
+      "sha256": "42283a073dd1b16b032e3f9e56e5b1b6552de405020eca7f69fa540becaed26e",
+      "size": 29920
     },
     "cards/spectrum-shift.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/spectrum_shift.webp",
-      "sha256": "add766f0fa5c16faa1060185415c6aaa8ea0ea935c50e7d7ef3da133c0a38cba",
-      "size": 37056
+      "sha256": "7b9779294648bbc0edc1fd205f726968dd3b7b190c438b59c2e5006fd3cf8269",
+      "size": 33432
     },
     "cards/speedster.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/speedster.webp",
-      "sha256": "691855cc53b069a648790cd98ed194ae5dacabd3f9a8d3110010fcc1cc8ef9f4",
-      "size": 35980
+      "sha256": "50cefb6f2800f8d7aee4715c0444a35afaa301b465cc35371c56c6b222bf2615",
+      "size": 32996
     },
     "cards/spinner.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/spinner.webp",
-      "sha256": "83176101c0ccd3f65b0941da100a84e5a4080c560d31522c388da03195b72f92",
-      "size": 36570
+      "sha256": "3db66f38ea749c6c38e5cdff754228fc4547f498efea962df11e456ce7deb541",
+      "size": 32880
     },
     "cards/spirit-of-ash.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/spirit_of_ash.webp",
-      "sha256": "18a9fb1d4aca091c78db536db716788558ecafb151e0c9e5a9084a281535083d",
-      "size": 40720
+      "sha256": "d49852999d25459c12957045dd191cb525e884bf2e96f582b166afa2ea20a478",
+      "size": 38756
     },
     "cards/spite.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/spite.webp",
-      "sha256": "defd1f8b05783bdab80bebb30cf019eb75f2fe44605e6f9c681b33fb5ba17123",
-      "size": 31634
+      "sha256": "a8b80e2a35f34508681b91fa06ac91669659634f2bc35205475f650d2176b79d",
+      "size": 35394
     },
     "cards/splash.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/splash.webp",
-      "sha256": "551f968ca2fec55d1f2fbc974a21495b7e45377416b0a6eb9107f6f7c70a8b3c",
-      "size": 40570
+      "sha256": "22cb81a0ee101eb576aba3367eb21a22caa7479f298afdea92d2f427acfa391d",
+      "size": 36972
     },
     "cards/spoils-map.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/spoils_map.webp",
-      "sha256": "676652fb15271bfdf9f71815f8bbffb9ad84b3e50a3b5b50db4e7081cd3dc6c5",
-      "size": 35800
+      "sha256": "7fe5a128726eb9dd604d9c1f87139ab623f886ccc7d7c58cdb3a225c7dc5c248",
+      "size": 33744
     },
     "cards/spoils-of-battle.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/spoils_of_battle.webp",
-      "sha256": "e5cd55eeaf2fea14079b77c140395e9115e17d0625d4a26a219b8af990dd9d4f",
-      "size": 37198
+      "sha256": "9bf323f09b000670c4932268a732823eb3e2e480559733b0b54835ce2ad05c8b",
+      "size": 33580
     },
     "cards/spore-mind.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/spore_mind.webp",
-      "sha256": "2bcab8f308cdf6ad964ca456996c2387e1821645ef1305dd420aee6252f1b50c",
-      "size": 28040
+      "sha256": "55a01eb6b69468970ec732e37c2505cbe8267320916f3fa0358e973ee2f164e7",
+      "size": 25398
     },
     "cards/spur.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/spur.webp",
-      "sha256": "9d4c964f18a83ea837bf755987c20fc67cf7a3a3d01a63e38850d711e6176564",
-      "size": 31406
+      "sha256": "1b6918ab530606d4b96ff49991cf1849e9ad305fc5dfd28e5a42504d100119f1",
+      "size": 29440
     },
     "cards/squash.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/squash.webp",
-      "sha256": "280be809623c2d7f4c75d42b9ab7bd0ac5e13277d83846fcdf1a505ae10e8f17",
-      "size": 31230
+      "sha256": "7fb3e776131ad54050d66544019a1fb2c33aa392bc7be0edd84522a62095f88a",
+      "size": 28810
     },
     "cards/squeeze.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/squeeze.webp",
-      "sha256": "a0b20be2d28020bdba3eb77191493a6156ccd5afdb8b38b369a500a606344f8b",
-      "size": 40224
+      "sha256": "b8668edbf2e0024a7220b3925807ea76593a3f1434ca5cd6979348a3f1620f5c",
+      "size": 38414
     },
     "cards/stack.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/stack.webp",
-      "sha256": "61979257c32b0e070c4ab98e02dca2f02214ad7e6645809b0c8012d7a93f8253",
-      "size": 37352
+      "sha256": "b1aec4b7e335503d725f1aae79c3ae80697580794ee3fab3296ee06a6bce25d7",
+      "size": 34636
     },
     "cards/stampede.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/stampede.webp",
-      "sha256": "4318dc9f68a216d9e031fd060b9e61900a34d46db2202b15d3ca0b0a3bb77ca3",
-      "size": 40482
+      "sha256": "f38e5553c1294070cb9194d280727164bc177d11327e62f112c186346b8196b5",
+      "size": 38988
     },
     "cards/stardust.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/stardust.webp",
-      "sha256": "813a08d6668f29ce78f89128798dd29c315048b9601e08ff39dcc62cc0d9a0a8",
-      "size": 34266
+      "sha256": "aff1bcf6f7227b8195b76fa17a757160307fd245728b356765503d6c75e2c77a",
+      "size": 31026
     },
     "cards/stoke.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/stoke.webp",
-      "sha256": "be0bedb534e5f3ed91f3ae32c387ceba9212502ffc5cb88a6450972c3a622036",
-      "size": 37202
+      "sha256": "eedc0ecb4c2282356462cc7d7bafaf94ac4112d8988d393b1e2e551fb0bbe26d",
+      "size": 35660
     },
     "cards/stomp.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/stomp.webp",
-      "sha256": "327e764409fdf293db0048155d3557ec36a5c698224aef333c08da88da53627e",
-      "size": 38060
+      "sha256": "1d144d96ee3a86369e2fd75019459d022318af89ea5bfa0ed820e7e44d8fd1f4",
+      "size": 36342
     },
     "cards/stone-armor.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/stone_armor.webp",
-      "sha256": "1c0a7e4af9290bc2c6aa5f550a611a3f073f458642a816717e03742d0632d1a4",
-      "size": 30590
+      "sha256": "f246dbe81bab1608cc0588a77da37a4fdd3b7219723af8a037b9e259348ca15d",
+      "size": 28764
     },
     "cards/storm-of-steel.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/storm_of_steel.webp",
-      "sha256": "7d761bc666a067f1f2ffe5cbb28c20c25c7cc03794c4e60af8c037d4a7130911",
-      "size": 40834
+      "sha256": "e13afc9f1d8a30584b9ec1a8900bc20caf0d987a6b163d64e2d95a2aae8b6bdb",
+      "size": 37328
     },
     "cards/storm.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/storm.webp",
-      "sha256": "84a9261878f33ac4d21da1b747fc6e4654323f0e2c874de1675e64acfa4517e3",
-      "size": 40508
+      "sha256": "3e03a6b42f4306df6f92d7c9efd311c5f97b32dd1a2b3879f55735f8dd2875bb",
+      "size": 36722
     },
     "cards/strangle.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/strangle.webp",
-      "sha256": "8843a90af93e80f7aa36a8d3a4bfd06603bcd54edaaef43bf7ddd737852a6b8e",
-      "size": 39912
+      "sha256": "29b712838bb91226faf3eb4b798d87ac18b6d33b2466cd8457d362212e1ac0d2",
+      "size": 36704
     },
     "cards/stratagem.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/stratagem.webp",
-      "sha256": "e9eee08ee0a19a1441ba93fbf20efb4e36f7a81d5eeac550c017bd10bc9a25de",
-      "size": 40446
+      "sha256": "efe8d33a84646905166c93d6f94159b16804405e13260938cb693ffbcb76fb53",
+      "size": 36672
     },
     "cards/strike-defect.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/strike_defect.webp",
-      "sha256": "4bd36406fc649d09104e83c42c3f691866f243ff98df355b1ea432a9ad6b283f",
-      "size": 29522
+      "sha256": "31022f328f0dabf18421578aacf2b8a399d92458db950cf2c6f4f6635df97f3d",
+      "size": 26236
     },
     "cards/strike-ironclad.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/strike_ironclad.webp",
-      "sha256": "9be40de28e1465d4f2f838fcb602cc5f60d792f84e229f1ccd060ad142b15cc5",
-      "size": 24032
+      "sha256": "27312b211a326bcbbe3765171645bd05bb7de133c05f3ade0379d6a582218b7a",
+      "size": 22526
     },
     "cards/strike-necrobinder.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/strike_necrobinder.webp",
-      "sha256": "8fcca1ef472ed3e0dcaf480f27888abf57d2215618965ba1defcb9a98427e1c0",
-      "size": 25418
+      "sha256": "51333ccb0afeef4364539a641fc99991985714d061c68cf300bffccc758fb8a2",
+      "size": 23718
     },
     "cards/strike-regent.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/strike_regent.webp",
-      "sha256": "83b1ce1688fcaf5e20f156f750b095c01a4a5021f066a98b627579c596fcd0bb",
-      "size": 30298
+      "sha256": "b6bf87f129262612b7e2f7e51d8a5d2d5b7271eabe2df23a834d8bf490afdb08",
+      "size": 27316
     },
     "cards/strike-silent.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/strike_silent.webp",
-      "sha256": "e8e5e88035d812a3c8faf6a607c3b19f06240def0447cddf51e85e76b56883d9",
-      "size": 27110
+      "sha256": "650b531aef730faf5f9d1689cda1a28c3e622f778519530ac4a9f0a006faae98",
+      "size": 24378
     },
     "cards/subroutine.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/subroutine.webp",
-      "sha256": "3339419182999275b773423a5b9ae079eb37438304729256f74afb767913b64f",
-      "size": 33352
+      "sha256": "286cd065f1df65e5760b0e228b6d7afac8e1e5e7f2233e39aef54ea20dd69978",
+      "size": 29954
     },
     "cards/sucker-punch.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sucker_punch.webp",
-      "sha256": "b446b6174305db534d1280d457d119ab3112e0d18fd04144e14d1a691160b250",
-      "size": 34680
+      "sha256": "4db5b61364964b218c178d91627b86a7c0f70e1c5e0e678fd81ee5bf2153ef39",
+      "size": 31494
     },
     "cards/summon-forth.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/summon_forth.webp",
-      "sha256": "b8d8209cfc7a4a3fa576b672d224ac4b25df6b50bca74ae4201c0b960d06a4f9",
-      "size": 38176
+      "sha256": "aff7d118a9ce1fb813bbf6be7ef764f2e2171dc69a502de42e1cd53fb56a551b",
+      "size": 34562
     },
     "cards/sunder.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sunder.webp",
-      "sha256": "701e7cad861e73ae8cee1161faab7dce6d8d0f7af6f17afb8da0584e760ab6b3",
-      "size": 35906
+      "sha256": "db7eef615ebb5b24b9522abb4fcfe74f1a967d67e1f76b783c12342416ebec02",
+      "size": 32102
     },
     "cards/supercritical.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/supercritical.webp",
-      "sha256": "964651135aaf12d8dea88b4375fbc15e19eb8e399959bbe433794729c53f451f",
-      "size": 35512
+      "sha256": "73e3406688b5f12f3b7e3155317e7ac63ea2e429d872d94b7f909294ce55e8c3",
+      "size": 31426
     },
     "cards/supermassive.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/supermassive.webp",
-      "sha256": "bc6fc392583b9faacc451fc11967a04a083ea145ec7168948b723f00c10f84c8",
-      "size": 40154
+      "sha256": "a155c87fa299972ea4e959b04608ed84f36e6117585abfccaef604d30e17ab9f",
+      "size": 37090
     },
     "cards/suppress.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/suppress.webp",
-      "sha256": "15c2bba73f90b970a4508e7dc185c91bb480264413c4691e9871039bc62ecb74",
-      "size": 50868
+      "sha256": "2be071bd0ce303c563c89fcdb6856e4a00cb0c548e71d3f7aaca15673937f718",
+      "size": 45108
     },
     "cards/survivor.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/survivor.webp",
-      "sha256": "e4a9f2234c31a11e8c7b2492821b19b3133a042ffee36aab7c5c5e72f4b6d0ed",
-      "size": 29144
+      "sha256": "950264dcd86b867aa08e115bae5eaafd2d5e7a1d5b8e9ffbf4f08e1120a08d49",
+      "size": 26242
     },
     "cards/sweeping-beam.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sweeping_beam.webp",
-      "sha256": "0165edef9bc012d7f0852ec6cd407c5c75311aab86e1e43b4afabe91baccb00b",
-      "size": 35610
+      "sha256": "a16d07c3b74615f2a9baea8c46f7e61b3949a71258de399bd93803c8c66d26d9",
+      "size": 32266
     },
     "cards/sweeping-gaze.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sweeping_gaze.webp",
-      "sha256": "1cbe7a92c41ae32cc16922f069b9619a93c8e42ecf0f2de686abef0f5f9c1103",
-      "size": 39340
+      "sha256": "d4bdfbbaaee20706dc9609b851bb163a53387908a7347c7929803e8d5415521c",
+      "size": 36298
     },
     "cards/sword-boomerang.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sword_boomerang.webp",
-      "sha256": "b9dc7c50fd8d0da977f91767328ad83481ad84cb38c19b3fa374bf2440791284",
-      "size": 31154
+      "sha256": "0526cf2ade16626dc74b0da290deeb1a0eb60a6dae3699d74d0bb1517772629a",
+      "size": 28430
     },
     "cards/sword-sage.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/sword_sage.webp",
-      "sha256": "4830d3de34ed61d1e2bb20b4790664f10996ebcb5753559032fec43336755b91",
-      "size": 38856
+      "sha256": "090f0712bbfbe99d6fa8913db782601c3ec7bf6806b11fefdd9a88f52f77c86b",
+      "size": 34662
     },
     "cards/synchronize.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/synchronize.webp",
-      "sha256": "b949dfe1b464b5a6725e7ce656480dd6ebd701e539096fd69dd1e03c29600c8a",
-      "size": 33534
+      "sha256": "85cc1f9d702853bd87f981a10320b7a321c1bfeebc9dbf1c81b9c7ace918100e",
+      "size": 35208
     },
     "cards/synthesis.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/synthesis.webp",
-      "sha256": "b2d2843e1c85f6db939ea573b17f896bee2562bb5968b65bd93e299e0baf0a30",
-      "size": 42228
+      "sha256": "71a70626af94da48cc542298329b30246db2af53f0e0019995435ae8f4a84fba",
+      "size": 38300
     },
     "cards/tactician.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/tactician.webp",
-      "sha256": "a205e007bb06337b1f5eb4458bce2a1060ea8d80252082007ac2a88595e12ab8",
-      "size": 28356
+      "sha256": "9da123ceb312a037f263bb3316526a21781a17b1c55c74ffeae55030d72d685b",
+      "size": 25134
     },
     "cards/tag-team.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/tag_team.webp",
-      "sha256": "0130a1d2a4a0eaca76ccce5067bdcc988d5b308dbfe63b4023c397c39a027e5d",
-      "size": 43378
+      "sha256": "3ddbb81084e22e84c0366dc66e11d3d70d72baa346adc7fc4e344ec402297b08",
+      "size": 39386
     },
     "cards/tank.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/tank.webp",
-      "sha256": "ce4931235c14b010b863a0fe58172c09a5995dfd2a52add73642d824af7a346a",
-      "size": 37942
+      "sha256": "ad186322a9dc24d28665d71375f4b3ea641190012060c96b6a93dcdf0a0eedd3",
+      "size": 36182
     },
     "cards/taunt.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/taunt.webp",
-      "sha256": "2c58fd2676833b496c3d4dc1d8df59fb3fa91c52dadb4e8a4936e2bad801d6f2",
-      "size": 32942
+      "sha256": "b289dd7418e86d832c1a0d48661716f246c665f1f3562dddf219fa8f839fbbc6",
+      "size": 31094
     },
     "cards/tear-asunder.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/tear_asunder.webp",
-      "sha256": "930d5c6686c096bbc72302643b4e16bf4e76701ecc7378db1897aa8b6a1bd851",
-      "size": 41584
+      "sha256": "85e12b9376a78f37de78849654cb95e93f7d05a7b1f4e35eb7f320cdc87c3072",
+      "size": 39454
     },
     "cards/tempest.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/tempest.webp",
-      "sha256": "cd872dc39520ef48791b54d7f816a988dda2335a8a17b0131ea5d449304efaa6",
-      "size": 34222
+      "sha256": "705ad921cf9caecff3287c09734b570f8137d85e095f83921e5f4d69ec0ed6bf",
+      "size": 31096
     },
     "cards/terraforming.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/terraforming.webp",
-      "sha256": "842ad3f55a3efe0ee817e92c11d9dc802dd15f244800360333e9f6d2e148618d",
-      "size": 36084
+      "sha256": "e59729656f5b791e143eaae155c8cc12c04b58a54376b2b7a9831e55e6a91117",
+      "size": 32618
     },
     "cards/tesla-coil.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/tesla_coil.webp",
-      "sha256": "01b05c730e362ef7ce20b11ac58c906d0d4fcbdc548aab1dfd289461643f5118",
-      "size": 39328
+      "sha256": "f66ca237a5af8c74a7ea1a983b9aec2c378b1abf71947951ae81d31d6b258450",
+      "size": 35726
     },
     "cards/the-bomb.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/the_bomb.webp",
-      "sha256": "0bc2123509db50a1402cabf0b27aa03306ad94ed5629cdd502a8a1bdab60becb",
-      "size": 32020
+      "sha256": "99bfbd056c4ddf251e05f3ec5bd0f5eb4aae1737f19e400861bba5027137a1bb",
+      "size": 29358
     },
     "cards/the-gambit.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/the_gambit.webp",
-      "sha256": "d004909330f8c4cbb59c02f668acf8af24760d05b4a704e595ca86c9fb6d8b4b",
-      "size": 37314
+      "sha256": "7031816e7e4d27a720811b476552fd4e866d485727695e3349d1376653ed6a3e",
+      "size": 34244
     },
     "cards/the-hunt.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/the_hunt.webp",
-      "sha256": "5cb5d6ed1cd401dcba1ac9aa39540fda46c2d1c98a15cb6bde353929e9fc077d",
-      "size": 39038
+      "sha256": "830c095e6a4040a33d9cbebff8b9c5d4b0649ea1012a8aadec9d07a790ccb614",
+      "size": 35750
     },
     "cards/the-scythe.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/the_scythe.webp",
-      "sha256": "6a36a6bfe63af42c9cd8bfc282bbb9302934b5062490c4b7fa15ce95e05ee533",
-      "size": 40644
+      "sha256": "4ae14db3ea123db1852e67ceaeb04d3602462f2a35b2415d38bb4bb7041ce3f7",
+      "size": 38914
     },
     "cards/the-sealed-throne.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/the_sealed_throne.webp",
-      "sha256": "8caa771708f2601383ee9fd7d746a0135e51f4ad29d191847096a63e4cae7756",
-      "size": 45206
+      "sha256": "5712400cc34b85b0c360d0ab07c9ca642e674bdde90fc21820228f101d698e04",
+      "size": 39580
     },
     "cards/the-smith.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/the_smith.webp",
-      "sha256": "8fb6a98a4c6278087fe796436fb14611372fe5818644d6dc6027d6a3c58922a4",
-      "size": 35604
+      "sha256": "e407aee884a615e457db002f7adb89aee788545802729fbc3b7e5fec77a5f5b3",
+      "size": 31806
     },
     "cards/thinking-ahead.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/thinking_ahead.webp",
-      "sha256": "4ec7f65de604c3f47b924386d0692eb652e818f0b4e4bb4a6df9bc31b782e050",
-      "size": 39254
+      "sha256": "08fee734fdcf5f9c3695e6e1dc73f6734519f586d401f037b7aecf930c223ba8",
+      "size": 36178
     },
     "cards/thrash.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/thrash.webp",
-      "sha256": "e2b9ac5f6a50526d207079a07b61b8908650d9062c659e69b22f73e647f0b7ee",
-      "size": 40510
+      "sha256": "f6d2f7cda4712e53fa9a9ba61d1bb89ab7d2bdca1bcc901e74cf2105de6f107a",
+      "size": 38830
     },
     "cards/thrumming-hatchet.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/thrumming_hatchet.webp",
-      "sha256": "b0f8388a19703cd90c1da210c93172754447dfdfc1ed9b9fdfbf632ee4070bec",
-      "size": 36514
+      "sha256": "a7fc4d6660ad809d6e2c5d1d99c9b9ce8458c66b511b4af0842dfd36ef007e90",
+      "size": 33662
     },
     "cards/thunder.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/thunder.webp",
-      "sha256": "9ebed3f51870ff6ff6c3683df45fb25004803e2a9884507b1dec06c57c189994",
-      "size": 41084
+      "sha256": "3211ba3e30309f2c052063120982c14dcbc219cc6ba92ee4f03241490a33d0b2",
+      "size": 37074
     },
     "cards/thunderclap.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/thunderclap.webp",
-      "sha256": "93c99b2c683246472ed032d4a6891e5818a6194f4f212a11b781ea47f22350c1",
-      "size": 34810
+      "sha256": "4676f188a0aac3e91096dd6c791860d1682bfa9ff7817b1bf349269182b8cfbd",
+      "size": 32874
     },
     "cards/times-up.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/times_up.webp",
-      "sha256": "eb54cb96bbb4bf3a30a995e34e11e1f8e487f883facc12a4f239853310300330",
-      "size": 33598
+      "sha256": "ff9ac5736ac9120b67d44acae236a42ead28e7fb97550acf884549dc16e97370",
+      "size": 31560
     },
     "cards/tools-of-the-trade.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/tools_of_the_trade.webp",
-      "sha256": "b078de893e24e9e7b5e07ceff4ea794f97cf0add8352eea43d19093caf028111",
-      "size": 41684
+      "sha256": "186c3c0f88084de1d54ca98615d78ac291cf8c1fe400de365bde73f79727a8dd",
+      "size": 37370
     },
     "cards/toric-toughness.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/toric_toughness.webp",
-      "sha256": "21e539f4b9038c240b413d6932175cf838f12c3d6963020c5f3af3203331bdc8",
-      "size": 36526
+      "sha256": "fee9a7ebc9b704b72b75f39cd8af5685e6945a0a84dad1ae0377748244610cf7",
+      "size": 33732
     },
     "cards/toxic.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/toxic.webp",
-      "sha256": "d198092582af10289f0e7f887b4f276e4b1df6e5f6d5c0d2f1bc7a9093375b11",
-      "size": 34326
+      "sha256": "7faae5430d60edfa250f415391305c68fa8cc4cc513defb973fa146388c40901",
+      "size": 30568
     },
     "cards/tracking.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/tracking.webp",
-      "sha256": "275e56c023f210e7c0eb869dcd8e6fdb49e89270d470b35449a79e20dd57a413",
-      "size": 34422
+      "sha256": "778b93e74cd9eca537fae3b059023db89882b7ef3ba36470ba56add554dfa328",
+      "size": 30802
     },
     "cards/transfigure.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/transfigure.webp",
-      "sha256": "147210e1a97ba3f4a624c8916dd6fc0e5210771c31cd313d164f9b12d3e6196d",
-      "size": 38786
+      "sha256": "25571523cc6b507302616b0f5a7ea3b05c6114dc173c1bb876f8148fcd188f6a",
+      "size": 37024
     },
     "cards/trash-to-treasure.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/trash_to_treasure.webp",
-      "sha256": "e2c0012936fa5048f3456df940fb2da2ef7824a503d1ed55a4376eecf48a45f2",
-      "size": 39040
+      "sha256": "207ffeafcd6a084773d24d23da3e38bcf13a1f128fcfbc4cd5732e39ae39b311",
+      "size": 35918
     },
     "cards/tremble.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/tremble.webp",
-      "sha256": "78859fb4a022ef1be95e62a14c5c58b0c6ef43aede18a5e157d43fc790abb3f8",
-      "size": 29288
+      "sha256": "1f2931a8d99e18ab6d490c3ca60355f98312a38734ace8ac322a0b60bdb5f40c",
+      "size": 27988
     },
     "cards/true-grit.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/true_grit.webp",
-      "sha256": "9776d63c7786a802e17b9f37e5a424cf6ad401e54d32ed2fa3a72898c3133d18",
-      "size": 28746
+      "sha256": "85984771286c069f77f3c4cb039c7b9d8d28e41c73ad88c444707bc0ae95c410",
+      "size": 26352
     },
     "cards/turbo.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/turbo.webp",
-      "sha256": "8492a530a58e6ed19ee9bf4ef3d39daa2d3c290f60c2d2a528a01e7e608a98f7",
-      "size": 31812
+      "sha256": "d659b21c99a384a33336d0f4ae7adce64752e593ea3614b90c94b2437d6f093c",
+      "size": 28514
     },
     "cards/twin-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/twin_strike.webp",
-      "sha256": "5dab6d81e8224702dfc70783d24dd887190a22ba5189395ecd151804a9be108c",
-      "size": 26738
+      "sha256": "a8179de08b436475545041a960b38bbf7be35ec708470add9272cb0327a0484d",
+      "size": 24916
     },
     "cards/tyranny.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/tyranny.webp",
-      "sha256": "f7d4e27edd0bd86e1bda4a4e3bcd9d50c1c006b04617715418e759aabf9bda9c",
-      "size": 34602
+      "sha256": "7a8ffa9a73e43350adade88c6fbe8f481359b96d89bb8d1c8bc145fc215af406",
+      "size": 31304
     },
     "cards/ultimate-defend.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/ultimate_defend.webp",
-      "sha256": "5cc0c5c63bb464e1c2f40340b935c3b55fdce7d1cdd31584948279116297cab4",
-      "size": 36674
+      "sha256": "ecff10e61869c60d339853a6d2288e945d3124ca09bbc71abd492be51e7b69e2",
+      "size": 33318
     },
     "cards/ultimate-strike.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/ultimate_strike.webp",
-      "sha256": "2db542d4af552c1be3799fbc361ea5568ae3cb08cdffc5c7ca3a061c33782171",
-      "size": 35954
+      "sha256": "63e48e15cc25b4ceac1360387f4f8906eb9444284be21365f55b6e48dadc2356",
+      "size": 32360
     },
     "cards/undeath.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/undeath.webp",
-      "sha256": "67856a82dad925940667a9bbbedb51bfb88aa8d31f04741d550f488b48b3d6b2",
-      "size": 38154
+      "sha256": "0f37f284de798b3af35f25848baaf047a56aab118af05c4614a908a11e907b8a",
+      "size": 36388
     },
     "cards/unleash.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/unleash.webp",
-      "sha256": "d2d1fd33ff44f04545d876373e3670f79aad2ac9acafea05ccf0e6abe3d4e309",
-      "size": 39420
+      "sha256": "3b2cfa787eea5b647dd1a3d98e76f0c44d8108d7671b840763b39e71475a7138",
+      "size": 37704
     },
     "cards/unmovable.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/unmovable.webp",
-      "sha256": "62be40218ade487866ba75b5d77163b7bd546e03bbbd57b979f34e89fbb82d29",
-      "size": 39998
+      "sha256": "8ee29fe110a210fd0b9ebf41d12633b3b0c3c20b1b1643403a35013a79a2275d",
+      "size": 38506
     },
     "cards/unrelenting.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/unrelenting.webp",
-      "sha256": "4a23d44203b1e2acfc2fcb79234bf689dff3d01f89240363a7943d8a0463f628",
-      "size": 38070
+      "sha256": "13adb1c5b4785011c70aaf33110555c15035d9a4eeb91336a29496ed49b5e411",
+      "size": 36412
     },
     "cards/untouchable.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/untouchable.webp",
-      "sha256": "f7b56fa3cc3c45c2e84a5a08938902c496b5088801c6144bf819df431db41616",
-      "size": 31098
+      "sha256": "e560104917d7c40c04a80dee3681f19022c88dda63e9d206a23e88509dd1ec07",
+      "size": 27666
     },
     "cards/up-my-sleeve.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/up_my_sleeve.webp",
-      "sha256": "ce5ece4dce14c15b0be2c86901b85cbcca73576be68a93d9f861625ab4457bf3",
-      "size": 34576
+      "sha256": "0f135ecc054750ab58fa77d96045338476e7f7b5f7ee3977e2f989b3f7f3c68c",
+      "size": 30850
     },
     "cards/uppercut.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/uppercut.webp",
-      "sha256": "a6c8b2f566807211b53de4bbefb79ecf77a4798a494e9640f60dd4e3e62e3918",
-      "size": 33906
+      "sha256": "f58e708a6f422c33af436ee6b575e9fa195411925d0364f1af14ad1179da797a",
+      "size": 31596
     },
     "cards/uproar.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/uproar.webp",
-      "sha256": "2dd6b432beeee53159f45fe172a10964ea49dd8f8166674db1d613fa8ec75ef9",
-      "size": 41008
+      "sha256": "5d09b6f1ddedeb6eccc7e8c3b2e9b6a91700ab3a38af08f4eb98955dcd1b00ba",
+      "size": 37358
     },
     "cards/veilpiercer.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/veilpiercer.webp",
-      "sha256": "ba19d87914402577b3609842eea48759e37074f485f3ea5148d37c98549ccc02",
-      "size": 36120
+      "sha256": "27621833a66859e8f0f9498975037cc55fa6673619ca1a442a9cdcd14835bb5f",
+      "size": 34084
     },
     "cards/venerate.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/venerate.webp",
-      "sha256": "c7bbebd458628735196a718ec08a9582139b61be96c8fe9d464f1bd2c3963220",
-      "size": 31448
+      "sha256": "6f8c000f128623ff7f9f8a21906404fa8040d006371f9f08e39ca33023e6c418",
+      "size": 28196
     },
     "cards/vicious.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/vicious.webp",
-      "sha256": "d86e03552d9c806395bb345f7db262088115ddefb4e0052113bc387e2cbf5691",
-      "size": 33940
+      "sha256": "40259b22c78c5b612187f0162d603513cba2d2c9f73e2f24da90283a384eb709",
+      "size": 31772
     },
     "cards/void-form.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/void_form.webp",
-      "sha256": "41762bde409e4ca5c944375f7d9cae75a0d02e2bf55d08a11a30e66ec5980dd3",
-      "size": 41922
+      "sha256": "79328d3e57ddb663d8e7f2218b4d097e64c2428d70f21e06e7805bce4a28eedc",
+      "size": 38734
     },
     "cards/void.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/void.webp",
-      "sha256": "f76a1dcd253cea8694095272458f85bb4a41d86817e0ca9e17d7fee725ccb851",
-      "size": 28560
+      "sha256": "ccccedb2278e13d976bd2cab3985b19a0a66419d0ffc6d4e79b37ca59c97f7a7",
+      "size": 25942
     },
     "cards/volley.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/volley.webp",
-      "sha256": "b2fc57bfb97086dfb3787c1b4b0360887b7d5469243a4cf52c6b01dbf74a543c",
-      "size": 38498
+      "sha256": "9cf7c4025232abc9cda779927af215741e2764c01e4e19efa135dd95fab6f9df",
+      "size": 35072
     },
     "cards/voltaic.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/voltaic.webp",
-      "sha256": "7f9d8f0305c6180be1058df123c4640b2ea793c1c4f398e415faf9698e4261d7",
-      "size": 40410
+      "sha256": "098882c3c8fd25606ec8a829267d84624fdc3dc6ec450bcc3b0d7764d589ec1e",
+      "size": 40520
     },
     "cards/waste-away.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/waste_away.webp",
-      "sha256": "a49e6b7352a9e8ac583b62405711b6cafccb15208656685e9a4a45e796050e6e",
-      "size": 27436
+      "sha256": "9478160ba9bfad0f7baaa36dfc8849b79ef21d993692ea1b053bbb7e13c73fc0",
+      "size": 24854
     },
     "cards/well-laid-plans.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/well_laid_plans.webp",
-      "sha256": "490eb4f6b993e8bc0eef74d8347996e28753d191d47a29b64ece6c33b36047d0",
-      "size": 35760
+      "sha256": "5e7210548364b62ee148fdaf7fe5a8552b8b35a314d4e94edd7cb99942f348dd",
+      "size": 32176
     },
     "cards/whirlwind.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/whirlwind.webp",
-      "sha256": "518546e43a74970b145ab0ec10c5714d1e82c8550f2bae2478d99c674812b256",
-      "size": 32784
+      "sha256": "f375003520056b36dfa1a994192f2ae72b13391b5e081efd3506b0bdd5a893d1",
+      "size": 30734
     },
     "cards/whistle.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/whistle.webp",
-      "sha256": "21867411719ca5c2a047af63266e2b5fdc2029aaf312b9ebd342d04032dd3c9c",
-      "size": 51582
+      "sha256": "0bf5185357165fbdfc9386b6574502813fdf2e03c225f9ba77d5ecd78203df8f",
+      "size": 45404
     },
     "cards/white-noise.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/white_noise.webp",
-      "sha256": "d6a1592d68374249d4b90975d4c7da8bf32d7575fbdcc32c7567119caab13136",
-      "size": 39442
+      "sha256": "59a9667c93014672de42b7413cc2d01e368c1715d209e74aa042f50d0051bd15",
+      "size": 36128
     },
     "cards/wish.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/wish.webp",
-      "sha256": "02f15d238544a72a35f50caf9c0d36e36f97f51042355f6c3852cd80caf42c46",
-      "size": 46774
+      "sha256": "4dff002d0d56ef092591c75a836f4216b1fed00252e43180f4c65b77eae080f1",
+      "size": 41660
     },
     "cards/wisp.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/wisp.webp",
-      "sha256": "abfb12b232adf638c66a49d09d59af228ff18026479a4bab42c0fef746b44ae6",
-      "size": 28518
+      "sha256": "f4265f1bc0805e3642916b5e26aad8823cb0c28aa12b1f6998835fc50aaffd21",
+      "size": 26722
+    },
+    "cards/wither.webp": {
+      "source_url": "https://cdn.spire-codex.com/cards-full/stable/wither.webp",
+      "sha256": "5f1bb1fb0ea163999b1ecce135a18dc05a6a19ff3323af7b5c3145cbf7c05900",
+      "size": 35290
     },
     "cards/wound.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/wound.webp",
-      "sha256": "37b0833128fb9ad9aa4cc1c3b23b726682fe59d49af7930295a0ac1005df95c8",
-      "size": 21092
+      "sha256": "cdac9ec601f3a0bf6c4e9ab2aa10f4f5b1d2561f5aeebb7144c6da4e529b62aa",
+      "size": 18734
     },
     "cards/wraith-form.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/wraith_form.webp",
-      "sha256": "799f4770d1182d9da097a54b7591f0ff70f43501c45c5ee4183544c2676ab434",
-      "size": 55562
+      "sha256": "18c8c02de0b715f2c93af740e4412be2048a568e1559381286b33958ebdfcfbd",
+      "size": 48748
     },
     "cards/writhe.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/writhe.webp",
-      "sha256": "bb364680448a88b1d8812e1d5288393fc9655e2a093fa432f853d234944ab4d8",
-      "size": 24568
+      "sha256": "59f014bc2e16f01bbd6895e5e1fef78410757bb4df6653412c43e504b6bec285",
+      "size": 22592
     },
     "cards/wrought-in-war.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/wrought_in_war.webp",
-      "sha256": "58fd5ac7f25d783e19bc8ec1f275bfb49ac0f247e4b539dd007a90f7fa495bd5",
-      "size": 37992
+      "sha256": "1e8cc96b04902fe2976ee81e2396bdee86a3a4c757c25740f4d781befbed6878",
+      "size": 34150
     },
     "cards/zap.webp": {
       "source_url": "https://cdn.spire-codex.com/cards-full/stable/zap.webp",
-      "sha256": "7a9a29eb4e91cb7a3439aa89fafec8d4f6f1f7187d67ce1e6ca506164ed82c9c",
-      "size": 28140
+      "sha256": "6d269bf06ce9fea42c4207cc902b31156562fe740bb675166f9593a268737dc8",
+      "size": 25494
     },
     "characters/defect.webp": {
       "source_url": "https://cdn.spire-codex.com/characters/combat_defect.webp",
@@ -2905,6 +2910,11 @@
       "source_url": "https://cdn.spire-codex.com/characters/combat_silent.webp",
       "sha256": "0895670c0ce70e84d8711c67960511d441ce9c1d7df1b69a406a9f72e8d97e5c",
       "size": 57674
+    },
+    "enemies/aeonglass.webp": {
+      "source_url": "https://spire-codex.com/static/images/monsters/aeonglass.webp",
+      "sha256": "2638c1dc26efd17734356ab43e7d9290ee34a13134e77ef46a38a2987e9c640d",
+      "size": 363010
     },
     "enemies/architect.webp": {
       "source_url": "https://spire-codex.com/static/images/monsters/architect.webp",
@@ -3045,11 +3055,6 @@
       "source_url": "https://spire-codex.com/static/images/monsters/devoted_sculptor.webp",
       "sha256": "31007ef9df7f5b1e5ea52670db046d14b3613b9bbcc71a2356983c6850b83737",
       "size": 40590
-    },
-    "enemies/doormaker.webp": {
-      "source_url": "https://spire-codex.com/static/images/monsters/doormaker.webp",
-      "sha256": "b0aeb1b018992204f1bc75e0779aebee43c258b6a38e45b80208157fb7eb3399",
-      "size": 553166
     },
     "enemies/entomancer.webp": {
       "source_url": "https://spire-codex.com/static/images/monsters/entomancer.webp",
@@ -3921,6 +3926,11 @@
       "sha256": "ef2a214b1152fcf530cc6f9801166d9668730c7eb843e36ee737dcf11ac6cf10",
       "size": 11326
     },
+    "relics/fishing-rod.webp": {
+      "source_url": "https://spire-codex.com/static/images/relics/fishing_rod.webp",
+      "sha256": "9d090444fa8e7cc7fec69a09cbce37cdb5f6ff4e15e740265c837012626214cb",
+      "size": 12468
+    },
     "relics/forgotten-soul.webp": {
       "source_url": "https://spire-codex.com/static/images/relics/forgotten_soul.webp",
       "sha256": "a31d5fcb2dca919d1fc21e6a58f3811af388fc2ac86f073f45da6d041f80e6e1",
@@ -4090,6 +4100,11 @@
       "source_url": "https://spire-codex.com/static/images/relics/juzu_bracelet.webp",
       "sha256": "4f8be200f678e5e77e810013121481e3bc1f913a2591884a42d254d39a1d2678",
       "size": 22410
+    },
+    "relics/kaleidoscope.webp": {
+      "source_url": "https://spire-codex.com/static/images/relics/kaleidoscope.webp",
+      "sha256": "d535f0bc19bb32f207447a39f1f9b83a4cb3a7d19aa474f904b96cc4091ab682",
+      "size": 13352
     },
     "relics/kifuda.webp": {
       "source_url": "https://spire-codex.com/static/images/relics/kifuda.webp",
@@ -4660,6 +4675,11 @@
       "source_url": "https://spire-codex.com/static/images/relics/signet_ring.webp",
       "sha256": "57ada5f6c16ed57151a13fc1880a327e526f1ed15ebbd3b2194ed56f33086d06",
       "size": 13186
+    },
+    "relics/silken-tress.webp": {
+      "source_url": "https://spire-codex.com/static/images/relics/silken_tress.webp",
+      "sha256": "3b54be8878af1a20faa536e3737c523ee46effa01ffaf03f1e9881b268e6f060",
+      "size": 11062
     },
     "relics/silver-crucible.webp": {
       "source_url": "https://spire-codex.com/static/images/relics/silver_crucible.webp",
