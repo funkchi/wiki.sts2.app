@@ -332,6 +332,30 @@ const ldJson = JSON.stringify({
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8661972209515901"
       crossorigin="anonymous"></script>
     <style is:global>
+      @font-face {
+        font-family: 'STS2 Kreon';
+        src: url('/fonts/kreon-bold.woff2') format('woff2');
+        font-style: normal;
+        font-weight: 600 900;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'STS2 Japanese Description';
+        src: url('/fonts/noto-sans-cjk-jp-bold.woff2') format('woff2');
+        font-style: normal;
+        font-weight: 600 900;
+        font-display: swap;
+      }
+
+      @font-face {
+        font-family: 'STS2 Simplified Chinese Description';
+        src: url('/fonts/source-han-serif-sc-bold.woff2') format('woff2');
+        font-style: normal;
+        font-weight: 600 900;
+        font-display: swap;
+      }
+
       *,
       *::before,
       *::after {
@@ -404,6 +428,7 @@ const ldJson = JSON.stringify({
       }
 
       .brand {
+        font-family: 'STS2 Kreon', Georgia, serif;
         font-weight: 850;
         letter-spacing: 0;
         text-decoration: none;
@@ -533,6 +558,7 @@ const ldJson = JSON.stringify({
       }
 
       h1 {
+        font-family: 'STS2 Kreon', Georgia, serif;
         max-width: 720px;
         margin: 1rem 0 0;
         font-size: clamp(3rem, 8vw, 5.7rem);
@@ -696,6 +722,23 @@ const ldJson = JSON.stringify({
         border-top: 1px solid rgba(255, 246, 234, 0.08);
         color: rgba(255, 246, 234, 0.48);
         font-size: 0.86rem;
+      }
+
+      footer > span {
+        font-family: 'STS2 Kreon', Georgia, serif;
+        font-weight: 700;
+      }
+
+      html:lang(ja) .brand,
+      html:lang(ja) h1,
+      html:lang(ja) footer > span {
+        font-family: 'STS2 Japanese Description', sans-serif;
+      }
+
+      html:lang(zh-Hans) .brand,
+      html:lang(zh-Hans) h1,
+      html:lang(zh-Hans) footer > span {
+        font-family: 'STS2 Simplified Chinese Description', serif;
       }
 
       footer nav {

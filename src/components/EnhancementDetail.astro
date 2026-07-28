@@ -73,11 +73,11 @@ const applicableTo = localizedApplicableTo(display.applicableTo, locale) || labe
       <span class="tag tag--type-enhancement">{cardType}</span>
       <span class="badge">{display.isStackable ? labels.yes : labels.no}</span>
     </div>
-    <p set:html={descriptionHtml} />
+    <p class="game-description" lang={locale === 'zhs' ? 'zh-Hans' : locale === 'jpn' ? 'ja' : 'en'} set:html={descriptionHtml} />
     {display.extraCardText && (
       <>
         <h2 id="extra-card-text">{labels.extraCardText}</h2>
-        <p set:html={extraHtml} />
+        <p class="game-description" lang={locale === 'zhs' ? 'zh-Hans' : locale === 'jpn' ? 'ja' : 'en'} set:html={extraHtml} />
       </>
     )}
     <table>

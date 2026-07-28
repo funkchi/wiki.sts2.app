@@ -30,6 +30,7 @@ export default defineConfig({
         { label: 'Events', link: '/docs/events/' },
         { label: 'Enhancements', link: '/docs/enhancements/' },
         { label: 'Guides', slug: 'guides' },
+        { label: 'Patch Notes', slug: 'patches' },
         { label: 'About', slug: 'about' },
         { label: 'Privacy', slug: 'privacy' },
         { label: 'Contact', slug: 'contact' },

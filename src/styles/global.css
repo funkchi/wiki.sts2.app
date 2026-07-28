@@ -1,3 +1,73 @@
+/* ===== Slay the Spire 2 description fonts ===== */
+@font-face {
+  font-family: 'STS2 Kreon';
+  src: url('/fonts/kreon-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'STS2 Kreon';
+  src: url('/fonts/kreon-bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'STS2 Japanese Description';
+  src: url('/fonts/noto-sans-cjk-jp-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'STS2 Japanese Description';
+  src: url('/fonts/noto-sans-cjk-jp-bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'STS2 Simplified Chinese Description';
+  src: url('/fonts/noto-sans-mono-cjk-sc-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'STS2 Simplified Chinese Description';
+  src: url('/fonts/source-han-serif-sc-bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600 900;
+  font-display: swap;
+}
+
+/* The game uses Kreon Regular for rules text and swaps locale-specific fonts
+   for Japanese and Simplified Chinese. Keep that behavior scoped to entity
+   descriptions so the surrounding wiki UI remains unchanged. */
+.game-description {
+  font-family: 'STS2 Kreon', Georgia, serif;
+  font-size: 1.05em;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.game-description:lang(ja) {
+  font-family: 'STS2 Japanese Description', sans-serif;
+  letter-spacing: 0;
+}
+
+.game-description:lang(zh-Hans) {
+  font-family: 'STS2 Simplified Chinese Description', serif;
+  letter-spacing: 0;
+}
+
 /* ===== Design tokens ===== */
 :root {
   --sts2-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -579,9 +649,19 @@ body {
 }
 
 /* ===== Keyword highlight (in card descriptions) ===== */
-.kw {
+.kw,
+.game-keyword {
+  font-family: 'STS2 Kreon', Georgia, serif;
   color: #d2a52b;
   font-weight: 600;
+}
+.kw:lang(ja),
+.game-keyword:lang(ja) {
+  font-family: 'STS2 Japanese Description', sans-serif;
+}
+.kw:lang(zh-Hans),
+.game-keyword:lang(zh-Hans) {
+  font-family: 'STS2 Simplified Chinese Description', serif;
 }
 .kw--muted {
   color: #8c7544;

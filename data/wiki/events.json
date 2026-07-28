@@ -48,7 +48,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/aroma-of-chaos.webp",
       "translations": {
         "zhHans": {
           "name": "混沌芳香",
@@ -185,7 +185,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/byrdonis-nest.webp",
       "translations": {
         "zhHans": {
           "name": "多尼斯异鸟巢",
@@ -330,7 +330,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/dense-vegetation.webp",
       "translations": {
         "zhHans": {
           "name": "茂密的植被",
@@ -477,7 +477,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/jungle-maze-adventure.webp",
       "translations": {
         "zhHans": {
           "name": "丛林迷宫奇遇",
@@ -624,7 +624,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/luminous-choir.webp",
       "translations": {
         "zhHans": {
           "name": "冷光合唱团",
@@ -785,7 +785,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/morphic-grove.webp",
       "translations": {
         "zhHans": {
           "name": "变形灵林谷",
@@ -924,7 +924,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/sapphire-seed.webp",
       "translations": {
         "zhHans": {
           "name": "蓝宝石种子",
@@ -1113,7 +1113,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/tablet-of-truth.webp",
       "translations": {
         "zhHans": {
           "name": "真理石板",
@@ -1358,7 +1358,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/unrest-site.webp",
       "translations": {
         "zhHans": {
           "name": "无休之处",
@@ -1497,7 +1497,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/wellspring.webp",
       "translations": {
         "zhHans": {
           "name": "泉水",
@@ -1634,7 +1634,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/whispering-hollow.webp",
       "translations": {
         "zhHans": {
           "name": "低语空谷",
@@ -1799,7 +1799,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/wood-carvings.webp",
       "translations": {
         "zhHans": {
           "name": "木雕",
@@ -1980,7 +1980,7 @@
         "SILKEN_TRESS",
         "SILVER_CRUCIBLE"
       ],
-      "imageUrl": "https://spire-codex.com/static/images/misc/ancients/neow.webp",
+      "imageUrl": "/media/events/neow.webp",
       "translations": {
         "zhHans": {
           "name": "涅奥",
@@ -2045,7 +2045,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/sunken-statue.webp",
       "translations": {
         "zhHans": {
           "name": "沉没雕像",
@@ -2156,7 +2156,7 @@
         "TOUCH_OF_OROBAS",
         "ARCHAIC_TOOTH"
       ],
-      "imageUrl": "https://spire-codex.com/static/images/misc/ancients/orobas.webp",
+      "imageUrl": "/media/events/orobas.webp",
       "translations": {
         "zhHans": {
           "name": "欧洛巴斯",
@@ -2197,7 +2197,7 @@
         "PAELS_EYE",
         "PAELS_BLOOD"
       ],
-      "imageUrl": "https://spire-codex.com/static/images/misc/ancients/pael.webp",
+      "imageUrl": "/media/events/pael.webp",
       "translations": {
         "zhHans": {
           "name": "佩尔",
@@ -2238,7 +2238,7 @@
         "TOY_BOX",
         "SEAL_OF_GOLD"
       ],
-      "imageUrl": "https://spire-codex.com/static/images/misc/ancients/tezcatara.webp",
+      "imageUrl": "/media/events/tezcatara.webp",
       "translations": {
         "zhHans": {
           "name": "特兹卡塔拉",
@@ -2306,7 +2306,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/amalgamator.webp",
       "translations": {
         "zhHans": {
           "name": "熔合者",
@@ -2451,7 +2451,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/bugslayer.webp",
       "translations": {
         "zhHans": {
           "name": "害虫杀手",
@@ -2622,7 +2622,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/colorful-philosophers.webp",
       "translations": {
         "zhHans": {
           "name": "色彩哲学家",
@@ -2849,7 +2849,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/colossal-flower.webp",
       "translations": {
         "zhHans": {
           "name": "巨大花卉",
@@ -3056,7 +3056,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/field-of-man-sized-holes.webp",
       "translations": {
         "zhHans": {
           "name": "人形洞穴之地",
@@ -3191,7 +3191,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/infested-automaton.webp",
       "translations": {
         "zhHans": {
           "name": "被寄生的自动机械",
@@ -3326,7 +3326,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/spirit-grafter.webp",
       "translations": {
         "zhHans": {
           "name": "灵魂嫁接者",
@@ -3473,7 +3473,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/the-lantern-key.webp",
       "translations": {
         "zhHans": {
           "name": "灯火钥匙",
@@ -3632,7 +3632,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/lost-wisp.webp",
       "translations": {
         "zhHans": {
           "name": "迷失鬼火",
@@ -3793,7 +3793,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/zen-weaver.webp",
       "translations": {
         "zhHans": {
           "name": "修禅织网者",
@@ -3956,7 +3956,7 @@
         "SIGNET_RING",
         "BEAUTIFUL_BRACELET"
       ],
-      "imageUrl": "https://spire-codex.com/static/images/misc/ancients/nonupeipe.webp",
+      "imageUrl": "/media/events/nonupeipe.webp",
       "translations": {
         "zhHans": {
           "name": "诺奴佩普",
@@ -3997,7 +3997,7 @@
         "WAR_HAMMER",
         "TRI_BOOMERANG"
       ],
-      "imageUrl": "https://spire-codex.com/static/images/misc/ancients/tanx.webp",
+      "imageUrl": "/media/events/tanx.webp",
       "translations": {
         "zhHans": {
           "name": "坦克斯",
@@ -4038,7 +4038,7 @@
         "LORDS_PARASOL",
         "JEWELED_MASK"
       ],
-      "imageUrl": "https://spire-codex.com/static/images/misc/ancients/vakuu.webp",
+      "imageUrl": "/media/events/vakuu.webp",
       "translations": {
         "zhHans": {
           "name": "瓦库",
@@ -4113,7 +4113,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/battleworn-dummy.webp",
       "translations": {
         "zhHans": {
           "name": "战痕累累的训练假人",
@@ -4278,7 +4278,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/grave-of-the-forgotten.webp",
       "translations": {
         "zhHans": {
           "name": "遗忘之墓",
@@ -4437,7 +4437,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/hungry-for-mushrooms.webp",
       "translations": {
         "zhHans": {
           "name": "蘑菇饥渴",
@@ -4580,7 +4580,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/reflections.webp",
       "translations": {
         "zhHans": {
           "name": "镜中倒影 影倒中镜",
@@ -4731,7 +4731,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/round-tea-party.webp",
       "translations": {
         "zhHans": {
           "name": "圆桌茶会",
@@ -4974,7 +4974,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/trial.webp",
       "translations": {
         "zhHans": {
           "name": "审判",
@@ -5317,7 +5317,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/tinker-time.webp",
       "translations": {
         "zhHans": {
           "name": "打造时间",
@@ -5744,7 +5744,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/abyssal-baths.webp",
       "translations": {
         "zhHans": {
           "name": "深渊浴场",
@@ -6239,7 +6239,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/doors-of-light-and-dark.webp",
       "translations": {
         "zhHans": {
           "name": "光与暗的门扉",
@@ -6374,7 +6374,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/drowning-beacon.webp",
       "translations": {
         "zhHans": {
           "name": "淹水灯塔",
@@ -6561,7 +6561,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/endless-conveyor.webp",
       "translations": {
         "zhHans": {
           "name": "无尽传送带",
@@ -6806,7 +6806,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/punch-off.webp",
       "translations": {
         "zhHans": {
           "name": "重拳出击",
@@ -6953,7 +6953,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/spiraling-whirlpool.webp",
       "translations": {
         "zhHans": {
           "name": "螺旋漩涡",
@@ -7088,7 +7088,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/sunken-treasury.webp",
       "translations": {
         "zhHans": {
           "name": "淹水金库",
@@ -7223,7 +7223,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/trash-heap.webp",
       "translations": {
         "zhHans": {
           "name": "垃圾堆",
@@ -7394,7 +7394,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/waterlogged-scriptorium.webp",
       "translations": {
         "zhHans": {
           "name": "水漫缮写室",
@@ -7579,7 +7579,7 @@
         "PHILOSOPHERS_STONE",
         "VELVET_CHOKER"
       ],
-      "imageUrl": "https://spire-codex.com/static/images/misc/ancients/darv.webp",
+      "imageUrl": "/media/events/darv.webp",
       "translations": {
         "zhHans": {
           "name": "达弗",
@@ -7609,7 +7609,7 @@
       "options": [],
       "pages": [],
       "relics": [],
-      "imageUrl": "https://spire-codex.com/static/images/monsters/architect.png",
+      "imageUrl": "/media/events/the-architect.webp",
       "translations": {
         "zhHans": {
           "name": "建筑师",
@@ -7676,7 +7676,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/brain-leech.webp",
       "translations": {
         "zhHans": {
           "name": "脑蛭",
@@ -7822,7 +7822,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/crystal-sphere.webp",
       "translations": {
         "zhHans": {
           "name": "水晶球",
@@ -8005,7 +8005,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/doll-room.webp",
       "translations": {
         "zhHans": {
           "name": "玩偶室",
@@ -8210,7 +8210,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/potion-courier.webp",
       "translations": {
         "zhHans": {
           "name": "药水快递员",
@@ -8386,7 +8386,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/ranwid-the-elder.webp",
       "translations": {
         "zhHans": {
           "name": "长者兰伟德",
@@ -8604,7 +8604,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/relic-trader.webp",
       "translations": {
         "zhHans": {
           "name": "遗物交换商",
@@ -8759,7 +8759,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/room-full-of-cheese.webp",
       "translations": {
         "zhHans": {
           "name": "满屋芝士",
@@ -8956,7 +8956,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/self-help-book.webp",
       "translations": {
         "zhHans": {
           "name": "自助指南",
@@ -9286,7 +9286,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/slippery-bridge.webp",
       "translations": {
         "zhHans": {
           "name": "滑脚木桥",
@@ -9602,7 +9602,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/stone-of-all-time.webp",
       "translations": {
         "zhHans": {
           "name": "永恒之石",
@@ -9795,7 +9795,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/symbiote.webp",
       "translations": {
         "zhHans": {
           "name": "共生体",
@@ -9987,7 +9987,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/tea-master.webp",
       "translations": {
         "zhHans": {
           "name": "茶艺大师",
@@ -10174,7 +10174,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/the-future-of-potions.webp",
       "translations": {
         "zhHans": {
           "name": "药水的未来？",
@@ -10284,7 +10284,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/the-legends-were-true.webp",
       "translations": {
         "zhHans": {
           "name": "传说是真的",
@@ -10394,7 +10394,7 @@
       "options": [],
       "pages": [],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/fake-merchant.webp",
       "translations": {
         "zhHans": {
           "name": "商人？？？",
@@ -10467,7 +10467,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/this-or-that.webp",
       "translations": {
         "zhHans": {
           "name": "这个还是那个？",
@@ -10610,7 +10610,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/war-historian-repy.webp",
       "translations": {
         "zhHans": {
           "name": "战史学家 付袭",
@@ -10822,7 +10822,7 @@
         }
       ],
       "relics": [],
-      "imageUrl": null,
+      "imageUrl": "/media/events/welcome-to-wongos.webp",
       "translations": {
         "zhHans": {
           "name": "欢迎来到旺购百货",

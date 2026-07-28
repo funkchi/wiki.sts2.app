@@ -33,6 +33,12 @@
     of: ui.of ?? 'of',
     searchPlaceholder: ui.searchPlaceholder ?? `Search ${noun}`,
   };
+  const descriptionLang = linkBase.startsWith('/zhs/')
+    ? 'zh-Hans'
+    : linkBase.startsWith('/jpn/')
+      ? 'ja'
+      : 'en';
+  const descriptionFields = new Set(['description', 'extraCardText', 'movesSummary']);
 
   let query = $state('');
   let selections: Record<string, string> = $state({});
@@ -110,8 +116,7 @@
   const norm = (val: string) =>
     String(val).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
-  const STAR_IMG =
-    '<img class="star-icon" src="https://cdn.spire-codex.com/icons/star_icon.webp" alt="star" />';
+  const STAR_IMG = '<img class="star-icon" src="/images/star-icon.webp" alt="star" />';
 
   function costHtml(cr: any) {
     if (!cr) return '';
@@ -263,12 +268,15 @@
           <tr>
             <td><a href={`${linkBase}${e.slug}/`}>{e.name}</a></td>
             {#each columns as col (col.field)}
-              <td>
+              <td
+                class={descriptionFields.has(col.field) ? 'game-description' : undefined}
+                lang={descriptionFields.has(col.field) ? descriptionLang : undefined}
+              >
                 {#if col.format === 'cardCost'}
                   {@html costHtml(e.costRaw)}
                 {:else if col.chips}
                   {#each e[col.field] as k (k)}
-                    <span class="kw kw-chip">{k}</span>
+                    <span class="kw kw-chip" lang={descriptionLang}>{k}</span>
                   {/each}
                 {:else if col.badge}
                   <span class={`tag tag--${col.badge}-${norm(String(e[col.field]))}`}>{e[col.field]}</span>

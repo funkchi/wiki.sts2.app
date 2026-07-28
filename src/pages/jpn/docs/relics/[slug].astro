@@ -35,7 +35,7 @@ const notesHtml = (ja?.notes || relic.notes).map((note) => renderEntityTextHtml(
         )}
         <span class="badge">{ja?.pool || relic.pool}</span>
       </div>
-      <p set:html={descriptionHtml} />
+      <p class="game-description" lang="ja" set:html={descriptionHtml} />
       <table>
         <tbody>
           <tr><th scope="row">レアリティ</th><td>{ja?.rarity || relic.rarity}</td></tr>

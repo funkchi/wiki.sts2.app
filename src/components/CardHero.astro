@@ -75,7 +75,7 @@ const labels = {
 
 const norm = (val: string) =>
   String(val).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-const STAR = 'https://cdn.spire-codex.com/icons/star_icon.webp';
+const STAR = '/images/star-icon.webp';
 
 const descHtml = display.description
   ? renderEntityTextHtml(display.description, { locale, keywords: display.keywords, keywordClass: 'kw' })
@@ -131,8 +131,8 @@ const rows: Array<[string, string]> = [
       <span class={`tag tag--rarity-${norm(card.rarity)}`}>{display.rarity}</span>
     </div>
 
-    <p set:html={descHtml} />
-    {upgHtml && <p class="upgrade-text" set:html={upgHtml} />}
+    <p class="game-description" lang={locale === 'zhs' ? 'zh-Hans' : locale === 'jpn' ? 'ja' : 'en'} set:html={descHtml} />
+    {upgHtml && <p class="game-description upgrade-text" lang={locale === 'zhs' ? 'zh-Hans' : locale === 'jpn' ? 'ja' : 'en'} set:html={upgHtml} />}
 
     <table>
       <tbody>

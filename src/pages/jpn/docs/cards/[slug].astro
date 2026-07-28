@@ -26,7 +26,7 @@ const description = ja?.description || card.description || `${title} - Slay the 
   {ja?.keywords && ja.keywords.length > 0 && (
     <>
       <h2 id="keywords">キーワード</h2>
-      <p>{ja.keywords.map((k) => <code>{k}</code>)}</p>
+      <p lang="ja">{ja.keywords.map((k) => <code class="game-keyword">{k}</code>)}</p>
     </>
   )}
 

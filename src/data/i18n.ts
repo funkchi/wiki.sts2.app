@@ -38,6 +38,7 @@ export const sidebarLabels: Record<Lang, Record<string, string>> = {
     events: 'Events',
     enhancements: 'Enhancements',
     guides: 'Guides',
+    patches: 'Patch Notes',
     about: 'About',
     privacy: 'Privacy',
     contact: 'Contact',
@@ -51,6 +52,7 @@ export const sidebarLabels: Record<Lang, Record<string, string>> = {
     events: '事件',
     enhancements: '附魔',
     guides: '指南',
+    patches: '更新日志',
     about: '关于',
     privacy: '隐私',
     contact: '联系',
@@ -64,6 +66,7 @@ export const sidebarLabels: Record<Lang, Record<string, string>> = {
     events: 'イベント',
     enhancements: 'エンチャント',
     guides: 'ガイド',
+    patches: 'パッチノート',
     about: '概要',
     privacy: 'プライバシー',
     contact: '連絡先',
@@ -82,6 +85,7 @@ const entitySections = [
 
 const englishEditorial = [
   { key: 'guides', path: '/guides/' },
+  { key: 'patches', path: '/patches/' },
   { key: 'about', path: '/about/' },
   { key: 'privacy', path: '/privacy/' },
   { key: 'contact', path: '/contact/' },

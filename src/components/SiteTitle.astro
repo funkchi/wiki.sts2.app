@@ -4,9 +4,10 @@ import { localeFromPath, localizedHome, siteTitleFor } from '../data/i18n';
 const locale = localeFromPath(Astro.url.pathname);
 const title = siteTitleFor(locale);
 const href = localizedHome(locale);
+const htmlLang = locale === 'zhs' ? 'zh-Hans' : locale === 'jpn' ? 'ja' : 'en';
 ---
 
-<a href={href} class="site-title sl-flex">
+<a href={href} class="site-title sl-flex" lang={htmlLang}>
   <span translate="no">{title}</span>
 </a>
 
@@ -17,10 +18,17 @@ const href = localizedHome(locale);
       gap: var(--sl-nav-gap);
       font-size: var(--sl-text-h4);
       font-weight: 600;
+      font-family: 'STS2 Kreon', Georgia, serif;
       color: var(--sl-color-text-accent);
       text-decoration: none;
       white-space: nowrap;
       min-width: 0;
+    }
+    .site-title:lang(ja) {
+      font-family: 'STS2 Japanese Description', sans-serif;
+    }
+    .site-title:lang(zh-Hans) {
+      font-family: 'STS2 Simplified Chinese Description', serif;
     }
     span {
       overflow: hidden;

@@ -12,7 +12,7 @@
       "cardType": null,
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/adroit.png",
+      "image": "/media/enchantments/adroit.webp",
       "translations": {
         "zhHans": {
           "name": "伶俐",
@@ -39,7 +39,7 @@
       "cardType": null,
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/clone.png",
+      "image": "/media/enchantments/clone.webp",
       "translations": {
         "zhHans": {
           "name": "克隆",
@@ -66,7 +66,7 @@
       "cardType": "Attack",
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/corrupted.png",
+      "image": "/media/enchantments/corrupted.webp",
       "translations": {
         "zhHans": {
           "name": "腐化",
@@ -93,7 +93,7 @@
       "cardType": null,
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/glam.png",
+      "image": "/media/enchantments/glam.webp",
       "translations": {
         "zhHans": {
           "name": "华彩",
@@ -120,7 +120,7 @@
       "cardType": null,
       "applicableTo": "Defend cards",
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/goopy.png",
+      "image": "/media/enchantments/goopy.webp",
       "translations": {
         "zhHans": {
           "name": "黏糊",
@@ -147,7 +147,7 @@
       "cardType": "Skill",
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/imbued.png",
+      "image": "/media/enchantments/imbued.webp",
       "translations": {
         "zhHans": {
           "name": "注能",
@@ -174,7 +174,7 @@
       "cardType": null,
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/inky.png",
+      "image": "/media/enchantments/inky.webp",
       "translations": {
         "zhHans": {
           "name": "墨影",
@@ -201,7 +201,7 @@
       "cardType": "Attack",
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/instinct.png",
+      "image": "/media/enchantments/instinct.webp",
       "translations": {
         "zhHans": {
           "name": "本能",
@@ -228,7 +228,7 @@
       "cardType": "Attack",
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/momentum.png",
+      "image": "/media/enchantments/momentum.webp",
       "translations": {
         "zhHans": {
           "name": "动量",
@@ -255,7 +255,7 @@
       "cardType": null,
       "applicableTo": "cards that gain Block",
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/nimble.png",
+      "image": "/media/enchantments/nimble.webp",
       "translations": {
         "zhHans": {
           "name": "灵巧",
@@ -282,7 +282,7 @@
       "cardType": null,
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/perfect_fit.png",
+      "image": "/media/enchantments/perfect-fit.webp",
       "translations": {
         "zhHans": {
           "name": "完美契合",
@@ -309,7 +309,7 @@
       "cardType": "Attack, Skill",
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/royally_approved.png",
+      "image": "/media/enchantments/royally-approved.webp",
       "translations": {
         "zhHans": {
           "name": "王室认证",
@@ -336,7 +336,7 @@
       "cardType": "Attack",
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/sharp.png",
+      "image": "/media/enchantments/sharp.webp",
       "translations": {
         "zhHans": {
           "name": "锋利",
@@ -363,7 +363,7 @@
       "cardType": null,
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/slither.png",
+      "image": "/media/enchantments/slither.webp",
       "translations": {
         "zhHans": {
           "name": "蛇行",
@@ -390,7 +390,7 @@
       "cardType": null,
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/slumbering_essence.png",
+      "image": "/media/enchantments/slumbering-essence.webp",
       "translations": {
         "zhHans": {
           "name": "沉眠精华",
@@ -417,7 +417,7 @@
       "cardType": null,
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/souls_power.png",
+      "image": "/media/enchantments/souls-power.webp",
       "translations": {
         "zhHans": {
           "name": "灵魂之力",
@@ -444,7 +444,7 @@
       "cardType": null,
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/sown.png",
+      "image": "/media/enchantments/sown.webp",
       "translations": {
         "zhHans": {
           "name": "播种",
@@ -471,7 +471,7 @@
       "cardType": null,
       "applicableTo": "Basic Strike or Defend cards",
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/spiral.png",
+      "image": "/media/enchantments/spiral.webp",
       "translations": {
         "zhHans": {
           "name": "涡旋",
@@ -498,7 +498,7 @@
       "cardType": null,
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/steady.png",
+      "image": "/media/enchantments/steady.webp",
       "translations": {
         "zhHans": {
           "name": "稳定",
@@ -525,7 +525,7 @@
       "cardType": null,
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/swift.png",
+      "image": "/media/enchantments/swift.webp",
       "translations": {
         "zhHans": {
           "name": "迅速",
@@ -552,7 +552,7 @@
       "cardType": null,
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/tezcataras_ember.png",
+      "image": "/media/enchantments/tezcataras-ember.webp",
       "translations": {
         "zhHans": {
           "name": "特兹卡塔拉的余烬",
@@ -579,7 +579,7 @@
       "cardType": "Attack",
       "applicableTo": null,
       "isStackable": false,
-      "image": "https://spire-codex.com/static/images/enchantments/vigorous.png",
+      "image": "/media/enchantments/vigorous.webp",
       "translations": {
         "zhHans": {
           "name": "活力",

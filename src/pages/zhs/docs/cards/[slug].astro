@@ -26,7 +26,7 @@ const description = zh?.description || card.description || `${title} - 杀戮尖
   {zh?.keywords && zh.keywords.length > 0 && (
     <>
       <h2 id="keywords">关键词</h2>
-      <p>{zh.keywords.map((k) => <code>{k}</code>)}</p>
+      <p lang="zh-Hans">{zh.keywords.map((k) => <code class="game-keyword">{k}</code>)}</p>
     </>
   )}
 
