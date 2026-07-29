@@ -18,6 +18,11 @@ const labels = {
   jpn: ['初期HP', '初期ゴールド', 'エナジー', 'オーブスロット', '解放条件'],
 }[locale];
 
+// Idle loops rendered from the game's Spine skeletons; static assets rather
+// than R2 media keys, and named by convention so regenerating the wiki data
+// does not drop them.
+const idleArt = `/images/characters/${c.slug}-idle.webp`;
+
 const stats: Array<[string, string | number | null]> = [
   [labels[0], c.startingHp],
   [labels[1], c.startingGold],
@@ -29,7 +34,9 @@ const shown = stats.filter(([, v]) => v !== null && v !== '-' && v !== '');
 ---
 
 <div class="character-hero" style={`--char-accent:${accent}`}>
-  <img class="character-hero__art" src={c.image} alt={localized?.name || c.name} loading="eager" decoding="async" fetchpriority="high" />
+  <div class="character-hero__stage">
+    <img class="character-hero__art" src={idleArt} alt={localized?.name || c.name} loading="eager" decoding="async" fetchpriority="high" />
+  </div>
   <div class="character-hero__body">
     <div class="character-hero__head">
       <img class="character-hero__icon" src={c.icon} alt="" loading="lazy" decoding="async" />

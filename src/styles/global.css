@@ -452,10 +452,33 @@ body {
     var(--sts2-panel)
   );
 }
+.character-hero__stage {
+  display: grid;
+  place-items: end center;
+  aspect-ratio: 4 / 5;
+  padding: 0.75rem;
+  border-radius: var(--sts2-radius);
+  background:
+    radial-gradient(
+      ellipse 60% 40% at 50% 92%,
+      color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 30%, transparent),
+      transparent 70%
+    ),
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 10%, transparent),
+      rgba(0, 0, 0, 0.25)
+    );
+}
+/* The idle loops are all rendered to the same height with the character's feet
+   near the bottom, so contain + bottom alignment keeps them standing on the
+   pedestal glow at a consistent scale. */
 .character-hero__art {
   width: 100%;
-  border-radius: var(--sts2-radius);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom center;
+  filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.45));
 }
 .character-hero__head {
   display: flex;
