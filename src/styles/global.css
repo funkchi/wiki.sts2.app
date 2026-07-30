@@ -220,7 +220,8 @@ body {
 }
 
 @media (min-width: 72rem) {
-  :root:has(.card-browser) {
+  :root:has(.card-browser),
+  :root:has(.wiki-entity-hero--card) {
     --sl-content-width: min(96rem, calc(100vw - var(--sl-sidebar-width, 18.75rem) - 4rem));
   }
 }
@@ -452,6 +453,38 @@ body {
     var(--sts2-panel)
   );
 }
+/* Short key/value facts read badly as a stacked two-column table: five rows of
+   one-word values burn a lot of vertical space. This lays them out as a
+   compact grid that reflows to the available width. */
+.entity-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
+  gap: 0.75rem 1.25rem;
+  margin: 1rem 0 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--sts2-border, rgba(255, 255, 255, 0.12));
+  border-radius: var(--sts2-radius);
+  background: color-mix(in srgb, var(--sts2-panel, #1b1b22) 70%, transparent);
+}
+.entity-stats > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+.entity-stats dt {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.62;
+}
+.entity-stats dd {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
 .character-hero__stage {
   display: grid;
   place-items: end center;
@@ -941,6 +974,58 @@ body {
   align-items: flex-start;
   gap: 0.4rem;
 }
+
+/* Card detail: drop the panel chrome entirely and let the art lead, with the
+   text column filling the rest of the (widened) content area. */
+.wiki-entity-hero--card {
+  display: grid;
+  grid-template-columns: minmax(18rem, 26rem) 1fr;
+  gap: clamp(1.5rem, 3vw, 3rem);
+  align-items: start;
+  margin: 0.5rem 0 2rem;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+.wiki-entity-hero--card .wiki-hero-art {
+  align-items: stretch;
+  width: 100%;
+}
+.wiki-entity-hero--card .wiki-image-toggle,
+.wiki-entity-hero--card .wiki-image-stack {
+  width: 100%;
+  max-width: none;
+}
+.wiki-entity-hero--card .wiki-image-hint {
+  text-align: center;
+}
+.wiki-entity-hero--card .game-description {
+  font-size: 1.05rem;
+}
+/* Secondary sections sit in the text column so the page has no dead zone
+   beside the tall card art. */
+.wiki-entity-hero--card [slot='aside'] h2,
+.wiki-entity-hero--card h2 {
+  margin-top: 1.75rem;
+  font-size: 1.35rem;
+}
+.entity-links {
+  columns: 2;
+  column-gap: 2rem;
+  margin: 0.5rem 0 0;
+}
+.entity-links li {
+  break-inside: avoid;
+}
+@media (max-width: 60rem) {
+  .wiki-entity-hero--card {
+    grid-template-columns: 1fr;
+  }
+  .wiki-entity-hero--card .wiki-image-stack {
+    max-width: 22rem;
+    margin-inline: auto;
+  }
+}
 .wiki-image-toggle {
   padding: 0;
   margin: 0;
@@ -977,17 +1062,18 @@ body {
 .wiki-image-toggle.is-upgraded .wiki-image--upgraded {
   opacity: 1;
 }
+/* Card art is a transparent silhouette, so a rectangular outline reads as a
+   stray box. A drop-shadow follows the alpha instead. */
 .wiki-image-toggle img {
-  transition: opacity 0.12s ease, outline-color 0.15s ease;
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-  border-radius: var(--sts2-radius);
+  transition: opacity 0.12s ease, filter 0.15s ease;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.35));
 }
 .wiki-image-toggle:hover img {
-  outline-color: var(--sts2-line);
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.45));
 }
 .wiki-image-toggle.is-upgraded img {
-  outline-color: var(--sts2-accent);
+  filter: drop-shadow(0 0 10px color-mix(in srgb, var(--sts2-accent) 65%, transparent))
+    drop-shadow(0 8px 18px rgba(0, 0, 0, 0.4));
 }
 .wiki-image-hint {
   font-size: 0.78rem;

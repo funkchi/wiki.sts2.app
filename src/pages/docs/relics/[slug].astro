@@ -33,16 +33,12 @@ const notesHtml = relic.notes.map((note) => renderEntityTextHtml(note));
         ) : (
           <span class="tag tag--plain">{relic.rarity}</span>
         )}
-        <span class="badge">{relic.pool} pool</span>
       </div>
       <p class="game-description" lang="en" set:html={descriptionHtml} />
-      <table>
-        <tbody>
-          <tr><th scope="row">Rarity</th><td>{relic.rarity}</td></tr>
-          <tr><th scope="row">Pool</th><td>{relic.pool}</td></tr>
-          <tr><th scope="row">Merchant Price</th><td>{relic.price}</td></tr>
-        </tbody>
-      </table>
+      <dl class="entity-stats">
+        <div><dt>Pool</dt><dd>{relic.pool}</dd></div>
+        <div><dt>Merchant Price</dt><dd>{relic.price}</dd></div>
+      </dl>
     </div>
   </div>
 

@@ -21,25 +21,27 @@ const description = zh?.description || card.description || `${title} - 杀戮尖
 ---
 
 <StarlightPage frontmatter={{ title, description }}>
-  <CardHero card={card} locale="zhs" />
+  <CardHero card={card} locale="zhs">
+    <Fragment slot="aside">
+      {zh?.keywords && zh.keywords.length > 0 && (
+        <>
+          <h2 id="keywords">关键词</h2>
+          <p lang="zh-Hans">{zh.keywords.map((k) => <code class="game-keyword">{k}</code>)}</p>
+        </>
+      )}
 
-  {zh?.keywords && zh.keywords.length > 0 && (
-    <>
-      <h2 id="keywords">关键词</h2>
-      <p lang="zh-Hans">{zh.keywords.map((k) => <code class="game-keyword">{k}</code>)}</p>
-    </>
-  )}
-
-  <h2 id="related">相关卡牌</h2>
-  {relatedCards.length > 0 ? (
-    <ul>
-      {relatedCards.map((c) => (
-        <li><a href={`/zhs/docs/cards/${c.slug}/`}>{c.translations?.zhHans?.name || c.name}</a></li>
-      ))}
-    </ul>
-  ) : (
-    <p>暂无相关卡牌。</p>
-  )}
+      <h2 id="related">相关卡牌</h2>
+      {relatedCards.length > 0 ? (
+        <ul class="entity-links">
+          {relatedCards.map((c) => (
+            <li><a href={`/zhs/docs/cards/${c.slug}/`}>{c.translations?.zhHans?.name || c.name}</a></li>
+          ))}
+        </ul>
+      ) : (
+        <p>暂无相关卡牌。</p>
+      )}
+    </Fragment>
+  </CardHero>
 
   <p><a href="/zhs/docs/cards/">返回全部卡牌</a></p>
 </StarlightPage>

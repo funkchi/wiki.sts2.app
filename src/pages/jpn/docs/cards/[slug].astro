@@ -21,25 +21,27 @@ const description = ja?.description || card.description || `${title} - Slay the 
 ---
 
 <StarlightPage frontmatter={{ title, description }}>
-  <CardHero card={card} locale="jpn" />
+  <CardHero card={card} locale="jpn">
+    <Fragment slot="aside">
+      {ja?.keywords && ja.keywords.length > 0 && (
+        <>
+          <h2 id="keywords">キーワード</h2>
+          <p lang="ja">{ja.keywords.map((k) => <code class="game-keyword">{k}</code>)}</p>
+        </>
+      )}
 
-  {ja?.keywords && ja.keywords.length > 0 && (
-    <>
-      <h2 id="keywords">キーワード</h2>
-      <p lang="ja">{ja.keywords.map((k) => <code class="game-keyword">{k}</code>)}</p>
-    </>
-  )}
-
-  <h2 id="related">関連カード</h2>
-  {relatedCards.length > 0 ? (
-    <ul>
-      {relatedCards.map((c) => (
-        <li><a href={`/jpn/docs/cards/${c.slug}/`}>{c.translations?.ja?.name || c.name}</a></li>
-      ))}
-    </ul>
-  ) : (
-    <p>関連カードはありません。</p>
-  )}
+      <h2 id="related">関連カード</h2>
+      {relatedCards.length > 0 ? (
+        <ul class="entity-links">
+          {relatedCards.map((c) => (
+            <li><a href={`/jpn/docs/cards/${c.slug}/`}>{c.translations?.ja?.name || c.name}</a></li>
+          ))}
+        </ul>
+      ) : (
+        <p>関連カードはありません。</p>
+      )}
+    </Fragment>
+  </CardHero>
 
   <p><a href="/jpn/docs/cards/">カード一覧に戻る</a></p>
 </StarlightPage>

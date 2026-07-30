@@ -33,16 +33,12 @@ const notesHtml = (zh?.notes || relic.notes).map((note) => renderEntityTextHtml(
         ) : (
           <span class="tag tag--plain">{zh?.rarity || relic.rarity}</span>
         )}
-        <span class="badge">{zh?.pool || relic.pool}</span>
       </div>
       <p class="game-description" lang="zh-Hans" set:html={descriptionHtml} />
-      <table>
-        <tbody>
-          <tr><th scope="row">稀有度</th><td>{zh?.rarity || relic.rarity}</td></tr>
-          <tr><th scope="row">卡池</th><td>{zh?.pool || relic.pool}</td></tr>
-          <tr><th scope="row">商店价格</th><td>{relic.price}</td></tr>
-        </tbody>
-      </table>
+      <dl class="entity-stats">
+        <div><dt>卡池</dt><dd>{zh?.pool || relic.pool}</dd></div>
+        <div><dt>商店价格</dt><dd>{relic.price}</dd></div>
+      </dl>
     </div>
   </div>
 

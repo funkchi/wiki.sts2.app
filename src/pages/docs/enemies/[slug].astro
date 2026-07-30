@@ -21,13 +21,7 @@ const description = `${enemy.type} enemy with ${enemy.hp} HP. ${enemy.pattern}`;
         <span class={`tag tag--type-${norm(enemy.type)}`}>{enemy.type}</span>
         <span class="badge">{enemy.hp} HP</span>
       </div>
-      <table>
-        <tbody>
-          <tr><th scope="row">Type</th><td>{enemy.type}</td></tr>
-          <tr><th scope="row">HP</th><td>{enemy.hp}</td></tr>
-          <tr><th scope="row">Pattern</th><td class="game-description" lang="en">{enemy.pattern}</td></tr>
-        </tbody>
-      </table>
+      <p class="game-description" lang="en">{enemy.pattern}</p>
     </div>
   </div>
 

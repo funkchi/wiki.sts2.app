@@ -87,12 +87,11 @@ const upgHtml = display.upgradeDescription
 const rows: Array<[string, string]> = [
   [labels.pool, localizedCharacterLabel(locale, card.character)],
   [labels.type, display.type],
-  [labels.rarity, display.rarity],
   [labels.target, display.target],
 ];
 ---
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero wiki-entity-hero--card">
   <div class="wiki-hero-art">
     <button
       class="wiki-image-toggle"
@@ -134,30 +133,30 @@ const rows: Array<[string, string]> = [
     <p class="game-description" lang={locale === 'zhs' ? 'zh-Hans' : locale === 'jpn' ? 'ja' : 'en'} set:html={descHtml} />
     {upgHtml && <p class="game-description upgrade-text" lang={locale === 'zhs' ? 'zh-Hans' : locale === 'jpn' ? 'ja' : 'en'} set:html={upgHtml} />}
 
-    <table>
-      <tbody>
-        {rows.map(([label, value]) => (
-          <tr><th scope="row">{label}</th><td>{value}</td></tr>
-        ))}
-        <tr>
-          <th scope="row">{labels.cost}</th>
-          <td>
-            {c.isXStar
-                ? (<>X <img class="star-icon" src={STAR} alt="star" /></>)
-                : c.isX
-                  ? 'X'
-                  : c.cost === -1 || c.cost === -2
-                    ? labels.unplayable
-                    : c.starCost !== null && c.starCost !== undefined
-                      ? (<>{c.cost}/{c.starCost} <img class="star-icon" src={STAR} alt="star" /></>)
-                      : String(c.cost)}
-            {card.upgradeCost !== null && card.upgradeCost !== undefined && (
-              <span class="cost-upgrade"> → {card.upgradeCost}</span>
-            )}
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <dl class="entity-stats">
+      {rows.map(([label, value]) => (
+        <div><dt>{label}</dt><dd>{value}</dd></div>
+      ))}
+      <div>
+        <dt>{labels.cost}</dt>
+        <dd>
+          {c.isXStar
+              ? (<>X <img class="star-icon" src={STAR} alt="star" /></>)
+              : c.isX
+                ? 'X'
+                : c.cost === -1 || c.cost === -2
+                  ? labels.unplayable
+                  : c.starCost !== null && c.starCost !== undefined
+                    ? (<>{c.cost}/{c.starCost} <img class="star-icon" src={STAR} alt="star" /></>)
+                    : String(c.cost)}
+          {card.upgradeCost !== null && card.upgradeCost !== undefined && (
+            <span class="cost-upgrade"> → {card.upgradeCost}</span>
+          )}
+        </dd>
+      </div>
+    </dl>
+
+    <slot name="aside" />
   </div>
 </div>
 
