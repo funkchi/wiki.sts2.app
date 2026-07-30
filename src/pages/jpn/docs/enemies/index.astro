@@ -1,0 +1,47 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../../components/EntityBrowser.svelte';
+import { enemies } from '../../../../data/enemies';
+
+const rows = enemies.map((e) => {
+  const ja = e.translations?.ja;
+  return {
+    slug: e.slug,
+    name: ja?.name || e.name,
+    type: ja?.type || e.type,
+    hp: e.hp,
+    acts: e.acts,
+    movesSummary: ja?.movesSummary || e.movesSummary,
+  };
+});
+---
+
+<StarlightPage frontmatter={{ title: '敵', description: 'Slay the Spire 2 の日本語敵一覧。' }}>
+  <p>
+    敵の日本語テキストはゲームファイルから逆コンパイルしています（<a href="https://github.com/ptrlrd/spire-codex">Spire Codex リポジトリ</a> に感謝）。
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/jpn/docs/enemies/"
+    noun="体の敵"
+    nameLabel="敵"
+    ui={{
+      search: '検索',
+      all: 'すべて',
+      reset: 'リセット',
+      of: '/',
+      searchPlaceholder: '敵を検索',
+    }}
+    columns={[
+      { field: 'type', label: 'タイプ' },
+      { field: 'hp', label: 'HP' },
+      { field: 'acts', label: '章' },
+      { field: 'movesSummary', label: '行動' },
+    ]}
+    filters={[
+      { field: 'type', label: 'タイプ' },
+      { field: 'acts', label: '章', multiple: true },
+    ]}
+  />
+</StarlightPage>

@@ -1,0 +1,40 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../../components/EntityBrowser.svelte';
+import { cardIndexRows } from '../../../../data/cardIndexRows';
+
+const rows = cardIndexRows('jpn');
+---
+
+<StarlightPage frontmatter={{ title: 'カード', description: 'Slay the Spire 2 の日本語カード一覧。' }}>
+  <p>
+    カードの日本語テキストはゲームファイルから逆コンパイルしています（<a href="https://github.com/ptrlrd/spire-codex">Spire Codex リポジトリ</a> に感謝）。
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/jpn/docs/cards/"
+    noun="枚のカード"
+    nameLabel="カード"
+    ui={{
+      search: '検索',
+      all: 'すべて',
+      reset: 'リセット',
+      of: '/',
+      searchPlaceholder: 'カードを検索',
+    }}
+    columns={[
+      { field: 'character', label: 'キャラクター', width: '13rem' },
+      { field: 'cost', label: 'コスト', format: 'cardCost', width: '7rem' },
+      { field: 'type', label: 'タイプ', width: '9rem' },
+      { field: 'rarity', label: 'レアリティ', width: '10rem' },
+      { field: 'keywords', label: 'キーワード', chips: true, width: '26rem' },
+    ]}
+    filters={[
+      { field: 'character', label: 'キャラクター / プール' },
+      { field: 'type', label: 'タイプ' },
+      { field: 'rarity', label: 'レアリティ' },
+      { field: 'keywords', label: 'キーワード', multiple: true },
+    ]}
+  />
+</StarlightPage>

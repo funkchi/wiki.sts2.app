@@ -1,0 +1,19 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EventDetail from '../../../../components/EventDetail.astro';
+import { eventForLocale, events } from '../../../../data/events';
+
+export const getStaticPaths = (() =>
+  events.map((event) => ({ params: { slug: event.slug }, props: { event } }))) satisfies GetStaticPaths;
+
+const { event } = Astro.props;
+const localized = eventForLocale(event, 'jpn');
+const description = `${localized.type}${localized.act ? `: ${localized.act}` : ''}。イベントの選択肢と結果の要約。全文は含めません。`;
+---
+
+<StarlightPage frontmatter={{ title: localized.name, description }}>
+  <EventDetail event={event} locale="jpn" />
+
+  <a class="return-link" href="/jpn/docs/events/">イベント一覧に戻る</a>
+</StarlightPage>

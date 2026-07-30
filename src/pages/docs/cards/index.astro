@@ -1,38 +1,28 @@
 ---
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import EntityBrowser from '../../../components/EntityBrowser.svelte';
-import { cards } from '../../../data/cards';
+import { cardIndexRows } from '../../../data/cardIndexRows';
 
-const rows = cards.map((c) => ({
-  slug: c.slug,
-  name: c.name,
-  character: c.character,
-  cost: c.cost,
-  costRaw: c.costRaw,
-  type: c.type,
-  rarity: c.rarity,
-  keywords: c.matchedKeywords,
-}));
+const rows = cardIndexRows('en');
 ---
 
 <StarlightPage frontmatter={{ title: 'Cards' }}>
   <p>
-    All card data on this page is sourced from the{' '}
-    <a href="https://spire-codex.com/docs">Spire Codex API</a>, using the English{' '}
-    <code>/api/cards</code> endpoint.
+    All card data on this page is decompiled from the game files, thanks to the{' '}
+    <a href="https://github.com/ptrlrd/spire-codex">Spire Codex repo</a>.
   </p>
   <EntityBrowser
-    client:load
+    client:idle
     entities={rows}
     linkBase="/docs/cards/"
     noun="cards"
     nameLabel="Card"
     columns={[
-      { field: 'character', label: 'Character' },
-      { field: 'cost', label: 'Cost', format: 'cardCost' },
-      { field: 'type', label: 'Type' },
-      { field: 'rarity', label: 'Rarity', badge: 'rarity' },
-      { field: 'keywords', label: 'Keywords', chips: true },
+      { field: 'character', label: 'Character', width: '13rem' },
+      { field: 'cost', label: 'Cost', format: 'cardCost', width: '7rem' },
+      { field: 'type', label: 'Type', width: '9rem' },
+      { field: 'rarity', label: 'Rarity', badge: 'rarity', width: '10rem' },
+      { field: 'keywords', label: 'Keywords', chips: true, width: '26rem' },
     ]}
     filters={[
       { field: 'character', label: 'Character / Pool' },

@@ -1,0 +1,47 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../../components/EntityBrowser.svelte';
+import { enemies } from '../../../../data/enemies';
+
+const rows = enemies.map((e) => {
+  const zh = e.translations?.zhHans;
+  return {
+    slug: e.slug,
+    name: zh?.name || e.name,
+    type: zh?.type || e.type,
+    hp: e.hp,
+    acts: e.acts,
+    movesSummary: zh?.movesSummary || e.movesSummary,
+  };
+});
+---
+
+<StarlightPage frontmatter={{ title: '敌人', description: '杀戮尖塔 2 中文敌人资料。' }}>
+  <p>
+    敌人中文文本由游戏文件反编译而来，感谢 <a href="https://github.com/ptrlrd/spire-codex">Spire Codex 仓库</a>。
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/zhs/docs/enemies/"
+    noun="个敌人"
+    nameLabel="敌人"
+    ui={{
+      search: '搜索',
+      all: '全部',
+      reset: '重置',
+      of: '/',
+      searchPlaceholder: '搜索敌人',
+    }}
+    columns={[
+      { field: 'type', label: '类型' },
+      { field: 'hp', label: '生命' },
+      { field: 'acts', label: '章节' },
+      { field: 'movesSummary', label: '行动' },
+    ]}
+    filters={[
+      { field: 'type', label: '类型' },
+      { field: 'acts', label: '章节', multiple: true },
+    ]}
+  />
+</StarlightPage>

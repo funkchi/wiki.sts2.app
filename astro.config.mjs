@@ -7,7 +7,7 @@ import { defineConfig } from 'astro/config';
 // Editorial pages live in Starlight's content collection; entity pages are
 // data-driven custom routes under /docs/cards/ wrapped in <StarlightPage>.
 export default defineConfig({
-  site: 'https://wiki.sts2.app',
+  site: 'https://sts2.app',
   output: 'static',
   trailingSlash: 'always',
   integrations: [
@@ -17,16 +17,45 @@ export default defineConfig({
       customCss: ['./src/styles/global.css'],
       components: {
         Head: './src/components/Head.astro',
+        LanguageSelect: './src/components/LanguageToggle.astro',
+        Search: './src/components/Search.astro',
+        Sidebar: './src/components/Sidebar.astro',
+        SiteTitle: './src/components/SiteTitle.astro',
       },
       sidebar: [
         { label: 'Cards', link: '/docs/cards/' },
         { label: 'Relics', link: '/docs/relics/' },
         { label: 'Enemies', link: '/docs/enemies/' },
         { label: 'Characters', link: '/docs/characters/' },
+        { label: 'Events', link: '/docs/events/' },
+        { label: 'Enhancements', link: '/docs/enhancements/' },
+        { label: 'Guides', slug: 'guides' },
+        { label: 'Patch Notes', slug: 'patches' },
         { label: 'About', slug: 'about' },
+        { label: 'Privacy', slug: 'privacy' },
+        { label: 'Contact', slug: 'contact' },
+        { label: 'Disclaimer', slug: 'disclaimer' },
       ],
     }),
     svelte(),
-    sitemap(),
+    sitemap({
+      serialize(item) {
+        const SITE = 'https://sts2.app';
+        const path = item.url.startsWith(SITE) ? item.url.slice(SITE.length) : new URL(item.url).pathname;
+        const localeMatch = path.match(/^\/(zhs|jpn)(?=\/|$)/);
+        const enPath = localeMatch ? path.replace(/^\/(zhs|jpn)/, '') || '/' : path;
+        const zhPath = `/zhs${enPath === '/' ? '/' : enPath}`;
+        const jaPath = `/jpn${enPath === '/' ? '/' : enPath}`;
+        // Only entity (/docs/*) and landing (/) have localized counterparts.
+        if (enPath.startsWith('/docs/') || enPath === '/') {
+          item.links = [
+            { url: `${SITE}${enPath}`, lang: 'en' },
+            { url: `${SITE}${zhPath}`, lang: 'zh-Hans' },
+            { url: `${SITE}${jaPath}`, lang: 'ja' },
+          ];
+        }
+        return item;
+      },
+    }),
   ],
 });

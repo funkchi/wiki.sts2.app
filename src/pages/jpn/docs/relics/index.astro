@@ -1,0 +1,45 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../../components/EntityBrowser.svelte';
+import { relics } from '../../../../data/relics';
+import { poolColor } from '../../../../data/characters';
+
+const rows = relics.map((r) => {
+  const ja = r.translations?.ja;
+  return {
+    slug: r.slug,
+    name: ja?.name || r.name,
+    pool: ja?.pool || r.pool,
+    poolColor: poolColor(r.poolRaw),
+    price: r.price,
+    rarity: ja?.rarity || r.rarity,
+    description: ja?.description || r.description,
+  };
+});
+---
+
+<StarlightPage frontmatter={{ title: 'レリック', description: 'Slay the Spire 2 の日本語レリック一覧。' }}>
+  <p>
+    レリックの日本語テキストはゲームファイルから逆コンパイルしています（<a href="https://github.com/ptrlrd/spire-codex">Spire Codex リポジトリ</a> に感謝）。
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/jpn/docs/relics/"
+    noun="個のレリック"
+    nameLabel="レリック"
+    ui={{
+      search: '検索',
+      all: 'すべて',
+      reset: 'リセット',
+      of: '/',
+      searchPlaceholder: 'レリックを検索',
+    }}
+    columns={[
+      { field: 'pool', label: 'プール' },
+      { field: 'price', label: '価格' },
+      { field: 'rarity', label: 'レアリティ', format: 'relicRarity' },
+    ]}
+    filters={[{ field: 'rarity', label: 'レアリティ' }, { field: 'pool', label: 'プール' }]}
+  />
+</StarlightPage>

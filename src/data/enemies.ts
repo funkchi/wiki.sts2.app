@@ -14,6 +14,15 @@ const EncounterSchema = z.object({
   roomType: z.string(),
   act: z.string().nullable(),
 });
+const EnemyTranslationSchema = z.object({
+  name: z.string(),
+  type: z.string(),
+  pattern: z.string(),
+  moves: z.array(MoveSchema),
+  encounters: z.array(EncounterSchema),
+  encounterNames: z.array(z.string()),
+  movesSummary: z.string(),
+});
 
 const EnemySchema = z.object({
   id: z.string(),
@@ -28,6 +37,10 @@ const EnemySchema = z.object({
   acts: z.array(z.string()),
   movesSummary: z.string(),
   image: z.string(),
+  translations: z.object({
+    zhHans: EnemyTranslationSchema.optional(),
+    ja: EnemyTranslationSchema.optional(),
+  }).optional(),
 });
 
 const EnemiesFileSchema = z.object({

@@ -1,0 +1,18 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EventDetail from '../../../components/EventDetail.astro';
+import { events } from '../../../data/events';
+
+export const getStaticPaths = (() =>
+  events.map((event) => ({ params: { slug: event.slug }, props: { event } }))) satisfies GetStaticPaths;
+
+const { event } = Astro.props;
+const description = `${event.type}${event.act ? ` in ${event.act}` : ''}. Choice/result summary without narrative event text.`;
+---
+
+<StarlightPage frontmatter={{ title: event.name, description }}>
+  <EventDetail event={event} locale="en" />
+
+  <a class="return-link" href="/docs/events/">Back to all events</a>
+</StarlightPage>

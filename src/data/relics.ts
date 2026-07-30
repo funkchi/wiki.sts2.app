@@ -1,6 +1,15 @@
 import { z } from 'astro:schema';
 import relicsData from '../../data/wiki/relics.json';
 
+const RelicTranslationSchema = z.object({
+  name: z.string(),
+  description: z.string(),
+  rarity: z.string(),
+  pool: z.string(),
+  flavor: z.string(),
+  notes: z.array(z.string()),
+});
+
 const RelicSchema = z.object({
   id: z.string(),
   slug: z.string(),
@@ -14,6 +23,10 @@ const RelicSchema = z.object({
   notes: z.array(z.string()),
   image: z.string(),
   related: z.array(z.string()),
+  translations: z.object({
+    zhHans: RelicTranslationSchema.optional(),
+    ja: RelicTranslationSchema.optional(),
+  }).optional(),
 });
 
 const RelicsFileSchema = z.object({

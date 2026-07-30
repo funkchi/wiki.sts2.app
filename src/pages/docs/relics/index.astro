@@ -17,13 +17,12 @@ const rows = relics.map((r) => ({
 
 <StarlightPage frontmatter={{ title: 'Relics' }}>
   <p>
-    All relic data on this page is sourced from the{' '}
-    <a href="https://spire-codex.com/docs">Spire Codex API</a>, using the English{' '}
-    <code>/api/relics</code> endpoint. Merchant price is shown as{' '}
+    All relic data on this page is decompiled from the game files, thanks to the{' '}
+    <a href="https://github.com/ptrlrd/spire-codex">Spire Codex repo</a>. Merchant price is shown as{' '}
     <code>base (min-max)</code> when a shop range is available.
   </p>
   <EntityBrowser
-    client:load
+    client:idle
     entities={rows}
     linkBase="/docs/relics/"
     noun="relics"

@@ -20,25 +20,27 @@ const description =
 ---
 
 <StarlightPage frontmatter={{ title: card.name, description }}>
-  <CardHero card={card} />
+  <CardHero card={card}>
+    <Fragment slot="aside">
+      {card.keywords.length > 0 && (
+        <>
+          <h2 id="keywords">Keywords</h2>
+          <p lang="en">{card.keywords.map((k) => <code class="game-keyword">{k}</code>)}</p>
+        </>
+      )}
 
-  {card.keywords.length > 0 && (
-    <>
-      <h2 id="keywords">Keywords</h2>
-      <p>{card.keywords.map((k) => <code>{k}</code>)}</p>
-    </>
-  )}
+      <h2 id="related">Related Cards</h2>
+      {relatedCards.length > 0 ? (
+        <ul class="entity-links">
+          {relatedCards.map((c) => (
+            <li><a href={`/docs/cards/${c.slug}/`}>{c.name}</a></li>
+          ))}
+        </ul>
+      ) : (
+        <p>No closely related cards.</p>
+      )}
+    </Fragment>
+  </CardHero>
 
-  <h2 id="related">Related Cards</h2>
-  {relatedCards.length > 0 ? (
-    <ul>
-      {relatedCards.map((c) => (
-        <li><a href={`/docs/cards/${c.slug}/`}>{c.name}</a></li>
-      ))}
-    </ul>
-  ) : (
-    <p>No closely related cards.</p>
-  )}
-
-  <p><a href="/docs/cards/">Back to all cards</a></p>
+  <a class="return-link" href="/docs/cards/">Back to all cards</a>
 </StarlightPage>

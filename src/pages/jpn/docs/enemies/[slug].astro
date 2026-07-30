@@ -1,0 +1,71 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { enemies } from '../../../../data/enemies';
+
+export const getStaticPaths = (() =>
+  enemies.map((enemy) => ({ params: { slug: enemy.slug }, props: { enemy } }))) satisfies GetStaticPaths;
+
+const { enemy } = Astro.props;
+const ja = enemy.translations?.ja;
+const title = ja?.name || enemy.name;
+const type = ja?.type || enemy.type;
+const pattern = ja?.pattern || enemy.pattern;
+const moves = ja?.moves || enemy.moves;
+const encounters = ja?.encounters || enemy.encounters;
+const norm = (val: string) =>
+  String(val).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+const description = `${type}の敵。HP ${enemy.hp}。${pattern}`;
+---
+
+<StarlightPage frontmatter={{ title, description }}>
+  <div class="wiki-entity-hero wiki-entity-hero--wide wiki-entity-hero--enemy">
+    <img class="wiki-image" src={enemy.image} alt={title} loading="eager" decoding="async" fetchpriority="high" />
+    <div class="wiki-entity-hero__details">
+      <div class="entity-badges">
+        <span class={`tag tag--type-${norm(enemy.type)}`}>{type}</span>
+        <span class="badge">HP {enemy.hp}</span>
+      </div>
+      <p class="game-description" lang="ja">{pattern}</p>
+    </div>
+  </div>
+
+  <h2 id="moves">行動</h2>
+  <table>
+    <thead>
+      <tr><th>行動</th><th>意図</th><th>ダメージ</th><th>ブロック</th><th>回復</th></tr>
+    </thead>
+    <tbody>
+      {moves.length > 0 ? (
+        moves.map((m) => (
+          <tr>
+            <td>{m.name}</td>
+            <td>{m.intent || '-'}</td>
+            <td>{m.damage || '-'}</td>
+            <td>{m.block || '-'}</td>
+            <td>{m.heal || '-'}</td>
+          </tr>
+        ))
+      ) : (
+        <tr><td colspan="5">行動データはまだありません。</td></tr>
+      )}
+    </tbody>
+  </table>
+
+  {encounters.length > 0 && (
+    <>
+      <h2 id="encounters">遭遇</h2>
+      <table>
+        <thead><tr><th>遭遇</th><th>部屋</th><th>章</th></tr></thead>
+        <tbody>
+          {encounters.map((en) => (
+            <tr><td>{en.name}</td><td>{en.roomType}</td><td>{en.act || '-'}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )}
+
+  <a class="return-link" href="/jpn/docs/enemies/">敵一覧に戻る</a>
+</StarlightPage>

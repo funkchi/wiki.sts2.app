@@ -1,4 +1,7 @@
 ---
+import { localizedCharacterLabel, translationKey, type Lang } from '../data/i18n';
+import { renderEntityTextHtml } from '../data/textHtml';
+
 interface CostRaw {
   cost: number | null;
   starCost: number | null;
@@ -17,42 +20,78 @@ interface Props {
     rarity: string;
     cost: string;
     costRaw: CostRaw;
+    upgradeCost?: number | null;
     target: string;
     matchedKeywords: string[];
+    translations?: Record<string, any>;
   };
+  locale?: Lang;
 }
-const { card } = Astro.props;
+const { card, locale = 'en' } = Astro.props;
 const c = card.costRaw;
+const translatedCard = translationKey(locale) ? card.translations?.[translationKey(locale)!] : undefined;
+const display = {
+  name: translatedCard?.name || card.name,
+  description: translatedCard?.description || card.description,
+  upgradeDescription: translatedCard?.upgradeDescription || card.upgradeDescription,
+  type: translatedCard?.type || card.type,
+  rarity: translatedCard?.rarity || card.rarity,
+  target: translatedCard?.target || card.target,
+  keywords: Array.isArray(translatedCard?.keywords) ? translatedCard.keywords : card.matchedKeywords,
+};
+
+const labels = {
+  en: {
+    pool: 'Character / Pool',
+    type: 'Type',
+    rarity: 'Rarity',
+    target: 'Target',
+    cost: 'Cost',
+    unplayable: 'Unplayable',
+    hint: 'Click image to view upgrade',
+    upgradedAlt: 'upgraded',
+  },
+  zhs: {
+    pool: '角色 / 卡池',
+    type: '类型',
+    rarity: '稀有度',
+    target: '目标',
+    cost: '费用',
+    unplayable: '不可打出',
+    hint: '点击图片查看升级版',
+    upgradedAlt: '升级版',
+  },
+  jpn: {
+    pool: 'キャラクター / プール',
+    type: 'タイプ',
+    rarity: 'レアリティ',
+    target: '対象',
+    cost: 'コスト',
+    unplayable: 'プレイ不可',
+    hint: '画像をクリックしてアップグレード版を表示',
+    upgradedAlt: 'アップグレード版',
+  },
+}[locale];
 
 const norm = (val: string) =>
   String(val).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-const STAR = 'https://cdn.spire-codex.com/icons/star_icon.webp';
+const STAR = '/images/star-icon.webp';
 
-const esc = (s: string) =>
-  s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-const escRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-function highlight(text: string, terms: string[], cls: string): string {
-  const safe = esc(text);
-  if (!terms || terms.length === 0) return safe;
-  const re = new RegExp('\\b(' + terms.map(escRe).join('|') + ')\\b', 'gi');
-  return safe.replace(re, `<span class="${cls}">$1</span>`);
-}
-const descHtml = card.description
-  ? highlight(card.description, card.matchedKeywords, 'kw')
+const descHtml = display.description
+  ? renderEntityTextHtml(display.description, { locale, keywords: display.keywords, keywordClass: 'kw' })
   : 'No description is currently available.';
-const upgHtml = card.upgradeDescription
-  ? highlight(card.upgradeDescription, card.matchedKeywords, 'kw kw--muted')
+const upgHtml = display.upgradeDescription
+  ? renderEntityTextHtml(display.upgradeDescription, { locale, keywords: display.keywords, keywordClass: 'kw kw--muted' })
   : '';
 
 const rows: Array<[string, string]> = [
-  ['Character / Pool', card.character],
-  ['Type', card.type],
-  ['Rarity', card.rarity],
-  ['Target', card.target],
+  [labels.pool, localizedCharacterLabel(locale, card.character)],
+  [labels.type, display.type],
+  [labels.target, display.target],
 ];
 ---
 
-<div class="wiki-entity-hero">
+<div class="wiki-entity-hero wiki-entity-hero--wide wiki-entity-hero--card">
   <div class="wiki-hero-art">
     <button
       class="wiki-image-toggle"
@@ -62,46 +101,62 @@ const rows: Array<[string, string]> = [
       data-state="base"
       aria-label="Toggle upgraded artwork"
     >
-      <img
-        class="wiki-image wiki-image--card-detail"
-        src={card.image}
-        alt={card.name}
-        loading="lazy"
-        decoding="async"
-      />
+      <span class="wiki-image-stack">
+        <img
+          class="wiki-image wiki-image--card-detail wiki-image--base"
+          src={card.image}
+          alt={display.name}
+          loading="eager"
+          decoding="async"
+          fetchpriority="high"
+        />
+        {card.imageUpg && (
+          <img
+            class="wiki-image wiki-image--card-detail wiki-image--upgraded"
+            src={card.imageUpg}
+            alt={`${display.name} ${labels.upgradedAlt}`}
+            loading="eager"
+            decoding="async"
+            fetchpriority="low"
+          />
+        )}
+      </span>
     </button>
-    {card.imageUpg && <p class="wiki-image-hint">Click image to view upgrade</p>}
+    {card.imageUpg && <p class="wiki-image-hint">{labels.hint}</p>}
   </div>
 
   <div class="wiki-entity-hero__details">
     <div class="entity-badges">
-      <span class={`tag tag--rarity-${norm(card.rarity)}`}>{card.rarity}</span>
+      <span class={`tag tag--rarity-${norm(card.rarity)}`}>{display.rarity}</span>
     </div>
 
-    <p set:html={descHtml} />
-    {upgHtml && <p class="upgrade-text" set:html={upgHtml} />}
+    <p class="game-description" lang={locale === 'zhs' ? 'zh-Hans' : locale === 'jpn' ? 'ja' : 'en'} set:html={descHtml} />
+    {upgHtml && <p class="game-description upgrade-text" lang={locale === 'zhs' ? 'zh-Hans' : locale === 'jpn' ? 'ja' : 'en'} set:html={upgHtml} />}
 
-    <table>
-      <tbody>
-        {rows.map(([label, value]) => (
-          <tr><th scope="row">{label}</th><td>{value}</td></tr>
-        ))}
-        <tr>
-          <th scope="row">Cost</th>
-          <td>
-            {c.cost === -1 || c.cost === -2
-              ? 'Unplayable'
-              : c.isXStar
-                ? (<>X <img class="star-icon" src={STAR} alt="star" /></>)
-                : c.isX
-                  ? 'X'
+    <dl class="entity-stats">
+      {rows.map(([label, value]) => (
+        <div><dt>{label}</dt><dd>{value}</dd></div>
+      ))}
+      <div>
+        <dt>{labels.cost}</dt>
+        <dd>
+          {c.isXStar
+              ? (<>X <img class="star-icon" src={STAR} alt="star" /></>)
+              : c.isX
+                ? 'X'
+                : c.cost === -1 || c.cost === -2
+                  ? labels.unplayable
                   : c.starCost !== null && c.starCost !== undefined
                     ? (<>{c.cost}/{c.starCost} <img class="star-icon" src={STAR} alt="star" /></>)
                     : String(c.cost)}
-          </td>
-        </tr>
-      </tbody>
-    </table>
+          {card.upgradeCost !== null && card.upgradeCost !== undefined && (
+            <span class="cost-upgrade"> → {card.upgradeCost}</span>
+          )}
+        </dd>
+      </div>
+    </dl>
+
+    <slot name="aside" />
   </div>
 </div>
 
@@ -111,11 +166,9 @@ const rows: Array<[string, string]> = [
     if (!btn || btn.dataset.bound) return;
     btn.dataset.bound = '1';
     var upg = btn.dataset.upg;
-    var img = btn.querySelector('img');
-    if (!upg || !img) return;
+    if (!upg) return;
     btn.addEventListener('click', function () {
       var isUpg = btn.dataset.state === 'upg';
-      img.src = isUpg ? btn.dataset.base : upg;
       btn.dataset.state = isUpg ? 'base' : 'upg';
       btn.classList.toggle('is-upgraded', !isUpg);
     });

@@ -1,0 +1,40 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../../components/EntityBrowser.svelte';
+import { cardIndexRows } from '../../../../data/cardIndexRows';
+
+const rows = cardIndexRows('zhs');
+---
+
+<StarlightPage frontmatter={{ title: '卡牌', description: '杀戮尖塔 2 中文卡牌资料。' }}>
+  <p>
+    本页中文文本由游戏文件反编译而来，感谢 <a href="https://github.com/ptrlrd/spire-codex">Spire Codex 仓库</a>。
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/zhs/docs/cards/"
+    noun="张卡牌"
+    nameLabel="卡牌"
+    ui={{
+      search: '搜索',
+      all: '全部',
+      reset: '重置',
+      of: '/',
+      searchPlaceholder: '搜索卡牌',
+    }}
+    columns={[
+      { field: 'character', label: '角色', width: '13rem' },
+      { field: 'cost', label: '费用', format: 'cardCost', width: '7rem' },
+      { field: 'type', label: '类型', width: '9rem' },
+      { field: 'rarity', label: '稀有度', width: '10rem' },
+      { field: 'keywords', label: '关键词', chips: true, width: '26rem' },
+    ]}
+    filters={[
+      { field: 'character', label: '角色 / 卡池' },
+      { field: 'type', label: '类型' },
+      { field: 'rarity', label: '稀有度' },
+      { field: 'keywords', label: '关键词', multiple: true },
+    ]}
+  />
+</StarlightPage>

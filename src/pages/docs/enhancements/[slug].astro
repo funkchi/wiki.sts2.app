@@ -1,0 +1,18 @@
+---
+import type { GetStaticPaths } from 'astro';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EnhancementDetail from '../../../components/EnhancementDetail.astro';
+import { enchantments } from '../../../data/enchantments';
+
+export const getStaticPaths = (() =>
+  enchantments.map((enhancement) => ({ params: { slug: enhancement.slug }, props: { enhancement } }))) satisfies GetStaticPaths;
+
+const { enhancement } = Astro.props;
+const description = enhancement.description || `${enhancement.name} enhancement.`;
+---
+
+<StarlightPage frontmatter={{ title: enhancement.name, description }}>
+  <EnhancementDetail enhancement={enhancement} locale="en" />
+
+  <a class="return-link" href="/docs/enhancements/">Back to all enhancements</a>
+</StarlightPage>

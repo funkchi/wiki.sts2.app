@@ -1,9 +1,76 @@
-/* ===== Fonts (must be first) ===== */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+/* ===== Slay the Spire 2 description fonts ===== */
+@font-face {
+  font-family: 'STS2 Kreon';
+  src: url('/fonts/kreon-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'STS2 Kreon';
+  src: url('/fonts/kreon-bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'STS2 Japanese Description';
+  src: url('/fonts/noto-sans-cjk-jp-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'STS2 Japanese Description';
+  src: url('/fonts/noto-sans-cjk-jp-bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'STS2 Simplified Chinese Description';
+  src: url('/fonts/noto-sans-mono-cjk-sc-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'STS2 Simplified Chinese Description';
+  src: url('/fonts/source-han-serif-sc-bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600 900;
+  font-display: swap;
+}
+
+/* The game uses Kreon Regular for rules text and swaps locale-specific fonts
+   for Japanese and Simplified Chinese. Keep that behavior scoped to entity
+   descriptions so the surrounding wiki UI remains unchanged. */
+.game-description {
+  font-family: 'STS2 Kreon', Georgia, serif;
+  font-size: 1.05em;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.game-description:lang(ja) {
+  font-family: 'STS2 Japanese Description', sans-serif;
+  letter-spacing: 0;
+}
+
+.game-description:lang(zh-Hans) {
+  font-family: 'STS2 Simplified Chinese Description', serif;
+  letter-spacing: 0;
+}
 
 /* ===== Design tokens ===== */
 :root {
-  --sts2-font: 'Outfit', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --sts2-font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   /* Make Starlight use the same font */
   --sl-font: var(--sts2-font);
@@ -33,29 +100,132 @@ body {
   font-family: var(--sts2-font);
 }
 
-/* ===== Recolor Starlight to match the landing's dark + violet identity ===== */
+.language-toggle {
+  position: relative;
+  display: inline-block;
+  color: var(--sl-color-text);
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+.language-toggle summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 2.25rem;
+  padding: 0.25rem 0.15rem;
+  border: 0;
+  background: transparent;
+  color: var(--sl-color-text);
+  cursor: pointer;
+  list-style: none;
+}
+.language-toggle summary::-webkit-details-marker {
+  display: none;
+}
+.language-toggle summary:hover,
+.language-toggle summary:focus-visible {
+  color: var(--sl-color-text-accent);
+  outline: none;
+}
+.language-toggle summary img {
+  width: 1.7rem;
+  height: 1.7rem;
+  object-fit: contain;
+  filter: invert(1);
+}
+:root[data-theme='light'] .language-toggle img {
+  filter: none;
+}
+.language-toggle__menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.45rem);
+  z-index: 30;
+  min-width: 10rem;
+  padding: 0.35rem;
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: var(--sts2-radius-xs);
+  background: var(--sl-color-bg-nav);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18);
+}
+.language-toggle__menu a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.45rem 0.55rem;
+  border-radius: 6px;
+  color: var(--sl-color-text);
+  text-decoration: none;
+}
+.language-toggle__menu a:hover,
+.language-toggle__menu a:focus-visible,
+.language-toggle__menu a[aria-current='page'] {
+  background: var(--sl-color-accent-low);
+  color: var(--sl-color-text-accent);
+  outline: none;
+}
+.language-toggle__menu small {
+  opacity: 0.75;
+}
+
+/* ===== Recolor Starlight to match the landing's identity ===== */
 :root,
-:root[data-theme='light'],
 :root[data-theme='dark'] {
   --sl-color-white: #fff6ea !important;
-  --sl-color-black: #100c16 !important;
+  --sl-color-black: #1a1322 !important;
   --sl-color-gray-1: #fff6ea !important;
   --sl-color-gray-2: #d9cec3 !important;
   --sl-color-gray-3: #b3a39a !important;
   --sl-color-gray-4: #6a6270 !important;
   --sl-color-gray-5: #3b3340 !important;
-  --sl-color-gray-6: #241d2c !important;
-  --sl-color-gray-7: #160f1f !important;
-  --sl-color-bg: #100c16 !important;
-  --sl-color-bg-nav: #160f1f !important;
-  --sl-color-bg-sidebar: #15101d !important;
+  --sl-color-gray-6: #2c2434 !important;
+  --sl-color-gray-7: #1f1728 !important;
+  --sl-color-bg: #1a1322 !important;
+  --sl-color-bg-nav: #21192a !important;
+  --sl-color-bg-sidebar: #201827 !important;
   --sl-color-text: #e9e0d8 !important;
   --sl-color-heading: #fff6ea !important;
   --sl-color-line: rgba(255, 246, 234, 0.12) !important;
   --sl-color-accent: #b3a1ff !important;
   --sl-color-accent-high: #d4c5ff !important;
-  --sl-color-accent-low: #2e2147 !important;
+  --sl-color-accent-low: #3a2a56 !important;
   --sl-color-text-accent: #c4b5fd !important;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --sl-color-white: #100c16 !important;
+  --sl-color-black: #fffdf8 !important;
+  --sl-color-gray-1: #1e1725 !important;
+  --sl-color-gray-2: #423849 !important;
+  --sl-color-gray-3: #63596b !important;
+  --sl-color-gray-4: #8a8190 !important;
+  --sl-color-gray-5: #c8c0cc !important;
+  --sl-color-gray-6: #f1eaf4 !important;
+  --sl-color-gray-7: #fffdf8 !important;
+  --sl-color-bg: #fffdf8 !important;
+  --sl-color-bg-nav: #fffaf3 !important;
+  --sl-color-bg-sidebar: #fbf3ec !important;
+  --sl-color-text: #241d2c !important;
+  --sl-color-heading: #100c16 !important;
+  --sl-color-line: rgba(36, 29, 44, 0.14) !important;
+  --sl-color-accent: #6d28d9 !important;
+  --sl-color-accent-high: #4c1d95 !important;
+  --sl-color-accent-low: #ede9fe !important;
+  --sl-color-text-accent: #5b21b6 !important;
+  --sts2-ink: #100c16;
+  --sts2-line: rgba(36, 29, 44, 0.14);
+  --sts2-panel: rgba(36, 29, 44, 0.045);
+}
+
+@media (min-width: 72rem) {
+  :root:has(.card-browser),
+  :root:has(.wiki-entity-hero--wide),
+  :root:has(.character-hero),
+  :root:has(.event-hero) {
+    --sl-content-width: min(96rem, calc(100vw - var(--sl-sidebar-width, 18.75rem) - 4rem));
+  }
 }
 
 /* Rounder surfaces inside Starlight content */
@@ -143,6 +313,7 @@ body {
 
 /* ===== Card browser (Svelte island) ===== */
 .card-browser {
+  width: 100%;
   margin: 1.5rem 0;
 }
 .card-browser__controls {
@@ -198,10 +369,19 @@ body {
   font-size: 0.9rem;
   opacity: 0.8;
 }
+.card-browser__table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 0.35rem;
+  scrollbar-gutter: stable;
+}
 .card-browser table {
-  width: 100%;
+  width: max-content;
+  min-width: 100%;
   border-collapse: separate;
   border-spacing: 0 4px;
+  table-layout: auto;
 }
 .card-browser th {
   text-align: left;
@@ -209,12 +389,49 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   opacity: 0.65;
-  padding: 0.2rem 0.5rem;
+  padding: 0.2rem 0.75rem;
+  white-space: nowrap;
+}
+.sort-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+  cursor: pointer;
+}
+.sort-button:hover,
+.sort-button:focus-visible {
+  color: var(--sl-color-text-accent);
+  outline: none;
+}
+.sort-arrow {
+  color: var(--sl-color-text-accent);
+  font-weight: 700;
 }
 .card-browser td {
-  padding: 0.45rem 0.5rem;
+  height: 2.6rem;
+  padding: 0 0.75rem;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.card-browser td > a {
+  white-space: nowrap;
+}
+.card-browser .kw-chip,
+.card-browser .tag {
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
 }
 .card-browser tbody tr {
+  height: 2.6rem;
   border-radius: var(--sts2-radius-sm);
   transition: background 0.12s ease;
 }
@@ -225,23 +442,70 @@ body {
 /* ===== Characters ===== */
 .character-hero {
   display: grid;
-  grid-template-columns: minmax(220px, 320px) 1fr;
+  grid-template-columns: minmax(16rem, 26rem) 1fr;
   gap: 1.5rem;
   align-items: start;
-  margin: 1.5rem 0;
-  padding: 1.25rem;
-  border: 1px solid color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 45%, transparent);
+  margin: 0.5rem 0 2rem;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+/* Short key/value facts read badly as a stacked two-column table: five rows of
+   one-word values burn a lot of vertical space. This lays them out as a
+   compact grid that reflows to the available width. */
+.entity-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr));
+  gap: 0.75rem 1.25rem;
+  margin: 1rem 0 0;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--sts2-border, rgba(255, 255, 255, 0.12));
   border-radius: var(--sts2-radius);
-  background: linear-gradient(
-    160deg,
-    color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 12%, transparent),
-    var(--sts2-panel)
+  background: color-mix(in srgb, var(--sts2-panel, #1b1b22) 70%, transparent);
+}
+.entity-stats > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+.entity-stats dt {
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.62;
+}
+.entity-stats dd {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+.character-hero__stage {
+  display: grid;
+  place-items: end center;
+  aspect-ratio: 4 / 5;
+  padding: 0;
+  background: radial-gradient(
+    ellipse 52% 16% at 50% 95%,
+    color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 38%, transparent),
+    transparent 72%
   );
 }
+/* The idle loops are all rendered to the same height with the character's feet
+   near the bottom, so contain + bottom alignment keeps them standing on the
+   pedestal glow at a consistent scale. */
 .character-hero__art {
   width: 100%;
-  border-radius: var(--sts2-radius);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom center;
+  filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.45));
+}
+.character-hero__body h2 {
+  margin-top: 1.75rem;
+  font-size: 1.35rem;
 }
 .character-hero__head {
   display: flex;
@@ -424,11 +688,30 @@ body {
 .tag--type-event {
   --tag-color: #16a34a;
 }
+.tag--type-ancient {
+  --tag-color: #7c3aed;
+}
+.tag--type-shared {
+  --tag-color: #0ea5e9;
+}
+.tag--type-enhancement {
+  --tag-color: #a855f7;
+}
 
 /* ===== Keyword highlight (in card descriptions) ===== */
-.kw {
+.kw,
+.game-keyword {
+  font-family: 'STS2 Kreon', Georgia, serif;
   color: #d2a52b;
   font-weight: 600;
+}
+.kw:lang(ja),
+.game-keyword:lang(ja) {
+  font-family: 'STS2 Japanese Description', sans-serif;
+}
+.kw:lang(zh-Hans),
+.game-keyword:lang(zh-Hans) {
+  font-family: 'STS2 Simplified Chinese Description', serif;
 }
 .kw--muted {
   color: #8c7544;
@@ -436,6 +719,12 @@ body {
 .kw-chip {
   display: inline-block;
   margin: 0 0.4rem 0.2rem 0;
+}
+.enhancement-link {
+  color: var(--sl-color-text-accent);
+  font-weight: 650;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
 }
 .tag--plain {
   border-bottom: none;
@@ -474,6 +763,184 @@ body {
   font-size: 0.9rem;
 }
 
+/* ===== Events ===== */
+.event-hero {
+  display: block;
+  margin: 0.5rem 0 2rem;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+/* Event art is a wide scene, so it reads best as a banner spanning the whole
+   content area rather than a thumbnail beside the text. */
+.event-hero__image {
+  display: block;
+  width: 100%;
+  max-width: none;
+  aspect-ratio: 21 / 9;
+  object-fit: cover;
+  object-position: center;
+  border: 0;
+  border-radius: var(--sts2-radius);
+}
+.event-hero__body {
+  margin-top: 1.25rem;
+}
+.event-hero table {
+  width: 100%;
+  margin: 0.6rem 0;
+}
+.event-hero th {
+  width: 10rem;
+  text-align: left;
+  white-space: nowrap;
+}
+.event-source {
+  margin: 0.65rem 0 0;
+}
+.event-choice-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  gap: 0.7rem;
+  margin: 0.85rem 0;
+}
+.event-choice,
+.event-state {
+  border: 1px solid var(--sts2-line);
+  border-radius: var(--sts2-radius-sm);
+  background: var(--sts2-panel);
+}
+.event-choice {
+  padding: 0.8rem;
+}
+.event-choice--locked {
+  opacity: 0.58;
+}
+.event-choice__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.35rem;
+}
+.event-choice p {
+  margin: 0;
+  line-height: 1.45;
+}
+.event-target,
+.event-terminal {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.08rem 0.45rem;
+  border: 1px solid var(--sts2-line);
+  border-radius: var(--sts2-radius-pill);
+  background: color-mix(in srgb, var(--sl-color-accent) 10%, transparent);
+  color: var(--sl-color-text-accent);
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+.event-flow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.9rem;
+}
+.event-state {
+  padding: 0.9rem;
+}
+.event-state h3 {
+  margin: 0 0 0.65rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--sl-color-text-accent);
+}
+.event-terminal-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.ancient-relic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+.ancient-relic-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0.9rem;
+  border: 1px solid var(--sts2-line);
+  border-radius: var(--sts2-radius-sm);
+  background: var(--sts2-panel);
+}
+.ancient-relic-card__main,
+.ancient-card-preview a,
+.dusty-card-grid a {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+}
+.ancient-relic-card__main img {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+}
+.ancient-card-preview,
+.dusty-tome-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--sts2-line);
+}
+.ancient-card-preview > span,
+.dusty-tome-groups > span {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--sl-color-text-accent);
+}
+.ancient-card-preview img {
+  width: 54px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: var(--sts2-radius-xs);
+}
+.dusty-tome-groups details {
+  border: 1px solid var(--sts2-line);
+  border-radius: var(--sts2-radius-xs);
+  padding: 0.45rem 0.55rem;
+}
+.dusty-tome-groups summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+.dusty-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr));
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+}
+.dusty-card-grid a {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 0.82rem;
+}
+.dusty-card-grid img {
+  width: 76px;
+  height: 98px;
+  object-fit: contain;
+  border-radius: var(--sts2-radius-xs);
+}
+.enhancement-image {
+  max-width: 120px;
+  object-fit: contain;
+}
+
 /* (card type shapes removed) */
 
 /* star icon (regent / star cost) */
@@ -483,6 +950,10 @@ body {
   height: 14px;
   vertical-align: -2px;
   margin-left: 2px;
+}
+.cost-upgrade {
+  color: #9ca3af;
+  font-weight: 400;
 }
 
 /* upgrade text — gray, directly under the description */
@@ -499,28 +970,147 @@ body {
   align-items: flex-start;
   gap: 0.4rem;
 }
+
+/* Card detail: drop the panel chrome entirely and let the art lead, with the
+   text column filling the rest of the (widened) content area. */
+.wiki-entity-hero--wide {
+  display: grid;
+  grid-template-columns: minmax(14rem, var(--hero-art, 22rem)) 1fr;
+  gap: clamp(1.5rem, 3vw, 3rem);
+  align-items: start;
+  margin: 0.5rem 0 2rem;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+.wiki-entity-hero--card { --hero-art: 26rem; }
+.wiki-entity-hero--relic { --hero-art: 17rem; }
+.wiki-entity-hero--enemy { --hero-art: 24rem; }
+/* Sprites and icons are capped small by the shared rule; let them fill the
+   art column and cast a shadow that follows the artwork. */
+.wiki-entity-hero--wide > .wiki-image {
+  width: 100%;
+  max-width: none;
+  border-radius: 0;
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.4));
+}
+.wiki-entity-hero--card .wiki-hero-art {
+  align-items: stretch;
+  width: 100%;
+}
+.wiki-entity-hero--wide .wiki-image-toggle,
+.wiki-entity-hero--wide .wiki-image-stack {
+  width: 100%;
+  max-width: none;
+}
+.wiki-entity-hero--wide .wiki-image-hint {
+  text-align: center;
+}
+.wiki-entity-hero--wide .game-description {
+  font-size: 1.05rem;
+}
+/* Secondary sections sit in the text column so the page has no dead zone
+   beside the tall card art. */
+.wiki-entity-hero--wide [slot='aside'] h2,
+.wiki-entity-hero--wide h2 {
+  margin-top: 1.75rem;
+  font-size: 1.35rem;
+}
+.entity-links {
+  columns: 2;
+  column-gap: 2rem;
+  margin: 0.5rem 0 0;
+}
+.entity-links li {
+  break-inside: avoid;
+}
+@media (max-width: 60rem) {
+  .wiki-entity-hero--card {
+    grid-template-columns: 1fr;
+  }
+  .wiki-entity-hero--wide .wiki-image-stack {
+    max-width: 22rem;
+    margin-inline: auto;
+  }
+}
 .wiki-image-toggle {
   padding: 0;
   margin: 0;
   border: 0;
   background: none;
   cursor: pointer;
+  width: 220px;
   max-width: 220px;
 }
+.wiki-image-stack {
+  position: relative;
+  display: block;
+  width: 220px;
+  max-width: 100%;
+  aspect-ratio: 400 / 520;
+}
+.wiki-image-stack .wiki-image {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.wiki-image-stack .wiki-image--upgraded {
+  opacity: 0;
+  pointer-events: none;
+}
+.wiki-image-toggle.is-upgraded .wiki-image--base {
+  opacity: 0;
+}
+.wiki-image-toggle.is-upgraded .wiki-image--upgraded {
+  opacity: 1;
+}
+/* Card art is a transparent silhouette, so a rectangular outline reads as a
+   stray box. A drop-shadow follows the alpha instead. */
 .wiki-image-toggle img {
-  transition: outline-color 0.15s ease;
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-  border-radius: var(--sts2-radius);
+  transition: opacity 0.12s ease, filter 0.15s ease;
+  filter: drop-shadow(0 6px 14px rgba(0, 0, 0, 0.35));
 }
 .wiki-image-toggle:hover img {
-  outline-color: var(--sts2-line);
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.45));
 }
 .wiki-image-toggle.is-upgraded img {
-  outline-color: var(--sts2-accent);
+  filter: drop-shadow(0 0 10px color-mix(in srgb, var(--sts2-accent) 65%, transparent))
+    drop-shadow(0 8px 18px rgba(0, 0, 0, 0.4));
 }
 .wiki-image-hint {
   font-size: 0.78rem;
   opacity: 0.6;
   margin: 0;
+}
+
+/* ===== Return button (detail pages) ===== */
+.return-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 2.5rem 0 0;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid var(--sts2-line);
+  border-radius: var(--sts2-radius-pill);
+  background: var(--sts2-panel);
+  color: var(--sl-color-text);
+  font-size: 0.9rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+.return-link::before {
+  content: '\2190';
+  font-size: 1.05em;
+  line-height: 1;
+}
+.return-link:hover,
+.return-link:focus-visible {
+  border-color: var(--sl-color-text-accent);
+  color: var(--sl-color-text-accent);
+  outline: none;
 }

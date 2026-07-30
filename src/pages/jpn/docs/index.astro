@@ -1,0 +1,31 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import { cards } from '../../../data/cards';
+import { relics } from '../../../data/relics';
+import { enemies } from '../../../data/enemies';
+import { characters } from '../../../data/characters';
+import { events } from '../../../data/events';
+import { enchantments } from '../../../data/enchantments';
+
+const sections = [
+  { label: 'カード', href: '/jpn/docs/cards/', count: cards.length, blurb: '基本テキストとアップグレード後テキストを検索できます。' },
+  { label: 'レリック', href: '/jpn/docs/relics/', count: relics.length, blurb: '効果、プール、レアリティ、ショップ価格。' },
+  { label: '敵', href: '/jpn/docs/enemies/', count: enemies.length, blurb: 'HP、行動、意図、遭遇情報。' },
+  { label: 'キャラクター', href: '/jpn/docs/characters/', count: characters.length, blurb: 'プレイアブルキャラクター、初期デッキ、初期レリック。' },
+  { label: 'イベント', href: '/jpn/docs/events/', count: events.length, blurb: 'イベントの選択肢、条件、報酬、分岐結果。' },
+  { label: 'エンチャント', href: '/jpn/docs/enhancements/', count: enchantments.length, blurb: 'カードエンチャント、制限、追加カードテキスト。' },
+];
+---
+
+<StarlightPage frontmatter={{ title: '日本語資料庫', description: 'Slay the Spire 2 日本語資料索引。' }}>
+  <p>Slay the Spire 2 のコミュニティ資料庫です。カテゴリを選んでください：</p>
+  <div class="wiki-hub-grid">
+    {sections.map((s) => (
+      <a class="hub-card" href={s.href}>
+        <strong>{s.label}</strong>
+        <span class="hub-count">{s.count}</span>
+        <span class="hub-blurb">{s.blurb}</span>
+      </a>
+    ))}
+  </div>
+</StarlightPage>

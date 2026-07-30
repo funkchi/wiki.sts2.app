@@ -3,6 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { relics, relicBySlug } from '../../../data/relics';
 import { poolColor } from '../../../data/characters';
+import { renderEntityTextHtml } from '../../../data/textHtml';
 
 export const getStaticPaths = (() =>
   relics.map((relic) => ({ params: { slug: relic.slug }, props: { relic } }))) satisfies GetStaticPaths;
@@ -16,11 +17,15 @@ const norm = (val: string) =>
   String(val).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
 
 const description = relic.description || `${relic.name} - ${relic.rarity} relic.`;
+const descriptionHtml = relic.description
+  ? renderEntityTextHtml(relic.description)
+  : 'No description is currently available.';
+const notesHtml = relic.notes.map((note) => renderEntityTextHtml(note));
 ---
 
 <StarlightPage frontmatter={{ title: relic.name, description }}>
-  <div class="wiki-entity-hero">
-    <img class="wiki-image" src={relic.image} alt={relic.name} loading="lazy" decoding="async" />
+  <div class="wiki-entity-hero wiki-entity-hero--wide wiki-entity-hero--relic">
+    <img class="wiki-image" src={relic.image} alt={relic.name} loading="eager" decoding="async" fetchpriority="high" />
     <div class="wiki-entity-hero__details">
       <div class="entity-badges">
         {relic.rarity === 'Starter Relic' ? (
@@ -28,43 +33,39 @@ const description = relic.description || `${relic.name} - ${relic.rarity} relic.
         ) : (
           <span class="tag tag--plain">{relic.rarity}</span>
         )}
-        <span class="badge">{relic.pool} pool</span>
       </div>
-      <p>{relic.description || 'No description is currently available.'}</p>
-      <table>
-        <tbody>
-          <tr><th scope="row">Rarity</th><td>{relic.rarity}</td></tr>
-          <tr><th scope="row">Pool</th><td>{relic.pool}</td></tr>
-          <tr><th scope="row">Merchant Price</th><td>{relic.price}</td></tr>
-        </tbody>
-      </table>
+      <p class="game-description" lang="en" set:html={descriptionHtml} />
+      <dl class="entity-stats">
+        <div><dt>Pool</dt><dd>{relic.pool}</dd></div>
+        <div><dt>Merchant Price</dt><dd>{relic.price}</dd></div>
+      </dl>
+
+    {relic.flavor && (
+      <>
+        <h2 id="flavor">Flavor</h2>
+        <p>{relic.flavor}</p>
+      </>
+    )}
+
+    {relic.notes.length > 0 && (
+      <>
+        <h2 id="notes">Notes</h2>
+        <ul>
+          {notesHtml.map((note) => <li set:html={note}></li>)}
+        </ul>
+      </>
+    )}
+
+    {related.length > 0 && (
+      <>
+        <h2 id="related">Related Relics</h2>
+        <ul>
+          {related.map((r) => <li><a href={`/docs/relics/${r.slug}/`}>{r.name}</a></li>)}
+        </ul>
+      </>
+    )}
     </div>
   </div>
 
-  {relic.flavor && (
-    <>
-      <h2 id="flavor">Flavor</h2>
-      <p>{relic.flavor}</p>
-    </>
-  )}
-
-  {relic.notes.length > 0 && (
-    <>
-      <h2 id="notes">Notes</h2>
-      <ul>
-        {relic.notes.map((n) => <li>{n}</li>)}
-      </ul>
-    </>
-  )}
-
-  {related.length > 0 && (
-    <>
-      <h2 id="related">Related Relics</h2>
-      <ul>
-        {related.map((r) => <li><a href={`/docs/relics/${r.slug}/`}>{r.name}</a></li>)}
-      </ul>
-    </>
-  )}
-
-  <p><a href="/docs/relics/">Back to all relics</a></p>
+  <a class="return-link" href="/docs/relics/">Back to all relics</a>
 </StarlightPage>

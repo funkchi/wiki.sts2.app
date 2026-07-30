@@ -1,0 +1,38 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import EntityBrowser from '../../../../components/EntityBrowser.svelte';
+import { enhancementIndexRows } from '../../../../data/enchantments';
+
+const rows = enhancementIndexRows('zhs');
+---
+
+<StarlightPage frontmatter={{ title: '附魔', description: '杀戮尖塔 2 卡牌附魔资料。' }}>
+  <p>
+    附魔数据由游戏文件反编译而来，感谢 <a href="https://github.com/ptrlrd/spire-codex">Spire Codex 仓库</a>。
+  </p>
+  <EntityBrowser
+    client:idle
+    entities={rows}
+    linkBase="/zhs/docs/enhancements/"
+    noun="个附魔"
+    nameLabel="附魔"
+    ui={{
+      search: '搜索',
+      all: '全部',
+      reset: '重置',
+      of: '/',
+      searchPlaceholder: '搜索附魔',
+    }}
+    columns={[
+      { field: 'cardType', label: '卡牌类型', width: '10rem' },
+      { field: 'applicableTo', label: '适用于', width: '16rem' },
+      { field: 'stackable', label: '可叠加', width: '9rem' },
+      { field: 'extraCardText', label: '额外卡牌文本', width: '30rem' },
+    ]}
+    filters={[
+      { field: 'cardType', label: '卡牌类型' },
+      { field: 'applicableTo', label: '适用于' },
+      { field: 'stackable', label: '可叠加' },
+    ]}
+  />
+</StarlightPage>

@@ -8,6 +8,15 @@ const DeckCardSchema = z.object({
 });
 const RelicSchema = z.object({ slug: z.string(), name: z.string() });
 const QuoteSchema = z.object({ label: z.string(), text: z.string() });
+const CharacterTranslationSchema = z.object({
+  name: z.string(),
+  character: z.string(),
+  description: z.string(),
+  unlocksAfter: z.string(),
+  startingDeck: z.array(z.object({ id: z.string(), name: z.string() })),
+  startingRelics: z.array(z.object({ id: z.string(), name: z.string() })),
+  quotes: z.array(z.object({ key: z.string(), text: z.string() })),
+});
 
 const CharacterSchema = z.object({
   id: z.string(),
@@ -26,6 +35,10 @@ const CharacterSchema = z.object({
   startingDeck: z.array(DeckCardSchema),
   startingRelics: z.array(RelicSchema),
   quotes: z.array(QuoteSchema),
+  translations: z.object({
+    zhHans: CharacterTranslationSchema.optional(),
+    ja: CharacterTranslationSchema.optional(),
+  }).optional(),
 });
 
 const CharactersFileSchema = z.object({
