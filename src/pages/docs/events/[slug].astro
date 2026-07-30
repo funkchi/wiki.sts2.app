@@ -13,4 +13,6 @@ const description = `${event.type}${event.act ? ` in ${event.act}` : ''}. Choice
 
 <StarlightPage frontmatter={{ title: event.name, description }}>
   <EventDetail event={event} locale="en" />
+
+  <a class="return-link" href="/docs/events/">Back to all events</a>
 </StarlightPage>

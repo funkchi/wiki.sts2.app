@@ -24,7 +24,7 @@ const notesHtml = (ja?.notes || relic.notes).map((note) => renderEntityTextHtml(
 ---
 
 <StarlightPage frontmatter={{ title, description }}>
-  <div class="wiki-entity-hero">
+  <div class="wiki-entity-hero wiki-entity-hero--wide wiki-entity-hero--relic">
     <img class="wiki-image" src={relic.image} alt={title} loading="eager" decoding="async" fetchpriority="high" />
     <div class="wiki-entity-hero__details">
       <div class="entity-badges">
@@ -39,33 +39,33 @@ const notesHtml = (ja?.notes || relic.notes).map((note) => renderEntityTextHtml(
         <div><dt>プール</dt><dd>{ja?.pool || relic.pool}</dd></div>
         <div><dt>ショップ価格</dt><dd>{relic.price}</dd></div>
       </dl>
+
+    {(ja?.flavor || relic.flavor) && (
+      <>
+        <h2 id="flavor">フレーバーテキスト</h2>
+        <p>{ja?.flavor || relic.flavor}</p>
+      </>
+    )}
+
+    {((ja?.notes || relic.notes).length > 0) && (
+      <>
+        <h2 id="notes">メモ</h2>
+        <ul>
+          {notesHtml.map((note) => <li set:html={note}></li>)}
+        </ul>
+      </>
+    )}
+
+    {related.length > 0 && (
+      <>
+        <h2 id="related">関連レリック</h2>
+        <ul>
+          {related.map((r) => <li><a href={`/jpn/docs/relics/${r.slug}/`}>{r.translations?.ja?.name || r.name}</a></li>)}
+        </ul>
+      </>
+    )}
     </div>
   </div>
 
-  {(ja?.flavor || relic.flavor) && (
-    <>
-      <h2 id="flavor">フレーバーテキスト</h2>
-      <p>{ja?.flavor || relic.flavor}</p>
-    </>
-  )}
-
-  {((ja?.notes || relic.notes).length > 0) && (
-    <>
-      <h2 id="notes">メモ</h2>
-      <ul>
-        {notesHtml.map((note) => <li set:html={note}></li>)}
-      </ul>
-    </>
-  )}
-
-  {related.length > 0 && (
-    <>
-      <h2 id="related">関連レリック</h2>
-      <ul>
-        {related.map((r) => <li><a href={`/jpn/docs/relics/${r.slug}/`}>{r.translations?.ja?.name || r.name}</a></li>)}
-      </ul>
-    </>
-  )}
-
-  <p><a href="/jpn/docs/relics/">レリック一覧に戻る</a></p>
+  <a class="return-link" href="/jpn/docs/relics/">レリック一覧に戻る</a>
 </StarlightPage>

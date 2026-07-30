@@ -51,5 +51,7 @@ const shown = stats.filter(([, v]) => v !== null && v !== '-' && v !== '');
         <span class="stat-badge"><strong>{value}</strong> {label}</span>
       ))}
     </div>
+
+    <slot name="aside" />
   </div>
 </div>

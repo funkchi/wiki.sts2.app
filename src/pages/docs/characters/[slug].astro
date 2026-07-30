@@ -16,21 +16,23 @@ const description = character.description || `${character.name} - Slay the Spire
 ---
 
 <StarlightPage frontmatter={{ title: character.name, description }}>
-  <CharacterHero character={character} />
+  <CharacterHero character={character} >
+    <Fragment slot="aside">
+    <h2 id="deck">Starting Deck</h2>
+    <ul>
+      {character.startingDeck.map((d) => (
+        <li>{d.count > 1 ? `${d.count}x ` : ''}<a href={`/docs/cards/${d.slug}/`}>{d.name}</a></li>
+      ))}
+    </ul>
 
-  <h2 id="deck">Starting Deck</h2>
-  <ul>
-    {character.startingDeck.map((d) => (
-      <li>{d.count > 1 ? `${d.count}x ` : ''}<a href={`/docs/cards/${d.slug}/`}>{d.name}</a></li>
-    ))}
-  </ul>
+    <h2 id="relics">Starting Relics</h2>
+    <ul>
+      {character.startingRelics.map((r) => (
+        <li>{r.name}</li>
+      ))}
+    </ul>
+    </Fragment>
+  </CharacterHero>
 
-  <h2 id="relics">Starting Relics</h2>
-  <ul>
-    {character.startingRelics.map((r) => (
-      <li>{r.name}</li>
-    ))}
-  </ul>
-
-  <p><a href="/docs/characters/">Back to all characters</a></p>
+  <a class="return-link" href="/docs/characters/">Back to all characters</a>
 </StarlightPage>

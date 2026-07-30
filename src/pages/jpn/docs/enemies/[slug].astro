@@ -20,7 +20,7 @@ const description = `${type}の敵。HP ${enemy.hp}。${pattern}`;
 ---
 
 <StarlightPage frontmatter={{ title, description }}>
-  <div class="wiki-entity-hero">
+  <div class="wiki-entity-hero wiki-entity-hero--wide wiki-entity-hero--enemy">
     <img class="wiki-image" src={enemy.image} alt={title} loading="eager" decoding="async" fetchpriority="high" />
     <div class="wiki-entity-hero__details">
       <div class="entity-badges">
@@ -67,5 +67,5 @@ const description = `${type}の敵。HP ${enemy.hp}。${pattern}`;
     </>
   )}
 
-  <p><a href="/jpn/docs/enemies/">敵一覧に戻る</a></p>
+  <a class="return-link" href="/jpn/docs/enemies/">敵一覧に戻る</a>
 </StarlightPage>

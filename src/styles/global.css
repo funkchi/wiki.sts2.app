@@ -221,7 +221,9 @@ body {
 
 @media (min-width: 72rem) {
   :root:has(.card-browser),
-  :root:has(.wiki-entity-hero--card) {
+  :root:has(.wiki-entity-hero--wide),
+  :root:has(.character-hero),
+  :root:has(.event-hero) {
     --sl-content-width: min(96rem, calc(100vw - var(--sl-sidebar-width, 18.75rem) - 4rem));
   }
 }
@@ -440,18 +442,13 @@ body {
 /* ===== Characters ===== */
 .character-hero {
   display: grid;
-  grid-template-columns: minmax(220px, 320px) 1fr;
+  grid-template-columns: minmax(16rem, 26rem) 1fr;
   gap: 1.5rem;
   align-items: start;
-  margin: 1.5rem 0;
-  padding: 1.25rem;
-  border: 1px solid color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 45%, transparent);
-  border-radius: var(--sts2-radius);
-  background: linear-gradient(
-    160deg,
-    color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 12%, transparent),
-    var(--sts2-panel)
-  );
+  margin: 0.5rem 0 2rem;
+  padding: 0;
+  border: 0;
+  background: none;
 }
 /* Short key/value facts read badly as a stacked two-column table: five rows of
    one-word values burn a lot of vertical space. This lays them out as a
@@ -489,19 +486,12 @@ body {
   display: grid;
   place-items: end center;
   aspect-ratio: 4 / 5;
-  padding: 0.75rem;
-  border-radius: var(--sts2-radius);
-  background:
-    radial-gradient(
-      ellipse 60% 40% at 50% 92%,
-      color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 30%, transparent),
-      transparent 70%
-    ),
-    linear-gradient(
-      180deg,
-      color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 10%, transparent),
-      rgba(0, 0, 0, 0.25)
-    );
+  padding: 0;
+  background: radial-gradient(
+    ellipse 52% 16% at 50% 95%,
+    color-mix(in srgb, var(--char-accent, var(--sts2-c-characters)) 38%, transparent),
+    transparent 72%
+  );
 }
 /* The idle loops are all rendered to the same height with the character's feet
    near the bottom, so contain + bottom alignment keeps them standing on the
@@ -512,6 +502,10 @@ body {
   object-fit: contain;
   object-position: bottom center;
   filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.45));
+}
+.character-hero__body h2 {
+  margin-top: 1.75rem;
+  font-size: 1.35rem;
 }
 .character-hero__head {
   display: flex;
@@ -771,24 +765,26 @@ body {
 
 /* ===== Events ===== */
 .event-hero {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.25rem;
-  align-items: flex-start;
-  margin: 1.5rem 0;
-  padding: 1.1rem;
-  border: 1px solid var(--sts2-line);
-  border-radius: var(--sts2-radius);
-  background: var(--sts2-panel);
+  display: block;
+  margin: 0.5rem 0 2rem;
+  padding: 0;
+  border: 0;
+  background: none;
 }
+/* Event art is a wide scene, so it reads best as a banner spanning the whole
+   content area rather than a thumbnail beside the text. */
 .event-hero__image {
-  width: min(220px, 100%);
-  border-radius: var(--sts2-radius-sm);
-  border: 1px solid var(--sts2-line);
+  display: block;
+  width: 100%;
+  max-width: none;
+  aspect-ratio: 21 / 9;
+  object-fit: cover;
+  object-position: center;
+  border: 0;
+  border-radius: var(--sts2-radius);
 }
 .event-hero__body {
-  flex: 1;
-  min-width: 240px;
+  margin-top: 1.25rem;
 }
 .event-hero table {
   width: 100%;
@@ -977,9 +973,9 @@ body {
 
 /* Card detail: drop the panel chrome entirely and let the art lead, with the
    text column filling the rest of the (widened) content area. */
-.wiki-entity-hero--card {
+.wiki-entity-hero--wide {
   display: grid;
-  grid-template-columns: minmax(18rem, 26rem) 1fr;
+  grid-template-columns: minmax(14rem, var(--hero-art, 22rem)) 1fr;
   gap: clamp(1.5rem, 3vw, 3rem);
   align-items: start;
   margin: 0.5rem 0 2rem;
@@ -987,25 +983,36 @@ body {
   border: 0;
   background: none;
 }
+.wiki-entity-hero--card { --hero-art: 26rem; }
+.wiki-entity-hero--relic { --hero-art: 17rem; }
+.wiki-entity-hero--enemy { --hero-art: 24rem; }
+/* Sprites and icons are capped small by the shared rule; let them fill the
+   art column and cast a shadow that follows the artwork. */
+.wiki-entity-hero--wide > .wiki-image {
+  width: 100%;
+  max-width: none;
+  border-radius: 0;
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.4));
+}
 .wiki-entity-hero--card .wiki-hero-art {
   align-items: stretch;
   width: 100%;
 }
-.wiki-entity-hero--card .wiki-image-toggle,
-.wiki-entity-hero--card .wiki-image-stack {
+.wiki-entity-hero--wide .wiki-image-toggle,
+.wiki-entity-hero--wide .wiki-image-stack {
   width: 100%;
   max-width: none;
 }
-.wiki-entity-hero--card .wiki-image-hint {
+.wiki-entity-hero--wide .wiki-image-hint {
   text-align: center;
 }
-.wiki-entity-hero--card .game-description {
+.wiki-entity-hero--wide .game-description {
   font-size: 1.05rem;
 }
 /* Secondary sections sit in the text column so the page has no dead zone
    beside the tall card art. */
-.wiki-entity-hero--card [slot='aside'] h2,
-.wiki-entity-hero--card h2 {
+.wiki-entity-hero--wide [slot='aside'] h2,
+.wiki-entity-hero--wide h2 {
   margin-top: 1.75rem;
   font-size: 1.35rem;
 }
@@ -1021,7 +1028,7 @@ body {
   .wiki-entity-hero--card {
     grid-template-columns: 1fr;
   }
-  .wiki-entity-hero--card .wiki-image-stack {
+  .wiki-entity-hero--wide .wiki-image-stack {
     max-width: 22rem;
     margin-inline: auto;
   }
@@ -1079,4 +1086,31 @@ body {
   font-size: 0.78rem;
   opacity: 0.6;
   margin: 0;
+}
+
+/* ===== Return button (detail pages) ===== */
+.return-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 2.5rem 0 0;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid var(--sts2-line);
+  border-radius: var(--sts2-radius-pill);
+  background: var(--sts2-panel);
+  color: var(--sl-color-text);
+  font-size: 0.9rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+.return-link::before {
+  content: '\2190';
+  font-size: 1.05em;
+  line-height: 1;
+}
+.return-link:hover,
+.return-link:focus-visible {
+  border-color: var(--sl-color-text-accent);
+  color: var(--sl-color-text-accent);
+  outline: none;
 }

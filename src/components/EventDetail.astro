@@ -110,16 +110,14 @@ const sourceUrl = eventSourceUrl(event, locale);
       <span class="tag tag--type-event">{localized.type}</span>
       <span class="badge">{localized.act || labels.none}</span>
     </div>
-    <table>
-      <tbody>
-        <tr><th scope="row">{labels.type}</th><td>{localized.type}</td></tr>
-        <tr><th scope="row">{labels.act}</th><td>{localized.act || labels.none}</td></tr>
-        <tr>
-          <th scope="row">{labels.preconditions}</th>
-          <td>{localized.preconditions.length ? localized.preconditions.join('; ') : labels.none}</td>
-        </tr>
-      </tbody>
-    </table>
+    <dl class="entity-stats">
+      <div><dt>{labels.type}</dt><dd>{localized.type}</dd></div>
+      <div><dt>{labels.act}</dt><dd>{localized.act || labels.none}</dd></div>
+      <div>
+        <dt>{labels.preconditions}</dt>
+        <dd>{localized.preconditions.length ? localized.preconditions.join('; ') : labels.none}</dd>
+      </div>
+    </dl>
     <p class="event-source"><a href={sourceUrl}>{labels.fullText}</a></p>
   </div>
 </div>

@@ -20,23 +20,25 @@ const description = ja?.description || character.description || `${title} - Slay
 ---
 
 <StarlightPage frontmatter={{ title, description }}>
-  <CharacterHero character={character} locale="jpn" />
+  <CharacterHero character={character} locale="jpn" >
+    <Fragment slot="aside">
+    <h2 id="deck">初期デッキ</h2>
+    <ul>
+      {character.startingDeck.map((d) => {
+        const card = cardBySlug.get(d.slug);
+        return <li>{d.count > 1 ? `${d.count}x ` : ''}<a href={`/jpn/docs/cards/${d.slug}/`}>{card?.translations?.ja?.name || d.name}</a></li>;
+      })}
+    </ul>
 
-  <h2 id="deck">初期デッキ</h2>
-  <ul>
-    {character.startingDeck.map((d) => {
-      const card = cardBySlug.get(d.slug);
-      return <li>{d.count > 1 ? `${d.count}x ` : ''}<a href={`/jpn/docs/cards/${d.slug}/`}>{card?.translations?.ja?.name || d.name}</a></li>;
-    })}
-  </ul>
+    <h2 id="relics">初期レリック</h2>
+    <ul>
+      {character.startingRelics.map((r) => {
+        const relic = relicBySlug.get(r.slug);
+        return <li>{relic?.translations?.ja?.name || r.name}</li>;
+      })}
+    </ul>
+    </Fragment>
+  </CharacterHero>
 
-  <h2 id="relics">初期レリック</h2>
-  <ul>
-    {character.startingRelics.map((r) => {
-      const relic = relicBySlug.get(r.slug);
-      return <li>{relic?.translations?.ja?.name || r.name}</li>;
-    })}
-  </ul>
-
-  <p><a href="/jpn/docs/characters/">キャラクター一覧に戻る</a></p>
+  <a class="return-link" href="/jpn/docs/characters/">キャラクター一覧に戻る</a>
 </StarlightPage>
