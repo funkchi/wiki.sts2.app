@@ -1,0 +1,169 @@
+---
+title: v0.110.0 — Beta Patch
+description: Slay the Spire 2 beta patch v0.110.0 notes — Mirage and Pillar of Creation reverted, Outbreak and Haze reworks, Scare renamed to Sidestep, keyboard-only controls, character form VFX, and the v0.110.1 hotfix.
+---
+
+# v0.110.0 — Beta Patch
+
+**Released July 30, 2026 (beta branch).** Official notes from Mega Crit, annotated with links to this wiki's card, relic, enemy, and event pages. Source: [Steam announcement](https://store.steampowered.com/news/app/2868840/view/694268118771435039).
+
+A large balance and rework patch. [Mirage](/docs/cards/mirage/) and [Pillar of Creation](/docs/cards/pillar-of-creation/) are both reverted to their pre-v0.109.0 versions, then buffed and nerfed respectively. The headline feature is a keyboard-only control option, and on the art side many cards gain polished portraits while characters gain VFX for their unique forms.
+
+:::caution[Wiki data lag]
+Card and relic pages on this wiki still show pre-v0.108.0 values — the entity dataset has not yet been resynced. Treat the values in these notes as authoritative until the entity pages catch up. Notably, **Scare** still appears under its old name rather than **Sidestep**.
+:::
+
+## Hotfix v0.110.1
+
+**Released July 31, 2026.** A quick hotfix for a single multiplayer issue:
+
+- The host's screen is no longer blank when hosting a run from save
+
+## Content & Balance
+
+### Ancients
+
+- Buffed **Neow's Abundance** card:
+  - Now always creates Upgraded powers
+  - Upgrade changed to lower Energy cost by 1
+- Reworked [Tezcatara's Toasty Mittens](/docs/relics/toasty-mittens/) relic: "At the start of your turn, Exhaust the top card of your Draw Pile and gain 1 Strength." → "At the start of your turn, Exhaust 1 card from your Hand and gain 1 Strength."
+- Buffed [Tezcatara's Seal of Gold](/docs/relics/seal-of-gold/) relic: Gold loss decreased from 5 → 3
+- Changed [Nonupeipe's Beautiful Bracelet](/docs/relics/beautiful-bracelet/) relic:
+  - Cards enchanted increased from 3 → 4
+  - Swift amount decreased from 3 → 2
+- Buffed [Nonupeipe's Fur Coat](/docs/relics/fur-coat/) relic: marked combats increased from 7 → 8
+- Nerfed [Nonupeipe's Signet Ring](/docs/relics/signet-ring/) relic: Gold decreased from 999 → 888
+- Buffed [Pael's Relax](/docs/cards/relax/) card: Block increased from 15(17) → 16(18)
+- Buffed [Tanx's Whistle](/docs/cards/whistle/) card: cost decreased from 3 → 2
+- Buffed [Tanx's Maul](/docs/cards/maul/) card: Maul damage scaling increased from 1(2) → 2(3)
+- Reverted [Vakuu's Fiddle](/docs/relics/fiddle/) relic: card draw decreased again from 3 → 2
+
+### Ironclad
+
+- Buffed [Mangle](/docs/cards/mangle/) card: damage increased from 15(20) → 20(26)
+- Buffed [Pact's End](/docs/cards/pacts-end/) card: damage increased from 17(23) → 18(24)
+
+### Silent
+
+- Reworked [Haze](/docs/cards/haze/) card: Uncommon - Skill - Cost 3 - "Sly. Apply 4(6) Poison to ALL enemies." → Uncommon - Skill - Cost 2 - "Apply 4(6) Poison and 1(2) Weak to ALL enemies."
+- Reworked [Outbreak](/docs/cards/outbreak/) card into a Rare Skill: Uncommon - Power - Cost 1 - "Whenever you apply Poison, deal 4(5) damage to ALL enemies." → Rare - Skill - Cost 3 - "Apply 9(12) Poison to ALL enemies. Poison triggers immediately."
+- Reworked and renamed [Scare](/docs/cards/scare/) card → **Sidestep**: Uncommon - Skill - Cost 0 - "Apply 1 Weak to ALL enemies. Exhaust. (Lose Exhaust.)" → Uncommon - Skill - Cost 0 - "Next turn, gain 1(2) Energy."
+- Changed [Mirage](/docs/cards/mirage/) card:
+  - Reverted back to its previous version (i.e. gains Block based on enemy Poison again)
+  - No longer Exhausts
+- Nerfed [Well-Laid Plans](/docs/cards/well-laid-plans/) card: cost increased from 1(0) → 2(1)
+- Changed [Echoing Slash](/docs/cards/echoing-slash/) card: rarity decreased from Rare → Uncommon
+
+### Regent
+
+- Reworked [Regalite](/docs/relics/regalite/) relic: "Whenever you create a card, gain 2 Block." → "The first time you create a card each turn, gain 6 Block."
+- Buffed [Terraforming](/docs/cards/terraforming/) card: Vigor increased from 6(8) → 7(10)
+- Changed [Pillar of Creation](/docs/cards/pillar-of-creation/) card:
+  - Reverted back to its previous version (i.e. effect is no longer triggered just once per turn)
+  - Block decreased from 3(4) → 2(3)
+- Buffed [Crush Under](/docs/cards/crush-under/) card: damage increased from 7(8) → 8(9)
+
+### Necrobinder
+
+- Changed [Eidolon](/docs/cards/eidolon/): can no longer be generated mid-combat
+- Buffed [Sacrifice](/docs/cards/sacrifice/) card: Block gain increased from double → triple Osty's Max HP
+- Buffed [The Scythe](/docs/cards/the-scythe/) card: damage scaling increased from 4(5) → 5(7)
+
+### Defect
+
+- Buffed [Biased Cognition](/docs/cards/biased-cognition/) card: Focus increased from 4(5) → 5(6)
+- Buffed [Refract](/docs/cards/refract/) card: damage increased from 9(12) → 10(13)
+- Nerfed [Rocket Punch](/docs/cards/rocket-punch/) card: "Whenever you create a Status, reduce this card's cost to 0 Energy until played." → "Whenever you create a Status, reduce this card's cost by 1 Energy until played."
+- Buffed [Synchronize](/docs/cards/synchronize/) card:
+  - Upgrade changed to increase temp focus from 2 → 3
+  - No longer Exhausts
+
+## User Interface & Experience
+
+### General
+
+- Added support for keyboard-only mode
+- Added a "Share" button on the map screen which takes a screenshot of the entire map
+- Added a "Listening For Input" popup when a player is remapping inputs or bindings
+- Updated padding, font sizes, and color for the input remap screen
+- Updated input glyph positioning on various buttons
+- Updated the change profile button to render a larger input glyph
+- Updated the keyboard-mode glyph asset from placeholder to a style match
+- Adjusted hotkey icon size and position in the top bar
+- Updated the generic selection reticle asset to improve contrast and resolution, and it now renders very slightly smaller
+- If a binding is missing, a gray hyphen is now rendered rather than nothing in input settings
+- Users are now informed more explicitly whether Steam Input is activated
+- The scrollbar on the settings screen is now placed better in non-standard aspect ratios
+- When using a controller, the game now always tries to initially hover a map node connected to your current one when you have [Winged Boots](/docs/relics/winged-boots/)
+- Disabled left/right paging for the Stats screen, as the Achievements screen does not exist yet
+
+### Multiplayer
+
+- Made the UI for joining a friend's run nicer looking
+- **Tutor** card now un-ends the target's turn if they have ended their turn
+- Removed the "Waiting for Players" screen when dying to Architect
+
+## Art
+
+- Added form VFX
+- Added portrait art for **Constellation**, **Blade Symphony**, **Concoct**, **Tutor**, **Imitation Learning**, **Soulbound**, and **Fade**
+- Added beta portrait art for the **Sidestep** card
+- Added fire to the **Test Subject** burn animation
+
+## Writing
+
+### General
+
+- When the word "potions" shows up in option or relic descriptions it is now gold and capitalized
+- Fixed the **Slow** debuff power description not displaying its active multiplier in the hovertip
+- Fixed typos in the **Abundance** and **Blade Symphony** cards
+- Updated [Diamond Diadem](/docs/relics/diamond-diadem/) relic's wording to be clearer about how long its effect lasts
+- Renamed Full Keyboard → Keyboard-Only
+
+### Localization
+
+- Updated translations for various languages
+- Fixed translation errors in French, Italian, Russian, Thai, Turkish, and Traditional Chinese
+
+## Bug Fixes
+
+### General
+
+- Uncommon cards show up slightly more often (as intended)
+- Players can no longer discern the shuffle order of cards in certain scenarios
+- The run history is now centered on ultrawide screens
+- Fixed an issue where an Epoch unlock earned at the end of a run could be lost, permanently blocking Timeline progress (affected saves are repaired on load)
+- Fixed an issue where leaving the game over screen mid-animation could award an Epoch unlock without spending the score that paid for it
+- Fixed being able to controller-navigate to the card grid while inspecting a card in the Compendium
+- Fixed opening the settings screen when a player hits "escape" to close the potions popup
+
+### Enemies
+
+- [Tough Egg](/docs/enemies/tough-egg/) can now have 1 more max HP
+- [Decimillipede](/docs/enemies/decimillipede-segment/) now correctly displays stats in the Bestiary
+- Fixed an error that occurred when [Tough Egg](/docs/enemies/tough-egg/) would hatch in the Bestiary
+
+### Events
+
+- Fixed a typo in [The Lantern Key](/docs/events/the-lantern-key/) event
+
+### Potions & Relics
+
+- [Bellows](/docs/relics/bellows/) relic now properly upgrades the extra card when [Pendulum](/docs/relics/pendulum/) relic triggers on turn 1
+- Fixed **Dowsing** missing card preview for Abundance
+
+### Ironclad
+
+- Fixed [Juggling](/docs/cards/juggling/) card so that when your third attack also auto-plays an attack (for example [Uproar](/docs/cards/uproar/)), Juggling now properly copies the original attack instead of the auto-played attack
+
+### Multiplayer
+
+- Fixed a chosen card getting stuck if another player gives you the **Touch of Insanity** potion
+- [Feral](/docs/cards/feral/) card now puts **The Ball** card into your hand instead of another player's
+- **Imitation Learning** card no longer softlocks with Replay, and now ignores duplicate plays
+- **Tutor** card no longer softlocks with Replay
+- Players can Abandon Run outside of combat again
+
+## Modding
+
+- The "Report Bug" button is no longer shown in error dialogs when any player in a session has mods
