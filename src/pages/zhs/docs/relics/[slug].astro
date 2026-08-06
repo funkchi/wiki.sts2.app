@@ -23,7 +23,7 @@ const descriptionHtml = displayDescription
 const notesHtml = (zh?.notes || relic.notes).map((note) => renderEntityTextHtml(note, { locale: 'zhs' }));
 ---
 
-<StarlightPage frontmatter={{ title, description }}>
+<StarlightPage lang="zh-Hans" frontmatter={{ title, description }}>
   <div class="wiki-entity-hero wiki-entity-hero--wide wiki-entity-hero--relic">
     <img class="wiki-image" src={relic.image} alt={title} loading="eager" decoding="async" fetchpriority="high" />
     <div class="wiki-entity-hero__details">

@@ -19,7 +19,7 @@ const title = zh?.name || character.name;
 const description = zh?.description || character.description || `${title} - 杀戮尖塔 2 角色。`;
 ---
 
-<StarlightPage frontmatter={{ title, description }}>
+<StarlightPage lang="zh-Hans" frontmatter={{ title, description }}>
   <CharacterHero character={character} locale="zhs" >
     <Fragment slot="aside">
     <h2 id="deck">初始卡组</h2>

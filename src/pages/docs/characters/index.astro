@@ -12,7 +12,7 @@ import { characters, accentFor } from '../../../data/characters';
   <div class="character-gallery">
     {characters.map((c) => (
       <a class="char-card" href={`/docs/characters/${c.slug}/`} style={`--char-accent:${accentFor(c.slug)}`}>
-        <img class="char-card__icon" src={c.icon} alt="" loading="lazy" decoding="async" />
+        <img class="char-card__icon" src={c.icon} alt={`${c.name} icon`} loading="lazy" decoding="async" />
         <div class="char-card__body">
           <strong>{c.name}</strong>
           <span class="char-card__stats">HP {c.startingHp ?? '-'} · Energy {c.maxEnergy ?? '-'}</span>

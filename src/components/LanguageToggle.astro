@@ -12,6 +12,11 @@ const locale = Astro.props.locale ?? localeFromPath(pathname);
 const autoDetect = Astro.props.autoDetect ?? false;
 const current = languages.find((language) => language.code === locale) ?? languages[0];
 const hasCounterpart = hasLocalizedCounterpart(pathname);
+const selectLanguageLabel = {
+  en: 'Select language',
+  zhs: '选择语言',
+  jpn: '言語を選択',
+}[locale];
 
 function hrefFor(code: Lang): string {
   if (hasCounterpart) return localizedPath(pathname, code);
@@ -25,8 +30,8 @@ function hrefFor(code: Lang): string {
   data-has-counterpart={hasCounterpart ? 'true' : 'false'}
   data-auto-detect={autoDetect ? 'true' : 'false'}
 >
-  <summary aria-label="Select language">
-    <img src="/images/language_selector_nobbg.png" alt="" loading="lazy" decoding="async" />
+  <summary aria-label={selectLanguageLabel}>
+    <img src="/images/language_selector_nobbg.png" alt={selectLanguageLabel} loading="lazy" decoding="async" />
     <span>{current.shortLabel}</span>
   </summary>
   <div class="language-toggle__menu">

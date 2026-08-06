@@ -235,7 +235,7 @@ export function eventDisplay(event: Event, locale: Lang): Event {
   };
 }
 
-export function eventSourceUrl(event: Event, locale: Lang): string {
+export function eventSourceUrl(_event: Event, locale: Lang): string {
   const prefix = locale === 'en' ? '' : `/${locale}`;
-  return `https://spire-codex.com${prefix}/events/${event.slug}`;
+  return `https://spire-codex.com${prefix}/events`;
 }

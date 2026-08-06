@@ -24,14 +24,14 @@ const counts = {
   communityGuides: sc.guides.length,
 };
 const originalGuides = 4;
-const ogImage = `${SITE}/images/hero.png`;
+const ogImage = `${SITE}/images/hero-1920.webp`;
 
 const copy = {
   en: {
     lang: 'en',
     title: 'Slay the Spire 2 Wiki',
     description:
-      'A fast community wiki for Slay the Spire 2 cards, relics, characters, enemies, and guides.',
+      'A fast community wiki for Slay the Spire 2 cards, relics, characters, enemies, events, enhancements, and strategy guides.',
     ogDesc: 'Cards, relics, characters, enemies, and strategy for Slay the Spire 2.',
     navLabel: 'Primary',
     legalLabel: 'Legal',
@@ -108,8 +108,8 @@ const copy = {
   },
   zhs: {
     lang: 'zh-Hans',
-    title: '杀戮尖塔 2 Wiki',
-    description: '快速查找《杀戮尖塔 2》的卡牌、遗物、角色、敌人和攻略资料。',
+    title: '杀戮尖塔 2 中文资料 Wiki',
+    description: '快速查找《杀戮尖塔 2》的卡牌、遗物、角色、敌人、事件、附魔与攻略资料，查看当前效果、数值、稀有度、费用、行动模式、事件分支和关联内容，帮助你规划路线、构筑套牌、选择奖励并准备每场战斗。资料来自当前游戏版本，并会随着抢先体验更新持续同步。',
     ogDesc: '《杀戮尖塔 2》的卡牌、遗物、角色、敌人和策略资料。',
     navLabel: '主导航',
     legalLabel: '站点链接',
@@ -183,7 +183,7 @@ const copy = {
   jpn: {
     lang: 'ja',
     title: 'Slay the Spire 2 日本語Wiki',
-    description: 'Slay the Spire 2 のカード、レリック、キャラクター、敵を素早く調べられる日本語Wiki。',
+    description: 'Slay the Spire 2 のカード、レリック、キャラクター、敵、イベント、エンチャント、攻略情報を素早く検索。最新の効果、数値、レアリティ、コスト、行動パターン、イベント分岐、関連項目を確認して、ルート選択、デッキ構築、報酬選び、ボス戦の準備に役立てられる日本語コミュニティWikiです。',
     ogDesc: 'Slay the Spire 2 のカード、レリック、キャラクター、敵、攻略情報。',
     navLabel: 'メインナビゲーション',
     legalLabel: 'サイトリンク',
@@ -406,8 +406,7 @@ const ldJson = JSON.stringify({
               url('/images/hero-1280.avif') type('image/avif') 1x,
               url('/images/hero-1920.avif') type('image/avif') 2x,
               url('/images/hero-1280.webp') type('image/webp') 1x,
-              url('/images/hero-1920.webp') type('image/webp') 2x,
-              url('/images/hero.png') type('image/png') 2x
+              url('/images/hero-1920.webp') type('image/webp') 2x
             )
             center top / min(2200px, 160vw) auto no-repeat;
       }

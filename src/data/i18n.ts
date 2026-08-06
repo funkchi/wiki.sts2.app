@@ -25,7 +25,7 @@ export const languageByCode = Object.fromEntries(languages.map((language) => [la
 
 export const siteTitles: Record<Lang, string> = {
   en: 'Slay the Spire 2 Wiki',
-  zhs: '杀戮尖塔 2 Wiki',
+  zhs: '杀戮尖塔 2 中文资料 Wiki',
   jpn: 'Slay the Spire 2 日本語Wiki',
 };
 

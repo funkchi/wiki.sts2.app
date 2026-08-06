@@ -11,6 +11,8 @@ const { character, locale = 'en' } = Astro.props;
 const accent = accentFor(character.slug);
 const c = character;
 const localized = translationKey(locale) ? c.translations?.[translationKey(locale)!] : undefined;
+const characterName = localized?.name || c.name;
+const iconAlt = locale === 'zhs' ? `${characterName}图标` : locale === 'jpn' ? `${characterName}アイコン` : `${characterName} icon`;
 
 const labels = {
   en: ['Starting HP', 'Starting Gold', 'Energy', 'Orb Slots', 'Unlocks After'],
@@ -39,7 +41,7 @@ const shown = stats.filter(([, v]) => v !== null && v !== '-' && v !== '');
   </div>
   <div class="character-hero__body">
     <div class="character-hero__head">
-      <img class="character-hero__icon" src={c.icon} alt="" loading="lazy" decoding="async" />
+      <img class="character-hero__icon" src={c.icon} alt={iconAlt} loading="lazy" decoding="async" />
       <div>
         <p class="kicker-char">{localized?.character || c.character}</p>
         <h2>{localized?.name || c.name}</h2>

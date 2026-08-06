@@ -3,7 +3,7 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 import { characters, accentFor } from '../../../../data/characters';
 ---
 
-<StarlightPage frontmatter={{ title: '角色', description: '杀戮尖塔 2 中文角色资料。' }}>
+<StarlightPage lang="zh-Hans" frontmatter={{ title: '角色', description: '杀戮尖塔 2 中文角色资料。' }}>
   <p>
     角色中文文本由游戏文件反编译而来，感谢 <a href="https://github.com/ptrlrd/spire-codex">Spire Codex 仓库</a>。
   </p>
@@ -11,7 +11,7 @@ import { characters, accentFor } from '../../../../data/characters';
   <div class="character-gallery">
     {characters.map((c) => (
       <a class="char-card" href={`/zhs/docs/characters/${c.slug}/`} style={`--char-accent:${accentFor(c.slug)}`}>
-        <img class="char-card__icon" src={c.icon} alt="" loading="lazy" decoding="async" />
+        <img class="char-card__icon" src={c.icon} alt={`${c.translations?.zhHans?.name || c.name} 图标`} loading="lazy" decoding="async" />
         <div class="char-card__body">
           <strong>{c.translations?.zhHans?.name || c.name}</strong>
           <span class="char-card__stats">生命 {c.startingHp ?? '-'} · 能量 {c.maxEnergy ?? '-'}</span>

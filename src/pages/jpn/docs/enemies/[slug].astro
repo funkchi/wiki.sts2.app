@@ -19,7 +19,7 @@ const norm = (val: string) =>
 const description = `${type}の敵。HP ${enemy.hp}。${pattern}`;
 ---
 
-<StarlightPage frontmatter={{ title, description }}>
+<StarlightPage lang="ja" frontmatter={{ title, description }}>
   <div class="wiki-entity-hero wiki-entity-hero--wide wiki-entity-hero--enemy">
     <img class="wiki-image" src={enemy.image} alt={title} loading="eager" decoding="async" fetchpriority="high" />
     <div class="wiki-entity-hero__details">

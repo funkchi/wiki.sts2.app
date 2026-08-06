@@ -12,7 +12,7 @@ const localized = eventForLocale(event, 'zhs');
 const description = `${localized.type}${localized.act ? `: ${localized.act}` : ''}。事件选项与结果摘要，不包含叙事全文。`;
 ---
 
-<StarlightPage frontmatter={{ title: localized.name, description }}>
+<StarlightPage lang="zh-Hans" frontmatter={{ title: localized.name, description }}>
   <EventDetail event={event} locale="zhs" />
 
   <a class="return-link" href="/zhs/docs/events/">返回全部事件</a>

@@ -19,7 +19,7 @@ const title = ja?.name || character.name;
 const description = ja?.description || character.description || `${title} - Slay the Spire 2 キャラクター。`;
 ---
 
-<StarlightPage frontmatter={{ title, description }}>
+<StarlightPage lang="ja" frontmatter={{ title, description }}>
   <CharacterHero character={character} locale="jpn" >
     <Fragment slot="aside">
     <h2 id="deck">初期デッキ</h2>

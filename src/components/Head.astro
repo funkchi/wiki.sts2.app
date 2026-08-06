@@ -9,7 +9,7 @@ import { eventBySlug } from '../data/events';
 import { enchantmentBySlug } from '../data/enchantments';
 
 const SITE = 'https://sts2.app';
-const DEFAULT_OG = `${SITE}/images/hero.png`;
+const DEFAULT_OG = `${SITE}/images/hero-1920.webp`;
 const route = Astro.locals.starlightRoute as any;
 const { head } = route;
 const pathname = Astro.url.pathname;
@@ -33,10 +33,38 @@ const ogImage = entity?.image
   ? entity.image.startsWith('http') ? entity.image : `${SITE}${entity.image}`
   : DEFAULT_OG;
 
+const rawDescription = String(route.entry?.data?.description || '').replace(/\s+/g, ' ').trim();
+const descriptionSuffixes = {
+  en: 'Find current stats, related entries, and practical reference details for Slay the Spire 2.',
+  zhs: '浏览最新卡牌、遗物、敌人、事件、角色与附魔资料，查看效果、数值、关联内容和实用策略，为《杀戮尖塔 2》的路线选择、构筑规划与战斗准备提供快速参考。',
+  jpn: '最新のカード、レリック、敵、イベント、キャラクター、エンチャントの性能、数値、関連項目、実用的な攻略情報を確認し、『Slay the Spire 2』のルート選択、デッキ構築、戦闘準備に役立てられます。',
+};
+const extraDescriptionSuffixes = {
+  en: 'Updated from current game data.',
+  zhs: '资料会随抢先体验版本更新，方便随时核对当前游戏数据。',
+  jpn: '早期アクセス版の更新に合わせて、現在のゲームデータを素早く照合できます。',
+};
+
+function truncateDescription(value: string): string {
+  if (value.length <= 160) return value;
+  const shortened = value.slice(0, 157);
+  const lastSpace = shortened.lastIndexOf(' ');
+  return `${lastSpace >= 120 ? shortened.slice(0, lastSpace) : shortened}…`;
+}
+
+let description = rawDescription || `${pageTitle || siteTitle}.`;
+if (description.length < 100) description = `${description} ${descriptionSuffixes[locale]}`;
+if (description.length < 100) description = `${description} ${extraDescriptionSuffixes[locale]}`;
+description = truncateDescription(description);
+
 // Drop Starlight tags that we replace with localized or image-aware variants.
 const filteredHead = head.filter((h: any) =>
   h.tag !== 'title' &&
+  !(h.tag === 'link' && h.attrs?.rel === 'alternate') &&
   h.attrs?.name !== 'twitter:card' &&
+  h.attrs?.name !== 'description' &&
+  h.attrs?.name !== 'twitter:description' &&
+  h.attrs?.property !== 'og:description' &&
   h.attrs?.property !== 'og:site_name'
 );
 
@@ -69,11 +97,15 @@ const ldJson = breadcrumbJson();
 
 {filteredHead.map(({ tag: Tag, attrs, content }) => <Tag {...attrs} set:html={content} />)}
 {pageTitle && <title>{`${pageTitle} | ${siteTitle}`}</title>}
+<meta name="description" content={description} />
+<meta property="og:description" content={description} />
+<meta name="twitter:description" content={description} />
 {isLocalizedPath && (
   <>
     {alternateUrls.map(({ language, url }) => (
       <link rel="alternate" hreflang={language.hreflang} href={url.toString()} />
     ))}
+    <link rel="alternate" hreflang="x-default" href={new URL(localizedPath(pathname, 'en'), base).toString()} />
   </>
 )}
 <link rel="icon" href="/favicon.ico" sizes="any" />

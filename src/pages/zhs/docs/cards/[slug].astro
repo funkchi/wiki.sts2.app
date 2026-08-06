@@ -20,7 +20,7 @@ const relatedCards = card.related
 const description = zh?.description || card.description || `${title} - 杀戮尖塔 2 卡牌。`;
 ---
 
-<StarlightPage frontmatter={{ title, description }}>
+<StarlightPage lang="zh-Hans" frontmatter={{ title, description }}>
   <CardHero card={card} locale="zhs">
     <Fragment slot="aside">
       {zh?.keywords && zh.keywords.length > 0 && (

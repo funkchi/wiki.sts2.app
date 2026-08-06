@@ -12,7 +12,7 @@ const localized = enchantmentForLocale(enhancement, 'jpn');
 const description = localized.description || `${localized.name} - Slay the Spire 2 エンチャント。`;
 ---
 
-<StarlightPage frontmatter={{ title: localized.name, description }}>
+<StarlightPage lang="ja" frontmatter={{ title: localized.name, description }}>
   <EnhancementDetail enhancement={enhancement} locale="jpn" />
 
   <a class="return-link" href="/jpn/docs/enhancements/">エンチャント一覧に戻る</a>

@@ -20,7 +20,7 @@ const relatedCards = card.related
 const description = ja?.description || card.description || `${title} - Slay the Spire 2 カード。`;
 ---
 
-<StarlightPage frontmatter={{ title, description }}>
+<StarlightPage lang="ja" frontmatter={{ title, description }}>
   <CardHero card={card} locale="jpn">
     <Fragment slot="aside">
       {ja?.keywords && ja.keywords.length > 0 && (
